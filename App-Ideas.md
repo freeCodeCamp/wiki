@@ -1,6 +1,6 @@
 ## Basic/Intermediate
 
-* Twitter clone
+### Twitter clone
     * See https://github.com/sbhackerspace/sbhx-sbitter
     * This will teach you/force you to learn:
         * How to create models (like `User` and `Tweet`)
@@ -8,7 +8,7 @@
         * How to do basic database queries (to fetch a list of tweets, etc)
         * How to create a basic full-stack web application (HTML, CSS, front-end JS, and back end)
 
-* New Best Friend-finder
+### New Best Friend-finder
     * Users should simply be able to fill out a profile, list their interests, then have friends be recommended to them based on _whoever they share the most interests in common with_
     * You'll learn the standard, core, critical stuff (creating user accounts, signup, login, password reset, confirmation emails, HTML templating/rendering, database storage and retrieval, etc)
     * You'll also learn how to create profiles for social networking-type sites -- a very common site feature
