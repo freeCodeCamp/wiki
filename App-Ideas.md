@@ -1,5 +1,15 @@
 ## Basic/Intermediate
 
+### Real-time Chat App
+
+* Anyone should be able to go to this site and instantly start chatting with others
+    * Functionally similar to Gitter or FreeNode's WebChat (web-based IRC client)
+* Use WebSockets or SSE (Server-Side Events) to push new messages to users
+    * This is way more efficient than forcing browsers to keep asking the server for new messages
+* Could also segment users by IP/location, so going to a URL shows people in your geographical area
+* When a link to an image is detected, in-line it 
+
+
 ### Twitter clone
 
 * See https://github.com/sbhackerspace/sbhx-sbitter
@@ -8,6 +18,7 @@
     * How to create basic relationships between models (every User has many Followers and Followees)
     * How to do basic database queries (to fetch a list of tweets, etc)
     * How to create a basic full-stack web application (HTML, CSS, front-end JS, and back end)
+
 
 ### New Best Friend-finder
 
