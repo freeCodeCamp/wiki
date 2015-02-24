@@ -38,4 +38,6 @@ This is important.
 
 These tests are what bring your challenge to life. Without them, we cannot confirm the accuracy of a user's submitted answer. Choose your tests wisely.
 
+Bonfire tests are written using the [Chai.js](http://chaijs.com/) assertion library. Please use the `should` and `expect` syntax for end user readability. As an example of what not do to, many of the original Bonfire challenges are written with `assert` syntax and many of the test cases are difficult to read.
+
 If your bonfire question has a lot of edge cases, you will need to write many tests for full coverage. If you find yourself writing more tests than you desire, you may consider simplifying the requirements of your bonfire challenge. For difficulty level 1 through 3, you will generally only need 2 to 4 tests.
