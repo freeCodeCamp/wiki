@@ -1,5 +1,5 @@
 #Spanish terminology alignment
-Necesitamos alinearnos todos a 
+Para evitar confusión para otros Campers necesitamos alinearnos todos los traductores con la misma terminología. Para ello, hemos creado una lista con las palabras más comúnes y las traducciones que hemos estado utilizando hasta ahora.
 
 ##FCC terminology
 
@@ -10,6 +10,7 @@ Necesitamos alinearnos todos a
 * Zipline
 * Basejump
 * Buttons of the top menu.
+* Campers
 
 ##CS terminology
 
