@@ -1,4 +1,5 @@
 #Spanish terminology alignment
+
 Para evitar confusión para otros Campers necesitamos alinearnos todos los traductores con la misma terminología. Para ello, hemos creado una lista con las palabras más comúnes y las traducciones que hemos estado utilizando hasta ahora.
 
 ##FCC terminology
@@ -10,21 +11,21 @@ Para evitar confusión para otros Campers necesitamos alinearnos todos los tradu
 * Zipline
 * Basejump
 * Buttons of the top menu.
-* Campers
+* Camper
 
 ##CS terminology
 
 ###Untranslated
 * Hardware
 * Software
-* bit
-* byte
+* Bit
+* Byte
 
 ###Translated
 * Boolean Logic: Lógica Booleana
 * Loop: Búcle
 * Computer Science: Informática
-* running (a program): ejecutar
+* Run (a program): Ejecutar
 
 ####To do
-Video to show people how to help translate
+Video para mostrar a otras personas como colaborar con la traducción y revisión de los archivos.
