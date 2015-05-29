@@ -14,6 +14,8 @@ Vale recalcar que todos los términos están abiertos a discusión. En caso se t
 * Basejump
 * Top menu buttons.
 * Camper
+* Full Stack
+* Bug
 
 ##CS terminology
 
@@ -23,18 +25,26 @@ Vale recalcar que todos los términos están abiertos a discusión. En caso se t
 * Bit
 * Byte
 * Front-end
+* Link
+* Framework
+* Query
 
 ###Translated
 * Boolean Logic: Lógica Booleana
 * Loop: Búcle
 * Computer Science: Informática
 * Run (a program): Ejecutar
+* Click: Darle click
 
 ##General terminology
 
 ###Translated
 * Non-profit: Empresas sin fines de lucro
-* Click: Darle click
+* Self-paced: Manejados a tu propio ritmo
 
 ####To do
 Video para mostrar a otras personas como colaborar con la traducción y revisión de los archivos.
+
+####To discuss
+Género a usar? ejem: "Una de las mejores maneras de mantenerte **motivado** cuando estás aprendiendo..."
+* "motivado o motivada" (ambos?)
