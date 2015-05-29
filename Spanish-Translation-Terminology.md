@@ -34,6 +34,7 @@ Vale recalcar que todos los términos están abiertos a discusión. En caso se t
 
 ###Translated
 * Non-profit: Empresas sin fines de lucro
+* Click: Darle click
 
 ####To do
 Video para mostrar a otras personas como colaborar con la traducción y revisión de los archivos.
