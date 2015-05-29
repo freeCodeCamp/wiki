@@ -10,7 +10,7 @@ Para evitar confusión para otros Campers necesitamos alinearnos todos los tradu
 * Bonfire
 * Zipline
 * Basejump
-* Buttons of the top menu.
+* Top menu buttons.
 * Camper
 
 ##CS terminology
