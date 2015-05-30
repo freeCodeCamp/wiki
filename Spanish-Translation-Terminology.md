@@ -35,6 +35,7 @@ Vale recalcar que todos los términos están abiertos a discusión. En caso se t
 * Computer Science: Informática
 * Run (a program): Ejecutar
 * Click: Darle click
+* Responsive: Adaptable
 
 ##General terminology
 
