@@ -17,6 +17,7 @@ Vale recalcar que todos los términos están abiertos a discusión. En caso se t
 * Full Stack
 * Bug
 
+
 ##CS terminology
 
 ###Untranslated
@@ -42,6 +43,13 @@ Vale recalcar que todos los términos están abiertos a discusión. En caso se t
 ###Translated
 * Non-profit: Empresas sin fines de lucro
 * Self-paced: Manejados a tu propio ritmo
+
+##HTML / CSS terminology
+
+###Non-Traslated
+* Web
+* Tests & challengeSeeds (they shouldn't be translated, at least for this first version).
+
 
 ####To do
 Video para mostrar a otras personas como colaborar con la traducción y revisión de los archivos.
