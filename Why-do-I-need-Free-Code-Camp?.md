@@ -4,3 +4,5 @@ Most people who successfully learn to code:
 
 - Make friends with people who code
 - Code a little every day
+
+We give you the structure and the community you need so you can successfully learn to code.
