@@ -8,6 +8,7 @@ Please follow these steps:
 - Set the group name as "Free Code Camp" plus the proper name of your city. Avoid using slang terms such as "Philly" for "Philadelphia". If your city is not the biggest city that uses its name, also include the state or province. For example, the Free Code Camp group in Paris, France should be called "Free Code Camp Paris". The Free Code Camp group in Paris, Texas should be called "Free Code Camp Paris, Texas". 
 - Set your group to public. 
 - You'll need to add at least one friend from your city to this group in order to create the group. 
+
 ![A screenshot of the Facebook group creation modal saying that your group name should be Free Code Camp plus your city name, that your group should be public, and that you need to invite at least one Facebook friend.](https://www.evernote.com/shard/s116/sh/4ed3197c-db1b-4103-a040-b42482ad232a/6c34948ebe12c57f0b7a54d7b2222ab3/deep/0/Facebook.png)
 - Choose the graduation cap icon to indicate that this group is related to a school. 
 ![a screenshot telling you to choose the graduation icon, which is on the forth row of icons, seven icons from the left.](https://www.evernote.com/shard/s116/sh/00e461b3-e0a8-4ecd-9cbf-8b0ae9de75d1/59c4e9f25672b1b2ca2d7e6b06d55e0b/deep/0/Facebook.png)
