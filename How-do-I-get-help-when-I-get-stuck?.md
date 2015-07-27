@@ -1,9 +1,9 @@
 When you get stuck, remember: RSAP.
 
-- *Read* the documentation or error
-- *Search* Google
-- *Ask* your friends for help
-- *Post* on Stack Overflow
+- **Read** the documentation or error
+- **Search** Google
+- **Ask** your friends for help
+- **Post** on Stack Overflow
 
 This is the most time-efficient way to handle being stuck, and it's the most respectful of other people's time, too.
 
