@@ -2,7 +2,8 @@ If you didn't see your city on this list, you should create your own Facebook gr
  
 Please follow these steps: 
 - Sign in to Facebook. 
-- Click the down arrow in the upper right corner of the screen, then choose "Create Group" from the options. 
+- Click the down arrow in the upper right corner of the screen, then choose "Create Group" from the options.
+
 ![A screenshot of Facebook showing the drop down menu that appears when you click the down arrow, with an arrow pointing to the "Create Group" option](https://www.evernote.com/shard/s116/sh/d01bb2bc-6260-4987-bedf-b2ce4c31972f/3eecbcff3109036cf90b69589360f407/deep/0/Facebook.png)
 - Set the group name as "Free Code Camp" plus the proper name of your city. Avoid using slang terms such as "Philly" for "Philadelphia". If your city is not the biggest city that uses its name, also include the state or province. For example, the Free Code Camp group in Paris, France should be called "Free Code Camp Paris". The Free Code Camp group in Paris, Texas should be called "Free Code Camp Paris, Texas". 
 - Set your group to public. 
