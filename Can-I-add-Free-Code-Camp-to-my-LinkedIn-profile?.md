@@ -1,6 +1,6 @@
 LinkedIn recognizes Free Code Camp as a university.
 
-You can explore our alumni activity [here](https://www.linkedin.com/edu/school?id=166029){:target="_blank"}.
+You can explore our alumni activity [here](https://www.linkedin.com/edu/school?id=166029).
 
 You should add Free Code Camp to your LinkedIn profile. Here's how:
 
