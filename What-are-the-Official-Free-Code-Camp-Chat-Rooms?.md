@@ -5,8 +5,11 @@ The following are our official chat rooms.
 | --- | --- |
 
 | [FreeCodeCamp](https://gitter.im/freecodecamp/FreeCodeCamp) | our main chat room - hang out and chat about life and learning to code | 
+
 | [Help](https://gitter.im/freecodecamp/Help) | get help with our Waypoint challenges from your fellow campers | 
+
 | [HelpZiplines](https://gitter.im/freecodecamp/HelpZiplines) | get help with our Zipline challenges from your fellow campers | 
+
 | [HelpBonfires](https://gitter.im/freecodecamp/HelpBonfires) | get help with our Bonfire challenges from your fellow campers | 
 | [HelpBasejumps](https://gitter.im/freecodecamp/HelpBasejumps) | get help with our Basejump challenges from your fellow campers | 
 | [NonprofitProjects](https://gitter.im/freecodecamp/NonprofitProjects) | get help with your Nonprofit Projects from your fellow campers | 
