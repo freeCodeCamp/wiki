@@ -1,8 +1,8 @@
 Please note that Free Code Camp is not partnered with, nor do we receive a referral fee from, any of the following providers. We simply want to help guide you towards a solution for your organization.
 
 ### Skills-based Volunteer Organizations:
-[http://www.volunteermatch.com](http://www.volunteermatch.com) 
-[http://www.catchafire.org](http://www.catchafire.org) 
+- [http://www.volunteermatch.com](http://www.volunteermatch.com) 
+- [http://www.catchafire.org](http://www.catchafire.org) 
 
 ###Building a website: 
 - [http://www.wix.com/](http://www.wix.com/) 
