@@ -1,5 +1,7 @@
 These Global Control Shortcuts for Mac will save you hours by speeding up your typing.
-[[vimeo-107073108]]
+[[vimeo-107073108-300x400]]
+
+
 
 These global shortcuts work everywhere on a Mac:
 
