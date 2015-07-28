@@ -8,4 +8,4 @@ Like us on Facebook: https://www.facebook.com/freecodecamp
 
 Follow us on Twitch: http://twitch.tv/freecodecamp
 
-And be sure to click the "Star" button in the upper right of this page!
+And be sure to click the "Star" button in the upper right of this page.
