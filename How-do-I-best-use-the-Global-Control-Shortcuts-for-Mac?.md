@@ -1,6 +1,5 @@
 These Global Control Shortcuts for Mac will save you hours by speeding up your typing.
-
-[![Little red ridning hood](http://i.imgur.com/7YTMFQp.png)](https://vimeo.com/3514904 "Little red riding hood - Click to Watch!")
+[[vimeo-107073108]]
 
 These global shortcuts work everywhere on a Mac:
 
