@@ -1,4 +1,4 @@
-If you didn't see your city on this list, you should create your own Facebook group for your city.
+If you didn't see your city on [our list of Campsites](https://github.com/FreeCodeCamp/freecodecamp/wiki/List-of-Free-Code-Camp-city-based-Campsites), you should create your own Facebook group for your city.
  
 Please follow these steps: 
 - Sign in to Facebook. 
