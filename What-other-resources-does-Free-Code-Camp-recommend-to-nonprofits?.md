@@ -25,7 +25,8 @@ Please note that Free Code Camp is not partnered with, nor do we receive a refer
 - [https://www.ordoro.com](https://www.ordoro.com) 
 - [http://www.unleashedsoftware.com](http://www.unleashedsoftware.com) 
 
-### E-Learning platforms [http://www.dokeos.com](http://www.dokeos.com/) 
+### E-Learning platforms 
+- [http://www.dokeos.com](http://www.dokeos.com/) 
 - [http://www.efrontlearning.net/](http://www.efrontlearning.net/) 
 - [https://moodle.org/](https://moodle.org/) 
 - [https://sakaiproject.org/](https://sakaiproject.org/) 
