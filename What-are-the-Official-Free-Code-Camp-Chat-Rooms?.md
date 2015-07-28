@@ -2,6 +2,7 @@ The following are our official chat rooms.
 
 **Please note that all chat rooms listed here are publicly accessible and indexed by search engines, so only share email addresses or other sensitive information in private messages.**
 
+| Chat Room | Description |
 | --- | --- |
 
 | [FreeCodeCamp](https://gitter.im/freecodecamp/FreeCodeCamp) | our main chat room - hang out and chat about life and learning to code | 
