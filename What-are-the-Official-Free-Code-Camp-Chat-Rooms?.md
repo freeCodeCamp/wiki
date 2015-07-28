@@ -6,9 +6,7 @@ The following are our official chat rooms.
 | --- | --- |
 | [FreeCodeCamp](https://gitter.im/freecodecamp/FreeCodeCamp) | our main chat room - hang out and chat about life and learning to code | 
 | [Help](https://gitter.im/freecodecamp/Help) | get help with our Waypoint challenges from your fellow campers | 
-
 | [HelpZiplines](https://gitter.im/freecodecamp/HelpZiplines) | get help with our Zipline challenges from your fellow campers | 
-
 | [HelpBonfires](https://gitter.im/freecodecamp/HelpBonfires) | get help with our Bonfire challenges from your fellow campers | 
 | [HelpBasejumps](https://gitter.im/freecodecamp/HelpBasejumps) | get help with our Basejump challenges from your fellow campers | 
 | [NonprofitProjects](https://gitter.im/freecodecamp/NonprofitProjects) | get help with your Nonprofit Projects from your fellow campers | 
@@ -20,6 +18,8 @@ The following are our official chat rooms.
 
 We also have the following casual chat rooms:
 
+| Chat Room | Description |
+| --- | --- |
 | [Hardware](https://gitter.im/freecodecamp/Hardware) | chat about computer hardware and Internet of Things | 
 | [GameDev](https://gitter.im/freecodecamp/GameDev) | chat about designing and developing video games | 
 | [Gaming](https://gitter.im/freecodecamp/Gaming) | chat about gaming of all kinds, such as video games and table top games | 
@@ -29,7 +29,6 @@ We also have the following casual chat rooms:
 | [Business](https://gitter.im/freecodecamp/Business) | chat about business and entrepreneurship | 
 | [Saving](https://gitter.im/freecodecamp/Saving) | chat about saving, investing, and home economics | 
 | [SelfImprovement](https://gitter.im/freecodecamp/SelfImprovement) | chat about productivity, self improvement and quantified self |
-
 
 You'll note that we do not have religion or politics chat rooms. Please don't discuss those things at Free Code Camp :)
 
