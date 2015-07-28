@@ -1,6 +1,6 @@
 These Global Control Shortcuts for Mac will save you hours by speeding up your typing.
 
-[![Global Control Shortcut](http://player.vimeo.com/video/107073108)](//player.vimeo.com/video/107073108 "Global Control Shortcut")
+[![Global Control Shortcut](https://player.vimeo.com/video/107073108)](https://player.vimeo.com/video/107073108 "Global Control Shortcut")
 
 These global shortcuts work everywhere on a Mac:
 
