@@ -1,5 +1,3 @@
-# Here are some excellent resources for nonprofits.
-
 Please note that Free Code Camp is not partnered with, nor do we receive a referral fee from, any of the following providers. We simply want to help guide you towards a solution for your organization.
 
 ### Skills-based Volunteer Organizations:
