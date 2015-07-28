@@ -4,9 +4,7 @@ The following are our official chat rooms.
 
 | Chat Room | Description |
 | --- | --- |
-
 | [FreeCodeCamp](https://gitter.im/freecodecamp/FreeCodeCamp) | our main chat room - hang out and chat about life and learning to code | 
-
 | [Help](https://gitter.im/freecodecamp/Help) | get help with our Waypoint challenges from your fellow campers | 
 
 | [HelpZiplines](https://gitter.im/freecodecamp/HelpZiplines) | get help with our Zipline challenges from your fellow campers | 
