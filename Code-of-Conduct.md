@@ -17,4 +17,4 @@ If a camper engages in harassing behavior, our team will take any action we deem
 
 We want everyone to feel safe and respected. If you are being harassed or notice that someone else is being harassed, say something! Message @quincylarson, @brianamarie and @codenonprofit in Gitter (preferably with a screen shot of the offending language) so we can take fast action.
 
-If you have questions about this code of conduct, email us at [team@freecodecamp.com]('mailto:team@freecodecamp.com').
+If you have questions about this code of conduct, email us at [team@freecodecamp.com](mailto:team@freecodecamp.com).
