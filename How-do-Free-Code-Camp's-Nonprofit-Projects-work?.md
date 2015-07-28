@@ -28,7 +28,7 @@ You'll only work on one project at a time. Once you start a nonprofit project, w
 Before you can start working on the project, our team of Nonprofit Project Coordinators will go through the following process:
 
 - We'll wait until there are two campers who have chosen the same project and look like they're a good match for one another based on the factors mentioned above.
-- We'll call the stakeholder to confirm once again that he or she agrees with our [terms](freecodecamp.com/nonprofits) and has signed our [Nonprofit Project Stakeholder Pledge] (http://goo.gl/forms/0YKkd9bpcR).
+- We'll call the stakeholder to confirm once again that he or she agrees with our [terms](http://freecodecamp.com/nonprofits) and has signed our [Nonprofit Project Stakeholder Pledge] (http://goo.gl/forms/0YKkd9bpcR).
 - We'll set an initial meeting with representatives from Free Code Camp, the two campers, and the stakeholder.
 - If the stakeholder and both campers shows up promptly, and seem enthusiastic and professional, we'll start the project.
 
