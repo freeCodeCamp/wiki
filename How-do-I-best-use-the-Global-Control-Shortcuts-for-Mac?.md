@@ -1,6 +1,6 @@
 These Global Control Shortcuts for Mac will save you hours by speeding up your typing.
 
-(https://player.vimeo.com/video/107073108 "Global Control Shortcut")
+[![Everything Is AWESOME](http://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://www.youtube.com/watch?v=StTqXEQ2l-Y "Everything Is AWESOME")
 
 These global shortcuts work everywhere on a Mac:
 
