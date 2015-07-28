@@ -1,6 +1,6 @@
 These Global Control Shortcuts for Mac will save you hours by speeding up your typing.
 
-[![Everything Is AWESOME](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s "Everything Is AWESOME")
+[![Little red ridning hood](http://i.imgur.com/7YTMFQp.png)](https://vimeo.com/3514904 "Little red riding hood - Click to Watch!")
 
 These global shortcuts work everywhere on a Mac:
 
