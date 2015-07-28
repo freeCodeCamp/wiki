@@ -30,7 +30,7 @@ We also have the following casual chat rooms:
 | [Saving](https://gitter.im/freecodecamp/Saving) | chat about saving, investing, and home economics | 
 | [SelfImprovement](https://gitter.im/freecodecamp/SelfImprovement) | chat about productivity, self improvement and quantified self |
 
-You'll note that we do not have religion or politics chat rooms. Please don't discuss those things at Free Code Camp :)
+**We do not have religion or politics chat rooms. Please don't discuss those things at Free Code Camp**
 
 We also have language-specific chat rooms:
 
