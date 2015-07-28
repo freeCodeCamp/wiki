@@ -1,6 +1,6 @@
 These Global Control Shortcuts for Mac will save you hours by speeding up your typing.
 
-[](https://www.youtube.com/watch?v=StTqXEQ2l-Y "Everything Is AWESOME")
+[https://www.youtube.com/watch?v=StTqXEQ2l-Y](https://www.youtube.com/watch?v=StTqXEQ2l-Y)
 
 These global shortcuts work everywhere on a Mac:
 
