@@ -15,6 +15,7 @@ The following are our official chat rooms.
 | [LetsPair](https://gitter.im/freecodecamp/LetsPair) | find fellow campers to pair program with using [Screen Hero | |](/field-guide/how-do-i-install-screenhero) [TeamViewer](https://gitter.im/freecodecamp/TeamViewer) | find fellow campers who use Linux and pair program using [Team Viewer](https:https://www.teamviewer.com/en/download/linux.aspx) | 
 | [Issues](https://gitter.im/freecodecamp/Issues) | this is the place to discuss issues with our open source codebase and coordinate pull requests | 
 | [PairProgrammingWomen](https://gitter.im/freecodecamp/PairProgrammingWomen) | this women-only chat room helps women pair program with other women if they so desire |
+| [Half Way Club](https://gitter.im/freecodecamp/HalfWayClub) | this room is only for campers who have finished all the Bonfires, Ziplines and Basejumps |
 
 We also have the following casual chat rooms:
 
@@ -45,6 +46,7 @@ We also have language-specific chat rooms:
 - [Korean](https://gitter.im/freecodecamp/Korean)
 - [Persian](https://gitter.im/freecodecamp/Persian)
 - [Portugues](https://gitter.im/freecodecamp/Portugues)
+- [Romanian](https://gitter.im/freecodecamp/Romanian)
 - [Russian](https://gitter.im/freecodecamp/Russian)
 - [Thai](https://gitter.im/freecodecamp/Thai)
 - [Tagalog](https://gitter.im/freecodecamp/Tagalog)
