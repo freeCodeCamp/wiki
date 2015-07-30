@@ -1,6 +1,6 @@
 Javascript has a few different ways to control flow, otherwise known as loops
 
-- [[for]]
+- [[for|js-for]]
 - while
 - until
 
