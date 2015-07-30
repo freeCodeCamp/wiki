@@ -14,6 +14,6 @@ examples: `find wiki`
 #### `about @username`
 show info about another user.
 
-### `thanks @username #tag`
+#### `thanks @username #tag`
 This will give another user some karma points! Reward users who give you some help inside the chats.
 If you add the `#tag` we'll archive the chat so others can search for it later with that tag.
