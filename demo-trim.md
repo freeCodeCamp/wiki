@@ -1,5 +1,6 @@
+The chatwiki only shows up to the first `## h2` heading.
 This is a piece of demo content showing embedded scripts. 
-The first paragraph should display inside the chat. It should have three lines. 
+The first paragraph should display inside the chat.
 The second paragraph won't show in wiki chat, but will show if you click through.
 
 ```js
