@@ -8,7 +8,7 @@ examples: `help css` `help bootstrap`
 show the list of topics.
 
 #### `find $topic` 
-this will search for entries that include `$topic` in the title. We'll add fulltext search in future.
+this will search for entries that include `$topic` in the title. We'll add fulltext search in future.  
 examples: `find wiki`
 
 #### `about @username`
