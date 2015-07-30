@@ -1,7 +1,7 @@
 Javascript has a few different ways to control flow, otherwise known as loops
 
 - [[for|js-for]]
-- while
+- [[while|js-while]]
 - until
 
 you can type `js for` or `js while` to get more info on any of these.
