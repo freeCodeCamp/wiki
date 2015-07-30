@@ -1,13 +1,12 @@
 The bot responds to a few commands
 
-`help $topic`
+- **`help $topic`**
 find related materials to that topic, usually a page from the [wiki](https://github.com/bothelpers/kbase/wiki/)
 
-`topics`
+- `topics`
 show the list of topics
 
-### `find $topic`
-this will search for entries that include `$topic` in the title. We'll add fulltext search in future.
+- `find $topic` this will search for entries that include `$topic` in the title. We'll add fulltext search in future.
 
 ### `thanks @username #tag`
 This will give another user some karma points! Reward users who give you some help inside the chats.
