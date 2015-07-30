@@ -1,7 +1,6 @@
 The bot responds to a few commands
 
-**`help $topic`**
-
+#### **`help $topic`**
 find related materials to that topic, usually a page from the [wiki](https://github.com/bothelpers/kbase/wiki/)
 
 - `topics`
