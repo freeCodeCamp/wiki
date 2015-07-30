@@ -2,4 +2,5 @@ Cascading Style Sheets (CSS) is a style sheet language used for describing the l
 
 read more on FreeCodeCamp.com
 
-> tags: css, stylesheets
+tags: css, stylesheets
+
