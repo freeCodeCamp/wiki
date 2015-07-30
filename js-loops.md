@@ -2,7 +2,7 @@ Javascript has a few different ways to control flow, otherwise known as loops
 
 - [[for|js-for]]
 - [[while|js-while]]
-- until
+- [[until|js-until]]
 
 you can type `js for` or `js while` to get more info on any of these.
 
