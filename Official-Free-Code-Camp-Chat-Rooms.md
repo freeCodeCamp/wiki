@@ -57,4 +57,4 @@ We also have language-specific chat rooms:
 
 Finally, we have one room for [each of our local Campsites](/field-guide/how-can-i-find-other-free-code-camp-campers-in-my-city). 
 
-By joining these chat rooms, you accept our [Code of Conduct](/field-guide/what-is-the-free-code-camp-code-of-conduct). If you think we should add a chat room, please [message @quincylarson in Gitter](https://gitter.im/QuincyLarson).
+By joining these chat rooms, you accept our [Code of Conduct](https://github.com/FreeCodeCamp/freecodecamp/wiki/Code-of-Conduct). If you think we should add a chat room, please [message @quincylarson in Gitter](https://gitter.im/QuincyLarson).
