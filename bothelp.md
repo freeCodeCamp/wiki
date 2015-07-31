@@ -1,4 +1,4 @@
-The bot will respond to a few things, try it out! Just type one of the commands below.
+Hi this is CamperBot! I can assist you in this chatroom :smile: 
 
 - `topics` selected pages from the wiki
 - `wiki TOPIC` show wiki contents on that topic
