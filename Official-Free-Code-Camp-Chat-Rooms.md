@@ -21,6 +21,10 @@ The following are our official chat rooms.
 | [Beta](https://gitter.im/freecodecamp/Beta) | chat about experimental changes that are live on [beta.freecodecamp.com](http://beta.freecodecamp.com) | 
 | [DataScience](https://gitter.im/freecodecamp/DataScience) | let's measure and improve our community's  efficacy by studying Free Code Camp's open data | 
 
-Finally, we have one room for [each of our local Campsites](https://github.com/FreeCodeCamp/freecodecamp/wiki/List-of-Free-Code-Camp-city-based-Campsites). 
+[World Language chat rooms](https://github.com/FreeCodeCamp/freecodecamp/wiki/World-Language-Chat-Rooms)
+
+[Casual chat rooms](https://github.com/FreeCodeCamp/freecodecamp/wiki/Casual-Chat-Rooms)
+
+[Campsite chat rooms](https://github.com/FreeCodeCamp/freecodecamp/wiki/List-of-Free-Code-Camp-city-based-Campsites/)
 
 By joining these chat rooms, you accept our [Code of Conduct](https://github.com/FreeCodeCamp/freecodecamp/wiki/Code-of-Conduct).
