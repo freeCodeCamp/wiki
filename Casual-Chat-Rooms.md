@@ -15,3 +15,5 @@ The following are our casual chat rooms.
 | [SelfImprovement](https://gitter.im/freecodecamp/SelfImprovement) | chat about productivity, self improvement and quantified self |
 
 By joining these chat rooms, you accept our [Code of Conduct](https://github.com/FreeCodeCamp/freecodecamp/wiki/Code-of-Conduct). If you think we should add a chat room, please [message @quincylarson in Gitter](https://gitter.im/QuincyLarson).
+
+[Official Free Code Camp chat rooms](https://github.com/FreeCodeCamp/freecodecamp/wiki/Official-Free-Code-Camp-Chat-Rooms)
