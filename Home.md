@@ -2,10 +2,10 @@
 
 Our open source community's Wiki focuses on answering questions about learning to code and getting a coding job. All wiki articles should be about our:
 
-1)   curriculum and learning to code in general.
-2)   local Campsite communities.
-3)   nonprofit projects.
-4)   mission and community.
+1)   curriculum and learning to code in general    
+2)   local Campsite communities    
+3)   nonprofit projects    
+4)   mission and community    
 
 We may delete content that doesn't fall into any of these categories.
 
