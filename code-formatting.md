@@ -1,27 +1,23 @@
 > Steps to format your code for pasting in the chat room.
 
-# Inline code
+### Inline code
 \``<paste code here>`\`
 
 **^**single backtick at *start* and *end* around the *inline code*.
 
-**Result:** ![The var in `var name = 'Sherlock Holmes';` must be used to declare a variable.](http://i.imgur.com/kybYy9g.png)
-
-# Code Block
-\`\`\` ⇦ Type 3 backticks <kbd>\`</kbd> <kbd>\`</kbd> <kbd>\`</kbd>, then press <kbd>shift + enter ⏎</kbd>
+### Code Block
+\`\`\` ⇦ Type 3 backticks, then press `[shift + enter ⏎]`
 
     <paste your code here>,
     then press [shift + enter ⏎]
 
-\`\`\` ⇦ Type 3 backticks <kbd>\`</kbd> <kbd>\`</kbd> <kbd>\`</kbd>, then press <kbd>enter ⏎</kbd> 
-
-**Result:** ![Code Block](http://i.imgur.com/4MMUJVs.png)
+\`\`\` ⇦ Type 3 backticks, then press `[enter ⏎]`
 
 **See also,** ☛ [How to type Backticks](https://github.com/FreeCodeCamp/freecodecamp/wiki/code-formatting#typing-backticks), ⚑ [Compose Mode](https://gitter.zendesk.com/hc/en-us/articles/201302311-Compose-mode), ❄ [Gitter Formatting Basics](https://gitter.zendesk.com/hc/en-us/articles/200176682-Markdown-basics)
 
 ***
 
-## Typing Backticks[⤴](http://superuser.com/a/254077/122424)
+### Typing Backticks[⤴](http://superuser.com/a/254077/122424)
 ### QWERTY and QWERTZ (Key that's been marked with red border)
 
 [![QWERTY][2]][3]
