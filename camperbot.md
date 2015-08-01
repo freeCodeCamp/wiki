@@ -12,7 +12,7 @@ Basic commands:
 ## example commands
 ```
 find js
-wiki js
+wiki js ternary
 rollem    # secret sauce
 ```
 
@@ -39,3 +39,4 @@ Join us on the repo chatroom to discuss new features. Perhaps we can pair up to 
 https://gitter.im/dcsan/gitterbot
 
 ![enjoy](https://avatars1.githubusercontent.com/camperbot?&s=100) *< Happy Camping! >*
+
