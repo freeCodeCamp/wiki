@@ -17,7 +17,7 @@ Steps to format your code for pasting in the chat room.
 
 **Result:** ![Code Block](http://i.imgur.com/4MMUJVs.png)
 
-See also, ⚑[Compose Mode](https://gitter.zendesk.com/hc/en-us/articles/201302311-Compose-mode), ❄[Gitter Formatting Basics](https://gitter.zendesk.com/hc/en-us/articles/200176682-Markdown-basics)
+**See also,** ⚑[Compose Mode](https://gitter.zendesk.com/hc/en-us/articles/201302311-Compose-mode), ❄[Gitter Formatting Basics](https://gitter.zendesk.com/hc/en-us/articles/200176682-Markdown-basics)
 
 ***
 
