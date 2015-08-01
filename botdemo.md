@@ -18,6 +18,6 @@ you can embed soundcloud tracks
 - `topics`  
   show a list of topics
 
-- bot info
+# Join the CamperBot DevTeam!
 we're looking for some people to join the core dev team to work on new features for the bot.
-ping @dcsan on gitter or leave a message in [gitter.com/camperbot/devteam]
+ping @dcsan on gitter or leave a message in [gitter.com/camperbot/devteam](https://gitter.im/camperbot/devteam)
