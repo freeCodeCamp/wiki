@@ -2,7 +2,7 @@ This will show off some of the different things the bot can do.
 
 - help video
 
-- help bobbytables  
+- `help bobbytables`
 shows inline images
 
 - find js
