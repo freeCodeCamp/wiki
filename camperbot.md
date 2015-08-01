@@ -30,17 +30,15 @@ https://gitter.im/FreeCodeCamp/HelpBonfires
 - `music` link to FCC Plug rooms
 - `twitch` show the twitch feed
 
-
-## whats coming
-We're looking for ideas for new features to add, and some people to help working on the bot.
-Have a look at Tickets with [help wanted](https://github.com/dcsan/gitterbot/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) on the repo. 
-
 ## Source repo
 ### [https://github.com/dcsan/gitterbot](https://github.com/dcsan/gitterbot)
 Fork it and have fun!
 
 ## Roadmap
-In future, we're planning 
+We're looking for ideas for new features to add, and some people to help working on the bot.
+Have a look at Tickets with [help wanted](https://github.com/dcsan/gitterbot/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) on the repo and maybe you can contribute?
+
+In future, we're planning:
 - Bonfire step-by-step tutorials will be available via chat and from the camperbot
 - realtime tagging and searching of chats by topic
 - a scripting language and natural language processing
