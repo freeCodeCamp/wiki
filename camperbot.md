@@ -1,1 +1,1 @@
-see [help bothelp](bothelp)
+see `help camperbot`
