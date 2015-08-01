@@ -363,4 +363,4 @@
 | Znojmo | [Facebook](//www.facebook.com/groups/free.code.camp.znojmo/) | [Gitter](//gitter.im/freecodecamp/Znojmo) |
 | Zurich | [Facebook](//www.facebook.com/groups/free.code.camp.zurich/) | [Gitter](//gitter.im/freecodecamp/Zurich) |
 
-If your city isn't listed here, you should [create a Campsite for your city](https://github.com/FreeCodeCamp/freecodecamp/wiki/How-do-I-create-a-Campsite-for-my-city%3F).
+If your city isn't listed here, you should [create a Campsite for your city](https://github.com/FreeCodeCamp/freecodecamp/wiki/How-to-create-a-Campsite-for-your-city).
