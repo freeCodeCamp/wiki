@@ -19,9 +19,14 @@ Have a look at Tickets with [help wanted](https://github.com/dcsan/gitterbot/iss
 Fork it and have fun!
 
 ## Developer chatroom
-Join us on the repo chatroom to discuss new features
+Join us on the repo chatroom to discuss new features  
 https://gitter.im/dcsan/gitterbot
 
-## 
+## Roadmap
+In future, we're planning 
+- Bonfire step-by-step tutorials will be available via chat and from the camperbot
+- realtime tagging and searching of chats by topic
+- a scripting language and natural language processing
+Get involved and let us know what you'd like to see next!
 
 ![enjoy](https://avatars1.githubusercontent.com/camperbot?&s=100) *< Happy Camping! >*
