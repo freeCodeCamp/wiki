@@ -1,4 +1,4 @@
-Steps to format your code for pasting in the chat room.
+> Steps to format your code for pasting in the chat room.
 
 # Inline code
 \``<paste code here>`\`
