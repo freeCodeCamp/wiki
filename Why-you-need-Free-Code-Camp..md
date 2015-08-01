@@ -1,4 +1,4 @@
-You need Free Code Camp because learning to code is hard?
+You need Free Code Camp because learning to code is hard.
 
 Most people who successfully learn to code:
 
