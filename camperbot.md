@@ -7,7 +7,7 @@ ex: `wiki js ternary`
 - `thanks @username` - send points to another user when they help you!
 - `about @username` shows info on that user
 
-see the [wiki](https://github.com/FreeCodeCamp/freecodecamp/wiki/camperbot) for more!
+:unlock: see the [wiki](https://github.com/FreeCodeCamp/freecodecamp/wiki/camperbot) for more commands!
 
 ## more commands
 - `topics` selected pages from the wiki
