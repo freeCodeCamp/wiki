@@ -2,7 +2,7 @@ Hi this is **[CamperBot](https://github.com/FreeCodeCamp/freecodecamp/wiki/campe
 
 - **`find TOPIC`**  
 show a list of entries about topic. ex: `find js`  
-- **`wiki TOPIC`**
+- **`wiki TOPIC`**  
 show wiki contents on that topic.  ex: `wiki js ternary`  
 - **`thanks @username`** send points to another user when they help you!  
 - **`about @username`** shows info on that user  
