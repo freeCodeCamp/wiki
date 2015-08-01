@@ -1,4 +1,8 @@
-Links to Regex resources. Click through for more info.
+Links to Regex resources. 
+
+* Getting Started Tutorial: http://regexone.com (FCC recommended)
+
+## Click through for more info.
 
 ### RegEx Tutorial & Guides
 * **Getting Started Tutorial:** http://regexone.com (FCC recommended)
