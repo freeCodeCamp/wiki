@@ -1,4 +1,4 @@
-###"Wiki" is a Hawaiian word meaning "quick" and that is a good mindset to have when creating a Wiki.
+###"Wiki" is a Hawaiian word meaning "quick". Keep this in mind when creating wiki articles.
 
 Keep your wiki articles short and focused. Your articles should be no longer than this article.  If your article is longer than this, break it up smaller articles that link to each other.
 
@@ -10,6 +10,6 @@ Our wiki articles are [written in GitHub-flavor Markdown](https://github.com/ada
 
 We are always happy to help new contributors write, edit, and localize our wiki articles. Help us make Free Code Camp the best it can be. 
 
-If you have questions about contributing to the Free Code Camp Wiki message [@danraley](https://gitter.im/danraley) in Gitter.
+If you have questions about contributing to the Free Code Camp Wiki, message [@danraley](https://gitter.im/danraley) in Gitter.
 
 We look forward to wiki-ing with you!
