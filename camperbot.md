@@ -1,7 +1,7 @@
 Hi this is CamperBot! I can assist you in this chatroom :smile: 
 
-- `find TOPIC` show a list of entries about topic. 
-  ex: `find js` 
+- `find TOPIC` show a list of entries about topic.  
+ex: `find js` 
 - `wiki TOPIC` show wiki contents on that topic. 
   ex: `wiki js ternary`
 - `thanks @username` - send points to another user when they help you!
