@@ -20,6 +20,7 @@ you can add topics to the main wiki, and these will get updated and pulled into 
 Please add material!
 
 ## Beta Testing
+https://gitter.im/dcsan/gitterbot
 
 ## Repo
 
