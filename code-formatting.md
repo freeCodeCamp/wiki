@@ -22,17 +22,13 @@ See also, ⚑[Compose Mode](https://gitter.zendesk.com/hc/en-us/articles/2013023
 ***
 
 ## Typing Backticks[⤴](http://superuser.com/a/254077/122424)
-### QWERTY and QWERTZ (Key that's been marked with red border. It's a [dead key][1] by default.)
+### QWERTY and QWERTZ (Key that's been marked with red border)
 
 [![QWERTY][2]][3]
-
-***
 
 ### AZERTY France (<kbd>Alt Gr</kbd> + Key that's been marked with red border)
 
 [![AZERTY][4]][5]
-
-***
 
 ### AZERTY Belgium (<kbd>Alt Gr</kbd> + Key that's been marked with red border)
 
