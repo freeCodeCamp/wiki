@@ -1,6 +1,6 @@
 ###"Wiki" is a Hawaiian word meaning "quick" and that is a good mindset to have when creating a Wiki.
 
-Your wiki articles should be no longer than this article. Keep them short and focused. If the Wiki is longer than this, break it up smaller wiki articles that link to each other. 
+Keep your wiki articles short and focused. Your articles should be no longer than this article.  If your article is longer than this, break it up smaller articles that link to each other.
 
 You can include an images if they help you better communicate your subject. 
 
