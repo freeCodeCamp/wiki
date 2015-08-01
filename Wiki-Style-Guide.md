@@ -2,7 +2,7 @@
 
 Keep your wiki articles short and focused. Your articles should be no longer than this article.  If your article is longer than this, break it up smaller articles that link to each other.
 
-You can include an images if they help you better communicate your subject. 
+You can include images if they help you better communicate your subject. 
 
 Use descriptive, punctuation-free titles.
 
