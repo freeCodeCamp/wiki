@@ -4,15 +4,19 @@ Hay All! We're working on a new CamperBot for FreeCodeCamp.
 This will make the chat rooms more fun and useful. 
 It will pull in content from our [brand new wiki](https://github.com/FreeCodeCamp/freecodecamp/wiki/) right into the chat room.
 
-We're adding more features all the time.
+We're adding more features all the time. But here are some basics
 
-- help
-To get started, type help
+```
+help
+find TOPIC
+wiki TOPIC
+about @user
+thanks @user
+```
 
-- find TOPIC
-- wiki topic
+you can add topics to the main wiki, and these will get updated and pulled into the chat.
+Please add material!
 
-you can add topics to the main wiki, and these will get updated.
 
 http://bot.freecodecamp.com/go?room=camperbot/testing&topic=betatesting
 type `help` to get started with basic commands
