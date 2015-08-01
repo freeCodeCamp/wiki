@@ -2,8 +2,8 @@ Hi this is CamperBot! I can assist you in this chatroom :smile:
 
 - `find TOPIC` show a list of entries about topic. ex: `find js` 
 - `wiki TOPIC` show wiki contents on that topic. ex: `wiki js ternary`
-- `thanks @username` - send karma to another user. make sure to thank people who help you in the chat!
-- `about @username` shows info on another user
+- `thanks @username` - send points to another user when they help you!
+- `about @username` shows info on that user
 
 see the [wiki](https://github.com/FreeCodeCamp/freecodecamp/wiki/camperbot) for more!
 
