@@ -9,6 +9,13 @@ Basic commands:
 
 :unlock: see the [wiki](https://github.com/FreeCodeCamp/freecodecamp/wiki/camperbot) for more commands!
 
+## example commands
+```
+find js
+wiki js
+rollem    # a nice video
+```
+
 ## more commands
 - `topics` selected pages from the wiki
 - `rooms`  all rooms the bot is in
