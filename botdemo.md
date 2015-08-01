@@ -14,3 +14,7 @@ shows inline images
 
 - `explain triphop`
 you can embed soundcloud tracks
+
+- topics  
+  show a list of topics
+
