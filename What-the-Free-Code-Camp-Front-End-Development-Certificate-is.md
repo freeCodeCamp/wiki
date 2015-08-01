@@ -11,4 +11,6 @@ Here are the challenges that will make up our Basic Front End Development Certif
 - Zipline: Build a Pomodoro Clock
 - Zipline: Zipline: Use the Twitch.tv JSON API
 
+This won't be a new curriculum - it will just be the first 200 hours of our full stack JavaScript curriculum.
+
 All campers who have already completed these challenges are retroactively be eligible for the certificate.
