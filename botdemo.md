@@ -1,4 +1,5 @@
-This will show off some of the different things the bot can do.
+We've added a bot to some of the chatrooms. We'll be adding more features over time, but these are the starting features. We'd love to hear what you think!
+The main thing is pulling in content from our [brand new wiki](https://github.com/FreeCodeCamp/freecodecamp/wiki), right into the chat.
 
 - `find js` or `find css` or `find html`  
 show a list of matching items.
