@@ -1,13 +1,18 @@
-Steps to format your code for pasting in the channel.
+Steps to format your code for pasting in the chat room.
 
-# Single Line Mode
+# Inline code
 \``<paste code here>`\`
 
 ^single backtick at start and end
 
-# Multi Line Mode
-\`\`\` <--- 3 backticks
+![The var in `var name = 'Sherlock Holmes';` must be used to declare a variable.](http://i.imgur.com/kybYy9g.png)
 
-    <paste your code here>
+# Code Block
+\`\`\` ⇦ Type 3 backticks, then press `[shift + enter ⏎]`
 
-\`\`\` <--- 3 backticks
+    <paste your code here>,
+    then press [shift + enter ⏎]
+
+\`\`\` ⇦ Type 3 backticks
+
+![Code Block](http://i.imgur.com/4MMUJVs.png)
