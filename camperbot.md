@@ -14,6 +14,12 @@ wiki js ternary
 rollem    # secret sauce
 ```
 
+[more commands are outlined on the wiki!](https://gitter.im/FreeCodeCamp/wiki/camperbot)
+
+Live currently on the HelpBonFires channel on Gitter 
+https://gitter.im/FreeCodeCamp/HelpBonfires
+
+
 ## more commands
 - `topics` selected pages from the wiki
 - `rooms`  all rooms the bot is in
