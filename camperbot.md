@@ -17,6 +17,7 @@ rollem    # secret sauce
 ## more commands
 - `topics` selected pages from the wiki
 - `rooms`  all rooms the bot is in
+- `archives` show history
 
 We're looking for ideas for new features to add, and some people to help working on the bot.
 Have a look at Tickets with [help wanted](https://github.com/dcsan/gitterbot/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) on the repo. 
