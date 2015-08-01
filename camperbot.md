@@ -47,6 +47,8 @@ Get involved and let us know what you'd like to see next!
 
 ## Developer chatroom
 Join us on the repo chatroom to discuss new features. Perhaps we can pair up to work on the bot 2.0!
-https://gitter.im/dcsan/gitterbot
+- https://gitter.im/dcsan/gitterbot
+For messing around with the bot and trying commands you can also use:
+- https://gitter.im/camperbot/testing
 
 ![enjoy](https://avatars1.githubusercontent.com/camperbot?&s=100) *< Happy Camping! >*
