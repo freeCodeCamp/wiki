@@ -5,6 +5,6 @@ Most coding bootcamps try to jam all this into 3 or 4 months of intensive study.
 Time budgeted | Hours per week | Weeks to complete
 --- | --- | ---
 Weekends | 10 hours/week | 160 weeks (36 months)
-Nights and Weekends | 20 hours/week 80 weeks (18 months)
+Nights and Weekends | 20 hours/week | 80 weeks (18 months)
 Full time | 40 hours/week | 40 weeks (9 months)
 Traditional Bootcamp Pacing | 80 hours/week | 20 weeks (5 months)
