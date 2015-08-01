@@ -49,7 +49,7 @@ Get involved and let us know what you'd like to see next!
 Join us on the repo chatroom to discuss new features. Perhaps we can pair up to work on the bot 2.0!
 
 - https://gitter.im/camperbot/testing
-For messing around with the bot and trying commands you can also use:
+For messing around with the bot and trying commands out, proofreading your edits to wiki content etc.
 
 
 ![enjoy](https://avatars1.githubusercontent.com/camperbot?&s=100) *< Happy Camping! >*
