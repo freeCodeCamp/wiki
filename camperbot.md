@@ -7,7 +7,7 @@ I can assist you in this chatroom :smile:
 - `thanks @username`  send karmapoints to another user
 - `about @username`   shows info on that user
 
-[more commands are outlined on the wiki!](https://github.com/FreeCodeCamp/freecodecamp/wiki/camperbot)
+:unlock:[the power of camperbot!](https://github.com/FreeCodeCamp/freecodecamp/wiki/camperbot)
 
 ## example commands
 ```
@@ -47,4 +47,3 @@ Join us on the repo chatroom to discuss new features. Perhaps we can pair up to 
 https://gitter.im/dcsan/gitterbot
 
 ![enjoy](https://avatars1.githubusercontent.com/camperbot?&s=100) *< Happy Camping! >*
-
