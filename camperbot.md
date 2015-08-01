@@ -7,7 +7,7 @@ I can assist you in this chatroom :smile:
 - `thanks @username`  send karmapoints to another user
 - `about @username`   shows info on that user
 
-[more commands are outlined on the wiki!](https://gitter.im/FreeCodeCamp/wiki/camperbot)
+[more commands are outlined on the wiki!](https://github.com/FreeCodeCamp/freecodecamp/wiki/camperbot)
 
 ## example commands
 ```
