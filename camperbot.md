@@ -1,14 +1,13 @@
 Hi this is **[CamperBot](https://github.com/FreeCodeCamp/freecodecamp/wiki/camperbot)**! 
 I can assist you in this chatroom :smile: 
 
-Basic commands:
+### Basic commands:
 - ``find TOPIC``  find all entries about topic. ex: `find js`
 - `wiki TOPIC` show contents of topic page
 - `thanks @username`  send karmapoints to another user
 - `about @username`   shows info on that user
 
-
-## example commands
+### example commands
 ```
 find js
 wiki js ternary
