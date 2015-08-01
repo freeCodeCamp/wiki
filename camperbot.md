@@ -26,6 +26,9 @@ https://gitter.im/FreeCodeCamp/HelpBonfires
 - `topics` selected pages from the wiki
 - `rooms`  all rooms the bot is in
 - `archives` show history
+- `music` link to FCC Plug rooms
+- `twitch` show the twitch feed
+
 
 ## whats coming
 We're looking for ideas for new features to add, and some people to help working on the bot.
