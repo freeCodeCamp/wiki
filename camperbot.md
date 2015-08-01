@@ -1,4 +1,4 @@
-Hi this is CamperBot! I can assist you in this chatroom :smile: 
+Hi this is **[CamperBot](https://github.com/FreeCodeCamp/freecodecamp/wiki/camperbot)**! I can assist you in this chatroom :smile: 
 
 - `find TOPIC` show a list of entries about topic.  
 ex: `find js` 
