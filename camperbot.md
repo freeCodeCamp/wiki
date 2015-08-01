@@ -11,4 +11,4 @@ see the [wiki](https://github.com/FreeCodeCamp/freecodecamp/wiki/camperbot) for 
 - `topics` selected pages from the wiki
 - `rooms` shows the list of topical rooms the bot is in. Try to join a room relevant to what you're talking about!
 
-![enjoy](https://avatars1.githubusercontent.com/camperbot?&s=100) > Enjoy!
+![enjoy](https://avatars1.githubusercontent.com/camperbot?&s=100) < Happy Camping! >
