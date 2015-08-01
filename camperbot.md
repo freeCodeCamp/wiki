@@ -19,6 +19,9 @@ Have a look at Tickets with [help wanted](https://github.com/dcsan/gitterbot/iss
 Fork it and have fun!
 
 ## Developer chatroom
+Join us on the repo chatroom to discuss new features
+https://gitter.im/dcsan/gitterbot
 
+## 
 
 ![enjoy](https://avatars1.githubusercontent.com/camperbot?&s=100) *< Happy Camping! >*
