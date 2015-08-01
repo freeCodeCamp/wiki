@@ -8,3 +8,5 @@ shows inline images
 - find js
 show a list of items with `js` matching.
 
+- explain triphop  
+you can embed soundcloud tracks
