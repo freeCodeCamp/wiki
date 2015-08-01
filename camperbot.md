@@ -1,6 +1,6 @@
 Hi this is **[CamperBot](https://github.com/FreeCodeCamp/freecodecamp/wiki/camperbot)**! I can assist you in this chatroom :smile: 
 
-- find TOPIC  # find all entries about topic. ex: find js
+- ``find TOPIC``  # find all entries about topic. ex: find js
 - wiki TOPIC  # show contents of topic page
 
 - thanks @username   # send points to another user when they help you!
