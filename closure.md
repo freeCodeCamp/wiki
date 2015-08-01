@@ -1,3 +1,13 @@
-A closure is an inner function that has access to the outer (enclosing) function's variables—scope chain. The closure has three scope chains: it has access to its own scope (variables defined between its curly brackets), it has access to the outer function's variables, and it has access to the global variables.Feb 2, 2013
+Closures are functions that refer to independent (free) variables. In other words, the function defined in the closure 'remembers' the environment in which it was created.
 
-see: [javascriptissexy.com](javascriptissexy.com/understand-javascript-closures-with-ease/)
+
+function init() {
+  var name = "Mozilla"; // name is a local variable created by init
+  function displayName() { // displayName() is the inner function, a closure
+    alert(name); // use variable declared in the parent function    
+  }
+  displayName();    
+};
+init();
+
+see [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
