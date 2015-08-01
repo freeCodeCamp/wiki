@@ -3,6 +3,8 @@
 * **Getting Started Tutorial:** http://regexone.com (FCC recommended)
 * **RegEx 101:** https://regex101.com
 
+See also, Regex [Tutorials][1], [Testing][2], [Games][3], [Blogs][4], [Softwares][5]
+
 ## RegEx Tutorial & Guides
 * **RegEx Tutorial:** http://www.regular-expressions.info/tutorial.html (detailed explanation)
 * **RegEx Cheatsheet:** http://www.cheatography.com/davechild/cheat-sheets/regular-expressions
@@ -23,3 +25,9 @@
 ### Software Aids for RegEx
 * **RegExBuddy:** http://www.regexbuddy.com (proprietary)
 * **Expresso:** http://www.ultrapico.com/expresso.htm (free)
+
+[1]: https://github.com/FreeCodeCamp/freecodecamp/wiki/regex#regex-tutorial--guides
+[2]: https://github.com/FreeCodeCamp/freecodecamp/wiki/regex#regex-testing-ground
+[3]: https://github.com/FreeCodeCamp/freecodecamp/wiki/regex#regex-gameplay
+[4]: https://github.com/FreeCodeCamp/freecodecamp/wiki/regex#regex-blog
+[5]: https://github.com/FreeCodeCamp/freecodecamp/wiki/regex#software-aids-for-regex
