@@ -17,7 +17,7 @@
 
 ***
 
-### Typing Backticks[⤴](http://superuser.com/a/254077/122424)
+## Typing Backticks[⤴](http://superuser.com/a/254077/122424)
 ### QWERTY and QWERTZ (Key that's been marked with red border)
 
 [![QWERTY][2]][3]
