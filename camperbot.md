@@ -6,6 +6,7 @@ I can assist you in this chatroom :smile:
 - `wiki TOPIC` show contents of topic page
 - `thanks @username`  send karmapoints to another user
 - `about @username`   shows info on that user
+- `update`     pulls wiki edits asap
 
 :unlock:[the power of camperbot!](https://github.com/FreeCodeCamp/freecodecamp/wiki/camperbot)
 
@@ -16,7 +17,6 @@ wiki js ternary
 wiki bobbytables
 rollem    # secret sauce
 wiki video
-update    # pulls wiki edits
 ```
 
 Live currently on the HelpBonFires channel on Gitter 
