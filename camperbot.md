@@ -7,7 +7,6 @@ Basic commands:
 - `thanks @username`  send karmapoints to another user
 - `about @username`   shows info on that user
 
-:unlock: see the [wiki](https://github.com/FreeCodeCamp/freecodecamp/wiki/camperbot) for more commands!
 
 ## example commands
 ```
