@@ -1,3 +1,8 @@
+Bot is live in beta on 
+
+# FreeCodeCamp/HelpBonfires
+## https://gitter.im/FreeCodeCamp/HelpBonfires
+
 https://twitter.com/FreeCodeCamp/status/627338604134559744
 
 Hay All! We're working on a new CamperBot for FreeCodeCamp. 
