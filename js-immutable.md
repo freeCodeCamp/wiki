@@ -9,3 +9,5 @@ s  => "hello"
 
 the `s` didn't change! Wat!
 
+
+tags: js, immutability
