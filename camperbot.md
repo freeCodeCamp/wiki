@@ -7,14 +7,16 @@ I can assist you in this chatroom :smile:
 - `thanks @username`  send karmapoints to another user
 - `about @username`   shows info on that user
 
-### example commands
+[more commands are outlined on the wiki!](https://gitter.im/FreeCodeCamp/wiki/camperbot)
+
+## example commands
 ```
 find js
 wiki js ternary
+wiki bobbytables
 rollem    # secret sauce
+wiki video
 ```
-
-[more commands are outlined on the wiki!](https://gitter.im/FreeCodeCamp/wiki/camperbot)
 
 Live currently on the HelpBonFires channel on Gitter 
 https://gitter.im/FreeCodeCamp/HelpBonfires
@@ -25,6 +27,7 @@ https://gitter.im/FreeCodeCamp/HelpBonfires
 - `rooms`  all rooms the bot is in
 - `archives` show history
 
+## whats coming
 We're looking for ideas for new features to add, and some people to help working on the bot.
 Have a look at Tickets with [help wanted](https://github.com/dcsan/gitterbot/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) on the repo. 
 
