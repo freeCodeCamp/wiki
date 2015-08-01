@@ -1,6 +1,5 @@
-Bot is live in beta on 
+Bot is live in beta on gitter
 
-# FreeCodeCamp/HelpBonfires
 ## https://gitter.im/FreeCodeCamp/HelpBonfires
 
 https://twitter.com/FreeCodeCamp/status/627338604134559744
