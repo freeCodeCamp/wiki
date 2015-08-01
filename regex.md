@@ -1,3 +1,5 @@
+Links to Regex resources. Click through for more info.
+
 ### RegEx Tutorial & Guides
 * **Getting Started Tutorial:** http://regexone.com (FCC recommended)
 * **RegEx Tutorial:** http://www.regular-expressions.info/tutorial.html (detailed explanation)
