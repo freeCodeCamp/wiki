@@ -8,6 +8,8 @@ console.log(s)  //->  "no"
 
 ```
 
+more stuff on the wiki itself
+
 ## description
 If condition is true, the operator returns the value of expr1; otherwise, it returns the value of expr2. For example, to display a different message based on the value of the isMember variable, you could use this statement:
 
