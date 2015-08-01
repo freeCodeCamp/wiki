@@ -2,7 +2,7 @@ Hi this is **[CamperBot](https://github.com/FreeCodeCamp/freecodecamp/wiki/campe
 
 - ``find TOPIC``  find all entries about topic. ex: `find js`
 - `wiki TOPIC` show contents of topic page
-- `thanks @username`  send points to another user when they help you!
+- `thanks @username`  send karmapoints to another user
 - `about @username`   shows info on that user
 
 :unlock: see the [wiki](https://github.com/FreeCodeCamp/freecodecamp/wiki/camperbot) for more commands!
