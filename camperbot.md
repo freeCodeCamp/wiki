@@ -16,6 +16,7 @@ wiki js ternary
 wiki bobbytables
 rollem    # secret sauce
 wiki video
+update    # pulls wiki edits
 ```
 
 Live currently on the HelpBonFires channel on Gitter 
