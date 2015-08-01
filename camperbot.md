@@ -13,7 +13,7 @@ Basic commands:
 ```
 find js
 wiki js
-rollem    # a nice video
+rollem    # secret sauce
 ```
 
 ## more commands
