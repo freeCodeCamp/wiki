@@ -11,5 +11,13 @@ Hi this is **[CamperBot](https://github.com/FreeCodeCamp/freecodecamp/wiki/campe
 - `topics` selected pages from the wiki
 - `rooms`  all rooms the bot is in
 
+We're looking for ideas for new features to add, and some people to help working on the bot.
+Have a look at Tickets with [help wanted](https://github.com/dcsan/gitterbot/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) on the repo. 
+
+## Repo: [https://github.com/dcsan/gitterbot](https://github.com/dcsan/gitterbot)
+Fork it and have fun!
+
+## Developer chatroom
+
 
 ![enjoy](https://avatars1.githubusercontent.com/camperbot?&s=100) *< Happy Camping! >*
