@@ -1,7 +1,7 @@
 Immutable means you can't change 
 Javascript has lots of immutable types. Try this in your console.
 
-```
+```js
 s="red"
 s[1]  // "e"
 s[1]="x"
