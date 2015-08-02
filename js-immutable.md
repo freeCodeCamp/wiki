@@ -3,13 +3,9 @@ Javascript has lots of immutable types. Try this in your console.
 
 ```
 s="red"
-"red"
-s[1]
-"e"
+s[1]  // "e"
 s[1]="x"
-"x"
-s
-"red"
+s // "red"
 ```
 
 the `s` didn't change! Wat!
