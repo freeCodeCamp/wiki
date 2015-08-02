@@ -5,7 +5,7 @@
 
 **^**single backtick at *start* and *end* around the *inline code*.
 
-
+  
 
 ### Code Block
 \`\`\` ⇦ Type 3 backticks, then press `[shift + enter ⏎]`
