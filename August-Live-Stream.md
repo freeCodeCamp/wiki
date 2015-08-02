@@ -14,4 +14,6 @@ The agenda included:
 - Closing from Quincy
 - Pull request party (~3 hours long)
 
-![Screen shot from our twitch feed on August 1 2015](https://www.evernote.com/l/AnvmsUWWNeJFNbfm7fDa7SRLmnbn7jafRL4B/image.png)
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=UhoxoYrJ6Qs
+" target="_blank"><img src="https://www.evernote.com/l/AnvmsUWWNeJFNbfm7fDa7SRLmnbn7jafRL4B/image.png" 
+alt="Screen shot from our twitch feed on August 1 2015" width="560" height="315"border="10" /></a>
