@@ -25,3 +25,4 @@
 ### Software Aids for RegEx
 * **RegExBuddy:** http://www.regexbuddy.com (proprietary)
 * **Expresso:** http://www.ultrapico.com/expresso.htm (free)
+* **RegEx Coach:** http://www.weitz.de/regex-coach/ (free)
