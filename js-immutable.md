@@ -8,7 +8,7 @@ s[1]="x"
 s // "red"
 ```
 
-the `s` didn't change! Wat!
+the `s` didn't change! WAT!
 
 ## details
 Some string methods like String.replace will return a new string. 
