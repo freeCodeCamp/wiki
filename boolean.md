@@ -2,4 +2,4 @@ The value passed as the first parameter is converted to a boolean value, if nece
 
 Do not confuse the primitive Boolean values true and false with the true and false values of the Boolean object.
 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean
+[Read more](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
