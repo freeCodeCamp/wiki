@@ -7,16 +7,18 @@ I can assist you in this chatroom :smile:
 - `thanks @username`  send karmapoints to another user
 - `about @username`   shows info on that user
 - `update`     pulls wiki edits asap
+- `bonfire BFNAME` info on a bonfire
 
 :unlock:[the power of camperbot!](https://github.com/FreeCodeCamp/freecodecamp/wiki/camperbot)
 
 ## example commands
 ```
-find js
-wiki js ternary
-wiki bobbytables
+find js   # all JS entries
+wiki muta  # first entry with muta in name
+wiki bobbytables  # showing images
+wiki video  # and video
 rollem    # secret sauce
-wiki video
+bonfire roman   # any bf with roman in name
 ```
 
 Live currently on the HelpBonFires channel on Gitter 
