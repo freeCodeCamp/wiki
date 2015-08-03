@@ -1,5 +1,5 @@
-This is an example wiki entry. Keep it short and put a `## Heading` in.
-Only content up to the first heading will show in the chat, but the [rest is on the wiki](https://github.com/FreeCodeCamp/freecodecamp/wiki/example).
+This is an example wiki entry. Add a `## H2 heading` as content up that will show in the chat, but the [rest is on the wiki](https://github.com/FreeCodeCamp/freecodecamp/wiki/example).
+
 ```
 console.log("less is more!");
 ```
