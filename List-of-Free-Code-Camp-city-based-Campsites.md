@@ -240,6 +240,7 @@
 | North Platte | [Facebook](//www.facebook.com/groups/free.code.camp.north.platte/) | [Gitter](//gitter.im/freecodecamp/NorthPlatte) |
 | Oakland | [Facebook](//www.facebook.com/groups/free.code.camp.berkeley/) | [Gitter](//gitter.im/freecodecamp/EastBay) |
 | Oklahoma City | [Facebook](//www.facebook.com/groups/free.code.camp.oklahoma.city/) | [Gitter](//gitter.im/freecodecamp/OklahomaCity) |
+| Olympia | [Facebook](//www.facebook.com/groups/free.code.camp.olympia/) | [Gitter](//gitter.im/FreeCodeCamp/Olympia) |
 | Omaha | [Facebook](//www.facebook.com/groups/free.code.camp.omaha/) | [Gitter](//gitter.im/freecodecamp/Omaha) |
 | Orange County | [Facebook](//www.facebook.com/groups/free.code.camp.orange.county/) | [Gitter](//gitter.im/freecodecamp/OrangeCounty) |
 | Orlando | [Facebook](//www.facebook.com/groups/free.code.camp.orlando/) | [Gitter](//gitter.im/freecodecamp/Orlando) |
