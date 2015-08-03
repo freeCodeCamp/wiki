@@ -8,7 +8,7 @@ Hi this is **[CamperBot](https://github.com/FreeCodeCamp/freecodecamp/wiki/campe
 - `update`     pulls wiki edits asap
 - `bonfire BFNAME` info on a bonfire
 
-:unlock:[the power of camperbot!](https://github.com/FreeCodeCamp/freecodecamp/wiki/camperbot)
+:unlock: CamperBot info and tips [the power of camperbot!](https://github.com/FreeCodeCamp/freecodecamp/wiki/camperbot)
 
 ## example commands
 ```
