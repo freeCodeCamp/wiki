@@ -1,4 +1,4 @@
-submitted by: https://github.com/luishendrix92
+submitted by: [luishendrix92](//freecodecamp.com/luishendrix92)
 
 ![Luis](https://avatars3.githubusercontent.com/u/6039444?v=3&s=96)
 
