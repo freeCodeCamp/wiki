@@ -1,6 +1,6 @@
 ### Free Code Camp's logo
 
-[Free Code Camp's logo](https://i.vimeocdn.com/video/520129377_1280x720.jpg)
+![Free Code Camp's logo](https://i.vimeocdn.com/video/520129377_1280x720.jpg)
 
 It uses the typeface 'saxmono'.
 
