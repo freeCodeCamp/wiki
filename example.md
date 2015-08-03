@@ -12,6 +12,7 @@ console.log("less is more!");
 Anything below the first `## Heading` will only be shown in the wiki.
 
 If you put links, [make them full URLs](https://github.com/FreeCodeCamp/freecodecamp/wiki/example) like that.
-:star2: :hamster: emoji look cute!
+
+:star2: :hamster: [emoji look cute! cheat sheet](http://www.emoji-cheat-sheet.com/)
 
 ![images](https://s3.amazonaws.com/freecodecamp/landingIcons_connect.svg.gz)
