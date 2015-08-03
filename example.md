@@ -6,7 +6,7 @@ console.log("less is more!");
 
 | ![HappyCamping](https://avatars2.githubusercontent.com/u/13561988?v=3&s=128) | -{ Happy Camping! :+1: } |
 | ------------- |:-------------|
-| https://github.com/camperbot|    |
+|      | https://github.com/camperbot|
 
 ## after this heading doesn't show in the chat
 Anything below the first `## Heading` will only be shown in the wiki.
