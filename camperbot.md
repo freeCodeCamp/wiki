@@ -31,6 +31,10 @@ https://gitter.im/FreeCodeCamp/HelpBonfires
 - `music` link to FCC Plug rooms
 - `twitch` show the twitch feed
 
+## Content for the wiki
+Feel free to make new pages, an example entry is here:
+https://github.com/FreeCodeCamp/freecodecamp/wiki/example
+
 ## Source repo
 ### [https://github.com/dcsan/gitterbot](https://github.com/dcsan/gitterbot)
 Fork it and have fun!
