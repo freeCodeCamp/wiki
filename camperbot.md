@@ -5,8 +5,8 @@ Hi this is **[CamperBot](https://github.com/FreeCodeCamp/freecodecamp/wiki/campe
 - `wiki TOPIC` show contents of topic page
 - `thanks @username`  send karmapoints to another user
 - `about @username`   shows info on that user
-- `update`     pulls wiki edits asap
 - `bonfire BFNAME` info on a bonfire
+- `update`     pulls wiki edits asap
 
 :unlock: CamperBot info and tips [the power of camperbot!](https://github.com/FreeCodeCamp/freecodecamp/wiki/camperbot)
 
