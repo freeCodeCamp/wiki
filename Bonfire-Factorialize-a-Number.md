@@ -1,3 +1,6 @@
+Submitted by: luishendrix92
+https://github.com/luishendrix92
+
 # Challenge description
 Return the factorial of the provided integer.
 
