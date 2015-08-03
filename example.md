@@ -4,7 +4,7 @@ This is an example wiki entry. Break it up with a `## H2 heading` as content up 
 console.log("less is more!");
 ```
 
-| ![HappyCamping](https://avatars2.githubusercontent.com/u/13561988?v=3&s=128) | <Happy Camping! :+1: > |
+| ![HappyCamping](https://avatars2.githubusercontent.com/u/13561988?v=3&s=128) | Happy Camping! :+1:  |
 | ------------- |:-------------|
 | https://github.com/camperbot|    |
 
