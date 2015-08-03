@@ -6,7 +6,6 @@ Hi this is **[CamperBot](https://github.com/FreeCodeCamp/freecodecamp/wiki/campe
 - `thanks @username`  send karmapoints to another user
 - `about @username`   shows info on that user
 - `bonfire BFNAME` info on a bonfire
-- `update`     pulls wiki edits asap
 
 :unlock: CamperBot info and tips [the power of camperbot!](https://github.com/FreeCodeCamp/freecodecamp/wiki/camperbot)
 
@@ -25,6 +24,7 @@ https://gitter.im/FreeCodeCamp/HelpBonfires
 
 
 ## more commands
+- `update`  pulls new wiki edits asap
 - `topics` selected pages from the wiki
 - `rooms`  all rooms the bot is in
 - `archives` show history
