@@ -4,7 +4,10 @@ This is an example wiki entry. Break it up with a `## H2 heading` as content up 
 console.log("less is more!");
 ```
 
-![HappyCamping](https://avatars2.githubusercontent.com/u/13561988?v=3&s=128) 
+| ![HappyCamping](https://avatars2.githubusercontent.com/u/13561988?v=3&s=128) | <Happy Camping! :+1: > |
+| ------------- |:-------------|
+| https://github.com/camperbot|    |
+
 <happy camping!>
 
 ## more stuff
@@ -14,4 +17,3 @@ If you put links, [make them full URLs](https://github.com/FreeCodeCamp/freecode
 :star2: :hamster: emoji look cute!
 
 ![images](https://s3.amazonaws.com/freecodecamp/landingIcons_connect.svg.gz)
-
