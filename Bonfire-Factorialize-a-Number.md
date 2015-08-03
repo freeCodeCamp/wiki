@@ -1,5 +1,5 @@
 Submitted by: luishendrix92
-![Luis](https://avatars3.githubusercontent.com/u/6039444?v=3&s=460)
+![Luis](https://avatars3.githubusercontent.com/u/6039444?v=3&s=96)
 https://github.com/luishendrix92
 
 # Challenge description
