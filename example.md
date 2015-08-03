@@ -4,7 +4,8 @@ This is an example wiki entry. Break it up with a `## H2 heading` as content up 
 console.log("less is more!");
 ```
 
-![HappyCamping](https://avatars2.githubusercontent.com/u/13561988?v=3&s=460) <happy camping!>
+![HappyCamping](https://avatars2.githubusercontent.com/u/13561988?v=3&s=128) 
+<happy camping!>
 
 ## more stuff
 Anything below the first ## will only be shown in the wiki.
