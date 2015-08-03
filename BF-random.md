@@ -1,3 +1,4 @@
+```
 id: bd7139d8c441eddfaeb5bdef
 name: "Waypoint: Pair Program on Bonfires"
 dashedName: "waypoint-pair-program-on-bonfires"
@@ -21,3 +22,4 @@ description:
         - "Congratulations! You have completed your first pair programming session."
         - "Pair program as much as possible with different campers until you've completed all the Bonfire challenges. This is a big time investment, but the JavaScript practice you get will be well worth it!"
         - "Mark this Waypoint complete and move on."
+```
