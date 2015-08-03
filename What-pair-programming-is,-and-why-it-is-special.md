@@ -5,3 +5,5 @@ Pair programming is where two people code together on one computer.
 You discuss different approaches to solving problems, and keep each other motivated. The result is better code than either of you could have written by yourselves. Because of its benefits, many engineers pair program full time. And it's the best way to learn coding. Thanks to tools that allow two people to share mouse and keyboard inputs, you can pair program with a friend without needing to be in the same room.
 
 By pair programming with other Free Code Camp students on our coding challenges. Eventually, you'll work with people at nonprofits to build real-life software solutions.
+
+This is [why you should try pair programming](https://github.com/FreeCodeCamp/freecodecamp/wiki/Why-You-Should-Try-Pair-Programming) and here are some tips on [how to be a good pair programmer](https://github.com/FreeCodeCamp/freecodecamp/wiki/Tips-on-How-To-Become-A-Good-Pair-Programmer)
