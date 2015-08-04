@@ -1,6 +1,6 @@
 Translation is an all-or-nothing proposal.
 
-We won't be able to add new languages to Free Code Camp until all of our challenges are translated into that langauge.
+We won't be able to add new languages to Free Code Camp until all of our challenges are translated into that language.
 
 In addition to translating these initially, we'll also need to maintain the translation as the challenges are gradually updated.
 
