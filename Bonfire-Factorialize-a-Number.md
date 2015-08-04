@@ -1,4 +1,4 @@
-## Solution for [bonfire-factorialize-a-number](http://www.freecodecamp.com/challenges/bonfire-factorialize-a-number)
+# Solution for [bonfire-factorialize-a-number](http://www.freecodecamp.com/challenges/bonfire-factorialize-a-number)
 
 ## The problem
 Return the factorial of the provided integer.
