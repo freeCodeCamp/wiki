@@ -15,7 +15,7 @@ npm install gulp -g
 **Every command from now on has to be executed from Git Bash. npm install and bower install is downloading components from Git repos and MUST have access to the Git commands**
 4. Follow the instructions here [https://github.com/FreeCodeCamp/freecodecamp](https://github.com/FreeCodeCamp/freecodecamp) and clone the project.
 5. Optional, if you installed SourceTree open and add the repo
-6. When you first run npm install you will get a ton of errors. This has to do mostly with python. Python is not installed on a standard Windows pc. Run bower install. run npm install again, bower install will fetch the needed python components. Run nmp install again. Run bower install again.
+6. When you first run npm install you will get a ton of errors. This has to do mostly with python. Python is not installed on a standard Windows pc. Run bower install, bower install will fetch the needed python components. Run nmp install again. Run bower install again.
 7. Start mongo from the desktop shortcut and run node seed. You should now see a lot of activity in the window where you started mongo.
 8. Run gulp and note what port it starts the site on. (Should be 3000) Open localhost:3000 (or whatever port it started
 **youre good to go**
