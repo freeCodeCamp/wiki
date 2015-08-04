@@ -10,4 +10,11 @@ arr.filter(callback[, thisArg])
 | Required | callback (function with max 3 args) |
 | Optional | thisArg                             |
 
+  First Header   | Second Header
+  -------------  | -------------
+  *Content Cell* | Content Cell
+  Content Cell   | Content Cell
+
+Return
+
 [MDN link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) | [MSDN link](https://msdn.microsoft.com/library/ff679973%28v=vs.94%29.aspx?f=255&MSPPError=-2147217396)
