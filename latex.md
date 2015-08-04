@@ -10,3 +10,11 @@ His advantages are noticable in long documents like books, papers or thesis.
 Gitter uses Katex (an custom implementation of LaTeX) and it can be used introducing the following code:
 
 `` $$ (latex language) $$ ``
+
+```latex
+$$\begin{array} {c c}
+item11 & item12\
+item21 & item 22\
+\end{array}
+$$
+```
