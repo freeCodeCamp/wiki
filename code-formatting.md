@@ -5,8 +5,8 @@ This an inline \``<paste code here>`\` code formatting with a single backtick at
 ### Code Block
 \`\`\` ⇦ Type 3 backticks, then press `[shift + enter ⏎]`
 ```text
-    <paste your code here>,
-    then press [shift + enter ⏎]
+<paste your code here>,
+then press [shift + enter ⏎]
 ```
 \`\`\` ⇦ Type 3 backticks, then press `[enter ⏎]`
 
