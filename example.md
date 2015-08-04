@@ -11,6 +11,10 @@ console.log("less is more!");
 ## anything this heading doesn't show in the chat
 Anything below the first `## Heading` will only be shown in the wiki.
 
+When you're done editing, type `update`
+For testing your update please use the bot testing channel here:
+https://gitter.im/camperbot/testing
+
 If you put links, [make them full URLs](https://github.com/FreeCodeCamp/freecodecamp/wiki/example) like that.
 
 :star2: :hamster: [emoji look cute! cheat sheet](http://www.emoji-cheat-sheet.com/)
