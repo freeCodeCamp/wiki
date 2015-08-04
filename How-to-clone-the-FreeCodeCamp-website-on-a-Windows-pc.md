@@ -20,4 +20,5 @@ npm install gulp -g
 6. When you first run npm install you will get a ton of errors. This has to do mostly with python. Python is not installed on a standard Windows pc. Run bower install, bower install will fetch the needed python components. Run nmp install again. Run bower install again.
 7. Start mongo from the desktop shortcut and run node seed. You should now see a lot of activity in the window where you started mongo.
 8. Run gulp and note what port it starts the site on. (Should be 3000) Open localhost:3000 (or whatever port it started
+
 **youre good to go**
