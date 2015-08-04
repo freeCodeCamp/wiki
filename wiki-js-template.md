@@ -6,10 +6,10 @@
 Syntax of the method that you are writing about
 ```
 
-| Necessity | Parameter | Description                                                          |
-|-------------------|-----------|----------------------------------------------------------------------|
-| Required          | Variable  | I'm a Description |
-| Optional          | Object    | The position of vertical bar is not important                     |
+| Parameter  |           Description                         |   Necessity   |
+|------------|-----------------------------------------------|---------------|
+|  Variable  | I'm a Description                             |   Required    |
+|  Object    | The position of vertical bar is not important |   Optional    |
 
 [MDN link](URL here) | [MSDN link](URL here)
 
