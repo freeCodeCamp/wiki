@@ -1,6 +1,6 @@
-**This Template helps you build javascript topic wiki's.**
+> This Template helps you build javascript topic wiki's.
 
-**Introduction**
+### Introduction
 
 ```js
 Syntax of the method that you are writing about
@@ -14,7 +14,8 @@ Syntax of the method that you are writing about
 [MDN link](URL here) | [MSDN link](URL here)
 
 ## Examples
-//You should provide at least 2 different examples
+> You should provide at least 2 different examples
+
 ```js
 INSERT EXAMPLE HERE
 ```
