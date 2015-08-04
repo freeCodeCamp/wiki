@@ -1,13 +1,13 @@
-Immutable means you can't change 
-Javascript has lots of immutable types. Try this in your console.
+> Immutable means unchangeable i.e. you can't change.
+
+Javascript has lots of immutable types e.g. `string` primitive type. Try this in your console.
 
 ```js
-s="red"
-s[1]  // "e"
-s[1]="x"
-s // "red"
+s = "red";
+console.log(s[1]);  // "e"
+s[1] = "x";
+console.log(s) // "red"
 ```
-
 the `s` didn't change! WAT!
 
 ## details
