@@ -6,7 +6,7 @@ for (variable of object) {
 }
 ```
 
-|          | Parameter                           |
+|          | Description                          |
 |----------|-------------------------------------|
 | variable | On each iteration a value of a different property is assigned to variable.                                 |
 | object | Object whose enumerable properties are iterated. |
