@@ -12,3 +12,47 @@ for (variable in object) {
 | Optional          | Object    | Object whose enumerable properties are iterated.                     |
 
 [MDN link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in) | [MSDN link](https://msdn.microsoft.com/library/55wb2d34(v=vs.94).aspx)
+
+## Examples
+```js
+// Initialize object.
+a = {"a" : "Athens" , "b" : "Belgrade", "c" : "Cairo"}
+
+// Iterate over the properties.
+var s = ""
+for (var key in a) {
+    s += key + ": " + a[key];
+    s += "<br />";
+    }
+document.write (s);
+
+// Output:
+// a: Athens
+// b: Belgrade
+// c: Cairo
+```
+
+```js
+// Initialize the array.
+var arr = new Array("zero","one","two");
+
+// Add a few expando properties to the array.
+arr["orange"] = "fruit";
+arr["carrot"] = "vegetable";
+
+// Iterate over the properties and elements.
+var s = "";
+for (var key in arr) {
+    s += key + ": " + arr[key];
+    s += "<br />";
+}
+
+document.write (s);
+
+// Output:
+//   0: zero
+//   1: one
+//   2: two
+//   orange: fruit
+//   carrot: vegetable
+```
