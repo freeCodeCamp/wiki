@@ -19,6 +19,7 @@ The following are our official chat rooms.
 | [PairProgrammingWomen](https://gitter.im/freecodecamp/PairProgrammingWomen) | this women-only chat room helps women pair program with other women if they so desire |
 | [Half Way Club](https://gitter.im/freecodecamp/HalfWayClub) | this room is only for campers who have finished all the Bonfires, Ziplines and Basejumps |
 | [Beta](https://gitter.im/freecodecamp/Beta) | chat about experimental changes that are live on [beta.freecodecamp.com](http://beta.freecodecamp.com) | 
+| [Wiki](https://gitter.im/freecodecamp/Wiki) | propose new articles and coordinate improvements to this wiki | 
 | [DataScience](https://gitter.im/freecodecamp/DataScience) | let's measure and improve our community's  efficacy by studying Free Code Camp's open data | 
 
 [World Language chat rooms](https://github.com/FreeCodeCamp/freecodecamp/wiki/World-Language-Chat-Rooms)
