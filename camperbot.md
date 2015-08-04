@@ -7,7 +7,11 @@ Hi this is **[CamperBot](https://github.com/FreeCodeCamp/freecodecamp/wiki/campe
 - `about @username`   shows info on that user
 - `bonfire BFNAME` info on a bonfire
 
-:unlock: CamperBot info and tips [the power of camperbot!](https://github.com/FreeCodeCamp/freecodecamp/wiki/camperbot)
+:unlock: [More commands and info](https://github.com/FreeCodeCamp/freecodecamp/wiki/camperbot)
+
+## Learning how to use!
+For playing with CamperBot please use the testing channel:
+[https://gitter.im/camperbot/testing](https://gitter.im/camperbot/testing)
 
 ## example commands
 ```
@@ -19,11 +23,16 @@ rollem    # secret sauce
 bonfire roman   # any bf with roman in name
 ```
 
-Live currently on the HelpBonFires channel on Gitter 
-https://gitter.im/FreeCodeCamp/HelpBonfires
+## help on Bonfires
+Live currently on the HelpBonFires channel on Gitter
+[https://gitter.im/FreeCodeCamp/HelpBonfires](https://gitter.im/FreeCodeCamp/HelpBonfires)
 
+We've added some bonfire specific commands. If you type `bonfire $BFNAME` (where $BFNAME is part of a bonfire name) it will set the chat to be about that bonfire. Then you can use some other bonfire specific commands:
 
-## more commands
+- bf details - more info
+- bf spoiler - show some hints
+
+## more  commands
 - `update`  pulls new wiki edits asap
 - `topics` selected pages from the wiki
 - `rooms`  all rooms the bot is in
