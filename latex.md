@@ -12,7 +12,7 @@ arr21 & arr22\\
 \end{array}$$
 
 **Matrix**:
-$$\begin{pmatrix} 1 & 0 \ 0 & 1 \end{pmatrix}$$
+$$\begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}$$
 
 [Function Support](https://github.com/Khan/KaTeX/wiki/Function-Support-in-KaTeX)
 ## details
