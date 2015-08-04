@@ -6,7 +6,7 @@
 Syntax of the method that you are writing about
 ```
 
-| Required/Optional | Parameter | Description                                                          |
+| Necessity | Parameter | Description                                                          |
 |-------------------|-----------|----------------------------------------------------------------------|
 | Required          | Variable  | I'm a Description |
 | Optional          | Object    | The position of vertical bar is not important                     |
