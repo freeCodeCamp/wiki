@@ -15,7 +15,7 @@ arr21 & arr22\\
 $$\begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}$$
 
 **formatting**:
-$$\huge\textstyle\color{#F00}{BigRed}\small\textstyle\color{#00F}{SmallGreen}$$
+$$\huge\textstyle\color{#F00}{BigRed}\small\textstyle\color{#0F0}{SmallGreen}$$
 
 [Function Support](https://github.com/Khan/KaTeX/wiki/Function-Support-in-KaTeX)
 ## details
