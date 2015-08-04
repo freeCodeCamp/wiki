@@ -3,7 +3,6 @@
 ### Inline code
 This an inline \``<paste code here>`\` code formatting with a single backtick at start and end.
 
-&nbsp;
 
 ### Code Block
 \`\`\` ⇦ Type 3 backticks, then press `[shift + enter ⏎]`
