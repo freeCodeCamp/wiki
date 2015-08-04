@@ -1,4 +1,4 @@
-he `slice()` method returns a shallow copy of a portion of an array into a new array object.
+The `slice()` method returns a shallow copy of a portion of an array into a new array object.
 
 ```js
 arr.slice([begin[, end]])
