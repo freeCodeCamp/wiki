@@ -12,6 +12,7 @@ npm install npm -g
 npm install bower -g
 npm install gulp -g
 3. If you want to spare the time in explorer finding Mongo when it has to be started create a .cmd file on your desktop and write the path to Mongo. Probably  %programfiles%\MongoDB\Server\3.0\bin\mongod.exe. 
+4. Create the default folder for mongo to store databases: C:\data\db
 
 **Every command from now on has to be executed from Git Bash. npm install and bower install is downloading components from Git repos and MUST have access to the Git commands**
 
