@@ -7,8 +7,8 @@ You can embed Latex in GitterIM. Examples:
 
 **Array**:
 $$\begin{array} {c c}
-item11 & item12\
-item21 & item 22\
+item11 & item12\\
+item21 & item 22\\
 \end{array}$$
 
 ## details
