@@ -12,7 +12,7 @@ npm install npm -g
 npm install bower -g
 npm install gulp -g
 3. If you want to spare the time in explorer finding Mongo when it has to be started create a .cmd file on your desktop and write the path to Mongo. Probably  %programfiles%\MongoDB\Server\3.0\bin\mongod.exe. 
-## Every command from now on has to be executed from Git Bash. npm install and bower install is downloading. components from Git repos and MUST have access to the Git commands
+**Every command from now on has to be executed from Git Bash. npm install and bower install is downloading. components from Git repos and MUST have access to the Git commands**
 4. Follow the instructions here [https://github.com/FreeCodeCamp/freecodecamp](https://github.com/FreeCodeCamp/freecodecamp) and clone the project.
 5. Optional, if you installed SourceTree open and add the repo
 6. When you first run npm install you will get a ton of errors. This has to do mostly with python. Python is not installed on a standard Windows pc. Run bower install, bower install will fetch the needed python components. Run nmp install again. Run bower install again.
