@@ -7,9 +7,12 @@ You can embed Latex in GitterIM. Examples:
 
 **Array**:
 $$\begin{array} {c c}
-item11 & item12\\
-item21 & item 22\\
+arr11 & arr12\\
+arr21 & arr22\\
 \end{array}$$
+
+**Matrix**:
+$$\begin{pmatrix} 1 & 0 \ 0 & 1 \end{pmatrix}$$
 
 [Function Support](https://github.com/Khan/KaTeX/wiki/Function-Support-in-KaTeX)
 ## details
@@ -18,8 +21,6 @@ LaTeX is a high-quality typesetting system; it includes features designed for th
 His advantages are noticable in long documents like books, papers or thesis.
 
 Gitter uses Katex (an custom implementation of LaTeX) and it can be used introducing the following code:
-
-`` $$ (latex language) $$ ``
 
 ```latex
 $$\begin{array} {c c}
