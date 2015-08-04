@@ -8,7 +8,6 @@ Factorials are often represented with the shorthand notation n!
 
 For example: `5! = 1 * 2 * 3 * 4 * 5 = 120f`
 
-
 ## Author
 ![Luis](https://avatars3.githubusercontent.com/u/6039444?v=3&s=96)
 submitted by: [luishendrix92](//freecodecamp.com/luishendrix92)
