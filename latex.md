@@ -1,6 +1,15 @@
-You can embed Latex in GitterIM
-- `$$\huge\textstyle{some text}$$` -> $$\huge\textstyle{some text}$$
-- `$$\color{#F90}{some text}$$` -> $$\color{#F90}{some text}$$
+LaTeX is designed for the production of technical and scientific documentation.
+You can create Matrix, arrays or several other mathmatical functions.
+
+`` $$ (latex language) $$ ``
+
+You can embed Latex in GitterIM. Examples:
+
+**Array**:
+$$\begin{array} {c c}
+item11 & item12\
+item21 & item 22\
+\end{array}$$
 
 ## details
 [KaTeX Github Repo](https://github.com/Khan/KaTeX)
@@ -18,3 +27,7 @@ item21 & item 22\
 \end{array}
 $$
 ```
+
+Text:
+- `$$\huge\textstyle{some text}$$` -> $$\huge\textstyle{some text}$$
+- `$$\color{#F90}{some text}$$` -> $$\color{#F90}{some text}$$
