@@ -11,7 +11,7 @@ item11 & item12\\
 item21 & item 22\\
 \end{array}$$
 
-[Function Support] (https://github.com/Khan/KaTeX/wiki/Function-Support-in-KaTeX)
+[Function Support](https://github.com/Khan/KaTeX/wiki/Function-Support-in-KaTeX)
 ## details
 [KaTeX Github Repo](https://github.com/Khan/KaTeX)
 LaTeX is a high-quality typesetting system; it includes features designed for the production of technical and scientific documentation. LaTeX is the de facto standard for the communication and publication of scientific documents.
