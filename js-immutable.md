@@ -4,9 +4,9 @@ Javascript has lots of immutable types e.g. `string` primitive type. Try this in
 
 ```js
 s = "red";
-console.log(s[1]);  // "e"
+console.log(s[1]); //→ "e"
 s[1] = "x";
-console.log(s) // "red"
+console.log(s) //→ "red"
 ```
 the `s` didn't change! WAT!
 
