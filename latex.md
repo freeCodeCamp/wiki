@@ -1,6 +1,6 @@
 You can embed Latex in GitterIM
-`$$\huge\textstyle{some text}$$` -> $$\huge\textstyle{some text}$$
-`$$\color{#F90}{some text}$$` -> $$\color{#F90}{some text}$$
+- `$$\huge\textstyle{some text}$$` -> $$\huge\textstyle{some text}$$
+- `$$\color{#F90}{some text}$$` -> $$\color{#F90}{some text}$$
 
 ## details
 [KaTeX Github Repo](https://github.com/Khan/KaTeX)
