@@ -3,7 +3,7 @@
 * **Getting Started Tutorial:** http://regexone.com (FCC recommended)
 * **RegEx 101:** https://regex101.com
 
-**See also,** Regex [Tutorials](https://github.com/FreeCodeCamp/freecodecamp/wiki/regex#regex-tutorial--guides), [Testing](https://github.com/FreeCodeCamp/freecodecamp/wiki/regex#regex-testing-ground), [Games](https://github.com/FreeCodeCamp/freecodecamp/wiki/regex#regex-gameplay), [Blogs](https://github.com/FreeCodeCamp/freecodecamp/wiki/regex#regex-blog), [Software](https://github.com/FreeCodeCamp/freecodecamp/wiki/regex#software-aids-for-regex)
+**See also:** Regex [Tutorials](https://github.com/FreeCodeCamp/freecodecamp/wiki/regex#regex-tutorial--guides) | [Testing](https://github.com/FreeCodeCamp/freecodecamp/wiki/regex#regex-testing-ground) | [Games](https://github.com/FreeCodeCamp/freecodecamp/wiki/regex#regex-gameplay) | [Blogs](https://github.com/FreeCodeCamp/freecodecamp/wiki/regex#regex-blog) | [Software](https://github.com/FreeCodeCamp/freecodecamp/wiki/regex#software-aids-for-regex)
 
 ## RegEx Tutorial & Guides
 * **RegEx Tutorial:** http://www.regular-expressions.info/tutorial.html (detailed explanation)
