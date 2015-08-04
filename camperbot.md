@@ -3,7 +3,7 @@ Hi this is **[CamperBot](https://github.com/FreeCodeCamp/freecodecamp/wiki/campe
 ### Basic commands:
 - ``find TOPIC``  find all entries about topic. ex: `find js`
 - `wiki TOPIC` show contents of topic page
-- `thanks @username`  send karmapoints to another user
+- `thanks @username`  send brownie points to another user
 - `about @username`   shows info on that user
 - `bonfire BFNAME` info on a bonfire
 
