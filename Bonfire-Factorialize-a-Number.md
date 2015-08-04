@@ -3,9 +3,11 @@
 ## The problem
 Return the factorial of the provided integer.
 If the integer is represented with the letter n, a factorial is the product of all positive integers less than or equal to n.
+
 Factorials are often represented with the shorthand notation n!
-For example: 5! = 1 * 2 * 3 * 4 * 5 = 120f
-Remember to use RSAP if you get stuck. Try to pair program. Write your own code.
+
+For example: `5! = 1 * 2 * 3 * 4 * 5 = 120f`
+
 
 ## Author
 ![Luis](https://avatars3.githubusercontent.com/u/6039444?v=3&s=96)
