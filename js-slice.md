@@ -1,16 +1,16 @@
-The `slice()` method returns a shallow copy of a portion of an array into a new array object.
+> The `slice()` method returns a shallow copy of a portion of an array into a new array object.
 
 ```js
 arr.slice([begin[, end]])
 ```
 
-| Required/Optional | Parameter | Description                                                          |
+| Necessity | Parameter | Description                                                          |
 |-------------------|-----------|----------------------------------------------------------------------|
 | Required          | arr  | An Array object. |
 | Required          | begin    | The beginning of the specified portion of array.                     |
 | Optional          | end  | The end of the specified portion of array. |
 
-**Return:** The slice method returns an Array object containing the specified portion of arrayObj.
+**Return:** The slice method returns an *Array object* containing the specified portion of arrayObj.
 
 [MDN link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice) | [MSDN link](https://msdn.microsoft.com/library/tkcsy6fe%28v=vs.94%29.aspx?f=255&MSPPError=-2147217396)
 
