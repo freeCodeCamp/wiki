@@ -1,19 +1,22 @@
-submitted by: [luishendrix92](//freecodecamp.com/luishendrix92)
+# Analysis for [bonfire-factorialize-a-number](http://www.freecodecamp.com/challenges/bonfire-factorialize-a-number)
 
+## The problem
+Return the factorial of the provided integer.
+If the integer is represented with the letter n, a factorial is the product of all positive integers less than or equal to n.
+Factorials are often represented with the shorthand notation n!
+For example: 5! = 1 * 2 * 3 * 4 * 5 = 120f
+Remember to use RSAP if you get stuck. Try to pair program. Write your own code.
+
+## Author
 ![Luis](https://avatars3.githubusercontent.com/u/6039444?v=3&s=96)
-
+submitted by: [luishendrix92](//freecodecamp.com/luishendrix92)
 https://github.com/luishendrix92
 
-# Challenge description
+## Analysis
 Return the factorial of the provided integer.
-
 If the integer is represented with the letter n, a factorial is the product of all positive integers less than or equal to n.
-
 Factorials are often represented with the shorthand notation n!
-
 For example: 5! = 1 * 2 * 3 * 4 * 5 = 120
-
-
 
 ## Outline
 This one is simple, since the factorials of both 0 and 1 is just 1, you can go ahead and return 1. The IF function here is responsible for breaking the loop I created using a **recursive function**, first it checks if the number you gave the function is 0 or 1 and then returns 1 if the condition passed; since there's no ELSE, the rest of the function is executed.
@@ -48,6 +51,8 @@ Now, let's check whhat the rest of the executions do:
 
 - **Fifth Execution**: *num* = 2-1 = **1** -> is *num* 0 or 1? Yep --> return **1**. And this is where the recursion stops because there are no more executions.
 
+## :construction: My Solution is coming up!
+Don't scroll down if you don't want to see it!
 
 ## My solution
 ``` javascript
@@ -64,4 +69,4 @@ factorialize(5);
 ## References
 - **Recursion**: https://www.codecademy.com/es/courses/javascript-lesson-205/0/1
 - **Factorialization**: https://en.wikipedia.org/wiki/Factorial
-
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators
