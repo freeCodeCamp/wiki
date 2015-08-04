@@ -18,4 +18,4 @@ See https://player.vimeo.com/video/115194016
 | z        	|        undo 	|
 | \#       	|     *delete 	|
 
-\* This may not work on some EU Mac keyboards where # is accessed with alt + 3. Workaround [here](http://toodlepip.co.uk/2010/blog-2010-09-gmail-delete-key-shortcut-uk-apple-users/).
+\* This may not work on some EU Mac keyboards where # is accessed with, `ALT + 3`. Workaround [here](http://toodlepip.co.uk/2010/blog-2010-09-gmail-delete-key-shortcut-uk-apple-users/).
