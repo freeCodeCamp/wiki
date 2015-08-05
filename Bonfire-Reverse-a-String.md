@@ -2,7 +2,7 @@
 
 ![](http://www.foundshit.com/pictures/signs/stressed-desserts.jpg)
 
-For this bonfire our goal is to reverse the provided string. There are 4 green checks (objectives) our code needs to pass in order to complete this bonfire:
+Our goal is to reverse the provided string just like the image. There are 4 green checks (objectives) our code needs to pass in order to complete this bonfire:
 
 1. The final object is expected to be a string
 2. "hello" is expected to be "olleh"
