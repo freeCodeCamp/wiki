@@ -7,7 +7,8 @@ The following are our casual chat rooms.
 | [Hardware](https://gitter.im/freecodecamp/Hardware) | chat about computer hardware and Internet of Things | 
 | [GameDev](https://gitter.im/freecodecamp/GameDev) | chat about designing and developing video games | 
 | [Gaming](https://gitter.im/freecodecamp/Gaming) | chat about gaming of all kinds, such as video games and table top games | 
-| [TVandMovies](https://gitter.im/freecodecamp/TVandMovies) | chat about TV shows and movies | | [Sports](https://gitter.im/freecodecamp/Sports) | chat about sports | 
+| [TVandMovies](https://gitter.im/freecodecamp/TVandMovies) | chat about TV shows and movies | 
+| [Sports](https://gitter.im/freecodecamp/Sports) | chat about sports | 
 | [Music](https://gitter.im/freecodecamp/Music) | chat about music | 
 | [Art and Photography](https://gitter.im/freecodecamp/Photography) | chat about art, photography and videography | 
 | [Business](https://gitter.im/freecodecamp/Business) | chat about business and entrepreneurship | 
