@@ -4,6 +4,8 @@ The `filter()` method creates a new array with all elements that pass the test i
 arr.filter(callback[, thisArg])
 ```
 
+## parameters
+
 |          | Parameter                           |
 |----------|-------------------------------------|
 | Required | Arr                                 |
