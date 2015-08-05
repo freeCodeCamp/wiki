@@ -9,7 +9,7 @@ For this bonfire our goal is to reverse the provided string. There are 4 green c
 ## Hint 
 Click **More information** under the bonfire title and read the helpful links if you haven't done so yet. The key here is to understand what each method: **String.split(), Array.reverse(), Array.join()** do and what objects they work with.
 
-[Need more hints?](https://github.com/FreeCodeCamp/freecodecamp/wiki/Bonfire:-Reverse-a-String#hint-2)
+[Need more hints?](https://github.com/FreeCodeCamp/freecodecamp/wiki/Bonfire-Reverse-a-String#hint-2)
 
 ## Hint 2
 Since our goal is to reverse the provided string, the first thought might be to simply use **Array.reverse()** but **Array.reverse()** doesn't work for a string object, it only works for an array object. That means first we have to convert the provided string to an array. Does **String.split()** or **Array.join()** convert a string to an array? 
