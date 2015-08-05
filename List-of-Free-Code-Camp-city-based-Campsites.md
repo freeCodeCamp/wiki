@@ -145,7 +145,7 @@
 | Hyderabad | [Facebook](//www.facebook.com/groups/free.code.camp.hyderabad/) | [Gitter](//gitter.im/freecodecamp/Hyderabad) |
 | Iasi | [Facebook](//www.facebook.com/groups/free.code.camp.iasi.romania/) | [Gitter](//gitter.im/freecodecamp/Iasi) |
 | idaho Falls | [Facebook](https://www.facebook.com/groups/free.code.camp.idaho.falls.idaho/) | [Gitter](//gitter.im/freecodecamp/IdahoFalls) |
-| Indianapolis | [Facebook](//www.facebook.com/groups/free.code.camp.indianapolis/) | [Gitter](//gitter.im/freecodecamp/Indianapolis) |
+| Indianapolis | [Facebook](//www.facebook.com/groups/free.code.camp.indianapolis.il/) | [Gitter](//gitter.im/freecodecamp/Indianapolis) |
 | Ipswich | [Facebook](https://www.facebook.com/groups/free.code.camp.ipswich.qld/) | [Gitter](//gitter.im/freecodecamp/Ipswich) |
 | Irkutsk | [Facebook](//www.facebook.com/groups/free.code.camp.irkutsk/) | [Gitter](//gitter.im/freecodecamp/Irkutsk) |
 | Islamabad | [Facebook](//www.facebook.com/groups/free.code.camp.islamabad/) | [Gitter](//gitter.im/freecodecamp/Islamabad) |
