@@ -33,4 +33,4 @@ instead of
 
     ["hello"]
 
-After we use split and reverse, we need to join the characters back together to a string of words instead of letters so don't forget to use the two double quotes again `**Array.join("")**`
+After we use split and reverse, we need to join the characters back together to a string of words instead of letters so don't forget to use the two double quotes again **`Array.join("")`**
