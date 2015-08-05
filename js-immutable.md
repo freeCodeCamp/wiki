@@ -10,8 +10,9 @@ console.log(s) //→ "red"
 ```
 the `s` didn't change! WAT!
 
-## details
-Some string methods like String.replace will return a new string. 
+## Details
+Some string methods like `String.replace` returns a new string. 
 
+JavaScript has one complex data type, the Object data type, and it has five simple data types: Number, String, Boolean, Undefined, and Null. These simple (primitive) data types are immutable (cannot be changed), while objects are mutable (can be changed).
 
 tags: js, immutability
