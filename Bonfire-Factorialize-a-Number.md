@@ -1,5 +1,5 @@
 You should make sure to try hard to solve the Bonfire yourself before reading this!
-#[Original Bonfire](http://www.freecodecamp.com/challenges/bonfire-factorialize-a-number)
+# :link: [Original Bonfire](http://www.freecodecamp.com/challenges/bonfire-factorialize-a-number) 
 
 ## Author
 ![Luis](https://avatars3.githubusercontent.com/u/6039444?v=3&s=96)
