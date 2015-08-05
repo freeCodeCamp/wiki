@@ -1,12 +1,12 @@
 Building nonprofit projects is the main way that our campers learn full stack JavaScript and agile software development. Once you complete the Free Code Camp Waypoints, Bonfires, Ziplines and Basejumps, you'll begin this process.
 
-### Starting with the end in mind
+## Starting with the end in mind
 
 Our goal at Free Code Camp is to help you land a job as a junior software developer (or, if you prefer, a 'pivot job' that leads your current career in a more technical direction).
 
 You'll continue to work on nonprofit projects until you've built a sufficiently impressive portfolio and references to start your job search. Your portfolio will ultimately have four nonprofit projects. We estimate that the 800 hours of nonprofit projects you're going to complete, in addition to the 800 hours of challenges you've already completed, will be enough to qualify you for your first coding job. This will produce a much broader portfolio than a traditional coding bootcamp, which generally only has one or two capstone projects.
 
-### Choosing your first Nonprofit Project
+## Choosing your first Nonprofit Project
 
 We've categorized all the nonprofit projects by estimated time investment per camper: 100 hours, 200 hours, and 300 hours. These are only rough estimates.
 
