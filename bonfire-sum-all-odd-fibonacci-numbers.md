@@ -1,0 +1,1 @@
+Think about how Fibonacci numbers are defined, and how you would redefine them on each iteration. There are many ways to do this, including using a temp variable and console.log statements to ensure you're on the right track.
