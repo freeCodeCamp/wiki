@@ -6,9 +6,7 @@ For this bonfire our goal is to reverse the provided string. There are 4 green c
 3. "Howdy" is expected to be "ydowH"
 4. "Greetings from Earth" is expected to be "htraE morf sgniteerG"
 
-[Need some hints?](https://github.com/FreeCodeCamp/freecodecamp/wiki/Bonfire:-Reverse-a-String#hint-1)
-
-## Hint 1
+## Hint 
 Click **More information** under the bonfire title and read the helpful links if you haven't done so yet. The key here is to understand what each method: **String.split(), Array.reverse(), Array.join()** do and what objects they work with.
 
 [Need more hints?](https://github.com/FreeCodeCamp/freecodecamp/wiki/Bonfire:-Reverse-a-String#hint-2)
