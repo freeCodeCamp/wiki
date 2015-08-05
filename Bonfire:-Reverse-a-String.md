@@ -21,6 +21,8 @@ Since our goal is to reverse the provided string, the first thought might be to 
 ## Hint 3
 We can use **String.split()** to convert the provided string to an array. Now that it's an array, we can use **Array.reverse()** to reverse the letters. Then finally we need to convert the array back to a string because it's one of the bonfire objectives. We can use **Array.join()** to accomplish this so let's use it to convert the array back to a string object. 
 
+[Final hint!](https://github.com/FreeCodeCamp/freecodecamp/wiki/Bonfire:-Reverse-a-String#final-hint)
+
 ## Final Hint
 **String.split()** converts the string to an array with one element but in order to use **Array.reverse()** successfully, we have to split the string to an array of characters. We can do this by adding two double quotes (also known as empty string) as the separator like this **String.split("")**. 
 
