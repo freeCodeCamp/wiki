@@ -23,11 +23,6 @@ Since our goal is to reverse the provided string, the first thought might be to 
 Unfortunately `Array.reverse()` doesn't work for a string object, it only works for an array object. That means first we have to convert the provided string to an array. Does `String.split()` or `Array.join()` convert a string to an array? 
 
 ## Hint 3
-
-![](http://img.memecdn.com/split-up-they-said_o_604880.jpg)
-
-This is why the `Array.join()` method is so useful!
-
 We can use `String.split()` to convert the provided string to an array. Now that it's an array, we can use `Array.reverse()` to reverse the letters. Then finally we need to convert the array back to a string because it's one of the bonfire objectives. We can use `Array.join()` to accomplish this so let's use it to convert the array back to a string object. 
 
 ## Final Hint
@@ -41,4 +36,4 @@ instead of
 
     ["hello"]
 
-After we use split and reverse, we need to join the characters back together to a string of words instead of letters so don't forget to use the two double quotes again on `Array.join("")`
+After we use split and reverse, we need to join the characters back together to a string of words instead of letters so don't forget to use the two double quotes again on `Array.join("")`.
