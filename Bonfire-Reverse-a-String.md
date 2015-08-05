@@ -10,9 +10,9 @@ Our goal is to reverse the provided string just like the image. There are 4 gree
 4. "Greetings from Earth" is expected to be "htraE morf sgniteerG"
 
 ## Hint 
-Click **More information** under the bonfire title and read the helpful links if you haven't done so yet. The key here is to understand what each method: 
-- **String.split()
-- Array.reverse() 
+Click **More information** under the bonfire title and read the helpful links if you haven't done so yet. The key here is to understand what each method:
+### `String.split()`
+### ` Array.reverse() `
 - Array.join()** 
 do and what objects they work with.
 
