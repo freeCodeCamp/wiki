@@ -1,6 +1,7 @@
 ### Free Code Camp's [August Live Stream] (https://youtu.be/UhoxoYrJ6Qs) was the largest yet.
 
-The agenda included:
+## The agenda included:
+
 - Opening words Michael
 - New front end challenges [3:00] (https://youtu.be/UhoxoYrJ6Qs?t=3m)
 - Newly configured full-stack challenges
