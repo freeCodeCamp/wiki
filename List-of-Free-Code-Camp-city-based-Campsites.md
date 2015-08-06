@@ -1,51 +1,5 @@
 | City | Facebook | Gitter |
 | --- | --- | --- | 
-
-| Athens, Ohio | [Facebook](https://www.facebook.com/groups/free.code.camp.athens.ohio/
-) | [Gitter](//gitter.im/freecodecamp/AthensOH) |
-| Bacau | [Facebook](https://www.facebook.com/groups/free.code.camp.bacau/
-) | [Gitter](//gitter.im/freecodecamp/Bacau) |
-| Bakersfield | [Facebook](https://www.facebook.com/groups/free.code.camp.bakersfield.california/
-) | [Gitter](//gitter.im/freecodecamp/Bakersfield) |
-| Bryan College Station | [Facebook](https://www.facebook.com/groups/free.code.camp.bryan.college.station/
-) | [Gitter](//gitter.im/freecodecamp/BryanCollegeStation) |
-| El Paso | [Facebook](https://www.facebook.com/groups/free.code.camp.el.paso
-) | [Gitter](//gitter.im/freecodecamp/ElPaso) |
-| Farmville | [Facebook](https://www.facebook.com/groups/free.code.camp.farmville.va/
-) | [Gitter](//gitter.im/freecodecamp/Farmville) |
-| Halifax | [Facebook](https://www.facebook.com/groups/free.code.camp.halifax/
-) | [Gitter](//gitter.im/freecodecamp/Halifax) |
-| Huntsville | [Facebook](https://www.facebook.com/groups/free.code.camp.huntsville/
-) | [Gitter](//gitter.im/freecodecamp/Huntsville) |
-| Isfahan | [Facebook](https://www.facebook.com/groups/free.code.camp.isfahan/
-) | [Gitter](//gitter.im/freecodecamp/Isfahan) |
-| Jerusalem | [Facebook](https://www.facebook.com/groups/free.code.camp.jerusalem/
-) | [Gitter](//gitter.im/freecodecamp/Jerusalem) |
-| Juarezchi | [Facebook](https://www.facebook.com/groups/free.code.camp.juarezchi/
-) | [Gitter](//gitter.im/freecodecamp/) |
-| Las Vegas | [Facebook](https://www.facebook.com/groups/free.code.camp.lasvegas.nevada/
-) | [Gitter](//gitter.im/freecodecamp/LasVegas) |
-| Lae | [Facebook](https://www.facebook.com/groups/free.code.camp.papua.new.guinea.lae/
-) | [Gitter](//gitter.im/freecodecamp/Lae) |
-| Porto Alegre | [Facebook](https://www.facebook.com/groups/free.code.camp.porto.alegre.rs/
-) | [Gitter](//gitter.im/freecodecamp/PortoAlegre) |
-| Reading | [Facebook](https://www.facebook.com/groups/free.code.camp.reading/
-) | [Gitter](//gitter.im/freecodecamp/Reading) |
-| San Jose, Costa Rica | [Facebook](https://www.facebook.com/groups/free.code.camp.san.jose.costa.rica/
-) | [Gitter](//gitter.im/freecodecamp/SanJoseCostaRica) |
-| Spartanburg | [Facebook](https://www.facebook.com/groups/free.code.camp.spartanburg/
-) | [Gitter](//gitter.im/freecodecamp/Spartanburg) |
-| Srinagar | [Facebook](https://www.facebook.com/groups/free.code.camp.srinagar/
-) | [Gitter](//gitter.im/freecodecamp/Srinagar) |
-| Surabaya | [Facebook](https://www.facebook.com/groups/free.code.camp.surabaya/
-) | [Gitter](//gitter.im/freecodecamp/Surabaya) |
-| Thessaloniki | [Facebook](https://www.facebook.com/groups/free.code.camp.thessaloniki/ .
-) | [Gitter](//gitter.im/freecodecamp/Thessaloniki) |
-| Timisoara | [Facebook](https://www.facebook.com/groups/free.code.camp.timisoara/
-) | [Gitter](//gitter.im/freecodecamp/Timisoara) |
-| Vladivostok | [Facebook](https://www.facebook.com/groups/free.code.camp.vladivostok/
-) | [Gitter](//gitter.im/freecodecamp/Vladivostok) |
-| Mumbai | [Facebook](https://www.facebook.com/groups/frre.code.camp.mumbai/) | [Gitter](//gitter.im/freecodecamp/Mumbai) |
 | Aarhus | [Facebook](https://www.facebook.com/groups/FreeCodeCampAarhus) | [Gitter](//gitter.im/freecodecamp/Aarhus) |
 | Abu Dhabi | [Facebook](https://www.facebook.com/groups/free.code.camp.abu.dhabi/) | [Gitter](//gitter.im/freecodecamp/AbuDhabi) |
 | Accra | [Facebook](//www.facebook.com/groups/free.code.camp.accra/) | [Gitter](//gitter.im/freecodecamp/Accra) |
@@ -54,7 +8,7 @@
 | Aichi | [Facebook](//www.facebook.com/groups/free.code.camp.aichi/) | [Gitter](//gitter.im/freecodecamp/Aichi) |
 | Alameda | [Facebook](//www.facebook.com/groups/free.code.camp.berkeley/) | [Gitter](//gitter.im/freecodecamp/EastBay) |
 | Albany | [Facebook](//www.facebook.com/groups/free.code.camp.albany.ny/) | [Gitter](//gitter.im/freecodecamp/Albany) |
-| Albuquerque | [Facebook](https://www.facebook.com/groups/free.code.camp.albuquerque/) | [Gitter](//gitter.im/freecodecamp/Albuquerque] |
+| Albuquerque | [Facebook](https://www.facebook.com/groups/free.code.camp.albuquerque/) | [Gitter](//gitter.im/freecodecamp/Albuquerque) |
 | Algiers | [Facebook](https://www.facebook.com/groups/free.code.camp.Algiers/) | [Gitter](//gitter.im/freecodecamp/Algiers) |
 | Almeria | [Facebook](https://www.facebook.com/groups/free.code.camp.almeria/) | [Gitter](//gitter.im/freecodecamp/Almeria) |
 | Amman | [Facebook](//www.facebook.com/groups/free.code.camp.amman/) | [Gitter](//gitter.im/freecodecamp/Amman) |
@@ -67,9 +21,12 @@
 | Asheville | [Facebook](//www.facebook.com/groups/free.code.camp.asheville/) | [Gitter](//gitter.im/freecodecamp/Asheville) |
 | Asuncion | [Facebook](//www.facebook.com/groups/free.code.camp.asuncion/) | [Gitter](//gitter.im/freecodecamp/Asuncion) |
 | Athens | [Facebook](https://www.facebook.com/groups/free.code.camp.athens.greece/) | [Gitter](//gitter.im/freecodecamp/Athens) |
+| Athens, Ohio | [Facebook](https://www.facebook.com/groups/free.code.camp.athens.ohio/) | [Gitter](//gitter.im/freecodecamp/AthensOH) |
 | Atlanta | [Facebook](//www.facebook.com/groups/free.code.camp.atlanta/) | [Gitter](//gitter.im/freecodecamp/Atlanta) |
 | Auckland | [Facebook](//www.facebook.com/groups/awesome.code.camp/) | [Gitter](//gitter.im/freecodecamp/Auckland) |
 | Austin | [Facebook](//www.facebook.com/groups/free.code.camp.austin/) | [Gitter](//gitter.im/freecodecamp/Austin) |
+| Bacau | [Facebook](https://www.facebook.com/groups/free.code.camp.bacau/) | [Gitter](//gitter.im/freecodecamp/Bacau) |
+| Bakersfield | [Facebook](https://www.facebook.com/groups/free.code.camp.bakersfield.california/) | [Gitter](//gitter.im/freecodecamp/Bakersfield) |
 | Baltimore | [Facebook](//www.facebook.com/groups/free.code.camp.baltimore/) | [Gitter](//gitter.im/freecodecamp/Baltimore) |
 | Bandung | [Facebook](//www.facebook.com/groups/free.code.camp.bandung/) | [Gitter](//gitter.im/freecodecamp/Bandung) |
 | Bangkok | [Facebook](//www.facebook.com/groups/free.code.camp.bangkok/) | [Gitter](//gitter.im/freecodecamp/Bangkok) |
@@ -87,8 +44,8 @@
 | Bhaktapur | [Facebook](//www.facebook.com/groups/free.code.camp.bhaktapur/) | [Gitter](//gitter.im/freecodecamp/Bhaktapur) |
 | Bhubaneswar | [Facebook](//www.facebook.com/groups/free.code.camp.bhubaneswar/) | [Gitter](//gitter.im/freecodecamp/Bhubaneswar) |
 | Bijeljina | [Facebook](//www.facebook.com/groups/free.code.camp.bijeljina/) | [Gitter](//gitter.im/freecodecamp/Bijeljina) |
-| Birmingham, Alabama | [Facebook](//www.facebook.com/groups/free.code.camp.oxford.al/) | [Gitter](//gitter.im/freecodecamp/BirminghamAlabama) |
 | Birmingham | [Facebook](//www.facebook.com/groups/free.code.camp.birmingham.uk/) | [Gitter](//gitter.im/freecodecamp/Birmingham) |
+| Birmingham, Alabama | [Facebook](//www.facebook.com/groups/free.code.camp.oxford.al/) | [Gitter](//gitter.im/freecodecamp/BirminghamAlabama) |
 | Bishkek | [Facebook](//www.facebook.com/groups/free.code.camp.bishkek/) | [Gitter](//gitter.im/freecodecamp/Bishkek) |
 | Bismarck, ND | [Facebook](//www.facebook.com/groups/free.code.camp.bismarck.north.dakota/) | [Gitter](//gitter.im/freecodecamp/Bismarck) |
 | Bloomington, IL | [Facebook](//www.facebook.com/groups/free.code.camp.bloomington.normal/) | [Gitter](//gitter.im/freecodecamp/BloomingtonNormal) |
@@ -103,6 +60,7 @@
 | Brisbane | [Facebook](https://www.facebook.com/groups/free.code.camp.brisbane/) | [Gitter](//gitter.im/freecodecamp/Brisbane) |
 | Brno | [Facebook](//www.facebook.com/groups/free.code.camp.brno/) | [Gitter](//gitter.im/freecodecamp/Brno) |
 | Brussels | [Facebook](//www.facebook.com/groups/free.code.camp.brussels/) | [Gitter](//gitter.im/freecodecamp/Brussels) |
+| Bryan College Station | [Facebook](https://www.facebook.com/groups/free.code.camp.bryan.college.station/) | [Gitter](//gitter.im/freecodecamp/BryanCollegeStation) |
 | Bucaramanga | [Facebook](//www.facebook.com/groups/free.code.camp.bucaramanga/) | [Gitter](//gitter.im/freecodecamp/Bucaramanga) |
 | Bucharest | [Facebook](//www.facebook.com/groups/free.code.camp.bucharest/) | [Gitter](//gitter.im/freecodecamp/Bucharest) |
 | Budapest | [Facebook](//www.facebook.com/groups/free.code.camp.budapest/) | [Gitter](//gitter.im/freecodecamp/Budapest) |
@@ -151,7 +109,9 @@
 | Durango | [Facebook](//www.facebook.com/groups/free.code.camp.durango/) | [Gitter](//gitter.im/freecodecamp/Durango) |
 | Edinburgh | [Facebook](https://www.facebook.com/groups/free.code.camp.edinburgh/) | [Gitter](//gitter.im/freecodecamp/Edinburgh) |
 | Edmonton | [Facebook](//www.facebook.com/groups/free.code.camp.edmonton/) | [Gitter](//gitter.im/freecodecamp/Edmonton) |
+| El Paso | [Facebook](https://www.facebook.com/groups/free.code.camp.el.paso) | [Gitter](//gitter.im/freecodecamp/ElPaso) |
 | Evansville | [Facebook](https://www.facebook.com/groups/free.code.camp.evansville.in/) | [Gitter](//gitter.im/freecodecamp/Evansville) |
+| Farmville | [Facebook](https://www.facebook.com/groups/free.code.camp.farmville.va/) | [Gitter](//gitter.im/freecodecamp/Farmville) |
 | Ferizaj | [Facebook](https://www.facebook.com/groups/free.code.camp.ferizaj/) | [Gitter](//gitter.im/freecodecamp/Ferizaj) |
 | Firenze | [Facebook](//www.facebook.com/groups/free.code.camp.firenze/) | [Gitter](//gitter.im/freecodecamp/Firenze) |
 | Flagstaff | [Facebook](//www.facebook.com/groups/free.code.camp.northern.arizona/) | [Gitter](//gitter.im/freecodecamp/NorthernArizona) |
@@ -178,6 +138,7 @@
 | Göttingen | [Facebook](https://www.facebook.com/groups/free.code.camp.goettingen/) | [Gitter](//gitter.im/freecodecamp/Goettingen) |
 | Hagerstown | [Facebook](//www.facebook.com/groups/free.code.camp.hagerstown/) | [Gitter](//gitter.im/freecodecamp/Hagerstown) |
 | Haifa | [Facebook]( //www.facebook.com/groups/free.code.camp.Haifa/) | [Gitter](//gitter.im/freecodecamp/Christchurch) |
+| Halifax | [Facebook](https://www.facebook.com/groups/free.code.camp.halifax/) | [Gitter](//gitter.im/freecodecamp/Halifax) |
 | Hamburg | [Facebook](//www.facebook.com/groups/free.code.camp.hamburg/) | [Gitter](//gitter.im/freecodecamp/Hamburg) |
 | Hampton Roads | [Facebook](//www.facebook.com/groups/free.code.camp.hamptonroads/) | [Gitter](//gitter.im/freecodecamp/HamptonRoads) |
 | Hanoi | [Facebook](//www.facebook.com/groups/free.code.camp.hanoi/) | [Gitter](//gitter.im/freecodecamp/Hanoi) |
@@ -189,12 +150,14 @@
 | Hong Kong | [Facebook](//www.facebook.com/groups/free.code.camp.hk/) | [Gitter](//gitter.im/freecodecamp/HongKong) |
 | Houston | [Facebook](//www.facebook.com/groups/free.code.camp.houston/) | [Gitter](//gitter.im/freecodecamp/Houston) |
 | Hove | [Facebook](//www.facebook.com/groups/free.code.camp.hove) | [Gitter](//gitter.im/freecodecamp/Hove) |
+| Huntsville | [Facebook](https://www.facebook.com/groups/free.code.camp.huntsville/) | [Gitter](//gitter.im/freecodecamp/Huntsville) |
 | Hyderabad | [Facebook](//www.facebook.com/groups/free.code.camp.hyderabad/) | [Gitter](//gitter.im/freecodecamp/Hyderabad) |
 | Iasi | [Facebook](//www.facebook.com/groups/free.code.camp.iasi.romania/) | [Gitter](//gitter.im/freecodecamp/Iasi) |
 | idaho Falls | [Facebook](https://www.facebook.com/groups/free.code.camp.idaho.falls.idaho/) | [Gitter](//gitter.im/freecodecamp/IdahoFalls) |
 | Indianapolis | [Facebook](//www.facebook.com/groups/free.code.camp.indianapolis.il/) | [Gitter](//gitter.im/freecodecamp/Indianapolis) |
 | Ipswich | [Facebook](https://www.facebook.com/groups/free.code.camp.ipswich.qld/) | [Gitter](//gitter.im/freecodecamp/Ipswich) |
 | Irkutsk | [Facebook](//www.facebook.com/groups/free.code.camp.irkutsk/) | [Gitter](//gitter.im/freecodecamp/Irkutsk) |
+| Isfahan | [Facebook](https://www.facebook.com/groups/free.code.camp.isfahan/) | [Gitter](//gitter.im/freecodecamp/Isfahan) |
 | Islamabad | [Facebook](//www.facebook.com/groups/free.code.camp.islamabad/) | [Gitter](//gitter.im/freecodecamp/Islamabad) |
 | Istanbul | [Facebook](//www.facebook.com/groups/free.code.camp.istanbul/) | [Gitter](//gitter.im/freecodecamp/Istanbul) |
 | Ivano Frankivsk | [Facebook](//www.facebook.com/groups/free.code.camp.ivano.frankivsk/) | [Gitter](//gitter.im/freecodecamp/IvanoFrankivsk) |
@@ -204,8 +167,10 @@
 | Jaipur | [Facebook](//www.facebook.com/groups/free.code.camp.jaipur/) | [Gitter](//gitter.im/freecodecamp/Jaipur) |
 | Jakarta | [Facebook](//www.facebook.com/groups/free.code.camp.jakarta/) | [Gitter](//gitter.im/freecodecamp/Jakarta) |
 | Jamnagar | [Facebook](https://www.facebook.com/groups/free.code.camp.jamnagar.guj.in/) | [Gitter](//gitter.im/freecodecamp/) |
+| Jerusalem | [Facebook](https://www.facebook.com/groups/free.code.camp.jerusalem/) | [Gitter](//gitter.im/freecodecamp/Jerusalem) |
 | Joao Pessoa | [Facebook](//www.facebook.com/groups/free.code.camp.joao.pessoa/) | [Gitter](//gitter.im/freecodecamp/JoaoPessoa) |
 | Johannesburg | [Facebook](//www.facebook.com/groups/free.code.camp.johannesburg/) | [Gitter](//gitter.im/freecodecamp/Johannesburg) |
+| Juarezchi | [Facebook](https://www.facebook.com/groups/free.code.camp.juarezchi/) | [Gitter](//gitter.im/freecodecamp/Juarezchi) |
 | Kaduna | [Facebook](//www.facebook.com/groups/free.code.camp.kaduna/) | [Gitter](//gitter.im/freecodecamp/Kaduna) |
 | Kalamazoo | [Facebook](//www.facebook.com/groups/free.code.camp.kalamazoo/) | [Gitter](//gitter.im/freecodecamp/Kalamazoo) |
 | Kampala | [Facebook](//www.facebook.com/groups/free.code.camp.kampala/) | [Gitter](//gitter.im/freecodecamp/Kampala) |
@@ -225,10 +190,12 @@
 | Kuala Lumpur | [Facebook](//www.facebook.com/groups/free.code.camp.malaysia.kl/) | [Gitter](//gitter.im/freecodecamp/KualaLumpur) |
 | La Crosse | [Facebook](//www.facebook.com/groups/free.code.camp.la.crosse) | [Gitter](//gitter.im/freecodecamp/LaCrosse) |
 | La Paz | [Facebook](//www.facebook.com/groups/free.code.camp.La.Paz/) | [Gitter](//gitter.im/freecodecamp/LaPaz) |
+| Lae | [Facebook](https://www.facebook.com/groups/free.code.camp.papua.new.guinea.lae/) | [Gitter](//gitter.im/freecodecamp/Lae) |
 | Lagos | [Facebook](//www.facebook.com/groups/free.code.camp.lagos/) | [Gitter](//gitter.im/freecodecamp/Lagos) |
 | Lahore | [Facebook](//www.facebook.com/groups/free.code.camp.lahore/) | [Gitter](//gitter.im/freecodecamp/Lahore) |
 | Lakeland | [Facebook](https://www.facebook.com/groups/Free.Code.Camp.Lakeland.Florida/) | [Gitter](//gitter.im/freecodecamp/Lakeland) |
 | Las Cruces | [Facebook](//www.facebook.com/groups/free.code.camp.lc.nm/) | [Gitter](//gitter.im/freecodecamp/LasCruces) |
+| Las Vegas | [Facebook](https://www.facebook.com/groups/free.code.camp.lasvegas.nevada/) | [Gitter](//gitter.im/freecodecamp/LasVegas) |
 | Leesburg | [Facebook](//www.facebook.com/groups/free.code.camp.leesburg/) | [Gitter](//gitter.im/freecodecamp/Leesburg) |
 | Leesville | [Facebook](//www.facebook.com/groups/free.code.camp.leesville.la/) | [Gitter](//gitter.im/freecodecamp/Leesville) |
 | Lehi | [Facebook](//www.facebook.com/groups/free.code.camp.lehi/) | [Gitter](//gitter.im/freecodecamp/Lehi) |
@@ -268,6 +235,7 @@
 | Moscow | [Facebook](//www.facebook.com/groups/free.code.camp.moscow/) | [Gitter](//gitter.im/freecodecamp/Moscow) |
 | Moss Point | [Facebook](https://www.facebook.com/groups/free.code.camp.moss.point.mississippi/) | [Gitter](//gitter.im/freecodecamp/MossPoint) |
 | Multan | [Facebook](//www.facebook.com/groups/free.code.camp.multan) | [Gitter](//gitter.im/freecodecamp/Multan) |
+| Mumbai | [Facebook](https://www.facebook.com/groups/frre.code.camp.mumbai/) | [Gitter](//gitter.im/freecodecamp/Mumbai) |
 | Munich | [Facebook](//www.facebook.com/groups/free.code.camp.munich/) | [Gitter](//gitter.im/freecodecamp/Munich) |
 | Mysore | [Facebook](//www.facebook.com/groups/free.code.camp.mysore/) | [Gitter](//gitter.im/freecodecamp/Mysore) |
 | Nairobi | [Facebook](//www.facebook.com/groups/free.code.camp.nairobi/) | [Gitter](//gitter.im/freecodecamp/Nairobi) |
@@ -307,6 +275,7 @@
 | Pondicherry | [Facebook](https://www.facebook.com/groups/free.code.camp.pondicherry/) | [Gitter](//gitter.im/freecodecamp/Pondicherry) |
 | Port Harcourt | [Facebook](//www.facebook.com/groups/free.code.camp.port.harcourt/) | [Gitter](//gitter.im/freecodecamp/Harcourt) |
 | Portland | [Facebook](//www.facebook.com/groups/free.code.camp.portland/) | [Gitter](//gitter.im/freecodecamp/Portland) |
+| Porto Alegre | [Facebook](https://www.facebook.com/groups/free.code.camp.porto.alegre.rs/) | [Gitter](//gitter.im/freecodecamp/PortoAlegre) |
 | Porto | [Facebook](//www.facebook.com/groups/free.code.camp.porto/) | [Gitter](//gitter.im/freecodecamp/Porto) |
 | Prague | [Facebook](https://www.facebook.com/groups/free.code.camp.prague/) | [Gitter](//gitter.im/freecodecamp/Prague) |
 | Prescott | [Facebook](//www.facebook.com/groups/free.code.camp.northern.arizona/) | [Gitter](//gitter.im/freecodecamp/NorthernArizona) |
@@ -318,6 +287,7 @@
 | Quibdo | [Facebook](//www.facebook.com/groups/free.code.camp.quibdo/) | [Gitter](//gitter.im/freecodecamp/Quibdo) |
 | Raleigh | [Facebook](//www.facebook.com/groups/free.code.camp.raleigh/) | [Gitter](//gitter.im/freecodecamp/Raleigh) |
 | Ranchi | [Facebook](//www.facebook.com/groups/free.code.camp.ranchi/) | [Gitter](//gitter.im/freecodecamp/Ranchi) |
+| Reading | [Facebook](https://www.facebook.com/groups/free.code.camp.reading/) | [Gitter](//gitter.im/freecodecamp/Reading) |
 | Recife | [Facebook](//www.facebook.com/groups/free.code.camp.recife) | [Gitter](//gitter.im/freecodecamp/Recife) |
 | Redmond, OR | [Facebook](//www.facebook.com/groups/free.code.camp.remond.oregon/) | [Gitter](//gitter.im/freecodecamp/RedmondOR) |
 | Reno | [Facebook](https://www.facebook.com/groups/free.code.camp.reno/) | [Gitter](//gitter.im/freecodecamp/Reno) |
@@ -341,10 +311,11 @@
 | San Diego | [Facebook](//www.facebook.com/groups/free.code.camp.san.diego/) | [Gitter](//gitter.im/freecodecamp/SanDiego) |
 | San Francisco | [Facebook](//www.facebook.com/groups/free.code.camp.san.francisco) | [Gitter](//gitter.im/freecodecamp/SanFrancisco) |
 | San Jose | [Facebook](//www.facebook.com/groups/free.code.camp.san.jose) | [Gitter](//gitter.im/freecodecamp/SanJose) |
+| San Jose, Costa Rica | [Facebook](https://www.facebook.com/groups/free.code.camp.san.jose.costa.rica/) | [Gitter](//gitter.im/freecodecamp/SanJoseCostaRica) |
 | San Juan | [Facebook](//www.facebook.com/groups/free.code.camp.sanjuan.pr/) | [Gitter](//gitter.im/freecodecamp/SanJuan) |
-| Santa Luis Obispo | [Facebook](//www.facebook.com/groups/free.code.camp.SLO/) | [Gitter](//gitter.im/freecodecamp/SanLuisObispo) |
 | Santa Barbara | [Facebook](//www.facebook.com/groups/free.code.camp.santa.barbara/) | [Gitter](//gitter.im/freecodecamp/SantaBarbara) |
 | Santa Cruz | [Facebook](//www.facebook.com/groups/free.code.camp.SC/) | [Gitter](//gitter.im/freecodecamp/SantaCruz) |
+| Santa Luis Obispo | [Facebook](//www.facebook.com/groups/free.code.camp.SLO/) | [Gitter](//gitter.im/freecodecamp/SanLuisObispo) |
 | Santiago | [Facebook](https://www.facebook.com/groups/free.code.camp.santiago/) | [Gitter](//gitter.im/freecodecamp/Santiago) |
 | Santo Domingo | [Facebook](//www.facebook.com/groups/free.code.camp.dr/) | [Gitter](//gitter.im/freecodecamp/SantoDomingo) |
 | Sao Paulo | [Facebook](//www.facebook.com/groups/free.code.camp.sao.paulo/) | [Gitter](//gitter.im/freecodecamp/SaoPaulo) |
@@ -362,10 +333,13 @@
 | Solo | [Facebook](//www.facebook.com/groups/free.code.camp.solo/) | [Gitter](//gitter.im/freecodecamp/Solo) |
 | Sopot | [Facebook](//www.facebook.com/groups/free.code.camp.trojmiasto/) | [Gitter](//gitter.im/freecodecamp/Trojmiasto) |
 | South Bend | [Facebook](//www.facebook.com/groups/free.code.camp.south.bend/) | [Gitter](//gitter.im/freecodecamp/SouthBend) |
+| Spartanburg | [Facebook](https://www.facebook.com/groups/free.code.camp.spartanburg/) | [Gitter](//gitter.im/freecodecamp/Spartanburg) |
+| Srinagar | [Facebook](https://www.facebook.com/groups/free.code.camp.srinagar/) | [Gitter](//gitter.im/freecodecamp/Srinagar) |
 | St Cloud | [Facebook](//www.facebook.com/groups/free.code.camp.stcloud/) | [Gitter](//gitter.im/freecodecamp/StCloud) |
 | Stroke-on-Trent | [Facebook](https://www.facebook.com/groups/free.code.camp.stoke.on.trent/) | [Gitter](//gitter.im/freecodecamp/StrokeOnTrent) |
 | Struga | [Facebook](//www.facebook.com/groups/free.code.camp.struga/) | [Gitter](//gitter.im/freecodecamp/Struga) |
 | Stuttgart | [Facebook](//www.facebook.com/groups/free.code.camp.stuttgart/) | [Gitter](//gitter.im/freecodecamp/Stuttgart) |
+| Surabaya | [Facebook](https://www.facebook.com/groups/free.code.camp.surabaya/) | [Gitter](//gitter.im/freecodecamp/Surabaya) |
 | Surrey | [Facebook](https://www.facebook.com/groups/free.code.camp.surrey/) | [Gitter](//gitter.im/freecodecamp/Surrey) |
 | Sydney | [Facebook](//www.facebook.com/groups/free.code.camp.sydney.au/) | [Gitter](//gitter.im/freecodecamp/Sydney) |
 | Taipei | [Facebook](//www.facebook.com/groups/free.code.camp.taipei/) | [Gitter](//gitter.im/freecodecamp/Taipei) |
@@ -376,8 +350,10 @@
 | Tel Aviv | [Facebook](//www.facebook.com/groups/free.code.camp.Tel.Aviv/) | [Gitter](//gitter.im/freecodecamp/TelAviv) |
 | Temecula | [Facebook](//www.facebook.com/groups/free.code.camp.temecula/) | [Gitter](//gitter.im/freecodecamp/Temecula) |
 | Tempe | [Facebook](//www.facebook.com/groups/free.code.camp.tempe.phoenix.scottsdale/) | [Gitter](//gitter.im/freecodecamp/Phoenix) |
+| Thessaloniki | [Facebook](https://www.facebook.com/groups/free.code.camp.thessaloniki/) | [Gitter](//gitter.im/freecodecamp/Thessaloniki) |
 | Ticino | [Facebook](https://www.facebook.com/groups/free.code.camp.ticino/) | [Gitter](//gitter.im/freecodecamp/Ticino) |
 | Tijuana | [Facebook](//www.facebook.com/groups/free.code.camp.tijuana/) | [Gitter](//gitter.im/freecodecamp/Tijuana) |
+| Timisoara | [Facebook](https://www.facebook.com/groups/free.code.camp.timisoara/) | [Gitter](//gitter.im/freecodecamp/Timisoara) |
 | Tirana | [Facebook](//www.facebook.com/groups/free.code.camp.tirana/) | [Gitter](//gitter.im/freecodecamp/Tirana) |
 | Tokyo | [Facebook](https://www.facebook.com/groups/free.code.camp.tokyo/) | [Gitter](//gitter.im/freecodecamp/Tokyo) |
 | Tom's River | [Facebook](https://www.facebook.com/groups/free.code.camp.toms.river/) | [Gitter](//gitter.im/freecodecamp/TomsRiver) |
@@ -397,6 +373,7 @@
 | Vilnius | [Facebook](//www.facebook.com/groups/free.code.camp.vilnius.lt/) | [Gitter](//gitter.im/freecodecamp/Vilnius) |
 | Virginia Beach | [Facebook](//www.facebook.com/groups/free.code.camp.virginia.beach/) | [Gitter](//gitter.im/freecodecamp/VirginiaBeach) |
 | Vitória | [Facebook](//www.facebook.com/groups/free.code.camp.vitoria.e.regiao.metropolitana.es/) | [Gitter](//gitter.im/freecodecamp/Vitoria) |
+| Vladivostok | [Facebook](https://www.facebook.com/groups/free.code.camp.vladivostok/) | [Gitter](//gitter.im/freecodecamp/Vladivostok) |
 | Warrington | [Facebook](https://www.facebook.com/groups/free.code.camp.warrington/) | [Gitter](//gitter.im/freecodecamp/Warrington) |
 | Warsaw | [Facebook](https://www.facebook.com/groups/free.code.camp.warsaw/) | [Gitter](//gitter.im/freecodecamp/Warsaw) |
 | Washington, DC | [Facebook](//www.facebook.com/groups/free.code.camp.washington.dc/) | [Gitter](//gitter.im/freecodecamp/WashingtonDC) |
