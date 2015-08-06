@@ -1,4 +1,5 @@
-# Summary
+Summary
+
 ![](http://www.foundshit.com/pictures/signs/stressed-desserts.jpg)
 
 Our goal for this bonfire is to reverse the provided string just like the image. There are 4 green checks (objectives) our code needs to pass in order to complete this bonfire:
