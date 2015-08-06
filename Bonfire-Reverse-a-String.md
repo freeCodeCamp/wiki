@@ -25,7 +25,7 @@ Click **More information** under the bonfire title and read the helpful links if
 
 Since our goal is to reverse the provided string, the first thought might be to simply `return str.reverse();` but we'll get: 
 ```js
-    str.reverse is not a function
+str.reverse is not a function
 ```
 Unfortunately `Array.reverse()` doesn't work for a string object, it only works for an array object. That means first we have to convert the provided string to an array. Does `String.split()` or `Array.join()` convert a string to an array? 
 &nbsp;
