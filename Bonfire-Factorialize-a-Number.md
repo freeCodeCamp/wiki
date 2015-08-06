@@ -89,3 +89,7 @@ factorialize(5);
 - **Recursion**: https://www.codecademy.com/es/courses/javascript-lesson-205/0/1
 - **Factorialization**: https://en.wikipedia.org/wiki/Factorial
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators
+
+## If you enjoyed this guide, then type:
+`thanks @luishendrix92`
+in the chat!
