@@ -17,6 +17,8 @@ Click **More information** under the bonfire title and read the helpful links if
 - `Array.reverse()`
 - `Array.join()` 
 
+> If you're not clear on array methods type `find array`
+
 ## Hint 2
 
 Since our goal is to reverse the provided string, the first thought might be to simply `return str.reverse();` but we'll get: 
