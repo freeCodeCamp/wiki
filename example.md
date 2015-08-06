@@ -1,4 +1,4 @@
-This is an example wiki entry. Break it up with a `## H2 heading` as content up that will show in the chat, but the [rest is on the wiki](https://github.com/FreeCodeCamp/freecodecamp/wiki/example).
+This is an example wiki entry. Break it up with a `## H2 heading` as content before that will show in the chat, but the [rest is on the wiki](https://github.com/FreeCodeCamp/freecodecamp/wiki/example).
 
 ```
 console.log("less is more!");
@@ -8,7 +8,7 @@ console.log("less is more!");
 | ------------- |:-------------|
 |      | https://github.com/camperbot|
 
-## anything this heading doesn't show in the chat
+## anything after this ## heading doesn't show in the chat
 Anything below the first `## Heading` will only be shown in the wiki.
 
 - update
