@@ -49,9 +49,9 @@ If we use the following `for loop` while `size` is 2 (note: `size` = 2):
 
     (var i = 0; i < arr.length; i += size)
 
-The loop starts at element 0, it will loop once and then `i` will equal `i + 2` so now the new value of `i` becomes 2. What happens if we combine the following `arr.slice()` with the `for loop`?
+The loop starts at element 0, it will loop once and then `i += 2` which is another way of stating `i = i + 2` so now the new value of `i` becomes 2. What happens if we combine the following `arr.slice()` with the `for loop`?
 ```js
-arr.slice(i, i + size)
+    arr.slice(i, i + size)
 ```
 &nbsp;
 
@@ -60,7 +60,8 @@ arr.slice(i, i + size)
 We can combine the `Array.slice()` method with the `Array.push()` method inside the `for loop` like this:
 
     for (var i = 0; i < arr.length; i += size) {
-    newArray.push(arr.slice(i, i + size)); }
+    newArray.push(arr.slice(i, i + size)); 
+    }
 
 `arr.slice()` will start at element 0 and stop at element 2. Here's the fun part: once the `for loop`, loops again then the value of `i` becomes 2 while the `i` in the `arr.slice()` will also have a value of 2. The new `arr.slice()` becomes:
 
