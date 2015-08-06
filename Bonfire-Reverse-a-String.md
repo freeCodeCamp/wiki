@@ -8,6 +8,7 @@ Our goal for this bonfire is to reverse the provided string just like the image.
 2. "hello" is expected to be "olleh"
 3. "Howdy" is expected to be "ydowH"
 4. "Greetings from Earth" is expected to be "htraE morf sgniteerG"
+nbsp;
 
 ## Helpful links are ["h","e","l","p","f","u","l"]
 
@@ -18,6 +19,7 @@ Click **More information** under the bonfire title and read the helpful links if
 - `Array.join()` 
 
 > If you're not clear on string or array methods type `find string` or `find array`
+nbsp;
 
 ## Array.reverse() is for array objects and not string objects
 
@@ -26,10 +28,12 @@ Since our goal is to reverse the provided string, the first thought might be to 
     str.reverse is not a function
 ```
 Unfortunately `Array.reverse()` doesn't work for a string object, it only works for an array object. That means first we have to convert the provided string to an array. Does `String.split()` or `Array.join()` convert a string to an array? 
+nbsp;
 
 ## String.split() converts string to array
 
 We can use `String.split()` to convert the provided string to an array. Now that it's an array, we can use `Array.reverse()` to reverse the letters. Finally we need to convert the array back to a string because it's one of the bonfire objectives. We can use `Array.join()` to accomplish this so let's use it to convert the array back to a string object. 
+nbsp;
 
 ## Apostrophes and quotes 
 
@@ -44,3 +48,4 @@ instead of
     ["hello"]
 
 After we use split and reverse, we need to join the characters back together to a string of words instead of letters so don't forget to use two apostrophes or two-double quotes again on `Array.join('')`.
+nbsp;
