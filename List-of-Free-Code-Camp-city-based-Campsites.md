@@ -79,6 +79,7 @@
 | Cardiff | [Facebook](https://www.facebook.com/groups/free.code.camp.cardiff/) | [Gitter](//gitter.im/freecodecamp/Cardiff) |
 | Casablanca | [Facebook](https://www.facebook.com/groups/free.code.camp.casablanca/) | [Gitter](//gitter.im/freecodecamp/Casablanca) |
 | Central Mississippi | [Facebook](https://www.facebook.com/groups/free.code.camp.central.mississippi/) | [Gitter](//gitter.im/freecodecamp/CentralMississippi) |
+| Champaign-Urbana | [Facebook](https://www.facebook.com/groups/free.code.camp.champaign.urbana/) | [Gitter](//gitter.im/freecodecamp/ChampaignUrbana) |
 | Charlotte | [Facebook](//www.facebook.com/groups/free.code.camp.charlotte.nc/) | [Gitter](//gitter.im/freecodecamp/Charlotte) |
 | Chattanooga | [Facebook](//www.facebook.com/groups/free.code.camp.chattanooga/) | [Gitter](//gitter.im/freecodecamp/Chattanooga) |
 | Chennai | [Facebook](//www.facebook.com/groups/free.code.camp.chennai/) | [Gitter](//gitter.im/freecodecamp/Chennai) |
