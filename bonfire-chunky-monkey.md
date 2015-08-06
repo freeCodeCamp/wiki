@@ -11,6 +11,7 @@ Click **More information** under the bonfire title and read the helpful links if
 &nbsp;
 
 ## How to approach the bonfire
+
 The helpful links suggest to use `Array.push()` so let's start by first creating a new array to store the smaller arrays we will soon have like this: 
 
     var newArray = [];
@@ -21,6 +22,7 @@ The key to this bonfire is understanding how a `for loop`, `size`, `Array.slice(
 &nbsp;
 
 ## How does a for loop and Array.slice() work
+
 A `for loop` keeps looping until a condition evaluates to false for example if we had: 
 
     for (var i = 0; i < arr.length; i++) 
@@ -29,30 +31,32 @@ A `for loop` keeps looping until a condition evaluates to false for example if w
 
 `Array.slice()` method works the same way as a `String.slice()` but for arrays, it extracts a portion of an array and returns a copy into a new array. We can declare which element to start and which element to stop. 
 
-For example if `arr` is `['a', 'b', 'c', 'd']` and we used `arr.slice(1, 3);`, `Array.slice()` starts at element 1 and stops at element 3 then returns 
+For example, if `arr` is `['a', 'b', 'c', 'd']` and we used `arr.slice(1, 3);`, the `Array.slice()` method starts at element 1 and stops at element 3 then returns 
 ```js
 ["b","c"]
 ``` 
 _Notice how it captures the start element but doesn't capture the stop element._
 &nbsp;
 
-## How does a for loop and Array.slice() work together
+## Using a for loop and Array.slice() together
+
 If we use the following `for loop` while `size` is 2 (note: `size` = 2):
 
     (var i = 0; i < arr.length; i += size)
 
-The loop starts at element 0, it will loop once and then `i` will equal `i + 2` so now the new value of `i` becomes 2. What happens if we combine the following `Array.slice()` with this`for loop`?
+The loop starts at element 0, it will loop once and then `i` will equal `i + 2` so now the new value of `i` becomes 2. What happens if we combine the following `arr.slice()` with the `for loop`?
 
-    Array.slice(i, i + size)
+    arr.slice(i, i + size)
 
-## How does Array.push() work with a for loop and Array.slice()
+## Push the arrays out 
+
 We can combine the `Array.slice()` method with the `Array.push()` method inside the `for loop` like this:
 
     for (var i = 0; i < arr.length; i += size) {
     newArray.push(arr.slice(i, i + size)); }
 
-`Array.slice()` will start at element 0 and stop at element 2. Here's the fun part: once the `for loop`, loops again then the value of `i` becomes 2 while the `i` in the `Array.slice()` will also have a value of 2. The new `Array.slice()` becomes:
+`arr.slice()` will start at element 0 and stop at element 2. Here's the fun part: once the `for loop`, loops again then the value of `i` becomes 2 while the `i` in the `arr.slice()` will also have a value of 2. The new `arr.slice()` becomes:
 
-    Array.slice(2, 2 + 2)
+    arr.slice(2, 2 + 2)
 
-Now `Array.slice()` starts at the element 2 and stops at element 4 and in the next loop, `Array.slice()` will start at element 4 and stop at element 6. `Array.push()` will push all the elements out into chunks of smaller arrays with the length of `size`.
+Now `arr.slice()` starts at the element 2 and stops at element 4 and in the next loop, `arr.slice()` will start at element 4 and stop at element 6. `newArray.push()` will push all the elements out into chunks of smaller arrays with the length of `size`.
