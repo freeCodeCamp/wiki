@@ -17,9 +17,9 @@ Click **More information** under the bonfire title and read the helpful links if
 - `String.split()`
 - `Array.reverse()`
 - `Array.join()` 
+&nbsp;
 
 > If you're not clear on string or array methods type `find string` or `find array`
-&nbsp;
 
 ## Array.reverse() is for array objects and not string objects
 
