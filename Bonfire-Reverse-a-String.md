@@ -9,7 +9,7 @@ Our goal for this bonfire is to reverse the provided string just like the image.
 3. "Howdy" is expected to be "ydowH"
 4. "Greetings from Earth" is expected to be "htraE morf sgniteerG"
 
-## Hint 
+## Helpful links are ["h","e","l","p","f","u","l"]
 
 Click **More information** under the bonfire title and read the helpful links if you haven't yet. The key here is to understand what each method do and what objects they work with.
 
@@ -17,9 +17,9 @@ Click **More information** under the bonfire title and read the helpful links if
 - `Array.reverse()`
 - `Array.join()` 
 
-> If you're not clear on array methods type `find array`
+> If you're not clear on string or array methods type `find string` or `find array`
 
-## Hint 2
+## Array.reverse() is for array objects and not string objects
 
 Since our goal is to reverse the provided string, the first thought might be to simply `return str.reverse();` but we'll get: 
 ```js
@@ -27,11 +27,13 @@ Since our goal is to reverse the provided string, the first thought might be to 
 ```
 Unfortunately `Array.reverse()` doesn't work for a string object, it only works for an array object. That means first we have to convert the provided string to an array. Does `String.split()` or `Array.join()` convert a string to an array? 
 
-## Hint 3
+## String.split() converts string to array
 
-We can use `String.split()` to convert the provided string to an array. Now that it's an array, we can use `Array.reverse()` to reverse the letters. Then finally we need to convert the array back to a string because it's one of the bonfire objectives. We can use `Array.join()` to accomplish this so let's use it to convert the array back to a string object. 
+We can use `String.split()` to convert the provided string to an array. Now that it's an array, we can use `Array.reverse()` to reverse the letters. Finally we need to convert the array back to a string because it's one of the bonfire objectives. We can use `Array.join()` to accomplish this so let's use it to convert the array back to a string object. 
 
-## Final Hint
+>`String.split()` will not work on array objects
+
+## Apostrophes and quotes 
 
 `String.split()` converts the string to an array with one element but in order to use `Array.reverse()` successfully, we have to split the string to an array of characters. We can do this by using two apostrophes or two-double quotes (also known as empty string) as the separator like this `String.split('')`. 
 
