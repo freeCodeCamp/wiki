@@ -31,7 +31,7 @@ We can use `String.split()` to convert the provided string to an array. Now that
 
 ## Final Hint
 
-`String.split()` converts the string to an array with one element but in order to use `Array.reverse()` successfully, we have to split the string to an array of characters. We can do this by adding two double apostrophes or quotes (also known as empty string) as the separator like this `String.split('')`. 
+`String.split()` converts the string to an array with one element but in order to use `Array.reverse()` successfully, we have to split the string to an array of characters. We can do this by using two apostrophes or two-double quotes (also known as empty string) as the separator like this `String.split('')`. 
 
 Now we get:
 
@@ -41,4 +41,4 @@ instead of
 
     ["hello"]
 
-After we use split and reverse, we need to join the characters back together to a string of words instead of letters so don't forget to use the two double apostrophes or quotes again on `Array.join('')`.
+After we use split and reverse, we need to join the characters back together to a string of words instead of letters so don't forget to use two apostrophes or two-double quotes again on `Array.join('')`.
