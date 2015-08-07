@@ -25,6 +25,8 @@ Since our goal is to reverse the provided string, the first thought might be to 
 ```js
 str.reverse is not a function
 ```
+&nbsp;
+
 Unfortunately `Array.reverse()` doesn't work for a string object, it only works for an array object. That means first we have to convert the provided string to an array. Does `String.split()` or `Array.join()` convert a string to an array? 
 &nbsp;
 
@@ -44,6 +46,7 @@ Now we get:
 instead of 
 
     ["hello"]
+&nbsp;
 
 After we use split and reverse, we need to join the characters back together to a string of words instead of letters so don't forget to use two apostrophes or two-double quotes again on `Array.join('')`.
 &nbsp;
