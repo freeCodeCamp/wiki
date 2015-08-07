@@ -38,3 +38,5 @@ console.log(found);
 ```js
 console.log(basket.indexOf("apple") != -1);
 ```
+
+tags: js, array
