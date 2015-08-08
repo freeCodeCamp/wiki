@@ -12,4 +12,6 @@ We are always happy to help new contributors write, edit, and localize our wiki 
 
 If you have questions about contributing to the Free Code Camp Wiki, message [@danraley](https://gitter.im/danraley) in Gitter.
 
+You can get started creating a new wiki page by clicking the "New Page" button at top right.
+
 We look forward to wiki-ing with you!
