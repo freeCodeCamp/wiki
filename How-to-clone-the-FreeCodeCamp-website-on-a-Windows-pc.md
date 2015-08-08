@@ -8,6 +8,7 @@ This list works with the FreeCodeCamp site and have been tested on this Angular 
 
 Install the 4 downloaded prerequsites. When installing Python and Node it is important to check
  the option add to the path variable. The Node installer does that by default. It is optional to add Mongo to the path. Python should be installed in a subfolder in %programfiles%
+ 
 1. Open a commandline with admin rights
 2. Verify that Node is in th path with node -v
 3. Verify that npm is in the path with npm -v
