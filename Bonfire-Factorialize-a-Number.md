@@ -3,8 +3,8 @@ You should make sure to try hard to solve the Bonfire yourself before reading th
 
 ## Author
 ![Luis](https://avatars3.githubusercontent.com/u/6039444?v=3&s=96)
-submitted by [luishendrix92](//freecodecamp.com/luishendrix92) |
-https://github.com/luishendrix92
+
+submitted by [luishendrix92](//freecodecamp.com/luishendrix92) | https://github.com/luishendrix92
 
 ## The problem
 Return the factorial of the provided integer.
