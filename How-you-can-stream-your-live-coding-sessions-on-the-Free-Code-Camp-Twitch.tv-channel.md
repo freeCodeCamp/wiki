@@ -3,7 +3,7 @@ If you're interested in coding JavaScript live in front of dozens of people on o
 Please follow these steps to get started:
 
 - Follow [this tutorial](http://www.hdpvrcapture.com/wordpress/?p=5951) to set up your computer for streaming.
-- Contact [Wesley](https://giter.im/septimus). He's in charge of our Twitch.tv channel. Tell him what you'd like to stream, and when you're available to stream.
+- Contact [Wesley](https://gitter.im/septimus). He's in charge of our Twitch.tv channel. Tell him what you'd like to stream, and when you're available to stream.
 - Wesley will pair with you using [Screen Hero](https://github.com/FreeCodeCamp/freecodecamp/wiki/How-to-install-Screenhero) to verify your computer is configured properly to stream.
 
 Be respectful of your audience. Everything you stream should be related to coding JavaScript, and should be safe-for-work.
