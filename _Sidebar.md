@@ -1,4 +1,4 @@
-New to Free Code Camp? Read these Wiki articles:
+Hey new campers, please read these (~3 minutes):
 - [What exactly Free Code Camp does](https://github.com/FreeCodeCamp/freecodecamp/wiki/What-exactly-Free-Code-Camp-does)
 - [Why you need Free Code Camp](https://github.com/FreeCodeCamp/freecodecamp/wiki/Why-you-need-Free-Code-Camp.)
 - [What the main advantages of Free Code Camp are](https://github.com/FreeCodeCamp/freecodecamp/wiki/What-the-main-advantages-of-Free-Code-Camp-are)
