@@ -11,7 +11,7 @@ Install the 4 downloaded prerequsites. When installing Python and Node it is imp
 1. Open a commandline with admin rights
 2. Verify that Node is in th path with node -v
 3. Verify that npm is in the path with npm -v
-5 `npm install npm -g`
+5. `npm install npm -g`
 	`npm install bower -g`  
 	`npm install gulp -g`
 	`npm install node-gyp -g` 
