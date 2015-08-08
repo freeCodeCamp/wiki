@@ -11,11 +11,11 @@ Install the 4 downloaded prerequsites. When installing Python and Node it is imp
 1. Open a commandline with admin rights
 2. Verify that Node is in th path with node -v
 3. Verify that npm is in the path with npm -v
-5.1. `npm install npm -g`
-5.2. `npm install bower -g`  
-5.3. `npm install gulp -g`
-5.4. `npm install node-gyp -g` 
-5.5. `npm install babel -g`  
+5 `npm install npm -g`
+	`npm install bower -g`  
+	`npm install gulp -g`
+	`npm install node-gyp -g` 
+	`npm install babel -g`  
 6. If you want to spare the time in explorer finding Mongo when it has to be started create a .cmd file on your desktop and write the path to Mongo. Probably  %programfiles%\MongoDB\Server\3.0\bin\mongod.exe. 
 7. Create the default folder for mongo to store databases: C:\data\db
 
