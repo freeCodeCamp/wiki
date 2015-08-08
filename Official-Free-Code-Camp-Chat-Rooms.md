@@ -21,8 +21,8 @@ The following are our official chat rooms.
 | [Beta](https://gitter.im/freecodecamp/Beta) | chat about experimental changes that are live on [beta.freecodecamp.com](http://beta.freecodecamp.com) | 
 | [Wiki](https://gitter.im/freecodecamp/Wiki) | propose new articles and coordinate improvements to this wiki | 
 | [Issues](https://gitter.im/freecodecamp/Issues) | this is the place to discuss issues with our open source codebase and coordinate pull requests | 
-| [DataScience](https://gitter.im/freecodecamp/DataScience) | let's measure and improve our community's  efficacy by studying Free Code Camp's open data | 
-
+| [DataScience](https://gitter.im/freecodecamp/DataScience) | let's measure and improve our community's efficacy by studying Free Code Camp's open data | 
+| [Design](https://gitter.im/freecodecamp/Design) | chat about design theory and practice | 
 [World Language chat rooms](https://github.com/FreeCodeCamp/freecodecamp/wiki/World-Language-Chat-Rooms)
 
 [Casual chat rooms](https://github.com/FreeCodeCamp/freecodecamp/wiki/Casual-Chat-Rooms)
