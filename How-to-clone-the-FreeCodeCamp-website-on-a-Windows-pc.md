@@ -23,7 +23,10 @@ Install the 4 downloaded prerequsites. When installing Python and Node it is imp
 **Every command from now on has to be executed from Git Bash. npm install and bower install is downloading components from Git repos and MUST have access to the Git commands**
 
 1. Follow the instructions here [https://github.com/FreeCodeCamp/freecodecamp](https://github.com/FreeCodeCamp/freecodecamp) and clone the project.
+2. Run `npm install` This will produce som warnings and maybe some errors. The warnings and some of the errors can be disregarded. Stackowerflow has large 
+resources to solve the errors they still come up the 2. time you run npm install.
+3. Run `bower install`, `npm install` again and `bower install`again
 4. Start mongo from the desktop shortcut and run `node seed`. You should now see a lot of activity in the window where you started mongo.
-5. Run gulp and note what port it starts the site on. (Should be 3000) Open localhost:3000 (or whatever port it started)
+5. Run `gulp` and note what port it starts the site on. (Should be 3000) Open localhost:3000 (or whatever port it started)
 
 **you're good to go**
