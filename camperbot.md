@@ -9,11 +9,11 @@ Hi I'm **[CamperBot](https://github.com/FreeCodeCamp/freecodecamp/wiki/camperbot
 
 :speech_balloon: [meet camperbot in this room!](https://gitter.im/camperbot/testing)
 
-## Learning how to use!
+
+## example commands
 For playing with CamperBot please use the testing channel:
 [https://gitter.im/camperbot/testing](https://gitter.im/camperbot/testing)
 
-## example commands
 ```
 find js   # all JS entries
 wiki muta  # first entry with muta in name
