@@ -11,8 +11,6 @@ Hi I'm **[CamperBot](https://github.com/FreeCodeCamp/freecodecamp/wiki/camperbot
 
 
 ## example commands
-For playing with CamperBot please use the testing channel:
-[https://gitter.im/camperbot/testing](https://gitter.im/camperbot/testing)
 
 ```
 find js   # all JS entries
@@ -22,6 +20,8 @@ wiki video  # and video
 rollem    # secret sauce
 bonfire roman   # any bf with roman in name
 ```
+For playing with CamperBot please use the testing channel:
+[https://gitter.im/camperbot/testing](https://gitter.im/camperbot/testing)
 
 ## help on Bonfires
 Live currently on the HelpBonFires channel on Gitter
