@@ -1,6 +1,8 @@
 ###"Wiki" is a Hawaiian word meaning "quick". Keep this in mind when creating wiki articles.
 
-We are always happy to help new contributors write, edit, and localize our wiki articles. Help us make Free Code Camp the best it can be. You can get started creating a new wiki page by clicking the "New Page" button at top right.
+We are always happy to help new contributors write, edit, and localize our wiki articles. Help us make Free Code Camp the best it can be. 
+
+You can create a new wiki page by clicking the "New Page" button at top right.
 
 Keep your wiki articles short and focused. Your articles should be no longer than this article.  If your article is longer than this, break it up smaller articles that link to each other.
 
