@@ -7,6 +7,9 @@ Hi I'm **[CamperBot](https://github.com/FreeCodeCamp/freecodecamp/wiki/camperbot
 - `about @username`   shows info on that user
 - `bonfire BFNAME` info on a bonfire
 
+:speech_balloon: (meet camperbot in this room!)[https://gitter.im/camperbot/testing]
+
+
 :unlock: [More commands and info](https://github.com/FreeCodeCamp/freecodecamp/wiki/camperbot)
 
 ## Learning how to use!
