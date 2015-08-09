@@ -9,9 +9,6 @@ Hi I'm **[CamperBot](https://github.com/FreeCodeCamp/freecodecamp/wiki/camperbot
 
 :speech_balloon: [meet camperbot in this room!](https://gitter.im/camperbot/testing)
 
-
-:unlock: [More commands and info](https://github.com/FreeCodeCamp/freecodecamp/wiki/camperbot)
-
 ## Learning how to use!
 For playing with CamperBot please use the testing channel:
 [https://gitter.im/camperbot/testing](https://gitter.im/camperbot/testing)
