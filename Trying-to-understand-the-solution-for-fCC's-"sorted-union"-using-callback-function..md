@@ -21,4 +21,4 @@ Hopefully the following post is appropriate for this forum...
 
    I would greatly appreciate someone explaining the above example to me or at least where the heck I would learn to do what's apparently been done in this example.
 ****
-**chris dot r dot lafave at gmail dot com**
+## **chris dot r dot lafave at gmail dot com**
