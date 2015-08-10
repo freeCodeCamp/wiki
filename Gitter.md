@@ -6,4 +6,4 @@
 
 Free Code Camp has hundreds of Gitter rooms. These are accessible through Gitter's website, as well as [desktop and mobile apps](https://gitter.im/apps).
 
-Gitter allows you to share [formatted code]https://github.com/FreeCodeCamp/freecodecamp/wiki/Pasting-Code-in-Gitter) with fellow campers.
+Gitter allows you to share [formatted code](https://github.com/FreeCodeCamp/freecodecamp/wiki/Pasting-Code-in-Gitter) with fellow campers.
