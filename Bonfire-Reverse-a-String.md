@@ -4,7 +4,7 @@ Our goal for this bonfire is to reverse the provided string just like the image.
 
 1. The final object is expected to be a string
 2. "hello" is expected to be "olleh"
-3. "Howdy" is expected to be "ydowH"
+3. "Howdy" is expected to be "ydwoH"
 4. "Greetings from Earth" is expected to be "htraE morf sgniteerG"
 &nbsp;
 
