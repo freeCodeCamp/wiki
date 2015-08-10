@@ -34,7 +34,7 @@
 | Beirut | [Facebook](https://www.facebook.com/groups/free.code.camp.beirut/) | [Gitter](//gitter.im/freecodecamp/Beirut) |
 | Belem | [Facebook](//www.facebook.com/groups/free.code.camp.belem/) | [Gitter](//gitter.im/freecodecamp/Belem) |
 | Belgrade | [Facebook](//www.facebook.com/groups/free.code.camp.belgrade/) | [Gitter](//gitter.im/freecodecamp/Belgrade) |
-| belize City | [Facebook](https://www.facebook.com/groups/free.code.camp.belize.city/) | [Gitter](//gitter.im/freecodecamp/BelizeCity) |
+| Belize City | [Facebook](https://www.facebook.com/groups/free.code.camp.belize.city/) | [Gitter](//gitter.im/freecodecamp/BelizeCity) |
 | Belize | [Facebook](//www.facebook.com/groups/free.code.camp.belize/) | [Gitter](//gitter.im/freecodecamp/Belize) |
 | Bellingham | [Facebook](//www.facebook.com/groups/free.code.camp.bellingham/) | [Gitter](//gitter.im/freecodecamp/Bellingham) |
 | Belo Horizonte | [Facebook](//www.facebook.com/groups/free.code.camp.belo.horizonte/) | [Gitter](//gitter.im/freecodecamp/BeloHorizonte) |
@@ -155,7 +155,7 @@
 | Hyderabad | [Facebook](//www.facebook.com/groups/free.code.camp.hyderabad/) | [Gitter](//gitter.im/freecodecamp/Hyderabad) |
 | Iasi | [Facebook](//www.facebook.com/groups/free.code.camp.iasi.romania/) | [Gitter](//gitter.im/freecodecamp/Iasi) |
 | idaho Falls | [Facebook](https://www.facebook.com/groups/free.code.camp.idaho.falls.idaho/) | [Gitter](//gitter.im/freecodecamp/IdahoFalls) |
-| Indianapolis | [Facebook](//www.facebook.com/groups/free.code.camp.indianapolis.il/) | [Gitter](//gitter.im/freecodecamp/Indianapolis) |
+| Indianapolis | [Facebook](//www.facebook.com/groups/free.code.camp.indianapolis.in/) | [Gitter](//gitter.im/freecodecamp/Indianapolis) |
 | Ipswich | [Facebook](https://www.facebook.com/groups/free.code.camp.ipswich.qld/) | [Gitter](//gitter.im/freecodecamp/Ipswich) |
 | Irkutsk | [Facebook](//www.facebook.com/groups/free.code.camp.irkutsk/) | [Gitter](//gitter.im/freecodecamp/Irkutsk) |
 | Isfahan | [Facebook](https://www.facebook.com/groups/free.code.camp.isfahan/) | [Gitter](//gitter.im/freecodecamp/Isfahan) |
@@ -232,7 +232,7 @@
 | Montgomery | [Facebook](//www.facebook.com/groups/free.code.camp.montgomery.alabama/) | [Gitter](//gitter.im/freecodecamp/Montgomery) |
 | Montreal | [Facebook](//www.facebook.com/groups/free.code.camp.montreal/) | [Gitter](//gitter.im/freecodecamp/Montreal) |
 | Moosejaw | [Facebook](//www.facebook.com/groups/free.code.camp.moosejaw) | [Gitter](//gitter.im/freecodecamp/Moosejaw) |
-| MorganCity | [Facebook](//www.facebook.com/groups/free.code.camp.morgan.ciry.la/) | [Gitter](//gitter.im/freecodecamp/MorganCity) |
+| Morgan City | [Facebook](//www.facebook.com/groups/free.code.camp.morgan.ciry.la/) | [Gitter](//gitter.im/freecodecamp/MorganCity) |
 | Moscow | [Facebook](//www.facebook.com/groups/free.code.camp.moscow/) | [Gitter](//gitter.im/freecodecamp/Moscow) |
 | Moss Point | [Facebook](https://www.facebook.com/groups/free.code.camp.moss.point.mississippi/) | [Gitter](//gitter.im/freecodecamp/MossPoint) |
 | Multan | [Facebook](//www.facebook.com/groups/free.code.camp.multan) | [Gitter](//gitter.im/freecodecamp/Multan) |
