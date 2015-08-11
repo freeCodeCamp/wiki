@@ -1,0 +1,1 @@
+you can get points from being thanked by people
