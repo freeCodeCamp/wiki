@@ -15,6 +15,7 @@ The following are our language-specific chat rooms.
 - [Portugues](https://gitter.im/freecodecamp/Portugues)
 - [Romanian](https://gitter.im/freecodecamp/Romanian)
 - [Russian](https://gitter.im/freecodecamp/Russian)
+- [Swedish](https://gitter.im/freecodecamp/Swedish)
 - [Thai](https://gitter.im/freecodecamp/Thai)
 - [Tagalog](https://gitter.im/freecodecamp/Tagalog)
 - [Vietnamese](https://gitter.im/freecodecamp/Vietnamese)
