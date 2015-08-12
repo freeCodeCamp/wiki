@@ -2,6 +2,11 @@
 
 ![@Rafase282](https://avatars1.githubusercontent.com/u/285138?v=3&s=460) submitted by Rafase282 | https://github.com/Rafase282
 
+* FreeCodeCamp Profile: http://www.freecodecamp.com/rafase282
+* CodePed Profile: http://codepen.io/Rafase282/
+* LinkedIn: https://www.linkedin.com/in/rafase282
+### [My Original Wiki](http://rafase282.github.io/My-FreeCodeCamp-Code/)
+
 ## Details
 
 * Difficulty: 3/5
@@ -89,5 +94,3 @@ var Person = function(firstAndLast) {
     };
 };
 ```
-
-### [Original Wiki](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki)
