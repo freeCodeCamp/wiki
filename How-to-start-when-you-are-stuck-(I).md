@@ -16,4 +16,4 @@ More information about this you can find here https://en.wikipedia.org/wiki/Flow
 
 Every bonfire in Free Code Camp curriculum can be solved using pseudocode and after that translated using javascript in a functional javascript code.
 
-**Check out the example here.**
+**[How to start when you are stuck (I)](https://github.com/FreeCodeCamp/freecodecamp/wiki/How-to-start-when-you-are-stuck-(I))** (check out the examples)
