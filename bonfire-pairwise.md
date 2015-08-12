@@ -45,13 +45,34 @@ Remember that arrays start at index 0 and go from there so from [1,4,2,3,0,5] if
 Remember to return the smaller sum if multiple are possible. This mean ```[1,1,1],1 should use 0 + 1 instead of 0+1 & 1 +1 , etc```
 
 ## Hint: 2
-soon
+Try using an array of indices to track when an indice has been used or not.
 
 ## Hint: 3
-soon
+It is easy to confuse indices as being numbers, but since you will be interactign with them, make sure to workw ith them as integers to prevent the code from behaving erractically.
 
 # My code
 
 ```
-soon to come
+function pairwise(arr, arg) {
+    var index = [];
+    for (var a in arr){
+        var temp = arr[a];
+        for (var i=1; i < arr.length; i++) {
+            var temp2 = arr[i];
+            //console.log(index);
+            if (temp + temp2 === arg && i > a && index.indexOf(+a) === -1 && index.indexOf(+i) === -1){
+                index.push (+a,+i);
+                console.log(index);
+                break;
+            }
+        }
+    }
+    if (index.length >= 1) {
+        var addAll = function( a,b){
+            return a + b;
+        };
+        return index.reduce(addAll);
+    } else 
+        return 0;
+}
 ```
