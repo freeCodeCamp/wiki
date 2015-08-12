@@ -42,7 +42,7 @@ Remember that arrays start at index 0 and go from there so from [1,4,2,3,0,5] if
 
 ## Hint: 1
 
-soon
+Remember to return the smaller sum if multiple are possible. This mean ```[1,1,1],1 should use 0 + 1 instead of 0+1 & 1 +1 , etc```
 
 ## Hint: 2
 soon
