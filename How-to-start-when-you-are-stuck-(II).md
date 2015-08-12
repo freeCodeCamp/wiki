@@ -1,5 +1,7 @@
 **[How to start when you are stuck (I)](https://github.com/FreeCodeCamp/freecodecamp/wiki/How-to-start-when-you-are-stuck-(I))**
 
+**[How to start when you are stuck (III)](https://github.com/FreeCodeCamp/freecodecamp/wiki/How-to-start-when-you-are-stuck-(III))**
+
 Let’s try an example. If we take a look at one of the Free Code Camp exercices, and let’s choose a more simple one: [find the longest word in a string](http://www.freecodecamp.com/challenges/bonfire-find-the-longest-word-in-a-string). We can start and draw a flowchart for it and write a first solution in pseudocode.
 
 ![](http://biancamihai.github.io/img/bonfire-1.png)
@@ -25,4 +27,4 @@ Searching through the MDN documentation you’ll find out that you can use the m
 
 ![](http://biancamihai.github.io/img/bonfire-3.png)
 
-**How to start when you are stuck (III)**
+**[How to start when you are stuck (III)](https://github.com/FreeCodeCamp/freecodecamp/wiki/How-to-start-when-you-are-stuck-(III))**
