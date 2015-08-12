@@ -1,4 +1,6 @@
-### How to start when you are stuck...
+**[How to start when you are stuck (II)](https://github.com/FreeCodeCamp/freecodecamp/wiki/How-to-start-when-you-are-stuck-(II))**
+
+**[How to start when you are stuck (III)](https://github.com/FreeCodeCamp/freecodecamp/wiki/How-to-start-when-you-are-stuck-(III))**
 
 You are a camper just like me, you get to an exercise and you get stuck … just like anyone else. You have no idea how to start, you stare at your editor and you think you must have a problem, surely you are not developer material … well you’re wrong!  Perhaps you are just like me? I’m a visual person, I like a drawing better than a text. Everytime the same problem put down in a schema makes more sense to me than if you gave me a text. So … what do I do when I have problems solving/understanding an exercise? I start to draw. After I have my drawing in place if I need more to translate it to code I can also write it in pseudocode. After that transposing it to code should not be very hard. 
 
@@ -16,4 +18,4 @@ More information about this you can find here https://en.wikipedia.org/wiki/Flow
 
 Every bonfire in Free Code Camp curriculum can be solved using pseudocode and after that translated using javascript in a functional javascript code.
 
-**[How to start when you are stuck (I)](https://github.com/FreeCodeCamp/freecodecamp/wiki/How-to-start-when-you-are-stuck-(I))** (check out the examples)
+**[How to start when you are stuck (II)](https://github.com/FreeCodeCamp/freecodecamp/wiki/How-to-start-when-you-are-stuck-(II))**
