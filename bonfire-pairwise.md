@@ -6,7 +6,7 @@
 * CodePed Profile: http://codepen.io/Rafase282/
 * LinkedIn: https://www.linkedin.com/in/rafase282
 
-## [My Original Wiki](http://rafase282.github.io/My-FreeCodeCamp-Code/)
+# [My Original Wiki](http://rafase282.github.io/My-FreeCodeCamp-Code/)
 
 # Details
 
@@ -24,7 +24,7 @@ Remember to use [RSAP](http://www.freecodecamp.com/field-guide/how-do-i-get-help
 
 * [Array.reduce()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
 
-## Problem Script:
+# Problem Script:
 
 ```
 function pairwise(arr, arg) {
