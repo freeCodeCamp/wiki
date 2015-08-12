@@ -196,7 +196,7 @@
 | Lahore | [Facebook](//www.facebook.com/groups/free.code.camp.lahore/) | [Gitter](//gitter.im/freecodecamp/Lahore) |
 | Lakeland | [Facebook](https://www.facebook.com/groups/Free.Code.Camp.Lakeland.Florida/) | [Gitter](//gitter.im/freecodecamp/Lakeland) |
 | Las Cruces | [Facebook](//www.facebook.com/groups/free.code.camp.lc.nm/) | [Gitter](//gitter.im/freecodecamp/LasCruces) |
-| Las Vegas | [Facebook](https://www.facebook.com/groups/free.code.camp.lasvegas.nevada/) | [Gitter](//gitter.im/freecodecamp/LasVegas) |
+| Las Vegas | [Facebook](https://www.facebook.com/groups/free.code.camp.las.vegas.nv/) | [Gitter](//gitter.im/freecodecamp/LasVegas) |
 | Leesburg | [Facebook](//www.facebook.com/groups/free.code.camp.leesburg/) | [Gitter](//gitter.im/freecodecamp/Leesburg) |
 | Leesville | [Facebook](//www.facebook.com/groups/free.code.camp.leesville.la/) | [Gitter](//gitter.im/freecodecamp/Leesville) |
 | Lehi | [Facebook](//www.facebook.com/groups/free.code.camp.lehi/) | [Gitter](//gitter.im/freecodecamp/Lehi) |
