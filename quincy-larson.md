@@ -1,1 +1,1 @@
-He is the founder of this lovely community!
+> Founder of [FreeCodeCamp.com](http://freecodecamp.com) !
