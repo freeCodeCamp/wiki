@@ -1,6 +1,6 @@
 > IIFE — initialism for Immediately Invoked Function Expression
 
-Keep your data inside the closure!
+Keep your data inside the [closure](js-closure)!
 
 ```js
 (function(){
