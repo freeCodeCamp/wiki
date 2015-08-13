@@ -44,39 +44,48 @@ orbitalPeriod([{name : "sputkin", avgAlt : 35873.5553}]);
 
 ## Explanation:
 
-The first thing to do is to get familiar with what the program is for, for this I would suggest you check the wikipedia link as that is very important and from where you can also get the formula for the conversion. The hardest part are finding the formula, implementing it and for some modifiying objects by the key.
+The first thing to do is to get familiar with what the program is for, for this I would suggest you check the Wikipedia link as that is very important and from where you can also get the formula for the conversion. The hardest part are finding the formula, implementing it and for some modifying objects by the key. However, something that is not very clear is the fact that your program has to be able to check for any number od objects in the array which is what is tested on the second part.
 
 ## Hint: 1
 
 The formula needed is: T = 2*pi * sqrt(earthRadius + avgAlt to the cube / GM)
 
 ## Hint: 2
-Use ceil to round up to the next whole number as requested.
+Use Math.round() to round up to the next whole number as requested. Using Math.ceil() will let you pass the first test but fail the second one.
 
 ## Hint: 3
 Find out how to remove and add key to an object
 
-# My code
+## My code
 
 ```
 function orbitalPeriod(arr) {
 	var GM = 398600.4418;
 	var earthRadius = 6367.4447;
 	var a = 2 * Math.PI;
-	var c = Math.pow(earthRadius + arr[0].avgAlt ,3);
-	var b = Math.sqrt(c/GM);
-	var orbPeriod = Math.ceil(a * b);
-	delete arr[0].avgAlt;
-	arr[0].orbitalPeriod = orbPeriod;
-	return arr;
+	var newArr = [];
+	var getOrbPeriod = function (obj) {
+	    var c = Math.pow(earthRadius + obj.avgAlt ,3);
+	    var b = Math.sqrt(c/GM);
+	    var orbPeriod = Math.round(a * b);
+	    delete obj.avgAlt;
+	    obj.orbitalPeriod = orbPeriod;
+	    return obj;
+	};
+	
+	for (var elem in arr){
+	    newArr.push(getOrbPeriod(arr[elem]));
+	}
+	return newArr;
 }
 ```
-
 ## Code Explanation:
 
 * The GM and earthRadius is given to us.
 * To make the code easier to edit and read, I separated each part of the equation.
-* a is 2 times pi.
+* Create a new array to store the orbPeriods.
+* a is 2 times pi. The part that is a constant is on the global scope while the rest is part of a function.
+* Create a function that will do the required work for any amount of objects.
 * c is the power of earthRadius + the value of avgAlt to the cube.
 * b is the square root of c divided by GM.
 * Create orbPeriod to store the product of a & b, with the ceiling function applied to round up to the next whole number.
