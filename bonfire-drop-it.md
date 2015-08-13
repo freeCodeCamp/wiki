@@ -13,58 +13,48 @@
 * Difficulty: 2/5
 
 Drop the elements of an array (first argument), starting from the front, until the predicate (second argument) returns true.
+Remember to use [RSAP](http://www.freecodecamp.com/field-guide/how-do-i-get-help-when-I-get-stuck) if you get stuck. Try to pair program. Write your own code.
+
 # Useful Links
 
-* [Array.isArray()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray)
+* [Arguments object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments)
+* [Array.shift()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift)
 
 # Problem Script:
 
 ```
-function steamroller(arr) {
-  // I'm a steamroller, baby
+function drop(arr, func) {
+  // Drop them elements.
   return arr;
 }
 
-steamroller([1, [2], [3, [[4]]]]);
+drop([1, 2, 3], function(n) {return n < 3; });
 ```
 
 ## Explanation:
 
-This problem seems simple but you need to make sure to flatten any array, regardless of the level which is what adds a bit of difficulty to the problem.
+Basically while the second argument is not true, you will have to remove the first element from the left of the array that was passed as the first argument.
 
 ## Hint: 1
-You need to check if an element is an array or not.
+You can use Array.shift() or filter that you should be more familiar with to solve this problem in a few lines of code.
 
 ## Hint: 2
-If you are dealing with an array, then you need flatten it by getting the value inside of the array. This means if you have [[4]] then instead of returning [4] you need to return 4. If you get [[[4]]] then the same, you want the 4. You can access it with arr[index1][index2] to go a level deeper.
+Shift returns the element that was removed which we don't really need, all we need is the modified array that is left.
 
 ## Hint: 3
-You will definitely need recursion or another way to go beyond two level arrays to make the code flexible and not hard-coded to the answers needed. Have fun!
+If you still can't figure out how to solve it with shift, then try solving it with filter, and check how filter works, if you become familiar with it, then you can make the code with shift.
 
 ## My code:
 
 ```
-function steamroller(arr) {
-	var flattenedArray = [];
-	var flatten = function (arg) {
-		if (!Array.isArray(arg)){
-			flattenedArray.push(arg);
-		} else {
-			for (var a in arg) {
-				flatten(arg[a]);
-			}
-		}
-	};
-	arr.forEach(flatten);
-	return flattenedArray;
+function drop(arr, func) {
+  return arr.filter(func);
 }
+
+drop([1, 2, 3], function(n) {return n < 3; });
 ```
+
 ## My Code Explanation:
 
-* Create a new variable to keep flattened arrays.
-* Create a function that will add non array elements to the new variable, and for the ones that are array it loops through them to get the element.
-* It does that by using recursion, if the element is an array then call the function again with a layer of array deeper to check if it is an array or not. if it is not then push that non-array element to the variable that gets returned. Otherwise, keep going deeper.
-* Use Array.forEach(callbackFunc) to go element by element of the original array.
-* Return the flattened array.
-
-## [Go Home](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki)
+* I used filter as I was more familiar with it.
+* I have it filter the array to remove the elements that needs to be removed.
