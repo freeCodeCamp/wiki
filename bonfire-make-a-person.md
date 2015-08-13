@@ -6,9 +6,8 @@ submitted by Rafase282
 [github](https://github.com/Rafase282) |
 [FreeCodeCamp](http://www.freecodecamp.com/rafase282) | 
 [CodePen](http://codepen.io/Rafase282/) |
-[LinkedIn](https://www.linkedin.com/in/rafase282)
-
-## [My Original Wiki](http://rafase282.github.io/My-FreeCodeCamp-Code/)
+[LinkedIn](https://www.linkedin.com/in/rafase282) |
+[My Original Wiki](http://rafase282.github.io/My-FreeCodeCamp-Code/)
 
 ## Details
 
