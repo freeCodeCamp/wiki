@@ -39,16 +39,22 @@ function add() {
 add(2,3);
 ```
 ## Explanation:
-to-do
+It can be quite complicated to understand what needs to be done. There is always many qays to do somethign when coding but regardless of the algorithm used, 
+we have to create a program that does the following:
+
+* It has to add two numbers passed as parameters and return the addition.
+* It has to check if any of the numbers are actual numbers, otherwise return **undefined** and stop the program right there.
+* It has to check if it has one or two arguments passed. More re ignored.
+* If it has only one then it has to return a function that used that number and expects another one, to then add it.
 
 ## Hint: 1
-to-do
+Every time you deal with an argument, you have to check if it is a number or not. For this a function that handles this task will save you repeated code.
 
 ## Hint: 2
-to-do
+When working on the case that it needs to return the function, it is wise to check if the first and only argument is a number again and base the code on that.
 
 ## Hint: 3
-to-do
+In the case that only one argument was passed, do not worry about how to prompt input for the second one, just make the function definition properly and things will work out the way they should.
 
 ## My code
 
