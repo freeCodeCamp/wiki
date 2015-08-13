@@ -10,11 +10,12 @@
 * **RegEx Cheatsheet:** http://www.cheatography.com/davechild/cheat-sheets/regular-expressions
 * **MDN RegEx Guide:** https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
 * **StackOverflow RegEx FAQ:** http://stackoverflow.com/a/22944075/1262108
+* **RegEx Video Tutorial: ** https://www.youtube.com/watch?v=EkluES9Rvak
 
 ## RegEx Testing Ground
 * **RegEx Visualizer:** https://www.debuggex.com/?flavor=javascript
 * **RegEx Challenges in Hackerrank:** https://www.hackerrank.com/domains/algorithms/regex (practice)
-
+* **RegEx Regexplained: ** https://leaverou.github.io/regexplained/
 ## RegEx Gameplay
 * **RegEx Golf:** http://regex.alf.nu
 * **RegEx Crossword:** http://regexcrossword.com
