@@ -1,8 +1,8 @@
-When you get stuck, remember: RSA.
+When you get stuck, remember: Read-Search-Ask.
 
-- **Read** the documentation or error
-- **Search** Google
-- **Ask** your friends for help
+1) **Read** the documentation or error    
+2) **Search** Google    
+3) **Ask** your friends for help    
 
 This is the most time-efficient way to handle being stuck, and it's the most respectful of other people's time, too.
 
