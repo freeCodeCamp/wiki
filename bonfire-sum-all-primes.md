@@ -56,7 +56,6 @@ function sumPrimes(num) {
         var sieve = [], i, j, primes = [];
         for (i = 2; i <= max; ++i) {
             if (!sieve[i]) {
-                // i has not been marked -- it is prime
                 primes.push(i);
                 for (j = i << 1; j <= max; j += i) {
                     sieve[j] = true;
@@ -65,7 +64,6 @@ function sumPrimes(num) {
         }
     return primes;
     }
-    // Add the primes
     var primes = getPrimes(num);
     for (var p in primes) {
         res+= primes[p];
@@ -78,5 +76,7 @@ return res;
 
 * Create a function that generates the numbers from 1 to **num** and check if they are prime along the way.
 * Declare the variables that will be needed.
-
-## [Go Home](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki)
+* Start with 2, if it has not been marked and added to the sieve array then it is a prime and we add it to the prime array.
+* Add the others to the sieve array.
+* Return the primes
+* Loop through the returned array and add all the elements to then return the final value.
