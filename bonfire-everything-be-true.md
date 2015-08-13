@@ -35,7 +35,7 @@ function every(collection, pre) {
 every([{'user': 'Tinky-Winky', 'sex': 'male'}, {'user': 'Dipsy', 'sex': 'male'}, {'user': 'Laa-Laa', 'sex': 'female'}, {'user': 'Po', 'sex': 'female'}], 'sex');
 
 ```
-# Explanation:
+## Explanation:
 
 The program needs to check if the second argument is a truthy element, and it must check this for each object in the first argument.
 
@@ -50,7 +50,7 @@ Only if all of them are truth will we return true, so make sure all of them chec
 ## Hint: 3
 You could use loops or callbacks functions, there are multiple ways to solve this problem.
 
-# My Code:
+## My Code:
 ```
 function every(collection, pre) {
   var counter = 0;
