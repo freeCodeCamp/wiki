@@ -71,3 +71,13 @@ function orbitalPeriod(arr) {
 	return arr;
 }
 ```
+
+## Code Explanation:
+
+* The GM and earthRadius is given to us.
+* To make the code easier to edit and read, I separated each part of the equation.
+* a is 2 times pi.
+* c is the power of earthRadius + the value of avgAlt to the cube.
+* b is the square root of c divided by GM.
+* Create orbPeriod to store the product of a & b, with the ceiling function applied to round up to the next whole number.
+* Then we delete the key avgAlt, and add the new key and its value.
