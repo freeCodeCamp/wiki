@@ -1,4 +1,4 @@
-Hi I'm **[CamperBot](https://github.com/FreeCodeCamp/freecodecamp/wiki/camperbot)**! I can help you in this chatroom :smile: 
+Hi, I'm **[CamperBot](https://github.com/FreeCodeCamp/freecodecamp/wiki/camperbot)**! I can help you in this chatroom :smile: 
 
 ### Basic Commands:
 - ``find TOPIC``  find all entries about topic. ex: `find js`
