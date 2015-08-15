@@ -5,3 +5,5 @@ Yeoman is a tool that allows you to generate barebones apps based on different s
 Once you’ve completed the Waypoint: Get Set for Basejumps, use this guide to navigate the base structure of your new app and learn how to interact with the database as well as the user.
 
 [NEXT](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Guide-to-Basejumps-Table-of-Contents)
+
+Sourced from (https://github.com/clnhll/guidetobasejumps) with permission.
