@@ -12,4 +12,4 @@ $scope.isLoggedIn = Auth.isLoggedIn;
 And then you can use *isLoggedIn()* or *getCurrentUser()* in the HTML view for your controller!  
 
 [PREVIOUS](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/More-useful-APIs)
-[NEXT]()
+[NEXT](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Restrict-a-page-to-authenticated-users)
