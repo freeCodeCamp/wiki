@@ -11,4 +11,4 @@ exports.update = function(req, res) {
 ~~~
 
 [PREVIOUS](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Creating-a-new-API-endpoint)
-[NEXT]()
+[NEXT](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Accessing-the-database-from-your-frontend)
