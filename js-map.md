@@ -15,7 +15,7 @@ var uppercaseNames = names.map(function(name) {
 };
 ```
 Now if we `console.log(uppercaseNames)` we will get this:
-> Array(4) -> ["LEIA", "ANAKIN", "LUKE", "OBI WAN KENOBI"]
+> `Array(4) -> ["LEIA", "ANAKIN", "LUKE", "OBI WAN KENOBI"]`
 
 But how does it work? Let's dive in more into it.
 
