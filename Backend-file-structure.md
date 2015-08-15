@@ -6,4 +6,4 @@ Let’s take a look at **/server/api/thing**:
 3. **thing.model.js**: Here, the actual structure of a *thing* object is defined. You can add or remove any fields you want from the *thing* model, and as long as they’re syntactically correct they won’t break anything, even if there are *things* with different schemas in your database already. But! You don’t just have to edit the *thing* model to make a new type of collection, because generator-angular-fullstack can do it for you!
 
 [PREVIOUS](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Grunt)
-[NEXT]()
+[NEXT](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Creating-a-new-API-endpoint)
