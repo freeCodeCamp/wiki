@@ -27,4 +27,4 @@ var wallOwner = $routeParams.username;
 ~~~
 
 [PREVIOUS](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Quick-tip:-keep-data-in-sync)
-[NEXT]()
+[NEXT](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/More-useful-APIs)
