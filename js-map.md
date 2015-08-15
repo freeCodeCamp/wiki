@@ -42,7 +42,8 @@ var jediMastersSayHi = jediMasters.map(function(jediName, jediIndex) {
 ```
 
 If we now console out the values of the two arrays, we get this:
-![Map in action](https://www.evernote.com/shard/s539/sh/3187427b-475e-40a2-af10-33d55238004c/3e1b0be39070dba27949bf1132a46bd2/res/c7052276-e41a-4efe-ad3e-39d0d27da3dc/skitch.png)
+
+![Map in action](https://www.evernote.com/shard/s539/sh/75d6da94-dd29-4dd6-98b7-9ee7260533ca/21e0ed3c9e391b9507128a42d2b12421/res/77e93999-b27c-46c5-b101-f9ed32d7aee0/skitch.png)
 
 If you are asking why one of the values in the string concatenation is `(jediIndex + 1)`, that's because **indices are 0-based**, we would get 0, 1, 2 and 3 for our Jedi's and that's not cool. Check that IF statement just sitting there, what does it do? Simple, it checks if the current Jedi is Obi Wan, if it is, then the new value of that element of the array (the new one) should be different from the rest.
 
