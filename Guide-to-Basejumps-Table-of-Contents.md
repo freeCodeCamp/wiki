@@ -1,26 +1,31 @@
 ###Table of contents
-* [Part 1: Frontend](#part-1-frontend)
-    - [Frontend file structure](#frontend-file-structure)
-    - [Creating a new route](#creating-a-new-route)
-    - [Creating a new directive](#creating-a-new-directive)
-    - [Grunt](#grunt)
-* [Part 2: Backend](#part-2-backend)
-    - [Backend file structure](#backend-file-structure)
-    - [Creating a new API endpoint ](#creating-a-new-api-endpoint)
-    - [Fixing exports.update](#fixing-exportsupdate)
-* [Part 3: Interfacing Between Frontend & Backend](#part-3-interfacing-between-frontend--backend)
-    - [Accessing the database from your frontend](#accessing-the-database-from-your-frontend)
-    - [Seed Data](#seed-data)
-    - [Quick tip: keep data in sync](#quick-tip-keep-data-in-sync)
-* [Part 4: Dynamic URLs using $routeParams, more useful APIs](#part-4-dynamic-urls-using-routeparams-more-useful-apis)
-    - [Dynamic URLS using $routeParams](#dynamic-urls-using-routeparams)
-    - [More Useful APIs](#more-useful-apis)
-* [Part 5: Auth, isLoggedInAsync()](#part-5-auth-isloggedinasync)
-    - [Get info about the current user](#get-info-about-the-current-user)
-    - [Restrict a page to authenticated users](#restrict-a-page-to-authenticated-users)
-    - [isLoggedInAsync()](#isloggedinasync)
-* [Bonus: SocketIO](#bonus-socketio)
-* [Epilogue](#epilogue)
+* Part 1: Frontend
+    - [Frontend file structure](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Frontend-file-structure)
+    - [Creating a new route](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Creating-a-new-route)
+    - [Creating a new directive](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Creating-a-new-directive)
+    - [Grunt](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Grunt)
+* Part 2: Backend
+    - [Backend file structure](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Backend-file-structure)
+    - [Creating a new API endpoint](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Creating-a-new-API-endpoint)
+    - [Fixing exports.update](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Fixing-exports.update)
+* Part 3: Interfacing Between Frontend & Backend
+    - [Accessing the database from your frontend](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Accessing-the-database-from-your-frontend)
+    - [Seed Data](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Seed-data)
+    - [Quick tip: keep data in sync](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Quick-tip:-keep-data-in-sync)
+* Part 4: Dynamic URLs using $routeParams, more useful APIs
+    - [Dynamic URLS using $routeParams](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Dynamic-URLs-using-$routeParams)
+    - [More Useful APIs](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/More-useful-APIs)
+* Part 5: Auth, isLoggedInAsync()
+    - [Get info about the current user](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Get-info-about-the-current-user)
+    - [Restrict a page to authenticated users](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Restrict-a-page-to-authenticated-users)
+    - [isLoggedInAsync()](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/isLoggedInAsync())
+* [Bonus: SocketIO](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Bonus:-SocketIO)
+* [Epilogue](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Epilogue)
+
+###Legend
+**/bolded/names/with.extensions** are directories and files in the project file structure  
+<a href="#">highlighted.items/are/hypothetical</a> URLs that allow access to different pages in your app  
+*italicizedItems* are function and object names within your code
 
 [PREVIOUS](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Intro-to-Yeoman-Angular-Fullstack-Basejumps)
 [NEXT]()
