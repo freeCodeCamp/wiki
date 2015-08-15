@@ -14,4 +14,4 @@ $scope.isLoggedInAsync(callback(bool) {
 ~~~
 
 [PREVIOUS](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Restrict-a-page-to-authenticated-users)
-[NEXT]()
+[NEXT](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Bonus:-SocketIO)
