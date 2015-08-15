@@ -4,8 +4,8 @@ Camper News is a link sharing tool, based on popular collaborative filtering sys
 
 Camper News is intentionally simple. You can:
 
-1) Browse and search through the camper-submitted links
-2) Upvote links
-3) Submit links of your own
+1. Browse and search through the camper-submitted links
+1. Upvote links
+1. Submit links of your own
 
 Our links are ranked in order of "hotness", which is a combination of each link's upvote count, and how recently the link was submitted.
