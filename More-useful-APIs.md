@@ -28,4 +28,4 @@ exports.indexUser = function(req, res) {
 Warning!!! this method only works right if usernames are absolutely unique between users. The default authentication system that comes with the angular-fullstack generator does not have unique usernames, so you’re probably better off using the *user._id* field to determine unique users in your database for now, unless you want to implement unique user names yourself by altering your **/api/user/user.model.js**, **/api/user/user.controller.js**, and your **/app/client/account/signup/signup.controller.js**. Thankfully, you should know how to go about doing all that after reading this guide!
 
 [PREVIOUS](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Dynamic-URLs-using-%24routeParams)
-[NEXT]()
+[NEXT](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Get-info-about-the-current-user)
