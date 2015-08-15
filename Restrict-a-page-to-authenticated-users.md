@@ -12,4 +12,4 @@ Let's say you have a route that you want to restrict to logged-in users; maybe y
 This way, if the user isn't authenticated when they try to access the <A href="#">/profile</a> page, they'll be redirected to your login screen to authenticate before continuing to their profile page.
 
 [PREVIOUS](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Get-info-about-the-current-user)
-[NEXT]()
+[NEXT](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/isLoggedInAsync())
