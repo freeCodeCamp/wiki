@@ -16,4 +16,4 @@ Here are the challenges that will make up our Basic Front End Development Certif
 
 This won't be a new curriculum - it will just be the first 400 hours of our full stack JavaScript curriculum.
 
-All campers who have already completed these challenges are retroactively be eligible for the certificate.
+All campers who have already completed these challenges will retroactively be eligible for the certificate.
