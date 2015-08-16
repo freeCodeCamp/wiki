@@ -1,0 +1,55 @@
+The arguments object is an **array-like object** *(meaning that it looks like an array but it's not)* that stores all of the arguments that you passed to a function and is proprietary to that function in particular. If you were to pass 3 arguments to a function, say `storeNames()`, those 3 arguments would be stored inside an object called **arguments** and it would look like this when we pass the arguments `storeNames("Mulder", "Scully", "Alex Krycek")` to our function:
+
+1. First, we declare a function and make it return the arguments object.
+
+![function](https://www.evernote.com/shard/s539/sh/d7218374-6df1-463d-9ca5-94a514e8846a/81a5f2980a670c4558a1a002979bce7b/res/e6c13ad7-4630-47da-a941-777a5d09b745/skitch.png)
+
+2. When we execute that function with **n arguments**, in this case 3, it will return the object to us and it will **look like** an array. We can convert it to an array though, but more on that later...
+
+![execution](https://www.evernote.com/shard/s539/sh/7cf74323-8154-4f69-82d6-0627bb9dfa5d/ddb56f6a4c5be0a48d98322fcf56ea79/res/7d7ead0f-4e44-47c2-81e2-e75b959c5384/skitch.png)
+
+If you want to know more about this, such as converting it to an array or the optimization problem that comes with using the *slice(*) method and how to solve it, click on **read more** (Gitter Chat Only).
+
+## Treat it as an array
+You can invoke arguments by using `arguments[n]` (where *n* is the index of the argument in the array-like object) but if you want to use it as an array for iteration purposes or applying array methods to it, you need to *convert it to an array* by declaring a variable and using the Array.prototype.slice.call method (because *arguments* is not an array):
+
+``` javascript
+var args = Array.prototype.slice.call(arguments)
+```
+
+Since **slice()** has two (the parameter **end** is optional) parameters, you can grab a certain portion of the arguments by specifying (using the *slice.call()* method renders these two parameters optional, not just *end*) the beginning and the ending of your portion; check out the following code:
+
+``` javascript
+function getGrades() {
+	var args = Array.prototype.slice.call(arguments, 1, 3);
+	return args;
+}
+
+// Let's output this!
+console.log(getGrades(90, 100, 75, 40, 89, 95));
+
+// OUTPUT SHOULD BE: //
+// [100, 75] <- Why? Because it started from index 1 and stopped at index 3
+// so, index 3 (40) wasn't taken in consideration.
+//
+// If we remove the '3' parameter, leaving just (arguments, 1) we'd get
+// every argument from index 1: [100, 75, 40, 89, 95].
+```
+
+### Optimization issues with Array.slice()
+
+There is a little problem, it's not recommended to use slice in the arguments object (optimization reasons)...
+
+> **Important**: You should not slice on arguments because it prevents optimizations in JavaScript engines (V8 for example). Instead, try constructing a new array by iterating through the arguments object. 
+
+> *by* ***Mozilla Developer Network***
+
+So, what other method is available to convert *arguments* to an array?
+I recommend the for-loop (not the for-in loop), you can do it like this:
+
+``` javascript
+	var args = []; // Empty array, at first.
+	for (var i = 0; i < arguments.length; i++) {
+		args.push(arguments[i])
+	} // Now 'args' is an array that holds your arguments.
+```
