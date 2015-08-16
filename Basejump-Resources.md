@@ -14,6 +14,11 @@ https://johnstonbl01.github.io/clementinejs/tutorials/tutorial-beginner.html
 An amazing list of resources for learning the MEAN stack:
 https://github.com/ericdouglas/MEAN-Learning
 
-#### Scotch IO Tutorials
+### Scotch IO Tutorials
 * https://scotch.io/tutorials/setting-up-a-mean-stack-single-page-application   
 * https://scotch.io/tutorials/node-and-angular-to-do-app-application-organization-and-structure
+
+### Cloud 9 Tricks
+##### Speed up browser reloads
+1. Open gruntfile.js and edit both instances of `livereload: true` to `livereload: false`.
+2. Open server/config/express.js and comment out the line `app.use(require('connect-livereload')());`
