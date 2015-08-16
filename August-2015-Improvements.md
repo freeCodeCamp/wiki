@@ -1,5 +1,9 @@
 We started deploying our backlog of improvements at Noon EST Saturday. We still aren't finished and won't sleep until we are. Thanks for your patience.
 
+![WIP](http://nuovaicona.org/images/elements/wip.png)
+
+read below for specific issues!
+
 ## Common Problems and Solutions
 
 ### I can't log in with my e-mail address
