@@ -6,7 +6,7 @@ The method `map` of the Array prototype allows you to grab a hold of each elemen
 `myAwesomeArray.map(myAwesomeFunction)`
 
 Since **map** doesn't mutate the original array, it should be used as a value, stored inside a variable, passed in as a **returned value** inside a function (the most common case) and many other things.
-Let's learn a little bit what this powerful function can do! Say we have an array of  names and we want to create a new array with these names but UPPERCASED.
+Let's learn a little bit of what this powerful function can do! Say we have an array of  names and we want to create a new array with these names but UPPERCASED.
 
 ``` javascript
 var names = ["Leia", "Anakin", "Luke", "Obi Wan Kenobi"];
@@ -17,7 +17,7 @@ var uppercaseNames = names.map(function(name) {
 Now if we `console.log(uppercaseNames)` we will get this:
 > `Array(4) -> ["LEIA", "ANAKIN", "LUKE", "OBI WAN KENOBI"]`
 
-But how does it work? Let's dive in more into it.
+But how does it work? Let's dive more into it.
 
 ## Let's talk about the callback parameters
 The callback is the function that the Array.map() method accepts, it can be an anonymous function or an already declared function with the following parameters which, by the way, you can name as you please:
