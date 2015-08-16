@@ -28,4 +28,4 @@
 *italicizedItems* are function and object names within your code
 
 [PREVIOUS](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Intro-to-Yeoman-Angular-Fullstack-Basejumps)
-[NEXT]()
+[NEXT](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Frontend-file-structure)
