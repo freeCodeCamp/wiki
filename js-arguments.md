@@ -4,7 +4,7 @@ The arguments object is an **array-like object** *(meaning that it looks like an
 
 ![function](https://www.evernote.com/shard/s539/sh/d7218374-6df1-463d-9ca5-94a514e8846a/81a5f2980a670c4558a1a002979bce7b/res/e6c13ad7-4630-47da-a941-777a5d09b745/skitch.png)
 
-2. When we execute that function with **n arguments**, in this case 3, it will return the object to us and it will **look like** an array. We can convert it to an array though, but more on that later...
+2. When we execute that function with **n arguments**, 3 in this case, it will return the object to us and it will **look like** an array. We can convert it to an array, but more on that later...
 
 ![execution](https://www.evernote.com/shard/s539/sh/7cf74323-8154-4f69-82d6-0627bb9dfa5d/ddb56f6a4c5be0a48d98322fcf56ea79/res/7d7ead0f-4e44-47c2-81e2-e75b959c5384/skitch.png)
 
@@ -48,8 +48,8 @@ So, what other method is available to convert *arguments* to an array?
 I recommend the for-loop (not the for-in loop), you can do it like this:
 
 ``` javascript
-	var args = []; // Empty array, at first.
-	for (var i = 0; i < arguments.length; i++) {
-		args.push(arguments[i])
-	} // Now 'args' is an array that holds your arguments.
+var args = []; // Empty array, at first.
+for (var i = 0; i < arguments.length; i++) {
+	args.push(arguments[i])
+} // Now 'args' is an array that holds your arguments.
 ```
