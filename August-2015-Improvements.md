@@ -34,3 +34,14 @@ everything is now an API
 There will be bugs. We've spent many days testing everything, but there are always bugs. Please report these and we'll address them ASAP. Thanks for your patience and help.
 
 If the challenge you were last doing disappeared, don't worry - you can just keep going. If you have time to go back and try our new challenges, they should be a quick review for you. Otherwise, keep moving forward.
+
+## Common Problems and Solutions
+### I get a blank page at http://www.freecodecamp.com
+Try http://freecodecamp.com
+
+### I can't log in with my e-mail address
+If you have used an alternate authentication source like Twitter or GitHub you may be able to log in with it.  Otherwise, we are working on the problem.
+
+### I can't submit my code on Waypoints/Bonfires
+On Chrome:  Open your dev console (F12) and click and HOLD the normal refresh button.  Select 'Empty Cache and Hard Reload'.
+
