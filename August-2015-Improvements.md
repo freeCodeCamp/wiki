@@ -1,3 +1,9 @@
+We were up all night deploying improvements to Free Code Camp. We still aren't finished. 
+
+If you have any issues with Free Code Camp, please let us know: https://github.com/freecodecamp/freecodecamp/issues/new
+
+Some well-known issues include: email login not working, inaccurate completed challenges (your data is fine, it's just a rendering issue), occasional crashes and overall slowness.
+
 We just pushed the following major improvements to [Free Code Camp](http://freecodecamp.com):
 
 - replaced our getting-started videos with a simple 10-minute process (using GIFs instead of videos)
