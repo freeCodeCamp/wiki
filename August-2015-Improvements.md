@@ -2,15 +2,12 @@ We started deploying our backlog of improvements at Noon EST Saturday. We still 
 
 ![WIP](http://nuovaicona.org/images/elements/wip.png)
 
-read below for specific issues!
+Read below for specific issues!
 
 ## Common Problems and Solutions
 
 ### I can't log in with my e-mail address
 If you have used an alternate authentication source like Twitter or GitHub you may be able to log in with it.  Otherwise, we are working on the problem.
-
-### The challenge map is inaccurate regarding my completed challenges
-Your data is fine - this is merely a problem with rendering and we are working on fixing it.
 
 ### I can't submit my code on Waypoints/Bonfires
 On Chrome:  Open your dev console (F12) and click and HOLD the normal refresh button.  Select 'Empty Cache and Hard Reload'.
@@ -20,11 +17,6 @@ Try [http://freecodecamp.com](http://freecodecamp.com) (this should be fixed now
 
 ### The site is slow and occasionally crashes
 We are working on this. Thanks for your patience.
-
-* email login isn't working (but our other 5 authentication options are)
-* inaccurate completed challenges (your data is fine, it's just a rendering issue)
-* the site occasional crashes for several seconds 
-* when you complete a challenge, there is a significant delay of about 15 seconds before the next one loads.
 
 If you have any issues with Free Code Camp, please let us know: https://github.com/freecodecamp/freecodecamp/issues/new
 
