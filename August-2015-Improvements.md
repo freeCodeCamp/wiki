@@ -1,14 +1,18 @@
 We started deploying our backlog of improvements at Noon EST Saturday. We still aren't finished and won't sleep until we are. Thanks for your patience.
 
 ## Common Problems and Solutions
-### I get a blank page at http://www.freecodecamp.com
-Try [http://freecodecamp.com](http://freecodecamp.com) (this should be fixed now so if you experience this, message [@quincylarson](gitter.im/quincylarson).
 
 ### I can't log in with my e-mail address
 If you have used an alternate authentication source like Twitter or GitHub you may be able to log in with it.  Otherwise, we are working on the problem.
 
+### The challenge map is inaccurate regarding my completed challenges
+Your data is fine - this is merely a problem with rendering and we are working on fixing it.
+
 ### I can't submit my code on Waypoints/Bonfires
 On Chrome:  Open your dev console (F12) and click and HOLD the normal refresh button.  Select 'Empty Cache and Hard Reload'.
+
+### I get a blank page at http://www.freecodecamp.com
+Try [http://freecodecamp.com](http://freecodecamp.com) (this should be fixed now so if you experience this, message [@quincylarson](gitter.im/quincylarson)).
 
 ### The site is slow and occasionally crashes
 We are working on this. Thanks for your patience.
