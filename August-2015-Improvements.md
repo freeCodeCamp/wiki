@@ -13,7 +13,7 @@ In short, we switched to Loopback.js, and they have a faulty Mongo connection th
 ## Other major known issues
 
 ### I can't log in with my e-mail address
-If you have used an alternate authentication source like Twitter or GitHub you may be able to log in with it. Even if you never linked that source to Free Code Camp, you can still access your Free Code Camp account with it as long as you signed up for both services with the same email address. Otherwise, we are working on the problem.
+If you have used an alternate authentication source like Twitter or GitHub you may be able to log in with it. Otherwise, we are working on the problem.
 
 ### I can't submit my code on Waypoints/Bonfires
 On Chrome:  Open your dev console (F12) and click and HOLD the normal refresh button.  Select 'Empty Cache and Hard Reload'.
