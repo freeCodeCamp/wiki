@@ -11,6 +11,6 @@ FreeCodeCamp is an Open Source project and all of the contents are freely editab
 *Note:  Not all pull requests are accepted. FCC project maintainers will explain the reason of non-acceptance.*
 
 ## Further Reading
-* [GitHub & Git Foundations Training](https://www.youtube.com/playlist?list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-)
+* [GitHub & Git Foundations Training](https://www.youtube.com/playlist?list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-) - How to use Git and GitHub
 * [FreeCodeCamp Contribution Guidelines](https://github.com/FreeCodeCamp/FreeCodeCamp#contributing)
 * [How to Clone FCC to a Windows PC](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/How-to-clone-the-FreeCodeCamp-website-on-a-Windows-pc)
