@@ -8,7 +8,7 @@ In short, we switched to Loopback.js, and they have a faulty Mongo connection th
 * [Listen to our camper-DJ'd radio station](//plug.dj/freecodecamp)
 * [Work through other awesome coding free resources](http://blog.freecodecamp.com/2015/06/25-free-resources-for-new-javascript-developers.html)
 
-![WIP](http://nuovaicona.org/images/elements/wip.png)
+![WIP](http://theadvertisermonthly.co.uk/stuff/uploads/2014/11/work-in-progress.jpg)
 
 ## Other major known issues
 
