@@ -1,10 +1,16 @@
-We started deploying our backlog of improvements at Noon EST Saturday. We still aren't finished and won't sleep until we are. Thanks for your patience.
+We're super slow right now. Sorry for the inconvenience. We are working to fix this as fast as possible.
+
+In short, we switched to Loopback.js, and they have a faulty Mongo connection that only shows up at scale. We're fixing it, and will commit the fix back to Loopback.js as well.
+
+### In the meantime, we invite you to:
+
+* [Hangout in our chat room with us](//gitter.im/freecodecamp/freecodecamp)
+* [Listen to our camper-DJ'd radio station](//plug.dj/freecodecamp)
+* [Work through other awesome coding free resources](http://blog.freecodecamp.com/2015/06/25-free-resources-for-new-javascript-developers.html)
 
 ![WIP](http://nuovaicona.org/images/elements/wip.png)
 
-Read below for specific issues!
-
-## Common Problems and Solutions
+## Other major known issues
 
 ### I can't log in with my e-mail address
 If you have used an alternate authentication source like Twitter or GitHub you may be able to log in with it.  Otherwise, we are working on the problem.
@@ -12,15 +18,9 @@ If you have used an alternate authentication source like Twitter or GitHub you m
 ### I can't submit my code on Waypoints/Bonfires
 On Chrome:  Open your dev console (F12) and click and HOLD the normal refresh button.  Select 'Empty Cache and Hard Reload'.
 
-### I get a blank page at http://www.freecodecamp.com
-Try [http://freecodecamp.com](http://freecodecamp.com) (this should be fixed now so if you experience this, message [@quincylarson](gitter.im/quincylarson)).
-
-### The site is slow and occasionally crashes
-We are working on this. Thanks for your patience.
-
 If you have any issues with Free Code Camp, please let us know: https://github.com/freecodecamp/freecodecamp/issues/new
 
-## Improvements
+## Today's Improvements (the aspirations that got us into this mess)
 * replaced our getting-started videos with a simple 10-minute process (using GIFs instead of videos)
 * doubled the number of our HTML5 and Bootstrap challenges
 * replaced Codecademy's JavaScript and jQuery challenges with our own challenges
@@ -32,8 +32,7 @@ If you have any issues with Free Code Camp, please let us know: https://github.c
 * fixed some issues with Brownie Points and Streaks
 * improved our Camper News page by removing the (mostly unused) comments and adding one-click upvoting
 * added a Creative Commons license to literally all of our images and text
-* everything is now an API 
-* thanks to Loopback, and we will soon publish cool ways to interact with Free Code Camp's (non-sensitive) data
+* thanks to Loopback, everything is now an API, and we will soon publish cool ways to interact with Free Code Camp's (non-sensitive) data
 
 ## FAQ
 
