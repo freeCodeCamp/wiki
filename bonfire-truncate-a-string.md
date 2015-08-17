@@ -11,6 +11,10 @@ Note that the three dots at the end add to the string length.
 3. assert(truncate('A-tisket a-tasket A green and yellow basket', 'A-tisket a-tasket A green and yellow basket'.length) === 'A-tisket a-tasket A green and yellow basket', 'should not truncate if string is = length');
 4. assert.strictEqual(truncate('A-tisket a-tasket A green and yellow basket', 'A-tisket a-tasket A green and yellow basket'.length + 2), 'A-tisket a-tasket A green and yellow basket', 'should not truncate if string is < length');
 
+# Hint
+
+Truncate the string to a length equal to the second parameter passed to the function. Remember the added ... is included in the final string length.
+
 # My final code
 
     function truncate(str, num) {
