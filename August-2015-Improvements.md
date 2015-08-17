@@ -1,4 +1,4 @@
-We're super slow right now. Sorry for the inconvenience. We are working to fix this as fast as possible.
+We're super slow today. Sorry for the inconvenience. We are working to fix this as fast as possible.
 
 In short, we switched to Loopback.js, and they have a faulty Mongo connection that only shows up at scale. We're fixing it, and will commit the fix back to Loopback.js as well.
 
