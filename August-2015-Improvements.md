@@ -4,7 +4,7 @@ In short, we switched to Loopback.js, and they have a faulty Mongo connection th
 
 ### In the meantime, we invite you to:
 
-* [Hangout in our chat room with us](//gitter.im/freecodecamp/freecodecamp)
+* [Hang out in our chat room with us](//gitter.im/freecodecamp/freecodecamp)
 * [Listen to our camper-DJ'd radio station](//plug.dj/freecodecamp)
 * [Work through other awesome coding free resources](http://blog.freecodecamp.com/2015/06/25-free-resources-for-new-javascript-developers.html)
 
