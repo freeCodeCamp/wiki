@@ -5,8 +5,8 @@ FreeCodeCamp is an Open Source project and all of the contents are freely editab
 - [Fork](https://help.github.com/articles/fork-a-repo/) the project on GitHub.
 - Either [clone](https://help.github.com/articles/cloning-a-repository/) it in a local machine or edit online in github.com.
 - Create a branch and make your changes in that branch and commit them.
-- Push the branch online (if editing locally)
-- [Create a pull request](https://help.github.com/articles/creating-a-pull-request/) against the 'staging' branch.
+- Push the branch online (if editing locally).
+- [Create a pull request](https://help.github.com/articles/creating-a-pull-request/) against the *'staging'* branch.
 
 *Note:  Not all pull requests are accepted. FCC project maintainers will explain the reason of non-acceptance.*
 
