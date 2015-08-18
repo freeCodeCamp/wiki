@@ -1,5 +1,4 @@
-### Quick note: we are currently fixing email login
-If you have used an alternate authentication source like Twitter or GitHub you may be able to log in with it. Otherwise, we are working on the problem.
+### Email login and password login is fixed!
 
 If you have any issues with Free Code Camp, please let us know: https://github.com/freecodecamp/freecodecamp/issues/new
 
