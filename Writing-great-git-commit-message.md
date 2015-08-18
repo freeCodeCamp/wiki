@@ -8,7 +8,7 @@
 6. Wrap the body at 72 characters
 7. Use the body to explain what and why vs. how
 
-A properly formed git commit subject line should always be able to complete the following sentence:
+**A properly formed git commit subject line should always be able to complete the following sentence:**
 
 > If applied, this commit will *`<<your subject line here>>`*
 
