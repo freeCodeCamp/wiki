@@ -1,4 +1,4 @@
-### Email login and password login is fixed!
+### Email login and password reset is fixed!
 
 If you have any issues with Free Code Camp, please let us know: https://github.com/freecodecamp/freecodecamp/issues/new
 
