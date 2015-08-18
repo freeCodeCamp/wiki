@@ -1,26 +1,9 @@
-We're super slow today. Sorry for the inconvenience. We are working to fix this as fast as possible.
-
-In short, we switched to Loopback.js, and they have a faulty Mongo connection that only shows up at scale. We're fixing it, and will commit the fix back to Loopback.js as well.
-
-### In the meantime, we invite you to:
-
-* [Hang out in our chat room with us](//gitter.im/freecodecamp/freecodecamp)
-* [Listen to our camper-DJ'd radio station](//plug.dj/freecodecamp)
-* [Work through other awesome coding free resources](http://blog.freecodecamp.com/2015/06/25-free-resources-for-new-javascript-developers.html)
-
-![WIP](http://i.imgur.com/mHZS2A6.png)
-
-## Other major known issues
-
-### I can't log in with my e-mail address
+### Quick note: we are currently fixing email login
 If you have used an alternate authentication source like Twitter or GitHub you may be able to log in with it. Otherwise, we are working on the problem.
-
-### I can't submit my code on Waypoints/Bonfires
-On Chrome:  Open your dev console (F12) and click and HOLD the normal refresh button.  Select 'Empty Cache and Hard Reload'.
 
 If you have any issues with Free Code Camp, please let us know: https://github.com/freecodecamp/freecodecamp/issues/new
 
-## Today's Improvements (the aspirations that got us into this mess)
+## Sunday's Improvements
 * replaced our getting-started videos with a simple 10-minute process (using GIFs instead of videos)
 * doubled the number of our HTML5 and Bootstrap challenges
 * replaced Codecademy's JavaScript and jQuery challenges with our own challenges
