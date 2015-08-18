@@ -39,4 +39,4 @@ Then we need to slice the full string at the length required (second argument). 
 
 Finally, just add the ... to the end of the sliced substring ready to be returned
 
-   str = str.slice(0, num-3) + '...';
+    str = str.slice(0, num-3) + '...';
