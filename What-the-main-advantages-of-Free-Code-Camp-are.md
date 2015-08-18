@@ -2,6 +2,6 @@ Free Code Camp's main advantages are that we're accessible to busy adults who wa
 
 Specifically, we're:
 
-Free
-Self-paced
-Browser-based
+* Free
+* Self-paced
+* Browser-based
