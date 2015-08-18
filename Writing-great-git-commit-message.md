@@ -12,7 +12,7 @@ A properly formed git commit subject line should always be able to complete the 
 
 > If applied, this commit will *`<<your subject line here>>`*
 
-##
+## &nbsp;
 
 **For example:**
 
