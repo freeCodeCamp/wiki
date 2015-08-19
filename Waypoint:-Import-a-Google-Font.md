@@ -1,3 +1,1 @@
-There are several default fonts that are available in all browsers. These include `Monospace`, `Serif` and `Sans-Serif`.
-
-For example, if you wanted an element to use the Helvetica font, but also degrade to the Sans-Serif font when Helvetica wasn't available, you could use this CSS style: `p { font-family: Helvetica, Sans-Serif; }`.
+To import a font from Google or any other site, this is the format that you should follow: `<link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">`
