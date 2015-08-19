@@ -1,15 +1,5 @@
-Commenting is a way that you can leave comments within your code without affecting the code itself.
+Given that there are two ways to write comments in JavaScript:
+1. Using `//`
+2. Using `<!-- text -->`
 
-It is also a convenient way to make code inactive without having to delete it entirely.
-
-You can start a comment with `<!-- and end a comment with -->`.
-
-```
-<!--
-<h1>Hello World</h1>
-
-<h2>CatPhotoApp</h2>
-
-<p>Hello Paragraph</p>
--->
-```
+You can easily uncomment by just removing the comment elements.
