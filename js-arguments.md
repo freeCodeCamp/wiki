@@ -57,3 +57,6 @@ for (var i = 0; i < arguments.length; i++) {
 	args.push(arguments[i])
 } // Now 'args' is an array that holds your arguments.
 ```
+
+For more information on the optimization issues:  
+[Optimization Killers: Managing Arugments](https://github.com/petkaantonov/bluebird/wiki/Optimization-killers#3-managing-arguments)
