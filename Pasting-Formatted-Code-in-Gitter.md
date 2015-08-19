@@ -1,0 +1,1 @@
+timer.run = updateBG;
