@@ -5,7 +5,8 @@ The curriculum lead-up to the first Basejump is not very comprehensive.  Here ar
 * https://github.com/DaftMonk/generator-angular-fullstack#generators - Generator used by Yeoman, you can find syntax and what files it creates
 
 ### APIs
-* API for the Charting the stock market: https://www.quandl.com/help/api
+* API for Charting the stock market: https://www.quandl.com/help/api
+
 ### MEAN Stack Videos
 * https://www.youtube.com/watch?v=kHV7gOHvNdk - 5 Part Series on setting up a MEAN stack
 
