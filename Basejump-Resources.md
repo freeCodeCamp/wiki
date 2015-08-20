@@ -4,17 +4,19 @@ The curriculum lead-up to the first Basejump is not very comprehensive.  Here ar
 * https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Intro-to-Yeoman-Angular-Fullstack-Basejumps - Lots of helpful tips and tricks for the Yeoman Angular Fullstack setup
 * https://github.com/DaftMonk/generator-angular-fullstack#generators - Generator used by Yeoman, you can find syntax and what files it creates
 
+### APIs
+* API for the Charting the stock market: https://www.quandl.com/help/api
 ### MEAN Stack Videos
-https://www.youtube.com/watch?v=kHV7gOHvNdk - 5 Part Series on setting up a MEAN stack
+* https://www.youtube.com/watch?v=kHV7gOHvNdk - 5 Part Series on setting up a MEAN stack
 
 ### MEAN Stack Tutorials
-Clementine is a stripped down MEAN stack, great for learning the fundamentals.  
+* Clementine is a stripped down MEAN stack, great for learning the fundamentals.  
 https://johnstonbl01.github.io/clementinejs/tutorials/tutorial-beginner.html
 
-Authentication with Passport for the MEAN stack:
+* Authentication with Passport for the MEAN stack:
 https://vickev.com/#!/article/authentication-in-single-page-applications-node-js-passportjs-angularjs
 
-An amazing list of resources for learning the MEAN stack:
+* An amazing list of resources for learning the MEAN stack:
 https://github.com/ericdouglas/MEAN-Learning
 
 ### Scotch IO Tutorials
