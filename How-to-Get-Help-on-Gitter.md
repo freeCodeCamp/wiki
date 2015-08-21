@@ -5,3 +5,5 @@ Sorry that you are stuck. Luckily there are many campers who hang out on Gitter 
  * If the problem seems to be with the site itself, post a screenshot of the issue or describe it well.
 
 2. Remember that the people there are campers just like you, so be courteous!
+
+3. If your problem has baffled everyone in Gitter, try [Searching for Your Issue on Github](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Searching-for-Your-Issue-on-Github) for anyone who has posted about a similar issue.  
