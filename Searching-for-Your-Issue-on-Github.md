@@ -1,4 +1,4 @@
-If you still see problems after [Getting Help on Gitter](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/How-to-Get-Gelp-on-Gitter), you will want to try to see if anyone else has posted about a similar problem.
+If you still see problems after [Getting Help on Gitter](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/How-to-Get-Help-on-Gitter), you will want to try to see if anyone else has posted about a similar problem.
 
 1. Go to FreeCodeCamp's [Github Issues page](https://github.com/FreeCodeCamp/FreeCodeCamp/issues)
 
