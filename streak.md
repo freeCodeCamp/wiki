@@ -1,1 +1,0 @@
-On the FreeCodeCamp side, a streak calculated by how many days in a row you have earned at least one [[brownie point|brownie points]].  The best way to learn is to code at least a little each day.  Remember your ABCs: **A**lways **B**e **C**oding!
