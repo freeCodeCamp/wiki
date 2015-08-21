@@ -10,7 +10,7 @@ Our goal for this bonfire is to reverse the provided string just like the image.
 
 ## Helpful links are ["h","e","l","p","f","u","l"]
 
-Click **More information** under the bonfire title and read the helpful links if you haven't yet. The key here is to understand what each method do and what objects they work with.
+Click **More information** under the bonfire title and read the helpful links if you haven't yet. The key here is to understand what each method does and what objects they work with.
 
 - `String.split()`
 - `Array.reverse()`

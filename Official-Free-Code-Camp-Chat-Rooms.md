@@ -17,10 +17,11 @@ The following are our official chat rooms.
 | [TeamViewer](https://gitter.im/freecodecamp/TeamViewer) | find fellow campers who use Linux and pair program using [Team Viewer](https:https://www.teamviewer.com/en/download/linux.aspx) | 
 | [PairProgrammingWomen](https://gitter.im/freecodecamp/PairProgrammingWomen) | this women-only chat room helps women pair program with other women if they so desire |
 | [40PlusDevs](https://gitter.im/freecodecamp/40PlusDevs) | campers who are over 40+ years old can chat here if they so desire |
-| [LiveCoding](https://gitter.im/freecodecamp/LiveCoding) | chat about streaming webdev and gamedev on Twitch.tv and LiveCoding.tv |
+| [LiveCoding](https://gitter.im/freecodecamp/LiveCoding) | chat about streaming webdev and gamedev on [Twitch.tv](https://twitch.tv/freecodecamp) and [LiveCoding.tv](https://www.livecoding.tv/freecodecamp) |
 | [CodeReview](https://gitter.im/freecodecamp/CodeReview) | give and receive constructive feedback from your fellow campers on Bonfires Solutions, Zipline apps and Basejump apps | 
 | [HalfWayClub](https://gitter.im/freecodecamp/HalfWayClub) | this room is only for campers who have finished all the Bonfires, Ziplines and Basejumps |
 | [Beta](https://gitter.im/freecodecamp/Beta) | chat about experimental changes that are live on [beta.freecodecamp.com](http://beta.freecodecamp.com) | 
+| [CurriculumDevelopment](https://gitter.im/FreeCodeCamp/CurriculumDevelopment) | discuss the current and future Curriculum for FreeCodeCamp |
 | [Wiki](https://gitter.im/freecodecamp/Wiki) | propose new articles and coordinate improvements to this wiki | 
 | [Issues](https://gitter.im/freecodecamp/Issues) | this is the place to discuss issues with our open source codebase and coordinate pull requests | 
 | [DataScience](https://gitter.im/freecodecamp/DataScience) | let's measure and improve our community's efficacy by studying Free Code Camp's open data | 

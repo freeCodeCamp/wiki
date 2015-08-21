@@ -61,17 +61,16 @@ function pairwise(arr, arg) {
             var temp2 = arr[i];
             if (temp + temp2 === arg && i > a && index.indexOf(+a) === -1 && index.indexOf(+i) === -1){
                 index.push (+a,+i);
-                break;
             }
         }
     }
     if (index.length >= 1) {
-        var addAll = function( a,b){
-            return a + b;
-        };
-        return index.reduce(addAll);
-    } else 
+        return index.reduce(function(a, b){
+          return a + b;
+        });
+    } else {
         return 0;
+    }
 }
 ```
 # Code Explained
