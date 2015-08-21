@@ -1,0 +1,7 @@
+If you still see problems after [Getting Help on Gitter](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/How-to-Get-Gelp-on-Gitter), you will want to try to see if anyone else has posted about a similar problem.
+
+1. Go to FreeCodeCamp's [Github Issues page](https://github.com/FreeCodeCamp/FreeCodeCamp/issues)
+
+2. Use the search bar to search for already filed issues that may be related to your problem.
+ * If you find one, read it! You can subscribe to get updates about that specific issue by clicking on `Subscribe` in the sidebar.  You can also comment on the issue if you have something to add.
+ * If you cannot find any relevant issues you should [Create a new Github Issue](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Creating-a-New-Github-Issue)
