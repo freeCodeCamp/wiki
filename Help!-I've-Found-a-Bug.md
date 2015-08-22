@@ -6,6 +6,6 @@ If you think you have found a bug on FreeCodeCamp follow these steps to hopefull
 
 2. [Ask for Help on Gitter](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/How-to-Get-Help-on-Gitter).  You can usually get a quick response from a helpful community member there.
 
-3. If your problem has baffled everyone in Gitter, try [Searching for Your Issue on Github](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Searching-for-Your-Issue-on-Github) for anyone who has posted about a similar issue.  
+3. If your problem has baffled everyone in Gitter, try [Searching for Your Issue on GitHub](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Searching-for-Your-Issue-on-Github) for anyone who has posted about a similar issue.  
 
-3. If you can't find any relevant issues on Github then [Create a New Issue](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Creating-a-New-Github-Issue) and the development team will take a look at your problem.
+3. If you can't find any relevant issues on GitHub then [Create a New Issue](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Creating-a-New-Github-Issue) and the development team will take a look at your problem.
