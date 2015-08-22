@@ -1,6 +1,6 @@
 The number beside your picture on Free Code Camp tells you how many Brownie Points you have.
 
-![A user profile picture next to a with Brownie Points score](https://www.evernote.com/l/AlzCEjd0CaxCwKC2fYGlHpEFKgeHHFHi3IkB/image.png)
+![A user profile picture next to a with Brownie Points score](http://i.imgur.com/QkORZ26.png)
 
 There are three ways you can get Brownie Points:
 
