@@ -1,6 +1,6 @@
 > RTFM is an initialism for the expression "Read The F**king Manual"
 
-![RTFM Comic](http://hackles.org/strips/cartoon140.png)
+![RTFM Comic](http://i.imgur.com/UxbHkrB.png)
 
 ## Urban Dictionary
 
