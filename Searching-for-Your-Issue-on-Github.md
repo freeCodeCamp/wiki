@@ -1,5 +1,7 @@
 If you still see problems after [Getting Help on Gitter](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/How-to-Get-Help-on-Gitter), you will want to try to see if anyone else has posted about a similar problem.
 
+![gif walking through the subsequent steps to search GitHub for the issue](http://i.imgur.com/MdrSdQW.gif)
+
 1. Go to FreeCodeCamp's [Github Issues](https://github.com/FreeCodeCamp/FreeCodeCamp/issues) page.
 
 2. Use the search bar to search for already filed issues that may be related to your problem.
