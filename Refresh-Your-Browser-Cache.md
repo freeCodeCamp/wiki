@@ -6,3 +6,5 @@ While on the problematic site use the key combination below to trigger a hard re
 * Linux: F5
 
 To learn more about this read: http://refreshyourcache.com/en/cache/
+
+If a hard refresh doesn't work, try opening the problematic page in your browser's private browsing mode.
