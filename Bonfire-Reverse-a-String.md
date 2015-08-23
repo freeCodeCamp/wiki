@@ -1,52 +1,29 @@
-![](http://www.foundshit.com/pictures/signs/stressed-desserts.jpg)
+# Problem Explanation:
+You need to take the string and reverse it so if you had originally 'hello', it will turn into 'olleh'. Because you will need to split it, you will be working with Arrays too.
 
-Our goal for this bonfire is to reverse the provided string just like the image. There are 4 green checks (objectives) our code needs to pass in order to complete this bonfire:
+# Hint: 1
+- You should split the string by characters.
 
-1. The final object is expected to be a string
-2. "hello" is expected to be "olleh"
-3. "Howdy" is expected to be "ydwoH"
-4. "Greetings from Earth" is expected to be "htraE morf sgniteerG"
-&nbsp;
+# Hint: 2
+- Find out about the built in function to reverse a string.
 
-## Helpful links are ["h","e","l","p","f","u","l"]
+# Hint: 3
+- Once you have split and reversed, do not forget to join them back into one string.
 
-Click **More information** under the bonfire title and read the helpful links if you haven't yet. The key here is to understand what each method does and what objects they work with.
+# Spoiler Alert!
+[![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
 
-- `String.split()`
-- `Array.reverse()`
-- `Array.join()` 
-&nbsp;
+**Solution ahead!**
 
-> If you're not clear on string or array methods type `find string` or `find array`
+# Solution Code:
 
-## Array.reverse() is for array objects and not string objects
-
-Since our goal is to reverse the provided string, the first thought might be to simply `return str.reverse();` but we'll get: 
-```js
-str.reverse is not a function
 ```
-&nbsp;
+function reverseString(str) {
+  var strReverse = str.split('').reverse().join('');
 
-Unfortunately `Array.reverse()` doesn't work for a string object, it only works for an array object. That means first we have to convert the provided string to an array. Does `String.split()` or `Array.join()` convert a string to an array? 
-&nbsp;
+  return strReverse;
+}
+```
 
-## String.split() converts string to array
-
-We can use `String.split()` to convert the provided string to an array. Now that it's an array, we can use `Array.reverse()` to reverse the letters. Finally we need to convert the array back to a string because it's one of the bonfire objectives. We can use `Array.join()` to accomplish this so let's use it to convert the array back to a string object. 
-&nbsp;
-
-## Apostrophes and quotes 
-
-`String.split()` converts the string to an array with one element but in order to use `Array.reverse()` successfully, we have to split the string to an array of characters. We can do this by using two apostrophes or two-double quotes (also known as empty string) as the separator like this `String.split('')`. 
-
-Now we get:
-
-    ["h","e","l","l","o"] 
-
-instead of 
-
-    ["hello"]
-&nbsp;
-
-After we use split and reverse, we need to join the characters back together to a string of words instead of letters so don't forget to use two apostrophes or two-double quotes again on `Array.join('')`.
-&nbsp;
+# Code Explanation:
+This is a straightforward code. We create a variable that will hold the string split by characters, and then reversed and put back together.
