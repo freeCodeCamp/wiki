@@ -6,4 +6,4 @@
 
 **Reference:** https://git-scm.com/docs/git-blame
 
-## [.](http://i.imgur.com/xancoby.png)
+## [](http://i.imgur.com/xancoby.png)
