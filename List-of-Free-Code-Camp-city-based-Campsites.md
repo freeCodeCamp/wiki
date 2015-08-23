@@ -189,6 +189,7 @@
 | Jerusalem | [Facebook](https://www.facebook.com/groups/free.code.camp.jerusalem/) | [Gitter](//gitter.im/freecodecamp/Jerusalem) |
 | Joao Pessoa | [Facebook](//www.facebook.com/groups/free.code.camp.joao.pessoa/) | [Gitter](//gitter.im/freecodecamp/JoaoPessoa) |
 | Johannesburg | [Facebook](//www.facebook.com/groups/free.code.camp.johannesburg/) | [Gitter](//gitter.im/freecodecamp/Johannesburg) |
+| Johor | [Facebook](//https://www.facebook.com/groups/free.code.camp.nusajaya.malaysia/) | [Gitter](//gitter.im/FreeCodeCamp/Nusajaya) |
 | Juarezchi | [Facebook](https://www.facebook.com/groups/free.code.camp.juarezchi/) | [Gitter](//gitter.im/freecodecamp/Juarezchi) |
 | Kaduna | [Facebook](//www.facebook.com/groups/free.code.camp.kaduna/) | [Gitter](//gitter.im/freecodecamp/Kaduna) |
 | Kalamazoo | [Facebook](//www.facebook.com/groups/free.code.camp.kalamazoo/) | [Gitter](//gitter.im/freecodecamp/Kalamazoo) |
@@ -276,6 +277,7 @@
 | Normal | [Facebook](//www.facebook.com/groups/free.code.camp.bloomington.normal/) | [Gitter](//gitter.im/freecodecamp/BloomingtonNormal) |
 | North Mississippi | [Facebook](https://www.facebook.com/groups/free.code.camp.north.mississippi/) | [Gitter](//gitter.im/freecodecamp/NorthMississippi) |
 | North Platte | [Facebook](//www.facebook.com/groups/free.code.camp.north.platte/) | [Gitter](//gitter.im/freecodecamp/NorthPlatte) |
+| Nusajaya | [Facebook](//https://www.facebook.com/groups/free.code.camp.nusajaya.malaysia//) | [Gitter](//https://gitter.im/FreeCodeCamp/Nusajaya) |
 | Oakland | [Facebook](//www.facebook.com/groups/free.code.camp.berkeley/) | [Gitter](//gitter.im/freecodecamp/EastBay) |
 | Oklahoma City | [Facebook](//www.facebook.com/groups/free.code.camp.oklahoma.city/) | [Gitter](//gitter.im/freecodecamp/OklahomaCity) |
 | Olympia | [Facebook](//www.facebook.com/groups/free.code.camp.olympia/) | [Gitter](//gitter.im/FreeCodeCamp/Olympia) |
