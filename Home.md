@@ -9,6 +9,6 @@ Our open source community's Wiki focuses on answering your questions about learn
 
 For contributing to any of the bonfires, please use this [template.](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Bonfire-Wiki-Template) This will allow [@camperbot](https://github.com/camperbot) to provide more precise help to the students.
 
-If you have questions about contributing to the Free Code Camp Wiki message [@rafase282](https://gitter.im/rafase282) in [Gitter](https://github.com/FreeCodeCamp/freecodecamp/wiki/Gitter)  | [Github](https://github.com/Rafase282) | [FreeCodeCamp](http://www.freecodecamp.com/rafase282) | [CodePen](http://codepen.io/Rafase282/) | [LinkedIn](https://www.linkedin.com/in/rafase282) | [Blog/Site](https://rafase282.wordpress.com/)
+If you have questions about contributing to the Free Code Camp Wiki message [@](https://gitter.im/) in [Gitter](https://github.com/FreeCodeCamp/freecodecamp/wiki/Gitter)  | [Github](https://github.com/) | [FreeCodeCamp](http://www.freecodecamp.com/) | [CodePen](http://codepen.io/) | [LinkedIn](https://www.linkedin.com/in) | [Blog/Site](#)
 
 We look forward to collaborating with you on expanding and improving this wiki!
