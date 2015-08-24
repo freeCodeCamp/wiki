@@ -1,0 +1,1 @@
+If you want the **tail** of a snake remove the head first.
