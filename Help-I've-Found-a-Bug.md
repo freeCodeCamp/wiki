@@ -2,7 +2,8 @@ Thank you for taking the effort to report an issue with FreeCodeCamp.
 
 If you think you've found a bug on FreeCodeCamp, please follow these steps to resolve your problem:
 
-1. If the page seems broken in any way, try to do a [Hard Refresh](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Refresh-Your-Browser-Cache) of the page.  This will update any old code that may have been cached in your browser.
+1. If the page seems broken in any way, try to do a [Hard Refresh](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Refresh-Your-Browser-Cache) of the page.  This will update any old code that may have been cached in your browser.  
+ * If your code crashes your browser, also try [Clearing Your Browser's Local Storage](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Clear-Your-Browser's-Local-Storage).
 
 2. [Ask for Help on Gitter](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/How-to-Get-Help-on-Gitter).  You can usually get a quick response from a helpful community member there.
 
