@@ -1,1 +1,0 @@
-Is there something I can do to my browser? I'm on a Chromebook so I'm using chrome obviously and can't change to another browser, but maybe modify my settings? Or do I need to contact someone for technical support? 
