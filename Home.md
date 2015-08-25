@@ -1,9 +1,9 @@
 ##Welcome to the Free Code Camp Wiki!
 
 Our open source community's Wiki focuses on answering your questions about learning to code and getting a coding job. We also cover in detail our:
-- curriculum
-- local Campsite communities
-- nonprofit projects
+- Curriculum
+- Local Campsite Communities
+- Nonprofit Projects
 
 "Wiki" is a Hawaiian word meaning "quick", and that is a good mindset to have when creating a Wiki. Please reference our [Wiki style guide] ([https://github.com/FreeCodeCamp/freecodecamp/wiki/Wiki-Style-Guide](https://github.com/FreeCodeCamp/freecodecamp/wiki/Wiki-Style-Guide)) for more direction regarding styling.
 
