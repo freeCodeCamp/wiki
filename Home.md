@@ -11,6 +11,6 @@ For contributing to any of the bonfires, please use this [template.](https://git
 
 **If you have a bonfire page that is not edited to use this template then it will be replaced either by am empty template or someone else's information.** The best way to access the content of the wiki is via **camperbot.** Here is a guide for using [camperbot.](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/camperbot)
 
-If you have questions about contributing to the Free Code Camp Wiki message [@](https://gitter.im/) in [Gitter](https://github.com/FreeCodeCamp/freecodecamp/wiki/Gitter)  | [Github](https://github.com/) | [FreeCodeCamp](http://www.freecodecamp.com/) | [CodePen](http://codepen.io/) | [LinkedIn](https://www.linkedin.com/in) | [Blog/Site](#)
+If you have questions about contributing to the Free Code Camp Wiki message [@Rafase282](https://gitter.im/Rafase282) in [Gitter](https://github.com/FreeCodeCamp/freecodecamp/wiki/Gitter)  | [Github](https://github.com/) | [FreeCodeCamp](http://www.freecodecamp.com/) | [CodePen](http://codepen.io/) | [LinkedIn](https://www.linkedin.com/in) | [Blog/Site](#)
 
 We look forward to collaborating with you on expanding and improving this wiki!
