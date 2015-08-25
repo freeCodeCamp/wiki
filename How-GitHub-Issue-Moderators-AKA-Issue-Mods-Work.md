@@ -6,4 +6,6 @@ If you've been doing these things, and want the additional power/responsibility 
 
 If you are approved, we will add you to a GitHub Team.
 
+Though you will have write access to Free Code Camp's repository, **you should never write directly to the Free Code Camp repository**. All code should enter Free Code Camp's codebase in the form of a pull request.
+
 Please note that we will frequently remove issue mods whom we think are inactive. If you are removed, please do not take this personally - we can add you back to the team. Just message us and let us know you're still active.
