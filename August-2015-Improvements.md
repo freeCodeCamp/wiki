@@ -1,7 +1,3 @@
-### Email login and password reset is fixed!
-
-If you have any issues with Free Code Camp, please let us know: https://github.com/freecodecamp/freecodecamp/issues/new
-
 ## Sunday's Improvements
 * replaced our getting-started videos with a simple 10-minute process (using GIFs instead of videos)
 * doubled the number of our HTML5 and Bootstrap challenges
