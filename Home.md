@@ -11,6 +11,6 @@ The best way to access this wiki is via [CamperBot](https://github.com/FreeCodeC
 
 To contribute a wiki article for any of the bonfires, please use this [template.](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Bonfire-Wiki-Template) This is essential for [@camperbot](https://github.com/camperbot) to retrieve the article. Bonfire articles that do not use this template will be removed.
 
-If you have questions about contributing to the Free Code Camp Wiki message @Rafase282 in [Gitter](https://gitter.im/Rafase282).(#)
+If you have questions about contributing to the Free Code Camp Wiki message [@Rafase282 in Gitter](https://gitter.im/Rafase282).
 
 We look forward to collaborating with you on expanding and improving this wiki!
