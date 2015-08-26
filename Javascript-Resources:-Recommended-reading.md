@@ -6,6 +6,9 @@
 - [Speaking Javascript](http://speakingjs.com/es5/)
 - [Exploring ES6](http://exploringjs.com/es6/)
 
+### Reference
+- [DevDocs](http://devdocs.io)
+
 ### Challenges
 - [Code Wars](http://codewars.com)
 - [Hacker Rank](https://hackerrank.com)
