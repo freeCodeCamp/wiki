@@ -53,11 +53,11 @@ yo angular-fullstack
 Answer the questions according to checklist items #13-23 of [Waypoint: Get Set for Basejumps](http://www.freecodecamp.com/challenges/waypoint-get-set-for-basejumps). Consult #24-27 if you run into errors. This will download ~350MB worth of files into your current directory.
 
 ## Step 6: starting MongoDB
-To start MongoDB, run the following commands in your terminal: 
+To start MongoDB for the first time in your app's directory, run the following commands in your terminal: 
 ```sh
 mkdir data && echo 'mongod --config /usr/local/etc/mongod.conf --dbpath=data --nojournal --rest "$@" --httpinterface' > mongod && chmod a+x mongod && ./mongod
 ```
-Note that it's normal if you don't see any messages. Keep calm and move on.
+From this point on you can simply start MongoDB by executing `./mongod`. Note that it's normal if you don't see any messages. Keep calm and move on.
 
 ## Step 7: starting Grunt
 Open a new Terminal tab by pressing `⌘T`, and run the following command:
