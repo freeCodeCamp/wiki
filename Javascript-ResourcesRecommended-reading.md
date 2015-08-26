@@ -1,5 +1,3 @@
-# Javascript Resources: Recommended Reading #
-
 ### Tutorials
 - [Eloquent Javascript](http://www.eloquentjavascript.net) ([*annotated*](https://watchandcode.com/courses/eloquent-javascript-the-annotated-version))
 - [Professor Frisby's Mostly Adequate Guide to Functional Programming](https://github.com/DrBoolean/mostly-adequate-guide)
