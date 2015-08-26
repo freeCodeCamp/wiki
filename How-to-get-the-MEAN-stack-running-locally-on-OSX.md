@@ -19,7 +19,7 @@ brew install node
 ```
 The npm executable is already included in the Node.js package.
 
-Before continuing, let's make sure Node.js modules can be found by others (CAUTION: this command can be destructive if mistyped, so it's best to copy and paste it):
+Before continuing, let's make sure Node.js modules can be found by others (**CAUTION**: it's best to copy and paste these commands, as you'd lose the original contents of your `.bashrc` file if you typed `>` in place of `>>`):
 ```sh
 echo 'export NODE_PATH="./node_modules:/usr/local/lib/node_modules"' >> ~/.bashrc && source ~/.bashrc
 ```
@@ -79,6 +79,10 @@ You might also want to keep `basejumps` as a template directory and make a copy 
 cd ~/Desktop && cp -r basejumps voting && cd voting
 ```
 
+
+***
+
+##### Footnote
 The above steps were tested under the following configuration:
 * OS X 10.10.5
 * zsh 5.0.8 (x86_64-apple-darwin14.3.0)
