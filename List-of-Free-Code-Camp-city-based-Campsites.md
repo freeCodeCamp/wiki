@@ -425,4 +425,10 @@
 | Znojmo | [Facebook](//www.facebook.com/groups/free.code.camp.znojmo/) | [Gitter](//gitter.im/freecodecamp/Znojmo) |
 | Zurich | [Facebook](//www.facebook.com/groups/free.code.camp.zurich/) | [Gitter](//gitter.im/freecodecamp/Zurich) |
 
-If your city isn't listed here, you should [create a Campsite for your city](https://github.com/FreeCodeCamp/freecodecamp/wiki/How-to-create-a-Campsite-for-your-city).
+If your city isn't listed here, you should [[create a Campsite for your city|How-to-create-a-Campsite-for-your-city]].
+
+### Additional Chat Room Lists
+* [[Official Free Code Camp Chat Rooms|Official-Free-Code-Camp-Chat-Rooms]]
+* [[World Language Chat Rooms|World-Language-Chat-Rooms]]
+* [[Casual Chat Rooms|Casual-Chat-Rooms]]
+
