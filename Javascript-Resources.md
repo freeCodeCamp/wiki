@@ -5,7 +5,7 @@
 - [Exploring ES6](http://exploringjs.com/es6/)
 - [Udemy - Javascript Understanding the Weird Parts (*first 3 hrs*)](https://www.youtube.com/watch?v=Bv_5Zv5c-Ts)
 
-### Reference
+### References
 - [DevDocs](http://devdocs.io)
 
 ### Quick JS
@@ -13,8 +13,9 @@
 - [JSBin](http://jsbin.com)
 - [CodePen](http://codepen.io)
 - [CoderPad (*pair programming*)](http://coderpad.io)
-- [C9 (*IDE*)](http://c9.io)
+- [C9 (*IDE*, *pair programming*)](http://c9.io)
 
+**See Also:** :watch: [**Challenges**](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Javascript-Resources#challenges) | :wrench: [**Exercises**](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Javascript-Resources#exercises) | :clipboard: [Editors](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Javascript-Resources#editors) | :green_book: [Blogs](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Javascript-Resources#blogs)
 ## []()
 
 ### Challenges
