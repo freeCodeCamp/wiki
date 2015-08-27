@@ -20,6 +20,11 @@ The following are our language-specific chat rooms.
 - [Tagalog](https://gitter.im/freecodecamp/Tagalog)
 - [Vietnamese](https://gitter.im/freecodecamp/Vietnamese)
 
+### Additional Chat Room Lists
+* [[Official Free Code Camp Chat Rooms|Official-Free-Code-Camp-Chat-Rooms]]
+* [[Casual Chat Rooms|Casual-Chat-Rooms]]
+* [[Campsite Chat Rooms|List-of-Free-Code-Camp-city-based-Campsites]]
+
 By joining these chat rooms, you accept our [Code of Conduct](https://github.com/FreeCodeCamp/freecodecamp/wiki/Code-of-Conduct).
 
 [Official Free Code Camp chat rooms](https://github.com/FreeCodeCamp/freecodecamp/wiki/Official-Free-Code-Camp-Chat-Rooms)
