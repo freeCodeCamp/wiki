@@ -25,6 +25,10 @@
 ### Exercises
 - [Codility](https://codility.com/programmers/lessons/)
 
+### Editors
+- [Brackets](http://brackets.io)
+- [Atom](http://atom.io)
+
 ### Blogs
 - [Perfection Kills](http://perfectionkills.com)
 - [2ality](http://www.2ality.com)
