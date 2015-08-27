@@ -15,6 +15,11 @@ The following are our casual chat rooms.
 | [Saving](https://gitter.im/freecodecamp/Saving) | chat about saving, investing, and home economics | 
 | [SelfImprovement](https://gitter.im/freecodecamp/SelfImprovement) | chat about productivity, self improvement and quantified self |
 
+### Additional Chat Room Lists
+* [[Official Free Code Camp Chat Rooms|Official-Free-Code-Camp-Chat-Rooms]]
+* [[World Language Chat Rooms|World-Language-Chat-Rooms]]
+* [[Campsite Chat Rooms|List-of-Free-Code-Camp-city-based-Campsites]]
+
 By joining these chat rooms, you accept our [Code of Conduct](https://github.com/FreeCodeCamp/freecodecamp/wiki/Code-of-Conduct). If you think we should add a chat room, please [message @quincylarson in Gitter](https://gitter.im/QuincyLarson).
 
 [Official Free Code Camp chat rooms](https://github.com/FreeCodeCamp/freecodecamp/wiki/Official-Free-Code-Camp-Chat-Rooms)
