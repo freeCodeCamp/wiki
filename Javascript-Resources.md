@@ -16,6 +16,7 @@
 - [C9 (*IDE*, *pair programming*)](http://c9.io)
 
 **See Also:** :watch: [**Challenges**](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Javascript-Resources#challenges) | :wrench: [**Exercises**](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Javascript-Resources#exercises) | :clipboard: [Editors](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Javascript-Resources#editors) | :green_book: [Blogs](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Javascript-Resources#blogs)
+
 ## []()
 
 ### Challenges
@@ -32,15 +33,18 @@
 
 ### Blogs
 - [Perfection Kills](http://perfectionkills.com)
-- [2ality](http://www.2ality.com)
+- [2ality](http://www.2ality.com/)
 
-* [Eloquent Javascript](http://www.eloquentjavascript.net)   
+----
+
+- [Eloquent Javascript](http://www.eloquentjavascript.net)   
 Fantastic, thorough introduction to the basics and features of Javascript, complete with in-browser interactive code
 
-* [Eloquent Javascript - The Annotated Version](https://watchandcode.com/courses/eloquent-javascript-the-annotated-version)   
+- [Eloquent Javascript - The Annotated Version](https://watchandcode.com/courses/eloquent-javascript-the-annotated-version)   
 An annotated version of the above Eloquent Javascript with additional helpful comments and discussions to help clarify some sections that might be confusing to newcomers to programming
 
 * [Professor Frisby's Mostly Adequate Guide to Functional Programming](https://github.com/DrBoolean/mostly-adequate-guide)   
 Quite in-depth guide to Functional Programming in Javascript
 
-> Edit this page to add your own suggested reading here
+----
+> *Edit this page to add your own suggested reading here*
