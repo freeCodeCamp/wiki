@@ -28,11 +28,10 @@ The following are our official chat rooms.
 | [Design](https://gitter.im/freecodecamp/Design) | chat about design theory and practice | 
 | [BookClub](https://gitter.im/freecodecamp/BookClub) | chat about [these free coding books](http://blog.freecodecamp.com/2015/06/25-free-resources-for-new-javascript-developers.html) and more | 
 
-[World Language chat rooms](https://github.com/FreeCodeCamp/freecodecamp/wiki/World-Language-Chat-Rooms)
 
-
-[World Language chat rooms](https://github.com/FreeCodeCamp/freecodecamp/wiki/World-Language-Chat-Rooms)
-[Casual chat rooms](https://github.com/FreeCodeCamp/freecodecamp/wiki/Casual-Chat-Rooms)
-[Campsite chat rooms](https://github.com/FreeCodeCamp/freecodecamp/wiki/List-of-Free-Code-Camp-city-based-Campsites/)
+### Additional Chat Room Lists
+* [[World Language Chat Rooms|World-Language-Chat-Rooms]]
+* [[Casual Chat Rooms|Casual-Chat-Rooms]]
+* [[Campsite Chat Rooms|List-of-Free-Code-Camp-city-based-Campsites]]
 
 By joining these chat rooms, you accept our [Code of Conduct](https://github.com/FreeCodeCamp/freecodecamp/wiki/Code-of-Conduct).
