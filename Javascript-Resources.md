@@ -8,6 +8,15 @@
 ### Reference
 - [DevDocs](http://devdocs.io)
 
+### Quick JS
+- [REPL (*node*)](http://repl.it/languages/JavaScript/)
+- [JSBin](http://jsbin.com)
+- [CodePen](http://codepen.io)
+- [CoderPad (*pair programming*)](http://coderpad.io)
+- [C9 (*IDE*)](http://c9.io)
+
+## []()
+
 ### Challenges
 - [Code Wars](http://codewars.com)
 - [Hacker Rank](https://hackerrank.com)
@@ -16,20 +25,10 @@
 ### Exercises
 - [Codility](https://codility.com/programmers/lessons/)
 
-### Quick JS
-- [REPL (*node*)](http://repl.it/languages/JavaScript/)
-- [JSBin](http://jsbin.com)
-- [CodePen](http://codepen.io)
-- [CoderPad (*pair programming*)](http://coderpad.io)
-- [C9 (*IDE*)](http://c9.io)
-
 ### Blogs
-- [Perfection Kills](http://perfectionkills.com/)
+- [Perfection Kills](http://perfectionkills.com)
 - [2ality](http://www.2ality.com)
-- [John Resig Blog](http://ejohn.org/category/blog/)
-- [Addy Osmani Blog](http://addyosmani.com/blog/)
 
-## []()
 * [Eloquent Javascript](http://www.eloquentjavascript.net)   
 Fantastic, thorough introduction to the basics and features of Javascript, complete with in-browser interactive code
 
