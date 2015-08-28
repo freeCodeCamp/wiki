@@ -65,8 +65,6 @@ Turn the folder in which your application is located into a Git repository by ru
 git init && git add . && git commit -am 'initial commit'
 ```
 
-Now you should be able to follow the rest of the Waypoint instructions to push to GitHub and Heroku. Just ignore the part about SSH key (#33-36) and replace `~/workspace` with `~/Desktop/basejumps` (or wherever your app directory is).
-
 You might also want to keep `basejumps` as a template directory and make a copy of it every time you start a new project, e.g.:
 ```sh
 cd ~/Desktop && cp -r basejumps voting && cd voting
@@ -93,6 +91,8 @@ Open a new Terminal tab by pressing `⌘T`, and run the following command:
 grunt serve
 ```
 Grunt should automatically open your new Angular site's index page as soon as it finishes starting up.
+
+Now you should be able to follow the rest of the Waypoint instructions to push to GitHub and Heroku. Just ignore the part about SSH key (#33-36) and replace `~/workspace` with your app directory's path.
 
 ***
 
