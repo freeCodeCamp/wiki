@@ -1,6 +1,8 @@
 ## Requirements
 To install MongoDB, you should have Mac OS X 10.6 (Snow Leopard) or above. To find out which version of OS X you own, click the  icon in the top left corner of your screen and select `About This Mac`.
 
+:warning: **WARNING:** do a Time Machine backup before carrying out any of the following steps!
+
 ## Step 1: installing MongoDB
 The easiest way to install MongoDB on OS X is using [HomeBrew](http://brew.sh/). If you haven't used HomeBrew before, simply execute the following command in a Terminal window:
 ```sh
@@ -19,7 +21,7 @@ brew install node
 ```
 The npm executable is already included in the Node.js package.
 
-Before continuing, let's make sure Node.js modules can be found by others (**CAUTION**: it's best to copy and paste these commands, as you'd lose the original contents of your `.bashrc` file if you typed `>` in place of `>>`):
+Before continuing, let's make sure Node.js modules can be found by others (:warning: **CAUTION**: it's best to copy and paste these commands, as you'd lose the original contents of your `.bashrc` file if you typed `>` in place of `>>`):
 ```sh
 echo 'export NODE_PATH="./node_modules:/usr/local/lib/node_modules"' >> ~/.bashrc && source ~/.bashrc
 ```
@@ -83,7 +85,7 @@ You might also want to keep `basejumps` as a template directory and make a copy 
 ```sh
 cd ~/Desktop && cp -r basejumps voting && cd voting
 ```
-**Caveat:** when Yeoman generated our app, it put the string "basejumps" in various files. We want to change it to match our new project name. To accomplish this, we'll use the Node module Replace:
+:warning: **Caveat:** when Yeoman generated our app, it put the string "basejumps" in various files. We want to change it to match our new project name. To accomplish this, we'll use the Node module Replace:
 ```sh
 npm install replace -g
 ```
