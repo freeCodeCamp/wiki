@@ -78,15 +78,18 @@ You might also want to keep `basejumps` as a template directory and make a copy 
 ```sh
 cd ~/Desktop && cp -r basejumps voting && cd voting
 ```
-**Caveat:** when Yeoman generated our app, it put the string "basejumpsApp" in 33 files in various subdirectories. We want to change it to match our new project name. To accomplish this, we'll use the Node module Replace:
+**Caveat:** when Yeoman generated our app, it put the string "basejumps" in various files. We want to change it to match our new project name. To accomplish this, we'll use the Node module Replace:
 ```sh
 npm install replace -g
 ```
 And then (assuming you're in `~/Desktop/voting`):
 ```sh
-replace 'basejumpsApp' 'votingApp' . -rq
+replace 'basejumps' 'voting' . -rq
 ```
-As a side note, the conventional method of recursive search and replace in FreeBSD (the underpinning of Mac OS X) is `find . -type f | xargs grep -l 'basejumpsApp' | xargs sed -i '' -e 's/basejumpsApp/votingApp/g'`. However, if you try this on a directory this size, you'll likely get an "Argument list too long" error message. Hence the need for Replace.
+Last but not least, don't forget the filenames:
+```sh
+for file in data/*; do mv $file ${file//basejumps//voting} 2>/dev/null; done
+```
 
 ***
 
