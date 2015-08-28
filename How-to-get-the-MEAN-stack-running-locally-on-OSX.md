@@ -59,22 +59,8 @@ Before going any further, we need to fix a [known issue](https://github.com/clnh
 sed -i '' -e 's/_.merge/_.extend/' server/api/thing/thing.controller.js
 ```
 
-## Step 6: starting MongoDB
-To start MongoDB for the first time in your app's directory, run the following commands in your terminal: 
-```sh
-mkdir data && echo 'mongod --config /usr/local/etc/mongod.conf --dbpath=data --nojournal --rest "$@" --httpinterface' > mongod && chmod a+x mongod && ./mongod
-```
-From this point on you can simply start MongoDB by executing `./mongod`. Note that it's normal if you don't see any messages. Keep calm and move on.
-
-## Step 7: starting Grunt
-Open a new Terminal tab by pressing `⌘T`, and run the following command:
-```sh
-grunt serve
-```
-Grunt should automatically open your new Angular site's index page as soon as it finishes starting up.
-
-## Step 8: initialising local Git repository
-Turn the folder in which your application is running into a Git repository by running the following commands: 
+## Step 6: initialising local Git repository
+Turn the folder in which your application is located into a Git repository by running the following commands: 
 ```sh
 git init && git add . && git commit -am 'initial commit'
 ```
@@ -93,10 +79,20 @@ And then (assuming you're in `~/Desktop/voting`):
 ```sh
 replace 'basejumps' 'voting' . -rq
 ```
-Last but not least, don't forget the filenames:
+
+## Step 7: starting MongoDB
+To start MongoDB for the first time in your app's directory, run the following commands in your terminal: 
 ```sh
-for file in data/*; do mv $file ${file//basejumps//voting} 2>/dev/null; done
+mkdir data && echo 'mongod --config /usr/local/etc/mongod.conf --dbpath=data --nojournal --rest "$@" --httpinterface' > mongod && chmod a+x mongod && ./mongod
 ```
+From this point on you can simply start MongoDB by executing `./mongod`. Note that you have to make a clean database for each project. If you copied the `data` directory over from an earlier project, `mongod` will fail to start. If that's the case, just `rm -rf data` and repeat Step 7.
+
+## Step 8: starting Grunt
+Open a new Terminal tab by pressing `⌘T`, and run the following command:
+```sh
+grunt serve
+```
+Grunt should automatically open your new Angular site's index page as soon as it finishes starting up.
 
 ***
 
