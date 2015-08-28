@@ -95,4 +95,4 @@ The above steps were tested under the following configuration:
 * OS X 10.10.5
 * zsh 5.0.8 (x86_64-apple-darwin14.3.0)
 * node v0.12.7
-* npm 2.13.3
+* npm 2.11.3
