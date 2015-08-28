@@ -7,6 +7,7 @@
 
 ### References
 - [DevDocs](http://devdocs.io)
+- [ECMA-262](http://www.ecma-international.org/publications/standards/Ecma-262.htm)
 
 ### Quick JS
 - [REPL (*node*)](http://repl.it/languages/JavaScript/)
@@ -15,7 +16,7 @@
 - [CoderPad (*pair programming*)](http://coderpad.io)
 - [C9 (*IDE*, *pair programming*)](http://c9.io)
 
-**See Also:** :watch: [**Challenges**](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Javascript-Resources#challenges) | :wrench: [**Exercises**](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Javascript-Resources#exercises) | :clipboard: [Editors](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Javascript-Resources#editors) | :green_book: [Blogs](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Javascript-Resources#blogs)
+**See Also:** :watch: [**Challenges**](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Javascript-Resources#challenges) | :wrench: [**Exercises**](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Javascript-Resources#exercises) | :clipboard: [Editors](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Javascript-Resources#editors) | :green_book: [Blogs](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Javascript-Resources#blogs) | :books: [Books](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Javascript-Resources#books)
 
 ## []()
 
@@ -34,6 +35,11 @@
 ### Blogs
 - [Perfection Kills](http://perfectionkills.com)
 - [2ality](http://www.2ality.com/)
+
+### Books
+- [Secrets of the JavaScript Ninja](https://www.manning.com/books/secrets-of-the-javascript-ninja)
+- [Programming JavaScript Applications](http://ericleads.com/javascript-applications/)
+- [Maintainable JavaScript](http://shop.oreilly.com/product/0636920025245.do)
 
 ----
 
