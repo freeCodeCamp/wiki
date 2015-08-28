@@ -52,6 +52,11 @@ yo angular-fullstack
 ```
 Answer the questions according to checklist items #13-23 of [Waypoint: Get Set for Basejumps](http://www.freecodecamp.com/challenges/waypoint-get-set-for-basejumps). Consult #24-27 if you run into errors. This will download ~350MB worth of files into your current directory.
 
+Before going any further, we need to fix a [known issue](https://github.com/clnhll/guidetobasejumps#fixing-exportsupdate) in one generated file:
+```sh
+sed -i '' -e 's/_.merge/_.extend/' server/api/thing/thing.controller.js
+```
+
 ## Step 6: starting MongoDB
 To start MongoDB for the first time in your app's directory, run the following commands in your terminal: 
 ```sh
