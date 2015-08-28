@@ -16,7 +16,7 @@
 - [CoderPad (*pair programming*)](http://coderpad.io)
 - [C9 (*IDE*, *pair programming*)](http://c9.io)
 
-**See Also:** :watch: [**Challenges**](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Javascript-Resources#challenges) | :wrench: [**Exercises**](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Javascript-Resources#exercises) | :clipboard: [Editors](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Javascript-Resources#editors) | :green_book: [Blogs](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Javascript-Resources#blogs) | :books: [Books](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Javascript-Resources#books)
+**See Also:** :watch: [**Challenges**](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/JS-Resources#challenges) | :wrench: [**Exercises**](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/JS-Resources#exercises) | :clipboard: [Editors](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/JS-Resources#editors) | :green_book: [Blogs](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/JS-Resources#blogs) | :books: [Books](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/JS-Resources#books)
 
 ## []()
 
