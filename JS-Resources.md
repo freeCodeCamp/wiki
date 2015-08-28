@@ -40,6 +40,8 @@
 - [Secrets of the JavaScript Ninja](https://www.manning.com/books/secrets-of-the-javascript-ninja)
 - [Programming JavaScript Applications](http://ericleads.com/javascript-applications/)
 - [Maintainable JavaScript](http://shop.oreilly.com/product/0636920025245.do)
+- [Learning JavaScript Design Patterns](http://addyosmani.com/resources/essentialjsdesignpatterns/book/)
+- [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
 
 ----
 
