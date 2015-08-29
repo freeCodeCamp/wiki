@@ -14,4 +14,8 @@
 </script>
 ```
 
-**See:** https://github.com/google/traceur-compiler/wiki/Getting-Started
+**See:** [Traceur Compiler Getting Started](https://github.com/google/traceur-compiler/wiki/Getting-Started)
+
+**Demo:** [ES6 Demo Repo Source](https://github.com/abhisekp/JS-Weird-Parts/tree/109ab3b0c94d1fbf9bbc402dd36e9bca60d5b456)
+
+ 
