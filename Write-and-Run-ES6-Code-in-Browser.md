@@ -1,4 +1,5 @@
-Include the following code in the page.
+> Include the following code in the page.
+
 ```html
 <!-- Write these first. Here `bootstrap.js` doesn't mean Twitter Bootstrap. -->
 <script src="https://google.github.io/traceur-compiler/bin/traceur.js"></script>
