@@ -81,9 +81,12 @@ replace 'basejumps' 'voting' . -rq
 ## Step 7: starting MongoDB
 To start MongoDB for the first time in your app's directory, run the following commands in your terminal: 
 ```sh
-mkdir data && echo 'mongod --config /usr/local/etc/mongod.conf --dbpath=data --nojournal --rest "$@" --httpinterface' > mongod && chmod a+x mongod && ./mongod
+mkdir data && echo 'mongod --config /usr/local/etc/mongod.conf --dbpath=data --rest "$@" --httpinterface' > mongod.sh && chmod a+x mongod.sh && ./mongod.sh
 ```
-From this point on you can simply start MongoDB by executing `./mongod`. Note that you have to make a clean database for each project. If you copied the `data` directory over from an earlier project, `mongod` will fail to start. If that's the case, just `rm -rf data` and repeat Step 7.
+From this point on you can simply start MongoDB by executing `./mongod.sh`. A few things to note:
+* The `.conf` file directs `mongod` to write messages to a log file instead of stdout. To view the log, run the following in a separate Terminal tab: `less /usr/local/var/log/mongodb/mongo.log`.
+* Since we're not on Cloud9, we don't need the `--nojournal` option. Journaling lets you recover the database in case of a `mongod` crash.
+* You have to make a clean database for each project. If you copied the `data` directory over from an earlier project, `mongod` will fail to start. If that's the case, just `rm -rf data && mkdir data && ./mongod.sh`.
 
 ## Step 8: starting Grunt
 Open a new Terminal tab by pressing `⌘T`, and run the following command:
