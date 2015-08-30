@@ -5,6 +5,8 @@ We can use a certain mathematical expression to get a random number between two 
 
 By using this we can control the output of a random number.
 
+**See:** [**Explanation**](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Generate-Random-Whole-Numbers-within-a-Range#explanation)
+
 ## Explanation
 > `Math.random()` creates a floating point number between `0` (inclusive) and `1` (exclusive)
 
