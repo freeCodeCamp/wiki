@@ -40,7 +40,7 @@ Each nonprofit project was submitted by a nonprofit. A representative from this 
 
 Stakeholders have a deep understanding of their organizations' needs. Campers will work with them to figure out the best solutions to these needs.
 
-When you and your pair first speak with your nonprofit stakeholder, you'll:
+When you and your pair partner first speak with your nonprofit stakeholder, you'll:
 
 - talk at length to better understand their needs.
 - create a new Trello board and use it to prioritize what needs to be built.
