@@ -80,7 +80,7 @@ While you will no longer need to help with feature development, we encourage you
 
 ### Pledging to finish the project
 
-Your nonprofit stakeholder, your pair, and our volunteer team are all counting on you to finish your nonprofit project. If you walk away from an unfinished nonprofit project, you'll become ineligible to ever be assigned another one.
+Your nonprofit stakeholder, your pair partner, and our volunteer team are all counting on you to finish your nonprofit project. If you walk away from an unfinished nonprofit project, you'll become ineligible to ever be assigned another one.
 
 To confirm that you understand the seriousness of this commitment, we require that all campers [sign this pledge](http://goo.gl/forms/ZMn96z2QqY) before starting on their nonprofit projects.
 
