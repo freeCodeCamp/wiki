@@ -10,7 +10,7 @@ Though you will have write access to Free Code Camp's repository, **you should n
 
 Please note that we will frequently remove issue mods whom we think are inactive. If you are removed, please do not take this personally - we can add you back to the team, just message us and let us know you're still active.
 
-Also note, the number of issue moderators will always remain small due to the nature of Github permissions (We may keep it at one moderator for a while).
+Also note, the number of issue moderators will always remain small due to the nature of Github permissions.
 
 Happy Coding!
 
