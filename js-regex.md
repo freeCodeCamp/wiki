@@ -3,7 +3,7 @@
 * **Getting Started Tutorial:** http://regexone.com (FCC recommended)
 * **RegEx 101:** https://regex101.com
 
-See also: :clipboard: [**Tutorials**](https://github.com/FreeCodeCamp/freecodecamp/wiki/regex#regex-tutorial--guides) | :syringe: [**Testing**](https://github.com/FreeCodeCamp/freecodecamp/wiki/regex#regex-testing-ground) | :soccer: [Games](https://github.com/FreeCodeCamp/freecodecamp/wiki/regex#regex-gameplay) | :newspaper: [Blogs](https://github.com/FreeCodeCamp/freecodecamp/wiki/regex#regex-blog) | :package: [Software](https://github.com/FreeCodeCamp/freecodecamp/wiki/regex#software-aids-for-regex)
+See also: :clipboard: [**Tutorials**](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/regex#regex-tutorial--guides) | :syringe: [**Testing**](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/regex#regex-testing-ground) | :soccer: [Games](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/regex#regex-gameplay) | :newspaper: [Blogs](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/regex#regex-blog) | :package: [Software](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-regex#software-aids-for-regex)
 
 ## RegEx Tutorial & Guides
 * **RegEx Tutorial:** http://www.regular-expressions.info/tutorial.html (detailed explanation)
@@ -24,7 +24,7 @@ See also: :clipboard: [**Tutorials**](https://github.com/FreeCodeCamp/freecodeca
 ## RegEx Blog
 * **Rex Egg:** http://www.rexegg.com
 
-### Software Aids for RegEx
+## Software Aids for RegEx
 * **RegExBuddy:** http://www.regexbuddy.com (proprietary)
 * **Expresso:** http://www.ultrapico.com/expresso.htm (free)
 * **RegEx Coach:** http://www.weitz.de/regex-coach/ (free)
