@@ -14,7 +14,7 @@ The following are our official chat rooms.
 | [YouCanDoThis](https://gitter.im/freecodecamp/YouCanDoThis) | learning to code is hard - share your feelings and get moral support here | 
 | [News](https://gitter.im/freecodecamp/News) | chat about stories trending on [Camper News](http://freecodecamp.com/news) | 
 | [LetsPair](https://gitter.im/freecodecamp/LetsPair) | find fellow campers to pair program with using [Screen Hero](/field-guide/how-do-i-install-screenhero) | 
-| [TeamViewer](https://gitter.im/freecodecamp/TeamViewer) | find fellow campers who use Linux and pair program using [Team Viewer](https:https://www.teamviewer.com/en/download/linux.aspx) | 
+| [TeamViewer](https://gitter.im/freecodecamp/TeamViewer) | find fellow campers who use Linux and pair program using [Team Viewer](https://www.teamviewer.com/en/download/linux.aspx) | 
 | [PairProgrammingWomen](https://gitter.im/freecodecamp/PairProgrammingWomen) | this women-only chat room helps women pair program with other women if they so desire |
 | [40PlusDevs](https://gitter.im/freecodecamp/40PlusDevs) | campers who are over 40+ years old can chat here if they so desire |
 | [LiveCoding](https://gitter.im/freecodecamp/LiveCoding) | chat about streaming webdev and gamedev on [Twitch.tv](https://twitch.tv/freecodecamp) and [LiveCoding.tv](https://www.livecoding.tv/freecodecamp) |
@@ -28,11 +28,10 @@ The following are our official chat rooms.
 | [Design](https://gitter.im/freecodecamp/Design) | chat about design theory and practice | 
 | [BookClub](https://gitter.im/freecodecamp/BookClub) | chat about [these free coding books](http://blog.freecodecamp.com/2015/06/25-free-resources-for-new-javascript-developers.html) and more | 
 
-[World Language chat rooms](https://github.com/FreeCodeCamp/freecodecamp/wiki/World-Language-Chat-Rooms)
 
-
-[World Language chat rooms](https://github.com/FreeCodeCamp/freecodecamp/wiki/World-Language-Chat-Rooms)
-[Casual chat rooms](https://github.com/FreeCodeCamp/freecodecamp/wiki/Casual-Chat-Rooms)
-[Campsite chat rooms](https://github.com/FreeCodeCamp/freecodecamp/wiki/List-of-Free-Code-Camp-city-based-Campsites/)
+### Additional Chat Room Lists
+* [[World Language Chat Rooms|World-Language-Chat-Rooms]]
+* [[Casual Chat Rooms|Casual-Chat-Rooms]]
+* [[Campsite Chat Rooms|List-of-Free-Code-Camp-city-based-Campsites]]
 
 By joining these chat rooms, you accept our [Code of Conduct](https://github.com/FreeCodeCamp/freecodecamp/wiki/Code-of-Conduct).

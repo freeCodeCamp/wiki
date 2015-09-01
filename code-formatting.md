@@ -24,6 +24,10 @@ See also: ☛ [**How to type Backticks**](https://github.com/FreeCodeCamp/freeco
 
 [![enter image description here][6]][7]
 
+### QWERTY Estonian (Key's that have been marked with red border)
+
+![Estonian Keyboard layout](http://i.imgur.com/Ugcflkk.png)
+
 
   [1]: http://en.wikipedia.org/wiki/Dead_key
   [2]: http://i.stack.imgur.com/TOn1U.png

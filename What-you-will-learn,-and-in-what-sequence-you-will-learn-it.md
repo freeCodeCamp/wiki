@@ -10,3 +10,5 @@
 - [Express.js](http://expressjs.com/)- a powerful web development framework
 - [Node.js](https://nodejs.org/) - a platform for creating scalable network applications.
 - [Agile](https://en.wikipedia.org/wiki/Agile_software_development) - a set of software development principles that focus the design and production of a project on the needs of its users
+
+[[http://2.bp.blogspot.com/-CPfmVm56c7c/VTwEpZkHBtI/AAAAAAAAAks/0dEwiH-DjEE/s1600/curriculum-diagram-full.jpg|width=600px]]

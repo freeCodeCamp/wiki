@@ -11,3 +11,4 @@ A collection of helpful Angular resources
 ### Videos
 * [Routing in Angular JS](https://www.youtube.com/watch?v=5uhZCc0j9RY) - Client Side Routing in 15 minutes
 * [Angular ToDo App](https://www.youtube.com/watch?v=WuiHuZq_cg4) - An Angular ToDo app in 12 minutes
+* [Shaping Up with Angular.JS](https://www.codeschool.com/courses/shaping-up-with-angular-js) - A free Angular.JS tutorial
