@@ -13,11 +13,11 @@ Here are some helpful links:
 [Smallest Common Multiple](https://www.mathsisfun.com/least-common-multiple.html)
 
 
-## hint
+## Hint
 Here freeze a multiple candidate starting from the biggest array value - call it J 
 `for (var j = max; j <= 1000000; j++){...}`
 
-## hint
+## Hint
 Now you have to test your candidate
 `//I increase the denominator from min to max
     for (var k = arr[0]; k <= arr[1]; k++) {
@@ -27,7 +27,7 @@ Now you have to test your candidate
       }`
 
 ## final hint
-When your candidate is a multiple???
+When your candidate is a multiple?
 `if (count === numbers.length) { 
       multiple.push(j); 
     }
