@@ -1,3 +1,5 @@
+# **Bonfire: Smallest Common Multiple**
+
 Find the smallest number that is evenly divisible by all numbers in the provided range.
 
 In other words, given the range [3,7], you will need to find the least common multiple of 3, 4, 5, 6, and 7.
