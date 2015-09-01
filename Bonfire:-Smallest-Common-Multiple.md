@@ -26,7 +26,7 @@ Now you have to test your candidate
         count++; // variable
       }`
 
-## final hint
+## Final Hint
 When your candidate is a multiple?
 `if (count === numbers.length) { 
       multiple.push(j); 
