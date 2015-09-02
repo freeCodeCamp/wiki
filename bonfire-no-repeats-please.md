@@ -18,5 +18,6 @@ This task can still be daunting even after watching a tutorial. You will want to
         }
       }
     }
+    perm(0, nothing used yet, empty new string (or array the same size as str);
     
 A way to visualize this is by considering a tree that starts with the first character of your string:
