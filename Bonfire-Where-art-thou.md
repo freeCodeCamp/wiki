@@ -49,14 +49,26 @@ function where(collection, source) {
 ## Solution 2
 ```js
 function where(collection, source) {
+  // "What's in a name? that which we call a rose
+  // By any other name would smell as sweet.”
+  // -- by William Shakespeare, Romeo and Juliet
   var srcKeys = Object.keys(source);
-  return collection.filter(function(el) {
-    return srcKeys.every(function(k) {
-      return (el.hasOwnProperty(k) && el[k] === source[k]);
+  
+  // filter the collection
+  return collection.filter(function (obj) {
+    // return a Boolean value for filter callback using reduce method
+    return srcKeys.every(function (key) {
+      // reduce to Boolean value to be returned by reduce method
+      return obj.hasOwnProperty(key) && obj[key] === source[key];
     });
   });
 }
+
+where([{ first: 'Romeo', last: 'Montague' }, { first: 'Mercutio', last: null }, { first: 'Tybalt', last: 'Capulet' }], { last: 'Capulet' });
 ```
+
+# Explanation
+> Please read the comments in the source code.
 
 ----
 
