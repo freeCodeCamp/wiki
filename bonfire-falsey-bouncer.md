@@ -27,4 +27,4 @@ function bouncer(arr) {
 ```
 
 ## Code Explanation:
-The `Array.prototype.filter` method expects a function that returns a `Boolean` value which takes a single argument and returns `true` for [truthy](js-truthy) value or `false` for [falsey](js-falsy) value. Hence we pass the built-in `Boolean` function.
+The `Array.prototype.filter` method expects a function that returns a `Boolean` value which takes a single argument and returns `true` for [truthy](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-truthy) value or `false` for [falsey](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-falsy) value. Hence we pass the built-in `Boolean` function.
