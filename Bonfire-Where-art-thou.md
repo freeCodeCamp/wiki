@@ -1,11 +1,4 @@
-# Author
-![@Rafase282](https://avatars0.githubusercontent.com/Rafase282?&s=128)
-
-Submitted by Rafase282
-
-[Github](https://github.com/Rafase282) | [FreeCodeCamp](http://www.freecodecamp.com/rafase282) | [CodePen](http://codepen.io/Rafase282/) | [LinkedIn](https://www.linkedin.com/in/rafase282) | [Blog/Site](https://rafase282.wordpress.com/) | [My Wiki](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki)
-
-# Explanation:
+# Problem Explanation
 We have to create a program that will take an array for the first argument and return the object that matches the properties on the second parameter. You will need to be familiar with objects a little bit.
 
 ## Hint: 1
@@ -39,5 +32,3 @@ function where(collection, source) {
 # My Code Explanation:
 We first create an empty array, then go through the collection of objects and check if each of them has the same key that we are searching for. If they do, then we push them to the array we created.
 
-# If you enjoyed this guide, then type:
-`thanks @Rafase282` in the chat!
