@@ -2,4 +2,4 @@
 
 All values are **truthy** unless they are defined as **falsy** (i.e. except for `false`, `0`, `""`, `null`, `undefined` and `NaN`).
 
-**See Also:** [MDN](https://developer.mozilla.org/en-US/docs/Glossary/Truthy)
+See also: [falsy](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-falsey) | [MDN](https://developer.mozilla.org/en-US/docs/Glossary/Truthy)
