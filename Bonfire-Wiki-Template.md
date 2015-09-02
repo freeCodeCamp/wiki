@@ -1,12 +1,3 @@
-# Author
-![@Rafase282](https://avatars0.githubusercontent.com/Rafase282?&s=128)
-
-Submitted by Rafase282
-
-[Github](https://github.com/Rafase282) | [FreeCodeCamp](http://www.freecodecamp.com/rafase282) | [CodePen](http://codepen.io/Rafase282/) | [LinkedIn](https://www.linkedin.com/in/rafase282) | [Blog/Site](https://rafase282.wordpress.com/) | [My Wiki](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki)
-
-> Here you can replace the picture with yours and put your username.
-
 # Problem Explanation:
 - Explain what is asked in an easy to understand way.
 
@@ -33,8 +24,15 @@ code here
 # Code Explanation:
 - Explain your code here
 
-# If you enjoyed this guide, then type:
+# Credits:
 `thanks @Rafase282` in the chat!
+
+> You will use your username, if you are adding to the page then you add your name like this @newName instead of removing the other one.
 
 ## Here you can add any other information that is helpful or related.
 - Right here.
+
+### Important notes about this template.
+- This template can also be used for regular pages.
+- The author part has been removed. This is a collaboration page, while people can see who contributed by checking the revision, using the code for the credits will also benefits the contributors and your name will be there, so there is no longer any need to add your picture or links.
+- If you have suggestions or comments about this template then feel free to contact [@Rafase282 in Gitter](https://gitter.im/Rafase282)
