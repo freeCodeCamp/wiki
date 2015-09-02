@@ -48,17 +48,17 @@ Split the string by whitespaces, and create a variable to track the updated titl
 # If you enjoyed this guide, then type:
 `thanks @Rafase282 in the chat!`
 
-# new set of hints(by PoojaKumar)
-# hint 1 : 
+## new set of hints(by PoojaKumar)
+## hint 1 : 
 Split the sentence.
-# hint 2 : 
+## hint 2 : 
 Use replace method on each word to capitalize the first letter of each word. 
    spoiler ahead!
-# hint 3 : 
+## hint 3 : 
 In replace method , give first argument as the position of the first letter using charAt. For second argument write a function to return the capitalized letter as the replacement.
 
 
-# My code
+## My code
 
  ```
 function titleCase(str) {
