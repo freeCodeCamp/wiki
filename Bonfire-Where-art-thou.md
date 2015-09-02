@@ -1,4 +1,3 @@
-
 # Problem Explanation
 Write an algorithm that will take an `array` for the first argument and return an `array` with all the  `object`s that matches all the properties and values in the `Object` passed as second parameter.
 
