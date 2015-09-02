@@ -69,3 +69,6 @@ function where(collection, source) {
 > Please read the comments in the source code.
 
 ----
+
+# If you enjoyed this guide, then type:
+**`thanks @Rafase282 @abhisekp`** in the chat!
