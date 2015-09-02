@@ -3,7 +3,7 @@
 * **Getting Started Tutorial:** http://regexone.com (FCC recommended)
 * **RegEx 101:** https://regex101.com
 
-See also: :clipboard: [**Tutorials**](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-regex#regex-tutorial--guides) | :syringe: [**Testing**](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-regex#regex-testing-ground) | :soccer: [Games](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-regex#regex-gameplay) | :newspaper: [Blogs](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-regex#regex-blog) | :package: [Software](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-regex#regex-software-aids)
+See also: :clipboard: [**Tutorials**](js-regex#regex-tutorial--guides) | :syringe: [**Testing**](js-regex#regex-testing-ground) | :soccer: [Games](js-regex#regex-gameplay) | :newspaper: [Blogs](js-regex#regex-blog) | :package: [Software](js-regex#regex-software-aids)
 
 ## RegEx Tutorial & Guides
 * **RegEx Tutorial:** http://www.regular-expressions.info/tutorial.html (detailed explanation)
