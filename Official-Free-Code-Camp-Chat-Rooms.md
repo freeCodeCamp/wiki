@@ -13,7 +13,7 @@ The following are our official chat rooms.
 | [CodingJobs](https://gitter.im/freecodecamp/CodingJobs) | chat about the process of getting a coding job, such as portfolios, networking, and interviewing | 
 | [YouCanDoThis](https://gitter.im/freecodecamp/YouCanDoThis) | learning to code is hard - share your feelings and get moral support here | 
 | [News](https://gitter.im/freecodecamp/News) | chat about stories trending on [Camper News](http://freecodecamp.com/news) | 
-| [LetsPair](https://gitter.im/freecodecamp/LetsPair) | find fellow campers to pair program with using [Screen Hero](/field-guide/how-do-i-install-screenhero) | 
+| [LetsPair](https://gitter.im/freecodecamp/LetsPair) | find fellow campers to pair program with using [Screenhero](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/How-to-install-Screenhero) | 
 | [TeamViewer](https://gitter.im/freecodecamp/TeamViewer) | find fellow campers who use Linux and pair program using [Team Viewer](https://www.teamviewer.com/en/download/linux.aspx) | 
 | [PairProgrammingWomen](https://gitter.im/freecodecamp/PairProgrammingWomen) | this women-only chat room helps women pair program with other women if they so desire |
 | [40PlusDevs](https://gitter.im/freecodecamp/40PlusDevs) | campers who are over 40+ years old can chat here if they so desire |
