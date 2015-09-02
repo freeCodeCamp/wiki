@@ -47,3 +47,22 @@ Split the string by whitespaces, and create a variable to track the updated titl
 
 # If you enjoyed this guide, then type:
 `thanks @Rafase282 in the chat!`
+
+# My code
+ ```
+function titleCase(str) {
+  var newstr=str.toLowerCase().split(" ");
+  for(var i=0;i<newstr.length;i++){
+  var f=newstr[i].charAt(0);
+ newstr[i]=newstr[i].replace(newstr[i].charAt(0),function replace(f){
+   return f.toUpperCase();
+ });
+    
+  }
+  console.log(newstr);
+  return newstr.join(" ");
+}
+
+titleCase("hello world");
+```
+
