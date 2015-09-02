@@ -56,9 +56,9 @@ function where(collection, source) {
   
   // filter the collection
   return collection.filter(function (obj) {
-    // return a Boolean value for filter callback using reduce method
+    // return a Boolean value for `filter` method
     return srcKeys.every(function (key) {
-      // reduce to Boolean value to be returned by reduce method
+      // reduce to Boolean value to be returned for `every` method
       return obj.hasOwnProperty(key) && obj[key] === source[key];
     });
   });
