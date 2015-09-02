@@ -4,4 +4,4 @@
 
 Linux users should use TeamViewer as an alternative.
 
-You'll use Screen Hero to pair program starting with Bonfires and [our Zipline challenges](http://www.freecodecamp.com/challenges/waypoint-get-set-for-ziplines)
+You'll use Screenhero to pair program starting with Bonfires and [our Zipline challenges](http://www.freecodecamp.com/challenges/waypoint-get-set-for-ziplines)
