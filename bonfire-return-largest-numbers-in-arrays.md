@@ -40,7 +40,7 @@ function largestOfFour(arr) {
 }
 ```
 
-## My Code Explanation:
+### My Code Explanation:
 - Create a variable to store the results as an array.
 - Create an outer loop to iterate through the main array.
 - Before going into the inner loop, create a variable to hold the largest number. This must be outside the inner loop.

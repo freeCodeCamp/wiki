@@ -15,7 +15,12 @@ You should start by splitting the string into an array of words.
 You should make the word lowercase before making the first letter uppercase.
 
 ## Hint: 3
-You will need to create a new string with pieces of the previous one and at the end merge everythign into a single string again.
+You will need to create a new string with pieces of the previous one and at the end merge everything into a single string again.
+
+## Spoiler Alert!
+[![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
+
+**Solution ahead!**
 
 ## My code:
 
@@ -35,7 +40,7 @@ function titleCase(str) {
 }
 ```
 
-## My Code Explanation:
+### My Code Explanation:
 We are modifying the `replaceAt` function using prototype to facilitate the use of the program.
 
 Split the string by whitespaces, and create a variable to track the updated title. Then we use a loop to turn turn the first character of the word to uppercase and the rest to lowercase. by creating concatenated string composed of the whole word in lowercase with the first character replaced by it's uppercase.

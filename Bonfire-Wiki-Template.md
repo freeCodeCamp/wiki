@@ -1,3 +1,10 @@
+# Author
+![@Rafase282](https://avatars0.githubusercontent.com/Rafase282?&s=128)
+
+Submitted by Rafase282
+
+> Here you can replace the picture with yours and put your username.
+
 # Problem Explanation:
 - Explain what is asked in an easy to understand way.
 
@@ -26,3 +33,6 @@ code here
 
 ### If you enjoyed this guide, then type:
 `thanks @author's username` in the chat!
+
+### Here you can add any other information that is helpful or related.
+- Right here.
