@@ -41,7 +41,7 @@ function where(collection, source) {
 }
 ```
 
-### Explanation
+# Explanation
 > Please read the comments in the source code.
 
 ## Solution 2
@@ -63,5 +63,5 @@ function where(collection, source) {
 }
 ```
 
-### Explanation
+# Explanation
 > Please read the comments in the source code.
