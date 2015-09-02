@@ -19,15 +19,11 @@ Then we need to add a `filter()` with the falsey values function...
 
 ```
 function bouncer(arr) {
-  function falseyValues (n){
-    return (n !== undefined && n !== null && n !== false && n !== 0 && n !== "" && n!== isNaN);
-  }
-  
-  arr = arr.filter(falseyValues);
+  // Don't show a false ID to this bouncer.
+  // I've a hammer fist.
 
-  return arr;
+  return arr.filter(Boolean);
 }
-
 ```
 
 ## Code Explanation:
