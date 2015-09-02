@@ -7,11 +7,11 @@ You may use `for` loop or the `Array.prototype.filter` method?
 - http://devdocs.io/#q=js+Array+filter
 
 ## Hint: 2
-Try to use `Object.prototype.hasOwnProperty` method to know if the property name exists in an object as its own property.
+Try to use `Object.prototype.hasOwnProperty` method to know if the property name exists in an object (as its own property).
 - http://devdocs.io/#q=js+Object+hasOwnProperty
 
 ## Hint: 3
-Check equivalence of `Object` in collection with `Object` passed as second parameter to `where` function.
+Check equivalence of `Object` in `collection` with `Object` passed as second parameter to `where` function.
 
 ## Spoiler Alert!
 [![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
@@ -44,6 +44,8 @@ function where(collection, source) {
 # Explanation
 > Please read the comments in the source code.
 
+----
+
 ## Solution 2
 ```js
 function where(collection, source) {
@@ -65,3 +67,5 @@ function where(collection, source) {
 
 # Explanation
 > Please read the comments in the source code.
+
+----
