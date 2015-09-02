@@ -27,4 +27,4 @@ function bouncer(arr) {
 ```
 
 ## Code Explanation:
-With the `falseyValues(n)` function we return all the falsey values so we can then add to the `filter()` and lastly return the `arr`.
+The `Array.prototype.filter` method expects a function that returns a `Boolean` value which takes a single argument and returns `true` for [truthy](js-truthy) value or `false` for [falsey](js-falsy) value. Hence we pass the built-in `Boolean` function.
