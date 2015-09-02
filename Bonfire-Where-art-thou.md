@@ -1,34 +1,67 @@
 # Problem Explanation
-We have to create a program that will take an array for the first argument and return the object that matches the properties on the second parameter. You will need to be familiar with objects a little bit.
+Write an algorithm that will take an `array` for the first argument and return an `array` with all the  `object`s that matches all the properties and values in the `Object` passed as second parameter.
 
 ## Hint: 1
-Remember how to check for an element in a double array? `Array[index][subIndex]` That will be the first key.
+You may use `for` loop or the `Array.prototype.filter` method?
+- http://devdocs.io/#q=js+for 
+- http://devdocs.io/#q=js+Array+filter
 
 ## Hint: 2
-You remember how to access properties using Bracket and dot notation? `Obj[key]` and `Obj.key` You will be using them together the the first hint to access the information.
+Try to use `Object.prototype.hasOwnProperty` method to know if the property name exists in an object as its own property.
+- http://devdocs.io/#q=js+Object+hasOwnProperty
 
 ## Hint: 3
-The rest is to check if they are the same and add it to a variable to be returned at the end.
+Check equivalence of `Object` in collection with `Object` passed as second parameter to `where` function.
 
 ## Spoiler Alert!
 [![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
 
 **Solution ahead!**
 
-## My code:
-
-```
+## Solution 1
+```js
 function where(collection, source) {
-  var arr = [];
-  for (var ob in collection) {
-    if (collection[ob][Object.keys(source)] === source[Object.keys(source)]) {
-      arr.push(collection[ob]);
+  // "What's in a name? that which we call a rose
+  // By any other name would smell as sweet.”
+  // -- by William Shakespeare, Romeo and Juliet
+  var srcKeys = Object.keys(source);
+  
+  // filter the collection
+  return collection.filter(function (obj) {
+    for(var i = 0; i < srcKeys.length; i++) {
+      // check if obj in collection doesn't have the key
+      // or if it does have the key,
+      // then check if the property value doesn't match the value in source
+      if(!obj.hasOwnProperty(srcKeys[i]) || obj[srcKeys[i]] !== source[srcKeys[i]]) {
+        return false;
+      }
     }
-  }
-  return arr;
+    return true;
+  });
 }
 ```
 
-# My Code Explanation:
-We first create an empty array, then go through the collection of objects and check if each of them has the same key that we are searching for. If they do, then we push them to the array we created.
+### Explanation
+> Please read the comments in the source code.
 
+## Solution 2
+```js
+function where(collection, source) {
+  // "What's in a name? that which we call a rose
+  // By any other name would smell as sweet.”
+  // -- by William Shakespeare, Romeo and Juliet
+  var srcKeys = Object.keys(source);
+  
+  // filter the collection
+  return collection.filter(function (obj) {
+    // return a Boolean value for filter callback using reduce method
+    return srcKeys.reduce(function (res, key) {
+      // reduce to Boolean value to be returned by reduce method
+      return obj.hasOwnProperty(key) && obj[key] === source[key];
+    }, false);
+  });
+}
+```
+
+### Explanation
+> Please read the comments in the source code.
