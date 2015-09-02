@@ -70,5 +70,5 @@ function where(collection, source) {
 
 ----
 
-# If you enjoyed this guide, then type:
-**`thanks @Rafase282 @abhisekp`** in the chat!
+# If you enjoyed this guide
+type **`thanks @Rafase282 @abhisekp`** in the chat!
