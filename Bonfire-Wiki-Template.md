@@ -23,3 +23,6 @@ code here
 
 ## Code Explanation:
 - Explain your code here
+
+### If you enjoyed this guide, then type:
+`thanks @author's username` in the chat!
