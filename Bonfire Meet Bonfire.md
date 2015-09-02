@@ -30,3 +30,6 @@ meetBonfire("You can do this!");
 
 ## Code Explanation:
 All you had to do was change from false to true.
+
+# Credits:
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282`

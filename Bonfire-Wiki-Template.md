@@ -25,7 +25,7 @@ code here
 - Explain your code here
 
 # Credits:
-`thanks @Rafase282` in the chat!
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282`
 
 > You will use your username, if you are adding to the page then you add your name like this @newName instead of removing the other one.
 
