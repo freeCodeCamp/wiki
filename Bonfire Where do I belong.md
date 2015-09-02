@@ -5,17 +5,17 @@ Submitted by Rafase282
 
 [Github](https://github.com/Rafase282) | [FreeCodeCamp](http://www.freecodecamp.com/rafase282) | [CodePen](http://codepen.io/Rafase282/) | [LinkedIn](https://www.linkedin.com/in/rafase282) | [Blog/Site](https://rafase282.wordpress.com/) | [My Wiki](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki)
 
-# Explanation:
-You have to go through each word and figure out which one is the longest and return not the word, but how many characters does it has.
+## Explanation:
+This can be a tricky problem to understand. You need to find where in the array a number should be inserted by order, and return the index where it should go.
 
 ## Hint: 1
-You should split the string into an array of words.
+The first thing to do is sort the array from lower to bigger, just to make the code easier. This is where sort comes in, it needs a callback function so you have to create it.
 
 ## Hint: 2
-You will need to figure out a way to keep track globally of the greatest current length.
+Once the array is sorted, then just check for the first number that is bigger and return the index.
 
 ## Hint: 3
-Remember how to get the length of elements on the array? `Array[index].length`
+If there is no index for that number then you will have to deal with that case too.
 
 ## Spoiler Alert!
 [![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
@@ -25,23 +25,21 @@ Remember how to get the length of elements on the array? `Array[index].length`
 ## My code:
 
 ```
-function findLongestWord(str) {
-    var words = str.split(' ');
-      var maxLength = 0;
-      for(var i = 0; i < words.length; i++) {
-          if (words[i].length > maxLength) {
-              maxLength = words[i].length;
-          }
-      }
-
-  return maxLength;
+function where(arr, num) {
+    arr.sort(function(a, b) {
+        return a - b;
+        });
+    for (var a in arr){
+        if (arr[a] >= num)
+            return parseInt(a);
+    }
+    return arr.length;
 }
 ```
 
-# My Code Explanation:
-Take the string and convert it into an array of words. Declare a variable to keep track of the maximum length and loop from 0 to the length of the array of words.
-
-Then check for the longest word by comparing the current word to the previous one and storing the new longest word. At the end of the loop just return the number value of the variable maxLength.
+## My Code Explanation:
+- First I sort the array using `.sort(callbackFuntion)` to sort it by lowest to highest, from left to right.
+- Then I use a for loop to compare the items in the array starting from the smallest one. When an item on the array is greater than the number we are comparing against, then we return the index as an integer.
 
 # If you enjoyed this guide, then type:
 `thanks @Rafase282` in the chat!

@@ -3,6 +3,8 @@
 
 Submitted by Rafase282
 
+[Github](https://github.com/Rafase282) | [FreeCodeCamp](http://www.freecodecamp.com/rafase282) | [CodePen](http://codepen.io/Rafase282/) | [LinkedIn](https://www.linkedin.com/in/rafase282) | [Blog/Site](https://rafase282.wordpress.com/) | [My Wiki](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki)
+
 > Here you can replace the picture with yours and put your username.
 
 # Problem Explanation:
@@ -28,11 +30,11 @@ Submitted by Rafase282
 code here
 ```
 
-## Code Explanation:
+# Code Explanation:
 - Explain your code here
 
-### If you enjoyed this guide, then type:
-`thanks @author's username` in the chat!
+# If you enjoyed this guide, then type:
+`thanks @Rafase282` in the chat!
 
-### Here you can add any other information that is helpful or related.
+## Here you can add any other information that is helpful or related.
 - Right here.
