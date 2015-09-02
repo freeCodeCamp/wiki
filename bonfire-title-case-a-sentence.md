@@ -40,10 +40,10 @@ function titleCase(str) {
 }
 ```
 
-### My Code Explanation:
+# My Code Explanation:
 We are modifying the `replaceAt` function using prototype to facilitate the use of the program.
 
 Split the string by whitespaces, and create a variable to track the updated title. Then we use a loop to turn turn the first character of the word to uppercase and the rest to lowercase. by creating concatenated string composed of the whole word in lowercase with the first character replaced by it's uppercase.
 
-### If you enjoyed this guide, then type:
+# If you enjoyed this guide, then type:
 `thanks @Rafase282 in the chat!`
