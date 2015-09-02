@@ -49,6 +49,20 @@ function where(collection, source) {
 ## Solution 2
 ```js
 function where(collection, source) {
+  var srcKeys = Object.keys(source);
+  return collection.filter(function(el) {
+    return srcKeys.every(function(k) {
+      return (el.hasOwnProperty(k) && el[k] === source[k]);
+    });
+  });
+}
+```
+
+----
+
+## Solution 3
+```js
+function where(collection, source) {
   // "What's in a name? that which we call a rose
   // By any other name would smell as sweet.”
   // -- by William Shakespeare, Romeo and Juliet
@@ -71,4 +85,4 @@ function where(collection, source) {
 ----
 
 # If you enjoyed this guide
-type **`thanks @Rafase282 @abhisekp`** in the chat!
+type **`thanks @Rafase282 @abhisekp @dting`** in the chat!
