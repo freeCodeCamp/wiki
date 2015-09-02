@@ -2,5 +2,5 @@ Something which evaluates to FALSE. There are only five falsey values in JavaScr
 `undefined`, `null`, `NaN`, `0`, `""` (empty string), and `false` of course.
 
 ## see also
-- [truthy](truthy) 
+- [truthy](js-truthy) 
 - [Truthy & Falsey blog post](http://james.padolsey.com/javascript/truthy-falsey/)
