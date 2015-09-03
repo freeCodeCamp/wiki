@@ -1,8 +1,8 @@
 # Problem Explanation:
-This task requires to look at each possible permutation of a string. This is best done using a recursion function. Being able to build a function which collects all permutations of a string is a common interview question, so there is no shortage of tutorials out there on how to do this, in many different code languages.
+This task requires us to look at each possible permutation of a string. This is best done using a recursion function. Being able to build a function which collects all permutations of a string is a common interview question, so there is no shortage of tutorials out there on how to do this, in many different code languages.
 
 # Permutation Recursion Function
-This task can still be daunting even after watching a tutorial. You will want to send each new use of the function a new string (or character array) that is being built, a position in your new string that's going to be filled next, and an idea of what characters (more specifically positions) from the original string have yet to be used. The pseudo code will look something like this:
+This task can still be daunting even after watching a tutorial. You will want to send each new use of the function  3 inputs: 1. a new string (or character array) that is being built, 2. a position in your new string that's going to be filled next, and 3. an idea of what characters (more specifically positions) from the original string have yet to be used. The pseudo code will look something like this:
 
 ```
 var str = ???;
