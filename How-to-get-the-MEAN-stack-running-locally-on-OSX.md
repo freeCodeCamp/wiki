@@ -58,9 +58,9 @@ fix-exports-update.sh && chmod +x fix-exports-update.sh && \
 You need to run `./fix-exports-update.sh` every time you generate a new API endpoint (until they fix this upstream, that is).
 
 ## Step 5: initialising local Git repository
-Tell Git not to track these files:
+Tell Git not to track your database:
 ```sh
-echo "data\nmongod.sh\nfix-exports-update.sh" >> .gitignore
+echo "data" >> .gitignore
 ```
 
 Turn the directory in which your application is located into a Git repository by running the following commands: 
