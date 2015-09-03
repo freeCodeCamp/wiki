@@ -51,8 +51,9 @@ Answer the questions according to checklist items #13-23 of [Waypoint: Get Set f
 
 Before going any further, we need to fix a [known issue](https://github.com/clnhll/guidetobasejumps#fixing-exportsupdate) in some generated files:
 ```sh
-echo "sed -i '' -e 's/_.merge/_.extend/' server/api/*/*.controller.js" > fix-exports-update.sh && \
-chmod +x fix-exports-update.sh && ./fix-exports-update.sh
+echo "sed -i '' -e 's/_.merge/_.extend/' server/api/*/*.controller.js" > \
+fix-exports-update.sh && chmod +x fix-exports-update.sh && \
+./fix-exports-update.sh
 ```
 You need to run `./fix-exports-update.sh` every time you generate a new API endpoint (until they fix this upstream, that is).
 
