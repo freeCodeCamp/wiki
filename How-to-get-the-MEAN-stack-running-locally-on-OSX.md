@@ -38,7 +38,7 @@ If you use a different shell than Bash, simply replace `~/.bashrc` with your she
 npm install -g express yo grunt grunt-cli generator-angular-fullstack bower
 ```
 
-## Step 4: generating an Angular site
+## Step 4: generating a fullstack app
 Make a directory for your Basejump projects. Assuming your desktop is your de facto workspace:
 ```sh
 mkdir ~/Desktop/basejumps && cd ~/Desktop/basejumps
@@ -49,13 +49,20 @@ yo angular-fullstack
 ```
 Answer the questions according to checklist items #13-23 of [Waypoint: Get Set for Basejumps](http://www.freecodecamp.com/challenges/waypoint-get-set-for-basejumps). Consult #24-27 if you run into errors. This will download ~350MB worth of files into your current directory.
 
-Before going any further, we need to fix a [known issue](https://github.com/clnhll/guidetobasejumps#fixing-exportsupdate) in one generated file:
+Before going any further, we need to fix a [known issue](https://github.com/clnhll/guidetobasejumps#fixing-exportsupdate) in some generated files:
 ```sh
-sed -i '' -e 's/_.merge/_.extend/' server/api/thing/thing.controller.js
+echo "sed -i '' -e 's/_.merge/_.extend/' server/api/*/*.controller.js" > fix-exports-update.sh && \
+chmod +x fix-exports-update.sh && ./fix-exports-update.sh
 ```
+You need to run `./fix-exports-update.sh` every time you generate a new API endpoint (until they fix this upstream, that is).
 
 ## Step 5: initialising local Git repository
-Turn the folder in which your application is located into a Git repository by running the following commands: 
+Tell Git not to track these files:
+```sh
+echo "data\nmongod.sh\nfix-exports-update.sh" >> .gitignore
+```
+
+Turn the directory in which your application is located into a Git repository by running the following commands: 
 ```sh
 git init && git add . && git commit -am 'initial commit'
 ```
