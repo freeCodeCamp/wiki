@@ -85,6 +85,7 @@ function where(collection, source) {
 
 ## Code Explanation:
 > Please read the comments in the source code.
+
 Check this http://repl.it/BFZQ/13 for pretty debugging and code explanation
 
 # Credits:
