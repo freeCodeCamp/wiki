@@ -1,10 +1,3 @@
-# Author
-![@Rafase282](https://avatars0.githubusercontent.com/Rafase282?&s=128)
-
-Submitted by Rafase282
-
-[Github](https://github.com/Rafase282) | [FreeCodeCamp](http://www.freecodecamp.com/rafase282) | [CodePen](http://codepen.io/Rafase282/) | [LinkedIn](https://www.linkedin.com/in/rafase282) | [Blog/Site](https://rafase282.wordpress.com/) | [My Wiki](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki)
-
 # Explanation:
 The function is a whole Boolean operation. You need to return true if the first argument ends with the second argument. This means that for the problem script, it should return true for the `end('Bastian', 'n'); case.`
 
@@ -22,7 +15,7 @@ Check that you have the proper syntax and that you use `===` to compare.
 
 **Solution ahead!**
 
-## My code:
+## Code Solution:
 
 ```
 function end(str, target) {
@@ -33,8 +26,8 @@ function end(str, target) {
 }
 ```
 
-# My Code Explanation:
+# Code Explanation:
 We use the subtring() with the negative value of the lengths of target. We could use -1 to get the last element but if the target is actually longer than one letter then the program will provide the wrong information. The we return true or false as needed.
 
-# If you enjoyed this guide, then type:
-`thanks @Rafase282` in the chat!
+# Credits:
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282`

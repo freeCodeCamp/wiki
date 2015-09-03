@@ -3,12 +3,12 @@ Write an algorithm that will take an `array` for the first argument and return a
 
 ## Hint: 1
 You may use `for` loop or the `Array.prototype.filter` method?
-- http://devdocs.io/#q=js+for 
-- http://devdocs.io/#q=js+Array+filter
+- [http://devdocs.io/#q=js+for](http://devdocs.io/#q=js+for)
+- [http://devdocs.io/#q=js+Array+filter](http://devdocs.io/#q=js+Array+filter)
 
 ## Hint: 2
 Try to use `Object.prototype.hasOwnProperty` method to know if the property name exists in an object (as its own property).
-- http://devdocs.io/#q=js+Object+hasOwnProperty
+- [http://devdocs.io/#q=js+Object+hasOwnProperty](http://devdocs.io/#q=js+Object+hasOwnProperty)
 
 ## Hint: 3
 Check equivalence of `Object` in `collection` with `Object` passed as second parameter to `where` function.
@@ -18,14 +18,16 @@ Check equivalence of `Object` in `collection` with `Object` passed as second par
 
 **Solution ahead!**
 
-## Solution 1
+## Code Solution:
+### First
+
 ```js
 function where(collection, source) {
   // "What's in a name? that which we call a rose
   // By any other name would smell as sweet.”
   // -- by William Shakespeare, Romeo and Juliet
   var srcKeys = Object.keys(source);
-  
+
   // filter the collection
   return collection.filter(function (obj) {
     for(var i = 0; i < srcKeys.length; i++) {
@@ -41,19 +43,15 @@ function where(collection, source) {
 }
 ```
 
-# Explanation
-> Please read the comments in the source code.
+### Second
 
-----
-
-## Solution 2
 ```js
 function where(collection, source) {
   // "What's in a name? that which we call a rose
   // By any other name would smell as sweet.”
   // -- by William Shakespeare, Romeo and Juliet
   var srcKeys = Object.keys(source);
-  
+
   // filter the collection
   return collection.filter(function (obj) {
     // return a Boolean value for `filter` method
@@ -65,19 +63,15 @@ function where(collection, source) {
 }
 ```
 
-# Explanation
-> Please read the comments in the source code.
+### Third
 
-----
-
-## Solution 3
 ```js
 function where(collection, source) {
   // "What's in a name? that which we call a rose
   // By any other name would smell as sweet.”
   // -- by William Shakespeare, Romeo and Juliet
   var srcKeys = Object.keys(source);
-  
+
   // filter the collection
   return collection.filter(function (obj) {
     // return a Boolean value for filter callback using reduce method
@@ -89,10 +83,8 @@ function where(collection, source) {
 }
 ```
 
-# Explanation
+## Code Explanation:
 > Please read the comments in the source code.
 
-----
-
-# If you enjoyed this guide
-type **`thanks @Rafase282 @abhisekp @dting`** in the chat!
+# Credits:
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282  @abhisekp @dting @benmcmahon100`

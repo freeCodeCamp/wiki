@@ -15,7 +15,7 @@ You need to change the return statement to what they ask.
 
 **Solution ahead!**
 
-## Solution Code:
+## Code Solution:
 
 ```
 function meetBonfire(argument) {
@@ -28,7 +28,7 @@ function meetBonfire(argument) {
 meetBonfire("You can do this!");
 ```
 
-## Code Explanation:
+# Code Explanation:
 All you had to do was change from false to true.
 
 # Credits:

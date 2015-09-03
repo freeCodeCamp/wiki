@@ -1,45 +1,5 @@
-# Author
-
-![@Rafase282](https://avatars0.githubusercontent.com/Rafase282?&s=128) submitted by Rafase282 | https://github.com/Rafase282
-
-* FreeCodeCamp Profile: http://www.freecodecamp.com/rafase282
-* CodePed Profile: http://codepen.io/Rafase282/
-* LinkedIn: https://www.linkedin.com/in/rafase282
-
-# [My Original Wiki](http://rafase282.github.io/My-FreeCodeCamp-Code/)
-
-# Details
-
-* Difficulty: 2/5
-
-Check if the predicate (second argument) returns truthy (defined) for all elements of a collection (first argument).
-
-For this, check to see if the property defined in the second argument is present on every element of the collection.
-
-Remember, you can access object properties through either dot notation or [] notation.
-
-Remember to use [RSAP](http://www.freecodecamp.com/field-guide/how-do-i-get-help-when-I-get-stuck) if you get stuck. Try to pair program. Write your own code.
-
-# Useful Links
-
-* [Object.hasOwnProperty()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty)
-* [Object.getOwnPropertyNames()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyNames)
-
-# Problem Script:
-```
-function every(collection, pre) {
-  // Does everyone have one of these?
-  return pre;
-}
-
-every([{'user': 'Tinky-Winky', 'sex': 'male'}, {'user': 'Dipsy', 'sex': 'male'}, {'user': 'Laa-Laa', 'sex': 'female'}, {'user': 'Po', 'sex': 'female'}], 'sex');
-
-```
-## Explanation:
-
-The program needs to check if the second argument is a truthy element, and it must check this for each object in the first argument.
-
->In JavaScript, a truthy value is a value that translates to true when evaluated in a Boolean context. All values are truthy unless they are defined as falsy (i.e., except for false, 0, "", null, undefined, and NaN).
+# Explanation:
+The program needs to check if the second argument is a [truthy](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-truthy) element, and it must check this for each object in the first argument.
 
 ## Hint: 1
 Remember to iterate through the first argument to check each object.
@@ -50,7 +10,13 @@ Only if all of them are truth will we return true, so make sure all of them chec
 ## Hint: 3
 You could use loops or callbacks functions, there are multiple ways to solve this problem.
 
-## My Code:
+## Spoiler Alert!
+[![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
+
+**Solution ahead!**
+
+## Code Solution:
+
 ```
 function every(collection, pre) {
   var counter = 0;
@@ -59,15 +25,18 @@ function every(collection, pre) {
   }
   if (counter == collection.length) {
     return true;
-  } else 
+  } else
     return false;
 }
 
 every([{'user': 'Tinky-Winky', 'sex': 'male'}, {'user': 'Dipsy', 'sex': 'male'}, {'user': 'Laa-Laa',
 'sex': 'female'}, {'user': 'Po', 'sex': 'female'}], 'sex');
 ```
-## My Code Explanation:
 
-* First I create a counter to check how many cases are actually true.
-* Then check for each object if it it has the same property or the same property value. If true then add one to the counter.
-* Outside the loop, I check to see if the counter variable has the same value as the length of **collection**, if true then return **true**, otherwise, return **false**
+# Code Explanation:
+- First I create a counter to check how many cases are actually true.
+- Then check for each object if it it has the same property or the same property value. If true then add one to the counter.
+- Outside the loop, I check to see if the counter variable has the same value as the length of **collection**, if true then return **true**, otherwise, return **false**
+
+# Credits:
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282`

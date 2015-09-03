@@ -1,10 +1,3 @@
-# Author
-![@Rafase282](https://avatars0.githubusercontent.com/Rafase282?&s=128)
-
-Submitted by Rafase282
-
-[Github](https://github.com/Rafase282) | [FreeCodeCamp](http://www.freecodecamp.com/rafase282) | [CodePen](http://codepen.io/Rafase282/) | [LinkedIn](https://www.linkedin.com/in/rafase282) | [Blog/Site](https://rafase282.wordpress.com/) | [My Wiki](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki)
-
 # Explanation:
 You have to check if the string you get as an input is a palindrome and return true if it is, and false otherwise.
 
@@ -22,7 +15,7 @@ Using regular expressions to change to lowercase will make things easier and the
 
 **Solution ahead!**
 
-## My code:
+## Code Solution:
 
 ```
 function palindrome(str) {
@@ -35,8 +28,8 @@ function palindrome(str) {
 }
 ```
 
-# My Code Explanation:
+# Code Explanation:
 We use regular expressions to replace any uppercase letter into a lowercase. Then we check if the string is the same as the reversed string using `split()` to split the original string by characters, then reverse and then join it back together.
 
-# If you enjoyed this guide, then type:
-`thanks @Rafase282` in the chat!
+# Credits:
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282`

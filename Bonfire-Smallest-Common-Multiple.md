@@ -1,34 +1,60 @@
-# **Bonfire: Smallest Common Multiple**
+# Explanation:
+This particular problem can be confusing because most people look for the smallest common multiple of the two number but forget the keyword **range.** This means that if you get `[1,5]` then you have to check for the smallest common multiple for all these numbers [1,2,3,4,5] that is evenly divisible by all of them.
 
-Find the smallest number that is evenly divisible by all numbers in the provided range.
+## Hint: 1
+Create an array with all the numbers that are missing from the original array to make it easier to check when having to check for even division.
 
-In other words, given the range [3,7], you will need to find the least common multiple of 3, 4, 5, 6, and 7.
+## Hint: 2
+You can use modulo `%` to check if the reminder is 0, which means it is evenly divisible.
 
-The range will be an array of two numbers that will not necessarily be in numerical order.
+## Hint: 3
+If you sort the array from greater to lowest then you can check for the first two numbers as it is more likely to the the smallest common multiple than the lower numbers.
 
-Remember to use [Read-Search-Ask](https://github.com/FreeCodeCamp/freecodecamp/wiki/How-to-get-help-when-you-get-stuck) if you get stuck. Try to pair program. Write your own code.
+## Spoiler Alert!
+[![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
 
-Here are some helpful links:
+**Solution ahead!**
 
-[Smallest Common Multiple](https://www.mathsisfun.com/least-common-multiple.html)
+## Code Solution:
 
-
-## Hint
-Here freeze a multiple candidate starting from the biggest array value - call it J 
-`for (var j = max; j <= 1000000; j++){...}`
-
-## Hint
-Now you have to test your candidate
-`//I increase the denominator from min to max
-    for (var k = arr[0]; k <= arr[1]; k++) {
-
-      if (j % k === 0) { // every time the modulus is 0 increase a counting 
-        count++; // variable
-      }`
-
-## Final Hint
-When your candidate is a multiple?
-`if (count === numbers.length) { 
-      multiple.push(j); 
+```
+function smallestCommons(arr) {
+    arr.sort(function(a, b){return b-a;});
+    var newArr = [];
+    for(var i = arr[0]; i >= arr[1]; i--) {
+        newArr.push(i);
     }
-`
+
+    var quot = 0;
+    var loop = 1;
+    var n;
+    do {
+        quot = newArr[0] * loop * newArr[1];
+        for (n = 2; n < newArr.length; n++){
+            if (quot % newArr[n] !== 0) {
+                break;
+            }
+        }
+        loop++;
+    } while (n !== newArr.length);
+
+return quot;
+}
+smallestCommons([1, 13]);
+```
+
+# Code Explanation:
+- Because the possibility of the smallest common denominator being among the two biggest numbers, it makes sense to check those first, so sort the array.
+- Create a new array to sore all the numbers.
+- Use a descending for loop to add the numbers from the biggest to the smallest in the new array.
+- Declare the variables for the quotient, the number of loops and the variable that we will use in a for loop on another scope, this will allow us access outside the loop.
+- Use a do while loop to check what we need while **n** is not the same length as the new array.
+- In the **do** part, we are going to multiply the very first number, times the number of loops, times the second number.
+- The loop part will allows us to increase the number beyond the greatest number we have without having to change the algorithm.
+- We enter a for loop that will go from n being 2 and going up by one while it is smaller than the array with all the numbers.
+- If the quotient is not even then stop the loop. If it is even then it check for the next elements in the array until it is not even or we find our answer.
+- Outside the loop, increase the value of loop.
+- At the end of the loop return the quotient.
+
+# Credits:
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282`

@@ -1,5 +1,5 @@
 # Problem Explanation:
-Remove all falsey values from an array.
+Remove all [falsey](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-falsey) values from an array.
 
 ## Hint: 1
 Falsey is something which evaluates to FALSE. There are only five falsey values in JavaScript: undefined, null, NaN, 0, "" (empty string), and false of course.
@@ -26,5 +26,8 @@ function bouncer(arr) {
 }
 ```
 
-## Code Explanation:
+# Code Explanation:
 The `Array.prototype.filter` method expects a function that returns a `Boolean` value which takes a single argument and returns `true` for [truthy](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-truthy) value or `false` for [falsey](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-falsy) value. Hence we pass the built-in `Boolean` function.
+
+# Credits:
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @renelis @abhisekp @Rafase282`

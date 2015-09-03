@@ -1,10 +1,3 @@
-# Author
-![@Rafase282](https://avatars0.githubusercontent.com/Rafase282?&s=128)
-
-Submitted by Rafase282
-
-[Github](https://github.com/Rafase282) | [FreeCodeCamp](http://www.freecodecamp.com/rafase282) | [CodePen](http://codepen.io/Rafase282/) | [LinkedIn](https://www.linkedin.com/in/rafase282) | [Blog/Site](https://rafase282.wordpress.com/) | [My Wiki](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki)
-
 # Explanation:
 You will get an array that contains sub arrays of numbers and you need to return an array with the largest number from each of the sub arrays.
 
@@ -22,7 +15,7 @@ Pay close attention to the timing of the storing of variables when working with 
 
 **Solution ahead!**
 
-## My code:
+## Code Solution:
 
 ```
 function largestOfFour(arr) {
@@ -40,7 +33,7 @@ function largestOfFour(arr) {
 }
 ```
 
-# My Code Explanation:
+# Code Explanation:
 - Create a variable to store the results as an array.
 - Create an outer loop to iterate through the main array.
 - Before going into the inner loop, create a variable to hold the largest number. This must be outside the inner loop.
@@ -48,5 +41,5 @@ function largestOfFour(arr) {
 - Check if the element of the sub array is larger than the current largest number. If so, then save the number.
 - After the inner loop, save the largest number in the variable for the results.
 
-# If you enjoyed this guide, then type:
-`thanks @Rafase282 in the chat!`
+# Credits:
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282`

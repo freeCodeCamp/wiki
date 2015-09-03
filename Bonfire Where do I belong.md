@@ -1,11 +1,4 @@
-# Author
-![@Rafase282](https://avatars0.githubusercontent.com/Rafase282?&s=128)
-
-Submitted by Rafase282
-
-[Github](https://github.com/Rafase282) | [FreeCodeCamp](http://www.freecodecamp.com/rafase282) | [CodePen](http://codepen.io/Rafase282/) | [LinkedIn](https://www.linkedin.com/in/rafase282) | [Blog/Site](https://rafase282.wordpress.com/) | [My Wiki](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki)
-
-## Explanation:
+# Explanation:
 This can be a tricky problem to understand. You need to find where in the array a number should be inserted by order, and return the index where it should go.
 
 ## Hint: 1
@@ -22,7 +15,7 @@ If there is no index for that number then you will have to deal with that case t
 
 **Solution ahead!**
 
-## My code:
+## Code Solution:
 
 ```
 function where(arr, num) {
@@ -37,9 +30,9 @@ function where(arr, num) {
 }
 ```
 
-## My Code Explanation:
+# Code Explanation:
 - First I sort the array using `.sort(callbackFuntion)` to sort it by lowest to highest, from left to right.
 - Then I use a for loop to compare the items in the array starting from the smallest one. When an item on the array is greater than the number we are comparing against, then we return the index as an integer.
 
-# If you enjoyed this guide, then type:
-`thanks @Rafase282` in the chat!
+# Credits:
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282`

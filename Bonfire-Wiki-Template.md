@@ -15,7 +15,7 @@
 
 **Solution ahead!**
 
-## Solution Code:
+## Code Solution:
 
 ```
 code here

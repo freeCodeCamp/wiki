@@ -1,10 +1,3 @@
-# Author
-![@Rafase282](https://avatars0.githubusercontent.com/Rafase282?&s=128)
-
-Submitted by Rafase282
-
-[Github](https://github.com/Rafase282) | [FreeCodeCamp](http://www.freecodecamp.com/rafase282) | [CodePen](http://codepen.io/Rafase282/) | [LinkedIn](https://www.linkedin.com/in/rafase282) | [Blog/Site](https://rafase282.wordpress.com/) | [My Wiki](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki)
-
 # Explanation:
 The program is very simple, we have to take a variable and return that variable being repeated certain amount of times. No need to add space or anything, just keep repeating it into one single string.
 
@@ -22,7 +15,7 @@ Make the variable created store the current value and append the word to it.
 
 **Solution ahead!**
 
-## My code:
+## Code Solution:
 
 ```
 function repeat(str, num) {
@@ -35,11 +28,11 @@ function repeat(str, num) {
 }
 ```
 
-# My Code Explanation:
+# Code Explanation:
 - Create a variable to store the repeated word.
 - Use a while loop or for loop to repeat code as many times as needed according to `num`
 - The we just have to add the string to the variable created on step one. and increase or decrease num depending on how you set the loop.
 - At the end of the loop, return the variable for the repeated word.
 
-# If you enjoyed this guide, then type:
-`thanks @Rafase282` in the chat!
+# Credits:
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282`

@@ -15,7 +15,7 @@ You need to take the string and reverse it so if you had originally 'hello', it 
 
 **Solution ahead!**
 
-## Solution Code:
+## Code Solution:
 
 ```
 function reverseString(str) {
@@ -27,3 +27,6 @@ function reverseString(str) {
 
 # Code Explanation:
 This is a straightforward code. We create a variable that will hold the string split by characters, and then reversed and put back together.
+
+# Credits:
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282 @kirah1314 @dcsan @abhisekp`

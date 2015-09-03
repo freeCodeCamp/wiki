@@ -1,10 +1,3 @@
-# Author
-![@Rafase282](https://avatars0.githubusercontent.com/Rafase282?&s=128)
-
-Submitted by Rafase282
-
-[Github](https://github.com/Rafase282) | [FreeCodeCamp](http://www.freecodecamp.com/rafase282) | [CodePen](http://codepen.io/Rafase282/) | [LinkedIn](https://www.linkedin.com/in/rafase282) | [Blog/Site](https://rafase282.wordpress.com/) | [My Wiki](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki)
-
 # Explanation:
 You have to go through each word and figure out which one is the longest and return not the word, but how many characters does it has.
 
@@ -22,7 +15,7 @@ Remember how to get the length of elements on the array? `Array[index].length`
 
 **Solution ahead!**
 
-## My code:
+## Code Solution:
 
 ```
 function findLongestWord(str) {
@@ -38,10 +31,10 @@ function findLongestWord(str) {
 }
 ```
 
-# My Code Explanation:
+# Code Explanation:
 Take the string and convert it into an array of words. Declare a variable to keep track of the maximum length and loop from 0 to the length of the array of words.
 
 Then check for the longest word by comparing the current word to the previous one and storing the new longest word. At the end of the loop just return the number value of the variable maxLength.
 
-# If you enjoyed this guide, then type:
-`thanks @Rafase282` in the chat!
+# Credits:
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282`
