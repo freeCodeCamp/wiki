@@ -33,17 +33,12 @@ You should see `./node_modules:/usr/local/lib/node_modules` printed out below yo
 
 If you use a different shell than Bash, simply replace `~/.bashrc` with your shell configuration file.
 
-## Step 3: installing Express.js
+## Step 3: installing fullstack tools
 ```sh
-npm install -g express
+npm install -g express yo grunt grunt-cli generator-angular-fullstack bower
 ```
 
-## Step 4: installing Angular tools
-```sh
-npm install -g yo grunt grunt-cli generator-angular-fullstack bower
-```
-
-## Step 5: generating an Angular site
+## Step 4: generating an Angular site
 Make a directory for your Basejump projects. Assuming your desktop is your de facto workspace:
 ```sh
 mkdir ~/Desktop/basejumps && cd ~/Desktop/basejumps
@@ -59,7 +54,7 @@ Before going any further, we need to fix a [known issue](https://github.com/clnh
 sed -i '' -e 's/_.merge/_.extend/' server/api/thing/thing.controller.js
 ```
 
-## Step 6: initialising local Git repository
+## Step 5: initialising local Git repository
 Turn the folder in which your application is located into a Git repository by running the following commands: 
 ```sh
 git init && git add . && git commit -am 'initial commit'
@@ -78,7 +73,7 @@ And then (assuming you're in `~/Desktop/voting`):
 replace 'basejumps' 'voting' . -rq
 ```
 
-## Step 7: starting MongoDB
+## Step 6: starting MongoDB
 To start MongoDB for the first time in your app's directory, run the following commands in your terminal: 
 ```sh
 mkdir data && echo 'mongod --config /usr/local/etc/mongod.conf --dbpath=data --rest "$@" --httpinterface' > mongod.sh && chmod a+x mongod.sh && ./mongod.sh
@@ -88,7 +83,7 @@ From this point on you can simply start MongoDB by executing `./mongod.sh`. A fe
 * Since we're not on Cloud9, we don't need the `--nojournal` option. Journaling lets you recover the database in case of a `mongod` crash.
 * You have to make a clean database for each project. If you copied the `data` directory over from an earlier project, `mongod` will fail to start. If that's the case, just `rm -rf data && mkdir data && ./mongod.sh`.
 
-## Step 8: starting Grunt
+## Step 7: starting Grunt
 Open a new Terminal tab by pressing `⌘T`, and run the following command:
 ```sh
 grunt serve
