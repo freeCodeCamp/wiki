@@ -2,7 +2,7 @@
 Write an algorithm that will take an `array` for the first argument and return an `array` with all the  `object`s that matches all the properties and values in the `Object` passed as second parameter.
 
 ## Hint: 1
-You may use `for` loop or the `Array.prototype.filter` method?
+You may use `for` loop or the `Array.prototype.filter` method.
 - [http://devdocs.io/#q=js+for](http://devdocs.io/#q=js+for)
 - [http://devdocs.io/#q=js+Array+filter](http://devdocs.io/#q=js+Array+filter)
 
