@@ -25,9 +25,10 @@ code here
 - Explain your code here
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282`
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: 
+**`thanks @username1 @username2 @yourusername`**
 
-> You will use your username, if you are adding to the page then you add your name like this @newName instead of removing the other one.
+> **NOTE:** Please add your username only if you are adding any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
 
 ## Here you can add any other information that is helpful or related.
 - Right here.
