@@ -25,8 +25,8 @@ You may lowercase the string using `String.prototype.toLowerCase`.
 ```js
 function palindrome(str) {
   var normalizedStr = str.replace(/[\W_]/g, '').toLowerCase();
-  var reverseStr = normalizedStr.split('').reverse().join('');
-  return normalizedStr === reverseStr;
+  var reversedStr = normalizedStr.split('').reverse().join('');
+  return normalizedStr === reversedStr;
 }
 ```
 
