@@ -89,4 +89,4 @@ function where(collection, source) {
 Check this http://repl.it/BFZQ/13 for pretty debugging and code explanation
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282  @abhisekp @dting @benmcmahon100`
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @abhisekp @dting`
