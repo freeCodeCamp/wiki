@@ -15,9 +15,9 @@ Using regular expressions to change to lowercase will make things easier and the
 
 **Solution ahead!**
 
-## Code Solution:
+## First
 
-```
+```js
 function palindrome(str) {
   str = str.replace(/[^a-zA-Z]/g,'').toLowerCase();
   if (str === str.split('').reverse().join('')) {
@@ -25,6 +25,20 @@ function palindrome(str) {
   } else {
     return false;
   }
+}
+```
+
+## Second
+
+```js
+function palindrome(str) {
+  str = str.toLowerCase().replace(/[\W_]/g, '');
+  for(var i = 0, len = str.length - 1; i < len/2; i++) {
+    if(str[i] !== str[len-i]) {
+      return false;
+    }
+  }
+  return true;
 }
 ```
 
