@@ -27,7 +27,7 @@ The following are our official chat rooms.
 | [DataScience](https://gitter.im/freecodecamp/DataScience) | let's measure and improve our community's efficacy by studying Free Code Camp's open data | 
 | [Design](https://gitter.im/freecodecamp/Design) | chat about design theory and practice | 
 | [BookClub](https://gitter.im/freecodecamp/BookClub) | chat about [these free coding books](http://blog.freecodecamp.com/2015/06/25-free-resources-for-new-javascript-developers.html) and more | 
-
+| [Hikes](https://gitter.im/freecodecamp/Hikes) | discuss ideas for @brianamarie's [computer science theory video curriculum](https://www.youtube.com/playlist?list=PLWKjhJtqVAbmfoj2Th9fvxhHIeqFO7wOy) | 
 
 ### Additional Chat Room Lists
 * [[World Language Chat Rooms|World-Language-Chat-Rooms]]
