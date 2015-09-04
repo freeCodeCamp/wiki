@@ -27,7 +27,7 @@ code here
 # Credits:
 If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @username1 @username2 @yourusername`**
 
-> **NOTE:** Please add your username only if you are adding any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
+> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
 
 ## Here you can add any other information that is helpful or related.
 - Right here.
