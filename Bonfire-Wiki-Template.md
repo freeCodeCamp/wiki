@@ -27,7 +27,7 @@ code here
 # Credits:
 If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282`
 
-> You will use your username, if you are adding to the page then you add your name like this @newName instead of removing the other one.
+> You will use your username, if you are adding to the page then you add your name like this @newName instead of removing the other one. Also, only add yourself to the credits if you contributed to the information, markdown clean up and styling is nice but we are focusing on the content, this means spell checking is also out unless there was a lot of work. The pages history will be checked and names removed without previous warning.
 
 ## Here you can add any other information that is helpful or related.
 - Right here.
