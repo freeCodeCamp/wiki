@@ -1,5 +1,6 @@
 If you're trying to tackle this challenge with jQuery's `$.getJSON()` method, chances are you'll get an error message concerning Cross-Origin Resource Sharing (CORS).
-One way to get around this issue is to use the following code snippet:
+
+**One way to get around this issue is to use the following code snippet:-**
 ## []()
 ```js
 /*
