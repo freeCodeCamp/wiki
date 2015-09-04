@@ -29,7 +29,7 @@ function steamroller(arr) {
             }
         }
     };
-    arr.forEach(flatten);
+    flatten(arr);
     return flattenedArray;
 }
 ```
@@ -38,7 +38,7 @@ function steamroller(arr) {
 - Create a new variable to keep flattened arrays.
 - Create a function that will add non array elements to the new variable, and for the ones that are array it loops through them to get the element.
 - It does that by using recursion, if the element is an array then call the function again with a layer of array deeper to check if it is an array or not. if it is not then push that non-array element to the variable that gets returned. Otherwise, keep going deeper.
-- Use Array.forEach(callbackFunc) to go element by element of the original array.
+- Invoke the function, the first time you will always pass it an array, so it always fall in to the isArray branch
 - Return the flattened array.
 
 # Credits:
