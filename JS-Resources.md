@@ -15,6 +15,7 @@
 - [CodePen](http://codepen.io)
 - [CoderPad (*pair programming*)](http://coderpad.io)
 - [C9 (*IDE*, *pair programming*)](http://c9.io)
+- [Object Playground (*visualize objects*)](http://www.objectplayground.com/)
 
 See Also: :watch: [**Challenges**](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/JS-Resources#challenges) | :wrench: [**Exercises**](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/JS-Resources#exercises) | :clipboard: [Editors](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/JS-Resources#editors) | :newspaper: [Blogs](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/JS-Resources#blogs) | :books: [Books](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/JS-Resources#books)
 
@@ -42,6 +43,7 @@ See Also: :watch: [**Challenges**](https://github.com/FreeCodeCamp/FreeCodeCamp/
 - [Maintainable JavaScript](http://shop.oreilly.com/product/0636920025245.do)
 - [Learning JavaScript Design Patterns](http://addyosmani.com/resources/essentialjsdesignpatterns/book/)
 - [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
+- [JSDoc](http://usejsdoc.org/)
 
 ----
 
