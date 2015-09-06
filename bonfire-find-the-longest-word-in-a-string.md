@@ -1,5 +1,5 @@
 # Explanation:
-You have to go through each word and figure out which one is the longest and return not the word, but how many characters does it has.
+You have to go through each word and figure out which one is the longest and return not the word, but how many characters it has.
 
 ## Hint: 1
 You should split the string into an array of words.
