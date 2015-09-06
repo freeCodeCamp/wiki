@@ -18,16 +18,26 @@ If you still can't figure out how to solve it with shift, then try solving it wi
 ## Code Solution:
 
 ```
+/* Code from Max Helmetag (https://github.com/mhelmetag)
 function drop(arr, func) {
-  return arr.filter(func);
+  // Drop them elements.
+  var times = arr.length;
+  for (var i = 0; i < times; i++) {
+    if (func(arr[0])) {
+      break;
+    } else {
+      arr.shift();
+    }
+  }
+  return arr;
 }
-
 drop([1, 2, 3], function(n) {return n < 3; });
 ```
 
 # Code Explanation:
-- I used filter as I was more familiar with it.
-- I have it filter the array to remove the elements that needs to be removed.
+- Create a for loop to check each element.
+- Then check for the function given if true then stop, otherwise remove that element.
+- return the array.
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282`
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282 @mhelmetag`
