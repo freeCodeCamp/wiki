@@ -1,16 +1,19 @@
 The curriculum lead-up to the first Basejump is not very comprehensive.  Here are a number of common resources which other campers have found helpful.
 
-### Getting Started with Yeoman
+### Getting Started with Basejumps
 * https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Intro-to-Yeoman-Angular-Fullstack-Basejumps - Lots of helpful tips and tricks for the Yeoman Angular Fullstack setup
 * https://github.com/DaftMonk/generator-angular-fullstack#generators - Generator used by Yeoman, you can find syntax and what files it creates
 
 ### APIs
 * API for Charting the stock market: https://www.quandl.com/help/api
 
-### MEAN Stack Videos
-* https://www.youtube.com/watch?v=kHV7gOHvNdk - 5 Part Series on setting up a MEAN stack
+### MEAN Stack Tutorials & Videos
+* 5 Part Series on setting up a MEAN stack 
+https://www.youtube.com/watch?v=kHV7gOHvNdk
 
-### MEAN Stack Tutorials
+* A MEAN tutorial that creates a simple Twitter clone
+https://channel9.msdn.com/Series/MEAN-Stack-Jump-Start
+
 * Clementine is a stripped down MEAN stack, great for learning the fundamentals.  
 https://johnstonbl01.github.io/clementinejs/tutorials/tutorial-beginner.html
 
