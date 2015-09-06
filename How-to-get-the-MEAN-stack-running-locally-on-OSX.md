@@ -68,19 +68,6 @@ Turn the directory in which your application is located into a Git repository by
 git init && git add . && git commit -am 'initial commit'
 ```
 
-You might also want to keep `basejumps` as a template directory and make a copy of it every time you start a new project, e.g.:
-```sh
-cd ~/Desktop && cp -r basejumps voting && cd voting
-```
-:warning: **Caveat:** when Yeoman generated our app, it put the string "basejumps" in various files. We want to change it to match our new project name. To accomplish this, we'll use the Node module Replace:
-```sh
-npm install replace -g
-```
-And then (assuming you're in `~/Desktop/voting`):
-```sh
-replace 'basejumps' 'voting' . -rq
-```
-
 ## Step 6: starting MongoDB
 To start MongoDB for the first time in your app's directory, run the following commands in your terminal: 
 ```sh
