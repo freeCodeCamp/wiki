@@ -151,6 +151,7 @@
 | Goiania | [Facebook](https://www.facebook.com/groups/free.code.camp.goiania/) | [Gitter](//gitter.im/freecodecamp/Goiania) |
 | Granada | [Facebook](//www.facebook.com/groups/free.code.camp.granada/) | [Gitter](//gitter.im/freecodecamp/Granada) |
 | Grand Rapids | [Facebook](//www.facebook.com/groups/free.code.camp.grand.rapids/) | [Gitter](//gitter.im/freecodecamp/GrandRapids) |
+| Guacara | [Facebook](https://www.facebook.com/groups/free.code.camp.guacara/) | [Gitter](//gitter.im/freecodecamp/Guacara) |
 | Guadalajara | [Facebook](//www.facebook.com/groups/fcc.guadalajara) | [Gitter](//gitter.im/freecodecamp/Guadalajara) |
 | Guarapuava | [Facebook](//www.facebook.com/groups/free.code.camp.guarapuava/) | [Gitter](//gitter.im/freecodecamp/Guarapuava) |
 | Guatemala City | [Facebook](https://www.facebook.com/groups/free.code.camp.guatemala/) | [Gitter](//gitter.im/freecodecamp/GuatemalaCity) |
@@ -163,6 +164,7 @@
 | Hamburg | [Facebook](//www.facebook.com/groups/free.code.camp.hamburg/) | [Gitter](//gitter.im/freecodecamp/Hamburg) |
 | Hampton Roads | [Facebook](//www.facebook.com/groups/free.code.camp.hamptonroads/) | [Gitter](//gitter.im/freecodecamp/HamptonRoads) |
 | Hanoi | [Facebook](//www.facebook.com/groups/free.code.camp.hanoi/) | [Gitter](//gitter.im/freecodecamp/Hanoi) |
+| Harrisburg, PA| [Facebook](https://www.facebook.com/groups/free.code.camp.harrisburg.pa/) | [Gitter](//gitter.im/freecodecamp/HarrisburgPA) |
 | Hartford | [Facebook](//www.facebook.com/groups/free.code.camp.hartford.connecticut/) | [Gitter](//gitter.im/freecodecamp/Hartford) |
 | Hermosillo | [Facebook](//www.facebook.com/groups/free.code.camp.Hermosillo/) | [Gitter](//gitter.im/freecodecamp/Hermosillo) |
 | Hickory | [Facebook](//www.facebook.com/groups/free.code.camp.hickory.nc) | [Gitter](//gitter.im/freecodecamp/Hickory) |
@@ -240,6 +242,7 @@
 | Luanda | [Facebook](https://www.facebook.com/groups/free.code.camp.luanda/) | [Gitter](//gitter.im/freecodecamp/Luanda) |
 | Lubbock | [Facebook](//www.facebook.com/groups/free.code.camp.lubbock/) | [Gitter](//gitter.im/freecodecamp/Lubbock) |
 | Lviv | [Facebook](//www.facebook.com/groups/free.code.camp.lviv/) | [Gitter](//gitter.im/freecodecamp/Lviv) |
+| Lynchburg | [Facebook](https://www.facebook.com/groups/free.code.camp.LYH/) | [Gitter](//gitter.im/freecodecamp/Lynchburg) |
 | Madison | [Facebook](//www.facebook.com/groups/free.code.camp.madison.wisconsin/) | [Gitter](//gitter.im/freecodecamp/Madison) |
 | Madrid | [Facebook](//www.facebook.com/groups/free.code.camp.madrid/) | [Gitter](//gitter.im/freecodecamp/Madrid) |
 | Manchester, UK | [Facebook](//www.facebook.com/groups/free.code.camp.manchester/) | [Gitter](//gitter.im/freecodecamp/Manchester) |
