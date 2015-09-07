@@ -1,6 +1,6 @@
 New to Free Code Camp? Take a few minutes to browse these wiki articles:
 - [What you will learn, and in what sequence you will learn it](https://github.com/FreeCodeCamp/freecodecamp/wiki/What-you-will-learn,-and-in-what-sequence-you-will-learn-it)
-- [How Long it Takes to Complete Free Code Camp](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/How-Long-it-Takes-to-Complete-Free-Code-Camp)
+- [How Long Free Code Camp Takes](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/How-Long-Free-Code-Camp-Takes)
 - [What pair programming is and why it is special](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/What-pair-programming-is-and-why-it-is-special)
 - [How to use the Free Code Camp Wiki]
 (https://github.com/FreeCodeCamp/freecodecamp/wiki/How-to-use-the-Free-Code-Camp-Wiki)
