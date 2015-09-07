@@ -34,5 +34,19 @@ function where(arr, num) {
 - First I sort the array using `.sort(callbackFuntion)` to sort it by lowest to highest, from left to right.
 - Then I use a for loop to compare the items in the array starting from the smallest one. When an item on the array is greater than the number we are comparing against, then we return the index as an integer.
 
+## Code Solution 2:
+
+```
+function where(arr, num) {
+    
+  arr.push(num);
+  arr.sort(function(a, b)
+           {return a-b}
+          );
+  
+  return arr.indexOf(num);
+}
+}
+```
 # Credits:
 If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282`
