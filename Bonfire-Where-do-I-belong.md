@@ -38,19 +38,16 @@ function where(arr, num) {
 
 ```
 function where(arr, num) {
-    
   arr.push(num);
   arr.sort(function(a, b)
            {return a-b}
           );
-  
   return arr.indexOf(num);
-}
-}
+ }
 ```
 # Code Explanation:
-- First add the number to the array using the Array.push() method.
-- Then use the numerical sort method to sort the elements of the array. in the end just return the index value of the number that was push earlier using the Array.indexOf() method.
+- First insert the number into the array using the `Array.push()` method.
+- Then use the numerical sort method to sort the elements of the array. in the end just return the index value of the number that was push earlier using the `Array.indexOf()` method.
 
 # Credits:
 If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282 and @rahul1992`
