@@ -40,3 +40,33 @@ If you were to commit any changes to the `auth` branch, merging them with the `d
 ```
 
 You're branch, in git terminology, is now a commit behind the `dev` branch. This means that you cannot simply merge the two branches: you must bring your `auth` branch up-to-date with the `dev` branch. This can be done with `git merge`!
+
+Merging the `auth` branch with the `dev` branch, or the `dev` branch with the `master` branch is straightforward and does what you expect, but merging the other way around has its own idiosyncrasies that are not intuitive at first blush. I can babble about it, or I can show you another great diagram of what would happen if you merged the `dev` branch with the `auth` branch at this moment:
+
+```
+                                                  --- Commit 5 ----------- auth branch
+                                                /               /
+                                               --- Commit 4 -------------- dev branch 
+                                             /
+ --- Commit 1 ---- Commit 2 ---- Commit 3 -------------------------------- master branch
+```
+
+See what I did there? Look at the diagram for a second and try to understand what is happening here before you move on. You essentially made another commit to the `auth` branch with the commits in the `dev` branch included. But that's all right, right? After all, at the end of the day I wanted to bring my `auth` branch up-to-date with the `dev` branch, and now it *is* up-to-date? Yep. But let me show you a diagram to explicitly illustrate what the other diagram implies: Your `auth` branch now looks like this:
+
+```
+    --- Commit 5 ------- Commit 4 ------- auth branch
+  /                /
+------ Commit 4 --- --------------------- dev branch
+```
+
+See it now? You *copied* the commit over. If you were to merge to the `dev` branch now, it would look something like this:
+
+```
+    --- Commit 5 ------- Commit 4 -------------------------------------- auth branch
+  /                /                  \
+------- Commit 4 ----------------------- Commit 5 ---- Commit 4 -------- dev branch
+```
+
+You merged the same commit twice! This will of course have no repercussions for your code itself, but if you one fine day decide to look at your `git logs`, you will immediately realize how dirty your git history is, with some commits being made over and over. If you wanted to revert to a commit, it would be very difficult to decide which commit to revert to.
+
+It is preferred that to you use [https://github.com/freecodecamp/freecodecamp/wiki/git-rebase](git-rebase).
