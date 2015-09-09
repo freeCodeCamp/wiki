@@ -8,7 +8,16 @@
   no hard tabs, ever. No really, just don't do it.
 
 ## curly braces
- #curlyBracesEverywhere!
+Always use curly braces when using the keywords `if/else/else if`. This prevents a lot of ambiguity and will prevent syntax errors in some edge cases.
+
+Bad:
+```js
+if (foo) bar();
+```
+Good:
+```js
+if (foo) { bar(); }
+#curlyBracesEverywhere!
 
 ## space after `function` keyword expect in anonymous functions.
 Good:
@@ -57,4 +66,32 @@ if(true)
  // do the thing
 }
 ```
+
+## Else
+Avoid else and "end early". In JavaScript there is often a lot of indenting (usually when dealing with async code and named "callback hell"). Anything you can do reduce the number of indents should be done. One thing is to [avoid the else](http://blog.timoxley.com/post/47041269194/avoid-else-return-early) keyword.
+
+This also has the side effect of making code cleaner and easier to read.
+
+Bad: 
+```js
+someAsynFunc(function(err, data) {
+  if (err) {
+    callback(err);
+  } else {
+    // do stuff with data
+  }
+});
+```
+
+Good: 
+```js
+someAsynFunc(function(err, data) {
+  if (err) {
+    return callback(err);
+  }
+  // do stuff with data
+  // saves one indent
+});
+```
+
 ...more to come
