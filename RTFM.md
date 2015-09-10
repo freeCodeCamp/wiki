@@ -1,11 +1,14 @@
-> RTFM is an initialism for the expression "Read The F**king Manual"
+## RTFM comments generally useless
+> If everybody read the fine manual, most of the questions asked on the internet would go away!
 
-![RTFM Comic](http://i.imgur.com/UxbHkrB.png)
+**"RTFM"** is **rude**, no doubt about it. However, **links to the manual in comments are perfectly acceptable**, and sometimes the only appropriate response to a question.
 
-## Urban Dictionary
+So when posting a manual link, be smart. ***Drop the RTFM and use nicer wording** so the link survives. Suggestions:
 
-> "Read The F**king Manual" — a term showing the frustration of being bothered with questions so trivial that the asker could have quickly figured out the answer on their own with minimal effort, usually by reading readily-available documents. People who say "RTFM!" might be considered rude, but the true rude ones are the annoying people who take absolutely no self-responsibility and expect to have all the answers handed to them personally.
+ - Check out the manual page: (link)
+ - See the manual: (link)
+ - This is explained in the manual: (link)
 
-*"Damn, that's the twelveth time that somebody posted this question to the message board today! RTFM, already!"*
+If the OP was really lazy:
 
-https://www.youtube.com/watch?v=Bumx4AerJUQ
+ - Your question is answered in the manual: (link) For future reference, please always remember to look in the manual first. Thanks!
