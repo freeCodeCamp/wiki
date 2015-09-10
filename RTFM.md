@@ -3,7 +3,7 @@
 
 **"RTFM"** is **rude**, no doubt about it. However, **links to the manual in comments are perfectly acceptable**, and sometimes the only appropriate response to a question.
 
-So when posting a manual link, be smart. ***Drop the RTFM and use nicer wording** so the link survives. Suggestions:
+So when posting a manual link, be smart. **Drop the RTFM and use nicer wording** so the link survives. Suggestions:
 
  - Check out the manual page: (link)
  - See the manual: (link)
