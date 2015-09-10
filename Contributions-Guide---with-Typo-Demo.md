@@ -257,5 +257,5 @@ git merge upstream/staging
 git stash apply
 ```
 
-You are not back up to date with your changes ready to be staged and committed. [Git docs on stash](https://git-scm.com/book/en/v1/Git-Tools-Stashing).
+You are now back up to date with your changes ready to be staged and committed. [Git docs on stash](https://git-scm.com/book/en/v1/Git-Tools-Stashing).
 
