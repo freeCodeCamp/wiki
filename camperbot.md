@@ -63,4 +63,4 @@ Get involved and let us know what you'd like to see next!
 - [Join this chat room](https://gitter.im/camperbot/testing) to mess around with the CamperBot and try out commands, proofread your edits to wiki content etc.
 
 
-![enjoy](https://avatars1.githubusercontent.com/camperbot?&s=100) Happy Camping!
+![enjoy](https://avatars1.githubusercontent.com/camperbot?&s=100) Happy Coding!
