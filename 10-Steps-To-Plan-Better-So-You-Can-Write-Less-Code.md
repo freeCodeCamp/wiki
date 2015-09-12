@@ -1,4 +1,4 @@
-##10 Steps To Plan Better So You Can Write Less Code
+##Learn how to plan your future project!
 
 *Blog post written by BiancaMihai - [GitHub](https://github.com/biancamihai) / [Twitter](https://twitter.com/intent/user?screen_name=bubuslubu)*
 
