@@ -94,4 +94,26 @@ someAsynFunc(function(err, data) {
 });
 ```
 
+## Long Strings
+
+Long multiline strings should be in one of two forms:
+
+```js
+var longString = 
+  ‘long strings should ‘ +
+  ‘be in this form, with the ‘ +
+  ‘operator ending the line’;
+```
+```js
+var foo = 'bar';
+
+var longString = [
+  'long strings with variables such as ',
+  foo,
+  'should ',
+  'be in this form, an array of strings ',
+  'that are joined with the join array instance method',
+].join('');
+```
+
 ...more to come
