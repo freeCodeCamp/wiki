@@ -1,14 +1,14 @@
 # Problem Explanation:
-- Explain what is asked in an easy to understand way.
+- You need to create a program that will take an array of two numbers who are not necessarily in order, and then add not just those numbers but any numbers in between. For example, [3,1] will be the same as `1+2+3` and not just `3+1`
 
 ## Hint: 1
-- Add hint here.
+- Use `Math.max()` to find the maximum value of two numbers.
 
 ## Hint: 2
-- Add hint here.
+- Use `Math.min()` to find the maximum value of two numbers.
 
 ## Hint: 3
-- Add hint here.
+- Remember to that you must add all the numbers in between so this would require a way to get those numbers.
 
 ## Spoiler Alert!
 [![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
@@ -18,11 +18,25 @@
 ## Code Solution:
 
 ```
-code here
+function sumAll(arr) {
+    var max = Math.max(arr[0], arr[1]);
+    var min = Math.min(arr[0], arr[1]);
+    var temp = 0;
+    for (var i=min; i <= max; i++){
+        temp += i;
+    }
+  return(temp);
+}
+
+sumAll([1, 4]);
 ```
 
 # Code Explanation:
-- Explain your code here
+- First create a variable to store the max number between two.
+- The same as before for the Smallest number.
+- We create a temporary variable to add the numbers.
+
+Since the numbers might not be always in order, using max() and min() will help organize.
 
 # Credits:
 If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282`**
