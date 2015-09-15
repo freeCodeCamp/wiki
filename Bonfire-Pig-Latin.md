@@ -1,14 +1,14 @@
 # Problem Explanation:
-- Explain what is asked in an easy to understand way.
+- You need to create a program that will translate from English to Pig Latin. Check the instructions for converting to Ping Latin from the initial description or the wiki page. It might not be obvious but you need to remove all the consonants up to the first vowel in the case there letter does not start with a vowel.
 
 ## Hint: 1
-- Add hint here.
+- You will probably want to use regular expressions. This will allow you to convert the words easily.
 
 ## Hint: 2
-- Add hint here.
+- If the first character is a vowel, then take that whole word and add 'way' at the end. Otherwise comes the tricky part, take the consonant(s) before the first vowel and move it to the end and add 'ay'. This is where I had trouble since it was not clear that it was not just the first consonant but all of them before the first vowel.
 
 ## Hint: 3
-- Add hint here.
+- You will need to use everything you know about string manipulation to get the last part right. However, it can be done with `substr` alone.
 
 ## Spoiler Alert!
 [![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
