@@ -17,10 +17,10 @@ To convert `arguments` into an array use this code `var args = Array.prototype.s
 
 ## Code Solution:
 
-```
+```js
 function destroyer(arr) {
   var args = Array.prototype.slice.call(arguments);
-  args.splice(0,1);
+  args.splice(0, 1);
   return arr.filter(function(element) {
     return args.indexOf(element) === -1;
   });
@@ -34,3 +34,5 @@ function destroyer(arr) {
 
 # Credits:
 If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282`
+
+> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

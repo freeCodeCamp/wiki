@@ -17,12 +17,12 @@ Check that you have the proper syntax and that you use `===` to compare.
 
 ## Code Solution:
 
-```
+```js
 function end(str, target) {
-    if (str.substr(- target.length) === target)
-        return true;
-    else
-        return false;
+  if (str.substr(-target.length) === target)
+    return true;
+  else
+    return false;
 }
 ```
 
@@ -31,3 +31,5 @@ We use the subtring() with the negative value of the lengths of target. We could
 
 # Credits:
 If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282`
+
+> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

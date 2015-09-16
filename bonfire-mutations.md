@@ -17,7 +17,7 @@
 
 ## Code Solution:
 
-```
+```js
 function mutation(arr) {
   var test = arr[1].toLowerCase();
   var target = arr[0].toLowerCase();
@@ -31,6 +31,25 @@ function mutation(arr) {
  }
 ```
 
+```js
+function mutation(arr) {
+  var first = arr[0].toLowerCase().split('');
+  var second = arr[1].toLowerCase().split('');
+  var temp = 0;
+  for (var s = 0; s < second.length; s++) {
+    if (first.indexOf(second[s]) > -1) {
+      temp += 0;
+    } else
+      temp += 1;
+  }
+
+  if (temp === 0)
+    return true;
+  else
+    return false;
+}
+```
+
 # Code Explanation:
 - First, we make the to strings in the array lowercase.  
 - Second, we split the individual strings in to 2 separate arrays of characters. test variable holds what we are looking for. target variable is where we are looking.   
@@ -38,3 +57,5 @@ function mutation(arr) {
 
 # Credits:
 If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @sxmxc @Rafase282`
+
+> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

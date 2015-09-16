@@ -9,7 +9,7 @@ Click **More information** under the bonfire title and read the helpful links if
 # How to approach the bonfire
 The helpful links suggest to use `Array.push()` so let's start by first creating a new array to store the smaller arrays we will soon have like this:
 
-```
+```js
 var newArray = [];
 ```
 
@@ -20,7 +20,7 @@ var newArray = [];
 
 A `for loop` keeps looping until a condition evaluates to false for example if we had:
 
-```
+```js
 for (var i = 0; i < arr.length; i++)
 ```
 
@@ -39,7 +39,7 @@ _Notice how it captures the start element but doesn't capture the stop element._
 # Using a for loop and Array.slice() together
 If we use the following `for loop` while `size` is 2 (note: `size` = 2):
 
-```
+```js
 (var i = 0; i < arr.length; i += size)
 ```
 
@@ -52,7 +52,7 @@ arr.slice(i, i + size)
 # Push the arrays out
 We can combine the `Array.slice()` method with the `Array.push()` method inside the `for loop` like this:
 
-```
+```js
 for (var i = 0; i < arr.length; i += size) {
 newArray.push(arr.slice(i, i + size));
 }
@@ -60,11 +60,35 @@ newArray.push(arr.slice(i, i + size));
 
   `arr.slice()` will start at element 0 and stop at element 2. Here's the fun part: once the `for loop`, loops again then the value of `i` becomes 2 while the `i` in the `arr.slice()` will also have a value of 2. The new `arr.slice()` becomes:
 
-```
+```js
 arr.slice(2, 2 + 2)
 ```
 
   Now `arr.slice()` starts at the element 2 and stops at element 4 and in the next loop, `arr.slice()` will start at element 4 and stop at element 6. `newArray.push()` will push all the elements out into chunks of smaller arrays with the length of `size`.  
 
+```js
+function chunk(arr, size) {
+
+  var temp = [];
+  var result = [];
+
+  for (var a = 0; a < arr.length; a++) {
+    if (a % size !== size - 1)
+      temp.push(arr[a]);
+    else {
+      temp.push(arr[a]);
+      result.push(temp);
+      temp = [];
+    }
+  }
+
+  if (temp.length !== 0)
+    result.push(temp);
+  return result;
+}
+```
+
 # Credits:
 If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @kirah1314 @Rafase282`
+
+> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
