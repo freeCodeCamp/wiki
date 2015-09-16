@@ -19,15 +19,25 @@ If no element satisfy the function then you must return **undefined**
 
 ```
 function find(arr, func) {
-    var num;
-    for (var a in arr) {
-        if (func(arr[a])){
-            num = arr[a];
-            return num;
-        }
+  // Make num undefined by default
+  var num;
+
+  // Loop thorugh the array and use the function to check
+  for (var a = 0; a < arr.length; a++) {
+    if (func(arr[a])) {
+      // Store the first case and break the loop
+      num = arr[a];
+      return num;
     }
+  }
+
+  // otherwise return undefined
   return num;
 }
+
+find([1, 2, 3, 4], function(num) {
+  return num % 2 === 0;
+});
 ```
 
 # Code Explanation:
@@ -37,4 +47,6 @@ function find(arr, func) {
 - If the loop was not broken and it has ended, then return **num** which by default is undefined. This means that none of the elements from the array satisfied the function.
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282`
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282`**
+
+> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

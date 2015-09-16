@@ -19,10 +19,18 @@ You could use loops or callbacks functions, there are multiple ways to solve thi
 
 ```
 function every(collection, pre) {
+  // Create a counter to check how many are true.
   var counter = 0;
+
+  // Check for each object
   for (var c in collection) {
-    if (collection[c].hasOwnProperty(pre) || collection[c][pre] == pre){ counter++;}
+    // If it has the same property or the same property value then add 1
+    if (collection[c].hasOwnProperty(pre) || collection[c][pre] == pre) {
+      counter++;
+    }
   }
+
+  // Outside the loop, check to see if we got true for all of them and return true or false
   if (counter == collection.length) {
     return true;
   } else
@@ -39,4 +47,6 @@ every([{'user': 'Tinky-Winky', 'sex': 'male'}, {'user': 'Dipsy', 'sex': 'male'},
 - Outside the loop, I check to see if the counter variable has the same value as the length of **collection**, if true then return **true**, otherwise, return **false**
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282`
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282`**
+
+> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
