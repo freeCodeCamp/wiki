@@ -67,7 +67,7 @@ function factorialize(num) {
 factorialize(5);
 ```
 
-```
+```javascript
 function factorialize(num) {
   var factorial = 1;
   for (var n = 2; n <= num; n++) {
