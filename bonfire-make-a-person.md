@@ -24,31 +24,39 @@ Often the code would not work the way you expect it due to wrong variable names,
 ## Code Solution:
 Please try hard before you check this solution.
 
-```
+```js
 var Person = function(firstAndLast) {
 
-    var fullName = firstAndLast;
-    var arr = fullName.split(' ');
+  var fullName = firstAndLast;
+  var arr = fullName.split(' ');
 
-    this.getFirstName = function() {
-        return arr[0];
-    };
-    this.getLastName = function() {
-        return arr[1];
-    };
-    this.getFullName = function() {
-        return fullName;
-    };
-    this.setFirstName = function(first) {
-        arr[0] = first;
-    };
-    this.setLastName = function(last) {
-        arr[1] = last;
-    };
-    this.setFullName = function(firstAndLast) {
-        fullName = firstAndLast;
-    };
+  this.getFirstName = function() {
+    return arr[0];
+  };
+
+  this.getLastName = function() {
+    return arr[1];
+  };
+
+  this.getFullName = function() {
+    return fullName;
+  };
+
+  this.setFirstName = function(first) {
+    arr[0] = first;
+  };
+
+  this.setLastName = function(last) {
+    arr[1] = last;
+  };
+
+  this.setFullName = function(firstAndLast) {
+    fullName = firstAndLast;
+  };
 };
+
+var bob = new Person('Bob Ross');
+bob.getFullName();
 ```
 
 # Code Explanation:
@@ -58,4 +66,6 @@ var Person = function(firstAndLast) {
 - For the setters, we can use the arr array and the right index to change the value to what was passed as a parameter.
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282`
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282`**
+
+> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

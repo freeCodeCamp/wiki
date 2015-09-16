@@ -17,25 +17,26 @@ Find out how to remove and add key to an object
 
 ## Code Solution:
 
-```
+```js
 function orbitalPeriod(arr) {
-    var GM = 398600.4418;
-    var earthRadius = 6367.4447;
-    var a = 2 * Math.PI;
-    var newArr = [];
-    var getOrbPeriod = function (obj) {
-        var c = Math.pow(earthRadius + obj.avgAlt ,3);
-        var b = Math.sqrt(c/GM);
-        var orbPeriod = Math.round(a * b);
-        delete obj.avgAlt;
-        obj.orbitalPeriod = orbPeriod;
-        return obj;
-    };
+  var GM = 398600.4418;
+  var earthRadius = 6367.4447;
+  var a = 2 * Math.PI;
+  var newArr = [];
+  var getOrbPeriod = function(obj) {
+    var c = Math.pow(earthRadius + obj.avgAlt, 3);
+    var b = Math.sqrt(c / GM);
+    var orbPeriod = Math.round(a * b);
+    delete obj.avgAlt;
+    obj.orbitalPeriod = orbPeriod;
+    return obj;
+  };
 
-    for (var elem in arr){
-        newArr.push(getOrbPeriod(arr[elem]));
-    }
-    return newArr;
+  for (var elem in arr) {
+    newArr.push(getOrbPeriod(arr[elem]));
+  }
+
+  return newArr;
 }
 ```
 
@@ -51,4 +52,6 @@ function orbitalPeriod(arr) {
 - Then we delete the key`avgAlt`, and add the new key and its value.
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282`
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282`**
+
+> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
