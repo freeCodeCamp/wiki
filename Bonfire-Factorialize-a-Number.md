@@ -67,6 +67,17 @@ function factorialize(num) {
 factorialize(5);
 ```
 
+```
+function factorialize(num) {
+  var factorial = 1;
+  for (var n = 2; n <= num; n++) {
+    factorial = factorial * n;
+  }
+
+  return factorial;
+}
+```
+
 # References
 - **Recursion**: [https://www.codecademy.com/es/courses/javascript-lesson-205/0/1](https://www.codecademy.com/es/courses/javascript-lesson-205/0/1)
 - **Factorialization**: [https://en.wikipedia.org/wiki/Factorial](https://en.wikipedia.org/wiki/Factorial)
@@ -74,3 +85,5 @@ factorialize(5);
 
 # Credits:
 If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @ luishendrix92 @Rafase282`
+
+> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
