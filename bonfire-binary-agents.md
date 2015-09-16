@@ -25,9 +25,9 @@ function binaryAgent(str) {
   var sentence = '';
 
   // Check each binary number from the array.
-  for (var s in str) {
+  for (var s = 0; s < str.length; s++) {
     // Check each bit from binary number
-    for (var t in str[s]) {
+    for (var t = 0; t < str[s].length; t++) {
       // This only takes into consideration the active ones.
       if (str[s][t] == 1) {
         // This is quivalent to 2 ** position
