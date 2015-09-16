@@ -17,7 +17,7 @@
 
 ## Code Solution:
 
-```
+```js
 code here
 ```
 
