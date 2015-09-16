@@ -54,3 +54,8 @@ function pair(str) {
 - The program is very simple, the best solution that I have come up with is to use a switch to catch all the possible four elements. Using if statements would take too much code. You could also use Regular Expressions.
 - Since we have to the original and the pair, I decided to take all four cases instead of the base two.
 - Create an empty array and use the `search` function to push the right values to the array and return them.
+
+# Credits:
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282`**
+
+> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
