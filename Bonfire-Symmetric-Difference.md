@@ -20,7 +20,8 @@ Here's a nice video tutorial (with an awful fake British accent!) -
 [YouTube - Symmetric Difference](https://www.youtube.com/watch?v=PxffSUQRkG4)
 
 ## Hint: 1
-- Add hint here.
+The arguments object is not an Array. It is similar to an Array, but does not have any Array properties except length. For example, it does not have the pop method. However it can be converted to a real Array:
+`var args = Array.prototype.slice.call(arguments);`
 
 ## Hint: 2
 - Add hint here.
