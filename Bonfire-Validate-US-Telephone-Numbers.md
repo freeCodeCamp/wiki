@@ -19,8 +19,17 @@
 
 ```js
 function telephoneCheck(str) {
-  // Good luck!
+  // Comprehensive regex from @dting 
   var re = /^(?:(?:\+?1\s*(?:[.-]\s*)?)?(?:\(\s*([2-9]1[02-9]|[2-9][02-8]1|[2-9][02-8][02-9])\s*\)|([2-9]1[02-9]|[2-9][02-8]1|[2-9][02-8][02-9]))\s*(?:[.-]\s*)?)?([2-9]1[02-9]|[2-9][02-9]1|[2-9][02-9]{2})\s*(?:[.-]\s*)?([0-9]{4})$/;
+
+  return re.test(str);
+}
+```
+
+```js
+function telephoneCheck(str) {
+  // Good luck!
+  var re = /^1?[\(\s]*\d{3}[-\)\s]*\d{3}[-\s]?\d{4}$/;
 
   return re.test(str);
 }
@@ -30,6 +39,6 @@ function telephoneCheck(str) {
 - While the answer works, there is a much shorter regex that will satisfy this problem. However the code provide is very good and robust when it comes to validating US phone numbers client side, a much better way would be to implement this library [libphonenumber.](https://github.com/googlei18n/libphonenumber)
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @guyjoseph  @dting `**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
