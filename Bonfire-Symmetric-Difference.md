@@ -68,6 +68,7 @@ function sym() {
     return filterFunction(arr1, arr2)
       .concat(filterFunction(arr2, arr1))
       .filter(function(item, idx, arr) {
+        // Keep any items that are unique - the index of the current item === index of the first occurrence in the array
         return arr.indexOf(item) === idx;
       });
   };
