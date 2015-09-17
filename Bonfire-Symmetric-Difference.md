@@ -79,11 +79,11 @@ function sym() {
 ```
 
 # Code Explanation:
-- First read comments in code.
+- Read comments in code.
 
 # Related Links
-https://en.wikipedia.org/wiki/Symmetric_difference
-http://devdocs.io/javascript/global_objects/array/reduce
+- [Symmetric Difference](https://en.wikipedia.org/wiki/Symmetric_difference)
+- [Array.reduce()](http://devdocs.io/javascript/global_objects/array/reduce)
 
 # Credits:
 If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @guyjoseph @jjmax75`**
