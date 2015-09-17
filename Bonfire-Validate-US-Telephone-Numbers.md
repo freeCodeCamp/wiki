@@ -5,10 +5,10 @@
 - There is no way around it, you will need to brush up your regular expressions skills.
 
 ## Hint: 2
-- Add hint here.
+- Try using a site like [http://regexpal.com/](http://regexpal.com/) to test the regex live while you create it.
 
 ## Hint: 3
-- Add hint here.
+- Start by trying to get it to validate each format from the example, each one should take a new line, once you get to select them all, then add examples that should not be selected and make sure they are not selected.
 
 ## Spoiler Alert!
 [![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
@@ -27,7 +27,7 @@ function telephoneCheck(str) {
 ```
 
 # Code Explanation:
-- While the answer works, there is a much shorter regex that will satisfy this problem. However the code provide is very good and robust when it comes to validating US phone numbers client side, a much better way would be to implement this [library](https://github.com/googlei18n/libphonenumber)
+- While the answer works, there is a much shorter regex that will satisfy this problem. However the code provide is very good and robust when it comes to validating US phone numbers client side, a much better way would be to implement this library [libphonenumber.](https://github.com/googlei18n/libphonenumber)
 
 # Credits:
 If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282`**
