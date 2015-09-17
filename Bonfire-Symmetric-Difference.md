@@ -21,13 +21,16 @@ Here's a nice video tutorial (with an awful fake British accent!) -
 
 ## Hint: 1
 The arguments object is not an Array. It is similar to an Array, but does not have any Array properties except length. For example, it does not have the pop method. However it can be converted to a real Array:
+
 `var args = Array.prototype.slice.call(arguments);`
 
 ## Hint: 2
-- Add hint here.
+Write a function that returns the symmetric difference of array1 and array2.
+
+`yourFunction([1, 2, 3], [2, 4, 6])` must return `[1, 3, 4, 6]`
 
 ## Hint: 3
-- Add hint here.
+Use `Array.prototype.reduce` along with yourFunction to repeat the process on multiple arguments
 
 ## Spoiler Alert!
 [![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
@@ -70,6 +73,7 @@ function sym() {
 
 # Related Links
 https://en.wikipedia.org/wiki/Symmetric_difference
+http://devdocs.io/javascript/global_objects/array/reduce
 
 # Credits:
 If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @guyjoseph @jjmax75`**
