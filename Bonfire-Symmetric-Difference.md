@@ -67,6 +67,9 @@ function sym() {
 # Code Explanation:
 - First read comments in code.
 
+# Related Links
+https://en.wikipedia.org/wiki/Symmetric_difference
+
 # Credits:
 If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @guyjoseph @jjmax75`**
 
