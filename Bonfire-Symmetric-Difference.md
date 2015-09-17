@@ -32,6 +32,15 @@ Write a function that returns the symmetric difference of array1 and array2.
 ## Hint: 3
 Use `Array.prototype.reduce` along with yourFunction to repeat the process on multiple arguments
 
+Something a bit strange about the definition of symmetric difference is that if one identical item occurs in three different sets, it is a member of the symmetric difference.  An example is easier to explain:
+```
+a = [1, 2, 5]
+b = [2, 3, 5]
+c = [3, 4, 5]
+
+sym(a, b) = [1, 3]
+sym([1, 3], c) = [1, 4, 5]
+```
 ## Spoiler Alert!
 [![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
 
