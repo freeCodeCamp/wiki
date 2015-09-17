@@ -51,7 +51,7 @@ function sym() {
       });
     }
 
-    // Run filter function on each array against the opposite then get unique values
+    // Run filter function on each array against the other then get unique values
     return filterFunction(arr1, arr2)
       .concat(filterFunction(arr2, arr1))
       .filter(function(item, idx, arr) {
