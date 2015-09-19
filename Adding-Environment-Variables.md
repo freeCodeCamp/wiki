@@ -1,9 +1,13 @@
+# In Windows
+
+## Using the GUI
+
 1. Download [Varpanel](http://implbits.com/products/varpanel/).
 2. Open Varpanel.
-3. In PATH variable, add the relevant path.
+3. In PATH variable, add the relevant path (for example).
 
 ![](http://i.imgur.com/RqgGcf5.gif)
 
-## []()
+## Using the Command Line
 
-Easy Launch Programs using [Launchy](http://www.launchy.net/) App.
+Refer to [this answer](http://superuser.com/a/284351/275797) on Super User.
