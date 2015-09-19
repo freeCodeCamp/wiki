@@ -17,7 +17,7 @@
 
 ## Code Solution:
 
-```
+```js
 function sumAll(arr) {
     var max = Math.max(arr[0], arr[1]);
     var min = Math.min(arr[0], arr[1]);
@@ -42,4 +42,3 @@ Since the numbers might not be always in order, using max() and min() will help 
 If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
-

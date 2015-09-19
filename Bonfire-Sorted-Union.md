@@ -17,7 +17,7 @@
 
 ## Code Solution:
 
-```
+```js
 function unite(arr1, arr2, arr3) {
   // Creates an empty array to store our final result.
   var finalArray = [];

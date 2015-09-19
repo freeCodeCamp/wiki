@@ -17,7 +17,7 @@
 
 ## Code Solution:
 
-```
+```js
 function fearNotLetter(str) {
   // Create our variables.
   var firstCharacter = str.charCodeAt(0);

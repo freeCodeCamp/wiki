@@ -17,7 +17,7 @@ As you get the next odd one, don't forget to add it to a global variable that ca
 
 ## Code Solution:
 
-```
+```js
 function sumFibs(num) {
     var prevNumber = 0;
     var currNumber = 1;

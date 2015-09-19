@@ -17,7 +17,7 @@
 
 ## Code Solution:
 
-```
+```js
 function diff(arr1, arr2) {
   var newArr = arr1.concat(arr2);
 

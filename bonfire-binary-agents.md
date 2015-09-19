@@ -16,7 +16,7 @@ Make sure that each time you transcode a character from binary to decimal, that 
 
 ## Code Solution:
 
-```
+```js
 function binaryAgent(str) {
   // Separate the binary code by space.
   str = str.split(' ');

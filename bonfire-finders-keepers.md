@@ -17,7 +17,7 @@ If no element satisfy the function then you must return **undefined**
 
 ## Code Solution:
 
-```
+```js
 function find(arr, func) {
   // Make num undefined by default
   var num;

@@ -17,7 +17,7 @@ You will definitely need recursion or another way to go beyond two level arrays 
 
 ## Code Solution:
 
-```
+```js
 function steamroller(arr) {
   var flattenedArray = [];
 

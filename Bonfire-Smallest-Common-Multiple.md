@@ -17,7 +17,7 @@ If you sort the array from greater to lowest then you can check for the first tw
 
 ## Code Solution:
 
-```
+```js
 function smallestCommons(arr) {
   // Sort array from greater to lowest
   // This line of code was from Adam Doyle (http://github.com/Adoyle2014)

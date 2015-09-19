@@ -17,7 +17,7 @@ You could use loops or callbacks functions, there are multiple ways to solve thi
 
 ## Code Solution:
 
-```
+```js
 function every(collection, pre) {
   // Create a counter to check how many are true.
   var counter = 0;

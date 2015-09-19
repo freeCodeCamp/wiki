@@ -17,7 +17,7 @@
 
 # Code Solution:
 
-```
+```js
 var convert = function(num) {
 
   // Create arrays with default conversion with matching indices.

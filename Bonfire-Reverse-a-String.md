@@ -17,7 +17,7 @@ You need to take the string and reverse it so if you had originally 'hello', it 
 
 ## Code Solution:
 
-```
+```js
 function reverseString(str) {
   var strReverse = str.split('').reverse().join('');
   return strReverse;

@@ -17,7 +17,7 @@
 
 ## Code Solution:
 
-```
+```js
 function replace(str, before, after) {
   // Find index where before is on string
   var index = str.indexOf(before);

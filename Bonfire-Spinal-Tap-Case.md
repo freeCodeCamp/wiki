@@ -17,7 +17,7 @@
 
 ## Code Solution:
 
-```
+```js
 function spinalCase(str) {
   // Create a variable for the white space and underscores.
   var regex = /\s+|_+/g;

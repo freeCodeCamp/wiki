@@ -28,13 +28,7 @@ A way to visualize this is by considering a tree that starts with the first char
 # Credits:
 If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Philosophist @Rafase282`
 
-
-     
-
-***
-
-
-               
+--------------------------------------------------------------------------------
 
 **Bonfire: No repeats please**
 
@@ -45,19 +39,18 @@ For example, 'aab' should return 2 because it has 6 total permutations, but only
 Another way to think about this problem is to start from an empty space. Introduce the first letter to the space. This space will now contain the first sub-permutation. Here's a diagram illustrating the idea:
 
 [diagram](http://i.imgur.com/zFm5gRx.png)
-```
+
+```js
 // An approach to introduce a new character to a permutation
 var ch = '?';
-var source = ['?', '?', '?']; 	// Current sub-permutation
+var source = ['?', '?', '?'];     // Current sub-permutation
 var temp, dest = [];
 
 for(var i = 0; i <= source.length; ++i) {
-	temp = source.slice(0);	// Copy the array
-	temp.splice(i, 0, ch);	// Insert the new character
-	dest.push(temp);	// Store the new sub-permutation	
+    temp = source.slice(0);    // Copy the array
+    temp.splice(i, 0, ch);    // Insert the new character
+    dest.push(temp);    // Store the new sub-permutation    
 }
 ```
-Finding each permutation could then be done non-recursively by including the
-above in a function taking a source array and returning a destination array.
-For each letter of the input string, pass that character, as well as the array 
-returned from the previous call of the function.
+
+Finding each permutation could then be done non-recursively by including the above in a function taking a source array and returning a destination array. For each letter of the input string, pass that character, as well as the array  returned from the previous call of the function.

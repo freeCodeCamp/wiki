@@ -17,7 +17,7 @@
 
 ## Code Solution:
 
-```
+```js
 function translate(str) {
   // Create variables to be used
   var pigLatin = '';

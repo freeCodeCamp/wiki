@@ -17,7 +17,7 @@ This problem is hard if you have to create your own code to check for primes, so
 
 ## Code Solution:
 
-```
+```js
 function sumPrimes(num) {
   var res = 0;
 

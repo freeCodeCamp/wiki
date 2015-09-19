@@ -20,7 +20,7 @@
 
 ## Code Solution:
 
-```
+```js
 function inventory(arr1, arr2) {
 
     // Variable for location of product

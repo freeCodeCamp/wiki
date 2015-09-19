@@ -21,7 +21,7 @@ In the case that only one argument was passed, do not worry about how to prompt 
 
 ## Code Solution:
 
-```
+```js
 function add() {
   // Function to check if a number is actually a number
   // and return undefined otherwise.

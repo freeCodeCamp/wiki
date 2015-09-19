@@ -17,7 +17,7 @@
 
 ## Code Solution:
 
-```
+```js
 function convert(str) {
   // Split by character to avoid problems.
 

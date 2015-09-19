@@ -17,7 +17,7 @@ If you still can't figure out how to solve it with shift, then try solving it wi
 
 ## Code Solution:
 
-```
+```js
 function drop(arr, func) {
   // Drop them elements.
   var times = arr.length;
