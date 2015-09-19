@@ -55,6 +55,20 @@ function titleCase(str) {
 titleCase("hello world");
 ```
 
+Third Solution:
+
+```js
+function titleCase(str) {
+  str = str.toLowerCase().split(' ');
+  for (var i in str) {
+    str[i] = str[i].replace(str[i].charAt(0), str[i].charAt(0).toUpperCase());
+  };
+  return str.join(' ');
+}
+
+titleCase("I'm a little tea pot", "");
+```
+
 # Code Explanation:
 We are modifying the `replaceAt` function using prototype to facilitate the use of the program.
 
