@@ -65,7 +65,7 @@ function smallestCommons(arr) {
 - Outside the loop, increase the value of loop.
 - At the end of the loop return the quotient.
 
-If the array only has two elements then the for loop never gets used and the return value is the product of said numbers. Otherwise, from the third element and until n is the same and the array length check if the reminder of the quotient and the third value of the array is not 0, if it is not 0 then stop loop increases and then we start over. If the reminded was 0 then keep checking until the end of the array.
+If the array only has two elements then the for loop never gets used and the return value is the product of said numbers. Otherwise, from the third element and until n is the same and the array length check if the remainder of the quotient and the third value of the array is not 0, if it is not 0 then stop loop increases and then we start over. If the remainder was 0 then keep checking until the end of the array.
 
 # Credits:
 If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @Adoyle2014`**
