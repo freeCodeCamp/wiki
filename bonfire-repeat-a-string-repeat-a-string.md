@@ -5,7 +5,7 @@ The program is very simple, we have to take a variable and return that variable 
 You can't edit strings, you will need to create a variable to store the new string.
 
 ## Hint: 2
-Create a loop to repeated the code as many times as needed.
+Create a loop to repeat the code as many times as needed.
 
 ## Hint: 3
 Make the variable created store the current value and append the word to it.
