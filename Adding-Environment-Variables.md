@@ -1,6 +1,6 @@
 # In Windows
 
-## Using the GUI
+## Via GUI
 
 1. Download [Varpanel](http://implbits.com/products/varpanel/).
 2. Open Varpanel.
@@ -8,6 +8,6 @@
 
 ![](http://i.imgur.com/RqgGcf5.gif)
 
-## Using the Command Line
+## Via Command Line
 
 Refer to [this answer](http://superuser.com/a/284351/275797) on Super User.
