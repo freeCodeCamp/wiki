@@ -67,6 +67,52 @@ function inventory(arr1, arr2) {
     return arr1;
 }
 ```
+## Solution 2
+```js
+function inventory(arr1, arr2) {
+  // All inventory must be accounted for or you're fired!
+
+  var index;
+  var arrCurInvName = []; // Names of arr1's items
+  var arrNeInvName = []; // Names of arr2's items
+
+  // Same as using two for loops, this takes care of increasing the number of stock quantity.
+  arr1.map(function(item1) {
+    return arr2.map(function(item2) {
+      if (item1[1] === item2[1]) {
+        item1[0] = item1[0] + item2[0]; //Increase number of stock
+      }
+    });
+  });
+
+  // Get item's name for new Inventory
+  arr2.map(function(item) {
+    arrNeInvName.push(item[1]);
+  });
+
+  // Get item's name for Current Inventory
+  arr1.map(function(item) {
+    arrCurInvName.push(item[1]);
+  });
+
+  // Add new inventory items to current inventory.
+  arrNeInvName.map(function(item) {
+    if (arrCurInvName.indexOf(item) === -1) {
+      index = arrNeInvName.indexOf(item);
+      arr1.push(arr2[index]);
+    }
+  });
+
+  // Sort the array alphabetically using the second element of the array as base.
+  arr1.sort(function(currItem, nextItem) {
+
+    //Ternary function to avoid using if else
+    return currItem[1] > nextItem[1] ? 1 : -1;
+  });
+
+  return arr1;
+}
+```
 
 # Code Explanation:
 - Start by creating a variable to store the index in.  Define variables outside of loops
@@ -77,11 +123,12 @@ function inventory(arr1, arr2) {
 - Otherwise, then we can add the quantity from the new inventory
 - Then we sort the array by the product name (`arr1[x][1]` holds the name)
 - Return the sorted array
+- For Solution two, the explanation is on the code. Feel free to use different components on each solution to create your own if you like.
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @guyjoseph`
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @guyjoseph @Rafase282`**
 
-> If you are adding to the page then you add your name like this @newName instead of removing the other one.
+> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
 
 ## Related links
 - [Function.prototype.call](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call)
