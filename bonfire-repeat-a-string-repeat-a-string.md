@@ -34,7 +34,6 @@ Second Solution:
 
 ```js
 function repeat(str, num) {
-  // repeat after me
   var newstr = [];
   for (var i = 0; i < num; i++) {
     newstr.push(str);
