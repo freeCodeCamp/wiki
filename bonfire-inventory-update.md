@@ -67,7 +67,7 @@ function inventory(arr1, arr2) {
     return arr1;
 }
 ```
-## Solution 2
+# Solution 2
 ```js
 function inventory(arr1, arr2) {
   // All inventory must be accounted for or you're fired!
