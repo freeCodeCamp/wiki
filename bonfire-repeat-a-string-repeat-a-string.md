@@ -30,6 +30,21 @@ function repeat(str, num) {
 }
 ```
 
+Second Solution:
+
+```js
+function repeat(str, num) {
+  // repeat after me
+  var newstr = [];
+  for (var i = 0; i < num; i++) {
+    newstr.push(str);
+  };
+  return newstr.join('');
+}
+
+repeat("abc", 3, "");
+```
+
 # Code Explanation:
 - Create a variable to store the repeated word.
 - Use a while loop or for loop to repeat code as many times as needed according to `num`
