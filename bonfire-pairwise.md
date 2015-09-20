@@ -4,7 +4,7 @@ The program should look for the numbers in the array which would add to make the
 Remember that arrays start at index 0 and go from there so from [1,4,2,3,0,5] if we switch to their indices it would be [0,1,2,3,4,5] then we add indices 1 + 2 + 3 + 5 and we get 11. That is what we need to return.
 
 ## Hint: 1
-Remember to return the smaller sum if multiple are possible. This mean `[1,1,1],1 should use 0 + 1 instead of 0+1 & 1 +1 , etc`
+Remember to return the smaller sum if multiple are possible. This means `[1,1,1],1 should use 0 + 1 instead of 0+1 & 1 +1 , etc`
 
 ## Hint: 2
 Try using an array of indices to track when an index has been used or not.
