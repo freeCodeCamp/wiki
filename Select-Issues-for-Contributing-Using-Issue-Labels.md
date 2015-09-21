@@ -13,7 +13,6 @@ Blocked| When an issue should not be worked on, due to waiting for the creatorâ€
 Bug |Confirmed and reproducible bug in FCC's code and not only, for example, in Internet Explorer.
 Chrome |The issue can only be reproduced in Google Chrome.|
 Confirmed |The reported issue has been verified. (It basically says the issue creator has successfully communicated how to replicate the issue, but no one has started working toward a fix).|
-Critical-Path |IIRC???? () This is used with very obvious or site-breaking bugs.|
 Curriculum Request| Relates to everything that is requested to be added to current curriculum. The issue requests a new challenge, adding more explanation to a challenge, etc.|
 Device Issue |The issue presents only for a particular device (smartphone, tablet, desktop, etc).|
 Discussing |The issue is currently on discussion stage. |
@@ -29,7 +28,7 @@ In Progress| Someone is currently making a fix for the issue.|
 Invalid????| An issue with a feature or some code that is no longer on the site?|
 QA |(Quality Assurance) When a fix has been submitted and it needs to be reviewed before merging.|
 Question| The issue is a question.|
-Reactify????| An issue related to the future reactification of FCC.|
+Reactify| Issues related to moving to reactjs.|
 Ready???? |
 Resolved |The issue is resolved/fixed.|
 Sounding????| 
