@@ -6,7 +6,7 @@ You can also access them from Gitter using Camperbot
 
 - #### **`help $topic`**  
   find related materials to that topic, usually a page from the [wiki]
-  (https://github.com/bothelpers/kbase/wiki/)  
+  (https://github.com/FreeCodeCamp/freecodecamp/wiki)  
   examples: `help css` `help bootstrap`
 
 - #### `topics`
