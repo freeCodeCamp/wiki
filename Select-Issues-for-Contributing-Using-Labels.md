@@ -4,6 +4,8 @@ You can use labels to help you choose which issues to click on, rather than rand
 
 Check out the table below for the list of FreeCodeCamp issue labels, along with descriptions (work in progress). Thanks @bugron, @ahstro, @benschenker, for compiling this list of labels and descriptions.
 
+Note: The labels ***blocked***, ***confirmed***, and ***QA*** are also tied to [Waffle](https://waffle.io/freecodecamp/freecodecamp), a management system for FCC (GitHub) issues, and are automatically added and removed by it.
+
 | Label | Description | 
 | --- | --- | 
 |Accessibility| This is used for issues that don't necessarily break the site, but make it harder to use (like when tests used to evaluate while you typed would flicker the whole screen). Also, relevant to enabling the site to be usable for those who may have vision impairment or disabilities.|
@@ -25,13 +27,10 @@ Help Wanted| Owners or issue moderators need campers’ help to investigate or f
 Hikes| The issue is related to Hikes (they are currently not available in curriculum).|
 IE/Edge| The issue can only be reproduced in Internet Explorer or Microsoft Edge. FCC officially supports only Google Chrome.|
 In Progress| Someone is currently making a fix for the issue.|
-Invalid????| An issue with a feature or some code that is no longer on the site?|
 QA |(Quality Assurance) When a fix has been submitted and it needs to be reviewed before merging.|
 Question| The issue is a question.|
 Reactify| Issues related to moving to reactjs.|
-Ready???? |
 Resolved |The issue is resolved/fixed.|
-Sounding????| 
 Test Improvement| The issue should be fixed with a test improvement, meaning someone needs to fix asserts.|
 Todo |Something that needs to be done in future.|
 UX |(User Experience) Similar to accessibility, but focuses on an issue where campers share their experience or with an issue that leads to a negative user experience. For example, tag is used when something may be too complicated or how to use a feature is difficult to understand.|
