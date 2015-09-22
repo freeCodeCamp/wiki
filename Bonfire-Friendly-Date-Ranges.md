@@ -18,21 +18,83 @@
 ## Code Solution:
 
 ```js
-code here
+function friendly(str) {
+
+  var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+
+  // COnverst a YYYY-MM-DD string into a date object.
+  function convertDate(str) {
+    // Split the dates to work independently.
+    var dateStr = str.split('-');
+
+    // Force the dates into Universal time to avoid issues due to timezones.
+    return (new Date(Date.UTC(dateStr[0], dateStr[1] - 1, dateStr[2])));
+
+  }
+
+  // Handles the case of the day's endings.
+  function dateEnding(val) {
+    switch (val) {
+      case 1:
+      case 21:
+      case 31:
+        return val + 'st';
+      case 2:
+      case 22:
+        return val + 'nd';
+      case 3:
+      case 23:
+        return val + 'rd';
+      default:
+        return val + 'th';
+    }
+  }
+
+  // Checks for the real difference in months to avoid errors
+  function monthDiff(date1, date2) {
+    var month2 = date2.getUTCFullYear() * 12 + date2.getUTCMonth();
+    var month1 = date1.getUTCFullYear() * 12 + date1.getUTCMonth();
+    return month2 - month1;
+  }
+
+  // Get's the right month string.
+  function getMonth(date) {
+    return months[date.getUTCMonth()];
+  }
+
+  function displayDate() {
+
+    // Handles same day
+    if (date2.getTime() - date1.getTime() === 0) {
+      return [getMonth(date1) + ' ' + dateEnding(date1.getUTCDate()) + ', ' + date1.getUTCFullYear()];
+    }
+
+    // Handles same month
+    if (date1.getUTCMonth() === date2.getUTCMonth() && date1.getUTCFullYear() === date2.getUTCFullYear()) {
+      return [getMonth(date1) + ' ' + dateEnding(date1.getUTCDate()), dateEnding(date2.getUTCDate())];
+    }
+
+    // Handles more than a month of difference, but less than 12 months
+    if (monthDiff(date1, date2) < 12) {
+      return [getMonth(date1) + ' ' + dateEnding(date1.getUTCDate()), getMonth(date2) + ' ' + dateEnding(date2.getUTCDate())];
+    }
+
+    // Handles cases with more than 12 months apaprt.
+    return [getMonth(date1) + ' ' + dateEnding(date1.getUTCDate()) + ', ' + date1.getUTCFullYear(), getMonth(date2) + ' ' + dateEnding(date2.getUTCDate()) + ', ' + date2.getUTCFullYear()];
+  }
+
+  var date1 = convertDate(str[0]);
+  var date2 = convertDate(str[1]);
+
+  return displayDate();
+
+}
 ```
 
 # Code Explanation:
-- Explain your code here
+- Read comments in code
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @username1 @username2 @yourusername`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @guyjoseph @yourusername`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
-
-## Here you can add any other information that is helpful or related.
-- Right here.
-
-### Important notes about this template.
-- This template can also be used for regular pages.
-- The author part has been removed. This is a collaboration page, while people can see who contributed by checking the revision, using the code for the credits will also benefits the contributors and your name will be there, so there is no longer any need to add your picture or links.
-- If you have suggestions or comments about this template then feel free to contact [@Rafase282 in Gitter](https://gitter.im/Rafase282)
