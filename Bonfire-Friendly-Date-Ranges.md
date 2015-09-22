@@ -1,14 +1,15 @@
 # Problem Explanation:
-- Explain what is asked in an easy to understand way.
+- Create a program that will take two dates and convert them into a more easy to understand date such as `January 1st, 2017`. It will also check the difference between them, and handles cases with no difference, more than a day, more than a month, more than a year, and more than a month and less than a year respectively.
 
 ## Hint: 1
-- Add hint here.
+- Split the string into an array where you get the "YYYY", "MM", "DD"
 
 ## Hint: 2
-- Add hint here.
+- You need to handle the case for "st", "nd", and "th". Note that 13 is "th" not "rd".
 
 ## Hint: 3
-- Add hint here.
+- If you are using `Date()` to create instances of dates to work with, then use UTC time to avoid errors due to time zone difference between servers.
+
 
 ## Spoiler Alert!
 [![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
@@ -95,6 +96,6 @@ function friendly(str) {
 - Read comments in code
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @guyjoseph @yourusername`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @guyjoseph`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
