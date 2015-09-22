@@ -305,6 +305,7 @@
 | Pasadena | [Facebook](//www.facebook.com/groups/free.code.camp.pasadena.ca/) | [Gitter](//gitter.im/freecodecamp/Pasadena) |
 | Pasto | [Facebook](//www.facebook.com/groups/free.code.camp.pasto/) | [Gitter](//gitter.im/freecodecamp/Pasto) |
 | Penang | [Facebook](//www.facebook.com/groups/free.code.camp.penang/) | [Gitter](//gitter.im/freecodecamp/Penang) |
+| Perlis | [Facebook](//www.facebook.com/groups/free.code.camp.perlis.malaysia) | [Gitter](//gitter.im/freecodecamp/Perlis) |
 | Perth | [Facebook](//www.facebook.com/groups/free.code.camp.perth/) | [Gitter](//gitter.im/freecodecamp/Perth) |
 | Perugia | [Facebook](//www.facebook.com/groups/free.code.camp.perugia.it/) | [Gitter](//gitter.im/freecodecamp/Perugia) |
 | Philadelphia | [Facebook](//www.facebook.com/groups/free.code.camp.philadelphia/) | [Gitter](//gitter.im/freecodecamp/Philadelphia) |
@@ -448,4 +449,3 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
 * [[Official Free Code Camp Chat Rooms|Official-Free-Code-Camp-Chat-Rooms]]
 * [[World Language Chat Rooms|World-Language-Chat-Rooms]]
 * [[Casual Chat Rooms|Casual-Chat-Rooms]]
-
