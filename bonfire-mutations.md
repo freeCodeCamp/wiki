@@ -51,7 +51,7 @@ function mutation(arr) {
 ```
 
 # Code Explanation:
-- First, we make the to strings in the array lowercase.  
+- First, we make the two strings in the array lowercase.  
 - Second, we split the individual strings in to 2 separate arrays of characters. test variable holds what we are looking for. target variable is where we are looking.   
 - Third, we loop through our test characters, and if they are not _all_ found we return false.
 
