@@ -30,7 +30,7 @@ function destroyer(arr) {
 # Code Explanation:
 - The first line will turn the `arguments` variable into a full array instead of the limited array it currently is.
 - Next I remove the first argument since I don't need, since I only want the other arguments passed besides the first which is the array we are going to compare against.
-- The use the `filter()` to filter out the elements that are on the array and keep the ones that are not.
+- Then use the `filter()` to filter out the elements that are on the array and keep the ones that are not.
 
 # Credits:
 If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282`
