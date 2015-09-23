@@ -12,9 +12,9 @@ In Firefox:
   * Click in `Storage` link.
     ![Print the localStorage Object from web console and show the Storage](http://i.imgur.com/AsflWtv.png)
   * The **Storage** panel will appear at right.
-  * You can filter the results to find the bonfire, zipline or waypoint causing the problem.
-  * When located, simply hover it and click in the `x` at right of the value.
+  * Filter the results to find the bonfire, zipline or waypoint causing the problem.
+  * When located, mouse over it and click the `x` at right.
     ![Click the x for deleting the value entry.](http://i.imgur.com/3URr4jQ.png)
-  * Onve removed, check if the problem was solved. Refresh or close and open the browser if necessary.
+  * Once removed, check if the problem was solved. Refresh or close and open the browser if necessary.
 
 **Note:** This can also be done with the [Storage Inspector](https://developer.mozilla.org/en-US/docs/Tools/Storage_Inspector), but seems like Firefox hangs out when there are so many values.
