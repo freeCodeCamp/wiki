@@ -1,22 +1,29 @@
-# :AGILE OVERVIEW
-Foundational Agile Principles:
+**Foundational Agile Principles:**
 
--Individuals and interactions over processes and tools
+**_Individuals and interactions_** over processes and tools
 
--Working software over comprehensive
+**_Working software _**over comprehensive
 
--Customer collaboration over contract negotiation
+_**Customer collaboration**_ over contract negotiation
 
--Responding to change over following a plan
+_**Responding to change **_ over following a plan
 
 
-## Hint: 1
+
+
+## User-Stories
+User stories help us tie the needs of our users directly to features we implement in a
+
+conversational format. They **always** follow this syntax: _“As a User/Stakeholder , I need/want to be able to Do Something”_. This can result in some awkward stories for the “obvious” features like _ “As a user, I need to be able to trust that my credit card information is secure.”_, but it is imperative that ALL 
+
+features tie back to a story in order to allow us to effectively break the work down into 
+
+manageable pieces.
+
+## Sprints
 - Add hint here.
 
-## Hint: 2
-- Add hint here.
-
-## Hint: 3
+## SCRUM
 - Add hint here.
 
 ## Spoiler Alert!
