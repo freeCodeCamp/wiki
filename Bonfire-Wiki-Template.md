@@ -1,5 +1,14 @@
-# Problem Explanation:
-- Explain what is asked in an easy to understand way.
+# :AGILE OVERVIEW
+Foundational Agile Principles:
+
+-Individuals and interactions over processes and tools
+
+-Working software over comprehensive
+
+-Customer collaboration over contract negotiation
+
+-Responding to change over following a plan
+
 
 ## Hint: 1
 - Add hint here.
