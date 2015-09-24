@@ -15,7 +15,7 @@
 
 **Solution ahead!**
 
-## Code Solution:
+## Code Solution 1:
 
 ```js
 function sumAll(arr) {
@@ -38,7 +38,23 @@ sumAll([1, 4]);
 
 Since the numbers might not be always in order, using max() and min() will help organize.
 
+## Code Solution 2:
+```js
+function sumAll(arr) {
+  // Buckle up everything to one!
+
+  // Using ES6 arrow function (one-liner)
+  var sortedArr = arr.sort((a,b) => a-b);
+  var firstNum = arr[0];
+  var lastNum = arr[1];
+  // Using Arithmetic Progression summing formula
+  // https://en.wikipedia.org/wiki/Arithmetic_progression#Sum
+  var sum = (lastNum - firstNum + 1) * (firstNum + lastNum) / 2;
+  return sum;
+}
+```
+
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @abhisekp`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
