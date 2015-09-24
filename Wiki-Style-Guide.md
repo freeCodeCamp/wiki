@@ -4,7 +4,7 @@ We are always happy to help new contributors write, edit, and localize our wiki 
 
 You can create a new wiki page by clicking the "New Page" button at top right.
 
-Keep your wiki articles short and focused. Your articles should be no longer than this article.  If your article is longer than this, break it up smaller articles that link to each other.
+Keep your wiki articles short and focused.
 
 You can include images if they help you better communicate your subject.
 
