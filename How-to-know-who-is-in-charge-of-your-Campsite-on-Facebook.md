@@ -1,4 +1,6 @@
-Each Campsite has members that are designated as Admins who can approve new members and also designate other Admins for the group. The steps below will show you how to find out who is an Admin for your Campsite.
+Local communities are ever-changing, and there can be more than one Volunteer Community Manager for your city. To become an Admin in the Facebook group, follow the steps below.
+
+How to find out who is an Admin for your Campsite:
 
 * First, click the Members tab below the cover photo. Then the click on the dropdown box that says "all members"**
 
@@ -11,3 +13,5 @@ Each Campsite has members that are designated as Admins who can approve new memb
 * You should now be able to see who is designated as an Admin for your Campsite.
 
 ![](http://i.imgur.com/AwoYT01.png?1)
+
+Message this person to introduce yourself and let them know you're interested in being an admin. 
