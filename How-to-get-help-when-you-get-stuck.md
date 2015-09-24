@@ -10,4 +10,12 @@ Most of the time, you'll solve your problem after just one or two steps of this 
 
 We have a special chat room just for getting help: <a href='https://gitter.im/freecodecamp/help/' target='_blank'>https://gitter.im/freecodecamp/help/</a>
 
+Camper Bianca Mihai has also written a 3 article series on what she does when she gets stuck:
+
+[How to start when you are stuck (I)](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/How-to-start-when-you-are-stuck-(I))
+
+[How to start when you are stuck (II)](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/How-to-start-when-you-are-stuck-(II))
+
+[How to start when you are stuck (III)](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/How-to-start-when-you-are-stuck-(III))
+
 Learning to code is hard. But it's a lot easier if you ask for help when you need it!
