@@ -1,1 +1,0 @@
-this is the help section for the Wiki. Placeholder for now, please edit me!
