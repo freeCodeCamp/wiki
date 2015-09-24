@@ -14,4 +14,4 @@ How to find out who is an Admin for your Campsite:
 
 ![](http://i.imgur.com/AwoYT01.png?1)
 
-Message this person to introduce yourself and let them know you're interested in being an admin. 
+Message this person to introduce yourself and let them know you're interested in being an admin. After this, go schedule your first meetup.
