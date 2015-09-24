@@ -31,8 +31,22 @@ function diff(arr1, arr2) {
 }
 ```
 
-# Code Explanation:
-- Explain your code here
+## Code Solution 2:
+
+```js
+function diff(arr1, arr2) {
+  // Same, same; but different.
+  var newArr = arr1.filter(function (el) {
+    return arr2.indexOf(el) === -1;
+    
+    // concat the previous output of filter method
+    // with the next output of filter method
+  }).concat(arr2.filter(function (el) {
+    return arr1.indexOf(el) === -1;
+  }));
+  return newArr;
+}
+```
 
 # Credits:
 If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282`**
