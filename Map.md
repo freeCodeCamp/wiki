@@ -184,7 +184,7 @@
 3. [Bonfire: Factorialize a Number]()
 4. [Bonfire: Check for Palindromes]()
 5. [Bonfire: Find the Longest Word in a String]()
-6. [Bonfire: Title Case a Sentence](h
+6. [Bonfire: Title Case a Sentence]()
 7. [Bonfire: Return Largest Numbers in Arrays]()
 8. [Bonfire: Confirm the Ending]()
 9. [Bonfire: Repeat a string repeat a string]()
@@ -246,35 +246,35 @@
 
 # AngularJS
 1. [Waypoint: Get Started with Angular.js]()
-2. Waypoint: Apply Angular.js Directives
-3. Waypoint: Power Forms with Angular.js
-4. Waypoint: Customize Angular.js Directives
-5. Waypoint: Create Angular.js Services
+2. [Waypoint: Apply Angular.js Directives]()
+3. [Waypoint: Power Forms with Angular.js]()
+4. [Waypoint: Customize Angular.js Directives]()
+5. [Waypoint: Create Angular.js Services]()
 
 # Intermediate Front End Development Projects
-1. Zipline: Stylize Stories on Camper News
-2. Zipline: Wikipedia Viewer
-3. Zipline: Build a JavaScript Calculator
-4. Zipline: Build a Tic Tac Toe Game
-5. Zipline: Build a Simon Game
+1. [Zipline: Stylize Stories on Camper News]()
+2. [Zipline: Wikipedia Viewer]()
+3. [Zipline: Build a JavaScript Calculator]()
+4. [Zipline: Build a Tic Tac Toe Game]()
+5. [Zipline: Build a Simon Game]()
 
 # Git
-1. Waypoint: Save your Code Revisions Forever with Git
+1. [Waypoint: Save your Code Revisions Forever with Git]()
 
 # Node.js and Express.js
-1. Waypoint: Manage Packages with NPM
-2. Waypoint: Start a Node.js Server
-3. Waypoint: Continue working with Node.js Servers
-4. Waypoint: Finish working with Node.js Servers
-5. Waypoint: Build Web Apps with Express.js
+1. [Waypoint: Manage Packages with NPM]()
+2. [Waypoint: Start a Node.js Server]()
+3. [Waypoint: Continue working with Node.js Servers]()
+4. [Waypoint: Finish working with Node.js Servers]()
+5. [Waypoint: Build Web Apps with Express.js]()
 
 # MongoDB
-1. Waypoint: Store Data in MongoDB
+1. [Waypoint: Store Data in MongoDB]()
 
 # Full Stack JavaScript Projects
-1. Waypoint: Get Set for Basejumps
-2. Basejump: Build a Voting App
-3. Basejump: Build a Nightlife Coordination App
-4. Basejump: Chart the Stock Market
-5. Basejump: Manage a Book Trading Club
-6. Basejump: Build a Pinterest Clone
+1. [Waypoint: Get Set for Basejumps]()
+2. [Basejump: Build a Voting App]()
+3. [Basejump: Build a Nightlife Coordination App]()
+4. [Basejump: Chart the Stock Market]()
+5. [Basejump: Manage a Book Trading Club]()
+6. [Basejump: Build a Pinterest Clone]()
