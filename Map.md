@@ -70,180 +70,182 @@
 69. [Waypoint: Use RGB to Color Elements Gray Complete]()
 
 # Responsive Design with Bootstrap
-1. Waypoint: Use Responsive Design with Bootstrap Fluid Containers Complete
-2. Waypoint: Make Images Mobile Responsive Complete
-3. Waypoint: Center Text with Bootstrap Complete
-4. Waypoint: Create a Bootstrap Button Complete
-5. Waypoint: Create a Block Element Bootstrap Button Complete
-6. Waypoint: Taste the Bootstrap Button Color Rainbow Complete
-7. Waypoint: Call out Optional Actions with Button Info Complete
-8. Waypoint: Warn your Users of a Dangerous Action Complete
-9. Waypoint: Use the Bootstrap Grid to Put Elements Side By Side Complete
-10. Waypoint: Ditch Custom CSS for Bootstrap Complete
-11. Waypoint: Use Spans for Inline Elements Complete
-12. Waypoint: Create a Custom Heading Complete
-13. Waypoint: Add Font Awesome Icons to our Buttons Complete
-14. Waypoint: Add Font Awesome Icons to all of our Buttons Complete
-15. Waypoint: Responsively Style Radio Buttons Complete
-16. Waypoint: Responsively Style Checkboxes Complete
-17. Waypoint: Style Text Inputs as Form Controls Complete
-18. Waypoint: Line up Form Elements Responsively with Bootstrap Complete
-19. Waypoint: Create a Bootstrap Headline Complete
-20. Waypoint: House our page within a Bootstrap Container Fluid Div Complete
-21. Waypoint: Create a Bootstrap Row Complete
-22. Waypoint: Split your Bootstrap Row Complete
-23. Waypoint: Create Bootstrap Wells Complete
-24. Waypoint: Add Elements within your Bootstrap Wells Complete
-25. Waypoint: Apply the Default Bootstrap Button Style Complete
-26. Waypoint: Create a Class to Target with jQuery Selectors Complete
-27. Waypoint: Add ID Attributes to Bootstrap Elements Complete
-28. Waypoint: Label Bootstrap Wells Complete
-29. Waypoint: Give Each Element a Unique ID Complete
-30. Waypoint: Label Bootstrap Buttons Complete
-31. Waypoint: Use Comments to Clarify Code Complete
+1. [Waypoint: Use Responsive Design with Bootstrap Fluid Containers]()
+2. [Waypoint: Make Images Mobile Responsive]()
+3. [Waypoint: Center Text with Bootstrap]()
+4. [Waypoint: Create a Bootstrap Button]()
+5. [Waypoint: Create a Block Element Bootstrap Button]()
+6. [Waypoint: Taste the Bootstrap Button Color Rainbow]()
+7. [Waypoint: Call out Optional Actions with Button Info]()
+8. [Waypoint: Warn your Users of a Dangerous Action]()
+9. [Waypoint: Use the Bootstrap Grid to Put Elements Side By Side]()
+10. [Waypoint: Ditch Custom CSS for Bootstrap]()
+11. [Waypoint: Use Spans for Inline Elements]()
+12. [Waypoint: Create a Custom Heading]()
+13. [Waypoint: Add Font Awesome Icons to our Buttons]()
+14. [Waypoint: Add Font Awesome Icons to all of our Buttons]()
+15. [Waypoint: Responsively Style Radio Buttons]()
+16. [Waypoint: Responsively Style Checkboxes]()
+17. [Waypoint: Style Text Inputs as Form Controls]()
+18. [Waypoint: Line up Form Elements Responsively with Bootstrap]()
+19. [Waypoint: Create a Bootstrap Headline]()
+20. [Waypoint: House our page within a Bootstrap Container Fluid Div]()
+21. [Waypoint: Create a Bootstrap Row]()
+22. [Waypoint: Split your Bootstrap Row]()
+23. [Waypoint: Create Bootstrap Wells]()
+24. [Waypoint: Add Elements within your Bootstrap Wells]()
+25. [Waypoint: Apply the Default Bootstrap Button Style]()
+26. [Waypoint: Create a Class to Target with jQuery Selectors]()
+27. [Waypoint: Add ID Attributes to Bootstrap Elements]()
+28. [Waypoint: Label Bootstrap Wells]()
+29. [Waypoint: Give Each Element a Unique ID]()
+30. [Waypoint: Label Bootstrap Buttons]()
+31. [Waypoint: Use Comments to Clarify Code]()
 
 # jQuery
-1. Waypoint: Learn how Script Tags and Document Ready Work Complete
-2. Waypoint: Target HTML Elements with Selectors Using jQuery Complete
-3. Waypoint: Target Elements by Class Using jQuery Complete
-4. Waypoint: Target Elements by ID Using jQuery Complete
-5. Waypoint: Delete your jQuery Functions Complete
-6. Waypoint: Target the same element with multiple jQuery Selectors Complete
-7. Waypoint: Remove Classes from an element with jQuery Complete
-8. Waypoint: Change the CSS of an Element Using jQuery Complete
-9. Waypoint: Disable an Element Using jQuery Complete
-10. Waypoint: Remove an Element Using jQuery Complete
-11. Waypoint: Use appendTo to Move Elements with jQuery Complete
-12. Waypoint: Clone an Element Using jQuery Complete
-13. Waypoint: Target the Parent of an Element Using jQuery Complete
-14. Waypoint: Target the Children of an Element Using jQuery Complete
-15. Waypoint: Target a Specific Child of an Element Using jQuery Complete
-16. Waypoint: Target Even Numbered Elements Using jQuery Complete
-17. Waypoint: Use jQuery to Modify the Entire Page Complete
+1. [Waypoint: Learn how Script Tags and Document Ready Work]()
+2. [Waypoint: Target HTML Elements with Selectors Using jQuery]()
+3. [Waypoint: Target Elements by Class Using jQuery]()
+4. [Waypoint: Target Elements by ID Using jQuery]()
+5. [Waypoint: Delete your jQuery Functions]()
+6. [Waypoint: Target the same element with multiple jQuery Selectors]()
+7. [Waypoint: Remove Classes from an element with jQuery]()
+8. [Waypoint: Change the CSS of an Element Using jQuery]()
+9. [Waypoint: Disable an Element Using jQuery]()
+10. [Waypoint: Remove an Element Using jQuery]()
+11. [Waypoint: Use appendTo to Move Elements with jQuery]()
+12. [Waypoint: Clone an Element Using jQuery]()
+13. [Waypoint: Target the Parent of an Element Using jQuery]()
+14. [Waypoint: Target the Children of an Element Using jQuery]()
+15. [Waypoint: Target a Specific Child of an Element Using jQuery]()
+16. [Waypoint: Target Even Numbered Elements Using jQuery]()
+17. [Waypoint: Use jQuery to Modify the Entire Page]()
 
 # Basic JavaScript
-1. Waypoint: Comment your JavaScript Code Complete
-2. Waypoint: Understand Boolean Values Complete
-3. Waypoint: Declare JavaScript Variables Complete
-4. Waypoint: Declare String Variables Complete
-5. Waypoint: Check the Length Property of a String Variable Complete
-6. Waypoint: Use Bracket Notation to Find the First Character in a String Complete
-7. Waypoint: Use Bracket Notation to Find the Nth Character in a String Complete
-8. Waypoint: Use Bracket Notation to Find the Last Character in a String Complete
-9. Waypoint: Use Bracket Notation to Find the Nth-to-Last Character in a String Complete
-10. Waypoint: Add Two Numbers with JavaScript Complete
-11. Waypoint: Subtract One Number from Another with JavaScript Complete
-12. Waypoint: Multiply Two Numbers with JavaScript Complete
-13. Waypoint: Divide One Number by Another with JavaScript Complete
-14. Waypoint: Create Decimal Numbers with JavaScript Complete
-15. Waypoint: Perform Arithmetic Operations on Decimals with JavaScript Complete
-16. Waypoint: Store Multiple Values in one Variable using JavaScript Arrays Complete
-17. Waypoint: Nest one Array within Another Array Complete
-18. Waypoint: Access Array Data with Indexes Complete
-19. Waypoint: Modify Array Data With Indexes Complete
-20. Waypoint: Manipulate Arrays With pop() Complete
-21. Waypoint: Manipulate Arrays With push() Complete
-22. Waypoint: Manipulate Arrays With shift() Complete
-23. Waypoint: Manipulate Arrays With unshift() Complete
-24. Waypoint: Write Reusable JavaScript with Functions Complete
-25. Waypoint: Build JavaScript Objects Complete
-26. Waypoint: Manipulate JavaScript Objects Complete
-27. Waypoint: Iterate with JavaScript For Loops Complete
-28. Waypoint: Iterate with JavaScript While Loops Complete
-29. Waypoint: Generate Random Fractions with JavaScript Complete
-30. Waypoint: Generate Random Whole Numbers with JavaScript Complete
-31. Waypoint: Generate Random Whole Numbers within a Range Complete
-32. Waypoint: Use Conditional Logic with If and Else Statements Complete
-33. Waypoint: Sift through Text with Regular Expressions Complete
-34. Waypoint: Find Numbers with Regular Expressions Complete
-35. Waypoint: Find White Space with Regular Expressions Complete
-36. Waypoint: Invert Regular Expression Matches with JavaScript Complete
-37. Waypoint: Create a JavaScript Slot Machine Complete
-38. Waypoint: Add your JavaScript Slot Machine Slots Complete
-39. Waypoint: Bring your JavaScript Slot Machine to Life Complete
-40. Waypoint: Give your JavaScript Slot Machine some stylish images Complete
+1. [Waypoint: Comment your JavaScript Code]()
+2. [Waypoint: Understand Boolean Values]()
+3. [Waypoint: Declare JavaScript Variables]()
+4. [Waypoint: Declare String Variables]()
+5. [Waypoint: Check the Length Property of a String Variable]()
+6. [Waypoint: Use Bracket Notation to Find the First Character in a String]()
+7. [Waypoint: Use Bracket Notation to Find the Nth Character in a String]()
+8. [Waypoint: Use Bracket Notation to Find the Last Character in a String]()
+9. [Waypoint: Use Bracket Notation to Find the Nth-to-Last Character in a String]()
+10. [Waypoint: Add Two Numbers with JavaScript]()
+11. [Waypoint: Subtract One Number from Another with JavaScript]()
+12. [Waypoint: Multiply Two Numbers with JavaScript]()
+13. [Waypoint: Divide One Number by Another with JavaScript]()
+14. [Waypoint: Create Decimal Numbers with JavaScript]()
+15. [Waypoint: Perform Arithmetic Operations on Decimals with JavaScript]()
+16. [Waypoint: Store Multiple Values in one Variable using JavaScript Arrays]()
+17. [Waypoint: Nest one Array within Another Array]()
+18. [Waypoint: Access Array Data with Indexes]()
+19. [Waypoint: Modify Array Data With Indexes]()
+20. [Waypoint: Manipulate Arrays With pop()]()
+21. [Waypoint: Manipulate Arrays With push()]()
+22. [Waypoint: Manipulate Arrays With shift()]()
+23. [Waypoint: Manipulate Arrays With unshift()]()
+24. [Waypoint: Write Reusable JavaScript with Functions]()
+25. [Waypoint: Build JavaScript Objects]()
+26. [Waypoint: Manipulate JavaScript Objects]()
+27. [Waypoint: Iterate with JavaScript For Loops])
+28. [Waypoint: Iterate with JavaScript While Loops]()
+29. [Waypoint: Generate Random Fractions with JavaScript]()
+30. [Waypoint: Generate Random Whole Numbers with JavaScript]()
+31. [Waypoint: Generate Random Whole Numbers within a Range]()
+32. [Waypoint: Use Conditional Logic with If-Else Statements]()
+33. [Waypoint: Sift through Text with Regular Expressions]()
+34. [Waypoint: Find Numbers with Regular Expressions]()
+35. [Waypoint: Find White Space with Regular Expressions]()
+36. [Waypoint: Invert Regular Expression Matches with JavaScript]()
+37. [Waypoint: Create a JavaScript Slot Machine]()
+38. [Waypoint: Add your JavaScript Slot Machine Slots]()
+39. [Waypoint: Bring your JavaScript Slot Machine to Life]()
+40. [Waypoint: Give your JavaScript Slot Machine some stylish images]()
 
 # Object Oriented and Functional Programming
-1. Waypoint: Declare JavaScript Objects as Variables Complete
-2. Waypoint: Construct JavaScript Objects with Functions Complete
-3. Waypoint: Make Object Properties Private Complete
-4. Waypoint: Make Instances of Objects with a Constructor Function Complete
-5. Waypoint: Iterate over Arrays with .map Complete
-6. Waypoint: Condense arrays with .reduce Complete
-7. Waypoint: Filter Arrays with .filter Complete
-8. Waypoint: Sort Arrays with .sort Complete
-9. Waypoint: Reverse Arrays with .reverse Complete
-10. Waypoint: Concatenate Strings with .concat Complete
-11. Waypoint: Split Strings with .split Complete
-12. Waypoint: Join Strings with .join Complete
+1. [Waypoint: Declare JavaScript Objects as Variables]()
+2. [Waypoint: Construct JavaScript Objects with Functions]()
+3. [Waypoint: Make Object Properties Private]()
+4. [Waypoint: Make Instances of Objects with a Constructor Function]()
+5. [Waypoint: Iterate over Arrays with .map]()
+6. [Waypoint: Condense arrays with .reduce]()
+7. [Waypoint: Filter Arrays with .filter]()
+8. [Waypoint: Sort Arrays with .sort]()
+9. [Waypoint: Reverse Arrays with .reverse]()
+10. [Waypoint: Concatenate Strings with .concat]()
+11. [Waypoint: Split Strings with .split]()
+12. [Waypoint: Join Strings with .join]()
+13. [Old Advanced Waypoint: Functional Programming in JavaScript]()
 
 # Basic Algorithm Scripting
-1. Bonfire: Meet Bonfire Complete
-2. Bonfire: Reverse a String Complete
-3. Bonfire: Factorialize a Number Complete
-4. Bonfire: Check for Palindromes Complete
-5. Bonfire: Find the Longest Word in a String Complete
-6. Bonfire: Title Case a Sentence Complete
-7. Bonfire: Return Largest Numbers in Arrays Complete
-8. Bonfire: Confirm the Ending Complete
-9. Bonfire: Repeat a string repeat a string Complete
-10. Bonfire: Truncate a string Complete
-11. Bonfire: Chunky Monkey Complete
-12. Bonfire: Slasher Flick Complete
-13. Bonfire: Mutations Complete
-14. Bonfire: Falsy Bouncer Complete
-15. Bonfire: Seek and Destroy Complete
-16. Bonfire: Where do I belong Complete
+1. [Bonfire: Meet Bonfire]()
+2. [Bonfire: Reverse a String]()
+3. [Bonfire: Factorialize a Number]()
+4. [Bonfire: Check for Palindromes]()
+5. [Bonfire: Find the Longest Word in a String]()
+6. [Bonfire: Title Case a Sentence](h
+7. [Bonfire: Return Largest Numbers in Arrays]()
+8. [Bonfire: Confirm the Ending]()
+9. [Bonfire: Repeat a string repeat a string]()
+10. [Bonfire: Truncate a string]()
+11. [Bonfire: Chunky Monkey]()
+12. [Bonfire: Slasher Flick]()
+13. [Bonfire: Mutations]()
+14. [Bonfire: Falsey Bouncer]()
+15. [Bonfire: Seek and Destroy]()
+16. [Bonfire: Where do I belong]()
 
 # Basic Front End Development Projects
-1. Waypoint: Get Set for Ziplines Complete
-2. Zipline: Build a Personal Portfolio Webpage Complete
-3. Zipline: Build a Random Quote Machine Complete
-4. Zipline: Show the Local Weather Complete
-5. Zipline: Build a Pomodoro Clock Complete
-6. Zipline: Use the Twitch.tv JSON API Complete
+1. [Waypoint: Get Set for Ziplines]()
+2. [Zipline: Build a Personal Portfolio Webpage]()
+3. [Zipline: Build a Random Quote Machine]()
+4. [Zipline: Show the Local Weather]()
+5. [Zipline: Build a Pomodoro Clock]()
+6. [Zipline: Use the Twitch.tv JSON API]()
 
 # Intermediate Algorithm Scripting
-1. Bonfire: Sum All Numbers in a Range Complete
-2. Bonfire: Diff Two Arrays Complete
-3. Bonfire: Roman Numeral Converter Complete
-4. Bonfire: Where art thou Complete
-5. Bonfire: Search and Replace Complete
-6. Bonfire: Pig Latin Complete
-7. Bonfire: DNA Pairing Complete
-8. Bonfire: Missing letters Complete
-9. Bonfire: Boo who Complete
-10. Bonfire: Sorted Union Complete
-11. Bonfire: Convert HTML Entities Complete
-12. Bonfire: Spinal Tap Case Complete
-13. Bonfire: Sum All Odd Fibonacci Numbers Complete
-14. Bonfire: Sum All Primes Complete
-15. Bonfire: Smallest Common Multiple Complete
-16. Bonfire: Finders Keepers Complete
-17. Bonfire: Drop it Complete
-18. Bonfire: Steamroller Complete
-19. Bonfire: Binary Agents Complete
-20. Bonfire: Everything Be True Complete
-21. Bonfire: Arguments Optional Complete
+1. [Bonfire: Sum All Numbers in a Range]()
+2. [Bonfire: Diff Two Arrays]()
+3. [Bonfire: Roman Numeral Converter]()
+4. [Bonfire: Where art thou]()
+5. [Bonfire: Search and Replace]()
+6. [Bonfire: Pig Latin]()
+7. [Bonfire: DNA Pairing]()
+8. [Bonfire: Missing letters]()
+9. [Bonfire: Boo who]()
+10. [Bonfire: Sorted Union]()
+11. [Bonfire: Convert HTML Entities]()
+12. [Bonfire: Spinal Tap Case]()
+13. [Bonfire: Sum All Odd Fibonacci Numbers]()
+14. [Bonfire: Sum All Primes]()
+15. [Bonfire: Smallest Common Multiple]()
+16. [Bonfire: Finders Keepers]()
+17. [Bonfire: Drop it]()
+18. [Bonfire: Steamroller]()
+19. [Bonfire: Binary Agents]()
+20. [Bonfire: Everything Be True]()
+21. [Bonfire: Arguments Optional]()
 
 # Upper Intermediate Algorithm Scripting
-1. Bonfire: Make a Person Complete
-2. Bonfire: Map the Debris Complete
-3. Bonfire: Pairwise Complete
-4. Automated Testing and Debugging
-5. Waypoint: Use the Javascript Console Complete
-6. Waypoint: Using typeof Complete
+1. [Bonfire: Make a Person]()
+2. [Bonfire: Map the Debris]()
+3. [Bonfire: Pairwise]()
+
+# Automated Testing and Debugging
+1. [Waypoint: Use the Javascript Console]()
+2. [Waypoint: Using typeof]()
 
 # Advanced Algorithm Scripting
-1. Bonfire: Validate US Telephone Numbers Complete
-2. Bonfire: Symmetric Difference Complete
-3. Bonfire: Exact Change Complete
-4. Bonfire: Inventory Update Complete
-5. Bonfire: No repeats please Complete
-6. Bonfire: Friendly Date Ranges Complete
+1. [Bonfire: Validate US Telephone Numbers]()
+2. [Bonfire: Symmetric Difference]()
+3. [Bonfire: Exact Change]()
+4. [Bonfire: Inventory Update]()
+5. [Bonfire: No repeats please]()
+6. [Bonfire: Friendly Date Ranges]()
 
 # AngularJS
-1. [Waypoint: Get Started with Angular.js]())
+1. [Waypoint: Get Started with Angular.js]()
 2. Waypoint: Apply Angular.js Directives
 3. Waypoint: Power Forms with Angular.js
 4. Waypoint: Customize Angular.js Directives
@@ -259,7 +261,7 @@
 # Git
 1. Waypoint: Save your Code Revisions Forever with Git
 
-## Node.js and Express.js
+# Node.js and Express.js
 1. Waypoint: Manage Packages with NPM
 2. Waypoint: Start a Node.js Server
 3. Waypoint: Continue working with Node.js Servers
