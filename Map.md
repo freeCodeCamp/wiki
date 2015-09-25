@@ -148,7 +148,7 @@
 24. [Waypoint: Write Reusable JavaScript with Functions]()
 25. [Waypoint: Build JavaScript Objects]()
 26. [Waypoint: Manipulate JavaScript Objects]()
-27. [Waypoint: Iterate with JavaScript For Loops])
+27. [Waypoint: Iterate with JavaScript For Loops]()
 28. [Waypoint: Iterate with JavaScript While Loops]()
 29. [Waypoint: Generate Random Fractions with JavaScript]()
 30. [Waypoint: Generate Random Whole Numbers with JavaScript]()
