@@ -18,8 +18,6 @@ true + "bar"   // concatenates the boolean value and returns "truebar"
 "foo" + "bar"  // concatenates the strings and returns "foobar"
 ```
 
-*Note:* WHen 
-
 ### Subtraction
 **Syntax** 
 
@@ -61,9 +59,13 @@ Infinity * Infinity  // returns Infinity
 3.0 / 2/0            // returns 1.5
 3 / 0                // returns Infinity
 3.0 / 0.0            // returns Infinity
--3 /                 // returns -Infinity
+-3 / 0               // returns -Infinity
 false / 5            // interprets false as 0 and returns 0
 true / 2             // interprets true a 1 and returns 0.5
 5 + "foo"            // returns NaN (Not a Number)
 Infinity / Infinity  // returns NaN
 ```
+
+*!Important!* As you can see, you **cannot** perform any sort of operations on `Infinity`.
+
+Source: The amazing [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators).
