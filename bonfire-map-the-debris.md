@@ -1,3 +1,5 @@
+![](http://i.imgur.com/jSJ4E7L.jpg)
+
 # Explanation:
 The first thing to do is to get familiar with what the program is for, for this I would suggest you check the Wikipedia link as that is very important and from where you can also get the formula for the conversion. The hardest part are finding the formula, implementing it and for some modifying objects by the key. However, something that is not very clear is the fact that your program has to be able to check for any number of objects in the array which is what is tested on the second part.
 
