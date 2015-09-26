@@ -1,3 +1,5 @@
+![](http://i.imgur.com/ozDWKEi.jpg)
+
 # Explanation:
 You have to check if the string you get as an input is a palindrome and return `true` if it is, and `false` otherwise.
 
