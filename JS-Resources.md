@@ -3,7 +3,7 @@
 - [Professor Frisby's Mostly Adequate Guide to Functional Programming](https://github.com/DrBoolean/mostly-adequate-guide)
 - [Speaking Javascript](http://speakingjs.com/es5/)
 - [Exploring ES6](http://exploringjs.com/es6/)
-- [Udemy - Javascript Understanding the Weird Parts (*first 3 hrs*)](https://www.youtube.com/watch?v=Bv_5Zv5c-Ts)
+- [Udemy - Javascript Understanding the Weird Parts (*first 3.5 hrs*)](https://www.youtube.com/watch?v=Bv_5Zv5c-Ts)
 
 ### References
 - [DevDocs](http://devdocs.io)
