@@ -5,10 +5,10 @@ In Chrome:
  * Windows: Ctrl + Shift + J
  * Mac OS: Cmd + Opt + J
 * Go to resources tab(chrome). 
- * There click on the localStorate link in the nav bar on the right.
+ * There click on the localStorage link in the nav bar on the right.
 * Delete all the entries on the right side. 
 * See if this solves your issue
 
 ![](https://cloud.githubusercontent.com/assets/6775919/9448820/911626ee-4a53-11e5-98c9-b2bf4ca50816.png)
 
-Alternatively, if you are having issue's with a specific challenge freezing your browser [find the name of that challenge in local storage and delete just that one](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/How-to-clear-specific-values-from-your-browser's-local-storage).
+Alternatively, if you are having issues with a specific challenge freezing your browser, [find the name of that challenge in local storage and delete just that one](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/How-to-clear-specific-values-from-your-browser's-local-storage).
