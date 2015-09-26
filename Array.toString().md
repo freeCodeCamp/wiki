@@ -2,6 +2,11 @@
 
 The JavaScript array method `.toString()` is used to convert an array into a single string, with each element joined by a comma. There are no parameters for the method. 
 
+**Syntax**
+```js
+var arr = [1, 2, 3, 4];
+arr.toString();
+```
 
 **Usage**
 
