@@ -1,5 +1,5 @@
-# Problem Explanation:
-- You will check two arrays and return a new array that contains only the items that are not in either of the original arrays.
+# Explanation:
+Check two arrays and return a new array that contains only the items that are not in either of the original arrays.
 
 ## Hint: 1
 - Merge the list to make it easy to compare functions.
