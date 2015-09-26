@@ -1,3 +1,5 @@
+![](http://i.imgur.com/HkEgef5.gif)
+
 # Explanation:
 Check two arrays and return a new array that contains only the items that are not in either of the original arrays.
 
