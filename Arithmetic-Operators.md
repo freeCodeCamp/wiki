@@ -18,6 +18,8 @@ true + "bar"   // concatenates the boolean value and returns "truebar"
 "foo" + "bar"  // concatenates the strings and returns "foobar"
 ```
 
+*Hint:* There is a handy [increment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Increment_()) operator that is a great shortcut when you're adding numbers by 1.
+
 ### Subtraction
 **Syntax** 
 
@@ -31,6 +33,8 @@ false - 5  // interprets false as 0 and returns -5
 true + 3   // interprets true as 1 and returns 4
 5 + "foo"  // returns NaN (Not a Number)
 ```
+
+*Hint:* There is a handy [decrement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Subtraction_(-)) operator that is a great shortcut when you're subtracting numbers by 1.
 
 ### Multiplication
 **Syntax** 
