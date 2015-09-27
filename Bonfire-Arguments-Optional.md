@@ -1,3 +1,5 @@
+![](http://i.imgur.com/63Iaec6.jpg)
+
 # Explanation:
 It can be quite complicated to understand what needs to be done. There is always many ways to do something when coding but regardless of the algorithm used,  we have to create a program that does the following:
 - It has to add two numbers passed as parameters and return the sum.
