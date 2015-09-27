@@ -1,3 +1,5 @@
+![](http://i.imgur.com/pVmPpWZ.jpg)
+
 # Explanation:
 Basically while the second argument is not true, you will have to remove the first element from the left of the array that was passed as the first argument.
 
