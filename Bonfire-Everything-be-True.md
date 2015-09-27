@@ -1,3 +1,5 @@
+![](http://i.imgur.com/oKEJJJI.jpg)
+
 # Explanation:
 The program needs to check if the second argument is a [truthy](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-truthy) element, and it must check this for each object in the first argument.
 
