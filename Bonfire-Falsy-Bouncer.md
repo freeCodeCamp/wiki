@@ -1,3 +1,5 @@
+![](http://i.imgur.com/GluUbAz.jpg)
+
 # Problem Explanation:
 Remove all [falsey](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-falsey) values from an array.
 
