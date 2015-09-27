@@ -3,7 +3,6 @@
 JavaScript provides the user with five arithmetic operators: `+`, `-`, `*`, `/` and `%`. The operators are for addition, subtraction, multiplication, division and remainder respectively.
 
 ### Addition
-
 **Syntax**
 
 `a + b`
@@ -68,6 +67,19 @@ false / 5            // interprets false as 0 and returns 0
 true / 2             // interprets true a 1 and returns 0.5
 5 + "foo"            // returns NaN (Not a Number)
 Infinity / Infinity  // returns NaN
+```
+
+### Remainder
+**Syntax**
+
+`a % b`
+
+**Usage**
+```js
+3 % 2          // returns 1
+true % 5       // interprets true as 1 and returns 1
+false % 4      // interprets false as 0 and returns 0
+3 % "bar"      // returns NaN
 ```
 
 *!Important!* As you can see, you **cannot** perform any sort of operations on `Infinity`.
