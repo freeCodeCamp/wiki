@@ -9,6 +9,6 @@
 1. Build Zipline: Build a Pomodoro Clock
 1. Build Zipline: Use the Twitch.tv JSON API
 1. Build Zipline: Stylize Stories on Camper News
-1. Build Zipline: Wikipedia Viewer Incomplete
+1. Build Zipline: Wikipedia Viewer
 1. Build Zipline: Build a JavaScript Calculator
 1. Complete [this form](https://freecodecamp.typeform.com/to/mQbMpA) 
