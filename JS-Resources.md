@@ -4,6 +4,7 @@
 - [Speaking Javascript](http://speakingjs.com/es5/)
 - [Exploring ES6](http://exploringjs.com/es6/)
 - [Udemy - Javascript Understanding the Weird Parts (*first 3.5 hrs*)](https://www.youtube.com/watch?v=Bv_5Zv5c-Ts)
+- [JavaScript for Cats](http://jsforcats.com/)
 
 ### References
 - [DevDocs](http://devdocs.io)
