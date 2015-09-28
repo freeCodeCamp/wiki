@@ -5,4 +5,7 @@ In order to participate in our nonprofit projects, you first need to earn our Fu
 1. Complete all our current Bonfire Challenges.
 1. Build all our current Zipline Challenges.
 1. Build all our current Basejump Challenges.
-1. Complete [this form](https://freecodecamp.typeform.com/to/vSF194)
+
+Once you've completed all of the above, you will be prompted to agree to our Academic Honesty Pledge. Then we will instantly issue your verified certificate, which will become accessible from your portfolio page.
+
+**Note that we are still writing all the logic to handle certificate issuance, and plan to start issuing certificates in early October.**
