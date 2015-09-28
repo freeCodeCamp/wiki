@@ -8,6 +8,7 @@
 
 ### References
 - [DevDocs](http://devdocs.io)
+- [Over API JS Cheat Sheet](http://overapi.com/javascript/)
 - [ECMA-262](http://www.ecma-international.org/publications/standards/Ecma-262.htm)
 
 ### Quick JS
