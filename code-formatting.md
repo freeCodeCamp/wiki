@@ -6,7 +6,7 @@
 This an inline **\`**`<paste code here>`**\`** code formatting with a single backtick(\`) at *start* and *end* around the `code`.
 
 ### Code Block
-**\`\`\`js** ⇦ Type 3 backticks, then type `js` or `html` and then press `[shift + enter ⏎]`
+**\`\`\`** ⇦ Type 3 backticks and then press `[shift + enter ⏎]`
 ```text
 <paste your code here>,
 then press [shift + enter ⏎]
