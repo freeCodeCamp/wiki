@@ -20,7 +20,7 @@ We have to return a sentence with camel case. This means that the first letter w
 
 ## Code Solution:
 
-```
+```js
 String.prototype.replaceAt = function(index, character) {
     return this.substr(0, index) + character + this.substr(index+character.length);
 };
@@ -38,7 +38,7 @@ function titleCase(str) {
 
 Second Solution:
 
-```
+```js
 function titleCase(str) {
   var newstr=str.toLowerCase().split(" ");
   for(var i=0;i<newstr.length;i++){
@@ -55,6 +55,20 @@ function titleCase(str) {
 titleCase("hello world");
 ```
 
+Third Solution:
+
+```js
+function titleCase(str) {
+  str = str.toLowerCase().split(' ');
+  for (var i in str) {
+    str[i] = str[i].replace(str[i].charAt(0), str[i].charAt(0).toUpperCase());
+  };
+  return str.join(' ');
+}
+
+titleCase("I'm a little tea pot", "");
+```
+
 # Code Explanation:
 We are modifying the `replaceAt` function using prototype to facilitate the use of the program.
 
@@ -62,3 +76,5 @@ Split the string by whitespaces, and create a variable to track the updated titl
 
 # Credits:
 If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282 @PoojaKumar`
+
+> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

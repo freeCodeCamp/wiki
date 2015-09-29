@@ -17,35 +17,38 @@ Do not forget that when we truncate the word, we also must count the length adde
 
 ## Code Solution:
 
-```
+```js
 function truncate(str, num) {
+  var truncd = '';
   if (str.length > num) {
-    str = str.slice(0, num-3) + '...';
+    truncd = str.slice(0, num - 3) + '...';
+    return truncd;
   }
+
   return str;
 }
-
-truncate('A-tisket a-tasket A green and yellow basket', 11);
 ```
 
 # Code Explanation:
 First we need a conditional if statement to test if the length of the full string passed in as the first argument is greater than the maximum passed in as the second argument.
 
-```
+```js
 if (str.length > num)
 ```
 
 Then we need to slice the full string at the length required (second argument). The trick is to minus the length of the ... that needs to be added to get the final truncated string.
 
-```
+```js
 str = str.slice(0, num-3)
 ```
 
 Finally, just add the ... to the end of the sliced substring ready to be returned
 
-```
+```js
 str = str.slice(0, num-3) + '...';
 ```
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @richyvk @Rafase282`
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282 @richyvk`
+
+> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

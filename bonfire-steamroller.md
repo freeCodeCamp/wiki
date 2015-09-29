@@ -17,20 +17,25 @@ You will definitely need recursion or another way to go beyond two level arrays 
 
 ## Code Solution:
 
-```
+```js
 function steamroller(arr) {
-    var flattenedArray = [];
-    var flatten = function (arg) {
-        if (!Array.isArray(arg)){
-            flattenedArray.push(arg);
-        } else {
-            for (var a in arg) {
-                flatten(arg[a]);
-            }
-        }
-    };
-    flatten(arr);
-    return flattenedArray;
+  var flattenedArray = [];
+
+  // Create function that adds an element if it is not an array.
+  // If it is an array, then loops through it and uses recursion on that array.
+  var flatten = function(arg) {
+    if (!Array.isArray(arg)) {
+      flattenedArray.push(arg);
+    } else {
+      for (var a in arg) {
+        flatten(arg[a]);
+      }
+    }
+  };
+
+  // Call the function for each element in the array
+  arr.forEach(flatten);
+  return flattenedArray;
 }
 ```
 
@@ -42,4 +47,6 @@ function steamroller(arr) {
 - Return the flattened array.
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282`
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282`**
+
+> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

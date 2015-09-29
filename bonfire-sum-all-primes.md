@@ -17,26 +17,36 @@ This problem is hard if you have to create your own code to check for primes, so
 
 ## Code Solution:
 
-```
+```js
 function sumPrimes(num) {
-    var res = 0;
-    function getPrimes(max) {
-        var sieve = [], i, j, primes = [];
-        for (i = 2; i <= max; ++i) {
-            if (!sieve[i]) {
-                primes.push(i);
-                for (j = i << 1; j <= max; j += i) {
-                    sieve[j] = true;
-                }
-            }
+  var res = 0;
+
+  // FUnction to get the primes up to max in an array
+  function getPrimes(max) {
+    var sieve = [];
+    var i;
+    var j;
+    var primes = [];
+    for (i = 2; i <= max; ++i) {
+      if (!sieve[i]) {
+        // i has not been marked -- it is prime
+        primes.push(i);
+        for (j = i << 1; j <= max; j += i) {
+          sieve[j] = true;
         }
+      }
+    }
+
     return primes;
-    }
-    var primes = getPrimes(num);
-    for (var p in primes) {
-        res+= primes[p];
-    }
-return res;
+  }
+
+  // Add the primes
+  var primes = getPrimes(num);
+  for (var p = 0; p < primes.length; p++) {
+    res += primes[p];
+  }
+
+  return res;
 }
 ```
 
@@ -49,4 +59,6 @@ return res;
 - Loop through the returned array and add all the elements to then return the final value.
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282`
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282`**
+
+> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

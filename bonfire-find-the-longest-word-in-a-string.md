@@ -17,15 +17,16 @@ Remember how to get the length of elements on the array? `Array[index].length`
 
 ## Code Solution:
 
-```
+```js
 function findLongestWord(str) {
-    var words = str.split(' ');
-      var maxLength = 0;
-      for(var i = 0; i < words.length; i++) {
-          if (words[i].length > maxLength) {
-              maxLength = words[i].length;
-          }
-      }
+  var words = str.split(' ');
+  var maxLength = 0;
+
+  for (var i = 0; i < words.length; i++) {
+    if (words[i].length > maxLength) {
+      maxLength = words[i].length;
+    }
+  }
 
   return maxLength;
 }
@@ -38,3 +39,5 @@ Then check for the longest word by comparing the current word to the previous on
 
 # Credits:
 If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282`
+
+> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

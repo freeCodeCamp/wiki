@@ -3,11 +3,17 @@
 - [Professor Frisby's Mostly Adequate Guide to Functional Programming](https://github.com/DrBoolean/mostly-adequate-guide)
 - [Speaking Javascript](http://speakingjs.com/es5/)
 - [Exploring ES6](http://exploringjs.com/es6/)
-- [Udemy - Javascript Understanding the Weird Parts (*first 3 hrs*)](https://www.youtube.com/watch?v=Bv_5Zv5c-Ts)
+- [Udemy - Javascript Understanding the Weird Parts (*first 3.5 hrs*)](https://www.youtube.com/watch?v=Bv_5Zv5c-Ts)
+- [JavaScript for Cats](http://jsforcats.com/)
 
 ### References
 - [DevDocs](http://devdocs.io)
+- [OverAPI JavaScript Cheat Sheet](http://overapi.com/javascript/)
 - [ECMA-262](http://www.ecma-international.org/publications/standards/Ecma-262.htm)
+
+See Also: :loop: [**Quick JS**](https://github.com/freecodecamp/freecodecamp/wiki/js-resources#quick-js) | :watch: [**Challenges**](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/JS-Resources#challenges) | :wrench: [**Exercises**](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/JS-Resources#exercises) | :clipboard: [Editors](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/JS-Resources#editors) | :newspaper: [Blogs](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/JS-Resources#blogs) | :books: [Books](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/JS-Resources#books)
+
+## []()
 
 ### Quick JS
 - [REPL (*node*)](http://repl.it/languages/JavaScript/)
@@ -16,10 +22,6 @@
 - [CoderPad (*pair programming*)](http://coderpad.io)
 - [C9 (*IDE*, *pair programming*)](http://c9.io)
 - [Object Playground (*visualize objects*)](http://www.objectplayground.com/)
-
-See Also: :watch: [**Challenges**](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/JS-Resources#challenges) | :wrench: [**Exercises**](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/JS-Resources#exercises) | :clipboard: [Editors](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/JS-Resources#editors) | :newspaper: [Blogs](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/JS-Resources#blogs) | :books: [Books](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/JS-Resources#books)
-
-## []()
 
 ### Challenges
 - [Code Wars](http://codewars.com)

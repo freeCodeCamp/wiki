@@ -5,7 +5,7 @@ The program is very simple, we have to take a variable and return that variable 
 You can't edit strings, you will need to create a variable to store the new string.
 
 ## Hint: 2
-Create a loop to repeated the code as many times as needed.
+Create a loop to repeat the code as many times as needed.
 
 ## Hint: 3
 Make the variable created store the current value and append the word to it.
@@ -17,15 +17,31 @@ Make the variable created store the current value and append the word to it.
 
 ## Code Solution:
 
-```
+```js
 function repeat(str, num) {
-    var accumulatedStr = "";
-    while (num > 0) {
-        accumulatedStr += str;
-        num--;
-    }
-    return accumulatedStr;
+  var accumulatedStr = '';
+
+  while (num > 0) {
+    accumulatedStr += str;
+    num--;
+  }
+
+  return accumulatedStr;
 }
+```
+
+Second Solution:
+
+```js
+function repeat(str, num) {
+  var newstr = [];
+  for (var i = 0; i < num; i++) {
+    newstr.push(str);
+  };
+  return newstr.join('');
+}
+
+repeat("abc", 3, "");
 ```
 
 # Code Explanation:
@@ -36,3 +52,5 @@ function repeat(str, num) {
 
 # Credits:
 If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282`
+
+> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

@@ -49,3 +49,5 @@ slasher([1, 2, 3], 2);
 
 # Credits:
 If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @clint74 @Rafase282`
+
+> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

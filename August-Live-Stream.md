@@ -2,7 +2,7 @@
 
 ## The agenda included:
 
-- Opening words Michael
+- Opening words from Michael
 - New front end challenges [3:00] (https://youtu.be/UhoxoYrJ6Qs?t=3m)
 - Newly configured full-stack challenges
 - New Nonprofit Projects [12:32] (https://youtu.be/UhoxoYrJ6Qs?t=12m32s)

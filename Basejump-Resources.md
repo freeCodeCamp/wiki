@@ -27,6 +27,9 @@ https://github.com/ericdouglas/MEAN-Learning
 * https://scotch.io/tutorials/setting-up-a-mean-stack-single-page-application   
 * https://scotch.io/tutorials/node-and-angular-to-do-app-application-organization-and-structure
 
+### Node/Express
+* [Online Debugging for Node.js/Express](http://stackoverflow.com/a/16512303/1420506)
+
 ### Cloud 9 Tricks
 ##### Speed up browser reloads
 1. Open gruntfile.js and edit both instances of `livereload: true` to `livereload: false`.

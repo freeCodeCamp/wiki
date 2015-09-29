@@ -158,11 +158,11 @@ Go to your terminal and run the command below to make sure that nothing has chan
 git fetch upstream
 ```
 
-If there was a change then merge in like Step 1. Create a branch that explains the change ie `fix-typo-jquery-challenge-test-#3133`. Include a brief description, your username, and this guide recommends your the issue number, for reference.
+If there was a change then merge in like Step 1. Create a branch that explains the change ie `fix/typo-jquery-challenge-test`. Include a brief description of the changes you have made. Include `closes #1337` for each issue that this pull request intends to close.
 
 ```bash
 # create and move to branch
-git checkout -b USERNAME-fix-typo-jquery-test-#3133
+git checkout -b fix/typo-jquery-challange-test
 ```
 
 Open the `jQuery.json` file; the issue that you is that there is parenthesis in the test output that should not be there. Each test has two parts to the `assert()` method. The first is the test(s), the second part which is separated by a comma is the output description. Please note this picture shows after the change has been made.
@@ -212,19 +212,19 @@ git add [FILENAME]
 git commit
 ```
 
-You can have [Git open up Sublime when you want to commit a message.](https://help.github.com/articles/associating-text-editors-with-git/). This allows and encurages meaningful commit messages. Make a title on the first line then go into more detail on new lines. So for this demo the message would be something like:
+You can have [Git open up Sublime when you want to commit a message.](https://help.github.com/articles/associating-text-editors-with-git/). This allows and encourages meaningful commit messages. Make a title on the first line then go into more detail on new lines. So for this demo the message would be something like:
 
 ```
-fixed typo on [CHALLENGE]
+fix typo on [CHALLENGE]
 
 there were unnecessary parenthesis in the test outputs
-closes #3133
+closes #1337
 ```
 
 You are able to auto [close the issue when the PR is merged into the code base](https://help.github.com/articles/closing-issues-via-commit-messages/). Save and close the commit message file; brings you back to the terminal
 
 ```bash
-git push -u origin fix-typo-jquery-test-#3133
+git push -u origin fix/typo-jquery-test
 # where the part after origin is what ever you called the local branch
 ```
 
@@ -258,4 +258,3 @@ git stash apply
 ```
 
 You are now back up to date with your changes ready to be staged and committed. [Git docs on stash](https://git-scm.com/book/en/v1/Git-Tools-Stashing).
-

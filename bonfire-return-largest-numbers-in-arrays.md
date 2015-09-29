@@ -17,18 +17,20 @@ Pay close attention to the timing of the storing of variables when working with 
 
 ## Code Solution:
 
-```
+```js
 function largestOfFour(arr) {
   var results = [];
-  for (var n in arr) {
-      var largestNumber = 0;
-      for (var sb in arr[n]) {
-          if (arr[n][sb] > largestNumber) {
-              largestNumber = arr[n][sb];
-          }
+  for (var n = 0; n < arr.length; n++) {
+    var largestNumber = 0;
+    for (var sb = 0; sb < arr[n].length; sb++) {
+      if (arr[n][sb] > largestNumber) {
+        largestNumber = arr[n][sb];
       }
+    }
+
     results[n] = largestNumber;
-}
+  }
+
   return results;
 }
 ```
@@ -43,3 +45,5 @@ function largestOfFour(arr) {
 
 # Credits:
 If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282`
+
+> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

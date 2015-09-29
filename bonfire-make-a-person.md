@@ -1,11 +1,11 @@
 # Explanation:
-When I started the program I figured I just had to create the six functions mentioned in the details. However, it was not as simple. Creating them as a function was not the right way, I had to create them in a different way to make them a key.
+When I started the program I figured I just had to create the six functions mentioned in the details. However, it was not that simple. Creating them as a function was not the right way, I had to create them in a different way to make them a key.
 
 There is also a tricky part as you need six keys no more or less, so at first I had the variable that store the original name as a key too which was wrong.
 
 As for the usage of array, that is optional, you could also create new variable to hold the separated string if you wish but an array is easier to deal with as strings are immutable.
 
-Read the instructions carefully, it is always a good hint on itself to run the code and check what the test results were so you know what to expect but do not fixate yourself on that. Once you understand what you need to do, this problem is very easy and straightforward.
+Read the instructions carefully, it is always a good hint in itself to run the code and check what the test results were so you know what to expect but do not fixate yourself on that. Once you understand what you need to do, this problem is very easy and straightforward.
 
 ## Hint: 1
 Use the **this** notation to create the keys instead of regular functions: This means instead of `var varName = function() {/*...*/}` you should use `this.varName = function() {/*...*/}`
@@ -24,31 +24,39 @@ Often the code would not work the way you expect it due to wrong variable names,
 ## Code Solution:
 Please try hard before you check this solution.
 
-```
+```js
 var Person = function(firstAndLast) {
 
-    var fullName = firstAndLast;
-    var arr = fullName.split(' ');
+  var fullName = firstAndLast;
+  var arr = fullName.split(' ');
 
-    this.getFirstName = function() {
-        return arr[0];
-    };
-    this.getLastName = function() {
-        return arr[1];
-    };
-    this.getFullName = function() {
-        return fullName;
-    };
-    this.setFirstName = function(first) {
-        arr[0] = first;
-    };
-    this.setLastName = function(last) {
-        arr[1] = last;
-    };
-    this.setFullName = function(firstAndLast) {
-        fullName = firstAndLast;
-    };
+  this.getFirstName = function() {
+    return arr[0];
+  };
+
+  this.getLastName = function() {
+    return arr[1];
+  };
+
+  this.getFullName = function() {
+    return fullName;
+  };
+
+  this.setFirstName = function(first) {
+    arr[0] = first;
+  };
+
+  this.setLastName = function(last) {
+    arr[1] = last;
+  };
+
+  this.setFullName = function(firstAndLast) {
+    fullName = firstAndLast;
+  };
 };
+
+var bob = new Person('Bob Ross');
+bob.getFullName();
 ```
 
 # Code Explanation:
@@ -58,4 +66,6 @@ var Person = function(firstAndLast) {
 - For the setters, we can use the arr array and the right index to change the value to what was passed as a parameter.
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282`
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282`**
+
+> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
