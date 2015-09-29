@@ -4,6 +4,7 @@ The following are our casual chat rooms.
 
 | Chat Room | Description |
 | --- | --- |
+| [Casual](https://gitter.im/freecodecamp/Casual) | chat about anything, but keep it clean. | 
 | [Hardware](https://gitter.im/freecodecamp/Hardware) | chat about computer hardware and Internet of Things | 
 | [GameDev](https://gitter.im/freecodecamp/GameDev) | chat about designing and developing video games | 
 | [Gaming](https://gitter.im/freecodecamp/Gaming) | chat about gaming of all kinds, such as video games and table top games | 
