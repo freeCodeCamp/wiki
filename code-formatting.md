@@ -1,4 +1,8 @@
 ### Inline code
+
+![alt text](https://dl.dropboxusercontent.com/u/48751994/code.png "How to post code")
+
+
 This an inline **\`**`<paste code here>`**\`** code formatting with a single backtick(\`) at *start* and *end* around the `code`.
 
 ### Code Block
