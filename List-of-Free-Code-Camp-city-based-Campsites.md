@@ -1,6 +1,6 @@
 ##Hundreds of cities around the world have Free Code Camp Facebook groups, called Campsites.
 
-These Campsites share links, hang out together, and organize local Coffee-n-Code events.
+Campers at these Campsites share links, hang out together, and organize local Coffee-n-Code events.
 
 If your city isn't listed here, you should [[create a Campsite for your city|How-to-create-a-Campsite-for-your-city]].
 
