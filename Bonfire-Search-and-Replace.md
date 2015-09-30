@@ -18,7 +18,7 @@
 ## Code Solution:
 
 ```js
-function replace(str, before, after) {
+function myReplace(str, before, after) {
   // Find index where before is on string
   var index = str.indexOf(before);
   // Check to see if the first letter is uppercase or not
