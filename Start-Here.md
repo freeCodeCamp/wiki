@@ -24,11 +24,7 @@
 
 * [Camper News](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Camper-News)
 
-* [List of Free Code Camp Local Campsites](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/List-of-Free-Code-Camp-city-based-Campsites)
-
-* [How to Create a Campsite for Your City (if it doesn't exist)](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/How-to-create-a-Campsite-for-your-city)
-
-* [5 Steps to a Successful Meetup](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/5-Steps-to-organizing-a-successful-Campsite-event.)
+* [Campsites](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Campsites)
 
 * [Official Chat Rooms](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Official-Free-Code-Camp-Chat-Rooms)
 
