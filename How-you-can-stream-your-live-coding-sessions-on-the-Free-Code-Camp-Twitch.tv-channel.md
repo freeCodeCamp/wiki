@@ -10,8 +10,6 @@ Be respectful of your audience. Everything you stream should be related to codin
 
 While you're streaming, keep the chat room open so you can respond to questions from your viewers. If we get a new follower, try to thank them.
 
-Play our [camper-DJ'd radio station](http://plug.dj/freecodecamp) in the background.
-
 Use a webcam. If viewers can see your face while you're talking, it will help them feel more connected to you.
 
 Think out-loud as much as possible so that your viewers can understand what you're thinking and doing.
