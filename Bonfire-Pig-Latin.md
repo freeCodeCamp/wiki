@@ -1,5 +1,5 @@
 # Problem Explanation:
-- You need to create a program that will translate from English to Pig Latin. Check the instructions for converting to Ping Latin from the initial description or the wiki page. It might not be obvious but you need to remove all the consonants up to the first vowel in the case there letter does not start with a vowel.
+- You need to create a program that will translate from English to Pig Latin. Check the instructions for converting to Pig Latin from the initial description or the wiki page. It might not be obvious but you need to remove all the consonants up to the first vowel in the case there letter does not start with a vowel.
 
 ## Hint: 1
 - You will probably want to use regular expressions. This will allow you to convert the words easily.
