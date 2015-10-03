@@ -26,32 +26,30 @@ Please try hard before you check this solution.
 
 ```js
 var Person = function(firstAndLast) {
-
   var fullName = firstAndLast;
-  var arr = fullName.split(' ');
 
   this.getFirstName = function() {
-    return arr[0];
+    return fullName.split(" ")[0];
   };
 
   this.getLastName = function() {
-    return arr[1];
+    return fullName.split(" ")[1];
   };
 
   this.getFullName = function() {
     return fullName;
   };
 
-  this.setFirstName = function(first) {
-    arr[0] = first;
+  this.setFirstName = function(name) {
+    fullName = name + " " + fullName.split(" ")[1];
   };
 
-  this.setLastName = function(last) {
-    arr[1] = last;
+  this.setLastName = function(name) {
+    fullName = fullName.split(" ")[0] + " " + name;
   };
-
-  this.setFullName = function(firstAndLast) {
-    fullName = firstAndLast;
+  
+  this.setFullName = function(name) {
+    fullName = name;
   };
 };
 
@@ -61,11 +59,10 @@ bob.getFullName();
 
 # Code Explanation:
 - Create a variable that will make a copy of the full name that was passed as a parameter.
-- Create another variable that will split that full name into first and last name array.
-- Then we can proceed to create the six keys needed and return what is needed.
-- For the setters, we can use the arr array and the right index to change the value to what was passed as a parameter.
+- Then we can proceed to create the six methods needed and return what is asked for.
+- For the individual setters, we can use the split to turn the fullname into an array of first and last names and concatenate the unchanged portion of the name with what was passed as a parameter.
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @ltegman`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
