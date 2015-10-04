@@ -5,8 +5,8 @@ Falsy values in javascript are false, null, 0, "", undefined, and NaN.
 For example: `bouncer([7, "ate", "", false, 9], ""); must return [7, "ate", 9]
 
 We are encouraged to use these 2 links:
-[Boolean Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
 
+[Boolean Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
 [Array.filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 
 
