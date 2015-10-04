@@ -70,7 +70,7 @@ bouncer([7, "ate", "", false, 9], "");
 function bouncer(arr) {
   return arr.filter(function(value){
     var x = new Boolean(value);
-    return x!= false;
+    return x != false;
   }); 
 }
 ```
