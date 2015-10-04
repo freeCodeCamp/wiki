@@ -64,6 +64,16 @@ function bouncer(arr) {
 bouncer([7, "ate", "", false, 9], "");
 ```
 
+## Code Solution (Short Version):
+
+```javascript
+function bouncer(arr) {
+  return arr.filter(function(value){
+    var x = new Boolean(value);
+    return x!= false;
+  }); 
+}
+```
 # References
 - [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
 
