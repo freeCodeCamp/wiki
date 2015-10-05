@@ -246,6 +246,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
 [Lincoln, NE](//www.facebook.com/groups/free.code.camp.lincoln/)    
 [Lisbon](//www.facebook.com/groups/free.code.camp.lisbon/)    
 [Little Rock](//www.facebook.com/groups/free.code.camp.little.rock/)    
+[Łódź](https://www.facebook.com/groups/free.code.camp.lodz/)    
 [London](//www.facebook.com/groups/free.code.camp.london/)    
 [London, ON](//www.facebook.com/groups/free.code.camp.london.on/)    
 [Los Alamos](//www.facebook.com/groups/free.code.camp.los.alamos.nm/)    
