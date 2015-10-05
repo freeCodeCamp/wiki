@@ -11,7 +11,8 @@ The following are our official chat rooms.
 | [HelpBasejumps](https://gitter.im/freecodecamp/HelpBasejumps) | get help with our Basejump challenges from your fellow campers | 
 | [CodingJobs](https://gitter.im/freecodecamp/CodingJobs) | chat about the process of getting a coding job, such as portfolios, networking, and interviewing | 
 | [YouCanDoThis](https://gitter.im/freecodecamp/YouCanDoThis) | learning to code is hard - share your feelings and get moral support here | 
-| [PairProgrammingWomen](https://gitter.im/freecodecamp/PairProgrammingWomen) | this women-only chat room helps women pair program with other women if they so desire |
-| [CodeReview](https://gitter.im/freecodecamp/CodeReview) | give and receive constructive feedback from your fellow campers on Bonfires Solutions, Zipline apps and Basejump apps | 
+| [PairProgrammingWomen](https://gitter.im/freecodecamp/PairProgrammingWomen) | this women-only chat room helps women talk coding with other women if they so desire |
+| [CodeReview](https://gitter.im/freecodecamp/CodeReview) | give and receive constructive feedback from your fellow campers on your projects | 
+| [Casual](https://gitter.im/freecodecamp/Casual) | you can chat about your non-coding interests with other campers here |
 
 By joining these chat rooms, you accept our [Code of Conduct](https://github.com/FreeCodeCamp/freecodecamp/wiki/Code-of-Conduct).
