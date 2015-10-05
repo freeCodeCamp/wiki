@@ -1,16 +1,16 @@
 ![](http://i.imgur.com/GluUbAz.jpg)
 
 # Problem Explanation:
-Remove all [falsey](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-falsey) values from an array.
+Remove all [falsy](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-falsy) values from an array.
 
 ## Hint: 1
-Falsey is something which evaluates to FALSE. There are only five falsey values in JavaScript: undefined, null, NaN, 0, "" (empty string), and false of course.
+Falsy is something which evaluates to FALSE. There are only five falsy values in JavaScript: undefined, null, NaN, 0, "" (empty string), and false of course.
 
 ## Hint: 2
-We need to make sure we have all the falsey values to compare, we can know it, maybe with a function with all the falsey values...
+We need to make sure we have all the falsy values to compare, we can know it, maybe with a function with all the falsy values...
 
 ## Hint: 3
-Then we need to add a `filter()` with the falsey values function...
+Then we need to add a `filter()` with the falsy values function...
 
 ## Spoiler Alert!
 [![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
@@ -40,7 +40,7 @@ function bouncer(arr) {
 ```
 
 # Code Explanation:
-The `Array.prototype.filter` method expects a function that returns a `Boolean` value which takes a single argument and returns `true` for [truthy](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-truthy) value or `false` for [falsey](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-falsy) value. Hence we pass the built-in `Boolean` function.
+The `Array.prototype.filter` method expects a function that returns a `Boolean` value which takes a single argument and returns `true` for [truthy](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-truthy) value or `false` for [falsy](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-falsy) value. Hence we pass the built-in `Boolean` function.
 
 # Credits:
 If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @renelis @abhisekp @Rafase282`
