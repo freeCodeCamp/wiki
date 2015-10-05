@@ -69,6 +69,17 @@ function titleCase(str) {
 titleCase("I'm a little tea pot", "");
 ```
 
+Minimal Solution:
+
+```js
+function titleCase(str) {
+  return str.replace(/\w\S*/g, function(word){
+    return word.charAt(0).toUpperCase()+word.substr(1).toLowerCase();}); 
+}
+
+titleCase("I'm a little tea pot", "");
+```
+
 # Code Explanation:
 We are modifying the `replaceAt` function using prototype to facilitate the use of the program.
 
