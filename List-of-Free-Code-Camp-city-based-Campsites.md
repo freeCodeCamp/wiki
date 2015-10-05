@@ -92,6 +92,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
 [Caracas](//www.facebook.com/groups/free.code.camp.caracas/)    
 [Cardiff](//www.facebook.com/groups/free.code.camp.cardiff/)    
 [Casablanca](//www.facebook.com/groups/free.code.camp.casablanca/)    
+[Catania](//www.facebook.com/groups/free.code.camp.catania/)    
 [Cedar Rapids](//www.facebook.com/groups/free.code.camp.cedar.rapids/)    
 [Central Mississippi](//www.facebook.com/groups/free.code.camp.central.mississippi/)    
 [Champaign-Urbana](//www.facebook.com/groups/free.code.camp.champaign.urbana/)    
