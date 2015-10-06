@@ -41,6 +41,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
 [Bangkok](//www.facebook.com/groups/free.code.camp.bangkok/)    
 [Barcelona](//www.facebook.com/groups/free.code.camp.barcelona/)    
 [Barranquilla](//www.facebook.com/groups/free.code.camp.barranquilla.co/)    
+[Barrie](//www.facebook.com/groups/free.code.camp.Barrie.Ontario/)    
 [Batticaloa](//www.facebook.com/groups/free.code.camp.batticaloa/)    
 [Beirut](//www.facebook.com/groups/free.code.camp.beirut/)    
 [Belem](//www.facebook.com/groups/free.code.camp.belem/)    
