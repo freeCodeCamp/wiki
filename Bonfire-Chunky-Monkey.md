@@ -97,31 +97,3 @@ If you found this page useful, you can give thanks by copying and pasting this o
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
 
 
-**Array.splice() is another useful method for chunking up arrays.** 
-http://www.w3schools.com/jsref/jsref_splice.asp 
-```
-// Array to chunk
-arr = [0, 1, 2, 3, 4]
-
-// Array.splice(start_index, elements_to_remove)
-
-// Will remove 2 elements starting at the beginning of the array
-// returned will an array of the removed items [0, 1]
-// arr will be reduced to [2, 3, 4]
-var returned = arr.splice(0, 2)
-
-// store returned in your new array
-...
-
-// repeat while there are elements in arr
-returned = arr.splice(0, 2)	
-// arr is further reduced to [4]
-
-// There are less than 2 elements left in the array, so how will we know when we've reached this point???
-// No worries, Array.splice() will only remove and return no more than there are elements left in the array.
-returned = arr.splice(0, 2)
-// will only remove the [4], our last happy chunk!
-
-// Just keep removing items from the array while there are elements left in the array
-// using a condition to test for that.
-```
