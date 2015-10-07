@@ -9,8 +9,11 @@ _you should give it a try!_
 
 
 **Please follow these steps to get started:**
+
 1. Get your computer set up to stream. This process varies depending on your operating system, and it usually involves downloading software to integrate with Twitch. Most Free Code Camp users use [OBS](https://obsproject.com/forum/resources/setting-up-obs-with-twitch.117/), but you can find all of the supported software on [Twitch's site](http://www.twitch.tv/broadcast). Another helpful tutorial connecting OBS and Twitch can be found [here](http://www.hdpvrcapture.com/wordpress/?p=5951).
+
 2. Contact Briana via [gitter](https://gitter.im/septimus) or [twitter](https://twitter.com/brianamarie132). She can help you get the stream key to get set up on the Free Code Camp Channel. 
+
 3. Have fun streaming! 
 
 **General rules/guidelines:**
