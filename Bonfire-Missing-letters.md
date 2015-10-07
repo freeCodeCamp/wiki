@@ -16,6 +16,7 @@
 **Solution ahead!**
 
 ## Code Solution:
+First:
 
 ```js
 function fearNotLetter(str) {
@@ -54,12 +55,31 @@ function fearNotLetter(str) {
   else
     return valueToReturn;
 }
-```
+
+Second:
+
+function fearNotLetter(str) {
+  
+  for(var i = 0; i < str.length; i++) {
+    /* code of current character */
+    var code = str.charCodeAt(i);
+    /* if code of current character is not equal to first charcter + no of iteration
+    hence character has been escaped*/
+    if ( code !== str.charCodeAt(0) + i) {
+      /* if current character has escaped one character find previous char and return*/
+      return String.fromCharCode(code-1);
+    }  
+  }
+  return undefined;
+}
+
+
 
 # Code Explanation:
 - Read comments in code.
 
 # Credits:
 If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282`**
+**'thanks @rohitnwn'**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
