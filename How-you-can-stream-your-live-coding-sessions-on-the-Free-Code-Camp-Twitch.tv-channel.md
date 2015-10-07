@@ -1,17 +1,23 @@
-If you're interested in coding JavaScript live in front of dozens of people on our popular [twitch.tv channel](http://twitch.tv/freecodecamp), we'd love to have you.
+Live streaming your code is an educational and invigorating experience for the streamer and the audience. If you've never seen live coding, check out the popular [twitch.tv channel](http://twitch.tv/freecodecamp). We are actively looking for more streamers of all levels to code JavaScript on the Free Code Camp channel.
 
-Please follow these steps to get started:
+If you...
+* Want the immediate positive help and feedback of other coders
+* Aren't afraid to try something new
+* Code JavaScript, HTML, or CSS
+_you should give it a try!_
 
-- Follow [this tutorial](http://www.hdpvrcapture.com/wordpress/?p=5951) to set up your computer for streaming.
-- Contact [Wesley](https://gitter.im/septimus). He's in charge of our Twitch.tv channel. Tell him what you'd like to stream, and when you're available to stream.
-- Wesley will pair with you using [Screen Hero](https://github.com/FreeCodeCamp/freecodecamp/wiki/How-to-install-Screenhero) to verify your computer is configured properly to stream.
 
-Be respectful of your audience. Everything you stream should be related to coding JavaScript, and should be safe-for-work.
 
-While you're streaming, keep the chat room open so you can respond to questions from your viewers. If we get a new follower, try to thank them.
+**Please follow these steps to get started:**
+1. Get your computer set up to stream. This process varies depending on your operating system, and it usually involves downloading software to integrate with Twitch. Most Free Code Camp users use [OBS](https://obsproject.com/forum/resources/setting-up-obs-with-twitch.117/), but you can find all of the supported software on [Twitch's site](http://www.twitch.tv/broadcast). Another helpful tutorial connecting OBS and Twitch can be found [here](http://www.hdpvrcapture.com/wordpress/?p=5951).
+2. Contact Briana via [gitter](https://gitter.im/septimus) or [twitter](https://twitter.com/brianamarie132). She can help you get the stream key to get set up on the Free Code Camp Channel. 
+3. Have fun streaming! 
 
-Use a webcam. If viewers can see your face while you're talking, it will help them feel more connected to you.
+**General rules/guidelines:**
+* JavaScript, HTML, and CSS only (including libraries and frameworks of course).
+* Language and content must be safe-for-work.
+* Please use a webcam at the same time - the audience wants to see you!
+* Use the chat room almost as a pair-programmer. Interact as much as possible and work together for best results.
+* Think out-loud as much as possible so that your viewers can understand what you're thinking and doing.
 
-Think out-loud as much as possible so that your viewers can understand what you're thinking and doing.
-
-If you do a good job, we'll invite you back to stream some more. Who knows, you might become one of our regular streamers!
+Please contact Briana via [gitter](https://gitter.im/septimus) or [twitter](https://twitter.com/brianamarie132) and get started today! 
