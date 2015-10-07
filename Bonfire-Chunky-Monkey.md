@@ -9,7 +9,7 @@ Our goal for this bonfire is to split `arr` (first argument) into smaller chunks
 
 Click **More information** under the bonfire title and read the helpful links if you haven't yet.   
 
-# How to approach the bonfire
+## How to approach the bonfire
 The helpful links suggest to use `Array.push()` so let's start by first creating a new array to store the smaller arrays we will soon have like this:
 
 ```js
@@ -69,6 +69,8 @@ arr.slice(2, 2 + 2)
 
   Now `arr.slice()` starts at the element 2 and stops at element 4 and in the next loop, `arr.slice()` will start at element 4 and stop at element 6. `newArray.push()` will push all the elements out into chunks of smaller arrays with the length of `size`.  
 
+## Solution 1:
+
 ```js
 function chunk(arr, size) {
 
@@ -88,6 +90,22 @@ function chunk(arr, size) {
   if (temp.length !== 0)
     result.push(temp);
   return result;
+}
+```
+
+## Solution 2:
+
+```js
+function chunk(arr, size) {
+  // Break it up
+  // It's already broken :(
+  arr = arr.slice();
+  var arr2 = [];
+  for(var i = 0, len = arr.length; i < len; i+=size) {
+    arr2.push(arr.slice(0, size));
+    arr = arr.slice(size);
+  }
+  return arr2;
 }
 ```
 
