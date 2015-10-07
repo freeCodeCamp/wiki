@@ -14,9 +14,9 @@
 [![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
 
 **Solution ahead!**
-First:
-## Code Solution:
 
+## Code Solution:
+First:
 
 ```js
 function fearNotLetter(str) {
@@ -56,6 +56,7 @@ function fearNotLetter(str) {
     return valueToReturn;
 }
 ```
+```js
 Second:
 
 function fearNotLetter(str) {
@@ -72,7 +73,7 @@ function fearNotLetter(str) {
   }
   return undefined;
 }
-
+```
 
 
 # Code Explanation:
@@ -80,6 +81,6 @@ function fearNotLetter(str) {
 
 # Credits:
 If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282`**
-**'thanks @rohitnwn'**
+**`thanks @rohitnwn`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
