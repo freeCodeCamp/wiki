@@ -31,7 +31,7 @@ Our open source community has been hard at work throughout September on some maj
 * We now recommend campers use their Campsite’s Facebook group for chatting instead of their campsite’s Gitter chatroom. Only a few of our Campsite Gitter chatroooms had active synchronous discussions, and about 1/3rd of all conversations consisted of someone saying “hello” and not getting a response. We’ve delisted all our Campsite Gitter rooms from our Campsite directory. Still, we will keep them open for archival purposes, and you can keep using it if you’d like. Here’s a short [blog post](http://blog.freecodecamp.com/2015/09/jump-start-your-local-campsite-with-coffee-and-code.html) about how our Campsites are evolving and growing.
 
 ###Other exciting developments
-* We just launched our first-ever [t-shirt campaign](https://teespring.com/get-free-code-camp-t-shirt)
+* We just launched our first-ever [t-shirt campaign](https://teespring.com/get-free-code-camp-t-shirt) and added a second campaign for [EU fulfillment](https://teespring.com/free-code-camp-shirt-eu).
 * We just launched Commit. Rather than going into detail on it here, read [@codenonprofit's blog post](http://blog.freecodecamp.com/2015/10/commit-to-yourself-commit-to-nonprofit.html).
 * We launched [Free Code Camp Labs](http://freecodecamp.com/labs) to showcase some unique projects our campers are building.
 * We started gathering [Stories from campers](http://freecodecamp.com/stories) and putting them all in one place. These are just a fraction of the campers who've advanced their careers and gotten coding jobs after learning with Free Code Camp, but it's a pretty representative sample.
