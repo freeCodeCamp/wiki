@@ -5,3 +5,7 @@
 - [node-inspector](https://www.npmjs.com/package/node-inspector)
 - [Brackets Live Preview](http://brackets.io)
 - [browser-sync](http://www.browsersync.io)
+
+## Tools and Resources
+- [Color Contrast Analyser](http://wave.webaim.org/report#/google.com)
+- [Color Patterns](http://colorlovers.com)
