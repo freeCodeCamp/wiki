@@ -51,11 +51,11 @@ Our open source community has been hard at work throughout September on some maj
 * We'll close the ~30 pull requests that have piled up (thanks, contributors!)
 
 ###And longer term goals we still haven't forgotten:
-* Support for major world languages ([translation is still underway](https://trello.com/b/m7zhwXka/fcc-translation)
+* Support for major world languages ([translation is still underway](https://trello.com/b/m7zhwXka/fcc-translation))
 * Turning Free Code Camp into a single-page isomorphic app
 * Creating a browser-based replacement for Screen Hero / Team Viewer that is well suited to pairing on Free Code Camp.
 * React.js curriculum
-* D3.js curriculum
+* D3.js curriculum and data visualization Ziplines
 
 ##Our codebase is improving quickly. If you see something that looks funky or broken, please click that "bug" button and create a GitHub issue for us. Thanks for your patience and support.
 
