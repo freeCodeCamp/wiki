@@ -10,7 +10,6 @@ Our open source community has been hard at work throughout September on some maj
 ###Code Portfolios
 * All challenges and their solutions now show up on your code portfolio, including Waypoints.
 * You can hide your solutions from other people.
-* We only show your most recent solution to any given challenge, though we still show your original date of completion.
 
 ###Unauthenticated Campers
 * You can complete all of our challenges without being hassled to log in.
