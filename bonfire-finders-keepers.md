@@ -40,6 +40,16 @@ find([1, 2, 3, 4], function(num) {
 });
 ```
 
+## Another Code Solution:
+```js
+function find(arr, func) {
+  filterArr = arr.filter(func); //filter array with the function provided
+  
+  return filterArr[0]; //return the first element that returns true, or undefined if no elements return true
+}
+
+find([1, 2, 3, 4], function(num){ return num % 2 === 0; });
+```
 # Code Explanation:
 - To make the code easier, create an undefined variable that will be returned.
 - Loop through the array to check for each element if it satisfy the function. This is done by passing the arr[index of the loop] as the parameter for the function from the second argument.
