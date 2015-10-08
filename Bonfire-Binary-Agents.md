@@ -51,6 +51,25 @@ function binaryAgent(str) {
 }
 ```
 
+## Another Solution
+
+```js
+function binaryAgent(str) {
+  biString = str.split(' ');
+  uniString = [];
+  
+/*using the radix (or base) parameter in parseInt, we can convert the binary 
+  number to a decimal number while simultaneously converting to a char*/
+
+   for(i=0;i < biString.length;i++){
+   uniString.push(String.fromCharCode(parseInt(biString[i], 2))); 
+  }
+//we then simply join the string
+  return uniString.join('');
+}
+```
+
+
 # Code Explanation:
 - Separate the string into an array of strings separated by whitespace.
 - Create some variables that will be needed along the way, the names are self explanatory for the most part.
@@ -63,6 +82,6 @@ function binaryAgent(str) {
 - At the end, we return out converted message.
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @JamesKee`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
