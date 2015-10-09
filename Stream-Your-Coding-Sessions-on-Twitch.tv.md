@@ -22,5 +22,6 @@ _you should give it a try!_
 * Please use a webcam at the same time - the audience wants to see you!
 * Use the chat room almost as a pair-programmer. Interact as much as possible and work together for best results.
 * Think out-loud as much as possible so that your viewers can understand what you're thinking and doing.
+* No music please. If you need music while you code, use earbuds so it's not on the stream. 
 
 Please contact Briana via [gitter](https://gitter.im/septimus) or [twitter](https://twitter.com/brianamarie132) and get started today! 
