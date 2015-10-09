@@ -21,7 +21,7 @@ See Also: :loop: [**Quick JS**](https://github.com/freecodecamp/freecodecamp/wik
 - [REPL (*node*)](http://repl.it/languages/JavaScript/)
 - [JSBin](http://jsbin.com)
 - [CodePen](http://codepen.io)
-- [CoderPad (*pair programming*)](http://coderpad.io)
+- [CoderPad (*pair programming*)](http://coderpad.io) ([*Get Demo access forever*](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/JS-Resources#coderpad-demo-access-forever) :smile: )
 - [C9 (*IDE*, *pair programming*)](http://c9.io)
 - [Object Playground (*visualize objects*)](http://www.objectplayground.com/)
 - [Plunker](http://plnkr.co)
@@ -51,6 +51,9 @@ See Also: :loop: [**Quick JS**](https://github.com/freecodecamp/freecodecamp/wik
 - [JSDoc](http://usejsdoc.org/)
 
 ----
+
+### CoderPad Demo Access Forever
+[![](http://i.imgur.com/PQQjg9k.gif)](http://i.imgur.com/PQQjg9k.gif)
 
 - [Eloquent Javascript](http://www.eloquentjavascript.net)   
 Fantastic, thorough introduction to the basics and features of Javascript, complete with in-browser interactive code
