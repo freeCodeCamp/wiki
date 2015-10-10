@@ -43,4 +43,4 @@ function sumFibs(num) {
 - Return the result.
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282`
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282 @d3ddd`
