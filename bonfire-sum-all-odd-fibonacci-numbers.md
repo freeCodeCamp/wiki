@@ -26,9 +26,9 @@ function sumFibs(num) {
         if (currNumber % 2 !== 0) {
             result += currNumber;
         }
-        var added = currNumber + prevNumber;
-        prevNumber = currNumber;
-        currNumber = added;
+
+        currNumber += prevNumber;
+        prevNumber = currNumber - prevNumber;
     }
 
     return result;
