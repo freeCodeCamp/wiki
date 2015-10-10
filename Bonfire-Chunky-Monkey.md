@@ -109,9 +109,29 @@ function chunk(arr, size) {
 }
 ```
 
+## Solution 3:
+
+```js
+function chunk(arr, size) {
+  
+  // Break it up.
+    
+  var newArr = [];
+  
+  for (var i = 0; i < arr.length; i += size) {
+    
+    newArr.push(arr.slice(i, i + size));
+    
+  };
+  
+  return newArr;
+}
+
+chunk(["a", "b", "c", "d"], 2, "");
+```
+
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @kirah1314 @Rafase282`
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @kirah1314 @Rafase282 @jsommamtek`
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
-
 
