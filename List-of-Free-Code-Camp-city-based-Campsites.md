@@ -318,6 +318,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
 [Omaha](//www.facebook.com/groups/free.code.camp.omaha/)    
 [Omsk](//www.facebook.com/groups/free.code.camp.omsk/)    
 [Orange County](//www.facebook.com/groups/free.code.camp.orange.county/)    
+[Orenburg](//www.facebook.com/groups/free.code.camp.orenburg/)    
 [Orlando](//www.facebook.com/groups/free.code.camp.orlando/)    
 [Ottawa](//www.facebook.com/groups/free.code.camp.ottawa/)    
 [Owatonna](//www.facebook.com/groups/free.code.camp.owatonna/)    
