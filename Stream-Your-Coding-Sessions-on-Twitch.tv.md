@@ -19,7 +19,7 @@ _you should give it a try!_
 **General rules/guidelines:**
 * JavaScript, HTML, and CSS only (including libraries and frameworks of course).
 * Language and content must be safe-for-work.
-* Before streaming, check the channel to see if someone's already up and give a heads up about your plan to stream in the [Twitch.tv chat room on gitter](https://gitter.im/FreeCodeCamp/TwitchTV).
+* Before streaming, check the channel to see if someone's already up and give a heads up about your plan to stream in the [Twitch.tv chat room on gitter](https://gitter.im/FreeCodeCamp/LiveCoding).
 * Please use a webcam at the same time - the audience wants to see you!
 * Use the chat room almost as a pair-programmer. Interact as much as possible and work together for best results.
 * Think out-loud as much as possible so that your viewers can understand what you're thinking and doing.
