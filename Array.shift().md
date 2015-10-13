@@ -28,7 +28,8 @@ array.shift();
 
 console.log(array);
 /* Console will output 2, 3, 4, 5 and 
-the variable array now contains the set [2, 3, 4, 5] where each element has been moved down 1 index value. */
+the variable array now contains the set [2, 3, 4, 5] where 
+each element has been moved down 1 index value. */
 
 ```
 
