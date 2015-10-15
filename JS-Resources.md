@@ -33,6 +33,7 @@ See Also: :loop: [**Quick JS**](https://github.com/freecodecamp/freecodecamp/wik
 
 ### Exercises
 - [Codility](https://codility.com/programmers/lessons/)
+- [Coderbyte](http://coderbyte.com)
 
 ### Editors
 - [Brackets](http://brackets.io)
