@@ -60,23 +60,27 @@ largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 85
 
 Now the new function needs to find the max of the input inner array.
 - So we want to create a function that does the work of `Math.max` and accepts input as an array.
+
 e.g. wouldn't be nice if the `Math.max` would be accepting inputs like this `Math.max([9, 43, 20, 6]); // 43`.
-- To do the work of accepting params as array, there is this `Function.apply` method but it invokes the *context* function.
+- To do the work of accepting params as array, there is this `Function.apply` method but it *invokes* the *context* function.
+
 i.e. `Math.max.apply(null, [9, 43, 20, 6]); // 43` would invoke the `Max.max` method. 
-> Here we're passing `null` as the *context* of the `Function.apply` method.
+
+> Here we're passing `null` as the *context* of the `Function.apply` method as `Math.max` doesn't need any context.
 
 But that's not useful for `arr.map` which accepts a function value. So we create a function value using `Function.bind` method. 
-- Since, `Function.apply` is also an instance of Function object, so we can call `Function.bind` on `Function.apply` i.e. `Function.apply.bind`.
+- Since, `Function.apply` method is an `instanceof` `Function` constructor, so we can call `Function.bind` on `Function.apply` i.e. `Function.apply.bind`.
 
 - Now we pass the *context* for `Function.apply.bind` i.e. `Math.max`  as the 1st argument which gives us the functionality of `Math.max` function.
 - And to pass a bogus *context* for `Function.apply`, we pass `null`as the 2nd param to `Function.apply.bind`.
-> According to the documentation of bind, once a *context* is decided for `Function.bind`, it can't be changed latter inside the new function. Hence, the `Function.apply` gets a *bogus* context. :stuck_out_tongue_winking_eye: 
+
+> According to the documentation of [`Function.bind`](https://devdocs.io/javascript/global_objects/function/bind) method, once a *context* is decided for `Function.bind`, it can't be changed. Hence, the `Function.apply` gets a *bogus* context. :stuck_out_tongue_winking_eye: 
 
 **So in the end we get a function (using `Function.bind` method) that works like `Math.max` but accepts params as an array like `Function.apply`** :smiley: 
 
 *comprendido*?
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282`
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282 @abhisekp`
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
