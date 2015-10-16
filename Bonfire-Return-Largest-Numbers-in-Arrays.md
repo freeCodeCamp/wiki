@@ -69,16 +69,22 @@ i.e. `Math.max.apply(null, [9, 43, 20, 6]); // 43` would invoke the `Max.max` me
 > Here we're passing `null` as the *context* of the `Function.apply` method as `Math.max` doesn't need any context.
 
 But that's not useful for `arr.map` which accepts a function value. So we create a function value using `Function.bind` method. 
-- Since, `Function.apply` is a static method of `Function` Object, so we can call `Function.bind` on `Function.apply` i.e. `Function.apply.bind`.
+- Since, `Function.apply` is a static *method* of `Function` Object, so we can call `Function.prototype.bind` on `Function.apply` i.e. `Function.apply.bind`.
 
-- Now we pass the *context* for `Function.apply.bind` i.e. `Math.max`  as the 1st argument which gives us the functionality of `Math.max` function.
-- And to pass a bogus *context* for `Function.apply`, we pass `null`as the 2nd param to `Function.apply.bind`.
-
-> According to the documentation of [`Function.bind`](https://devdocs.io/javascript/global_objects/function/bind) method, once a *context* is decided for the bound function, it can't be overridden. Hence, the `Function.apply` gets a *bogus* context. :stuck_out_tongue_winking_eye: 
+- Now we pass the *context* for `Function.apply.bind` i.e. `Math.max`  as the 1st argument to `Function.apply.bind` call which gives us the functionality of `Math.max` function.
+- And since `Function.apply` method takes a context as it's 1st argument, hence, we need to pass a bogus *context* for `Function.apply` method.
+- So, we pass `null` as the 2nd param to `Function.apply.bind` which gives a *context* to the `Math.max` method.
+- But since, `Math.max` is independent of any *context*, hence, it ignores the *context* given by *Function.apply* method call. :stuck_out_tongue_winking_eye: 
 
 **So in the end we get a function (using `Function.bind` method) that works like `Math.max` but accepts params as an array like `Function.apply`** :smiley: 
 
-*comprendido*?
+*comprendido*? :yum: 
+
+> NOTE: If you don't understand, this solution is not for beginners to play with. This is an advanced solution.
+
+**Reference:-**
+- http://devdocs.io/#q=js+Function+apply
+- http://devdocs.io/#q=js+Function+bind
 
 # Credits:
 If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282 @abhisekp`
