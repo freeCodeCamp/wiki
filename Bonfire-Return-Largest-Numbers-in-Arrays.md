@@ -74,7 +74,7 @@ But that's not useful for `arr.map` which accepts a function value. So we create
 Now we pass the *context* for `Function.apply.bind` call i.e. `Math.max` method as the 1st argument which would give us the functionality of `Math.max` method.
 - Since `Function.apply` method takes a context as it's 1st argument, hence, we need to pass a bogus *context* for `Function.apply` method.
   - So, we pass `null` as the 2nd param to `Function.apply.bind` which gives a *context* to the `Math.max` method.
-  - Since, `Math.max` is independent of any *context*, hence, it ignores the bogus *context* given by *Function.apply* method call. 
+  - Since, `Math.max` is independent of any *context*, hence, it ignores the bogus *context* given by `Function.apply` method call. 
 
 **So in the end we get a function (using `Function.bind` method) that works like `Math.max` but accepts params as an array like `Function.apply`** :smiley: 
 
