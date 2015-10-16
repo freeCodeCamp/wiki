@@ -61,7 +61,8 @@ largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 85
 Now the new function needs to find the max of the input inner array.
 - So we want to create a function that does the work of `Math.max` and accepts input as an array.
 
-e.g. wouldn't be nice if the `Math.max` would be accepting inputs like this `Math.max([9, 43, 20, 6]); // 43`.
+e.g. wouldn't be nice if the `Math.max` would be accepting inputs like this:   
+`Math.max([9, 43, 20, 6]); // 43`.
 - To do the work of accepting params as array, there is this `Function.apply` method but it *invokes* the *context* function.
 
 i.e. `Math.max.apply(null, [9, 43, 20, 6]); // 43` would invoke the `Max.max` method. 
