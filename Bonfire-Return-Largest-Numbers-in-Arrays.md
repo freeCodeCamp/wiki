@@ -71,16 +71,16 @@ i.e. `Math.max.apply(null, [9, 43, 20, 6]); // 43` would invoke the `Max.max` me
 But that's not useful for `arr.map` which accepts a function value. So we create a function value using `Function.bind` method. 
 - Since, `Function.apply` is a static *method* of `Function` Object, so we can call `Function.prototype.bind` on `Function.apply` i.e. `Function.apply.bind`.
 
-- Now we pass the *context* for `Function.apply.bind` i.e. `Math.max`  as the 1st argument to `Function.apply.bind` call which gives us the functionality of `Math.max` function.
-- And since `Function.apply` method takes a context as it's 1st argument, hence, we need to pass a bogus *context* for `Function.apply` method.
-- So, we pass `null` as the 2nd param to `Function.apply.bind` which gives a *context* to the `Math.max` method.
-- But since, `Math.max` is independent of any *context*, hence, it ignores the *context* given by *Function.apply* method call. :stuck_out_tongue_winking_eye: 
+Now we pass the *context* for `Function.apply.bind` call i.e. `Math.max` method as the 1st argument which would give us the functionality of `Math.max` method.
+- Since `Function.apply` method takes a context as it's 1st argument, hence, we need to pass a bogus *context* for `Function.apply` method.
+  - So, we pass `null` as the 2nd param to `Function.apply.bind` which gives a *context* to the `Math.max` method.
+  - Since, `Math.max` is independent of any *context*, hence, it ignores the bogus *context* given by *Function.apply* method call. 
 
 **So in the end we get a function (using `Function.bind` method) that works like `Math.max` but accepts params as an array like `Function.apply`** :smiley: 
 
 *comprendido*? :yum: 
 
-> NOTE: If you don't understand, this solution is not for beginners to play with. This is an advanced solution.
+> NOTE: This is an advanced solution. NOT FOR BEGINNERS.
 
 **Reference:-**
 - http://devdocs.io/#q=js+Function+apply
