@@ -78,7 +78,7 @@ Now we pass the *context* for `Function.apply.bind` call i.e. `Math.max` method 
 
 **So in the end we get a function (using `Function.bind` method) that works like `Math.max` but accepts params as an array like `Function.apply`** :smiley: 
 
-*comprendido*? :yum: 
+*comprendido*? :neutral_face:
 
 > NOTE: This is an advanced solution. NOT FOR BEGINNERS.
 
