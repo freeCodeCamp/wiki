@@ -83,6 +83,8 @@ Now we pass the *context* for `Function.apply.bind` call i.e. `Math.max` method 
 > NOTE: This is an advanced solution. NOT FOR BEGINNERS.
 
 **Reference:-**
+- http://devdocs.io/#q=js+Math+max
+- http://devdocs.io/#q=js+Array+map
 - http://devdocs.io/#q=js+Function+apply
 - http://devdocs.io/#q=js+Function+bind
 
