@@ -69,7 +69,7 @@ i.e. `Math.max.apply(null, [9, 43, 20, 6]); // 43` would invoke the `Max.max` me
 > Here we're passing `null` as the *context* of the `Function.apply` method as `Math.max` doesn't need any context.
 
 But that's not useful for `arr.map` which accepts a function value. So we create a function value using `Function.bind` method. 
-- Since, `Function.apply` method is an `instanceof` `Function` constructor, so we can call `Function.bind` on `Function.apply` i.e. `Function.apply.bind`.
+- Since, `Function.apply` is a static method `Function` Object, so we can call `Function.bind` on `Function.apply` i.e. `Function.apply.bind`.
 
 - Now we pass the *context* for `Function.apply.bind` i.e. `Math.max`  as the 1st argument which gives us the functionality of `Math.max` function.
 - And to pass a bogus *context* for `Function.apply`, we pass `null`as the 2nd param to `Function.apply.bind`.
