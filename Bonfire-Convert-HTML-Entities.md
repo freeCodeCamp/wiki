@@ -52,10 +52,29 @@ function convert(str) {
 }
 ```
 
+##Another Solution
+```js
+function convert(str) {
+    
+    //map of key:value pairs
+    var html = {
+       "&":"&amp;",
+       "<":"&lt;",
+       ">":"&gt;",
+       "\"":"&quot;",
+       "\'":"&apos;"
+    };
+        str = str.replace(/&|<|>|"|'/gi, function(matched){
+        return html[matched];
+        });
+
+  return str;
+}
+```
 # Code Explanation:
 - Read comments in code.
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282`** **`thanks @jhalls`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

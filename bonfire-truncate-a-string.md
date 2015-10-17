@@ -19,36 +19,38 @@ Do not forget that when we truncate the word, we also must count the length adde
 
 ```js
 function truncate(str, num) {
-  var truncd = '';
-  if (str.length > num) {
-    truncd = str.slice(0, num - 3) + '...';
-    return truncd;
-  }
-
-  return str;
+  if (str.length <= num)
+    return str;
+  
+  if (num <= 3)
+    return str.charAt(0) + "...";
+  
+  return str.substr(0,num-3) + "...";
 }
 ```
 
 # Code Explanation:
-First we need a conditional if statement to test if the length of the full string passed in as the first argument is greater than the maximum passed in as the second argument.
+First we need an if-statement to test if the length of the full string passed in as the first argument already fits within the size limit passed in as the second argument. If so we can just return the string that was passed in.
 
 ```js
-if (str.length > num)
+if (str.length <= num)
+  return str;
 ```
 
-Then we need to slice the full string at the length required (second argument). The trick is to minus the length of the ... that needs to be added to get the final truncated string.
+Then we need to check if the num fits into our special case, where the desired length is less than or equal to three. In this case we will return the first letter, followed by `"..."`.
 
 ```js
-str = str.slice(0, num-3)
+if (num <= 3)
+  return str.charAt(0) + "...";
 ```
 
-Finally, just add the ... to the end of the sliced substring ready to be returned
+Finally, we write the return for what happens when neither of the previous if-statements have been true. This call to `substr()` gives us a string that is 3 less than the target length specified by `num`, which is done so that we have room to add on the `"..."` and fit within that target.
 
 ```js
-str = str.slice(0, num-3) + '...';
+return str.substr(0,num-3) + "...";
 ```
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282 @richyvk`
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282 @richyvk @ltegman`
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

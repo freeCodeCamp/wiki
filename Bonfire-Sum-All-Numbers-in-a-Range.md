@@ -5,7 +5,7 @@
 - Use `Math.max()` to find the maximum value of two numbers.
 
 ## Hint: 2
-- Use `Math.min()` to find the maximum value of two numbers.
+- Use `Math.min()` to find the minimum value of two numbers.
 
 ## Hint: 3
 - Remember to that you must add all the numbers in between so this would require a way to get those numbers.
