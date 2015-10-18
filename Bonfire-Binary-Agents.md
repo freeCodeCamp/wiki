@@ -3,7 +3,7 @@
 # Explanation:
 This problem is very straight forward, you will get string that will represent a sentence in binary code, and you need to translate that into words. There is not direct way to do this so you will have to translate twice.
 
-You should first convert from **binary** to **decimal** and from decimal to **ASCII** soon
+You should first convert from **binary** to **decimal** and from decimal before translating those values into characters
 
 ## Hint: 2
 Things are easier when focusing on smaller parts, divide the input to focus on one letter at the time.
@@ -17,6 +17,24 @@ Make sure that each time you transcode a character from binary to decimal, that 
 **Solution ahead!**
 
 ## Code Solution:
+
+```js
+function binaryAgent(str) {
+  biString = str.split(' ');
+  uniString = [];
+  
+/*using the radix (or base) parameter in parseInt, we can convert the binary 
+  number to a decimal number while simultaneously converting to a char*/
+
+   for(i=0;i < biString.length;i++){
+   uniString.push(String.fromCharCode(parseInt(biString[i], 2))); 
+  }
+//we then simply join the string
+  return uniString.join('');
+}
+```
+
+## Another Solution
 
 ```js
 function binaryAgent(str) {
@@ -50,35 +68,19 @@ function binaryAgent(str) {
   return sentence;
 }
 ```
-
-## Another Solution
-
-```js
-function binaryAgent(str) {
-  biString = str.split(' ');
-  uniString = [];
-  
-/*using the radix (or base) parameter in parseInt, we can convert the binary 
-  number to a decimal number while simultaneously converting to a char*/
-
-   for(i=0;i < biString.length;i++){
-   uniString.push(String.fromCharCode(parseInt(biString[i], 2))); 
-  }
-//we then simply join the string
-  return uniString.join('');
-}
-```
+# Explanation for the second solution
+- For each of these binary strings, check for the ones and ignore the zeroes.
+- For those that are one or active then convert them to decimal, this takes into account the position and the right power it needs to be raised to.
+- Store the power into the **power** variable by adding it to any previous ones on the variable **decValue**. This variable will add and add the powers of the active ones until the end of the loop and then return the decimal number.
+- Convert the final decimal outside of the inner loop and then convert it to ASCII and saving it to **sentence** along with any other text string already converted and stored.
+- Reset the variable **decValue** to avoid getting wrong decimals before continuing to the outer loop.
 
 
 # Code Explanation:
 - Separate the string into an array of strings separated by whitespace.
 - Create some variables that will be needed along the way, the names are self explanatory for the most part.
 - Iterate through each binary string in the new array.
-- For each of these binary strings, check for the ones and ignore the zeroes.
-- For those that are one or active then convert them to decimal, this takes into account the position and the right power it needs to be raised to.
-- Store the power into the **power** variable by adding it to any previous ones on the variable **decValue**. This variable will add and add the powers of the active ones until the end of the loop and then return the decimal number.
-- Convert the final decimal outside of the inner loop and then convert it to ASCII and saving it to **sentence** along with any other text string already converted and stored.
-- Reset the variable **decValue** to avoid getting wrong decimals before continuing to the outer loop.
+- Convert to decimal by using parseInt(*binary*, 2) (with the second parameter we tell in which base our numbers currently are) 
 - At the end, we return out converted message.
 
 # Credits:
