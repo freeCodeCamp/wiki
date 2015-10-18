@@ -39,7 +39,8 @@ function binaryAgent(str) {
 - Iterate through each binary string in the new array.
 - Convert to decimal by using parseInt(*binary*, 2) (with the second parameter we tell in which base our numbers currently are) 
 - At the end, we return out converted message.
-## Another Solution
+
+## Alternative Solution:
 
 ```js
 function binaryAgent(str) {
