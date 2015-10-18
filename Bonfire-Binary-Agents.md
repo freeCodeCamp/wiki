@@ -33,7 +33,12 @@ function binaryAgent(str) {
   return uniString.join('');
 }
 ```
-
+# Code Explanation:
+- Separate the string into an array of strings separated by whitespace.
+- Create some variables that will be needed along the way, the names are self explanatory for the most part.
+- Iterate through each binary string in the new array.
+- Convert to decimal by using parseInt(*binary*, 2) (with the second parameter we tell in which base our numbers currently are) 
+- At the end, we return out converted message.
 ## Another Solution
 
 ```js
@@ -76,12 +81,7 @@ function binaryAgent(str) {
 - Reset the variable **decValue** to avoid getting wrong decimals before continuing to the outer loop.
 
 
-# Code Explanation:
-- Separate the string into an array of strings separated by whitespace.
-- Create some variables that will be needed along the way, the names are self explanatory for the most part.
-- Iterate through each binary string in the new array.
-- Convert to decimal by using parseInt(*binary*, 2) (with the second parameter we tell in which base our numbers currently are) 
-- At the end, we return out converted message.
+
 
 # Credits:
 If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @JamesKee`**
