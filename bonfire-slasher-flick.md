@@ -44,10 +44,20 @@ function slasher(arr, howMany) {
 slasher([1, 2, 3], 2);
 ```
 
+## Code Solution 2:
+
+```javascript
+function slasher(arr, howMany) {
+  
+  //Return string after the amount chopped off.
+  return arr.slice(howMany);
+
+}
+```
 # References
 - [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @clint74 @Rafase282`
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @clint74 @Rafase282 @M-Bowe`
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
