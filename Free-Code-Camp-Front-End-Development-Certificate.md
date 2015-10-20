@@ -1,6 +1,6 @@
 ### Here's how to earn our verified Front End Development Certificate:
 
-![An image of a sample Front End Development Certificate](https://files.gitter.im/Rybar/nz3N/certificate.jpg)
+![An image of a sample Front End Development Certificate](http://i.imgur.com/UrU2ki8.png)
 
 1. Complete all of our current Basic Bonfires
 1. Complete all of our current Basic Ziplines
