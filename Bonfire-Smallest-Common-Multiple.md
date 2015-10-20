@@ -67,6 +67,43 @@ function smallestCommons(arr) {
 
 If the array only has two elements then the for loop never gets used and the return value is the product of said numbers. Otherwise, from the third element and until n is the same and the array length check if the remainder of the quotient and the third value of the array is not 0, if it is not 0 then stop loop increases and then we start over. If the remainder was 0 then keep checking until the end of the array.
 
+# Alternate solution:
+
+Note: The solution above requires over 2,000 loops to calculate the test case smallestCommons([1,13]), and over 4 million loops to calculate smallestCommons([1,25]). The alternate code below evaluates smallestCommons([1,13]) in around 20 loops and smallestCommons([1,25]) in 40, by using a more efficient algorithm.
+
+```js
+function smallestCommons(arr) {
+  for(i = Math.max(...arr); i >= Math.min(...arr); i--) arr.push(i);
+  
+  return arr.slice(2).reduce(function(x,y){
+    var a = x, b = y, t = 0;    
+    while(a % b){a = a % b; t = a; a = b; b = t;}
+    return x / b * y;
+  });
+}
+
+```
+
+If you have trouble understanding the .reduce() method, you can compare it to this code, which essentially does the same thing:
+
+```
+function smallestCommons(arr) {
+  for(i = Math.max(...arr); i >= Math.min(...arr); i--) arr.push(i);
+  
+  var lcm = arr[2], a = 0, b = 0, t = 0;
+  
+  for (i = 3; i < arr.length; i++){
+    a = lcm, b = arr[i];  
+    while(a % b){a = a % b; t = a; a = b; b = t;}
+    lcm = lcm / b * arr[i];
+  }
+  
+  return lcm;
+}
+```
+
+This code is based on the [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm) for finding smallest common multiples.
+
 # Credits:
 If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @Adoyle2014`**
 
