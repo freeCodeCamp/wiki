@@ -8,5 +8,3 @@
 1. Complete all of our current Intermediate Ziplines
 
 Once you've completed all of the above, you can complete our "Claim your Front End Development Certificate" challenge, which will require you to sign our Academic Honesty Pledge. Then we will instantly issue your verified certificate, which will become accessible from your portfolio page.
-
-**Note that we are still writing all the logic to handle certificate issuance, and plan to start issuing certificates in early October.**
