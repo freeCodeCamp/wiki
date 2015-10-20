@@ -23,7 +23,7 @@ function truncate(str, num) {
     return str;
   
   if (num <= 3)
-    return str.charAt(0) + "...";
+    return str.substr(0,num) + "...";
   
   return str.substr(0,num-3) + "...";
 }
@@ -37,11 +37,11 @@ if (str.length <= num)
   return str;
 ```
 
-Then we need to check if the num fits into our special case, where the desired length is less than or equal to three. In this case we will return the first letter, followed by `"..."`.
+Then we need to check if the num fits into our special case, where the desired length is less than or equal to three. In this case we will return the string trimmed to our target length, followed by `"..."`. We don't need to worry about the `"..."` being counted against the length of our output string in this case.
 
 ```js
 if (num <= 3)
-  return str.charAt(0) + "...";
+  return str.substr(0,num) + "...";
 ```
 
 Finally, we write the return for what happens when neither of the previous if-statements have been true. This call to `substr()` gives us a string that is 3 less than the target length specified by `num`, which is done so that we have room to add on the `"..."` and fit within that target.
