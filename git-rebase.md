@@ -32,7 +32,7 @@ The repo will now look like this:
  --- Commit 1 ---- Commit 2 ---- Commit 3 --------------------------------------- master branch
 ```
 
-Do you see what happened? Git essentially saved the commits in the `auth` branch, 'removed' it, and then created it again with the same commits *after* the commits in the `dev` branch. This means that `Commit 4` only exists in the `dev` branch and not the `auth` branch! And that is really all there is to it! This might seem a bit confusing at first, but try to understand the diagram. This is an extremely useful took.
+Do you see what happened? Git essentially saved the commits in the `auth` branch, 'removed' it, and then created it again with the same commits *after* the commits in the `dev` branch. This means that `Commit 4` only exists in the `dev` branch and not the `auth` branch! And that is really all there is to it! This might seem a bit confusing at first, but try to understand the diagram. This is an extremely useful tool.
 
 
 ## git-rebase at FCC
