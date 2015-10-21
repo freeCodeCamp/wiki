@@ -1,4 +1,4 @@
-Building nonprofit projects is the main way that our campers learn full stack JavaScript and agile software development. Once you complete the Free Code Camp Waypoints, Bonfires, Ziplines and Basejumps, you'll begin this process.
+Building nonprofit projects is the main way that our campers learn full stack JavaScript and agile software development. Once you've earned both your Front End Development Certification and your Full Stack Development Certification, you'll begin this process.
 
 ## Starting with the end in mind
 
