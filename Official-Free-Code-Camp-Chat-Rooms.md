@@ -13,6 +13,7 @@ The following are our official chat rooms.
 | [YouCanDoThis](https://gitter.im/freecodecamp/YouCanDoThis) | learning to code is hard - share your feelings and get moral support here | 
 | [PairProgrammingWomen](https://gitter.im/freecodecamp/PairProgrammingWomen) | this women-only chat room helps women talk coding with other women if they so desire |
 | [CodeReview](https://gitter.im/freecodecamp/CodeReview) | give and receive constructive feedback from your fellow campers on your projects | 
+| [Half Way Club](https://gitter.im/freecodecamp/HalfWayClub) | once you've earned your Full Stack Development Certification, prep for nonprofit projects here | 
 | [Casual](https://gitter.im/freecodecamp/Casual) | you can chat about your non-coding interests with other campers here |
 
 By joining these chat rooms, you accept our [Code of Conduct](https://github.com/FreeCodeCamp/freecodecamp/wiki/Code-of-Conduct).
