@@ -1,6 +1,6 @@
 # In Windows
 
-## Via GUI
+### Via GUI
 
 1. Download [Varpanel](http://implbits.com/products/varpanel/).
 2. Open Varpanel.
