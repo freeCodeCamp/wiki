@@ -28,7 +28,7 @@ Is 5 _equal_ to 1 or 0? **No** ---> Oki doki, let's continue...
 
 (**5** _ (_second execution_: **4** _ (_third execution_: **3** _ (_fourth execution_: **2** _ _fifth execution_: **1**))))
 
-What it returns can be viewed as `(5*(4*(3*(2*1))))` or just `5 * 4 * 3 * 2 * 1`, and the function will return the result of that operation: `120`. Now, let's check whhat the rest of the executions do:
+What it returns can be viewed as `(5*(4*(3*(2*1))))` or just `5 * 4 * 3 * 2 * 1`, and the function will return the result of that operation: `120`. Now, let's check what the rest of the executions do:
 
 ## During the rest of the executions:
 - **Second Execution**: _num_ = 5-1 = **4** -> is _num_ 0 or 1? No --> return the multiplication between 4 and the next result when _num_ is now 4-1.
