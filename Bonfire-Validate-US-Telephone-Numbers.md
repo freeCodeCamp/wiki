@@ -35,10 +35,25 @@ function telephoneCheck(str) {
 }
 ```
 
+```js
+function telephoneCheck(str) {
+//provided by jhalls
+   var regex = /^1?\s?(\(\d{3}\)|\d{3})?\s?-?\d{3}-?\s?\d{4}$/;
+  
+   if (str.match(regex)) {  
+       return true;
+   }
+   
+  else {
+     return false;
+   }
+}
+```
+
 # Code Explanation:
 - While the answer works, there is a much shorter regex that will satisfy this problem. However the code provide is very good and robust when it comes to validating US phone numbers client side, a much better way would be to implement this library [libphonenumber.](https://github.com/googlei18n/libphonenumber)
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @guyjoseph  @dting `**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @guyjoseph  @dting @jhalls`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
