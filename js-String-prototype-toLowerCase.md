@@ -1,4 +1,4 @@
-# String.toLowerCase()
+# String.prototype.toLowerCase()
 
 The JavaScript method `.toLowerCase()` returns the same string it was called on, but in all lower case.
 
