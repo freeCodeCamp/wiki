@@ -14,6 +14,7 @@ JS Concepts
 - [Truthy](https://github.com/freecodecamp/freecodecamp/wiki/js-truthy)
 
 JS Language Reference
+- [arguments](https://github.com/freecodecamp/freecodecamp/wiki/js-arguments)
 - [Array.prototype.filter](https://github.com/freecodecamp/freecodecamp/wiki/js-array-prototype-filter)
 - [Array.prototype.indexOf](https://github.com/freecodecamp/freecodecamp/wiki/js-array-prototype-indexof)
 - [Array.prototype.map](https://github.com/freecodecamp/freecodecamp/wiki/js-array-prototype-map)
@@ -23,15 +24,17 @@ JS Language Reference
 - [Array.prototype.slice](https://github.com/freecodecamp/freecodecamp/wiki/js-array-prototype-slice)
 - [Array.prototype.some](https://github.com/freecodecamp/freecodecamp/wiki/js-array-prototype-some)
 - [Array.prototype.toString](https://github.com/freecodecamp/freecodecamp/wiki/js-array-prototype-tostring)
-- [RegExp](https://github.com/freecodecamp/freecodecamp/wiki/js-regex)
-- [arguments](https://github.com/freecodecamp/freecodecamp/wiki/js-arguments)
 - [Boolean](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-Boolean)
+- [for loop](https://github.com/freecodecamp/freecodecamp/wiki/js-for-loop)
 - [for..in loop](https://github.com/freecodecamp/freecodecamp/wiki/js-for-in-loop)
 - [for..of loop](https://github.com/freecodecamp/freecodecamp/wiki/js-for-of-loop)
-- [for loop](https://github.com/freecodecamp/freecodecamp/wiki/js-for-loop)
+- [RegExp](https://github.com/freecodecamp/freecodecamp/wiki/js-regex)
+- [String.prototype.split](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-String-prototype-split)
+- [String.prototype.toLowerCase](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-String-prototype-toLowerCase)
+- [String.prototype.toUpperCase](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-String-prototype-toUpperCase)
 - [undefined](https://github.com/freecodecamp/freecodecamp/wiki/js-undefined)
 
-Other Resources
+Other Links
 - [Programming Fundamental](https://github.com/freecodecamp/freecodecamp/wiki/programming-fundamental)
 - [JS Resources](https://github.com/freecodecamp/freecodecamp/wiki/js-resources)
 - [Web Resources](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Web-Resources)
