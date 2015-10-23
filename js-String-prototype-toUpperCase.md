@@ -1,4 +1,4 @@
-# String.toUpperCase()
+# String.prototype.toUpperCase()
 
 The JavaScript method `.toUpperCase()` returns the same string it was called on, but in all upper case.
 
