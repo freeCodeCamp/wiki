@@ -26,9 +26,9 @@ JS Language Reference
 - [RegExp](https://github.com/freecodecamp/freecodecamp/wiki/js-regex)
 - [arguments](https://github.com/freecodecamp/freecodecamp/wiki/js-arguments)
 - [Boolean](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-Boolean)
-- [for..in loop](https://github.com/freecodecamp/freecodecamp/wiki/js-for-in)
-- [for..of loop](https://github.com/freecodecamp/freecodecamp/wiki/js-for-of)
-- [for loop](https://github.com/freecodecamp/freecodecamp/wiki/js-for)
+- [for..in loop](https://github.com/freecodecamp/freecodecamp/wiki/js-for-in-loop)
+- [for..of loop](https://github.com/freecodecamp/freecodecamp/wiki/js-for-of-loop)
+- [for loop](https://github.com/freecodecamp/freecodecamp/wiki/js-for-loop)
 - [undefined](https://github.com/freecodecamp/freecodecamp/wiki/js-undefined)
 
 Other Resources
