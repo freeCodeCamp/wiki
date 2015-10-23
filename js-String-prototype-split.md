@@ -1,4 +1,4 @@
-# String.split()
+# String.prototype.split()
 
 The split() method splits a string into an array of strings.
 
