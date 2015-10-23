@@ -15,13 +15,13 @@ JS Concepts
 
 JS Language Reference
 - [arguments](https://github.com/freecodecamp/freecodecamp/wiki/js-arguments)
-- [filter](https://github.com/freecodecamp/freecodecamp/wiki/js-filter)
-- [for..in](https://github.com/freecodecamp/freecodecamp/wiki/js-for-in)
-- [for..of](https://github.com/freecodecamp/freecodecamp/wiki/js-for-of)
-- [for](https://github.com/freecodecamp/freecodecamp/wiki/js-for)
-- [indexOf](https://github.com/freecodecamp/freecodecamp/wiki/js-indexof)
-- [Map](https://github.com/freecodecamp/freecodecamp/wiki/js-map)
-- [slice](https://github.com/freecodecamp/freecodecamp/wiki/js-slice)
+- [Array.prototype.filter](https://github.com/freecodecamp/freecodecamp/wiki/js-filter)
+- [Array.prototype.indexOf](https://github.com/freecodecamp/freecodecamp/wiki/js-indexof)
+- [Array.prototype.map](https://github.com/freecodecamp/freecodecamp/wiki/js-map)
+- [Array.prototype.slice](https://github.com/freecodecamp/freecodecamp/wiki/js-slice)
+- [for..in loop](https://github.com/freecodecamp/freecodecamp/wiki/js-for-in)
+- [for..of loop](https://github.com/freecodecamp/freecodecamp/wiki/js-for-of)
+- [for loop](https://github.com/freecodecamp/freecodecamp/wiki/js-for)
 - [RegExp](https://github.com/freecodecamp/freecodecamp/wiki/js-regex)
 - [undefined](https://github.com/freecodecamp/freecodecamp/wiki/js-undefined)
 
