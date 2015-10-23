@@ -32,5 +32,5 @@ JS Language Reference
 - [undefined](https://github.com/freecodecamp/freecodecamp/wiki/js-undefined)
 
 Other Resources
-- [Fundamental](https://github.com/freecodecamp/freecodecamp/wiki/js-fundamental)
+- [Programming Fundamental](https://github.com/freecodecamp/freecodecamp/wiki/programming-fundamental)
 - [Resources](https://github.com/freecodecamp/freecodecamp/wiki/js-resources)
