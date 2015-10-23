@@ -10,7 +10,6 @@ JS Concepts
 - [Immutable](https://github.com/freecodecamp/freecodecamp/wiki/js-immutable)
 - [Loops](https://github.com/freecodecamp/freecodecamp/wiki/js-loops)
 - [Scope](https://github.com/freecodecamp/freecodecamp/wiki/js-scope)
-- [slice](https://github.com/freecodecamp/freecodecamp/wiki/js-slice)
 - [Ternary](https://github.com/freecodecamp/freecodecamp/wiki/js-ternary)
 - [Truthy](https://github.com/freecodecamp/freecodecamp/wiki/js-truthy)
 
@@ -22,6 +21,7 @@ JS Language Reference
 - [for](https://github.com/freecodecamp/freecodecamp/wiki/js-for)
 - [indexOf](https://github.com/freecodecamp/freecodecamp/wiki/js-indexof)
 - [Map](https://github.com/freecodecamp/freecodecamp/wiki/js-map)
+- [slice](https://github.com/freecodecamp/freecodecamp/wiki/js-slice)
 - [RegExp](https://github.com/freecodecamp/freecodecamp/wiki/js-regex)
 - [undefined](https://github.com/freecodecamp/freecodecamp/wiki/js-undefined)
 
