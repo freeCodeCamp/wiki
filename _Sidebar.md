@@ -25,6 +25,7 @@ JS Language Reference
 - [Array.prototype.toString](https://github.com/freecodecamp/freecodecamp/wiki/js-array-prototype-tostring)
 - [RegExp](https://github.com/freecodecamp/freecodecamp/wiki/js-regex)
 - [arguments](https://github.com/freecodecamp/freecodecamp/wiki/js-arguments)
+- [Boolean](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-Boolean)
 - [for..in loop](https://github.com/freecodecamp/freecodecamp/wiki/js-for-in)
 - [for..of loop](https://github.com/freecodecamp/freecodecamp/wiki/js-for-of)
 - [for loop](https://github.com/freecodecamp/freecodecamp/wiki/js-for)
