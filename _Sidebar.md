@@ -33,4 +33,5 @@ JS Language Reference
 
 Other Resources
 - [Programming Fundamental](https://github.com/freecodecamp/freecodecamp/wiki/programming-fundamental)
-- [Resources](https://github.com/freecodecamp/freecodecamp/wiki/js-resources)
+- [JS Resources](https://github.com/freecodecamp/freecodecamp/wiki/js-resources)
+- [Web Resources](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Web-Resources)
