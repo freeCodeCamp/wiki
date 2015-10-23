@@ -14,9 +14,9 @@ JS Concepts
 - [Truthy](https://github.com/freecodecamp/freecodecamp/wiki/js-truthy)
 
 JS Language Reference
-- [Array.prototype.filter](https://github.com/freecodecamp/freecodecamp/wiki/js-filter)
-- [Array.prototype.indexOf](https://github.com/freecodecamp/freecodecamp/wiki/js-indexof)
-- [Array.prototype.map](https://github.com/freecodecamp/freecodecamp/wiki/js-map)
+- [Array.prototype.filter](https://github.com/freecodecamp/freecodecamp/wiki/js-array-prototype-filter)
+- [Array.prototype.indexOf](https://github.com/freecodecamp/freecodecamp/wiki/js-array-prototype-indexof)
+- [Array.prototype.map](https://github.com/freecodecamp/freecodecamp/wiki/js-array-prototype-map)
 - [Array.prototype.pop](https://github.com/freecodecamp/freecodecamp/wiki/js-array-prototype-pop)
 - [Array.prototype.push](https://github.com/freecodecamp/freecodecamp/wiki/js-array-prototype-push)
 - [Array.prototype.shift](https://github.com/freecodecamp/freecodecamp/wiki/js-array-prototype-shift)
