@@ -28,7 +28,6 @@ JS Language Reference
 - [for loop](https://github.com/freecodecamp/freecodecamp/wiki/js-for-loop)
 - [for..in loop](https://github.com/freecodecamp/freecodecamp/wiki/js-for-in-loop)
 - [for..of loop](https://github.com/freecodecamp/freecodecamp/wiki/js-for-of-loop)
-- [RegExp](https://github.com/freecodecamp/freecodecamp/wiki/js-regex)
 - [String.prototype.split](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-String-prototype-split)
 - [String.prototype.toLowerCase](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-String-prototype-toLowerCase)
 - [String.prototype.toUpperCase](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-String-prototype-toUpperCase)
@@ -37,4 +36,5 @@ JS Language Reference
 Other Links
 - [Programming Fundamental](https://github.com/freecodecamp/freecodecamp/wiki/programming-fundamental)
 - [JS Resources](https://github.com/freecodecamp/freecodecamp/wiki/js-resources)
+- [JS RegEx Resources](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/JS-Regex-Resources)
 - [Web Resources](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Web-Resources)
