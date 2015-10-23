@@ -367,7 +367,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
 [Providence](//www.facebook.com/groups/free.code.camp.providence/)    
 [Provo](//www.facebook.com/groups/free.code.camp.provo/)    
 [Puebla](//www.facebook.com/groups/free.code.camp.pueblaMX/)
-[Puebla](//www.facebook.com/groups/free.code.camp.pueblo/) 
+[Pueblo](//www.facebook.com/groups/free.code.camp.pueblo/) 
 [Pune](//www.facebook.com/groups/free.code.camp.pune/)    
 [Quibdo](//www.facebook.com/groups/free.code.camp.quibdo/)    
 [Raleigh](//www.facebook.com/groups/free.code.camp.raleigh/)    
