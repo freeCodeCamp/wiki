@@ -1,17 +1,17 @@
 ### Tutorials
-- [Eloquent Javascript](http://www.eloquentjavascript.net) ([*annotated*](https://watchandcode.com/courses/eloquent-javascript-the-annotated-version))
+- [JavaScript for Cats](http://jsforcats.com/)
 - [Professor Frisby's Mostly Adequate Guide to Functional Programming](https://github.com/DrBoolean/mostly-adequate-guide)
+- [Eloquent Javascript](http://www.eloquentjavascript.net) ([*annotated*](https://watchandcode.com/courses/eloquent-javascript-the-annotated-version))
 - [Speaking Javascript](http://speakingjs.com/es5/)
 - [Exploring ES6](http://exploringjs.com/es6/)
 - [Udemy - Javascript Understanding the Weird Parts (*first 3.5 hrs*)](https://www.youtube.com/watch?v=Bv_5Zv5c-Ts)
-- [JavaScript for Cats](http://jsforcats.com/)
 
 ### References
 - [DevDocs](http://devdocs.io)
 - [OverAPI JavaScript Cheat Sheet](http://overapi.com/javascript/)
 - [ECMA-262](http://www.ecma-international.org/publications/standards/Ecma-262.htm)
 
-Find other libraries at http://jster.net
+Find javascript libraries at http://jster.net
 
 See Also: :loop: [**Quick JS**](https://github.com/freecodecamp/freecodecamp/wiki/js-resources#quick-js) | :watch: [**Challenges**](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/JS-Resources#challenges) | :wrench: [**Exercises**](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/JS-Resources#exercises) | :clipboard: [Editors](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/JS-Resources#editors) | :newspaper: [Blogs](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/JS-Resources#blogs) | :books: [Books](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/JS-Resources#books)
 
