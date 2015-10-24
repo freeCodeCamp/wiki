@@ -18,7 +18,7 @@ See Also: :loop: [**Quick JS**](https://github.com/freecodecamp/freecodecamp/wik
 ## []()
 
 ### Quick JS
-- [REPL (*node*)](http://repl.it/languages/JavaScript/)
+- [REPL](https://repl.it/languages/Javascript) ([*node*](https://repl.it/languages/iojs/))
 - [JSBin](http://jsbin.com)
 - [CodePen](http://codepen.io)
 - [CoderPad (*pair programming*)](http://coderpad.io) ([*Get Demo access forever*](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/JS-Resources#coderpad-demo-access-forever) :smile: )
