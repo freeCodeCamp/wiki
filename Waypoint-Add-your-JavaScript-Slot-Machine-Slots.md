@@ -7,4 +7,4 @@ if(slotOne !== slotTwo || slotTwo !== slotThree){
     }
 ```
 
-If slot one and to are different, or slot two and three are not the same, then return `null`.
+If slot one and two are different, or slot two and three are not the same, then return `null`.
