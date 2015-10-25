@@ -1,4 +1,4 @@
-Thousands of people read our Medium publication. You can reach them by submitting your Medium posts to us.
+Thousands of people read our [Medium publication](https://medium.freecodecamp.com). Here's how to submit posts, and what we look for in posts that we ultimately publish.
 
 1. Create a Medium account
 1. Add a headshot and bio
