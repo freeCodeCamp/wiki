@@ -11,7 +11,7 @@ Thousands of people read our [Medium publication](https://medium.freecodecamp.co
 - Autobiographical posts need a unique perspective or a non-obvious takeaway. 
 - Technical articles are welcome, and should be written so that most people who have only been coding for a year can still understand them
 - Humorous posts do quite well with our community, and even serious articles can be lightened up with humor
-- [7 minutes is technically the optimal post length](https://medium.com/data-lab/the-optimal-post-is-7-minutes-74b9f41509b#.jxmxzdrfa), but if you don't dilute your content to reach that length
+- [7 minutes is technically the optimal post length](https://medium.com/data-lab/the-optimal-post-is-7-minutes-74b9f41509b#.jxmxzdrfa), but don't dilute your content to reach that length
 - Keep your tone positive, and keep any criticism you may have metered and objective
 - Good writing takes time. A 7-minute medium post takes me (Quincy Larson) around 4 - 6 hours
 
