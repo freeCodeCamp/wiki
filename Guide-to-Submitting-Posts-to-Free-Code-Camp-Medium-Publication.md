@@ -31,6 +31,4 @@ Thousands of people read our [Medium publication](https://medium.freecodecamp.co
 
 We get a lot of submissions. Please don't take offense if we don't publish your submission immediately. Instead, [message @QuincyLarson in Gitter](https://gitter.im/quincylarson) and I can give you the status of your submission and quick feedback.
 
-Also, if you have journalism experience and enjoy coding, and you should message me about becoming the volunteer Editor in Chief of our open source community's Medium publication.
-
 Happy writing and coding!
