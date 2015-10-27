@@ -11,7 +11,7 @@
 ### Giving a `<div>` non scrolling background 
 
 
-    #sectionName {
+    #divName {
       padding-top: 50px;
       height: 500px;
       color: #fff;
@@ -20,6 +20,7 @@
       background-attachment: fixed;
       background-size: 100%;
     }
-and over in the html
-    `<div id="sectionHome" class="container-fluid">`
+try different values to see the how it affects the div<br> 
+and over in the html<br>
+    `<div id="divName" class="container-fluid">`
 
