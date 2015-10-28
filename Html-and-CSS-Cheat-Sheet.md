@@ -23,4 +23,8 @@
 try different values to see the how it affects the div<br> 
 and over in the html<br>
     `<div id="divName" class="container-fluid">`
+<hr>
+### Center a horizontal list
 
+http://csswizardry.com/2011/01/create-a-centred-horizontal-navigation/
+<hr>
