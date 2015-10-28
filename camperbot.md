@@ -37,7 +37,7 @@ We've added some bonfire specific commands. If you type `bonfire $BONFIRENAME` (
 - `topics` selected pages from the wiki
 - `rooms`  all rooms the bot is in
 - `archives` show history
-- `music` link to FCC Plug rooms
+- `music` deprecated, plug DJ no longer exists. 
 - `twitch` show the twitch feed
 
 ## Content for the wiki
