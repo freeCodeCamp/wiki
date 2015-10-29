@@ -472,7 +472,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
 [Tulsa](//www.facebook.com/groups/free.code.camp.tulsa/)    
 [Tunis](//www.facebook.com/groups/free.code.camp.tunisia/)
 [Tupelo MS](https://www.facebook.com/groups/148780962143254/)    
-[Ulaanbaatar](https://www.facebook.com/groups/free.code.camp.your.ulaanbaatar/)
+[Ulaanbaatar](https://www.facebook.com/groups/free.code.camp.your.ulaanbaatar/)    
 [University Center](//www.facebook.com/groups/free.code.camp.university.center/)    
 [Valdosta](//www.facebook.com/groups/free.code.camp.valdosta/)    
 [Valencia](//www.facebook.com/groups/free.code.camp.vlc/)    
