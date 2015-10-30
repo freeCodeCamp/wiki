@@ -65,7 +65,7 @@ function where(collection, source) {
 }
 ```
 
-### Third* (only 3 out of 4 tests pass the test)
+### Third
 
 ```js
 function where(collection, source) {

@@ -80,6 +80,12 @@ function titleCase(str) {
 titleCase("I'm a little tea pot", "");
 ```
 
+Minimaler Solution:
+
+```js
+function titleCase(s) {return s.toLowerCase().replace(/^[a-z]|\s[a-z]/g, function(m){return m.toUpperCase()})}
+```
+
 # Code Explanation:
 We are modifying the `replaceAt` function using prototype to facilitate the use of the program.
 

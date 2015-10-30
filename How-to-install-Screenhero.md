@@ -13,4 +13,5 @@ Here are other alternatives to Screenhero as suggested by our fellow campers:
 * Google Hangouts
 * jsbin
 * Cloud 9
+* Appear.in
 * [tmate](http://tmate.io) + some communication tool, e.g, Google Hangouts, Skype, [appear.in](http://appear.in)

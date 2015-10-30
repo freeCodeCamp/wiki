@@ -48,7 +48,22 @@ every([{'user': 'Tinky-Winky', 'sex': 'male'}, {'user': 'Dipsy', 'sex': 'male'},
 - Then check for each object if it it has the same property or the same property value. If true then add one to the counter.
 - Outside the loop, I check to see if the counter variable has the same value as the length of **collection**, if true then return **true**, otherwise, return **false**
 
+## Alternative Code Solution:
+```js
+function every(collection, pre) {
+  // Does everyone have one of these?
+  return collection.every(function (element, index, array) {
+    return element.hasOwnProperty(pre);
+  });
+}
+
+every([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "male"}, {"user": "Laa-Laa", "sex": "female"}, {"user": "Po", "sex": "female"}], "sex");
+```
+# Code Explanation:
+- Uses the native "every" method to test whether all elements in the array pass the test.
+- This link will help [Array.prototype.every()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every)
+
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 and @estevanmaito`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

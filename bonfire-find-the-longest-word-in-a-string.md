@@ -37,6 +37,13 @@ Take the string and convert it into an array of words. Declare a variable to kee
 
 Then check for the longest word by comparing the current word to the previous one and storing the new longest word. At the end of the loop just return the number value of the variable maxLength.
 
+## Alternate Solution
+Using `.reduce()`
+```js
+function findLongestWord(s) {return s.split(' ').reduce(function(x,y){return Math.max(x, y.length)}, 0)}
+```
+for more information: [Click.](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
+
 # Credits:
 If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282`
 
