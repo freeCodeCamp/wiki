@@ -17,7 +17,7 @@ If you still can't figure out how to solve it with shift, then try solving it wi
 
 **Solution ahead!**
 
-## Code Solution:
+## Code Solution 1:
 
 ```js
 function drop(arr, func) {
@@ -34,6 +34,19 @@ function drop(arr, func) {
 }
 drop([1, 2, 3], function(n) {return n < 3; });
 ```
+## Code Solution 2:
+```
+function drop(arr, func) {
+  // Drop them elements.
+  
+  arr = arr.filter(func);
+
+  return arr;
+}
+
+drop([1, 2, 3, 4], function(n) {return n >= 3;});
+```
+
 
 # Code Explanation:
 - Create a for loop to check each element.
