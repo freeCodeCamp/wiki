@@ -1,8 +1,4 @@
 ### Inline code
-
-![alt text](https://dl.dropboxusercontent.com/u/48751994/code.png "How to post code")
-
-
 This an inline **\`**`<paste code here>`**\`** code formatting with a single backtick(\`) at *start* and *end* around the `code`.
 
 ### Code Block
@@ -12,6 +8,8 @@ This an inline **\`**`<paste code here>`**\`** code formatting with a single bac
 then press [shift + enter ⏎]
 ```
 **\`\`\`** ⇦ Type 3 backticks, then press `[enter ⏎]`
+
+![How to Code](http://i.imgur.com/FUMG9BS.png)
 
 See also: ☛ [**How to type Backticks**](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/code-formatting#typing-backticks) | ☯ [Compose Mode](https://gitter.zendesk.com/hc/en-us/articles/201302311-Compose-mode) | ❄ [Gitter Formatting Basics](https://gitter.zendesk.com/hc/en-us/articles/200176682-Markdown-basics)
 
