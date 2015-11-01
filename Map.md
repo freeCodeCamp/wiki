@@ -102,6 +102,12 @@
 30. [Waypoint: Label Bootstrap Buttons](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Label-Bootstrap-Buttons)
 31. [Waypoint: Use Comments to Clarify Code](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Use-Comments-to-Clarify-Code)
 
+# Gear up for Success  
+1. Waypoint: Browse Camper News Complete
+2. Waypoint: Reference our Wiki Complete
+3. Waypoint: Join our LinkedIn Alumni Network Complete
+4. Waypoint: Commit to a Goal and a Nonprofit
+
 # jQuery
 1. [Waypoint: Learn how Script Tags and Document Ready Work](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Learn-how-Script-Tags-and-Document-Ready-Work)
 2. [Waypoint: Target HTML Elements with Selectors Using jQuery](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Target-HTML-Elements-with-Selectors-Using-jQuery)
@@ -217,6 +223,15 @@
 19. [Bonfire: Binary Agents](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Bonfire-Binary-Agents)
 20. [Bonfire: Everything Be True](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Bonfire-Everything-be-True)
 21. [Bonfire: Arguments Optional](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Bonfire-Arguments-Optional)
+
+# JSON APIs and Ajax  
+1. Waypoint: Trigger Click Events with jQuery Incomplete
+2. Waypoint: Change Text with Click Events Incomplete
+3. Waypoint: Get JSON with the jQuery getJSON Method Incomplete
+4. Waypoint: Convert JSON Data to HTML Incomplete
+5. Waypoint: Render Images from Data Sources Incomplete
+6. Waypoint: Prefilter JSON Incomplete
+7. Waypoint: Get Geo-location Data
 
 # Upper Intermediate Algorithm Scripting
 1. [Bonfire: Make a Person](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/bonfire-make-a-person)
