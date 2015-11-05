@@ -5,7 +5,7 @@
 - Creating an array with the Roman Numerals and one with the decimal equivalent for the new forms will be very helpful.
 
 ## Hint: 2
-- If you add the numbers that go before the new letter is introduce, it will save you plenty of code, like 4 and 9.
+- If you add the numbers that go before the new letter is introduced, it will save you plenty of code, like values for 4, 9, and 40.
 
 ## Hint: 3
 - You can't have more than three consecutive Roman numerals together.
@@ -21,23 +21,20 @@
 var convert = function(num) {
 
   // Create arrays with default conversion with matching indices.
-  var decimalValue = [1, 4, 5, 9, 10, 40, 50, 90, 100, 400, 500, 900, 1000];
-  var romanNumeral = ['I', 'IV', 'V', 'IX', 'X', 'XL', 'L', 'XC', 'C', 'CD', 'D', 'CM', 'M'];
+  var decimalValue = [ 1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1 ];
+  var romanNumeral = [ 'M', 'CM', 'D', 'CD', 'C', 'XC', 'L', 'XL', 'X', 'IX', 'V', 'IV', 'I' ];
 
   // Create a copy of num to work on and an empty string variable for the final roman number
   var numCopy = num;
   var romanized = '';
 
-  // While the decimal number is greater than 0,
-  while (numCopy > 0) {
-    // Loop through the indices of the decimalValue array.
-    for (var index = 0; index < decimalValue.length; index++) {
-      // Get the maximum decimal number less or equal then the decimal number.
-      if (+decimalValue[index] <= numCopy && +decimalValue[+index + 1] > numCopy) {
-        // Add the Roman numeral & decrease numCopy by the decimal equivalent.
-        romanized += romanNumeral[index];
-        numCopy -= decimalValue[index];
-      }
+  // Loop through the indices of the decimalValue array.
+  for (var index = 0; index < decimalValue.length; index++) {
+    // Continue to loop while the value at the current index will fit into numCopy
+    while (+decimalValue[index] <= numCopy) {
+      // Add the Roman numeral & decrease numCopy by the decimal equivalent.
+      romanized += romanNumeral[index];
+      numCopy -= decimalValue[index];
     }
   }
 
@@ -49,6 +46,7 @@ var convert = function(num) {
 - Read comments on code.
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282`
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: 
+`Thanks @Rafase282 @SaintPeter`
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
