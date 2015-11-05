@@ -7,7 +7,8 @@ Inside that you can add any function or code, for this particular waypoint you n
 
 ```js
 $("#getMessage").on("click", function(){
-
+  //Custom code here
 });
 ```
+
 This will create a function so when the element with id `getMessage` is clicked, the custom function will be run.
