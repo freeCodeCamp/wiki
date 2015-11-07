@@ -45,7 +45,7 @@ function findLongestWord(s) {return s.split(' ').reduce(function(x,y){return Mat
 for more information: [Click.](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
 
 
-## Recursive Solution by @Shadowfool
+## Recursive Solution
 ```js
 function findLongestWord(str) {
   //split the string into individual words (important!!, you'll see why later)
@@ -67,6 +67,6 @@ function findLongestWord(str) {
 }
 ```
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282`
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282` & `Thanks @Shadowfool`
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
