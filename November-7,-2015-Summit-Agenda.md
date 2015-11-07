@@ -3,9 +3,9 @@ Our November 7, 2015 Summit will begin at noon EDT on [our twitch.tv channel](ht
 This one-hour will feature:    
 1. Quincy showcasing [our new Medium publication](https://medium.freecodecamp.com)    
 2. Berkeley explaining our recent curriculum improvements, and how you can contribute, too    
-3. Ben showing a new way to create FCC challenges with his Challenge-o-matic    
-4. Mike Perrott demoing a way to get FCC running on your computer with just a few commands using Vagrant    
-5. Kris demoing a [collaborative modern music app built by campers](http://musare.com/)    
+3. Mike Perrott demoing a way to get FCC running on your computer with just a few commands using Vagrant    
+4. Kris demoing a [collaborative modern music app built by campers](http://musare.com/)    
+5. Questions from our community
 
 We'll have special guest Nathan (@Terakilobyte).
 
