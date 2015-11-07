@@ -15,5 +15,7 @@ The following are our official chat rooms.
 | [CodeReview](https://gitter.im/freecodecamp/CodeReview) | give and receive constructive feedback from your fellow campers on your projects | 
 | [Half Way Club](https://gitter.im/freecodecamp/HalfWayClub) | once you've earned your Full Stack Development Certification, prep for nonprofit projects here | 
 | [Casual](https://gitter.im/freecodecamp/Casual) | you can chat about your non-coding interests with other campers here |
-
+| [LiveCoding](https://gitter.im/freecodecamp/LiveCoding) | get set up to code live on our popular twitch.tv channel |
+| [CurriculumDevelopment](https://gitter.im/freecodecamp/CurriculumDevelopment) | help us improve our open source curriculum |
+| [DataScience](https://gitter.im/freecodecamp/DataScience) | help us understand our gigs and gigs of public data |
 By joining these chat rooms, you accept our [Code of Conduct](https://github.com/FreeCodeCamp/freecodecamp/wiki/Code-of-Conduct).
