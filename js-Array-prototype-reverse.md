@@ -15,7 +15,7 @@ array.reverse();
 
 ## Examples
 
-**Reversing the elements of an array**
+**Use `.reverse()` to reverse the elements of an array**
 ```js
 var array = [1, 2, 3, 4, 5];
 console.log(array);
