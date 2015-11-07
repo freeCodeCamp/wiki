@@ -2,7 +2,7 @@
 
 The JavaScript array method `.reverse()` will reverse the order of the elements within the array.
 
-##Syntax
+## Syntax
 ```js
 var array = [1, 2, 3, 4, 5];
 array.reverse();
@@ -24,7 +24,7 @@ console.log(array);
 array.reverse();
 
 console.log(array);
-/* Console will output 5, 4, 3, 2, 1 and 
+/* Console will output 5, 4, 3, 2, 1 and
 the variable array now contains the set [5, 4, 3, 2, 1] */
 
 ```
