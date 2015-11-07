@@ -25,7 +25,7 @@ Optional. The zero-based index where the slice should end. If omitted, `.slice()
 
 ## Examples
 
-**Using slice() to create a new string**
+**Using `.slice()` to create a new string**
 ```js
 var string1 = "Hello World!";
 var string2 = string1.slice(3);
@@ -36,7 +36,7 @@ console.log(string3);                           // Will log "lo W"
 
 ```
 
-**Using slice() with negative indices**
+**Using `.slice()` with negative indices**
 
 ```js
 var string = "Hello World!"
