@@ -49,7 +49,29 @@ function palindrome(str) {
 # Code Explanation:
 We use regular expressions to replace any uppercase letter into a lowercase. Then we check if the string is the same as the reversed string using `split()` to split the original string by characters, then reverse and then join it back together.
 
+## Recursive Solution
+```js
+function palindrome(str) {
+// make all letters lowercase and remove non-alphanumeric characters
+  str = str.toLowerCase();
+  str = str.replace(/[^a-z|1-9]/g, "");
+  
+  // if the length of the string is 0 then it is a palindrome
+  if (str.length === 0){
+    return true;
+  }
+  // if the first letter and the last letter of the string do not equal eachother then it is not a palindrome
+  if (str[0] !== str[str.length-1]){
+    return false;
+  }
+  //Else, run the function without the first and last characters.
+  else{
+    return palindrome(str.slice(1,str.length - 1));
+  }
+}
+```
+
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282 @abhisekp`
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282 @abhisekp @shadowfool`
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
