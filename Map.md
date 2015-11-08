@@ -102,11 +102,11 @@
 30. [Waypoint: Label Bootstrap Buttons](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Label-Bootstrap-Buttons)
 31. [Waypoint: Use Comments to Clarify Code](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Use-Comments-to-Clarify-Code)
 
-# Gear up for Success  
-1. Waypoint: Browse Camper News Complete
-2. Waypoint: Reference our Wiki Complete
-3. Waypoint: Join our LinkedIn Alumni Network Complete
-4. Waypoint: Commit to a Goal and a Nonprofit
+# Gear up for Success
+1. [Waypoint: Browse Camper News Incomplete](http://freecodecamp.com/challenges/waypoint-browse-camper-news)
+2. [Waypoint: Reference our Wiki Incomplete](http://freecodecamp.com/challenges/waypoint-reference-our-wiki)
+3. [Waypoint: Join our LinkedIn Alumni Network Incomplete](http://freecodecamp.com/challenges/waypoint-join-our-linkedin-alumni-network)
+4. [Waypoint: Commit to a Goal and a Nonprofit](http://freecodecamp.com/challenges/waypoint-commit-to-a-goal-and-a-nonprofit)
 
 # jQuery
 1. [Waypoint: Learn how Script Tags and Document Ready Work](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Learn-how-Script-Tags-and-Document-Ready-Work)
@@ -159,15 +159,20 @@
 29. [Waypoint: Generate Random Fractions with JavaScript](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Generate-Random-Fractions-with-JavaScript)
 30. [Waypoint: Generate Random Whole Numbers with JavaScript](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Generate-Random-Whole-Numbers-with-JavaScript)
 31. [Waypoint: Generate Random Whole Numbers within a Range](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Generate-Random-Whole-Numbers-within-a-Range)
-32. [Waypoint: Use Conditional Logic with If-Else Statements](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Use-Conditional-Logic-with-If-Else-Statements)
-33. [Waypoint: Sift through Text with Regular Expressions](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Sift-through-Text-with-Regular-Expressions)
-34. [Waypoint: Find Numbers with Regular Expressions](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Find-Numbers-with-Regular-Expressions)
-35. [Waypoint: Find White Space with Regular Expressions](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Find-White-Space-with-Regular-Expressions)
-36. [Waypoint: Invert Regular Expression Matches with JavaScript](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Invert-Regular-Expression-Matches-with-JavaScript)
-37. [Waypoint: Create a JavaScript Slot Machine](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Create-a-JavaScript-Slot-Machine)
-38. [Waypoint: Add your JavaScript Slot Machine Slots](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Add-your-JavaScript-Slot-Machine-Slots)
-39. [Waypoint: Bring your JavaScript Slot Machine to Life](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Bring-your-JavaScript-Slot-Machine-to-Life)
-40. [Waypoint: Give your JavaScript Slot Machine some stylish images](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Give-your-JavaScript-Slot-Machine-some-stylish-images)
+32. [Waypoint: Add New Properties to a JavaScript Object](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Add-New-Properties-to-a-JavaScript-Object)
+33. [Waypoint: Delete Properties from a JavaScript Object](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Delete-Properties-from-a-JavaScript-Object)
+34. [Waypoint: Iterate with JavaScript For Loops](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Iterate-with-JavaScript-For-Loops)
+35. [Waypoint: Iterate Odd Numbers With a For Loop](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Iterate-Odd-Numbers-With-a-For-Loop)
+36. [Waypoint: Count Backwards With a For Loop](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Count-Backwards-With-a-For-Loop)
+37. [Waypoint: Use Conditional Logic with If-Else Statements](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Use-Conditional-Logic-with-If-Else-Statements)
+38. [Waypoint: Sift through Text with Regular Expressions](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Sift-through-Text-with-Regular-Expressions)
+39. [Waypoint: Find Numbers with Regular Expressions](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Find-Numbers-with-Regular-Expressions)
+40. [Waypoint: Find White Space with Regular Expressions](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Find-White-Space-with-Regular-Expressions)
+41. [Waypoint: Invert Regular Expression Matches with JavaScript](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Invert-Regular-Expression-Matches-with-JavaScript)
+42. [Waypoint: Create a JavaScript Slot Machine](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Create-a-JavaScript-Slot-Machine)
+43. [Waypoint: Add your JavaScript Slot Machine Slots](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Add-your-JavaScript-Slot-Machine-Slots)
+44. [Waypoint: Bring your JavaScript Slot Machine to Life](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Bring-your-JavaScript-Slot-Machine-to-Life)
+45. [Waypoint: Give your JavaScript Slot Machine some stylish images](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Give-your-JavaScript-Slot-Machine-some-stylish-images)
 
 # Object Oriented and Functional Programming
 1. [Waypoint: Declare JavaScript Objects as Variables](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Declare-JavaScript-Objects-as-Variables)
@@ -225,12 +230,12 @@
 21. [Bonfire: Arguments Optional](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Bonfire-Arguments-Optional)
 
 # JSON APIs and Ajax  
-1. Waypoint: Trigger Click Events with jQuery Incomplete
-2. Waypoint: Change Text with Click Events Incomplete
-3. Waypoint: Get JSON with the jQuery getJSON Method Incomplete
-4. Waypoint: Convert JSON Data to HTML Incomplete
-5. Waypoint: Render Images from Data Sources Incomplete
-6. Waypoint: Prefilter JSON Incomplete
+1. [Waypoint: Trigger Click Events with jQuery](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Trigger-Click-Events-with-jQuery)
+2. [Waypoint: Change Text with Click Events](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Change-Text-with-Click-Events)
+3. [Waypoint: Get JSON with the jQuery getJSON Method](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Get-JSON-with-the-jQuery-getJSON-Method)
+4. [Waypoint: Convert JSON Data to HTML](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Convert-JSON-Data-to-HTML)
+5. Waypoint: Render Images from Data Sources
+6. Waypoint: Prefilter JSON
 7. Waypoint: Get Geo-location Data
 
 # Upper Intermediate Algorithm Scripting
