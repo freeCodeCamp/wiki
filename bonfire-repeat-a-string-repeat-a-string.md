@@ -44,31 +44,27 @@ function repeat(str, num) {
 repeat("abc", 3, "");
 ```
 
-Third Solution:
-
-```js
-function repeat(str, num) {
-  if (num < 0) {
-    num = 0;
-  }
- var str = str.repeat(num);
- return str;
-}
-
-repeat("abc", 3, "");
-```
 # Code Explanation:
 - Create a variable to store the repeated word.
 - Use a while loop or for loop to repeat code as many times as needed according to `num`
 - The we just have to add the string to the variable created on step one. and increase or decrease num depending on how you set the loop.
 - At the end of the loop, return the variable for the repeated word.
 
-# Solution 3 Code Explanation:
-- Create an if loop to turn negative numbers into a "0" for the variable "num".
-- Create a new variable with .repeat() where variable "num" is the argument.
-- Then return the new variable for the repeated word.
+
+##Recursive Solution
+```js
+function repeat(str, num) {
+  ans = "";
+  if(num <= 0){
+    return "";
+  }
+  else{
+    return str + repeat(str, num - 1);
+  }
+}
+```
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282`
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282 @shadowfool`
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
