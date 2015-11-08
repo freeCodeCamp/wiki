@@ -54,9 +54,11 @@ repeat("abc", 3, "");
 ##Recursive Solution
 ```js
 function repeat(str, num) {
-  ans = "";
   if(num <= 0){
     return "";
+  }
+  if(num = 0){
+  return str;
   }
   else{
     return str + repeat(str, num - 1);
