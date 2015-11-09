@@ -61,7 +61,7 @@ function sumPrimes(num) {
 ## Recursive Solution:
 ```JS
 function sumPrimes(num) {
-  // function to check if the number presented prime
+  // function to check if the number presented is prime
   function isPrime(number){
       for (i = 2; i <= number; i++){
           if(number % i === 0 && number!= i){
@@ -72,7 +72,7 @@ function sumPrimes(num) {
        // if it passes the for loops conditions it is a prime
       return true;
   }
-  // 1 is not a prime, so return nothing, also stops the recusion at 1
+  // 1 is not a prime, so return nothing, also stops the recusrive calls.
   if (num === 1){
     return 0;
   }
