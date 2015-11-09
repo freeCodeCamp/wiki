@@ -234,7 +234,7 @@
 2. [Waypoint: Change Text with Click Events](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Change-Text-with-Click-Events)
 3. [Waypoint: Get JSON with the jQuery getJSON Method](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Get-JSON-with-the-jQuery-getJSON-Method)
 4. [Waypoint: Convert JSON Data to HTML](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Convert-JSON-Data-to-HTML)
-5. Waypoint: Render Images from Data Sources
+5. [Waypoint: Render Images from Data Sources](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Render-Images-from-Data-Sources)
 6. Waypoint: Prefilter JSON
 7. Waypoint: Get Geo-location Data
 
@@ -263,7 +263,7 @@
 5. Waypoint: Create Angular.js Services
 
 # Git
-1. Waypoint: Save your Code Revisions Forever with Git
+1. [Waypoint: Save your Code Revisions Forever with Git](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Save-your-Code-Revisions-Forever-with-Git)
 
 # Node.js and Express.js
 1. Waypoint: Manage Packages with NPM
