@@ -1,6 +1,6 @@
 What if you have a lot of users posting *things* to your website? Maybe your users want to have a profile, or a wall, of the *things* they’ve posted, and they want to be able to share it with their friends with a url? You can do that, no biggie!
 
-Let’s say you used 
+Let’s say you used
 
 	>> yo angular-fullstack:route wall
 
@@ -26,5 +26,5 @@ Then later on in **wall.controller.js**, you can see what username was requested
 var wallOwner = $routeParams.username;
 ~~~
 
-[PREVIOUS](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Quick-tip:-keep-data-in-sync)
+[PREVIOUS](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Quick-tip-keep-data-in-sync)
 [NEXT](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/More-useful-APIs)

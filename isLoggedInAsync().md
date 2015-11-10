@@ -2,16 +2,16 @@ Let's say you have a public page, but if the user is logged in you want to show 
 
 ~~~javascript
 $scope.isLoggedInAsync = Auth.isLoggedInAsync;
-~~~	
+~~~
 
-*isLoggedInAsync* takes a callback function as an input, and passes the callback function a *true* boolean if the user is logged in, and a *false* if the user is not. You can call it like so: 
+*isLoggedInAsync* takes a callback function as an input, and passes the callback function a *true* boolean if the user is logged in, and a *false* if the user is not. You can call it like so:
 
 ~~~javascript
 $scope.isLoggedInAsync(callback(bool) {
-	if (bool) { /** do thing if they’re logged in **/ } 
+	if (bool) { /** do thing if they’re logged in **/ }
 	else { /** do different thing if they’re not logged in **/ }
 });
 ~~~
 
 [PREVIOUS](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Restrict-a-page-to-authenticated-users)
-[NEXT](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Bonus:-SocketIO)
+[NEXT](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Bonus-SocketIO)
