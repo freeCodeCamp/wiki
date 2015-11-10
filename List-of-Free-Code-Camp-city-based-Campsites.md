@@ -259,7 +259,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
 [Kathmandu](//www.facebook.com/groups/free.code.camp.kathmandu/)        
 [Kemerovo](//www.facebook.com/groups/free.code.camp.kemerovo/)        
 [Kerch](//www.facebook.com/groups/free.code.camp.kerch/)        
-[Kha](https://www.facebook.com/groups/free.code.camp.kha/)        
+[Kharkiv](https://www.facebook.com/groups/free.code.camp.kharkiv/)        
 [Kiev](//www.facebook.com/groups/free.code.camp.kiev/)        
 [Kigali](https://www.facebook.com/groups/free.code.camp.kigali/)        
 [Killeen](//www.facebook.com/groups/free.code.camp.killeen.texas/)        
