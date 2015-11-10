@@ -3,4 +3,4 @@ The *things* that show up on your app's main view are part of some seed data tha
 You can add, remove, or change data in this file, and it will be written to your database, overwriting any duplicates the next time you run `grunt serve`. If an object defined in **seed.js** is overwritten, the database will assign a new *.\_id* property to it (we'll cover *.\_id* properties in the next section), which may give you some issues later on in testing. To avoid this, you can turn off seeding by setting `seedDB: false` in **/server/config/environment/development.js**.
 
 [PREVIOUS](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Accessing-the-database-from-your-frontend)
-[NEXT](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Quick-tip:-keep-data-in-sync)
+[NEXT](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Quick-tip-keep-data-in-sync)
