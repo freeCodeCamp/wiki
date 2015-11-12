@@ -24,17 +24,17 @@ var convert = function(num) {
   var decimalValue = [ 1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1 ];
   var romanNumeral = [ 'M', 'CM', 'D', 'CD', 'C', 'XC', 'L', 'XL', 'X', 'IX', 'V', 'IV', 'I' ];
 
-  // Create a copy of num to work on and an empty string variable for the final roman number
-  var numCopy = num;
+  //empty string variable for the final roman number
+  
   var romanized = '';
 
   // Loop through the indices of the decimalValue array.
   for (var index = 0; index < decimalValue.length; index++) {
     // Continue to loop while the value at the current index will fit into numCopy
-    while (+decimalValue[index] <= numCopy) {
+    while (decimalValue[index] <= num) {
       // Add the Roman numeral & decrease numCopy by the decimal equivalent.
       romanized += romanNumeral[index];
-      numCopy -= decimalValue[index];
+      num -= decimalValue[index];
     }
   }
 
@@ -47,6 +47,6 @@ var convert = function(num) {
 
 # Credits:
 If you found this page useful, you can give thanks by copying and pasting this on the main chat: 
-`Thanks @Rafase282 @SaintPeter`
+`Thanks @Rafase282 @SaintPeter @benschac`
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
