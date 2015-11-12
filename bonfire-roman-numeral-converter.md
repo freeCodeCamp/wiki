@@ -47,6 +47,6 @@ var convert = function(num) {
 
 # Credits:
 If you found this page useful, you can give thanks by copying and pasting this on the main chat: 
-`Thanks @Rafase282 @SaintPeter`
+`Thanks @Rafase282 @SaintPeter @benschac`
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
