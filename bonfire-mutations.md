@@ -31,6 +31,7 @@ function mutation(arr) {
  }
 ```
 
+Second solution:
 ```js
 function mutation(arr) {
   var first = arr[0].toLowerCase().split('');
@@ -50,12 +51,33 @@ function mutation(arr) {
 }
 ```
 
+Third solution:
+```js
+function mutation(arr) {
+  arr[0]=arr[0].toLowerCase();
+  arr[1]=arr[1].toLowerCase();
+  for(var x in arr[1]){
+    if(arr[0].indexOf(arr[1][x])<0) return false;
+  }
+  return true;
+}
+```
+
 # Code Explanation:
 - First, we make the two strings in the array lowercase.  
 - Second, we split the individual strings in to 2 separate arrays of characters. test variable holds what we are looking for. target variable is where we are looking.   
 - Third, we loop through our test characters, and if they are not _all_ found we return false.
 
+
+#### Code Explanation(Third solution):
+- First, we convert the two strings of the array to the lowercase.
+- Then, we loop through the letters of our second string of the array and 
+search for it in the first string, if it's not present we return false 
+and our program terminates.
+- If all the letters in the second string is present in the first, the
+loop ends without returning anything, and then we return true.
+
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @sxmxc @Rafase282`
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @sxmxc @Rafase282 @anuragaryan`
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
