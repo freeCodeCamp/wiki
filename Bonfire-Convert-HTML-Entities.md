@@ -71,6 +71,14 @@ function convert(str) {
   return str;
 }
 ```
+##Another Solution
+```js
+function convert(str) {
+//Chaining of replace method with different arguments
+  str = str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&apos;');
+return str;
+}
+```
 # Code Explanation:
 - Read comments in code.
 
