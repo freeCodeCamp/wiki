@@ -27,7 +27,7 @@ function every(collection, pre) {
   // Check for each object
   for (var c in collection) {
     // If it has the same property or the same property value then add 1
-    if (collection[c].hasOwnProperty(pre) || collection[c][pre] == pre) {
+    if (collection[c].hasOwnProperty(pre) && collection[c][pre] ) {
       counter++;
     }
   }
