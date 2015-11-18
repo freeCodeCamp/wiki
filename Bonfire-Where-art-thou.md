@@ -84,7 +84,26 @@ function where(collection, source) {
   });
 }
 ```
+###Fourth
 
+```js
+function where(collection, source) {
+  var arr = [];
+  var count ;
+  collection.some(function(collObj) { 
+     count = 0 ; 
+     for(var prop in source){
+        if( collObj.hasOwnProperty(prop) && collObj[prop] === source[prop])
+        count++; 
+       }
+     if(count>=Object.keys(source).length){ 
+        arr.push(collObj);
+      }
+    
+    });
+    return arr;
+}
+```
 ## Code Explanation:
 > Please read the comments in the source code.
 
