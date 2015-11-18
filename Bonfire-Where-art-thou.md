@@ -84,7 +84,29 @@ function where(collection, source) {
   });
 }
 ```
+### Fourth
 
+```js
+function where(collection, source) {
+  var arr = []; //Array for matched objects
+  var count ;//count for number of key-value matches
+  collection.forEach(function(collObj) { 
+  //Loop through each object
+     count = 0 ; //Count is initialized to zero for each object
+     for(var prop in source){
+        if( collObj.hasOwnProperty(prop) && collObj[prop] === source[prop])
+        //If it matches increase the count
+        count++; 
+       }
+     if(count>=Object.keys(source).length){ 
+     //If the count of matches is equal or greater than the key length of source push the object
+        arr.push(collObj);
+      }
+    
+    });
+    return arr;
+}
+```
 ## Code Explanation:
 > Please read the comments in the source code.
 
