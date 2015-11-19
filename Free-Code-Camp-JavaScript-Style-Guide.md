@@ -7,7 +7,7 @@
 
   no hard tabs, ever. No really, just don't do it.
 
-## Curly braces
+## Curly Braces
 Always use curly braces when using the keywords `if/else/else if`. This prevents a lot of ambiguity and will prevent syntax errors in some edge cases.
 
 Bad:
@@ -20,7 +20,7 @@ if (foo) { bar(); }
 ```
 #curlyBracesEverywhere!
 
-## Space after `function` keyword, except in anonymous functions
+## Space After `function` Keyword, Except in Anonymous Functions
 Good:
 ```js
 var foo = function() {
