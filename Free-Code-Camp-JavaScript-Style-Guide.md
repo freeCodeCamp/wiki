@@ -1,4 +1,4 @@
-# Free Code Camp Style Guide
+# Free Code Camp Javasript Style Guide
 <small>or How Cool People Write JavaScript.</small>
 
 
@@ -17,9 +17,10 @@ if (foo) bar();
 Good:
 ```js
 if (foo) { bar(); }
-#curlyBracesEverywhere!
+// curlyBracesEverywhere!
+```
 
-## space after `function` keyword expect in anonymous functions.
+## space after `function` keyword, except in anonymous functions
 Good:
 ```js
 var foo = function() {
@@ -30,7 +31,7 @@ function foo() {
 }
 
 ```
-Bad: 
+Bad:
 ```js
 var foo = function () {
   // ...
@@ -67,12 +68,12 @@ if(true)
 }
 ```
 
-## Else
+## else
 Avoid else and "end early". In JavaScript there is often a lot of indenting (usually when dealing with async code and named "callback hell"). Anything you can do reduce the number of indents should be done. One thing is to [avoid the else](http://blog.timoxley.com/post/47041269194/avoid-else-return-early) keyword.
 
 This also has the side effect of making code cleaner and easier to read.
 
-Bad: 
+Bad:
 ```js
 someAsynFunc(function(err, data) {
   if (err) {
@@ -83,7 +84,7 @@ someAsynFunc(function(err, data) {
 });
 ```
 
-Good: 
+Good:
 ```js
 someAsynFunc(function(err, data) {
   if (err) {
@@ -94,12 +95,12 @@ someAsynFunc(function(err, data) {
 });
 ```
 
-## Long Strings
+## long Strings
 
 Long multiline strings should be in one of two forms:
 
 ```js
-var longString = 
+var longString =
   ‘long strings should ‘ +
   ‘be in this form, with the ‘ +
   ‘operator ending the line’;
