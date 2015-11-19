@@ -23,20 +23,15 @@ You could use loops or callbacks functions, there are multiple ways to solve thi
 function every(collection, pre) {
   // Create a counter to check how many are true.
   var counter = 0;
-
   // Check for each object
   for (var c in collection) {
-    // If it has the same property or the same property value then add 1
-    if (collection[c].hasOwnProperty(pre) || collection[c][pre] == pre) {
+    // If it is has property and value is truthy
+    if (collection[c].hasOwnProperty(pre) && Boolean(collection[c][pre])) {
       counter++;
     }
   }
-
   // Outside the loop, check to see if we got true for all of them and return true or false
-  if (counter == collection.length) {
-    return true;
-  } else
-    return false;
+  return counter == collection.length;
 }
 
 every([{'user': 'Tinky-Winky', 'sex': 'male'}, {'user': 'Dipsy', 'sex': 'male'}, {'user': 'Laa-Laa',
@@ -45,25 +40,23 @@ every([{'user': 'Tinky-Winky', 'sex': 'male'}, {'user': 'Dipsy', 'sex': 'male'},
 
 # Code Explanation:
 - First I create a counter to check how many cases are actually true.
-- Then check for each object if it it has the same property or the same property value. If true then add one to the counter.
+- Then check for each object if the value is truthy
 - Outside the loop, I check to see if the counter variable has the same value as the length of **collection**, if true then return **true**, otherwise, return **false**
 
 ## Alternative Code Solution:
 ```js
 function every(collection, pre) {
-  // Does everyone have one of these?
-  return collection.every(function (element, index, array) {
-    return element.hasOwnProperty(pre);
+  return collection.every(function (element) {
+    return element.hasOwnProperty(pre) && Boolean(element[pre]);
   });
 }
-
-every([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "male"}, {"user": "Laa-Laa", "sex": "female"}, {"user": "Po", "sex": "female"}], "sex");
+every([{'user': 'Tinky-Winky', 'sex': 'male'}, {'user': 'Dipsy', 'sex': 'male'}, {'user': 'Laa-Laa', 'sex': 'female'}, {'user': 'Po', 'sex': 'female'}], 'sex');
 ```
 # Code Explanation:
 - Uses the native "every" method to test whether all elements in the array pass the test.
 - This link will help [Array.prototype.every()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every)
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 and @estevanmaito`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 and @estevanmaito and @HermanFassett`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
