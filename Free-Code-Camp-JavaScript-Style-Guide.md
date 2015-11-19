@@ -17,8 +17,8 @@ if (foo) bar();
 Good:
 ```js
 if (foo) { bar(); }
-// curlyBracesEverywhere!
 ```
+#curlyBracesEverywhere!
 
 ## space after `function` keyword, except in anonymous functions
 Good:
