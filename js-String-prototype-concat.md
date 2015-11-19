@@ -4,7 +4,7 @@ The concat() method combines the text of two or more strings and returns a new s
 
 **Syntax**
 ```js
-str.concat(string2, string3[,..., stringN]);
+str.concat(string2[,..., stringN]);
 ```
 
 ### Parameters
