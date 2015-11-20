@@ -16,6 +16,7 @@
 **Solution ahead!**
 
 ## Code Solution:
+#### First Solution:
 
 ```js
 function unite(arr1, arr2, arr3) {
@@ -45,7 +46,29 @@ function unite(arr1, arr2, arr3) {
 # Code Explanation:
 - Check comments in code.
 
+#### Second Solution:
+
+```js
+function unite() {
+  var concatArr = [];
+  var i = 0;
+  while (arguments[i]){
+    concatArr = concatArr.concat(arguments[i]); i++;
+  }
+  uniqueArray = concatArr.filter(function(item, pos) {
+    return concatArr.indexOf(item) == pos;
+  }); 
+  return uniqueArray;
+}
+```
+
+# Code Explanation:
+- Number of arguments can change dynamically so we don't need to bother providing our func with args at all
+- we use a while loop to concatanate all the arguments into one Array called `concatArr`
+- we use `filter` to remove the duplicate elements by checking the index of each element and removing same elements with different positions
+- ordering will be preserved as we didn't mess with it
+
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @sabahang`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
