@@ -16,7 +16,7 @@
 **Solution ahead!**
 
 ## Code Solution:
-First:
+####First:
 
 ```js
 function fearNotLetter(str) {
@@ -56,9 +56,13 @@ function fearNotLetter(str) {
     return valueToReturn;
 }
 ```
-```js
-Second:
 
+# Code Explanation:
+- Read comments in code.
+
+####Second:
+
+```js
 function fearNotLetter(str) {
   
   for(var i = 0; i < str.length; i++) {
@@ -73,14 +77,53 @@ function fearNotLetter(str) {
   }
   return undefined;
 }
+
 ```
-
-
 # Code Explanation:
 - Read comments in code.
 
+####Third:
+```js
+function fearNotLetter(str) {
+  var strArr = str.split('');
+  var missingChars = [], i = 0;
+  var nextChar = String.fromCharCode(strArr[i].charCodeAt(0)+1);
+  while (i<strArr.length - 1) {
+    if (nextChar !== strArr[i+1]){
+      missingChars.push(nextChar);
+      nextChar = String.fromCharCode(nextChar.charCodeAt(0)+1);
+    } else {
+      i++;
+      nextChar = String.fromCharCode(strArr[i].charCodeAt(0)+1);
+    }
+  }
+  return missingChars.join('') === '' ? undefined : missingChars.join('') ;
+}
+```
+
+# Code Explanation:
+- Increase loop index only when you have found all the missing letters between current and next letter
+- Every time you find a missing letter push it to `missingchars`
+
+###Forth:
+```js
+function fearNotLetter(str) {
+  var allChars = '';
+  var notChars = new RegExp('[^'+str+']','g');
+  for (var i=0;allChars[allChars.length-1] !== str[str.length-1] ;i++)
+    allChars += String.fromCharCode(str[0].charCodeAt(0)+i);
+  return allChars.match(notChars) ? allChars.match(notChars).join('') : undefined;
+}
+```
+
+# Code Explanation:
+- Create a new String that consists all the letters in the range
+- Create a Regular Expression for anything except `str`
+- Use `match()` to strip off the `str` letters from your newly created String
+
+
 # Credits:
 If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282`**
-**`thanks @rohitnwn`**
+**`thanks @rohitnwn @sabahang`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

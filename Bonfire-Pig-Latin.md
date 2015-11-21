@@ -17,6 +17,7 @@
 
 ## Code Solution:
 
+### First
 ```js
 function translate(str) {
   // Create variables to be used
@@ -37,10 +38,32 @@ function translate(str) {
 }
 ```
 
+### Second
+```js
+function translate(str) {
+  //finding all the consonants in the beginning of the str. 
+  //by using && below I'm achiving a concept called Intersection of Regular Expressions
+  //where your pattern finds the union of two or more RegEx rules. 
+  //In Java you can achive this with RegEx special character '&&' 
+  //but in Javascript you can use the following instead. 
+  //Credit goes to http://stackoverflow.com/q/6595477
+  var consChars = str.match(/^[a-z]/) && str.match(/[^aeiou]*/).join('');
+  
+  //if no consonants found (i.e. str starts with vowels)
+  //use replace to remove consonants and construct newStr else add 'way' in the end
+  if (consChars !== ''){
+    newStr = str.replace(consChars, '') + consChars + "ay";
+  } else {
+    newStr = str + "way";
+  }
+  return newStr;
+}
+```
+
 # Code Explanation:
 - Read comments on code.
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @sabahang`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

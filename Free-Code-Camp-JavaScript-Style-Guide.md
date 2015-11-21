@@ -1,13 +1,13 @@
-# Free Code Camp Style Guide
+# Free Code Camp Javascript Style Guide
 <small>or How Cool People Write JavaScript.</small>
 
 
-## indent
+## Indent
   #alwaysUseTwoSpaces
 
   no hard tabs, ever. No really, just don't do it.
 
-## curly braces
+## Curly Braces
 Always use curly braces when using the keywords `if/else/else if`. This prevents a lot of ambiguity and will prevent syntax errors in some edge cases.
 
 Bad:
@@ -17,9 +17,10 @@ if (foo) bar();
 Good:
 ```js
 if (foo) { bar(); }
+```
 #curlyBracesEverywhere!
 
-## space after `function` keyword expect in anonymous functions.
+## Space After `function` Keyword, Except in Anonymous Functions
 Good:
 ```js
 var foo = function() {
@@ -30,7 +31,7 @@ function foo() {
 }
 
 ```
-Bad: 
+Bad:
 ```js
 var foo = function () {
   // ...
@@ -41,13 +42,13 @@ function foo ()
   // ...
 }
 ```
-## comments
+## Comments
 
  * no inline comments
  * single space after `//`
  * Do not use multiline comment `/* */`, we are reserving these for use with jsDocs.
 
-## keywords
+## Keywords
 
  * space immediately after if, else, while, etc
  * opening curly brace should always be on the same line.
@@ -72,7 +73,7 @@ Avoid else and "end early". In JavaScript there is often a lot of indenting (usu
 
 This also has the side effect of making code cleaner and easier to read.
 
-Bad: 
+Bad:
 ```js
 someAsynFunc(function(err, data) {
   if (err) {
@@ -83,7 +84,7 @@ someAsynFunc(function(err, data) {
 });
 ```
 
-Good: 
+Good:
 ```js
 someAsynFunc(function(err, data) {
   if (err) {
@@ -99,7 +100,7 @@ someAsynFunc(function(err, data) {
 Long multiline strings should be in one of two forms:
 
 ```js
-var longString = 
+var longString =
   ‘long strings should ‘ +
   ‘be in this form, with the ‘ +
   ‘operator ending the line’;
