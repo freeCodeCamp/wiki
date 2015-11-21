@@ -21,7 +21,7 @@ rollem    # secret sauce
 bonfire roman   # any bonfire with roman in name
 ```
 For playing with CamperBot please use the testing channel:
-[https://gitter.im/camperbot/testing](https://gitter.im/FreeCodeCamp/camperbotPlayground)
+[https://gitter.im/FreeCodeCamp/camperbotPlayground](https://gitter.im/FreeCodeCamp/camperbotPlayground)
 
 ## Help on Bonfires
 Live currently on the HelpBonFires channel on Gitter
@@ -45,7 +45,7 @@ Feel free to make new pages, an example entry is here:
 https://github.com/FreeCodeCamp/freecodecamp/wiki/example
 
 ## Source Repository
-### [https://github.com/dcsan/gitterbot](https://github.com/FreeCodeCamp/camperbot)
+### [https://github.com/FreeCodeCamp/camperbot](https://github.com/FreeCodeCamp/camperbot)
 Fork it and have fun!
 
 ## Roadmap
