@@ -50,7 +50,7 @@ Fork it and have fun!
 
 ## Roadmap
 We're looking for ideas for new features to add, and some people to help working on the bot.
-Have a look at Tickets with [help wanted](https://github.com/dcsan/gitterbot/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) on the repo and maybe you can contribute?
+Have a look at Tickets with [help wanted](https://github.com/FreeCodeCamp/camperbot/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) on the repo and maybe you can contribute?
 
 In future, we're planning:
 - Bonfire step-by-step tutorials will be available via chat and from the CamperBot
@@ -59,7 +59,7 @@ In future, we're planning:
 Get involved and let us know what you'd like to see next!
 
 ## Developer Chatroom
-- [Join us on our repository chat room](https://gitter.im/dcsan/gitterbot) to discuss new features. Perhaps we can pair up to work on the bot 2.0!
+- [Join us on our repository chat room](https://gitter.im/FreeCodeCamp/camperbot) to discuss new features. Perhaps we can pair up to work on the bot 2.0!
 - [Join this chat room](https://gitter.im/FreeCodeCamp/camperbotPlayground) to mess around with the CamperBot and try out commands, proofread your edits to wiki content etc.
 
 
