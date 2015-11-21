@@ -41,7 +41,7 @@ function repeat(str, num) {
   return newstr.join('');
 }
 
-repeat("abc", 3, "");
+repeat("abc", 3);
 ```
 
 # Code Explanation:
