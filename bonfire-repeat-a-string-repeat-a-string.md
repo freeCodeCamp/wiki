@@ -37,7 +37,7 @@ function repeat(str, num) {
   var newstr = [];
   for (var i = 0; i < num; i++) {
     newstr.push(str);
-  };
+  }
   return newstr.join('');
 }
 

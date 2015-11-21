@@ -122,12 +122,12 @@ function chunk(arr, size) {
     
     newArr.push(arr.slice(i, i + size));
     
-  };
+  }
   
   return newArr;
 }
 
-chunk(["a", "b", "c", "d"], 2, "");
+chunk(["a", "b", "c", "d"], 2);
 ```
 
 # Credits:
