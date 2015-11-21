@@ -660,3 +660,4 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Ho Chi Minh City](https://www.facebook.com/groups/free.code.camp.hochiminhcity/)
 - Zimbabwe
   - [Harare](https://www.facebook.com/groups/free.code.camp.harare/)
+>>>>>>> a5880e8f3249b68a6b349da3694fb541a5b0d750
