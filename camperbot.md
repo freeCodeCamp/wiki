@@ -7,7 +7,7 @@ Hi, I'm **[CamperBot](https://github.com/FreeCodeCamp/freecodecamp/wiki/camperbo
 - `about @username`   shows info on that user
 - `bonfire BONFIRENAME` info on a bonfire
 
-:speech_balloon: [meet CamperBot in this room!](https://gitter.im/camperbot/testing)
+:speech_balloon: [meet CamperBot in this room!](https://gitter.im/FreeCodeCamp/camperbotPlayground)
 
 
 ## Example Commands
@@ -21,7 +21,7 @@ rollem    # secret sauce
 bonfire roman   # any bonfire with roman in name
 ```
 For playing with CamperBot please use the testing channel:
-[https://gitter.im/camperbot/testing](https://gitter.im/camperbot/testing)
+[https://gitter.im/camperbot/testing](https://gitter.im/FreeCodeCamp/camperbotPlayground)
 
 ## Help on Bonfires
 Live currently on the HelpBonFires channel on Gitter
@@ -45,7 +45,7 @@ Feel free to make new pages, an example entry is here:
 https://github.com/FreeCodeCamp/freecodecamp/wiki/example
 
 ## Source Repository
-### [https://github.com/dcsan/gitterbot](https://github.com/dcsan/gitterbot)
+### [https://github.com/dcsan/gitterbot](https://github.com/FreeCodeCamp/camperbot)
 Fork it and have fun!
 
 ## Roadmap
@@ -60,7 +60,7 @@ Get involved and let us know what you'd like to see next!
 
 ## Developer Chatroom
 - [Join us on our repository chat room](https://gitter.im/dcsan/gitterbot) to discuss new features. Perhaps we can pair up to work on the bot 2.0!
-- [Join this chat room](https://gitter.im/camperbot/testing) to mess around with the CamperBot and try out commands, proofread your edits to wiki content etc.
+- [Join this chat room](https://gitter.im/FreeCodeCamp/camperbotPlayground) to mess around with the CamperBot and try out commands, proofread your edits to wiki content etc.
 
 
 ![enjoy](https://avatars1.githubusercontent.com/camperbot?&s=100) Happy Coding!
