@@ -61,6 +61,23 @@ function unite() {
   return uniqueArray;
 }
 ```
+#### Third Solution:
+
+```js
+function unite(arr1, arr2, arr3) {
+ var newArr;
+ //Convert the arguments object into an array
+  var args = Array.prototype.slice.call(arguments);
+  //Use reduce function to flatten the array and also apply filter to get the desired result
+  newArr = args.reduce(function(arrA,arrB){
+    return arrA.concat(arrB.filter(function(i){
+      return arrA.indexOf(i) === -1;
+    }));
+  });
+ 
+   return newArr;                    
+}
+```
 
 # Code Explanation:
 - Number of arguments can change dynamically so we don't need to bother providing our func with args at all
@@ -69,6 +86,6 @@ function unite() {
 - ordering will be preserved as we didn't mess with it
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @sabahang`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @sabahang @coded9`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
