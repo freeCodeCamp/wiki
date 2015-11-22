@@ -7,7 +7,7 @@ Hi, I'm **[CamperBot](https://github.com/FreeCodeCamp/freecodecamp/wiki/camperbo
 - `about @username`   shows info on that user
 - `bonfire BONFIRENAME` info on a bonfire
 
-:speech_balloon: [meet CamperBot in this room!](https://gitter.im/camperbot/testing)
+:speech_balloon: [meet CamperBot in this room!](https://gitter.im/FreeCodeCamp/camperbotPlayground)
 
 
 ## Example Commands
@@ -21,7 +21,7 @@ rollem    # secret sauce
 bonfire roman   # any bonfire with roman in name
 ```
 For playing with CamperBot please use the testing channel:
-[https://gitter.im/camperbot/testing](https://gitter.im/camperbot/testing)
+[https://gitter.im/FreeCodeCamp/camperbotPlayground](https://gitter.im/FreeCodeCamp/camperbotPlayground)
 
 ## Help on Bonfires
 Live currently on the HelpBonFires channel on Gitter
@@ -45,12 +45,12 @@ Feel free to make new pages, an example entry is here:
 https://github.com/FreeCodeCamp/freecodecamp/wiki/example
 
 ## Source Repository
-### [https://github.com/dcsan/gitterbot](https://github.com/dcsan/gitterbot)
+### [https://github.com/FreeCodeCamp/camperbot](https://github.com/FreeCodeCamp/camperbot)
 Fork it and have fun!
 
 ## Roadmap
 We're looking for ideas for new features to add, and some people to help working on the bot.
-Have a look at Tickets with [help wanted](https://github.com/dcsan/gitterbot/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) on the repo and maybe you can contribute?
+Have a look at Tickets with [help wanted](https://github.com/FreeCodeCamp/camperbot/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) on the repo and maybe you can contribute?
 
 In future, we're planning:
 - Bonfire step-by-step tutorials will be available via chat and from the CamperBot
@@ -59,8 +59,8 @@ In future, we're planning:
 Get involved and let us know what you'd like to see next!
 
 ## Developer Chatroom
-- [Join us on our repository chat room](https://gitter.im/dcsan/gitterbot) to discuss new features. Perhaps we can pair up to work on the bot 2.0!
-- [Join this chat room](https://gitter.im/camperbot/testing) to mess around with the CamperBot and try out commands, proofread your edits to wiki content etc.
+- [Join us on our repository chat room](https://gitter.im/FreeCodeCamp/camperbot) to discuss new features. Perhaps we can pair up to work on the bot 2.0!
+- [Join this chat room](https://gitter.im/FreeCodeCamp/camperbotPlayground) to mess around with the CamperBot and try out commands, proofread your edits to wiki content etc.
 
 
 ![enjoy](https://avatars1.githubusercontent.com/camperbot?&s=100) Happy Coding!
