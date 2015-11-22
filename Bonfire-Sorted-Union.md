@@ -68,7 +68,27 @@ function unite() {
 - we use `filter` to remove the duplicate elements by checking the index of each element and removing same elements with different positions
 - ordering will be preserved as we didn't mess with it
 
+#### Third Solution:
+
+```js
+function unite(arr1, arr2, arr3) {
+  var args = Array.prototype.slice.call(arguments, 0), arr = [];
+args.reduce(function(curr, next) {
+  return curr.concat(next);
+  }, []).filter(function(el) {
+    if(arr.indexOf(el) == -1) {
+      arr.push(el);
+    } 
+});
+  return arr;
+}
+```
+# Code Explanation (actually using reduce):
+- Change args object to array.
+- concat arrays in array into one.
+- fiter based of new unique array.
+
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @sabahang`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @sabahang @benschac`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
