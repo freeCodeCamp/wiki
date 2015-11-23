@@ -59,6 +59,7 @@ function steamroller(arr) {
 - Use reduce to concatenate each element into the last element
 - If the new element is an Array itself call the function recursively to flatten it before merging it with the rest of result
 - Pass an empty array to reduce as initial value to make sure even the first element will be processed
+- Credit goes to http://stackoverflow.com/a/15030117/1075499
 
 
 # Credits:
