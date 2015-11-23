@@ -1,7 +1,3 @@
-##Hundreds of cities around the world have Free Code Camp Facebook groups, called Campsites.
-
-Campers at these Campsites share links, hang out together, and organize local Coffee-n-Code events.
-
 If your city isn't listed here, you should [[create a Campsite for your city|How-to-create-a-Campsite-for-your-city]].
 
 - Albania
@@ -28,6 +24,8 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Melbourne](https://www.facebook.com/groups/free.code.camp.Melbourne/)
   - [Perth](https://www.facebook.com/groups/free.code.camp.perth/)
   - [Sydney](https://www.facebook.com/groups/free.code.camp.sydney.au/)
+- Austria
+  - [Vienna](https://www.facebook.com/groups/free.code.camp.vienna.austria/)
 - Azerbaijan
   - [Baku](https://www.facebook.com/groups/free.code.camp.baku/)
 - Bangladesh
@@ -71,6 +69,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Joinville](https://www.facebook.com/groups/free.code.camp.joinville/)
   - [Londrina](https://www.facebook.com/groups/free.code.camp.londrina/)
   - [Natal](https://www.facebook.com/groups/free.code.camp.natal)
+  - [Olinda](https://www.facebook.com/groups/free.code.camp.olinda/)
   - [Porto Alegre](https://www.facebook.com/groups/free.code.camp.porto.alegre.rs/)
   - [Recife](https://www.facebook.com/groups/free.code.camp.recife)
   - [Rio de Janeiro](https://www.facebook.com/groups/free.code.camp.rio.de.janeiro/)
@@ -211,8 +210,10 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Pune](https://www.facebook.com/groups/free.code.camp.pune/)
   - [Ranchi](https://www.facebook.com/groups/free.code.camp.ranchi/)
   - [Srinagar](https://www.facebook.com/groups/free.code.camp.srinagar/)
+  - [Surat](https://www.facebook.com/groups/free.code.camp.surat)  
   - [Tirupur](https://www.facebook.com/groups/free.code.camp.tirupur/)
   - [Trivandrum](https://www.facebook.com/groups/freecodecamp.trivandrum/)
+  - [Vizag](https://www.facebook.com/groups/free.code.camp.vizag/)
 - Indonesia
   - [Bandung](https://www.facebook.com/groups/free.code.camp.bandung/)
   - [Jakarta](https://www.facebook.com/groups/free.code.camp.jakarta/)
@@ -256,6 +257,8 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
 - Kosovo
   - [Ferizaj](https://www.facebook.com/groups/free.code.camp.ferizaj/)
   - [Pristina](https://www.facebook.com/groups/free.code.camp.pristina/)
+- Kuwait
+  - [Kuwait City](https://www.facebook.com/groups/free.code.camp.kuwait.city/)    
 - Kyrgyzstan
   - [Bishkek](https://www.facebook.com/groups/free.code.camp.bishkek/)
 - Latvia
@@ -319,6 +322,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Port Harcourt](https://www.facebook.com/groups/free.code.camp.port.harcourt/)
 - Norway
   - [Trondheim](https://www.facebook.com/groups/free.code.camp.trondheim/)
+  - [Kuwait City](https://www.facebook.com/groups/free.code.camp.kuwait.city/)    
 - Pakistan
   - [Gujrat City](https://www.facebook.com/groups/free.code.camp.gujrat/)
   - [Islamabad](https://www.facebook.com/groups/free.code.camp.islamabad/)
@@ -607,6 +611,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Normal](https://www.facebook.com/groups/free.code.camp.bloomington.normal/)
   - [North Mississippi](https://www.facebook.com/groups/free.code.camp.north.mississippi/)
   - [North Platte](https://www.facebook.com/groups/free.code.camp.north.platte/)
+  - [Oahu](https://www.facebook.com/groups/free.code.camp.oahu.hawaii/)    
   - [Oakland](https://www.facebook.com/groups/free.code.camp.berkeley/)
   - [Oklahoma City](https://www.facebook.com/groups/free.code.camp.oklahoma.city/)
   - [Olympia](https://www.facebook.com/groups/free.code.camp.olympia/)
@@ -687,4 +692,3 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Ho Chi Minh City](https://www.facebook.com/groups/free.code.camp.hochiminhcity/)
 - Zimbabwe
   - [Harare](https://www.facebook.com/groups/free.code.camp.harare/)
->>>>>>> a5880e8f3249b68a6b349da3694fb541a5b0d750
