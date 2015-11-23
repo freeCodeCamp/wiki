@@ -57,4 +57,4 @@ drop([1, 2, 3, 4], function(n) {return n >= 3;});
 - There is one edge case! if the condition is not met against any of the elements 'findIndex' will return `-1` which messes up the input to `slice()`. In this case use a simple conditional operator to return `false` instead of `-1`. For more info see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator 
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282 @mhelmetag @sabahang`
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282 @sabahang`
