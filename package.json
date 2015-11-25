@@ -1,16 +1,15 @@
 {
-  "name": "docs-site",
-  "version": "1.0.0",
-  "description": "Gatsby example site",
+  "name": "FreeCodeCampWiki",
+  "version": "0.0.0",
+  "description": "Free Code Camp's wiki pages",
   "main": "n/a",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "gatsby"
+    "Free Code Camp"
   ],
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "license": "MIT",
+  "license": "(BSD-3-Clause AND CC-BY-SA-4.0)",
   "dependencies": {
     "chroma-js": "0.7.2",
     "color-pairs-picker": "^1.3.5",
