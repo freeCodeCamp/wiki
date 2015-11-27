@@ -59,4 +59,4 @@ for (var i = 0; i < arguments.length; i++) {
 ```
 
 For more information on the optimization issues:  
-[Optimization Killers: Managing Arugments](https://github.com/petkaantonov/bluebird/wiki/Optimization-killers#3-managing-arguments)
+[Optimization Killers: Managing Arguments](https://github.com/petkaantonov/bluebird/wiki/Optimization-killers#3-managing-arguments)
