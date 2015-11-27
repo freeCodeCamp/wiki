@@ -50,6 +50,24 @@ repeat("abc", 3);
 - The we just have to add the string to the variable created on step one. and increase or decrease num depending on how you set the loop.
 - At the end of the loop, return the variable for the repeated word.
 
+Third Solution:
+
+```js
+function repeat(str, num) {
+  if (num < 0) {
+    return "";
+  } 
+  else {
+    return str.repeat(num);
+  }
+}
+
+repeat("abc", 3);
+```
+
+# Code Explanation:
+- First check if num is a negative number and return false if so
+- as of ECMA Script 6 (ES6) the String object comes with a builtin function to repeat a string which we you can use
 
 ##Recursive Solution
 ```js
