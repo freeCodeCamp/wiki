@@ -47,7 +47,8 @@ Congradulations, you now have a local copy of the FCC repo!
 # Maintaining your Fork
 Now that you have a copy of your fork, there is work you will need to do to keep it current.
 ### Rebasing from Upstream
-Do this every time prior to creating a branch for a PR
+Do this every time prior to creating a branch for a PR:
+
 1. Make sure you are in the `staging` branch  
 ```
 $ git status
