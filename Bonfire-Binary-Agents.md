@@ -16,7 +16,7 @@ Make sure that each time you transcode a character from binary to decimal, that 
 
 **Solution ahead!**
 
-## Code Solution:
+## Code Solution 1:
 
 ```js
 function binaryAgent(str) {
@@ -40,7 +40,7 @@ function binaryAgent(str) {
 - Convert to decimal by using parseInt(*binary*, 2) (with the second parameter we tell in which base our numbers currently are) 
 - At the end, we return out converted message.
 
-## Alternative Solution:
+## Code Solution 2:
 
 ```js
 function binaryAgent(str) {
@@ -74,17 +74,28 @@ function binaryAgent(str) {
   return sentence;
 }
 ```
-# Explanation for the second solution
+# Code Explanation
 - For each of these binary strings, check for the ones and ignore the zeroes.
 - For those that are one or active then convert them to decimal, this takes into account the position and the right power it needs to be raised to.
 - Store the power into the **power** variable by adding it to any previous ones on the variable **decValue**. This variable will add and add the powers of the active ones until the end of the loop and then return the decimal number.
 - Convert the final decimal outside of the inner loop and then convert it to ASCII and saving it to **sentence** along with any other text string already converted and stored.
 - Reset the variable **decValue** to avoid getting wrong decimals before continuing to the outer loop.
 
+## Code Solution 3:
 
+```js
+function binaryAgent(str) {
+  return String.fromCharCode(...str.split(" ").map(function(char){ return parseInt(char, 2); }));
+}
+```
 
+# Code Explanation
+- First we use `split()` to be able to work on each character as an Array element
+- Then use `map()` to process each element  from binary to decimal using 'pareseInt()`
+- Last we can use `String.fromCharCode()` to convert each ASCII number into the corresponding character
+- However `fromCharCode()` expects a series of numbers rather than an Array! We can use ES6 Spread Operator to pass in an Array of numbers as individual numbers. See here for more info; https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @JamesKee`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @JamesKee @sabahang`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

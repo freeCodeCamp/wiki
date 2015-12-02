@@ -15,7 +15,7 @@ You will definitely need recursion or another way to go beyond two level arrays 
 
 **Solution ahead!**
 
-## Code Solution:
+## Code Solution 1:
 
 ```js
 function steamroller(arr) {
@@ -46,7 +46,23 @@ function steamroller(arr) {
 - Invoke the function, the first time you will always pass it an array, so it always fall in to the isArray branch
 - Return the flattened array.
 
+## Code Solution 2:
+
+```js
+function steamroller(arr) {
+  return arr.reduce(function (flat, toFlatten) {
+    return flat.concat(Array.isArray(toFlatten) ? steamroller(toFlatten) : toFlatten);
+  }, []);
+}
+```
+# Code Explanation:
+- Use reduce to concatenate each element into the last element
+- If the new element is an Array itself call the function recursively to flatten it before merging it with the rest of result
+- Pass an empty array to reduce as initial value to make sure even the first element will be processed
+- Credit goes to http://stackoverflow.com/a/15030117/1075499
+
+
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @sabahang`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

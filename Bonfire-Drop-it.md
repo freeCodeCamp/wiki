@@ -34,14 +34,17 @@ function drop(arr, func) {
 }
 drop([1, 2, 3], function(n) {return n < 3; });
 ```
+
+# Code Explanation:
+- Create a for loop to check each element.
+- Then check for the function given if true then stop, otherwise remove that element.
+- return the array.
+
+
 ## Code Solution 2:
 ```
 function drop(arr, func) {
-  // Drop them elements.
-  
-  arr = arr.filter(func);
-
-  return arr;
+  return arr.slice(arr.findIndex(func) >= 0 && arr.findIndex(func), arr.length);
 }
 
 drop([1, 2, 3, 4], function(n) {return n >= 3;});
@@ -49,9 +52,9 @@ drop([1, 2, 3, 4], function(n) {return n >= 3;});
 
 
 # Code Explanation:
-- Create a for loop to check each element.
-- Then check for the function given if true then stop, otherwise remove that element.
-- return the array.
+- Use ES6 `findIndex()` function to  find the index of the element that passes the condition
+- Slice the array from the found index until the end
+- There is one edge case! if the condition is not met against any of the elements 'findIndex' will return `-1` which messes up the input to `slice()`. In this case use a simple conditional operator to return `false` instead of `-1`. For more info see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator 
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282 @mhelmetag`
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282 @sabahang`
