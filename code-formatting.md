@@ -9,8 +9,6 @@ then press [shift + enter ⏎]
 ```
 **\`\`\`** ⇦ Type 3 backticks, then press `[enter ⏎]`
 
-![How to Code](http://i.imgur.com/FUMG9BS.png)
-
 See also: ☛ [**How to type Backticks**](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/code-formatting#typing-backticks) | ☯ [Compose Mode](https://gitter.zendesk.com/hc/en-us/articles/201302311-Compose-mode) | ❄ [Gitter Formatting Basics](https://gitter.zendesk.com/hc/en-us/articles/200176682-Markdown-basics)
 
 ## Typing Backticks[⤴](http://superuser.com/a/254077/122424)
