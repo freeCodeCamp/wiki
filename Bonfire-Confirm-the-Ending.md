@@ -21,15 +21,12 @@ Check that you have the proper syntax and that you use `===` to compare.
 
 ```js
 function end(str, target) {
-  if (str.substr(-target.length) === target)
-    return true;
-  else
-    return false;
+  return str.substr(-target.length) === target;
 }
 ```
 
 # Code Explanation:
-We use the subtring() with the negative value of the lengths of target. We could use -1 to get the last element but if the target is actually longer than one letter then the program will provide the wrong information. Then we return true or false as needed.
+We use the subtring() with the negative value of the lengths of target. We could use -1 to get the last element but if the target is actually longer than one letter then the program will provide the wrong information. Then we return the value of this boolean expression.
 
 # Credits:
 If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282`
