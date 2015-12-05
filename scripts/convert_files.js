@@ -37,12 +37,13 @@ fs.readdir('../pages/docs/', function(err, folders) {
     var fd = fs.openSync(newFileName, 'w+');
 
     data = data.replace(incomingLink, outgoingLink);
+    var newData = new Buffer(data);
 
     var header = '---\ntitle: ' + fileobj.title + '\norder: 5\n---\n';
     var buffer = new Buffer(header);
 
     fs.writeSync(fd, buffer, 0, buffer.length); //write new data
-    fs.writeSync(fd, data, 0, data.length); //append old data
+    fs.writeSync(fd, newData, 0, newData.length); //append old data
     fs.close(fd);
   });
 });
