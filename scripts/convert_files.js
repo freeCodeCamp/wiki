@@ -12,6 +12,8 @@ JSON Array/Object
 */
 
 var fs = require('fs');
+var incomingLink = /github\.com\/freecodecamp\/freecodecamp\/wiki/gi;
+var outgoingLink = 'freecodecamp.github.io/wiki/docs';
 
 // Get File list
 fs.readdir('../pages/docs/', function(err, folders) {
@@ -25,21 +27,23 @@ fs.readdir('../pages/docs/', function(err, folders) {
     var title = folder.replace(/-/g, ' ').replace('.md', '');
     return { filename: filename, title: title};
   });
+
   fileList.forEach(function(fileobj) {
     // Create directory
+
     var newFileName = '../pages/docs/'+fileobj.filename;
 
-    var data = fs.readFileSync(newFileName); //read existing contents into data
+    var data = fs.readFileSync(newFileName, 'utf-8'); //read existing contents into data
     var fd = fs.openSync(newFileName, 'w+');
 
-    var header = '---\ntitle: ' + fileobj.title + '\norder: 5\n---\n';
+    data = data.replace(incomingLink, outgoingLink);
 
+    var header = '---\ntitle: ' + fileobj.title + '\norder: 5\n---\n';
+    console.log(data);
     var buffer = new Buffer(header);
 
     fs.writeSync(fd, buffer, 0, buffer.length); //write new data
     fs.writeSync(fd, data, 0, data.length); //append old data
     fs.close(fd);
-
-    //fs.createReadStream('../' + fileobj.filename).pipe(fs.createWriteStream(newFileName));
   });
 });

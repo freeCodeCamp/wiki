@@ -13,7 +13,7 @@
 # - Commit files to that branch
 # - Git push
 
-upstream="live"
+upstream="live-gatsby"
 
 ./clearPages.sh
 git pull ${upstream} master
@@ -33,3 +33,4 @@ git add index.html
 git commit -m "Page built on `date +"%d-%m-%Y %T"`"
 git push ${upstream} gh-pages
 git checkout master
+git push live master
