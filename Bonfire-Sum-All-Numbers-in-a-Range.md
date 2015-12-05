@@ -31,14 +31,15 @@ function sumAll(arr) {
 sumAll([1, 4]);
 ```
 
-# Code Explanation:
+## Code Explanation:
 - First create a variable to store the max number between two.
 - The same as before for the Smallest number.
 - We create a temporary variable to add the numbers.
 
-Since the numbers might not be always in order, using max() and min() will help organize.
+Since the numbers might not be always in order, using `max()` and `min()` will help organize.
 
 ## Code Solution 2:
+
 ```js
 function sumAll(arr) {
   // Buckle up everything to one!
@@ -48,11 +49,17 @@ function sumAll(arr) {
   var firstNum = arr[0];
   var lastNum = arr[1];
   // Using Arithmetic Progression summing formula
-  // https://en.wikipedia.org/wiki/Arithmetic_progression#Sum
+
   var sum = (lastNum - firstNum + 1) * (firstNum + lastNum) / 2;
   return sum;
 }
 ```
+
+## References & Details:
+- [Arithmetic Progression summing formula](https://en.wikipedia.org/wiki/Arithmetic_progression#Sum)
+- [ES6 arrow function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+
+The line `var sortedArr = arr.sort((a,b) => a-b);` is probably what will have you more confused. This would be the same as creating a function that returns `a-b` for the `sort()` which is the standard way to sort numbers from smallest to largest. Instead using arrow or fat arrow function, we are able to do all that in one single line thus allowing us to write less.
 
 # Credits:
 If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @abhisekp`**
