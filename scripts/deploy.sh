@@ -1,4 +1,8 @@
+#!/bin/bash
+
 # Automate Deployment -- bash script
+# - run clearPages.sh
+# - run
 # - git checkout master
 # - Pull down the Wiki
 # - Run Conversion  (See above)
@@ -8,3 +12,7 @@
 # - Copy files to `gh-pages`
 # - Commit files to that branch
 # - Git push
+
+./clearPages.sh
+node create_structure.js
+node convert_files.js

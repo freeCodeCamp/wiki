@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "mkdirp": "^0.5.1",
     "promise": "^7.0.4"
   }
 }
