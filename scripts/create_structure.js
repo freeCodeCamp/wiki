@@ -6,15 +6,28 @@ Automate converting the raw "wiki" into the proper hierarchy -- node script
 -- All in "Pages"
 */
 
-var promise = require('promise');
+var mkdirp = require('mkdirp');
 var fs = require('fs');
-var readDir = promise.denodeify(require('fs').readdir);
 
-function readWikiDir(wikiPath, callback) {
-  return readDir(wikiPath).nodeify(callback);
-}
-
+// Get File list
 fs.readdir('../', function(err, files) {
   if(err) throw err;
-  console.log(files);
+  var fileList = files.filter(function(file) {
+    return (/\.md$/.test(file) && !/^_/.test(file));
+  }).map(function(file) {
+    // Make directories/filenames
+    var filename = file;
+    var dir = file.replace('.md', '');
+    return { filename: filename, dir: dir};
+  });
+
+  fileList.forEach(function(fileobj) {
+    // Create directory
+    mkdirp('../pages/' + fileobj.dir, function(err) {
+      if(err) throw err;
+      // Copy File
+      var newFileName = '../pages/'+fileobj.dir+"/index.md";
+      fs.createReadStream('../' + fileobj.filename).pipe(fs.createWriteStream(newFileName));
+    });
+  });
 });
