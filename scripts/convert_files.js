@@ -39,7 +39,6 @@ fs.readdir('../pages/docs/', function(err, folders) {
     data = data.replace(incomingLink, outgoingLink);
 
     var header = '---\ntitle: ' + fileobj.title + '\norder: 5\n---\n';
-    console.log(data);
     var buffer = new Buffer(header);
 
     fs.writeSync(fd, buffer, 0, buffer.length); //write new data
