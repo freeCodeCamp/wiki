@@ -1,0 +1,14 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "Auto clean up and convert files to deploy from `wiki` to `gh-pages`",
+  "main": "convert_files.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "promise": "^7.0.4"
+  }
+}
