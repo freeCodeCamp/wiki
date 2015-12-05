@@ -13,7 +13,10 @@
 # - Commit files to that branch
 # - Git push
 
+upstream="live"
+
 ./clearPages.sh
+git pull ${upstream} master
 node create_structure.js
 node convert_files.js
 git checkout gh-pages
@@ -28,4 +31,5 @@ git add bundle.js.map
 git add bundle.js
 git add index.html
 git commit -m "Page built on `date +"%d-%m-%Y %T"`"
-# git push live gh-pages
+git push ${upstream} gh-pages
+git checkout master
