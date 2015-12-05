@@ -16,3 +16,6 @@
 ./clearPages.sh
 node create_structure.js
 node convert_files.js
+git checkout gh-pages
+cd ..
+gatsby build
