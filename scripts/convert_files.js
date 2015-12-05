@@ -14,7 +14,7 @@ JSON Array/Object
 var fs = require('fs');
 
 // Get File list
-fs.readdir('../pages/', function(err, folders) {
+fs.readdir('../pages/docs/', function(err, folders) {
   if(err) throw err;
   var fileList = folders.filter(function(folder) {
     // Remove stupid hidden folders
@@ -27,7 +27,7 @@ fs.readdir('../pages/', function(err, folders) {
   });
   fileList.forEach(function(fileobj) {
     // Create directory
-    var newFileName = '../pages/'+fileobj.filename;
+    var newFileName = '../pages/docs/'+fileobj.filename;
 
     var data = fs.readFileSync(newFileName); //read existing contents into data
     var fd = fs.openSync(newFileName, 'w+');

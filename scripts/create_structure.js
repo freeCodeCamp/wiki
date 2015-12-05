@@ -23,10 +23,10 @@ fs.readdir('../', function(err, files) {
 
   fileList.forEach(function(fileobj) {
     // Create directory
-    mkdirp('../pages/' + fileobj.dir, function(err) {
+    mkdirp('../pages/docs/' + fileobj.dir, function(err) {
       if(err) throw err;
       // Copy File
-      var newFileName = '../pages/'+fileobj.dir+"/index.md";
+      var newFileName = '../pages/docs/'+fileobj.dir+"/index.md";
       fs.createReadStream('../' + fileobj.filename).pipe(fs.createWriteStream(newFileName));
     });
   });
