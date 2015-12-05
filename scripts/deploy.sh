@@ -19,3 +19,8 @@ node convert_files.js
 git checkout gh-pages
 cd ..
 gatsby build
+cd public
+cp docs ../
+cp bundle.js ../
+cp index.html ../
+cp bundle.js.map ../

@@ -1,2 +1,5 @@
-node_modules/
+pages/
+.DS_Store
+scripts/node_modules
 public/
+node_modules/
