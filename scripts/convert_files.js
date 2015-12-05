@@ -13,7 +13,7 @@ JSON Array/Object
 
 var fs = require('fs');
 var incomingLink = /github\.com\/freecodecamp\/freecodecamp\/wiki/gi;
-var outgoingLink = 'freecodecamp.github.io/wiki/docs';
+var outgoingLink = 'freecodecamp.com/wiki/docs';
 
 // Get File list
 fs.readdir('../pages/docs/', function(err, folders) {
