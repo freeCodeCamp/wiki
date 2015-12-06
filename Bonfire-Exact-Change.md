@@ -18,76 +18,73 @@
 ## Code Solution:
 
 ```js
+// Create an object which hold the denominations and their values
+var denom = [
+	{ name: 'ONE HUNDRED', val: 100.00},
+	{ name: 'TWENTY', val: 20.00},
+	{ name: 'TEN', val: 10.00},
+	{ name: 'FIVE', val: 5.00},
+	{ name: 'ONE', val: 1.00},
+	{ name: 'QUARTER', val: 0.25},
+	{ name: 'DIME', val: 0.10},
+	{ name: 'NICKEL', val: 0.05},
+	{ name: 'PENNY', val: 0.01}
+];
+
 function drawer(price, cash, cid) {
+    var change = cash - price;
 
-  // Total Amount to return to client
-  var totalChange = +(cash - price).toFixed(2);
-
-  //Standard currency Value
-  var stdCurr = [0.01, 0.05, 0.10, 0.25, 1, 5, 10, 20, 100];
-
-  //Name of current currency
-  var currType;
-
-  // How many of the current standard currency
-  var stdCurrAmount;
-  var currCurrency;
-
-  // Change to be returned in proper format.
-  var changeArr = [];
-
-  var totalCash = +cid.map(function(money) {
-    // Gets 1D array of values
-    return money[1];
-  }).reduce(function(cash1, cash2) {
-    // Reduces the values to one number
-    return cash1 + cash2;
-
-    // Rounds to two decimal places
-  }).toFixed(2);
-
-  // Handle the case where we don't have enough money or will be left without money.
-  if (totalChange > totalCash) {
-    return 'Insufficient Funds';
-  } else if (totalChange === totalCash) {
-    return 'Closed';
-  }
-
-  // Loops array from right to left.
-  for (var i = +cid.length - 1; i >= 0; i--) {
-    // Gets the monetary value of the current array and the type.
-    currCurrency = +cid[i][1].toFixed(2);
-    currType = cid[i][0];
-
-    //If the currency is less than the change left to hand then get the right amount from the current type of change.
-    if (+stdCurr[i].toFixed(2) <= +totalChange.toFixed(2)) {
-
-      stdCurrAmount = Math.floor(currCurrency / stdCurr[i]);
-
-      if ((stdCurr[i] * stdCurrAmount) >= totalChange) {
-        stdCurrAmount = Math.floor(totalChange / stdCurr[i]);
-      }
-
-      //Get the current currency to use and udate the amount left to hand out.
-      currCurrency = +(stdCurr[i] * stdCurrAmount).toFixed(2);
-      totalChange = +(totalChange - currCurrency).toFixed(2);
-
-      // Update the values so we always have the current amount left in the register.
-      cid[i][1] = currCurrency;
-
-      //Push the change right change to hand out
-      changeArr.push([currType, currCurrency]);
+    // Transform CID array into drawer object
+    var register = cid.reduce(function(acc, curr) {
+        acc.total += curr[1];
+        acc[curr[0]] = curr[1];
+        return acc;
+    }, {total: 0});
+    
+    // Handle exact change
+    if(register.total === change) {
+        return 'Closed';
     }
+    
+    // Handle obvious insufficent funds
+    if(register.total < change) {
+        return 'Insufficient Funds';
+    }
+    
+    // Loop through the denomination array
+    var change_arr = denom.reduce(function(acc, curr) {
+        var value = 0;
+        // While there is still money of this type in the drawer
+        // And while the denomination is larger than the change reminaing
+        while(register[curr.name] > 0 && change >= curr.val) {
+            change -= curr.val;
+            register[curr.name] -= curr.val;
+            value += curr.val;
+            
+            // Round change to the nearest hundreth to deal with precision errors
+            change = Math.round(change * 100) / 100;
+        }
+        // Add this denomination to the output only if any was used.
+        if(value > 0) {
+            acc.push([ curr.name, value ]);
+        }
+        return acc; // Return the current Change Array
+    }, []); // Initial value of empty array for reduce
+  
+  // If there are no elements in change_arr or we have leftover change, return "Insufficient Funds"
+  if(change_arr.length < 1 || change > 0) {
+    return "Insufficient Funds";
   }
-
-  return changeArr;
-};
+    
+  // Here is your change, ma'am.
+  return change_arr;
+}
 ```
 
 # Code Explanation:
 - Read comments in code.
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @SaintPeter`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
