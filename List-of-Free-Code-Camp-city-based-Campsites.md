@@ -9,8 +9,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Luanda](https://www.facebook.com/groups/free.code.camp.luanda/)
 - Argentina
   - [Buenos Aires](https://www.facebook.com/groups/free.code.camp.buenos.aires/)
-  - [Cordoba](https://www.facebook.com/groups/free.code.camp.cordoba/)    
-  - [Parana](https://www.facebook.com/groups/free.code.camp.your.apucarana.parana/)
+  - [Cordoba](https://www.facebook.com/groups/free.code.camp.cordoba/)      
   - [Santa Rosa](https://www.facebook.com/groups/free.code.camp.santa.rosa/)
   - [Ticino](https://www.facebook.com/groups/free.code.camp.ticino/)
 - Armenia
