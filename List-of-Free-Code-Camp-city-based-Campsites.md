@@ -10,8 +10,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
 - Argentina
   - [Buenos Aires](https://www.facebook.com/groups/free.code.camp.buenos.aires/)
   - [Cordoba](https://www.facebook.com/groups/free.code.camp.cordoba/)    
-  - [Parana](https://www.facebook.com/groups/free.code.camp.your.apucarana.parana/)
-  - [Santa Rosa](https://www.facebook.com/groups/free.code.camp.santa.rosa/)
+  - [Parana](https://www.facebook.com/groups/free.code.camp.your.apucarana.parana/)  
   - [Ticino](https://www.facebook.com/groups/free.code.camp.ticino/)
 - Armenia
   - [Yerevan](https://www.facebook.com/groups/free.code.camp.armenia/)
@@ -692,6 +691,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [San Diego](https://www.facebook.com/groups/free.code.camp.san.diego/)
   - [San Luis Obispo](https://www.facebook.com/groups/free.code.camp.SLO/)
   - [Santa Clarita](https://www.facebook.com/groups/free.code.camp.santa.clarita/)
+  - [Santa Rosa, CA](https://www.facebook.com/groups/free.code.camp.santa.rosa/)
   - [Sarasota](https://www.facebook.com/groups/free.code.camp.sarasota.florida/)
   - [Savannah](https://www.facebook.com/groups/free.code.camp.savannah/)
   - [Scottsdale](https://www.facebook.com/groups/free.code.camp.tempe.phoenix.scottsdale/)
