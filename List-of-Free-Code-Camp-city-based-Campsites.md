@@ -120,8 +120,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Pasto](https://www.facebook.com/groups/free.code.camp.pasto/)
   - [Quibdo](https://www.facebook.com/groups/free.code.camp.quibdo/)
 - Costa Rica
-  - [San Francisco](https://www.facebook.com/groups/free.code.camp.san.francisco)
-  - [San Jose](https://www.facebook.com/groups/free.code.camp.san.jose)
+  - [None Yet, Start One!](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/How-to-create-a-Campsite-for-your-city)
 - Croatia
   - [Zagreb](https://www.facebook.com/groups/free.code.camp.zagreb/)
 - Cuba
@@ -199,7 +198,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Bali](https://www.facebook.com/groups/free.code.camp.bali/)
   - [Bengaluru](https://www.facebook.com/groups/free.code.camp.bengaluru/)
   - [Bhubaneswar](https://www.facebook.com/groups/free.code.camp.bhubaneswar/)
-  - [Bikaner](https://www.facebook.com/groups/free.code.camp.bikaner/)    
+  - [Bikaner](https://www.facebook.com/groups/free.code.camp.bikaner/)   
   - [Chennai](https://www.facebook.com/groups/free.code.camp.chennai/)
   - [Coimbatore](https://www.facebook.com/groups/free.code.camp.coimbatore)
   - [Delhi](https://www.facebook.com/groups/free.code.camp.delhi/)
@@ -518,7 +517,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Stoke-on-Trent](https://www.facebook.com/groups/free.code.camp.stoke.on.trent/)
   - [Warrington](https://www.facebook.com/groups/free.code.camp.warrington/)
 - United States
-  -     
+  - Ambiguous
     - [Hampton Roads](https://www.facebook.com/groups/free.code.camp.hamptonroads/)
     - [University Center](https://www.facebook.com/groups/free.code.camp.university.center/)
   - Alabama
@@ -560,8 +559,10 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Sacramento](https://www.facebook.com/groups/free.code.camp.sacramento/)
     - [San Bernardino](https://www.facebook.com/groups/free.code.camp.san.bernardino/)
     - [San Diego](https://www.facebook.com/groups/free.code.camp.san.diego/)
-    - [San Luis Obispo](https://www.facebook.com/groups/free.code.camp.SLO/)	
     - [Santa Clarita](https://www.facebook.com/groups/free.code.camp.santa.clarita/)
+    - [San Francisco](https://www.facebook.com/groups/free.code.camp.san.francisco)
+    - [San Jose](https://www.facebook.com/groups/free.code.camp.san.jose)
+    - [San Luis Obispo](https://www.facebook.com/groups/free.code.camp.SLO/)
 	- [Santa Rosa](https://www.facebook.com/groups/free.code.camp.santa.rosa/)
     - [South Los Angeles](https://www.facebook.com/groups/free.code.camp.southlosangeles/)
     - [Temecula](https://www.facebook.com/groups/free.code.camp.temecula/)
