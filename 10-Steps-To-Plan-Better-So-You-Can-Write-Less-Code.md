@@ -23,7 +23,7 @@ Together, we'll plan out a simple "To-do" single-page web app. We'll also plan f
 
 ###2) Write user stories
 
-Here are some example user stories. These will guide how we think about our app's features and functionality. Note that they all follow a similar structure: as a <person> I can <do something>. 
+Here are some example user stories. These will guide how we think about our app's features and functionality. Note that they all follow a similar structure: as a [person] I can [do something]. 
 
 * as a logged-in user I can see the list of my to-do's.
 * as a logged-in user I can add a new to-do.
