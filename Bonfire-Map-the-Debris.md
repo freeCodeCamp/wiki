@@ -53,7 +53,30 @@ function orbitalPeriod(arr) {
 - Create `orbPeriod` to store the product of a & b, with the ceiling function applied to round up to the next whole number.
 - Then we delete the key`avgAlt`, and add the new key and its value.
 
+##Another Solution
+
+```js
+function orbitalPeriod(arr) {
+  var GM = 398600.4418;
+  var earthRadius = 6367.4447;
+  
+  //Looping through each key in arr object
+  for(var prop in arr){
+    //formula  of orbital period https://en.wikipedia.org/wiki/Orbital_period here a = avgAlt+earthRadius
+    //Rounding off the orbital period value 
+  var orbitalPer = Math.round(2*Math.PI*Math.sqrt(Math.pow(arr[prop].avgAlt+earthRadius,3)/GM));
+  //deleting the avgAlt property 
+  delete arr[prop].avgAlt;
+  //adding orbitalPeriod property
+  arr[prop].orbitalPeriod = orbitalPer;
+  }
+  return arr;
+}
+orbitalPeriod([{name : "sputnik", avgAlt : 35873.5553}]);
+```
+#Code explanation in comments
+
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @coded9`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
