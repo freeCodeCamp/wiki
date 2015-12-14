@@ -49,6 +49,18 @@ function palindrome(str) {
 # Code Explanation:
 We use regular expressions to replace any uppercase letter into a lowercase. Then we check if the string is the same as the reversed string using `split()` to split the original string by characters, then reverse and then join it back together.
 
+##Third Solution
+```js
+function palindrome(str) {
+  //Remove everything in the string except alphabets and numbers
+var strStrip = str.replace(/[^A-Za-z0-9]/g,"").toLowerCase();
+//Check for palindrome condition 
+  if(strStrip.split("").reverse().join("")==strStrip)
+  return true;
+  else
+    return false;
+}
+```
 ## Recursive Solution
 ```js
 function palindrome(str) {
@@ -71,7 +83,8 @@ function palindrome(str) {
 }
 ```
 
+
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282 @abhisekp @shadowfool`
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282 @abhisekp @shadowfool @coded9`
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
