@@ -1,21 +1,25 @@
 ## The Return Early Pattern
 
-The return early pattern in JavaScript is a simple way to reduce the number of `else` stamements within a function body to zero. There are many reasons to prefer this pattern over using `else` statements. The first being a stylistic choice, reducing the number of `else` statements will result in less code on the page but accomplish the same logic. It also has the added benefit of reducing the line lengh due to unneccessarily indented body from nested conditions. And lastly, it also makes functions that only work in certain conditions easier to read.
+The return early pattern in JavaScript is a simple way to reduce the number of `else` statements within a function body to zero. There are many reasons to prefer this pattern over using `else` statements.
 
-The essense of the return early pattern is to replace the need for `else` conditionals in JavaScript functions by using the `return` keyword in the body of the `if` statement.
+* Reducing the total amount of code on the page
+* Reduce line length by reducing logical complexity
+* Improve Readability
+
+The essence of the return early pattern is to replace the need for `else` conditionals in JavaScript functions by using the `return` keyword in the body of the `if` statement.
 
 Let us create function that behaves differently under certain conditions (note: this is a trivial and contrived example just to get the point accross).
 
 ```js
 function willItBlend(someObject) {
   var ItWillBlend;
-  
+
   if (someObject.blendable ==== 'It will blend') {
     itWillBlend = true;
   } else {
     itWillBlend = false;
   }
-  
+
   return itWillBlend;
 }
 ```
@@ -25,7 +29,7 @@ While this does seem readable, let us add another condition to verify that the f
 ```js
 function willItBlend(someObject) {
   var itWillBlend;
-  
+
   if (typeof someObject === 'object') {
     if (someObject.blendable ==== 'It will blend') {
       itWillBlend = true;
@@ -35,12 +39,12 @@ function willItBlend(someObject) {
   } else {
     itWillBlend = false;
   }
-    
+
   return itWillBlend;
 }
 ```
 
-This function is clear and its name is descriptive but is seems unneccarrily complicated. Can we use the return early pattern to increase readablity and decrease the number of `else` statements? Let us give it a try.
+This function is clear and its name is descriptive but is seems unnecessarily complicated. Can we use the return early pattern to increase readability and decrease the number of `else` statements? Let us give it a try.
 
 
 ```js
@@ -48,16 +52,16 @@ function willItBlend(someObject) {
   if (typeof someObject !== 'object') {
     return false;
   }
-  
+
   if (someObject.blendable !== 'It will blend') {
     return false;
-  } 
-  
+  }
+
   return true;
 }
 ```
 
-Using the return early pattern, we were able to remove all the unnessary else statments and make our functions purpose and signature (the typeof of argument it expects) much clearer and concise. 
+Using the return early pattern, we were able to remove all the unnecessary else statements and make our functions purpose and signature (the typeof of argument it expects) much clearer and concise.
 
 ### Bonus: One conditional statement
 
@@ -71,7 +75,7 @@ function willItBlend(someObject) {
     ) {
     return false;
   }
-  
+
   return true;
 }
 ```
