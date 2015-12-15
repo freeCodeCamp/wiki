@@ -257,13 +257,6 @@
 5. [Bonfire: No repeats please](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/bonfire-no-repeats-please)
 6. [Bonfire: Friendly Date Ranges](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Bonfire-Friendly-Date-Ranges)
 
-# AngularJS
-1. Waypoint: Get Started with Angular.js
-2. Waypoint: Apply Angular.js Directives
-3. Waypoint: Power Forms with Angular.js
-4. Waypoint: Customize Angular.js Directives
-5. Waypoint: Create Angular.js Services
-
 # Git
 1. [Waypoint: Save your Code Revisions Forever with Git](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Save-your-Code-Revisions-Forever-with-Git)
 
