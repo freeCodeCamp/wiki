@@ -237,8 +237,8 @@
 3. [Waypoint: Get JSON with the jQuery getJSON Method](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Get-JSON-with-the-jQuery-getJSON-Method)
 4. [Waypoint: Convert JSON Data to HTML](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Convert-JSON-Data-to-HTML)
 5. [Waypoint: Render Images from Data Sources](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Render-Images-from-Data-Sources)
-6. Waypoint: Prefilter JSON
-7. Waypoint: Get Geo-location Data
+6. [Waypoint: Prefilter JSON](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Prefilter-JSON)
+7. [Waypoint: Get Geo-location Data](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Get-Geo-location-Data)
 
 # Upper Intermediate Algorithm Scripting
 1. [Bonfire: Make a Person](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/bonfire-make-a-person)
@@ -257,18 +257,11 @@
 5. [Bonfire: No repeats please](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/bonfire-no-repeats-please)
 6. [Bonfire: Friendly Date Ranges](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Bonfire-Friendly-Date-Ranges)
 
-# AngularJS
-1. Waypoint: Get Started with Angular.js
-2. Waypoint: Apply Angular.js Directives
-3. Waypoint: Power Forms with Angular.js
-4. Waypoint: Customize Angular.js Directives
-5. Waypoint: Create Angular.js Services
-
 # Git
 1. [Waypoint: Save your Code Revisions Forever with Git](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Save-your-Code-Revisions-Forever-with-Git)
 
 # Node.js and Express.js
-1. Waypoint: Manage Packages with NPM
+1. [Waypoint: Manage Packages with NPM]
 2. Waypoint: Start a Node.js Server
 3. Waypoint: Continue working with Node.js Servers
 4. Waypoint: Finish working with Node.js Servers
