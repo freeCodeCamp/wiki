@@ -3,7 +3,7 @@ _work in progress_
 # Bonfire Style Guide
 Writing Bonfire challenges is a great way to exercise your own problem solving and testing abilities. It is a simple three step process.
 1. Fill out the [generator](http://www.freecodecamp.com/bonfire-challenge-generator) form and test your challenge.
-2. Once you have confirmed a working bonfire challenge in the generator, copy and paste the the fields into the [JSON generator.](http://www.freecodecamp.com/bonfire-json-generator)
+2. Once you have confirmed a working bonfire challenge in the generator, copy and paste the fields into the [JSON generator.](http://www.freecodecamp.com/bonfire-json-generator)
 3. Copy the JSON, fork the freecodecamp repository, and submit a pull request with your addition to the [bonfires.json.](https://github.com/FreeCodeCamp/freecodecamp/blob/master/seed_data/bonfires.json)
 
 ## Name

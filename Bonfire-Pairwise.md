@@ -66,8 +66,32 @@ function pairwise(arr, arg) {
 - Then I check to make sure that the two numbers add to arg that was passed as a parameter to the function; we also have to make sure the index from the second loop is grater than the one from the first loop to avoid adding wrong indices. We also have to check to make sure the indices are not already part of the **index** array.
 - If all that is true, then we add the two indices as integer by using '+' or parseInt(), and then we stop the inner loop since everything else would be redundant and wrong.
 - After all the loops are over, check in **index** is empty, if it is then return 0, otherwise return the addition of all the integers in it using Array.reduce(callbackFunc) to return the sum of the numbers.
+- 
+##Another Solution
 
+```js
+function pairwise(arr, arg) {
+ //Set sum of indices to zero
+ var sum = 0;
+ //looping from first element
+  for(i=0;i<arr.length;i++){
+  //Looping from second element by setting first element  constant
+ for(j=i+1;j<arr.length;j++){
+ //Check whether the sum is equal to arg
+   if(arr[i]+arr[j] ==arg){
+   //Add the indices
+     sum += i+j;
+     //Set the indices to NaN so that they can't be used in next iteration
+     arr[i] =arr[j] = NaN;
+    }
+   } 
+  }
+ return sum;
+}
+pairwise([1, 1, 1], 2);
+```
+#Code explanation in comments
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @coded9 @SaintPeter`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
