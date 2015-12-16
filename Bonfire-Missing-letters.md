@@ -78,6 +78,19 @@ function fearNotLetter(str) {
   return undefined;
 }
 
+// Another take on the same solution
+function fearNotLetter(str) {
+/* We iterate using two different variables, the regular index one and char
+which starts with the starting escaped character and that needs to increase by 1 */
+  for (var i = 0, char = str.charCodeAt(0); i < str.length; i++, char++) {
+    if (str.charCodeAt(i) !== char) {
+    /* If char has not increased in the same ratio than index, we found the missing char */
+      return String.fromCharCode(char);
+    }
+  }
+}
+
+
 ```
 # Code Explanation:
 - Read comments in code.
