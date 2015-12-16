@@ -109,7 +109,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Santiago](https://www.facebook.com/groups/free.code.camp.santiago/)
 - China
   - [Beijing](https://www.facebook.com/groups/free.code.camp.beijing/)
-  - [Shanghai](https://www.facebook.com/groups/free.code.camp.Shanghai/)
+  - [Shanghai](https://www.facebook.com/groups/963661723712718/)
   - [Shenzhen](https://www.facebook.com/groups/free.code.camp.shenzhen/)
 - Colombia
   - [Barranquilla](https://www.facebook.com/groups/free.code.camp.barranquilla.co/)
