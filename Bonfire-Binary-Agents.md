@@ -99,14 +99,19 @@ function binaryAgent(str) {
 
 ```js
 function binaryAgent(str) {
-  return str.replace(/(\d+)(\s?)/g,function(match,p1,p2){return String.fromCharCode(parseInt(p1, 2));});
+  var re = /(\d+)(\s?)/g;
+  function convertToChar(match,p1,p2){
+    return String.fromCharCode(parseInt(p1, 2));
+  }
+  return str.replace(re, convertToChar);
 }
 ```
 
 # Code Explanation
-- In this solution we use `String.replace` to find all the binary numbers and convert them to characters
+- In this solution we use `String.replace()` to find all the binary numbers and convert them to characters
 - First we use a regular expression to find all the binary numbers and optional trailing spaces
 - Then we define a function that converts the first parenthesized submatch into a number `parseInt()` and then into a character`String.fromCharCode()`. By not using the second parenthisized submatch we leave out all the spaces that where in between the binary numbers.
+- Lastly we use our defined regex and function in the `String.replace()` function.
 
 # Credits:
 If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @JamesKee @sabahang @crisvdkooij`**
