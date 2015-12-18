@@ -95,7 +95,25 @@ function binaryAgent(str) {
 - Last we can use `String.fromCharCode()` to convert each ASCII number into the corresponding character
 - However `fromCharCode()` expects a series of numbers rather than an Array! We can use ES6 Spread Operator to pass in an Array of numbers as individual numbers. See here for more info; https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator
 
+## Code Solution 4:
+
+```js
+function binaryAgent(str) {
+  var re = /(\d+)(\s?)/g;
+  function convertToChar(match,p1,p2){
+    return String.fromCharCode(parseInt(p1, 2));
+  }
+  return str.replace(re, convertToChar);
+}
+```
+
+# Code Explanation
+- In this solution we use `String.replace()` to find all the binary numbers and convert them to characters
+- First we use a regular expression to find all the binary numbers and optional trailing spaces
+- Then we define a function that converts the first parenthesized submatch into a number `parseInt()` and then into a character`String.fromCharCode()`. By not using the second parenthisized submatch we leave out all the spaces that where in between the binary numbers.
+- Lastly we use our defined regex and function in the `String.replace()` function.
+
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @JamesKee @sabahang`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @JamesKee @sabahang @crisvdkooij`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
