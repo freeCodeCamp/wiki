@@ -3,6 +3,7 @@
 # Explanation:
 This problem is very straight forward, you will get string that will represent a sentence in binary code, and you need to translate that into words. There is not direct way to do this so you will have to translate twice.
 
+## Hint: 1
 You should first convert from **binary** to **decimal** and from decimal before translating those values into characters
 
 ## Hint: 2
