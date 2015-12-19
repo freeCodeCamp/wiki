@@ -28,15 +28,6 @@ function telephoneCheck(str) {
 
 ```js
 function telephoneCheck(str) {
-  // Good luck!
-  var re = /^1?[\(\s]*\d{3}[-\)\s]*\d{3}[-\s]?\d{4}$/;
-
-  return re.test(str);
-}
-```
-
-```js
-function telephoneCheck(str) {
 //provided by jhalls
    var regex = /^1?\s?(\(\d{3}\)|\d{3})?\s?-?\d{3}-?\s?\d{4}$/;
   
