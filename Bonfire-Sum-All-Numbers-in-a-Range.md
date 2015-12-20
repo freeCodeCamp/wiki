@@ -19,8 +19,8 @@
 
 ```js
 function sumAll(arr) {
-    var max = Math.max(...arr);
-    var min = Math.min(...arr);
+    var max = Math.max(arr[0], arr[1]);
+    var min = Math.min(arr[0], arr[1]);
     var temp = 0;
     for (var i=min; i <= max; i++){
         temp += i;
@@ -55,9 +55,30 @@ function sumAll(arr) {
 }
 ```
 
+## Code Solution 3:
+
+```js
+function sumAll(arr) {
+    var sum = 0;
+    for (var i = Math.min(...arr); i <= Math.max(...arr); i++){
+        sum += i;
+    }
+  return sum;
+}
+
+sumAll([1, 4]);
+```
+
+## Code Explanation:
+- Creating a variable sum to store the sum of the elements.
+- Starting iteration of the loop from min element of given array and stopping when it reaches the max element. 
+- Using a spread operator (...arr) allows passing the actual array to the function instead of one-by-one elements.
+
 ## References & Details:
 - [Arithmetic Progression summing formula](https://en.wikipedia.org/wiki/Arithmetic_progression#Sum)
 - [ES6 arrow function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+- [Spread Operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator)
+- [Using Spread Operator in Math.max()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/max)
 
 The line `var sortedArr = arr.sort((a,b) => a-b);` is probably what will have you more confused. This would be the same as creating a function that returns `a-b` for the `sort()` which is the standard way to sort numbers from smallest to largest. Instead using arrow or fat arrow function, we are able to do all that in one single line thus allowing us to write less.
 
