@@ -567,7 +567,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [San Jose](https://www.facebook.com/groups/free.code.camp.san.jose)
     - [San Luis Obispo](https://www.facebook.com/groups/free.code.camp.SLO/)
     - [Santa Barbara](https://www.facebook.com/groups/free.code.camp.santa.barbara/)
-	  - [Santa Rosa](https://www.facebook.com/groups/free.code.camp.santa.rosa/)
+    - [Santa Rosa](https://www.facebook.com/groups/free.code.camp.santa.rosa/)
     - [South Los Angeles](https://www.facebook.com/groups/free.code.camp.southlosangeles/)
     - [Temecula](https://www.facebook.com/groups/free.code.camp.temecula/)
   - Colorado
