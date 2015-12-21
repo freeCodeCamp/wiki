@@ -50,7 +50,32 @@ function diff(arr1, arr2) {
 }
 ```
 
+## Code Solution 3:
+
+```js
+// This solution runs two times faster than solutions 1 and 2
+function diff(arr1, arr2) {
+  var newArr = [];
+  // Looping through arr1 to find elements that do not exist in arr2  
+  for (var i = 0; i < arr1.length; i++) {
+    if (arr2.indexOf(arr1[i]) === -1){
+      // Pushing the unique to arr1 elements to the newArr
+      newArr.push(arr1[i]);
+    } 
+  }
+  // Looping through arr2 to find elements that do not exist in arr1
+  for (var j = 0; j < arr2.length; j++) {
+    if (arr1.indexOf(arr2[j]) === -1){
+      // Pushing the unique to arr2 elements to the newArr    
+      newArr.push(arr2[j]);
+    } 
+  }
+  
+  return newArr;
+}
+```
+
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @aganita`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
