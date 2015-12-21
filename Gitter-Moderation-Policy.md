@@ -7,7 +7,7 @@ People who come across as excessively negative
 
 2) Moderators will then send them this message:
 
-```
+```md
 Hey, I'm sorry but I had to temporarily ban you.
 
 I can consider unbanning you, but I need you to do something first.
@@ -15,6 +15,15 @@ I can consider unbanning you, but I need you to do something first.
 1. Read our [Code of Conduct](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Code-of-Conduct).    
 2. Please confirm that you've read it.    
 3. Explain to me why you think I banned you.    
+```
+
+or a warning such as
+
+```md
+I just saw your exchange in the "FreeCodeCamp" room. That sort of negativity is the opposite of what we expect in that room and in general. We are a positive and supportive community. Regardless of your personal circumstances, you need to be willing to support others.
+Please Review our [Code of Conduct](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Code-of-Conduct).
+If you are unable or unwilling to be nice to other campers you will be banned.
+Thank you and happy coding!
 ```
 
 3) Based on their reply, moderators can decide whether to unban the offender. If the offender hasn't been banned by that moderator before, and if they seem respectful and apologetic, the moderator can unban them. As a matter of policy, moderators will be polite during this process, no matter how poorly the offender has behaved.
