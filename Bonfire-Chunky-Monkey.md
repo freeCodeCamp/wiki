@@ -113,20 +113,16 @@ function chunk(arr, size) {
 
 ```js
 function chunk(arr, size) {
-  
   // Break it up.
-    
   var newArr = [];
+  var i = 0;
   
-  for (var i = 0; i < arr.length; i += size) {
-    
-    newArr.push(arr.slice(i, i + size));
-    
+  while (i < arr.length) {
+    newArray.push(arr.slice(i, i+size));
+    i += size;
   }
-  
   return newArr;
 }
-
 chunk(["a", "b", "c", "d"], 2);
 ```
 
