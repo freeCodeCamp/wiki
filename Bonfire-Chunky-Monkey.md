@@ -130,6 +130,18 @@ function chunk(arr, size) {
 chunk(["a", "b", "c", "d"], 2);
 ```
 
+## Solution 4 (while instead of for loop):
+function chunk(arr, size) {
+  var newArray = [];
+  var i = 0;
+    while (i < arr.length) {
+      newArray.push(arr.slice(i, i+size));
+      i += size;
+      }
+    return newArray;
+}
+chunk(["a", "b", "c", "d"], 2);
+
 # Credits:
 If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @kirah1314 @Rafase282 @jsommamtek`
 
