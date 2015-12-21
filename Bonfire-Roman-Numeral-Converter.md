@@ -15,7 +15,7 @@
 
 **Solution ahead!**
 
-# Code Solution:
+# Code Solution 1:
 
 ```js
 var convert = function(num) {
@@ -45,8 +45,40 @@ var convert = function(num) {
 # Code Explanation:
 - Read comments on code.
 
+# Code Solution 2:
+
+```js
+var convert = function(num) {
+
+  // Create arrays with default conversion with matching indices
+  var decimalNumArray = [ 1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1 ];
+  var romanNumArray = [ 'M', 'CM', 'D', 'CD', 'C', 'XC', 'L', 'XL', 'X', 'IX', 'V', 'IV', 'I' ];
+  var resultRomanNumber = [];
+
+  // Loop through the indices of the decimalNumArray array
+  for (var index = 0; index < decimalNumArray.length; index++) {
+    // Build the roman numerial while the decimal vaue from decimalNumArray is smaller or equal num
+    while (decimalNumArray[index] <= num) {
+      // Add the roman numeral to the romanNumber array
+      resultRomanNumber.push(romanNumArray[index]);
+      // Decrease num by the decimal equivalent
+      num -= decimalNumArray[index];
+    }
+  }
+
+  // String concatenation is slower and causes major performance problems in older versions of IE 
+  // Working with arrays is a more efficient approach
+  // Therefore it is highly recommended to use .push then use join("") to return a result string 
+  return resultRomanNumber.join("");
+};
+```
+
+# Code Explanation:
+- The only differnce between Solution 1 and Solution 2 is use of an array instead of string concatenation.
+- [Optimizing JavaScript code](https://developers.google.com/speed/articles/optimizing-javascript?hl=en)
+
 # Credits:
 If you found this page useful, you can give thanks by copying and pasting this on the main chat: 
-`Thanks @Rafase282 @SaintPeter @benschac`
+`Thanks @Rafase282 @SaintPeter @benschac @aganita`
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
