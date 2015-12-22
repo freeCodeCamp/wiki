@@ -1,21 +1,21 @@
-# The problem
-Return the remaining elements of an array after chopping off n elements from the head. Factorials are often represented with the shorthand notation n!
+# Problem Explanation:
+Return the remaining elements of an array after chopping off n elements from the head.
 
 For example: `slasher([1, 2, 3], 2);` must return [3]
 
-## Analysis
-Since we need only the remaining part of an array we can just remove what we don't.
+## Analysis:
+We need only the remaining part of an array, so we can just remove what we don't.
 
-## Understanding slicing
-Slice allows to get only what you want from an array.
+## Understanding slicing:
+`.slice()` allows to get only what you want from an array.
 
-## Understanding the splice
-If you want the **tail** of a snake remove the head first. The splice() method changes the content of an array by removing existing elements and/or adding new elements. This can be handy. Get an array, remove the first part and return the remaining.
+## Understanding the splice:
+If you want the **tail** of a snake remove the head first. The `.splice()` method changes the content of an array by removing existing elements and/or adding new elements. This can be handy. Get an array, remove the first part and return the remaining.
 
-## :construction: My Solution is coming up!
-Don't scroll down if you don't want to see it!
+## Spoiler Alert!
+[![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
 
-![warning](http://www.yourdrum.com/yourdrum/images/2007/10/10/red_warning_sign_2.gif)        
+**Solution ahead!**
 
 ```
            ,,,         ,,,
@@ -28,7 +28,7 @@ Don't scroll down if you don't want to see it!
          $$$$  p"$$$"q  $$$$$
          $$$$  .$$$$$.  $$$$
           $$DcaU$$$$$$$$$$
-            "Y$$$"*"$$$Y"    
+            "Y$$$"*"$$$Y"
                 "$b.$$"
 ```
 
@@ -48,7 +48,7 @@ slasher([1, 2, 3], 2);
 
 ```javascript
 function slasher(arr, howMany) {
-  
+
   //Return string after the amount chopped off.
   return arr.slice(howMany);
 
