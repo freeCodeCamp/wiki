@@ -693,6 +693,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Peoria](https://www.facebook.com/groups/free.code.camp.Peoria/)
     - [Sterling](https://www.facebook.com/groups/free.code.camp.Sterling.IL/)
     - [Quad Cities](https://www.facebook.com/groups/free.code.camp.quadcities/)
+    - [Washington](https://www.facebook.com/groups/free.code.camp.Peoria/)
   - Indiana
     - [Bloomington](https://www.facebook.com/groups/free.code.camp.bloomington.in/)
     - [Evansville](https://www.facebook.com/groups/free.code.camp.evansville.in/)
@@ -702,6 +703,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Ames](https://www.facebook.com/groups/free.code.camp.ames.iowa/)
     - [Cedar Rapids](https://www.facebook.com/groups/free.code.camp.cedar.rapids/)
     - [Des Moines](https://www.facebook.com/groups/free.code.camp.des.moines/)
+    - [Fort Dodge](https://www.facebook.com/groups/free.code.camp.fort.dodge.iowa/)
     - [Sioux City](https://www.facebook.com/groups/free.code.camp.sioux.city/)
   - Kansas
     - [Kansas City](https://www.facebook.com/groups/free.code.camp.kansascity/)
