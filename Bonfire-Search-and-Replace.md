@@ -15,7 +15,7 @@
 
 **Solution ahead!**
 
-## Code Solution:
+## Code Solution #1:
 
 ```js
 function myReplace(str, before, after) {
@@ -32,7 +32,7 @@ function myReplace(str, before, after) {
   return str;
 }
 ```
-## Another Solution:
+## Code Solution #2:
 
 ```js
 function myReplace(str, before, after) {
@@ -51,10 +51,35 @@ function myReplace(str, before, after) {
 }
 ```
 
+## Code Solution #3:
+
+```js
+function myReplace(str, before, after) {
+    // applyCasing function is a universal solution for the casing problem 
+    // apply the casing of source to target parameter and return target 
+    function applyCasing(source, target) {
+        var targetArr = target.split("");
+        var sourceArr = source.split("");
+       
+        for (var i = 0; i < Math.min(targetArr.length, sourceArr.length); i++){
+            if (/[A-Z]/.test(sourceArr[i])) {
+                targetArr[i] = targetArr[i].toUpperCase();
+            }
+            else targetArr[i] = targetArr[i].toLowerCase();
+        } 
+        return (targetArr.join(""));
+    }
+    
+    
+    // replace "before" with "after" with "before"-casing 
+    return str.replace(before, applyCasing(before, after));
+}
+```
+
 # Code Explanation:
 - Read comments on program.
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282`** **`thanks @coded9`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @coded9 @aganita`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
