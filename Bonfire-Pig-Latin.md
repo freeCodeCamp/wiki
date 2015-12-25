@@ -17,7 +17,7 @@
 
 ## Code Solution:
 
-### First
+### Solution #1
 ```js
 function translate(str) {
   // Create variables to be used
@@ -27,7 +27,7 @@ function translate(str) {
   if (str[0].match(regex)) {
     pigLatin = str + 'way';
   } else {
-    // Find how many consonants before the firs vowel.
+    // Find how many consonants before the first vowel.
     var vowelIndice = str.indexOf(str.match(regex)[0]);
     // Take the string from the first vowel to the last char
     // then add the consonants that were previously omitted and add the ending.
@@ -38,7 +38,7 @@ function translate(str) {
 }
 ```
 
-### Second
+### Solution #2
 ```js
 function translate(str) {
   //finding all the consonants in the beginning of the str. 
@@ -60,10 +60,40 @@ function translate(str) {
 }
 ```
 
+### Solution #3
+```js
+
+function translate(str) {
+    var strArr = [];
+    var tmpChar;
+    
+    // check if the char is consonant using RegEx
+    function isConsonant(char) {
+        return !/[aeiou]/.test(char);
+    }
+    // return initial str + "way" if it starts with vowel 
+    // if not - convert str to array
+    if (!isConsonant(str.charAt(0)))
+        return str + "way";
+    else 
+        strArr = str.split("");
+        
+    // push all consonats to the end of the array
+    while (isConsonant(strArr[0])) {
+        tmpChar = strArr.shift();
+        strArr.push(tmpChar);
+    }
+ // convert array to string and concatenate "ay" at the end  
+ return strArr.join("")+"ay";
+}
+
+translate("consonant");
+```
+
 # Code Explanation:
 - Read comments on code.
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @sabahang`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @sabahang @aganita`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
