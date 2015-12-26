@@ -1,4 +1,4 @@
-The `body` element can be style just like any other.
+The `body` element can be styled just like any other.
 
 ```
 <style>

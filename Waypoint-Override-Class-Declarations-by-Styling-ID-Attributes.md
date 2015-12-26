@@ -1,4 +1,4 @@
-We can use `id` to override  styling too.
+We can use `id` to override  styling too. `id` should have a higher priority than `class`, so its rules apply if a conflict occurs.
 
 ```
 <style>
