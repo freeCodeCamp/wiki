@@ -64,13 +64,9 @@ function sym() {
       });
     }
 
-    // Run filter function on each array against the other then get unique values
+    // Run filter function on each array against the other
     return filterFunction(arr1, arr2)
-      .concat(filterFunction(arr2, arr1))
-      .filter(function(item, idx, arr) {
-        // Keep any items that are unique - the index of the current item === index of the first occurrence in the array
-        return arr.indexOf(item) === idx;
-      });
+      .concat(filterFunction(arr2, arr1));
   };
 
   // Reduce all arguments getting the difference of them
