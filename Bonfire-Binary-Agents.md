@@ -1,15 +1,16 @@
 ![](http://i.imgur.com/HSwaSFK.jpg)
 
 # Explanation:
-This problem is very straight forward, you will get string that will represent a sentence in binary code, and you need to translate that into words. There is not direct way to do this so you will have to translate twice.
+This problem is very straight forward, you will get a string that will represent a sentence in binary code, and you need to translate that into words. There is not direct way to do this so you will have to translate twice.
 
-You should first convert from **binary** to **decimal** and from decimal before translating those values into characters
+## Hint: 1
+You should first convert from **binary** to **decimal** before translating those values into characters
 
 ## Hint: 2
 Things are easier when focusing on smaller parts, divide the input to focus on one letter at the time.
 
 ## Hint: 3
-Make sure that each time you transcode a character from binary to decimal, that you reset whatever variable you used to keep track of the ones. Also do not forget to turn everything back into one string.
+Make sure that each time you transcode a character from binary to decimal, you reset whatever variable you used to keep track of the ones. Also do not forget to turn everything back into one string.
 
 ## Spoiler Alert!
 [![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
@@ -95,7 +96,25 @@ function binaryAgent(str) {
 - Last we can use `String.fromCharCode()` to convert each ASCII number into the corresponding character
 - However `fromCharCode()` expects a series of numbers rather than an Array! We can use ES6 Spread Operator to pass in an Array of numbers as individual numbers. See here for more info; https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator
 
+## Code Solution 4:
+
+```js
+function binaryAgent(str) {
+  var re = /(\d+)(\s?)/g;
+  function convertToChar(match,p1,p2){
+    return String.fromCharCode(parseInt(p1, 2));
+  }
+  return str.replace(re, convertToChar);
+}
+```
+
+# Code Explanation
+- In this solution we use `String.replace()` to find all the binary numbers and convert them to characters
+- First we use a regular expression to find all the binary numbers and optional trailing spaces
+- Then we define a function that converts the first parenthesized submatch into a number `parseInt()` and then into a character`String.fromCharCode()`. By not using the second parenthisized submatch we leave out all the spaces that where in between the binary numbers.
+- Lastly we use our defined regex and function in the `String.replace()` function.
+
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @JamesKee @sabahang`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @JamesKee @sabahang @crisvdkooij`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

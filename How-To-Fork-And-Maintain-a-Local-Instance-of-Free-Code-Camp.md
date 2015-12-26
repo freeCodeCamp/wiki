@@ -42,7 +42,7 @@ This will download the entire FCC repo to your projects directory.
 1. Add a remote to the official FCC repo:  
 `git remote add upstream https://github.com/FreeCodeCamp/FreeCodeCamp.git`
 
-Congradulations, you now have a local copy of the FCC repo!
+Congratulations, you now have a local copy of the FCC repo!
 
 # Maintaining your Fork
 Now that you have a copy of your fork, there is work you will need to do to keep it current.

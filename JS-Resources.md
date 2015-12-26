@@ -51,6 +51,7 @@ See Also: :loop: [**Quick JS**](https://github.com/freecodecamp/freecodecamp/wik
 - [Learning JavaScript Design Patterns](http://addyosmani.com/resources/essentialjsdesignpatterns/book/)
 - [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
 - [JSDoc](http://usejsdoc.org/)
+- [Javascript Allonge Six](https://leanpub.com/javascriptallongesix/read)
 
 ----
 
