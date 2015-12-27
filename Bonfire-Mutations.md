@@ -63,21 +63,7 @@ function mutation(arr) {
 }
 ```
 
-# Code Explanation:
-- First, we make the two strings in the array lowercase.  
-- Second, we split the individual strings in to 2 separate arrays of characters. test variable holds what we are looking for. target variable is where we are looking.   
-- Third, we loop through our test characters, and if they are not _all_ found we return false.
-
-
-#### Code Explanation(Third solution):
-- First, we convert the two strings of the array to the lowercase.
-- Then, we loop through the letters of our second string of the array and 
-search for it in the first string, if it's not present we return false 
-and our program terminates.
-- If all the letters in the second string is present in the first, the
-loop ends without returning anything, and then we return true.
-
-# Declarative Solution:
+Declarative Solution:
 
 ```js
 function mutation(arr) {
@@ -92,7 +78,21 @@ function mutation(arr) {
 mutation(['hello', 'hey']);
 ```
 
-## Code Explanation:
+# Code Explanation:
+- First, we make the two strings in the array lowercase.  
+- Second, we split the individual strings in to 2 separate arrays of characters. test variable holds what we are looking for. target variable is where we are looking.   
+- Third, we loop through our test characters, and if they are not _all_ found we return false.
+
+
+#### Code Explanation(Third solution):
+- First, we convert the two strings of the array to the lowercase.
+- Then, we loop through the letters of our second string of the array and 
+search for it in the first string, if it's not present we return false 
+and our program terminates.
+- If all the letters in the second string is present in the first, the
+loop ends without returning anything, and then we return true.
+
+#### Declarative Code Explanation:
 
 Grab the second string, lowercase and turn it into an array; then make sure *every* one of its *letters* is a part of the lowercased first string.
 
