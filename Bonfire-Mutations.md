@@ -15,14 +15,13 @@
 
 **Solution ahead!**
 
-## Code Solution:
+# Code Solutions:
 
+####First solution (Procedural):
 ```js
 function mutation(arr) {
   var test = arr[1].toLowerCase();
   var target = arr[0].toLowerCase();
-  test = test.split('');
-  target = target.split('');
   for (i=0;i<test.length;i++) {
     if (target.indexOf(test[i]) < 0)
       return false;
@@ -31,40 +30,7 @@ function mutation(arr) {
  }
 ```
 
-Second solution:
-```js
-function mutation(arr) {
-  var first = arr[0].toLowerCase().split('');
-  var second = arr[1].toLowerCase().split('');
-  var temp = 0;
-  for (var s = 0; s < second.length; s++) {
-    if (first.indexOf(second[s]) > -1) {
-      temp += 0;
-    } else
-      temp += 1;
-  }
-
-  if (temp === 0)
-    return true;
-  else
-    return false;
-}
-```
-
-Third solution:
-```js
-function mutation(arr) {
-  arr[0]=arr[0].toLowerCase();
-  arr[1]=arr[1].toLowerCase();
-  for(var x in arr[1]){
-    if(arr[0].indexOf(arr[1][x])<0) return false;
-  }
-  return true;
-}
-```
-
-Declarative Solution:
-
+####Second Solution (Declarative):
 ```js
 function mutation(arr) {
  return arr[1].toLowerCase()
@@ -74,25 +40,16 @@ function mutation(arr) {
                              .indexOf(letter) != -1;
               });
 }
-
-mutation(['hello', 'hey']);
 ```
 
-# Code Explanation:
-- First, we make the two strings in the array lowercase.  
-- Second, we split the individual strings in to 2 separate arrays of characters. test variable holds what we are looking for. target variable is where we are looking.   
-- Third, we loop through our test characters, and if they are not _all_ found we return false.
+# Code Explanations:
+####First solution (Procedural):
+First we make the two strings in the array lowercase. `test` will hold what we are looking for in `target`.   
+Then we loop through our test characters and if any of them is not found we `return false`.
 
+If they are _all_ found, the loop will finish without returning anything and we get to `return true`.
 
-#### Code Explanation(Third solution):
-- First, we convert the two strings of the array to the lowercase.
-- Then, we loop through the letters of our second string of the array and 
-search for it in the first string, if it's not present we return false 
-and our program terminates.
-- If all the letters in the second string is present in the first, the
-loop ends without returning anything, and then we return true.
-
-#### Declarative Code Explanation:
+####Second solution (Declarative):
 
 Grab the second string, lowercase and turn it into an array; then make sure *every* one of its *letters* is a part of the lowercased first string.
 
