@@ -15,7 +15,7 @@ As you get the next odd one, don't forget to add it to a global variable that ca
 
 **Solution ahead!**
 
-## Code Solution:
+## Code Solution #1:
 
 ```js
 function sumFibs(num) {
@@ -41,6 +41,30 @@ function sumFibs(num) {
 - We use the modulo operand to check if the current number is odd or even. If even add it to the result.
 - Complete the Fibonacci circle by rotating getting the next number and swapping values after.
 - Return the result.
+
+## Code Solution #2:
+
+```js
+function sumFibs(num) {
+  // create an array of fib numbers till num
+  var arrFib = [1];
+  for (var i = 1; i <=num;) {
+      arrFib.push(i);
+      i = arrFib[arrFib.length - 1] + arrFib[arrFib.length - 2];
+  }
+  
+  // return the sum of odd numbers from the array
+  var res = arrFib.reduce(function(prev, curr) { 
+      if (curr%2 !== 0) return prev + curr;
+      else return prev;
+    });
+  
+  return res;
+}
+```
+
+# Code Explanation:
+- See comments
 
 # Credits:
 If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282 @d3ddd`
