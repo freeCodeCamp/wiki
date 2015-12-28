@@ -36,7 +36,7 @@ code here
 - Explain your code here
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @username1 @username2 @yourusername`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @username1 @username2 @yourusername for your help with Bonfire: Name of the Bonfire`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
 
@@ -45,5 +45,5 @@ If you found this page useful, you can give thanks by copying and pasting this o
 
 ### Important notes about this template.
 - This template can also be used for regular pages.
-- The author part has been removed. This is a collaboration page, while people can see who contributed by checking the revision, using the code for the credits will also benefits the contributors and your name will be there, so there is no longer any need to add your picture or links.
-- If you have suggestions or comments about this template then feel free to contact [@Rafase282 in Gitter](https://gitter.im/Rafase282)
+- The author part has been removed. This is a collaboration page, while people can see who contributed by checking the revision, using the code for the credits will also benefit the contributors and your name will be there, so there is no longer any need to add your picture or links.
+- If you have suggestions or comments about this template, feel free to contact [@Rafase282 in Gitter](https://gitter.im/Rafase282)

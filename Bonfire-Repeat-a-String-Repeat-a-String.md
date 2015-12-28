@@ -82,6 +82,6 @@ function repeat(str, num) {
 ```
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282 @shadowfool`
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 @shadowfool for your help with Bonfire: Repeat a String Repeat a String`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

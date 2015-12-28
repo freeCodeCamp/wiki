@@ -92,7 +92,7 @@ function binaryAgent(str) {
 
 # Code Explanation
 - First we use `split()` to be able to work on each character as an Array element
-- Then use `map()` to process each element  from binary to decimal using 'pareseInt()`
+- Then use `map()` to process each element  from binary to decimal using `pareseInt()`
 - Last we can use `String.fromCharCode()` to convert each ASCII number into the corresponding character
 - However `fromCharCode()` expects a series of numbers rather than an Array! We can use ES6 Spread Operator to pass in an Array of numbers as individual numbers. See here for more info; https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator
 
@@ -115,6 +115,6 @@ function binaryAgent(str) {
 - Lastly we use our defined regex and function in the `String.replace()` function.
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @JamesKee @sabahang @crisvdkooij`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`thanks @Rafase282 @JamesKee @sabahang @crisvdkooij for your help with Bonfire: Binary Agents`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

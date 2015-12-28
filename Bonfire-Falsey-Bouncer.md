@@ -27,20 +27,6 @@ Don't scroll down if you don't want to see it!
 
 ![warning](http://www.yourdrum.com/yourdrum/images/2007/10/10/red_warning_sign_2.gif)        
 
-```
-           ,,,         ,,,
-          ;"   ^;     ;'   ",
-          ;    s$$$$$$$s     ;
-          ,  ss$$$$$$$$$$s  ,'
-          ;s$$$$$$$$$$$$$$$
-          $$$$$$$$$$$$$$$$$$
-         $$$$P""Y$$$Y""W$$$$$      -{ Happy Camping! }
-         $$$$  p"$$$"q  $$$$$
-         $$$$  .$$$$$.  $$$$
-          $$DcaU$$$$$$$$$$
-            "Y$$$"*"$$$Y"    
-                "$b.$$"
-```
 
 ## Code Solution:
 
@@ -81,6 +67,6 @@ function bouncer(arr) {
 
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @jones-codes`
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @jones-codes for your help with Bonfire: Falsy Bouncer`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

@@ -92,6 +92,6 @@ We are modifying the `replaceAt` function using prototype to facilitate the use 
 Split the string by whitespaces, and create a variable to track the updated title. Then we use a loop to turn turn the first character of the word to uppercase and the rest to lowercase. by creating concatenated string composed of the whole word in lowercase with the first character replaced by it's uppercase.
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282 @PoojaKumar`
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 @PoojaKumar @Hallaathrad for your help with Bonfire: Title Case a Sentence`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

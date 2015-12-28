@@ -17,21 +17,6 @@ If you want the **tail** of a snake remove the head first. The `.splice()` metho
 
 **Solution ahead!**
 
-```
-           ,,,         ,,,
-          ;"   ^;     ;'   ",
-          ;    s$$$$$$$s     ;
-          ,  ss$$$$$$$$$$s  ,'
-          ;s$$$$$$$$$$$$$$$
-          $$$$$$$$$$$$$$$$$$
-         $$$$P""Y$$$Y""W$$$$$      -{ Happy Camping! }
-         $$$$  p"$$$"q  $$$$$
-         $$$$  .$$$$$.  $$$$
-          $$DcaU$$$$$$$$$$
-            "Y$$$"*"$$$Y"
-                "$b.$$"
-```
-
 ## Code Solution:
 
 ```javascript
@@ -58,6 +43,21 @@ function slasher(arr, howMany) {
 - [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @clint74 @Rafase282 @M-Bowe`
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @clint74 @Rafase282 @M-Bowe for your help with Bonfire: Slasher Flick`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
+
+```
+           ,,,         ,,,
+          ;"   ^;     ;'   ",
+          ;    s$$$$$$$s     ;
+          ,  ss$$$$$$$$$$s  ,'
+          ;s$$$$$$$$$$$$$$$
+          $$$$$$$$$$$$$$$$$$
+         $$$$P""Y$$$Y""W$$$$$      -{ Happy Camping! }
+         $$$$  p"$$$"q  $$$$$
+         $$$$  .$$$$$.  $$$$
+          $$DcaU$$$$$$$$$$
+            "Y$$$"*"$$$Y"
+                "$b.$$"
+```
