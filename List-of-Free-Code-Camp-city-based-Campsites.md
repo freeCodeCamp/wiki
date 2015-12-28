@@ -667,6 +667,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Miami](https://www.facebook.com/groups/free.code.camp.miami/)
     - [New Orleans](https://www.facebook.com/groups/free.code.camp.neworleans/)
     - [Orlando](https://www.facebook.com/groups/free.code.camp.orlando/)
+    - [Panama City](https://www.facebook.com/groups/free.code.camp.panama.city.florida/)
     - [Pensacola](https://www.facebook.com/groups/free.code.camp.pensacola/)
     - [Tallahassee](https://www.facebook.com/groups/free.code.camp.tallahassee.florida/)
     - [Tampa Bay](https://www.facebook.com/groups/free.code.camp.tampa/)
