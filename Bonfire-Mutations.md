@@ -58,6 +58,6 @@ Grab the second string, lowercase and turn it into an array; then make sure *eve
 We check that not to be the case, for if this happens even once `every` will be false.
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @sxmxc @Rafase282 @anuragaryan @hallaathrad`
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @sxmxc @Rafase282 @anuragaryan @hallaathrad for your help with Bonfire: Mutations`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

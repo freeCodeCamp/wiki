@@ -77,6 +77,6 @@ orbitalPeriod([{name : "sputnik", avgAlt : 35873.5553}]);
 #Code explanation in comments
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @coded9`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @coded9 for your help with Bonfire: Map the Debris`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

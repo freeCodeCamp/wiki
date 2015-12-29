@@ -67,9 +67,16 @@ newArray.push(arr.slice(i, i + size));
 arr.slice(2, 2 + 2)
 ```
 
-  Now `arr.slice()` starts at the element 2 and stops at element 4 and in the next loop, `arr.slice()` will start at element 4 and stop at element 6. `newArray.push()` will push all the elements out into chunks of smaller arrays with the length of `size`.  
+  Now `arr.slice()` starts at the element 2 and stops at element 4 and in the next loop, `arr.slice()` will start at element 4 and stop at element 6. `newArray.push()` will push all the elements out into chunks of smaller arrays with the length of `size`.
+  
+## Spoiler Alert!
+[![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
 
-## Solution 1:
+**Solution ahead!**  
+
+## Code Solution:
+
+#### Solution 1:
 
 ```js
 function chunk(arr, size) {
@@ -93,7 +100,7 @@ function chunk(arr, size) {
 }
 ```
 
-## Solution 2:
+#### Solution 2:
 
 ```js
 function chunk(arr, size) {
@@ -109,7 +116,7 @@ function chunk(arr, size) {
 }
 ```
 
-## Solution 3:
+#### Solution 3:
 
 ```js
 function chunk(arr, size) {
@@ -127,7 +134,7 @@ chunk(["a", "b", "c", "d"], 2);
 ```
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @kirah1314 @Rafase282 @jsommamtek`
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @kirah1314 @Rafase282 @jsommamtek for your help with Bonfire: Chunky Monkey`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
 

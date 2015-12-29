@@ -90,6 +90,6 @@ Now we pass the *context* for `Function.apply.bind` call i.e. `Math.max` method 
 - http://devdocs.io/#q=js+Function+bind
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @Rafase282 @abhisekp`
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 @abhisekp for your help with Bonfire: Return Largest Numbers in Arrays`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

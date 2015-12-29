@@ -204,7 +204,7 @@
 11. [Bonfire: Chunky Monkey](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Bonfire-Chunky-Monkey)
 12. [Bonfire: Slasher Flick](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/bonfire-slasher-flick)
 13. [Bonfire: Mutations](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/bonfire-mutations)
-14. [Bonfire: Falsey Bouncer](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Bonfire-Falsy-Bouncer)
+14. [Bonfire: Falsy Bouncer](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Bonfire-Falsy-Bouncer)
 15. [Bonfire: Seek and Destroy](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Bonfire-Seek-and-Destroy)
 16. [Bonfire: Where do I belong](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Bonfire-Where-do-I-belong)
 
