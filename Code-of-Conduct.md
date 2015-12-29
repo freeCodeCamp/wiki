@@ -15,6 +15,8 @@ We do not tolerate harassment of campers in any form, anywhere on Free Code Camp
 
 If a camper engages in harassing behavior, our team will take any action we deem appropriate, up to and including banning them from Free Code Camp.
 
+No bots are allowed in any of the Official Chat Rooms without prior explicit permission from the FCC Core Team.
+
 We want everyone to feel safe and respected. If you are being harassed or notice that someone else is being harassed, say something! Message @quincylarson, @berkeleytrue, @brianamarie and @codenonprofit in Gitter (preferably with a screen shot of the offending language) so we can take fast action.
 
 If you have questions about this code of conduct, email us at [team@freecodecamp.com](mailto:team@freecodecamp.com).
