@@ -43,6 +43,6 @@ function bouncer(arr) {
 The `Array.prototype.filter` method expects a function that returns a `Boolean` value which takes a single argument and returns `true` for [truthy](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-truthy) value or `false` for [falsy](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-falsy) value. Hence we pass the built-in `Boolean` function.
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: `Thanks @renelis @abhisekp @Rafase282`
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @renelis @abhisekp @Rafase282 for your help with Bonfire: Falsy Bouncer`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

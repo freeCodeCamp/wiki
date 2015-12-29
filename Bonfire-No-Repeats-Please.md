@@ -105,6 +105,6 @@ function permAlone(str) {
 - Read comments in code
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Philosophist @Rafase282`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Philosophist @Rafase282 for your help with Bonfire: No Repeats Please`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

@@ -46,7 +46,6 @@ var convert = function(num) {
 - Read comments on code.
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: 
-`Thanks @Rafase282 @SaintPeter @benschac`
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 @SaintPeter @benschac for your help with Bonfire: Roman Numeral Converter`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
