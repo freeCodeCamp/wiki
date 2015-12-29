@@ -773,6 +773,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Lebanon](https://www.facebook.com/groups/free.code.camp.lebanon.nh)
     - [Rochester](https://www.facebook.com/groups/free.code.camp.rochester.new.hampshire/)
   - New Jersey
+    - [Bordentown](https://www.facebook.com/groups/free.code.camp.bordentown/)
     - [Freehold](https://www.facebook.com/groups/free.code.camp.freehold/)
     - [Jersey City](https://www.facebook.com/groups/free.code.camp.jersey.city.new.jersey/)
     - [New Brunswick](https://www.facebook.com/groups/free.code.camp.new.brunswick.new.jersey/)
