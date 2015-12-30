@@ -113,7 +113,7 @@ function translate(str) {
 - Read comments on code.
 
 #### Fourth solution (recursive and declarative)
-Let's start with a recursive function that will go checking for the first letter of the string to be in an *array of vowels*. In case of consonants, call itself on the next characters until finding the first vowel. It'll return the index of whatever it finds to be the last initial consonant. (i.e. Schmidtsville's would be 2).
+Let's start with a recursive function that will go checking for the first letter of the string to be in an *array of vowels*. In case of consonants, call itself on the next characters until finding the first vowel. It'll return the index of whatever it finds to be the last initial consonant. (i.e. Schmidtsville's would be 3).
 
 Then we'll grab our string, remove the letters up until that index, concatenate either that same chunk of removed string or `w` accordingly, and then `ay` regardless.
 
