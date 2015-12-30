@@ -123,7 +123,10 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Valparaiso](https://www.facebook.com/groups/free.code.camp.valparaiso/)
 - China
   - [Beijing](https://www.facebook.com/groups/free.code.camp.beijing/)
+<<<<<<< HEAD
+=======
   - [Changsha](https://www.facebook.com/groups/free.code.camp.changsha/)
+>>>>>>> 50948efec24a36520752aabee863ae62aa4d2f7e
   - [Shanghai](https://www.facebook.com/groups/963661723712718/)
   - [Shenzhen](https://www.facebook.com/groups/free.code.camp.shenzhen/)
   - [Suzhou](https://www.facebook.com/groups/free.code.camp.suzhou/)
