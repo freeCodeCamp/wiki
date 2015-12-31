@@ -12,6 +12,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
 - Algeria
   - [Algiers](https://www.facebook.com/groups/free.code.camp.Algiers/)
   - [Mansoura](https://www.facebook.com/groups/free.code.camp.mansoura/)
+  - [Oran](https://www.facebook.com/groups/free.code.camp.oran/)
 - Angola
   - [Luanda](https://www.facebook.com/groups/free.code.camp.luanda/)
 - Argentina
