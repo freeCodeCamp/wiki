@@ -17,18 +17,22 @@
 
 ## Code Solution:
 
-### Solution #1
+#### First solution
 ```js
 function translate(str) {
   // Create variables to be used
   var pigLatin = '';
   var regex = /[aeiou]/gi;
+  
   // Check if the first character is a vowel
   if (str[0].match(regex)) {
     pigLatin = str + 'way';
+  
   } else {
+    
     // Find how many consonants before the first vowel.
     var vowelIndice = str.indexOf(str.match(regex)[0]);
+    
     // Take the string from the first vowel to the last char
     // then add the consonants that were previously omitted and add the ending.
     pigLatin = str.substr(vowelIndice) + str.substr(0, vowelIndice) + 'ay';
@@ -38,7 +42,7 @@ function translate(str) {
 }
 ```
 
-### Solution #2
+#### Second solution
 ```js
 function translate(str) {
   //finding all the consonants in the beginning of the str. 
@@ -60,7 +64,7 @@ function translate(str) {
 }
 ```
 
-### Solution #3
+#### Third solution
 ```js
 
 function translate(str) {
@@ -71,6 +75,7 @@ function translate(str) {
     function isConsonant(char) {
         return !/[aeiou]/.test(char);
     }
+    
     // return initial str + "way" if it starts with vowel 
     // if not - convert str to array
     if (!isConsonant(str.charAt(0)))
@@ -89,11 +94,30 @@ function translate(str) {
 
 translate("consonant");
 ```
+#### Fourth Solution (recursive and declarative)
+```js
+function translate(str) {
+  function check(obj) {
+  	return ['a','i','u','e','o'].indexOf(str.charAt(obj)) == -1 ?
+      										  check(obj+1) : obj;}
+      										  
+  return str.substr(check(0))
+            .concat((check(0) === 0 ? 
+                        'w' : str.substr(0, check(0))) 
+                        + 'ay');
+}
+```
 
 # Code Explanation:
+####First-Third solution:
 - Read comments on code.
 
+#### Fourth solution (recursive and declarative)
+Let's start with a recursive function that will go checking for the first letter of the string to be in an *array of vowels*. In case of consonants, call itself on the next characters until finding the first vowel. It'll return the index of whatever it finds to be the last initial consonant. (i.e. Schmidtsville's would be 3).
+
+Then we'll grab our string, remove the letters up until that index, concatenate either that same chunk of removed string or `w` accordingly, and then `ay` regardless.
+
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @sabahang @aganita for your help with Bonfire: Pig Latin`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @sabahang @aganita @Hallaathrad for your help with Bonfire: Pig Latin`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
