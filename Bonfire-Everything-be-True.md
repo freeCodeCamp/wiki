@@ -56,6 +56,23 @@ every([{'user': 'Tinky-Winky', 'sex': 'male'}, {'user': 'Dipsy', 'sex': 'male'},
 - Uses the native "every" method to test whether all elements in the array pass the test.
 - This link will help [Array.prototype.every()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every)
 
+## Code solution using reduce:
+```js
+function every(collection, pre) {
+    return collection.reduce(function(acc, next) {
+        if (next[pre]) {
+            return acc;
+        } else {
+            acc = false;
+            return acc;
+        }
+    },true);
+
+```
+# Code Explanation:
+- Set initial reduce value to true.
+- Change it to false only when there is no key of a given name or it's falsy. Otherwise stick to the initial truthy value. 
+
 # Credits:
 If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @estevanmaito @HermanFassett for your help with Bonfire: Everything  Be True`**
 
