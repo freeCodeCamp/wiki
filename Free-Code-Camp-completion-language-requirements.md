@@ -5,3 +5,5 @@ You will need to be good enough with English to be able to participate in these 
 We are translating our challenges into native languages so that you can focus on learning to code, rather than focusing on learning English.
 
 Many non-native English speakers have succeeded in our nonprofit project program. With some effort, you can, too.
+
+If you need to practice or polish your English skills, try using [Duolingo](https://www.duolingo.com/), it free and allows you practice and track your progress.
