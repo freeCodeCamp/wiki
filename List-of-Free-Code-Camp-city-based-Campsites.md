@@ -282,6 +282,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Tirupur](https://www.facebook.com/groups/free.code.camp.tirupur/)
   - [Trivandrum](https://www.facebook.com/groups/freecodecamp.trivandrum/)
   - [Varanasi](https://www.facebook.com/groups/free.code.camp.varanasi/)
+  - [Veraval](https://www.facebook.com/groups/free.code.camp.veraval.gujarat/)
   - [Vijayawada](https://www.facebook.com/groups/free.code.camp.your.vijayawada/)
   - [Vizag](https://www.facebook.com/groups/free.code.camp.vizag/)
 - Indonesia
