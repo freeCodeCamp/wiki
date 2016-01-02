@@ -18,12 +18,12 @@ If you need help getting FCC setup on your local machine, here are a few useful 
 Free Code Camp Issue Mods and staff are on hand to assist with Pull Request related issues on our [Help Contributors Chat Room](https://gitter.im/FreeCodeCamp/HelpContributors)
 
 ## Disclaimer
-While the output from running `$ gulp` mentions the **Access Port** is 3001, I have only successfully logged in with GitHub at port 3000 &dash; the **Proxy Port**. If you understand how to log in using other ports, please consider submitting a pull request on this wiki.
+The output from running `$ gulp` mentions the **Access Port** is 3001. I have only successfully logged in with GitHub at port 3000 - the **Proxy Port**. If you understand how to log in using other ports, please consider submitting a pull request on this wiki.
 
 ## Log In Using Your GitHub Account
 1. Register a new OAuth application at https://github.com/settings/developers and click **Register new application**
 <br><br>
-*Alternatively*, click your **Profile Picture** => **Settings** => **Applications** => **Register new applications** => **Developer applications** tab
+*Alternatively*, click your **Profile Picture** => **Settings** => **Applications** => **Developer applications** => **Register new application**
 <br><br>
 ![Register GitHub OAuth App](./images/How-To-Log-In-To-Your-Local-FCC-Site/register-github-oauth-app.png)
 <br><br>
