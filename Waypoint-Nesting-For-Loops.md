@@ -2,7 +2,7 @@
 
 If you have a multi-dimensional array, you can use the same logic as the prior waypoint to loop through both the array and any sub-arrays. Here is an example:
 
-```
+```js
     var arr = [
       [1,2], [3,4], [5,6]
     ];
