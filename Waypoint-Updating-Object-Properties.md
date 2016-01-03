@@ -4,7 +4,7 @@ After you've created a JavaScript object, you can update its properties at any t
 
 For example, let's look at `ourDog`:
 
-```
+```js
 var ourDog = {
   "name": "Camper",
   "legs": 4,

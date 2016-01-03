@@ -4,7 +4,7 @@ Another use of bracket notation on objects is to use a variable to access a prop
 
 Here is an example of using a variable to access a property:
 
-```
+```js
 var someProp = "propName";
 var myObj = {
   propName: "Some Value"

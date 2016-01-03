@@ -4,7 +4,7 @@ The properties and sub-properties of JSON objects can be accessed by chaining to
 
 Here is a nested JSON Object:
 
-```
+```js
 var ourStorage = {
   "desk": {
     "drawer": "stapler"

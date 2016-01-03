@@ -4,7 +4,7 @@ The second way to access the properties of an object is bracket notation (`[]`).
 
 Here is a sample of using bracket notation to read an object property:
 
-```
+```js
 var myObj = {
   "Space Name": "Kirk",
   "More Space": "Spock"

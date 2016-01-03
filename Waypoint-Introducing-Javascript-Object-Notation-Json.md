@@ -4,7 +4,7 @@ JavaScript Object Notation or `JSON` uses the format of JavaScript Objects to st
 
 Here is an example of a JSON object:
 
-```
+```js
 var ourMusic = [
   {
     "artist": "Daft Punk",

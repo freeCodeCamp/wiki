@@ -4,7 +4,7 @@ Objects can be thought of as a key/value storage, like a dictionary. If you have
 
 Here is an example of a simple reverse alphabet lookup:
 
-```
+```js
 var alpha = {
   1:"Z",
   2:"Y",
