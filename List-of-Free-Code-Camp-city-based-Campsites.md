@@ -6,12 +6,12 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
 
 - Afghanistan
   - [Kabul](https://www.facebook.com/groups/free.code.camp.kabul/)
-  - [Islamabad](https://www.facebook.com/groups/free.code.camp.islamabad/)
 - Albania
   - [Tirana](https://www.facebook.com/groups/free.code.camp.tirana/)
 - Algeria
   - [Algiers](https://www.facebook.com/groups/free.code.camp.Algiers/)
   - [Mansoura](https://www.facebook.com/groups/free.code.camp.mansoura/)
+  - [Oran](https://www.facebook.com/groups/free.code.camp.oran/)
 - Angola
   - [Luanda](https://www.facebook.com/groups/free.code.camp.luanda/)
 - Argentina
@@ -186,8 +186,8 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Milton Keynes](https://www.facebook.com/groups/free.code.camp.milton.keynes/)
   - [Norfolk](https://www.facebook.com/groups/free.code.camp.norfolk/)  
   - [Reading](https://www.facebook.com/groups/free.code.camp.reading/)
-  - [Sheffield](https://www.facebook.com/groups/free.code.camp.sheffield/) 
-  - [Southampton](https://www.facebook.com/groups/FCC.Southampton/) 
+  - [Sheffield](https://www.facebook.com/groups/free.code.camp.sheffield/)
+  - [Southampton](https://www.facebook.com/groups/FCC.Southampton/)
   - [Stoke-on-Trent](https://www.facebook.com/groups/free.code.camp.stoke.on.trent/)
   - [Warrington](https://www.facebook.com/groups/free.code.camp.warrington/)
   - [Worcester](https://www.facebook.com/groups/free.code.camp.worcester/)  
@@ -202,7 +202,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Helsinki](https://www.facebook.com/groups/free.code.camp.helsinki/)
   - [Jyväskylä](https://www.facebook.com/groups/free.code.camp.jyvaskyla/)
   - [Lappeenranta](https://www.facebook.com/groups/free.code.camp.lappeenranta/)
-  - [Tampere](https://www.facebook.com/groups/Free.Code.Camp.Tampere/) 
+  - [Tampere](https://www.facebook.com/groups/Free.Code.Camp.Tampere/)
   - [Turku](https://www.facebook.com/groups/free.code.camp.turku/)    
 - France
   - [Dax](https://www.facebook.com/groups/509612812554265/)
@@ -285,6 +285,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Tirupur](https://www.facebook.com/groups/free.code.camp.tirupur/)
   - [Trivandrum](https://www.facebook.com/groups/freecodecamp.trivandrum/)
   - [Varanasi](https://www.facebook.com/groups/free.code.camp.varanasi/)
+  - [Veraval](https://www.facebook.com/groups/free.code.camp.veraval.gujarat/)
   - [Vijayawada](https://www.facebook.com/groups/free.code.camp.your.vijayawada/)
   - [Vizag](https://www.facebook.com/groups/free.code.camp.vizag/)
 - Indonesia
