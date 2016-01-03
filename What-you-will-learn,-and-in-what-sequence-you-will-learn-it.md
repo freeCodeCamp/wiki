@@ -6,7 +6,7 @@
 - [Algorithms](https://en.wikipedia.org/wiki/Algorithm) - step-by-step recipes for getting things done
 - [Git](https://git-scm.com/) - a version control system for saving and sharing your projects
 - [MongoDB](https://www.mongodb.org/) - a popular non-relational database
-- [Angular.js](https://angularjs.org/) - a tool for making exciting web interfaces
+- [D3](https://en.wikipedia.org/wiki/D3.js) - a JavaScript library for producing dynamic, interactive data visualizations in web browsers
 - [Express.js](http://expressjs.com/)- a powerful web development framework
 - [Node.js](https://nodejs.org/) - a platform for creating scalable network applications.
 - [Agile](https://en.wikipedia.org/wiki/Agile_software_development) - a set of software development principles that focus the design and production of a project on the needs of its users
