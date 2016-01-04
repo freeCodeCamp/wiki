@@ -54,6 +54,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
 - Bermuda
   - [Saint George](https://www.facebook.com/groups/free.code.camp.saint.george/)
 - Bolivia
+  - [Sucre](https://www.facebook.com/groups/free.code.camp.Sucre/)
   - [La Paz](https://www.facebook.com/groups/free.code.camp.La.Paz/)
   - [Santa Cruz](https://www.facebook.com/groups/free.code.camp.SC/)
 - Bosnia and Herzegovina
