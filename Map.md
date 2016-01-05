@@ -133,107 +133,106 @@
 1. [Waypoint: Comment your JavaScript Code](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Comment-your-JavaScript-Code)
 2. [Waypoint: Understand Boolean Values](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Understand-Boolean-Values)
 3. [Waypoint: Declare JavaScript Variables](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Declare-JavaScript-Variables)
-4. Waypoint: Storing Values with the Equal Operator
-5. Waypoint: Initializing Variables with the Equal Operator
-6. Waypoint: Understanding Uninitialized Variables
-7. Waypoint: Understanding Case Sensitivity in Variables
+4. [Waypoint: Storing Values with the Equal Operator](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Storing-Values-with-the-Equal-Operator)
+5. [Waypoint: Initializing Variables with the Equal Operator](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Initializing-Variables-with-the-Equal-Operator)
+6. [Waypoint: Understanding Uninitialized Variables](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Understanding-Uninitialized-Variables)
+7. [Waypoint: Understanding Case Sensitivity in Variables](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Understanding-Case-Sensitivity-in-Variables)
 8. [Waypoint: Add Two Numbers with JavaScript](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Add-Two-Numbers-with-JavaScript)
 9. [Waypoint: Subtract One Number from Another with JavaScript](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Subtract-One-Number-from-Another-with-JavaScript)
 10. [Waypoint: Multiply Two Numbers with JavaScript](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Multiply-Two-Numbers-with-JavaScript)
 11. [Waypoint: Divide One Number by Another with JavaScript](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Divide-One-Number-by-Another-with-JavaScript)
-12. Waypoint: Increment a Number with Javascript
-13. Waypoint: Decrement a Number with Javascript Incomplete
+12. [Waypoint: Increment a Number with Javascript](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Increment-a-Number-with-Javascript)
+13. [Waypoint: Decrement a Number with Javascript](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Decrement-a-Number-with-Javascript)
 14. [Waypoint: Create Decimal Numbers with JavaScript](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Create-Decimal-Numbers-with-JavaScript)
 15. [Waypoint: Multiply Two Decimals with JavaScript](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Perform-Arithmetic-Operations-on-Decimals-with-JavaScript)
 16. [Waypoint: Divide one Decimal by Another with JavaScript](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Perform-Arithmetic-Operations-on-Decimals-with-JavaScript)
-17. Waypoint: Finding a Remainder in Javascript
-18. Waypoint: Assignment with Plus Equals
-19. Waypoint: Assignment with Minus Equals
-20. Waypoint: Assignment with Times Equals
-21. Waypoint: Assignment with Divided by Equals Incomplete
-22. Bonfire: Convert Celsius to Fahrenheit Incomplete
+17. [Waypoint: Finding a Remainder in Javascript](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Finding-a-Remainder-in-Javascript)
+18. [Waypoint: Assignment with Plus Equals](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Assignment-with-Plus-Equals)
+19. [Waypoint: Assignment with Minus Equals](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Assignment-with-Minus-Equals)
+20. [Waypoint: Assignment with Times Equals](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Assignment-with-Times-Equals)
+21. [Waypoint: Assignment with Divided by Equals](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Assignment-with-Divided-by-Equals)
+22. [Checkpoint: Convert Celsius to Fahrenheit](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Checkpoint-Convert-Celsius-to-Fahrenheit)
 23. [Waypoint: Declare String Variables](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Declare-String-Variables)
-24. Waypoint: Escaping Literal Quotes in Strings
-25. Waypoint: Quoting Strings with Single Quotes Incomplete
-26. Waypoint: Escape Sequences in Strings
-27. Waypoint: Concatenating Strings with Plus Operator Incomplete
-28. Waypoint: Concatenating Strings with the Plus Equals Operator
-29. Waypoint: Constructing Strings with Variables
-30. Waypoint: Appending Variables to Strings
+24. [Waypoint: Escaping Literal Quotes in Strings](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Escaping-Literal-Quotes-in-Strings)
+25. [Waypoint: Quoting Strings with Single Quotes](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Quoting-Strings-with-Single-Quotes)
+26. [Waypoint: Escape Sequences in Strings](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Escape-Sequences-in-Strings)
+27. [Waypoint: Concatenating Strings with Plus Operator](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Concatenating-Strings-with-Plus-Operator)
+28. [Waypoint: Concatenating Strings with the Plus Equals Operator](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Concatenating-Strings-with-the-Plus-Equals-Operator)
+29. [Waypoint: Constructing Strings with Variables](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Constructing-Strings-with-Variables)
+30. [Waypoint: Appending Variables to Strings](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Appending-Variables-to-Strings)
 31. [Waypoint: Find the Length of a String](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Check-the-Length-Property-of-a-String-Variable)
 32. [Waypoint: Use Bracket Notation to Find the First Character in a String](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Use-Bracket-Notation-to-Find-the-First-Character-in-a-String)
 33. Waypoint: Understand String Immutability Incomplete
 34. [Waypoint: Use Bracket Notation to Find the Nth Character in a String](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Use-Bracket-Notation-to-Find-the-Nth-Character-in-a-String)
 35. [Waypoint: Use Bracket Notation to Find the Last Character in a String](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Use-Bracket-Notation-to-Find-the-Last-Character-in-a-String)
 36. [Waypoint: Use Bracket Notation to Find the Nth-to-Last Character in a String](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Use-Bracket-Notation-to-Find-the-Nth-to-Last-Character-in-a-String)
-37. Bonfire: Word Blanks
+37. Checkpoint: Word Blanks
 38. [Waypoint: Store Multiple Values in one Variable using JavaScript Arrays](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Store-Multiple-Values-in-one-Variable-using-JavaScript-Arrays)
 39. [Waypoint: Nest one Array within Another Array](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Nest-one-Array-within-Another-Array)
 40. [Waypoint: Access Array Data with Indexes](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Access-Array-Data-with-Indexes)
 41. [Waypoint: Modify Array Data With Indexes](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Modify-Array-Data-With-Indexes)
-42. Waypoint: Access Multi-Dimensional Arrays With Indexes Incomplete
+42. [Waypoint: Access Multi-Dimensional Arrays With Indexes](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Access-Multi-Dimensional-Arrays-With-Indexes)
 43. [Waypoint: Manipulate Arrays With pop()](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Manipulate-Arrays-With-pop())
 44. [Waypoint: Manipulate Arrays With push()](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Manipulate-Arrays-With-push())
 45. [Waypoint: Manipulate Arrays With shift()](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Manipulate-Arrays-With-shift())
 46. [Waypoint: Manipulate Arrays With unshift()](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Manipulate-Arrays-With-unshift())
-47. Bonfire: Shopping List
+47. Checkpoint: Shopping List
 48. [Waypoint: Write Reusable JavaScript with Functions](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Write-Reusable-JavaScript-with-Functions)
-49. Waypoint: Passing Values to Functions with Arguments
-50. Waypoint: Global Scope and Functions
-51. Waypoint: Local Scope and Functions
-52. Waypoint: Global vs. Local Scope in Functions
-53. Waypoint: Return a Value from a Function with Return
-54. Waypoint: Assignment with a Returned Value
-55. Bonfire: Stand in Line
+49. [Waypoint: Passing Values to Functions with Arguments](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Passing-Values-To-Functions-With-Arguments)
+50. [Waypoint: Global Scope and Functions](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Global-Scope-And-Functions)
+51. [Waypoint: Local Scope and Functions](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Local-Scope-And-Functions)
+52. [Waypoint: Global vs. Local Scope in Functions](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Global-Vs-Local-Scope-In-Functions)
+53. [Waypoint: Return a Value from a Function with Return](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Return-A-Value-From-A-Function-With-Return)
+54. [Waypoint: Assignment with a Returned Value](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Assignment-With-A-Returned-Value)
+55. Checkpoint: Stand in Line
 56. [Waypoint: Use Conditional Logic with If-Else Statements](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Use-Conditional-Logic-with-If-Else-Statements)
-57. Waypoint: Comparison with the Equality Operator
-58. Waypoint: Comparison with the Strict Equality Operator
-59. Waypoint: Comparison with the Inequality Operator
-60. Waypoint: Comparison with the Strict Inequality Operator
-61. Waypoint: Comparison with the Greater Than Operator
-62. Waypoint: Comparison with the Greater Than Equal To Operator
-63. Waypoint: Comparison with the Less Than Operator
-64. Waypoint: Comparison with the Less Than Equal To Operator
-65. Waypoint: Comparisons with the Logical And Operator
-66. Waypoint: Comparisons with the Logical Or Operator
-67. Waypoint: Introducing Else Statements
-68. Waypoint: Introducing Else If Statements
-69. Waypoint: Chaining If Else Statements
-70. Bonfire: Golf Code
-71. Waypoint: Selecting from many options with Switch Statements Incomplete
-72. Waypoint: Adding a default option in Switch statements Incomplete
-73. Waypoint: Multiple Identical Options in Switch Statements
-74. Waypoint: Replacing If Else Chains with Switch Incomplete
-75. Waypoint: Returning Boolean Values from Functions
-76. Waypoint: Return Early Pattern for Functions
-77. Bonfire: Counting Cards
+57. [Waypoint: Comparison with the Equality Operator](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Comparison-With-The-Equality-Operator)
+58. [Waypoint: Comparison with the Strict Equality Operator](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Comparison-With-The-Strict-Equality-Operator)
+59. [Waypoint: Comparison with the Inequality Operator](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Comparison-With-The-Inequality-Operator)
+60. [Waypoint: Comparison with the Strict Inequality Operator](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Comparison-With-The-Strict-Inequality-Operator)
+61. [Waypoint: Comparison with the Greater Than Operator](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Comparison-With-The-Greater-Than-Operator)
+62. [Waypoint: Comparison with the Greater Than Equal To Operator](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Comparison-With-The-Greater-Than-Equal-To-Operator)
+63. [Waypoint: Comparison with the Less Than Operator](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Comparison-With-The-Less-Than-Operator)
+64. [Waypoint: Comparison with the Less Than Equal To Operator](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Comparison-With-The-Less-Than-Equal-To-Operator)
+65. [Waypoint: Comparisons with the Logical And Operator](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Comparisons-With-The-Logical-And-Operator)
+66. [Waypoint: Comparisons with the Logical Or Operator](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Comparisons-With-The-Logical-Or-Operator)
+67. [Waypoint: Introducing Else Statements](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Introducing-Else-Statements)
+68. [Waypoint: Introducing Else If Statements](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Introducing-Else-If-Statements)
+69. [Waypoint: Chaining If Else Statements](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Chaining-If-Else-Statements)
+70. Checkpoint: Golf Code
+71. [Waypoint: Selecting from many options with Switch Statements](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Selecting-From-Many-Options-With-Switch-Statements)
+72. [Waypoint: Adding a default option in Switch statements](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Adding-A-Default-Option-In-Switch-Statements)
+73. [Waypoint: Multiple Identical Options in Switch Statements](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Multiple-Identical-Options-In-Switch-Statements)
+74. [Waypoint: Replacing If Else Chains with Switch](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Replacing-If-Else-Chains-With-Switch)
+75. [Waypoint: Returning Boolean Values from Functions](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Returning-Boolean-Values-From-Functions)
+76. [Waypoint: Return Early Pattern for Functions](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Return-Early-Pattern-For-Functions)
+77. Checkpoint: Counting Cards
 78. [Waypoint: Build JavaScript Objects](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Build-JavaScript-Objects)
-79. Waypoint: Accessing Objects Properties with the Dot Operator
-80. Waypoint: Accessing Objects Properties with Bracket Notation
-81. Waypoint: Accessing Objects Properties with Variables
+79. [Waypoint: Accessing Objects Properties with the Dot Operator](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Accessing-Objects-Properties-With-The-Dot-Operator)
+80. [Waypoint: Accessing Objects Properties with Bracket Notation](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Accessing-Objects-Properties-With-Bracket-Notation)
+81. [Waypoint: Accessing Objects Properties with Variables](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Accessing-Objects-Properties-With-Variables)
 82. [Waypoint: Updating Object Properties](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Manipulate-JavaScript-Objects)
 83. [Waypoint: Add New Properties to a JavaScript Object](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Add-New-Properties-to-a-JavaScript-Object)
 84. [Waypoint: Delete Properties from a JavaScript Object](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Delete-Properties-from-a-JavaScript-Object)
-85. Waypoint: Using Objects for Lookups Incomplete
-86. Waypoint: Testing Objects for Properties
-87. Waypoint: Introducing JavaScript Object Notation (JSON) Incomplete
-88. Waypoint: Accessing Nested Objects in JSON
-89. Waypoint: Accessing Nested Arrays in JSON
-90. Bonfire: Record Collection
+85. [Waypoint: Using Objects for Lookups](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Using-Objects-For-Lookups)
+86. [Waypoint: Testing Objects for Properties](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Testing-Objects-For-Properties)
+87. [Waypoint: Introducing JavaScript Object Notation (JSON)](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Introducing-Javascript-Object-Notation-Json)
+88. [Waypoint: Accessing Nested Objects in JSON](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Accessing-Nested-Objects-In-Json)
+89. [Waypoint: Accessing Nested Arrays in JSON](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Accessing-Nested-Arrays-In-Json)
+90. Checkpoint: Record Collection
 91. [Waypoint: Iterate with JavaScript For Loops](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Iterate-with-JavaScript-For-Loops)
 92. [Waypoint: Iterate Odd Numbers With a For Loop](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Iterate-Odd-Numbers-With-a-For-Loop)
 93. [Waypoint: Count Backwards With a For Loop](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Count-Backwards-With-a-For-Loop)
-94. Waypoint: Iterate Through an Array with a For Loop
-95. Waypoint: Nesting For Loops
+94. [Waypoint: Iterate Through an Array with a For Loop](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Iterate-Through-An-Array-With-A-For-Loop)
+95. [Waypoint: Nesting For Loops](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Nesting-For-Loops)
 96. [Waypoint: Iterate with JavaScript While Loops](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Iterate-with-JavaScript-While-Loops)
-97. Bonfire: Caesar's Cipher
-98. [Waypoint: Generate Random Fractions with JavaScript](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Generate-Random-Fractions-with-JavaScript)
-99. [Waypoint: Generate Random Whole Numbers with JavaScript](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Generate-Random-Whole-Numbers-with-JavaScript)
-100. [Waypoint: Generate Random Whole Numbers within a Range](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Generate-Random-Whole-Numbers-within-a-Range)
-101. [Waypoint: Sift through Text with Regular Expressions](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Sift-through-Text-with-Regular-Expressions)
-102. [Waypoint: Find Numbers with Regular Expressions](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Find-Numbers-with-Regular-Expressions)
-103. [Waypoint: Find White Space with Regular Expressions](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Find-White-Space-with-Regular-Expressions)
-104. [Waypoint: Invert Regular Expression Matches with JavaScript](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Invert-Regular-Expression-Matches-with-JavaScript)
+97. [Waypoint: Generate Random Fractions with JavaScript](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Generate-Random-Fractions-with-JavaScript)
+98. [Waypoint: Generate Random Whole Numbers with JavaScript](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Generate-Random-Whole-Numbers-with-JavaScript)
+99. [Waypoint: Generate Random Whole Numbers within a Range](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Generate-Random-Whole-Numbers-within-a-Range)
+100. [Waypoint: Sift through Text with Regular Expressions](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Sift-through-Text-with-Regular-Expressions)
+101. [Waypoint: Find Numbers with Regular Expressions](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Find-Numbers-with-Regular-Expressions)
+102. [Waypoint: Find White Space with Regular Expressions](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Find-White-Space-with-Regular-Expressions)
+103. [Waypoint: Invert Regular Expression Matches with JavaScript](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Invert-Regular-Expression-Matches-with-JavaScript)
 
 # Object Oriented and Functional Programming
 1. [Waypoint: Declare JavaScript Objects as Variables](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Declare-JavaScript-Objects-as-Variables)
@@ -266,6 +265,7 @@
 14. [Bonfire: Falsy Bouncer](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Bonfire-Falsy-Bouncer)
 15. [Bonfire: Seek and Destroy](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Bonfire-Seek-and-Destroy)
 16. [Bonfire: Where do I belong](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Bonfire-Where-do-I-belong)
+17. Bonfire: Caesar's Cipher
 
 # Intermediate Algorithm Scripting
 1. [Bonfire: Sum All Numbers in a Range](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Bonfire-Sum-All-Numbers-in-a-Range)
@@ -320,7 +320,7 @@
 1. [Waypoint: Save your Code Revisions Forever with Git](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Save-your-Code-Revisions-Forever-with-Git)
 
 # Node.js and Express.js
-1. [Waypoint: Manage Packages with NPM]
+1. Waypoint: Manage Packages with NPM
 2. Waypoint: Start a Node.js Server
 3. Waypoint: Continue working with Node.js Servers
 4. Waypoint: Finish working with Node.js Servers
