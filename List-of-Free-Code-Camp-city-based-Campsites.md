@@ -483,6 +483,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Gdynia](https://www.facebook.com/groups/free.code.camp.gdynia/)
   - [Krakow](https://www.facebook.com/groups/free.code.camp.krakow/)
   - [Lodz](https://www.facebook.com/groups/free.code.camp.lodz/)
+  - [Plock](https://www.facebook.com/groups/858565847589635/)
   - [Poznan](https://www.facebook.com/groups/free.code.camp.poznan/)  
   - [Sopot](https://www.facebook.com/groups/free.code.camp.trojmiasto/)
   - [Szczecin](https://www.facebook.com/groups/free.code.camp.szczecin/)
