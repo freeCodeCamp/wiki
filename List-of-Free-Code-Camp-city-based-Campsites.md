@@ -274,6 +274,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Coimbatore](https://www.facebook.com/groups/free.code.camp.coimbatore)
   - [Delhi](https://www.facebook.com/groups/free.code.camp.delhi/)
   - [Dharwad](https://www.facebook.com/groups/free.code.camp.dharwad/)
+  - [Goa](https://www.facebook.com/groups/free.code.camp.goa/)
   - [Gujarat](https://www.facebook.com/groups/free.code.camp.gujarat/)
   - [Guntur](https://www.facebook.com/groups/free.code.camp.guntur/)
   - [Gurgaon](https://www.facebook.com/groups/free.code.camp.gurgaon/)
