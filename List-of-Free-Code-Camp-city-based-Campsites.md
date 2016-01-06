@@ -4,6 +4,18 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
 
 [Edit Map](https://www.google.com/maps/d/edit?mid=zH0hxoM17_fk.kDBMlxfk0BZ8)
 
+  - [](https://www.facebook.com/groups/free.code.camp.west.orange/)
+  - [](https://www.facebook.com/groups/819942171450554/)
+  - [](https://www.facebook.com/groups/free.code.camp.kelowna/)
+  - [](https://www.facebook.com/groups/free.code.camp.almetyevsk/)
+  - [](https://www.facebook.com/groups/free.code.camp.cagliari/)
+  - [](https://www.facebook.com/groups/free.code.camp.logan.utah/)
+  - [](https://www.facebook.com/groups/free.code.camp.greenville.nc/)
+  - [](https://www.facebook.com/groups/free.code.camp.uberlandia/)
+  - [](https://www.facebook.com/groups/free.code.camp.enterprise.alabama/)
+  - [](https://www.facebook.com/groups/1687282141551155/)
+  - [](https://www.facebook.com/groups/free.code.camp.sunderland.uk/)
+
 - Afghanistan
   - [Kabul](https://www.facebook.com/groups/free.code.camp.kabul/)
 - Albania
