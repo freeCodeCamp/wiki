@@ -104,9 +104,9 @@
 31. [Waypoint: Use Comments to Clarify Code](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Use-Comments-to-Clarify-Code)
 
 # Gear up for Success
-1. [Waypoint: Browse Camper News Incomplete](http://freecodecamp.com/challenges/waypoint-browse-camper-news)
-2. [Waypoint: Reference our Wiki Incomplete](http://freecodecamp.com/challenges/waypoint-reference-our-wiki)
-3. [Waypoint: Join our LinkedIn Alumni Network Incomplete](http://freecodecamp.com/challenges/waypoint-join-our-linkedin-alumni-network)
+1. [Waypoint: Browse Camper News ](http://freecodecamp.com/challenges/waypoint-browse-camper-news)
+2. [Waypoint: Reference our Wiki ](http://freecodecamp.com/challenges/waypoint-reference-our-wiki)
+3. [Waypoint: Join our LinkedIn Alumni Network ](http://freecodecamp.com/challenges/waypoint-join-our-linkedin-alumni-network)
 4. [Waypoint: Commit to a Goal and a Nonprofit](http://freecodecamp.com/challenges/waypoint-commit-to-a-goal-and-a-nonprofit)
 
 # jQuery
@@ -162,11 +162,11 @@
 30. [Waypoint: Appending Variables to Strings](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Appending-Variables-to-Strings)
 31. [Waypoint: Find the Length of a String](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Check-the-Length-Property-of-a-String-Variable)
 32. [Waypoint: Use Bracket Notation to Find the First Character in a String](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Use-Bracket-Notation-to-Find-the-First-Character-in-a-String)
-33. Waypoint: Understand String Immutability Incomplete
+33. [Waypoint: Understand String Immutability](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Understand-String-Immutability)
 34. [Waypoint: Use Bracket Notation to Find the Nth Character in a String](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Use-Bracket-Notation-to-Find-the-Nth-Character-in-a-String)
 35. [Waypoint: Use Bracket Notation to Find the Last Character in a String](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Use-Bracket-Notation-to-Find-the-Last-Character-in-a-String)
 36. [Waypoint: Use Bracket Notation to Find the Nth-to-Last Character in a String](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Use-Bracket-Notation-to-Find-the-Nth-to-Last-Character-in-a-String)
-37. Checkpoint: Word Blanks
+37. [Checkpoint: Word Blanks](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Checkpoint: Word-Blanks)
 38. [Waypoint: Store Multiple Values in one Variable using JavaScript Arrays](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Store-Multiple-Values-in-one-Variable-using-JavaScript-Arrays)
 39. [Waypoint: Nest one Array within Another Array](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Nest-one-Array-within-Another-Array)
 40. [Waypoint: Access Array Data with Indexes](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Access-Array-Data-with-Indexes)
@@ -176,7 +176,7 @@
 44. [Waypoint: Manipulate Arrays With push()](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Manipulate-Arrays-With-push())
 45. [Waypoint: Manipulate Arrays With shift()](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Manipulate-Arrays-With-shift())
 46. [Waypoint: Manipulate Arrays With unshift()](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Manipulate-Arrays-With-unshift())
-47. Checkpoint: Shopping List
+47. [Checkpoint: Shopping List](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Checkpoint-Shopping-List)
 48. [Waypoint: Write Reusable JavaScript with Functions](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Write-Reusable-JavaScript-with-Functions)
 49. [Waypoint: Passing Values to Functions with Arguments](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Passing-Values-To-Functions-With-Arguments)
 50. [Waypoint: Global Scope and Functions](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Global-Scope-And-Functions)
@@ -184,7 +184,7 @@
 52. [Waypoint: Global vs. Local Scope in Functions](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Global-Vs-Local-Scope-In-Functions)
 53. [Waypoint: Return a Value from a Function with Return](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Return-A-Value-From-A-Function-With-Return)
 54. [Waypoint: Assignment with a Returned Value](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Assignment-With-A-Returned-Value)
-55. Checkpoint: Stand in Line
+55. [Checkpoint: Stand in Line](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Checkpoint-Stand-in-Line)
 56. [Waypoint: Use Conditional Logic with If-Else Statements](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Use-Conditional-Logic-with-If-Else-Statements)
 57. [Waypoint: Comparison with the Equality Operator](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Comparison-With-The-Equality-Operator)
 58. [Waypoint: Comparison with the Strict Equality Operator](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Comparison-With-The-Strict-Equality-Operator)
