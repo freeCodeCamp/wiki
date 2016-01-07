@@ -145,7 +145,7 @@ function inventory(arr1, arr2) {
 - Return the sorted array
 - For Solution two, the explanation is on the code. Feel free to use different components on each solution to create your own if you like.
 
-#### Second and Third solution
+#### Second and Third solutions
 - Read comments in code.
 
 ## Related links
