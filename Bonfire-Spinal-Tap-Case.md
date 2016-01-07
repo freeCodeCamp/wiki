@@ -16,7 +16,7 @@
 **Solution ahead!**
 
 ## Code Solution:
-### First solution
+#### First solution
 
 ```js
 function spinalCase(str) {
@@ -31,7 +31,7 @@ function spinalCase(str) {
 }
 ```
 
-### Second solution
+#### Second solution
 ```js
 function spinalCase(str) {
   // Replace low-upper case to low-space-uppercase
@@ -42,7 +42,7 @@ function spinalCase(str) {
 ```
 
 # Code Explanation:
-### First-Second solution
+#### First and Second solutions
 - Read comments in code.
 
 # Credits:
