@@ -18,6 +18,7 @@ Find out how to remove and add key to an object
 **Solution ahead!**
 
 ## Code Solution:
+### First solution
 
 ```js
 function orbitalPeriod(arr) {
@@ -42,18 +43,7 @@ function orbitalPeriod(arr) {
 }
 ```
 
-# Code Explanation:
-- The GM and `earthRadius` is given to us.
-- To make the code easier to edit and read, I separated each part of the equation.
-- Create a new array to store the `orbPeriods`.
-- a is 2 times pi. The part that is a constant is on the global scope while the rest is part of a function.
-- Create a function that will do the required work for any amount of objects.
-- c is the power of `earthRadius` + the value of `avgAlt` to the cube.
-- b is the square root of c divided by GM.
-- Create `orbPeriod` to store the product of a & b, with the ceiling function applied to round up to the next whole number.
-- Then we delete the key`avgAlt`, and add the new key and its value.
-
-##Another Solution
+### Second solution
 
 ```js
 function orbitalPeriod(arr) {
@@ -74,9 +64,40 @@ function orbitalPeriod(arr) {
 }
 orbitalPeriod([{name : "sputnik", avgAlt : 35873.5553}]);
 ```
-#Code explanation in comments
+
+### Third solution
+```js
+function orbitalPeriod(arr) {
+  var GM = 398600.4418;
+  var earthRadius = 6367.4447;
+  // Loop through each item in the array arr
+  arr.forEach(function(item){
+    // Calculate the Orbital period value
+    var tmp= Math.round(2*Math.PI*Math.sqrt(Math.pow(earthRadius+item.avgAlt,3)/GM));
+    //Delete the avgAlt property
+    delete item.avgAlt;
+    //Add orbitalPeriod property
+    item.orbitalPeriod=tmp;
+  });
+  return arr;
+}
+```
+# Code Explanation:
+### First solution
+- The GM and `earthRadius` is given to us.
+- To make the code easier to edit and read, I separated each part of the equation.
+- Create a new array to store the `orbPeriods`.
+- a is 2 times pi. The part that is a constant is on the global scope while the rest is part of a function.
+- Create a function that will do the required work for any amount of objects.
+- c is the power of `earthRadius` + the value of `avgAlt` to the cube.
+- b is the square root of c divided by GM.
+- Create `orbPeriod` to store the product of a & b, with the ceiling function applied to round up to the next whole number.
+- Then we delete the key`avgAlt`, and add the new key and its value.
+
+### Second-Third solution
+- Read comments in code.
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @coded9 for your help with Bonfire: Map the Debris`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @coded9 @anuragaryan for your help with Bonfire: Map the Debris`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
