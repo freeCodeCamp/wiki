@@ -138,6 +138,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
 - China
   - [Beijing](https://www.facebook.com/groups/free.code.camp.beijing/)
   - [Changsha](https://www.facebook.com/groups/free.code.camp.changsha/)
+  - [Linyi](https://www.facebook.com/groups/free.code.camp.Linyi/)
   - [Shanghai](https://www.facebook.com/groups/963661723712718/)
   - [Shenzhen](https://www.facebook.com/groups/free.code.camp.shenzhen/)
   - [Suzhou](https://www.facebook.com/groups/free.code.camp.suzhou/)
