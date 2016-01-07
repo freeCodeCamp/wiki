@@ -759,6 +759,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Lawrence](https://www.facebook.com/groups/free.code.camp.lawrence)
     - [Wichita](https://www.facebook.com/groups/free.code.camp.wichita/)
   - Kentucky
+    - [Bowling Green](https://www.facebook.com/groups/free.code.camp.BG.kentucky/)
     - [Frankfort](https://www.facebook.com/groups/free.code.camp.frankfort.kentucky/)
     - [Louisville](https://www.facebook.com/groups/free.code.camp.louisville/)
     - [Manchester](https://www.facebook.com/groups/free.code.camp.manchester.kentucky/)
