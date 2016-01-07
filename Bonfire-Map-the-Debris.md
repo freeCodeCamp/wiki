@@ -18,7 +18,7 @@ Find out how to remove and add key to an object
 **Solution ahead!**
 
 ## Code Solution:
-### First solution
+#### First solution
 
 ```js
 function orbitalPeriod(arr) {
@@ -43,7 +43,7 @@ function orbitalPeriod(arr) {
 }
 ```
 
-### Second solution
+#### Second solution
 
 ```js
 function orbitalPeriod(arr) {
@@ -65,7 +65,7 @@ function orbitalPeriod(arr) {
 orbitalPeriod([{name : "sputnik", avgAlt : 35873.5553}]);
 ```
 
-### Third solution
+#### Third solution
 ```js
 function orbitalPeriod(arr) {
   var GM = 398600.4418;
@@ -83,7 +83,7 @@ function orbitalPeriod(arr) {
 }
 ```
 # Code Explanation:
-### First solution
+#### First solution
 - The GM and `earthRadius` is given to us.
 - To make the code easier to edit and read, I separated each part of the equation.
 - Create a new array to store the `orbPeriods`.
@@ -94,7 +94,7 @@ function orbitalPeriod(arr) {
 - Create `orbPeriod` to store the product of a & b, with the ceiling function applied to round up to the next whole number.
 - Then we delete the key`avgAlt`, and add the new key and its value.
 
-### Second-Third solution
+#### Second and Third solutions
 - Read comments in code.
 
 # Credits:
