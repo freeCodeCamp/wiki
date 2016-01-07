@@ -19,7 +19,7 @@
 **Solution ahead!**
 
 ## Code Solution:
-
+### First solution
 ```js
 function inventory(arr1, arr2) {
 
@@ -67,7 +67,7 @@ function inventory(arr1, arr2) {
     return arr1;
 }
 ```
-## Solution 2
+### Second solution
 ```js
 function inventory(arr1, arr2) {
   // All inventory must be accounted for or you're fired!
@@ -114,18 +114,7 @@ function inventory(arr1, arr2) {
 }
 ```
 
-## Code Explanation:
-- Start by creating a variable to store the index in.  Define variables outside of loops
-- Create a helper function to find the index of a product name
-- The helper function iterates through each element of the array that it is called on, until it can either find the name parameter, or if it cannot find it then returns undefined
-- Then, work through each item in the delivery, and set index to the result of invoking our helper function on the current inventory (IE: Search the new inventory for that product name, and return it's index)
-- If we can't find that product, then we can add the entire product (Name and quantity) to the current inventory
-- Otherwise, then we can add the quantity from the new inventory
-- Then we sort the array by the product name (`arr1[x][1]` holds the name)
-- Return the sorted array
-- For Solution two, the explanation is on the code. Feel free to use different components on each solution to create your own if you like.
-
-## Solution 3
+### Third solution
 ```js
 function inventory(arr1, arr2) {
   var flag=0;
@@ -144,8 +133,20 @@ function inventory(arr1, arr2) {
 });
 }
 ```
-## Code Explanation:
-Read comments in code.
+# Code Explanation:
+### First solution
+- Start by creating a variable to store the index in.  Define variables outside of loops
+- Create a helper function to find the index of a product name
+- The helper function iterates through each element of the array that it is called on, until it can either find the name parameter, or if it cannot find it then returns undefined
+- Then, work through each item in the delivery, and set index to the result of invoking our helper function on the current inventory (IE: Search the new inventory for that product name, and return it's index)
+- If we can't find that product, then we can add the entire product (Name and quantity) to the current inventory
+- Otherwise, then we can add the quantity from the new inventory
+- Then we sort the array by the product name (`arr1[x][1]` holds the name)
+- Return the sorted array
+- For Solution two, the explanation is on the code. Feel free to use different components on each solution to create your own if you like.
+
+### Second-Third solution
+- Read comments in code.
 
 ## Related links
 - [Function.prototype.call](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call)

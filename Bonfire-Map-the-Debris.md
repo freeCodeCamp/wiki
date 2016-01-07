@@ -18,6 +18,7 @@ Find out how to remove and add key to an object
 **Solution ahead!**
 
 ## Code Solution:
+### First solution
 
 ```js
 function orbitalPeriod(arr) {
@@ -42,18 +43,7 @@ function orbitalPeriod(arr) {
 }
 ```
 
-# Code Explanation:
-- The GM and `earthRadius` is given to us.
-- To make the code easier to edit and read, I separated each part of the equation.
-- Create a new array to store the `orbPeriods`.
-- a is 2 times pi. The part that is a constant is on the global scope while the rest is part of a function.
-- Create a function that will do the required work for any amount of objects.
-- c is the power of `earthRadius` + the value of `avgAlt` to the cube.
-- b is the square root of c divided by GM.
-- Create `orbPeriod` to store the product of a & b, with the ceiling function applied to round up to the next whole number.
-- Then we delete the key`avgAlt`, and add the new key and its value.
-
-## Solution 2
+### Second solution
 
 ```js
 function orbitalPeriod(arr) {
@@ -75,7 +65,7 @@ function orbitalPeriod(arr) {
 orbitalPeriod([{name : "sputnik", avgAlt : 35873.5553}]);
 ```
 
-## Solution 3
+### Third solution
 ```js
 function orbitalPeriod(arr) {
   var GM = 398600.4418;
@@ -92,8 +82,20 @@ function orbitalPeriod(arr) {
   return arr;
 }
 ```
-## Code Explanation:
- Read comments in code.
+# Code Explanation:
+### First solution
+- The GM and `earthRadius` is given to us.
+- To make the code easier to edit and read, I separated each part of the equation.
+- Create a new array to store the `orbPeriods`.
+- a is 2 times pi. The part that is a constant is on the global scope while the rest is part of a function.
+- Create a function that will do the required work for any amount of objects.
+- c is the power of `earthRadius` + the value of `avgAlt` to the cube.
+- b is the square root of c divided by GM.
+- Create `orbPeriod` to store the product of a & b, with the ceiling function applied to round up to the next whole number.
+- Then we delete the key`avgAlt`, and add the new key and its value.
+
+### Second-Third solution
+- Read comments in code.
 
 # Credits:
 If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @coded9 @anuragaryan for your help with Bonfire: Map the Debris`**
