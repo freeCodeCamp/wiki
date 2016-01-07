@@ -67,7 +67,7 @@ function inventory(arr1, arr2) {
     return arr1;
 }
 ```
-Solution 2
+## Solution 2
 ```js
 function inventory(arr1, arr2) {
   // All inventory must be accounted for or you're fired!
@@ -114,7 +114,7 @@ function inventory(arr1, arr2) {
 }
 ```
 
-# Code Explanation:
+## Code Explanation:
 - Start by creating a variable to store the index in.  Define variables outside of loops
 - Create a helper function to find the index of a product name
 - The helper function iterates through each element of the array that it is called on, until it can either find the name parameter, or if it cannot find it then returns undefined
@@ -125,12 +125,34 @@ function inventory(arr1, arr2) {
 - Return the sorted array
 - For Solution two, the explanation is on the code. Feel free to use different components on each solution to create your own if you like.
 
+## Solution 3
+```js
+function inventory(arr1, arr2) {
+  var flag=0;
+  arr2.forEach(function(item){
+    flag=0;
+    arr1.forEach(function(list){
+        //If the product is already present, increase the quantity
+      if(item[1]===list[1]){ list[0]+=item[0]; flag=1;}
+    });
+    //If not already present, add the product
+    if(flag===0) arr1.push(item);
+  });
+  //Return the sorted inventory in alphabetical order wrt product name
+    return arr1.sort(function(a, b) { 
+    return a[1] > b[1] ? 1 : -1;
+});
+}
+```
+## Code Explanation:
+Read comments in code.
+
 ## Related links
 - [Function.prototype.call](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call)
 - [Array.prototype.sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @guyjoseph @Rafase282 for your help with Bonfire: Inventory Update`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @guyjoseph @Rafase282 @anuragaryan for your help with Bonfire: Inventory Update`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
 

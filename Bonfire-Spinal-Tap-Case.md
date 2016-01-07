@@ -30,10 +30,20 @@ function spinalCase(str) {
 }
 ```
 
+## Code Solution 2:
+```js
+function spinalCase(str) {
+  // Replace low-upper case to low-space-uppercase
+  str = str.replace(/([a-z])([A-Z])/g, '$1 $2');
+  // Split on whitespace and underscores and join with dash
+  return str.toLowerCase().split(/(?:_| )+/) .join('-');
+}
+```
+
 # Code Explanation:
 - Read comments in code.
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 for your help with Bonfire: Spinal Tap Case`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @anuragaryan for your help with Bonfire: Spinal Tap Case`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
