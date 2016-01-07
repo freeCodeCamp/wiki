@@ -19,7 +19,7 @@
 **Solution ahead!**
 
 ## Code Solution:
-### First solution
+#### First solution
 ```js
 function inventory(arr1, arr2) {
 
@@ -67,7 +67,7 @@ function inventory(arr1, arr2) {
     return arr1;
 }
 ```
-### Second solution
+#### Second solution
 ```js
 function inventory(arr1, arr2) {
   // All inventory must be accounted for or you're fired!
@@ -114,7 +114,7 @@ function inventory(arr1, arr2) {
 }
 ```
 
-### Third solution
+#### Third solution
 ```js
 function inventory(arr1, arr2) {
   var flag=0;
@@ -134,7 +134,7 @@ function inventory(arr1, arr2) {
 }
 ```
 # Code Explanation:
-### First solution
+#### First solution
 - Start by creating a variable to store the index in.  Define variables outside of loops
 - Create a helper function to find the index of a product name
 - The helper function iterates through each element of the array that it is called on, until it can either find the name parameter, or if it cannot find it then returns undefined
@@ -145,7 +145,7 @@ function inventory(arr1, arr2) {
 - Return the sorted array
 - For Solution two, the explanation is on the code. Feel free to use different components on each solution to create your own if you like.
 
-### Second-Third solution
+#### Second and Third solution
 - Read comments in code.
 
 ## Related links
