@@ -144,6 +144,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Suzhou](https://www.facebook.com/groups/free.code.camp.suzhou/)
   - [Tianjin](https://www.facebook.com/groups/free.code.camp.Tianjin/)
   - [Xi'an](https://www.facebook.com/groups/free.code.camp.xian/)
+  - [Wuhan](https://www.facebook.com/groups/free.code.camp.wuhan/)
 - Colombia
   - [Barranquilla](https://www.facebook.com/groups/free.code.camp.barranquilla.co/)
   - [Bogota](https://www.facebook.com/groups/free.code.camp.bogota/)
