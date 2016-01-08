@@ -1,6 +1,6 @@
 # Checkpoint: Counting Cards
 
-***About Blackjacks***
+***About Blackjack***
 
 In the casino game Blackjack, a player can gain an advantage over the house by keeping track of the relative number of high and low cards remaining in the deck. This is called [Card Counting](https://en.wikipedia.org/wiki/Card_counting "Wikipedia entry on Card Counting").
 
@@ -63,10 +63,6 @@ function cc(card) {
     case 6:
       count++;
       break;
-    case 7:
-    case 8:
-    case 9:
-      break;
     case 10:
     case "J":
     case "Q":
@@ -89,7 +85,7 @@ function cc(card) {
 - Checks the value of each card via a `switch` statement
 - The variable `count`:
   - Increases by 1 if the card is a 2, 3, 4, 5, or 6
-  - Doesn't change if the card is a 7, 8, or 9
+  - Since 7, 8, and 9 aren't worth anything, we ignore those cards in our `switch` statement.
   - Decreases by 1 if the card is a 10, 'J', 'Q', 'K', or 'A'
 - Checks the value of `count` and returns the appropriate response
 
