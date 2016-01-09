@@ -199,14 +199,14 @@
 67. [Waypoint: Introducing Else Statements](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Introducing-Else-Statements)
 68. [Waypoint: Introducing Else If Statements](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Introducing-Else-If-Statements)
 69. [Waypoint: Chaining If Else Statements](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Chaining-If-Else-Statements)
-70. Checkpoint: Golf Code
+70. [Checkpoint: Golf Code](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Checkpoint-Golf-Code)
 71. [Waypoint: Selecting from many options with Switch Statements](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Selecting-From-Many-Options-With-Switch-Statements)
 72. [Waypoint: Adding a default option in Switch statements](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Adding-A-Default-Option-In-Switch-Statements)
 73. [Waypoint: Multiple Identical Options in Switch Statements](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Multiple-Identical-Options-In-Switch-Statements)
 74. [Waypoint: Replacing If Else Chains with Switch](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Replacing-If-Else-Chains-With-Switch)
 75. [Waypoint: Returning Boolean Values from Functions](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Returning-Boolean-Values-From-Functions)
 76. [Waypoint: Return Early Pattern for Functions](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Return-Early-Pattern-For-Functions)
-77. Checkpoint: Counting Cards
+77. [Checkpoint: Counting Cards](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Checkpoint-Counting-Cards)
 78. [Waypoint: Build JavaScript Objects](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Build-JavaScript-Objects)
 79. [Waypoint: Accessing Objects Properties with the Dot Operator](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Accessing-Objects-Properties-With-The-Dot-Operator)
 80. [Waypoint: Accessing Objects Properties with Bracket Notation](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Accessing-Objects-Properties-With-Bracket-Notation)
@@ -219,7 +219,7 @@
 87. [Waypoint: Introducing JavaScript Object Notation (JSON)](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Introducing-Javascript-Object-Notation-Json)
 88. [Waypoint: Accessing Nested Objects in JSON](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Accessing-Nested-Objects-In-Json)
 89. [Waypoint: Accessing Nested Arrays in JSON](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Accessing-Nested-Arrays-In-Json)
-90. Checkpoint: Record Collection
+90. [Checkpoint: Record Collection](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Checkpoint-Record-Collection)
 91. [Waypoint: Iterate with JavaScript For Loops](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Iterate-with-JavaScript-For-Loops)
 92. [Waypoint: Iterate Odd Numbers With a For Loop](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Iterate-Odd-Numbers-With-a-For-Loop)
 93. [Waypoint: Count Backwards With a For Loop](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Waypoint-Count-Backwards-With-a-For-Loop)
@@ -265,7 +265,7 @@
 14. [Bonfire: Falsy Bouncer](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Bonfire-Falsy-Bouncer)
 15. [Bonfire: Seek and Destroy](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Bonfire-Seek-and-Destroy)
 16. [Bonfire: Where do I belong](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Bonfire-Where-do-I-belong)
-17. Bonfire: Caesar's Cipher
+17. [Bonfire: Caesar's Cipher](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Bonfire-Caesars-Cipher)
 
 # Intermediate Algorithm Scripting
 1. [Bonfire: Sum All Numbers in a Range](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Bonfire-Sum-All-Numbers-in-a-Range)
