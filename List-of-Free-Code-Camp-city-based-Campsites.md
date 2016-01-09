@@ -324,6 +324,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Medan](https://www.facebook.com/groups/free.code.camp.medan/)
   - [Nusajaya](https://www.facebook.com/groups/free.code.camp.nusajaya.malaysia//)
   - [Sidoarjo](https://www.facebook.com/groups/free.code.camp.sidoarjo/)
+  - [Solo](https://www.facebook.com/groups/free.code.camp.solo/)
   - [Surabaya](https://www.facebook.com/groups/free.code.camp.surabaya/)
   - [Yogyakarta](https://www.facebook.com/groups/free.code.camp.yogyakarta/)
 - Iran
@@ -955,7 +956,6 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Madison](https://www.facebook.com/groups/free.code.camp.madison.wisconsin/)
     - [Milwaukee](https://www.facebook.com/groups/free.code.camp.milwaukee/)
     - [Rice Lake](https://www.facebook.com/groups/free.code.camp.rice.lake.wi/)
-    - [Solo](https://www.facebook.com/groups/free.code.camp.solo/)
   - Wyoming    
     [None Yet, Start One!](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/How-to-create-a-Campsite-for-your-city)
 - Uruguay
