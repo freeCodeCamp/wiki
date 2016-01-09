@@ -268,7 +268,6 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Allahabad](https://www.facebook.com/groups/free.code.camp.allahabad/)
   - [Arunachalpradesh](https://www.facebook.com/groups/free.code.camp.itanagar.arunachalpradesh/)
   - [Aurangabad](https://www.facebook.com/groups/freecodecampauranagabad/)
-  - [Bali](https://www.facebook.com/groups/free.code.camp.bali/)
   - [Bapatla](https://www.facebook.com/groups/free.code.camp.bapatla/)
   - [Bengaluru](https://www.facebook.com/groups/free.code.camp.bengaluru/)
   - [Bhubaneswar](https://www.facebook.com/groups/free.code.camp.bhubaneswar/)
@@ -318,6 +317,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Vijayawada](https://www.facebook.com/groups/free.code.camp.your.vijayawada/)
   - [Vizag](https://www.facebook.com/groups/free.code.camp.vizag/)
 - Indonesia
+  - [Bali](https://www.facebook.com/groups/free.code.camp.bali/)
   - [Bandung](https://www.facebook.com/groups/free.code.camp.bandung/)
   - [Jakarta](https://www.facebook.com/groups/free.code.camp.jakarta/)
   - [Lampung](https://www.facebook.com/groups/free.code.camp.bandar.lampung/)
