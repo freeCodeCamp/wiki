@@ -702,7 +702,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [New Haven](https://www.facebook.com/groups/free.code.camp.new.haven/)
     - [Shelton](https://www.facebook.com/groups/free.code.camp.shelton.ct/)
   - Delaware    
-    - [None Yet, Start One!](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/How-to-create-a-Campsite-for-your-city)
+    - [Lewes](https://www.facebook.com/groups/free.code.camp.lewes/)
   - District of Colombia
     - [Washington, D.C.](https://www.facebook.com/groups/free.code.camp.washington.dc/)
   - Florida
