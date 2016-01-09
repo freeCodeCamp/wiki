@@ -185,6 +185,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Al-Mansoura](https://www.facebook.com/groups/free.code.camp.almansoura/)    
   - [Alexandria](https://www.facebook.com/groups/free.code.camp.alex/)
   - [Cairo](https://www.facebook.com/groups/free.code.camp.cairo/)
+  - [Tanta](https://www.facebook.com/groups/free.code.camp.tanta/)
 - England
   - [Birmingham](https://www.facebook.com/groups/free.code.camp.birmingham.uk/)
   - [Brighton](https://www.facebook.com/groups/free.code.camp.brighton/)
