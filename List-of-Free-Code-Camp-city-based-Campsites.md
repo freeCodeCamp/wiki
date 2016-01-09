@@ -138,6 +138,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
 - China
   - [Beijing](https://www.facebook.com/groups/free.code.camp.beijing/)
   - [Changsha](https://www.facebook.com/groups/free.code.camp.changsha/)
+  - [Chongqing](https://www.facebook.com/groups/172929129734195)
   - [Guangzhou](https://www.facebook.com/groups/free.code.camp.guangzhou/)
   - [Kunming](https://www.facebook.com/groups/free.code.camp.kunming/)
   - [Linyi](https://www.facebook.com/groups/free.code.camp.Linyi/)
@@ -185,6 +186,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Al-Mansoura](https://www.facebook.com/groups/free.code.camp.almansoura/)    
   - [Alexandria](https://www.facebook.com/groups/free.code.camp.alex/)
   - [Cairo](https://www.facebook.com/groups/free.code.camp.cairo/)
+  - [Tanta](https://www.facebook.com/groups/free.code.camp.tanta/)
 - England
   - [Birmingham](https://www.facebook.com/groups/free.code.camp.birmingham.uk/)
   - [Brighton](https://www.facebook.com/groups/free.code.camp.brighton/)
@@ -267,7 +269,6 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Allahabad](https://www.facebook.com/groups/free.code.camp.allahabad/)
   - [Arunachalpradesh](https://www.facebook.com/groups/free.code.camp.itanagar.arunachalpradesh/)
   - [Aurangabad](https://www.facebook.com/groups/freecodecampauranagabad/)
-  - [Bali](https://www.facebook.com/groups/free.code.camp.bali/)
   - [Bapatla](https://www.facebook.com/groups/free.code.camp.bapatla/)
   - [Bengaluru](https://www.facebook.com/groups/free.code.camp.bengaluru/)
   - [Bhubaneswar](https://www.facebook.com/groups/free.code.camp.bhubaneswar/)
@@ -317,12 +318,14 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Vijayawada](https://www.facebook.com/groups/free.code.camp.your.vijayawada/)
   - [Vizag](https://www.facebook.com/groups/free.code.camp.vizag/)
 - Indonesia
+  - [Bali](https://www.facebook.com/groups/free.code.camp.bali/)
   - [Bandung](https://www.facebook.com/groups/free.code.camp.bandung/)
   - [Jakarta](https://www.facebook.com/groups/free.code.camp.jakarta/)
   - [Lampung](https://www.facebook.com/groups/free.code.camp.bandar.lampung/)
   - [Medan](https://www.facebook.com/groups/free.code.camp.medan/)
   - [Nusajaya](https://www.facebook.com/groups/free.code.camp.nusajaya.malaysia//)
   - [Sidoarjo](https://www.facebook.com/groups/free.code.camp.sidoarjo/)
+  - [Solo](https://www.facebook.com/groups/free.code.camp.solo/)
   - [Surabaya](https://www.facebook.com/groups/free.code.camp.surabaya/)
   - [Yogyakarta](https://www.facebook.com/groups/free.code.camp.yogyakarta/)
 - Iran
@@ -954,7 +957,6 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Madison](https://www.facebook.com/groups/free.code.camp.madison.wisconsin/)
     - [Milwaukee](https://www.facebook.com/groups/free.code.camp.milwaukee/)
     - [Rice Lake](https://www.facebook.com/groups/free.code.camp.rice.lake.wi/)
-    - [Solo](https://www.facebook.com/groups/free.code.camp.solo/)
   - Wyoming    
     [None Yet, Start One!](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/How-to-create-a-Campsite-for-your-city)
 - Uruguay
