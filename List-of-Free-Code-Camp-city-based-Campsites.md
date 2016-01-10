@@ -727,7 +727,6 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - Georgia
     - [Albany](https://www.facebook.com/groups/1672818199656454/)
     - [Atlanta](https://www.facebook.com/groups/free.code.camp.atlanta/)
-    - [Augusta](https://www.facebook.com/groups/free.code.camp.augusta/)
     - [Columbus](https://www.facebook.com/groups/free.code.camp.columbus.georgia/)
     - [Savannah](https://www.facebook.com/groups/free.code.camp.savannah/)
     - [Valdosta](https://www.facebook.com/groups/free.code.camp.valdosta/)
@@ -774,7 +773,8 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Mandeville](https://www.facebook.com/groups/free.code.camp.mandeville/)
     - [Morgan City](https://www.facebook.com/groups/free.code.camp.morgan.ciry.la/)
   - Maine
-    - [Auburn, Maine](https://www.facebook.com/groups/free.code.camp.auburn.maine/)
+    - [Auburn](https://www.facebook.com/groups/free.code.camp.auburn.maine/)
+    - [Augusta](https://www.facebook.com/groups/free.code.camp.augusta/)
     - [Rockland](https://www.facebook.com/groups/435736603276121/)
   - Maryland
     - [Baltimore](https://www.facebook.com/groups/free.code.camp.baltimore/)
