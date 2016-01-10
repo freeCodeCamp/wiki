@@ -1,5 +1,6 @@
 If you didn't see your city on [our list of Campsites](https://github.com/FreeCodeCamp/freecodecamp/wiki/List-of-Free-Code-Camp-city-based-Campsites), you should create your own Facebook group for your city.
- 
+
+<br> 
 Please follow these steps: 
 - Sign in to Facebook. 
 - Click the down arrow in the upper right corner of the screen, then choose "Create Group" from the options.
@@ -25,7 +26,7 @@ Please follow these steps:
 
 <br>
 - Set the group's privacy setting to public. 
-- Set your group's membership approval to where any member can add or approve members ![a screenshot showing the Facebook settings panel and where you can click to set the group to public and allow all members to be able to add or approve members>
+- Set your group's membership approval to where any member can add or approve members ![a screenshot showing the Facebook settings panel and where you can click to set the group to public and allow all members to be able to add or approve members
 
 ![A screen shot showing you the group description box on the Facebook page.](https://www.evernote.com/l/AHTs6Ec_hylKyYWVhpZonOHPn8j8I5ydgv4B/image.png)
 
@@ -44,8 +45,9 @@ Please follow these steps:
 - Click the "Upload a photo button. To start out, you'll probably just want to use Free Code Camp's banner (download it [here](https://s3.amazonaws.com/freecodecamp/wide-social-banner.png)), or a scenic shot of your city. Later you can update this with a picture from one of your city's Free Code Camp events. 
 
 ![A screenshot showing the "Upload a photo" button.](https://www.evernote.com/shard/s116/sh/fabe226a-5a26-4508-b015-1dac35192a21/37f8119dc57845a31e972217714b038b/deep/0/Free-Code-Camp-Testland.png)
+
 <br>
-- And finally, [message Justin (@hallaathrad in Gitter)](https://gitter.im/hallaathrad) with a link to your city's group page. He'll include it in the list.
+- And finally, [message Justin (@hallaathrad on Gitter)](https://gitter.im/hallaathrad) with a link to your city's group page. He'll include it in the list.
 - Join our [Local Leaders Facebook group](https://www.facebook.com/groups/freecodecampers/), where we share ideas about involving campers in your city. 
 
 If you don't have a Facebook account, we strongly recommend you create one, even if it's just for the purpose of coordinating with campers in your city through this group. 
