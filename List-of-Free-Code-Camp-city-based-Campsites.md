@@ -73,6 +73,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Campinas](https://www.facebook.com/groups/free.code.camp.campinas/)
   - [Campo Grande](https://www.facebook.com/groups/768732203272622/)
   - [Caxias do Sul](https://www.facebook.com/groups/free.code.camp.caxias.do.sul/)
+  - [Chapeco](https://www.facebook.com/groups/free.code.camp.chapeco/)
   - [Curitiba](https://www.facebook.com/groups/free.code.camp.curitiba/)
   - [Florianopolis](https://www.facebook.com/groups/free.code.camp.florianopolis/)
   - [Fortaleza](https://www.facebook.com/groups/free.code.group.fortaleza/)
