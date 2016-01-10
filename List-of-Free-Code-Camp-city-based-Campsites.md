@@ -886,6 +886,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - Pennsylvania
     - [Bushkill](https://www.facebook.com/groups/Free.Code.Camp.Bushkill.PA/)
     - [Harrisburg](https://www.facebook.com/groups/free.code.camp.harrisburg.pa/)
+    - [Lehighton](https://www.facebook.com/groups/free.code.camp.lehighton.pa/)
     - [Philadelphia](https://www.facebook.com/groups/free.code.camp.philadelphia/)
     - [Pittsburgh](https://www.facebook.com/groups/free.code.camp.pittsburgh.pa/)
     - [Wilkes-Barre](https://www.facebook.com/groups/free.code.camp.wilkesbarre/)
