@@ -292,6 +292,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Jaipur](https://www.facebook.com/groups/free.code.camp.jaipur/)
   - [Jalgaon](https://www.facebook.com/groups/free.code.camp.jalgaon/)
   - [Jamnagar](https://www.facebook.com/groups/free.code.camp.jamnagar.guj.in/)
+  - [Kochi](https://www.facebook.com/groups/1542888942704307)
   - [Kolkata](https://www.facebook.com/groups/free.code.camp.kolkata/)
   - [Kozhikode](https://www.facebook.com/groups/free.code.camp.kozhikode/)
   - [Lucknow](https://www.facebook.com/groups/1647602228815736/)
