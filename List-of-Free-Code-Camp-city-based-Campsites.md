@@ -933,6 +933,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Burlington](https://www.facebook.com/groups/1080815058603708/)
   - Virginia
     - [Charlottesville](https://www.facebook.com/groups/free.code.camp.charlottesville/)
+    - [Fairfax](https://www.facebook.com/groups/free.code.camp.fairfax/)
     - [Farmville ](https://www.facebook.com/groups/free.code.camp.farmville.va/)
     - [Floyd](https://www.facebook.com/groups/free.code.camp.floyd.virginia/)
     - [Fredericksburg](https://www.facebook.com/groups/free.code.camp.fredericksburg/)
