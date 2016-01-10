@@ -1,12 +1,12 @@
 # Heroku Deployment Guide
 
-1. Create a Heroku account. 
+1. Create a Heroku account.
 
 2. After making an account, you can go to your dashboard at https://dashboard.heroku.com/apps
 
 3. Click the + sign in the top right hand corner and click Create New App (just like you're making a new repo on github). Give it a name, and click Create.
 
-	<img src="./images/Waypoint-Heroku-Deploy/new-heroku-app.png" alt="Image for 'Create New Heroku App'">
+	<img src="./images/Heroku-Deployment-Guide/new-heroku-app.png" alt="Image for 'Create New Heroku App'">
 
 4. After creating the app you'll see its name in your dashboard. Click on it.
 
