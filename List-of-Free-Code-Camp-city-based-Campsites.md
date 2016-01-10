@@ -549,6 +549,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Riyadh](https://www.facebook.com/groups/free.code.camp.Riyadh/)
   - [Riyadh (women only group)](https://www.facebook.com/groups/girlscodeksa/)
 - Scotland
+  - [Dundee](https://www.facebook.com/groups/free.code.camp.dundee/) 
   - [Edinburgh](https://www.facebook.com/groups/free.code.camp.edinburgh/)
   - [Glasgow](https://www.facebook.com/groups/free.code.camp.glasgow/)      
 - Serbia
