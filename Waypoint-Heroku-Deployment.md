@@ -6,11 +6,13 @@
 
 3. Click the + sign in the top right hand corner and click Create New App (just like you're making a new repo on github). Give it a name, and click Create.
 
+	<img src="./images/Waypoint-Heroku-Deploy/new-heroku-app.png" alt="Image for 'Create New Heroku App'">
+
 4. After creating the app you'll see its name in your dashboard. Click on it.
 
 5. You'll be taken to a dashboard for that app. Click on the Deploy tab.
 
-6. There you'll be happy to see that you can connect to a github repo! YAY! In the Deployment Method section, choose Github and authenticate by signing into Github.
+6. There you'll be pleased to find that you can connect to a github repo. In the Deployment Method section, choose Github and authenticate by signing into Github.
 
 7. Right below that, fill in your github repo name. (This of course requires that you've pushed a repo to github from either cloud9 or your local machine...and that you've correctly configured it. More on that below.)
 
