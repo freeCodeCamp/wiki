@@ -578,6 +578,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
 - Spain
   - [Almeria](https://www.facebook.com/groups/free.code.camp.almeria/)
   - [Barcelona](https://www.facebook.com/groups/free.code.camp.barcelona/)
+  - [Barcelona (english speakers)](https://www.facebook.com/groups/free.code.camp.barcelona.spain/)
   - [Caceres](https://www.facebook.com/groups/free.code.camp.caceres/)
   - [Cadiz](https://www.facebook.com/groups/free.code.camp.cadiz/)
   - [Gijon](https://www.facebook.com/groups/free.code.camp.gijon/)    
