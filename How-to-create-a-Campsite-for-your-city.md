@@ -5,7 +5,7 @@ Please follow these steps:
 - Click the down arrow in the upper right corner of the screen, then choose "Create Group" from the options.
 
 ![A screenshot of Facebook showing the drop down menu that appears when you click the down arrow, with an arrow pointing to the "Create Group" option](https://www.evernote.com/shard/s116/sh/d01bb2bc-6260-4987-bedf-b2ce4c31972f/3eecbcff3109036cf90b69589360f407/deep/0/Facebook.png)
-- Set the group name as "Free Code Camp" plus the proper name of your city. Avoid using slang terms such as "Philly" for "Philadelphia". If your city is not the biggest city that uses its name, also include the state or province. For example, the Free Code Camp group in Paris, France should be called "Free Code Camp Paris". The Free Code Camp group in Paris, Texas should be called "Free Code Camp Paris, Texas". 
+- Set the group name as "Free Code Camp" plus the proper name of your city. Avoid using slang terms such as "Philly" for "Philadelphia". If your city is not the biggest city that uses its name, also include the state or province. For example, the Free Code Camp group in Paris, France should be called "Free Code Camp Paris". The Free Code Camp group in Paris, Texas should be called "Free Code Camp Paris, Texas".
 - Set your group to public. 
 - You'll need to add at least one friend from your city to this group in order to create the group. 
 
@@ -25,6 +25,7 @@ Please follow these steps:
 
 ![a screenshot telling you to enter free.code.camp.your.city.name with each word seperated by periods.](https://www.evernote.com/shard/s116/sh/357b1bd9-7c40-4f72-8a9a-d918e632a5e8/c4714ca59360b2517dfffe90c60b1556/deep/0/Free-Code-Camp-Testland.png)
 - Please feel free to personalize your city's group description, but be sure to include a link to Free Code Camp: "http://www.freecodecamp.com". 
+- It truly helps mentioning here what country (or state/province if in North America) your city is in. It makes it much easier for possible new members to find you.
 
 ![A screen shot showing you the group description box on the Facebook page.](https://www.evernote.com/shard/s116/sh/e13808ea-f084-46f1-95bc-63db524383d5/0586484d44360e73e9acda956dad7f6a/deep/0/Free-Code-Camp-Testland.png)
 - Click the "Upload a photo button. To start out, you'll probably just want to use Free Code Camp's banner (download it [here](https://s3.amazonaws.com/freecodecamp/wide-social-banner.png)), or a scenic shot of your city. Later you can update this with a picture from one of your city's Free Code Camp events. 
