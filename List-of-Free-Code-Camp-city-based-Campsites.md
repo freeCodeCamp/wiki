@@ -630,6 +630,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Lviv](https://www.facebook.com/groups/free.code.camp.lviv/)
   - [Mykolaiv](https://www.facebook.com/groups/free.code.camp.mykolaiv/)
   - [Odessa](https://www.facebook.com/groups/free.code.camp.your.city.odessa.ukraine/)
+  - [Ternopil](https://www.facebook.com/groups/free.code.camp.Ternopil.Ukraine/)
   - [Vinnitsa](https://www.facebook.com/groups/free.code.camp.vinnitsa/)
   - [Zaporozhye](https://www.facebook.com/groups/free.code.camp.zaporozhye/)
   - [Zhytomyr](https://www.facebook.com/groups/free.code.camp.zhytomyr/)
