@@ -228,6 +228,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Bordeaux](https://www.facebook.com/groups/free.code.camp.your.city.Bordeaux/)
   - [Dax](https://www.facebook.com/groups/509612812554265/)
   - [Grenoble](https://www.facebook.com/groups/free.code.camp.grenoble/)
+  - [Lyon](https://www.facebook.com/groups/free.code.camp.lyon/)
   - [Macon](https://www.facebook.com/groups/free.code.camp.macon/)
   - [Montpellier](https://www.facebook.com/groups/free.code.camp.montpellier/)
   - [Nantes](https://www.facebook.com/groups/free.code.camp.nantes/)
@@ -460,6 +461,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Trondheim](https://www.facebook.com/groups/free.code.camp.trondheim/)
   - [Stavanger](https://www.facebook.com/groups/free.code.camp.stavanger/)    
 - Pakistan
+  - [Bannu](https://www.facebook.com/groups/free.code.camp.bannu/) 
   - [Gujrat City](https://www.facebook.com/groups/free.code.camp.gujrat/)
   - [Islamabad](https://www.facebook.com/groups/free.code.camp.islamabad/)
   - [Karachi](https://www.facebook.com/groups/free.code.camp.karachi/)
