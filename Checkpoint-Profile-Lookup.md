@@ -45,13 +45,12 @@ Remember to use [ Read-Search-Ask](http://github.com/FreeCodeCamp/freecodecamp/w
 function lookUp(firstName, prop){
 // Only change code below this line
 var noContactFound = false;
-for (var i = 0; i < contacts.length; i++){
+for (var i = 0; i < contacts.length ; i++){
   if (contacts[i].firstName === firstName){
     if(contacts[i].hasOwnProperty(prop)){
       return contacts[i][prop];
-    } else {
-        return "No such property";
     }
+        return "No such property";
   } else {
       noContactFound = true;
     }
@@ -61,6 +60,7 @@ if(noContactFound){
 }
 // Only change code above this line
 }
+
 // Change these values to test your function
 lookUp("Akira", "likes");
 ```
