@@ -59,6 +59,6 @@ wordBlanks("dog", "big", "ran", "quickly");
 - Use `result` to concatenate the given variables separated by whitespace and added strings to forma full sentence.
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 for your help with Checkpoint: Word Blanks`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
