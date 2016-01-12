@@ -217,7 +217,7 @@ Now that you've made your change, you have to *commit* and *push*.
 		- If doing a specific issue, append to the end of the commit message `closes #1337`. This tells GitHub to close that issue if the PR is merged 
 + push:
 	-`git push <REMOTENAME> <REMOTEBRANCH>`
-	- example `gish push origin wikiguide`
+	- example `git push origin wikiguide`
 
 
 
