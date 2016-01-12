@@ -35,6 +35,6 @@ Bonfire tests are written using the [Chai.js](http://chaijs.com/) assertion libr
 If your bonfire question has a lot of edge cases, you will need to write many tests for full coverage. If you find yourself writing more tests than you desire, you may consider simplifying the requirements of your bonfire challenge. For difficulty level 1 through 3, you will generally only need 2 to 4 tests.
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @brandenbyers @Rafase282 for your help with Bonfire: Style Guide`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @brandenbyers @Rafase282 for your help with the Bonfire Style Guide`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

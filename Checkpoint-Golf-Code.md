@@ -75,6 +75,6 @@ golfScore(5, 4);
 - else will return string "Go home!" to every condition where strokes are equal to par +3 or higher
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @osterbergmarcus`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @osterbergmarcus for your help with Checkpoint: Golf Code`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

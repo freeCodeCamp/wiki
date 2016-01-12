@@ -36,6 +36,6 @@ code here
 - Explain your code here
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @username`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @username for your help with Checkpoint: name of the checkpoint`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

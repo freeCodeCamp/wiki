@@ -43,6 +43,6 @@ var myList = [["Canned Beans", 3],["Milk Galon", 1],["Cereal", 2],["Toilet Paper
 - Created an array that has five arrays inside composed of a string and an integer in that order.
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 for your help with Checkpoint: Shopping List`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
