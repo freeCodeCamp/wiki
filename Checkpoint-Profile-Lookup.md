@@ -45,7 +45,7 @@ Remember to use [ Read-Search-Ask](http://github.com/FreeCodeCamp/freecodecamp/w
 function lookUp(firstName, prop){
 // Only change code below this line
 var noContactFound = false;
-for (var i = 0; i < contacts.length ; i++){
+for (var i = 0; i < contacts.length; i++){
   if (contacts[i].firstName === firstName){
     if(contacts[i].hasOwnProperty(prop)){
       return contacts[i][prop];
@@ -67,7 +67,8 @@ lookUp("Akira", "likes");
 
 # Code Explanation:
 - Variable "noContactFound" will store a boolean value equal to `true` if contact is not found.
-- The if statement checks if our parameter `firstName` is equal to any firstName property from the four objects stored "contacts"
+- Looping through the objects stored in `contacts` using For loop.
+- The if statement checks if our parameter `firstName` is equal to any firstName property from the four objects.
 - If a contact is found then continue to our second `if condition` that checks if the contact has a property equal to our parameter `prop` by using the `.hasOwnProperty(prop)` method.
 - If no properties are found from our current contact return string `No such property`.
 - If no contact was matching our parameter `firstName` then set the variable "noContactFound" to `true`.
