@@ -208,6 +208,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Milton Keynes](https://www.facebook.com/groups/free.code.camp.milton.keynes/)
   - [Norfolk](https://www.facebook.com/groups/free.code.camp.norfolk/)  
   - [Reading](https://www.facebook.com/groups/free.code.camp.reading/)
+  - [Salisbury](https://www.facebook.com/groups/free.code.camp.salisbury/)
   - [Sheffield](https://www.facebook.com/groups/free.code.camp.sheffield/)
   - [Southampton](https://www.facebook.com/groups/FCC.Southampton/)
   - [Stoke-on-Trent](https://www.facebook.com/groups/free.code.camp.stoke.on.trent/)
@@ -237,7 +238,9 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Nantes](https://www.facebook.com/groups/free.code.camp.nantes/)
   - [Paris](https://www.facebook.com/groups/free.code.camp.paris/)
   - [Poitiers](https://www.facebook.com/groups/free.code.camp.poitiers/)
-  - [Toulouse](https://www.facebook.com/groups/free.code.camp.toulouse/)  
+  - [Toulouse](https://www.facebook.com/groups/free.code.camp.toulouse/)
+- Georgia
+  - [Tbilisi](https://www.facebook.com/groups/free.code.camp.tbilisi/)
 - Germany
   - [Berlin](https://www.facebook.com/groups/free.code.camp.berlin/)
   - [Braunschweig](https://www.facebook.com/groups/free.code.camp.braunschweig/)
@@ -409,6 +412,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Durango](https://www.facebook.com/groups/free.code.camp.durango/)
   - [Guadalajara](https://www.facebook.com/groups/fcc.guadalajara)
   - [Hermosillo](https://www.facebook.com/groups/free.code.camp.Hermosillo/)
+  - [La Paz](https://www.facebook.com/groups/free.code.camp.lapaz.mx/)
   - [Mexico City](https://www.facebook.com/groups/free.code.camp.mexico.df/)
   - [Monterrey](https://www.facebook.com/groups/free.code.camp.monterrey/)
   - [Puebla](https://www.facebook.com/groups/free.code.camp.pueblaMX/)
@@ -459,6 +463,8 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Lagos](https://www.facebook.com/groups/free.code.camp.lagos/)
   - [Port Harcourt](https://www.facebook.com/groups/free.code.camp.port.harcourt/)
   - [Sokoto](https://www.facebook.com/groups/free.code.camp.sokoto/)
+- Northern Ireland
+  - [Belfast](https://www.facebook.com/groups/free.code.camp.belfast.UK/) 
 - Norway
   - [Bergen](https://www.facebook.com/groups/free.code.camp.Bergen/)
   - [Kristiansand](https://www.facebook.com/groups/free.code.camp.kristiansand/)
@@ -500,7 +506,8 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Krakow](https://www.facebook.com/groups/free.code.camp.krakow/)
   - [Lodz](https://www.facebook.com/groups/free.code.camp.lodz/)
   - [Plock](https://www.facebook.com/groups/858565847589635/)
-  - [Poznan](https://www.facebook.com/groups/free.code.camp.poznan/)  
+  - [Poznan](https://www.facebook.com/groups/free.code.camp.poznan/)
+  - [Siedlce](https://www.facebook.com/groups/934547773266565/)
   - [Sopot](https://www.facebook.com/groups/free.code.camp.trojmiasto/)
   - [Szczecin](https://www.facebook.com/groups/free.code.camp.szczecin/)
   - [Warsaw](https://www.facebook.com/groups/free.code.camp.warsaw/)
@@ -601,6 +608,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Jaffna](https://www.facebook.com/groups/free.code.camp.jaffna/)
 - Sweden
   - [Stockholm](https://www.facebook.com/groups/free.code.camp.stockholm.sweden/)
+  - [Malmö](https://www.facebook.com/groups/211477459193864/)
 - Switzerland
   - [Basel](https://www.facebook.com/groups/free.code.camp.basel/)
   - [Geneva](https://www.facebook.com/groups/free.code.camp.geneva/)          
@@ -780,6 +788,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - Louisiana
     - [Leesville](https://www.facebook.com/groups/free.code.camp.leesville.la/)
     - [Mandeville](https://www.facebook.com/groups/free.code.camp.mandeville/)
+    - [Metairie](https://www.facebook.com/groups/free.code.camp.metairie.la/)
     - [Morgan City](https://www.facebook.com/groups/free.code.camp.morgan.ciry.la/)
   - Maine
     - [Auburn](https://www.facebook.com/groups/free.code.camp.auburn.maine/)
