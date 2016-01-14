@@ -13,7 +13,7 @@ Remember to use [ Read-Search-Ask](http://github.com/FreeCodeCamp/freecodecamp/w
 - Explain what is asked in an easy to understand way.
 
 ## Hint: 1
-- Take a look at the code, there is an area that yoya re not supposed to edit, from there ask yourself, what is used there that I don't see before?
+- Take a look at the code, there is an area that you're not supposed to edit, from there ask yourself, what is used there that I don't see before?
 
 ## Hint: 2
 - Keep in mind the `order of operation` check the link in the _link_ section for more information.
