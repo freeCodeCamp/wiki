@@ -17,6 +17,7 @@ Make the variable created store the current value and append the word to it.
 
 ## Code Solution:
 
+####First Solution
 ```js
 function repeat(str, num) {
   var accumulatedStr = '';
@@ -30,7 +31,7 @@ function repeat(str, num) {
 }
 ```
 
-Second Solution:
+####Second Solution
 
 ```js
 function repeat(str, num) {
@@ -44,32 +45,8 @@ function repeat(str, num) {
 repeat("abc", 3);
 ```
 
-# Code Explanation:
-- Create a variable to store the repeated word.
-- Use a while loop or for loop to repeat code as many times as needed according to `num`
-- The we just have to add the string to the variable created on step one. and increase or decrease num depending on how you set the loop.
-- At the end of the loop, return the variable for the repeated word.
-
-Third Solution:
-
-```js
-function repeat(str, num) {
-  if (num < 0) {
-    return "";
-  } 
-  else {
-    return str.repeat(num);
-  }
-}
-
-repeat("abc", 3);
-```
-
-# Code Explanation:
-- First check if num is a negative number and return false if so
-- as of ECMA Script 6 (ES6) the String object comes with a builtin function to repeat a string which we you can use
-
-##Recursive Solution
+####Third Solution 
+(using Recursion)
 ```js
 function repeat(str, num) {
   if(num < 0)
@@ -81,7 +58,41 @@ function repeat(str, num) {
 }
 ```
 
+####Fourth Solution
+(Declarative approach)
+
+```js
+function repeat(str, num) {
+  return num >= 0 ? str.repeat(num) : "";
+}
+
+repeat("abc", 3);
+```
+
+# Code Explanation:
+
+####First and Second solutions
+- Create a variable to store the repeated word.
+- Use a while loop or for loop to repeat code as many times as needed according to `num`
+- Then we just have to add the string to the variable created on step one. and increase or decrease num depending on how you set the loop.
+- At the end of the loop, return the variable for the repeated word.
+
+####Third solution
+(using recursiveness)
+- We check if `num` is a negative and return an empty string if true.
+- Then we check if it's equal to 1 and in that case we return the string itself.
+- If not, we add the string to a call of our function with `num` being decreased by 1, which will add another `str` and another until eventually `num` is 1. And return that whole process.
+
+####Fourth solution
+(Declarative approach)
+- This solution is somewhat similar to the third solution, except it uses the ternary operator form of the `if` statement.
+- The conditional's first statement (in this case our checking whether `num` is a negative number) is followed by `?`.
+- The next statement is what to execute, or in our case return, when the condition evaluates to true.
+- The final statement is what to execute, or again in our case return, if the initial statement evaluates to false.
+- In between the two statements for true and false, you use a colon `:` to indicate the separation.
+
+
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 @shadowfool for your help with Bonfire: Repeat a String Repeat a String`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 @shadowfool @Hallaathrad @sgalizia for your help with Bonfire: Repeat a String Repeat a String`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
