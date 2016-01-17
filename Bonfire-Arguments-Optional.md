@@ -120,25 +120,28 @@ function add() {
 
 ```js
 // This is a more generic solution. 
-// It will retunr the sum of unlimited number of arguemnts if they are numbers 
+// It will return the sum of unlimited number of arguemnts if they are numbers 
 function add(b) {
-    // check if all passed arguments are numbers 
+    // check if all passed arguments are numbers. 
     for (var key in arguments) {
+        // return undefined if even one argument is not a number 
         if (typeof arguments[key] !== "number") return undefined;
     }
     // return closure function if only one argument was passed
     var sum = 0;
     if (arguments.length === 1){
         return function(y) {
-            // check if the argument of closure function is number
+            // return undefined if the argument of closure function is not a number
             if (typeof y !== "number") return undefined;
+            // else return the sum of arguments of original function and closure 
             return b + y;
         };
     }
-    // return the sum of all arguments if more that one argument was passed in
+    // return the sum of all arguments if more that one argument was passed in original function
     else if (arguments.length > 1) {
+        // loop through the arguments and sum them. 
         for (var i = 0; i < arguments.length; i++){
-            sum += arguments[i];
+            sum += arguments[i]; // can't use reduce() function because arguments is an object not an array
         }
         return sum;
     }
