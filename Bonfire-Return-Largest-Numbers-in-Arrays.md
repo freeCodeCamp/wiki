@@ -15,7 +15,8 @@ Pay close attention to the timing of the storing of variables when working with 
 
 **Solutions ahead!**
 
-## Solution 1:
+#### First solution
+(Procedural approach)
 
 ```js
 function largestOfFour(arr) {
@@ -35,53 +36,55 @@ function largestOfFour(arr) {
 }
 ```
 
-# Code Explanation:
-- Create a variable to store the results as an array.
-- Create an outer loop to iterate through the main array.
-- Before going into the inner loop, create a variable to hold the largest number. This must be outside the inner loop.
-- Create another for loop to work with the sub-arrays.
-- Check if the element of the sub array is larger than the current largest number. If so, then save the number.
-- After the inner loop, save the largest number in the variable for the results.
-
-## Solution 2:
+#### Second solution
+(Declarative approach)
+> NOTE: This is an advanced solution. NOT FOR BEGINNERS.
 
 ```js
 function largestOfFour(arr) {
-  // You can do this!
-  // Yes, I can. :P
   return arr.map(Function.apply.bind(Math.max, null));
 }
-
-largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]);
 ```
 
 # Code Explanation:
-- The `Function.apply.bind(Math.max, null)` makes a new function accepting the `arr.map` values i.e. the inner arrays.
 
-Now the new function needs to find the max of the input inner array.
-- So we want to create a function that does the work of `Math.max` and accepts input as an array.
+#### First Solution
+(Procedural approach)
 
-e.g. wouldn't be nice if the `Math.max` would be accepting inputs like this:   
-`Math.max([9, 43, 20, 6]); // 43`.
-- To do the work of accepting params as array, there is this `Function.apply` method but it *invokes* the *context* function.
+- Create a variable to store the *results* as an array.
+- Create an outer loop to iterate through the outer array.
+- Create a second variable to hold the largest number. This must be outside an inner loop so it won't be reassigned until we find a larger number.
+- Create said inner loop to work with the sub-arrays.
+- Check if the element of the sub array is larger than the currently stored largest number. If so, then update the number in the variable.
+- After the inner loop, save the largest number in the corresponding position inside of the `results` array.
+- And finally return said array.
 
-i.e. `Math.max.apply(null, [9, 43, 20, 6]); // 43` would invoke the `Max.max` method. 
+#### Second Solution
+(Declarative approach)
+
+> TL;DR: **We build a special callback function (using the `Function.bind` method), that works just like `Math.max` but also has `Function.apply`'s ability to take arrays as its arguments ** :smiley:
+
+- We start by mapping through the elements inside the main array. Meaning each one of the inner arrays.
+
+- Now the need a callback function to find the max of each inner array provided by the map.<br>So we want to create a function that does the work of `Math.max` and accepts input as an array (which by it doesn't by default).<br><br>In other words, it would be really nice and simple if this worked by itself:
+`Math.max([9, 43, 20, 6]); // Resulting in 43`<br>Alas, it doesn't.
+
+- To do the work of accepting arguments in the shape of an array, there is this `Function.apply` method, but it complicates things a bit by *invoking* the *context* function.<br>
+i.e. `Math.max.apply(null, [9, 43, 20, 6]);` would invoke something like a `Max.max` method. What we're looking for... almost. 
 
 > Here we're passing `null` as the *context* of the `Function.apply` method as `Math.max` doesn't need any context.
 
-But that's not useful for `arr.map` which accepts a function value. So we create a function value using `Function.bind` method. 
-- Since, `Function.apply` is a static *method* of `Function` Object, so we can call `Function.prototype.bind` on `Function.apply` i.e. `Function.apply.bind`.
+- Since `arr.map` expects a callback function, not just an expression, we create a function out of the previous expression by using the `Function.bind` method. 
+- Since, `Function.apply` is a static *method* of the same `Function` *object*, we can call `Function.prototype.bind` on `Function.apply` i.e. `Function.apply.bind`.
 
-Now we pass the *context* for `Function.apply.bind` call i.e. `Math.max` method as the 1st argument which would give us the functionality of `Math.max` method.
-- Since `Function.apply` method takes a context as it's 1st argument, hence, we need to pass a bogus *context* for `Function.apply` method.
+- Now we pass the *context* for the `Function.apply.bind` call (in this case we want `Math.max`so we can gain its functionality).
+- Since the embedded `Function.apply` method will also require a context as it's 1st argument, we need to pass it a bogus *context*.
   - So, we pass `null` as the 2nd param to `Function.apply.bind` which gives a *context* to the `Math.max` method.
   - Since, `Math.max` is independent of any *context*, hence, it ignores the bogus *context* given by `Function.apply` method call. 
+  - Thus, our `Function.apply.bind(Math.max, null)` makes a new function accepting the `arr.map` values i.e. the inner arrays.
 
-**So in the end we get a function (using `Function.bind` method) that works like `Math.max` but accepts params as an array like `Function.apply`** :smiley: 
+*Bien noté*? :neutral_face:
 
-*comprendido*? :neutral_face:
-
-> NOTE: This is an advanced solution. NOT FOR BEGINNERS.
 
 **Reference:-**
 - http://devdocs.io/#q=js+Math+max
@@ -90,6 +93,6 @@ Now we pass the *context* for `Function.apply.bind` call i.e. `Math.max` method 
 - http://devdocs.io/#q=js+Function+bind
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 @abhisekp for your help with Bonfire: Return Largest Numbers in Arrays`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 @abhisekp @Hallaathrad for your help with Bonfire: Return Largest Numbers in Arrays`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
