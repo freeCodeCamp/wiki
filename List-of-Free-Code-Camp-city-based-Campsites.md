@@ -181,6 +181,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
 - Denmark
   - [Aarhus](https://www.facebook.com/groups/FreeCodeCampAarhus)
   - [Copenhagen](https://www.facebook.com/groups/fre.code.camp.copemhagen/)
+  - [Hostelbro](https://www.facebook.com/groups/1093604337431812/)
   - [Odense](https://www.facebook.com/groups/free.code.camp.odense/)
 - Dominican Republic
   - [Santo Domingo](https://www.facebook.com/groups/free.code.camp.dr/)
@@ -287,6 +288,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Chandigarh](https://www.facebook.com/groups/free.code.camp.chandigarh/)   
   - [Chennai](https://www.facebook.com/groups/free.code.camp.chennai/)
   - [Coimbatore](https://www.facebook.com/groups/free.code.camp.coimbatore)
+  - [Dehra Dun](https://www.facebook.com/groups/725525870882220/)
   - [Delhi](https://www.facebook.com/groups/free.code.camp.delhi/)
   - [Dharwad](https://www.facebook.com/groups/free.code.camp.dharwad/)
   - [Goa](https://www.facebook.com/groups/free.code.camp.goa/)
@@ -400,10 +402,12 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
 - Macedonia
   - [Skopje](https://www.facebook.com/groups/free.code.camp.skopje/)
   - [Struga](https://www.facebook.com/groups/free.code.camp.struga/)
+  - [Strumica](https://www.facebook.com/groups/free.code.camp.strumica/)
 - Malaysia
   - [Johor](https://www.facebook.com/groups/free.code.camp.nusajaya.malaysia/)
   - [Kota Kinabalu](https://www.facebook.com/groups/Free.code.camp.KK.Sabah/)
   - [Kuala Lumpur](https://www.facebook.com/groups/free.code.camp.malaysia.kl/)
+  - [Kuching](https://www.facebook.com/groups/free.code.camp.kuching/)
   - [Penang](https://www.facebook.com/groups/free.code.camp.penang/)
   - [Perlis](https://www.facebook.com/groups/free.code.camp.perlis.malaysia)
 - Maldives
@@ -414,6 +418,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Culiacan](https://www.facebook.com/groups/free.code.camp.culiacan/)
   - [Durango](https://www.facebook.com/groups/free.code.camp.durango/)
   - [Guadalajara](https://www.facebook.com/groups/fcc.guadalajara)
+  - [Guanajuato](https://www.facebook.com/groups/free.code.camp.guanajuato/)
   - [Hermosillo](https://www.facebook.com/groups/free.code.camp.Hermosillo/)
   - [La Paz](https://www.facebook.com/groups/free.code.camp.lapaz.mx/)
   - [Mexico City](https://www.facebook.com/groups/free.code.camp.mexico.df/)
@@ -450,6 +455,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Amsterdam](https://www.facebook.com/groups/free.code.camp.amsterdam/)
   - [Breda](https://www.facebook.com/groups/free.code.camp.breda/)
   - [Rotterdam](https://www.facebook.com/groups/free.code.camp.rotterdam/)
+  - [Sittard](https://www.facebook.com/groups/free.code.camp.sittard/)
   - [The Hague](https://www.facebook.com/groups/free.code.camp.the.hague/)    
 - New Zealand
   - [Auckland](https://www.facebook.com/groups/awesome.code.camp/)
@@ -647,6 +653,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Ivano Frankivsk](https://www.facebook.com/groups/free.code.camp.ivano.frankivsk/)
   - [Kerch](https://www.facebook.com/groups/free.code.camp.kerch/)
   - [Kharkiv](https://www.facebook.com/groups/free.code.camp.kharkiv/)
+  - [Kherson](https://www.facebook.com/groups/free.code.camp.kherson/)
   - [Kiev](https://www.facebook.com/groups/free.code.camp.kiev/)
   - [Kremenchuk](https://www.facebook.com/groups/free.code.camp.kremenchuk/)
   - [Kryvyi Rih](https://www.facebook.com/groups/free.code.camp.kryvyi.rih/)
@@ -694,6 +701,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Fremont](https://www.facebook.com/groups/free.code.camp.fremont/)
     - [Fresno](https://www.facebook.com/groups/free.code.camp.fresno.ca/)
     - [Glendora](https://www.facebook.com/groups/free.code.camp.Glendora.California/)
+    - [Lake Forest](https://www.facebook.com/groups/free.code.camp.lake.forest.ca/)
     - [Lindsay](https://www.facebook.com/groups/free.code.camp.lindsay/)
     - [Los Angeles](https://www.facebook.com/groups/free.code.camp.los.angeles/)
     - [Los Gatos](https://www.facebook.com/groups/free.code.camp.Los.Gatos.CA/)
