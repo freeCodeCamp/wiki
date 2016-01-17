@@ -76,7 +76,7 @@ function add() {
 - Still inside the big else, we need to check the argument we saved, if it is a number then we return the function expecting a second argument.
 - Now inside the function we are returning, we have to check for non numbers again just as at the beginning using **checkNum** if undefined then return that, otherwise if numbers add them and return the addition.
 
-## Solution #3:
+## Solution #2:
 
 ```js
 function add() {
