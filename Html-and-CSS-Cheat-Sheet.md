@@ -28,3 +28,7 @@ and over in the html<br>
 
 http://csswizardry.com/2011/01/create-a-centred-horizontal-navigation/
 <hr>
+
+### Sections and Outlines of an HTML Document
+
+https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Sections_and_Outlines_of_an_HTML5_document
