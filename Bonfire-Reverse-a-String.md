@@ -17,6 +17,14 @@ You need to take the string and reverse it so if you had originally 'hello', it 
 
 ## Code Solution:
 
+####First Solution
+```js
+function reverseString(str) {
+  return str.split('').reverse().join('');
+}
+```
+
+####Second Solution
 ```js
 function reverseString(str) {
   var strReverse = str.split('').reverse().join('');
@@ -25,9 +33,10 @@ function reverseString(str) {
 ```
 
 # Code Explanation:
-This is a straightforward code. We create a variable that will hold the string split by characters, and then reversed and put back together.
+This is a straightforward solution. We will return the string split by characters, reverse the string, and then put it back together.
+You could also use a temporary variable to store the value and then return that value as the second solution shows.
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 for your help with Bonfire: Reverse a String`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 and @sgalizia for your help with Bonfire: Reverse a String`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
