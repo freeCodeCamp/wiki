@@ -33,12 +33,12 @@ function rot13(str) {
             nstr += String.fromCharCode(str.charCodeAt(i));
             continue;
         }
-        //If the ASCII gets out of range add 26 to it. (ASCII+26-13)
+        //N = ASCII 78, if the character code is less than 78, shift forward 13 places
         if(str.charCodeAt(i) < 78){
             nstr += String.fromCharCode(str.charCodeAt(i) + 13);
         }
         else{
-            //Shift the character 13 places backward
+            //Otherwise shift the character 13 places backward
             nstr += String.fromCharCode(str.charCodeAt(i) - 13);
 
         }
@@ -48,9 +48,33 @@ function rot13(str) {
 }
 ```
 
+#### Second solution (advanced)
+
+```js
+function rot13(str) {
+  // Split str into a character array
+  return str.split('')
+  // Iterate over each character in the array
+    .map.call(str, function(char) {
+      // Convert char to a character code
+      x = char.charCodeAt(0);
+      // Checks if character lies between A-Z
+      if (x < 65 || x > 91) {
+        return String.fromCharCode(x);  // Return un-converted character
+      }
+      //N = ASCII 78, if the character code is less than 78, shift forward 13 places
+      else if (x < 78) {
+        return String.fromCharCode(x + 13);
+      }
+      // Otherwise shift the character 13 places backward
+      return String.fromCharCode(x - 13);
+    }).join('');  // Rejoin the array into a string
+}
+```
+
 # Code Explanation:
 #### First solution
-- A string variable nstr is declared and initialized to store the
+- A string variable `nstr` is declared and initialized to store the
 decoded string.
 - The for loop is used to loop through each character of the input string.
 - If the character is not uppercase English alphabets(i.e. its ascii doesn't lie between 65 and 91 ), we'll leave it
@@ -63,6 +87,6 @@ range when subtracted by 13 so we'll add 26(number of letters in
 e.g. M(77) ↔ 77-13 = 64(Not an English alphabet) +26 = 90 ↔ Z(90)
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @anuragaryan for your help with Bonfire: Caesar's Cipher`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @anuragaryan and @SaintPeter for your help with Bonfire: Caesar's Cipher`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
