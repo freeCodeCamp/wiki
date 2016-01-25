@@ -5,10 +5,10 @@
 > Fighting them is like fighting a many-headed monster, which, each time a neck is severed, sprouts a head even fiercer and cleverer than before. 
 > You are fighting that which is unfixed, mutating, indestructible."
 >
-> —Professor Severus Snape, Harry Poter Series
- 
- In this day and age, more and more new technologies are invented to make the life of developers, as well as users easier.
- To what degree this is a good thing is a debate for another time, for now it's enough to say the toolbox of a developer, especially a web developer, is as ever-changing as the so called "dark arts"  are according to our friend Snape. :)
+> —Professor Severus Snape, Harry Potter Series
+
+In this day and age, more and more new technologies are invented to make the life of developers, as well as users easier.
+To what degree this is a good thing is a debate for another time, for now it's enough to say the toolbox of a developer, especially a web developer, is as ever-changing as the so called "dark arts"  are according to our friend Snape. :)
  
 One tool in that toolbox should be accessibility. It is a tool that should ideally be used in one of the very first steps of writing any form of web content.
 However, this tool is often not all that well presented in the toolbox of most developers. This could be due to a simple case of not knowing it even exists to extreme cases like just not caring about it.
@@ -26,7 +26,7 @@ If you fall outside these rather broad categories, please let me know. I always 
 
 Accessibility in itself is a bit of a misleading term sometimes, especially if English is your second language. 
  
- If your site is on the internet, reachable by anyone with a web browser, in one sense that website is accessible to everyone with a web browser.
+If your site is on the internet, reachable by anyone with a web browser, in one sense that website is accessible to everyone with a web browser.
 
 But, is all content on your website actually readable, usable and understandable for everyone? Are there no thresholds that bar certain people from ' accessing'  all the information you are exposing?
 
@@ -70,76 +70,76 @@ For now, I will cover some of the most important basics here. I will point you a
 The HTML specification is a document that describes how the language should be used to build websites. Assistive technologies, like screenreaders, speech recognition programs etc. are aware of this document. Web developers however, often are not, or at least not enough, and think something like this is ok:
 
 ```html
-<div class="awesome-button"</div>
+<div class="awesome-button"></div>
 
 <span><strong>Huge heading I will style with CSS later</strong></span>
 
 <span class="clickable-with-JavaScript">English</span>
 ```
 
- Guess what? All three of these elements break several criteria of WCAG and therefore are not accessible at all. 
+Guess what? All three of these elements break several criteria of WCAG and therefore are not accessible at all. 
  
- The first element breaks the so-called 'name, role, value'-criterium, which states that all elements on a web page should expose their name, their role (like button) and their value (like the contents of an edit field) to assistive technologies. This div actually doesn't provide any of the three, rendering it invisible to screenreaders.
+The first element breaks the so-called 'name, role, value'-criterium, which states that all elements on a web page should expose their name, their role (like button) and their value (like the contents of an edit field) to assistive technologies. This div actually doesn't provide any of the three, rendering it invisible to screenreaders.
  
- The second element looks like a heading visually after styling it with CSS, but semantically is a span. Therefore, assistive technologies won't know its a heading. A screenreader will read this as regular text, instead of a heading. Screenreaders often have a hotkey to quickly jump to the nearest heading, this heading will not be included in that scope.
+The second element looks like a heading visually after styling it with CSS, but semantically is a span. Therefore, assistive technologies won't know its a heading. A screenreader will read this as regular text, instead of a heading. Screenreaders often have a hotkey to quickly jump to the nearest heading, this heading will not be included in that scope.
  
- The third element could for example be an element a user can click to change the language of the website. Maybe a fancy animated menu of languages will expand when it is clicked. However, this is also a span and does not expose its role (link, or button), making assistive technologies think this is just the word English with some styling.
+The third element could for example be an element a user can click to change the language of the website. Maybe a fancy animated menu of languages will expand when it is clicked. However, this is also a span and does not expose its role (link, or button), making assistive technologies think this is just the word English with some styling.
  
- Spans and divs are non-elements. They are meant to contain other elements, not to be elements themselves. You can fix these in two ways:
- 
+Spans and divs are non-elements. They are meant to contain other elements, not to be elements themselves. You can fix these in two ways:
+
 - You can manually add ARIA-attributes to the elements above. This is an advanced topic and outside the scope of this article.
 - Or, you can simply do this:
  
- ```html
- <button>This is a button</button>
+```html
+<button>This is a button</button>
  
- <h2>Here's a heading level two</h2>
+<h2>Here's a heading level two</h2>
  
- <a href=" JavascriptThing">English</a>
- ```
+<a href="JavascriptThing">English</a>
+```
  
- Boom. Suddenly, all these elements are now perfectly accessible, just by using native HTML. HTML the way it was meant to be used, in other words.
+Boom. Suddenly, all these elements are now perfectly accessible, just by using native HTML. HTML the way it was meant to be used, in other words.
  
- #### A foundation cannot stand without structure
- 
- A bit earlier, I touched upon a screenreader's hotkeys to jump from heading to heading. There are in fact many hotkeys like this to quickly jump to the nearest table, form field, link etc.
- Making sure these headings are actually in logical places is therefore a good practice and really decreases your assistive technology users'  stress levels, which is good if you want visitors to keep coming back to your website.
- 
- Also remember that headings are hierarchical.  If you use an h2, make sure the h3's that follow it actually have something to do with that h2. Don't put an h3 for contact details under your h2 for recent blog posts. 
- A good analogy here is a book with chapters, that have subsections. You wouldn't put a section on baking cookies in the middle of a chapter on preparing vegetables ...or ...you wouldn't... right?
+#### A foundation cannot stand without structure
+
+A bit earlier, I touched upon a screenreader's hotkeys to jump from heading to heading. There are in fact many hotkeys like this to quickly jump to the nearest table, form field, link etc.
+Making sure these headings are actually in logical places is therefore a good practice and really decreases your assistive technology users'  stress levels, which is good if you want visitors to keep coming back to your website.
+
+Also remember that headings are hierarchical.  If you use an h2, make sure the h3's that follow it actually have something to do with that h2. Don't put an h3 for contact details under your h2 for recent blog posts.
+A good analogy here is a book with chapters, that have subsections. You wouldn't put a section on baking cookies in the middle of a chapter on preparing vegetables ...or ...you wouldn't... right?
  
 #### What's the alternative?
- Images on a website are great. They add a new layer to your content, can really make the experience your site visitors have way more emersive and generally just look good among all that text. 
- A picture can say more than a thousand words, right?
- 
- Certainly. That is, if you can see them. In the HTML5-specification, an img-attribute must always have an alt-attribute. This attribute is meant as an alternative to the image in case it can't be seen.
- This would be true for blind visitors to your website, but also when your image can't be loaded for some reason.
- Not adding an alt-tag to an img-attribute is therefore not only breaking accessibility, but going against the HTML5-spec. 
- 
- I implore any web developer who catches themselves doing this to eat their programmer's hat and work on Windows 95 exclusively for a week. After the time is up, write an essay on what you have learnt from this ordeal so I can have a laugh during my afternoon coffee. :)
+Images on a website are great. They add a new layer to your content, can really make the experience your site visitors have way more emersive and generally just look good among all that text. 
+A picture can say more than a thousand words, right?
 
- Now, there is one caveat here. Alt-attributes are mandatory according to the HTML5-spec, but it's not mandatory to actually fill them in. `<img src="awesome-image.jpg", alt="">` is therefore legal HTML5 code.
+Certainly. That is, if you can see them. In the HTML5-specification, an img-attribute must always have an alt-attribute. This attribute is meant as an alternative to the image in case it can't be seen.
+This would be true for blind visitors to your website, but also when your image can't be loaded for some reason.
+Not adding an alt-tag to an img-attribute is therefore not only breaking accessibility, but going against the HTML5-spec. 
  
- Should you therefore fill in alt-tags for all images? It depends on the image, really. For background images, the answer is usually no, but you should use CSS for those anyway.
+I implore any web developer who catches themselves doing this to eat their programmer's hat and work on Windows 95 exclusively for a week. After the time is up, write an essay on what you have learnt from this ordeal so I can have a laugh during my afternoon coffee. :)
+
+Now, there is one caveat here. Alt-attributes are mandatory according to the HTML5-spec, but it's not mandatory to actually fill them in. `<img src="awesome-image.jpg", alt="">` is therefore legal HTML5 code.
  
- For purely decorative images that have no information in them at all, you're basically free to choose. Either put in something useful and descriptive or nothing at all.
+Should you therefore fill in alt-tags for all images? It depends on the image, really. For background images, the answer is usually no, but you should use CSS for those anyway.
+
+For purely decorative images that have no information in them at all, you're basically free to choose. Either put in something useful and descriptive or nothing at all.
  
- For images that contain information, like a brochure, a map, a chart etc., not adding alt text breaks WCAG unless you provide a textual alternative. This is usually an alt-attribute, but can also be a block of text right below or next to the image.
+For images that contain information, like a brochure, a map, a chart etc., not adding alt text breaks WCAG unless you provide a textual alternative. This is usually an alt-attribute, but can also be a block of text right below or next to the image.
  
- For images of text, the text can either be included in the alt-attribute or offered in some alternative manner. The problem is that adding the textual alternative on the same page would basically make the same content show twice for people who can see the image, which is why the alt-attribute is better in this case.
- 
- 
+For images of text, the text can either be included in the alt-attribute or offered in some alternative manner. The problem is that adding the textual alternative on the same page would basically make the same content show twice for people who can see the image, which is why the alt-attribute is better in this case.
+
+
 #### I can't read your scrawl, son
  
- Even people who don't wear glasses and have no problem with their eyesight at all benefit from an easy to read font and proper contrast. 
- I'm sure you would cringe if you had to fill in a form where light yellow, hopelessly loopy letters are placed on a white background. For people who's eyesight is not as good, like your grandma for example, this becomes hopelessly worse. 
+Even people who don't wear glasses and have no problem with their eyesight at all benefit from an easy to read font and proper contrast. 
+I'm sure you would cringe if you had to fill in a form where light yellow, hopelessly loopy letters are placed on a white background. For people who's eyesight is not as good, like your grandma for example, this becomes hopelessly worse. 
 
- The WCAG has contrast ratios for smaller and larger letters and there's plenty of tools out there to check if the contrast ratios are strong enough. The information and tooling is there, go use it :)
+The WCAG has contrast ratios for smaller and larger letters and there's plenty of tools out there to check if the contrast ratios are strong enough. The information and tooling is there, go use it :)
  
 #### What does this button do?
- While we are at the topic of forms, let's quickly glance at the <label> tag. This little guy is kinda important.
+While we are at the topic of forms, let's quickly glance at the <label> tag. This little guy is kinda important.
  When you put some input fields on a web page, you can use labels to ...well ...label them. However, putting them next to each other is not quite enough. The attribute you want is the for-attribute, which takes the ID of a subsequent input field. This way, assistive technologies know what label to associate with what form field.
- I guess the best way to illustrate this is by giving an example:
+I guess the best way to illustrate this is by giving an example:
  
 ```html
 <label for='username'>
