@@ -5,25 +5,20 @@ The following are our language-specific chat rooms.
 - [Albanian](https://gitter.im/freecodecamp/Albanian)
 - [Arabic](https://gitter.im/freecodecamp/Arabic)
 - [Chinese](https://gitter.im/freecodecamp/Chinese)
-- [German](https://gitter.im/freecodecamp/Deutsch)
 - [Dutch](https://gitter.im/freecodecamp/Dutch)
-- [Spanish](https://gitter.im/freecodecamp/Espanol)
+- [German](https://gitter.im/freecodecamp/Deutsch)
 - [French](https://gitter.im/freecodecamp/Francais)
 - [Japanese](https://gitter.im/freecodecamp/Japanese)
 - [Korean](https://gitter.im/freecodecamp/Korean)
 - [Persian](https://gitter.im/freecodecamp/Persian)
-- [Portugues](https://gitter.im/freecodecamp/Portugues)
+- [Portuguese](https://gitter.im/freecodecamp/Portugues)
 - [Romanian](https://gitter.im/freecodecamp/Romanian)
 - [Russian](https://gitter.im/freecodecamp/Russian)
+- [Spanish](https://gitter.im/freecodecamp/Espanol)
 - [Swedish](https://gitter.im/freecodecamp/Swedish)
-- [Thai](https://gitter.im/freecodecamp/Thai)
 - [Tagalog](https://gitter.im/freecodecamp/Tagalog)
+- [Thai](https://gitter.im/freecodecamp/Thai)
 - [Vietnamese](https://gitter.im/freecodecamp/Vietnamese)
-
-### Additional Chat Room Lists
-* [[Official Free Code Camp Chat Rooms|Official-Free-Code-Camp-Chat-Rooms]]
-* [[Casual Chat Rooms|Casual-Chat-Rooms]]
-* [[Campsite Chat Rooms|List-of-Free-Code-Camp-city-based-Campsites]]
 
 By joining these chat rooms, you accept our [Code of Conduct](https://github.com/FreeCodeCamp/freecodecamp/wiki/Code-of-Conduct).
 
