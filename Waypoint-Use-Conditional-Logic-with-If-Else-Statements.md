@@ -16,4 +16,4 @@ function test(myVal) {
 }
 ```
 
-If `myVal` is greater than `10`, the function will return `"Greater Than"`. If it is not, the function will return `"Not Greater Than"`.
+If `myVal` is greater than `10`, the function will return `"Greater Than"`. If it is not, the function will return `"Not Greater Than"`. Both `return` statements will never get executed because as soon as the first one is encountered, the execution exits the function and returns control to where the function was called.
