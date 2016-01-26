@@ -12,3 +12,5 @@ var answer = plusThree(5); // 8
 ```
 
 `plusThree` takes an `argument` for `num` and returns a value equal to `num + 3`.
+
+A `return` statement will also end the execution of it's parent function. Hence, any statements inside a function scope after a `return` statement will not be executed. In case of multiple `return` statements in a function, only the first one will get executed.
