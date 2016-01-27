@@ -113,6 +113,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Calgary](https://www.facebook.com/groups/free.code.camp.calgary/)    
     - [Edmonton](https://www.facebook.com/groups/free.code.camp.edmonton/)
   - British Columbia
+    - [Abbotsford](https://www.facebook.com/groups/free.code.camp.abbotsford/)
     - [Fort St. John](https://www.facebook.com/groups/free.code.camp.fort.st.john/)
     - [Hazelton](https://www.facebook.com/groups/free.code.camp.hazelton.britishcolumbia/)
     - [Kelowna](https://www.facebook.com/groups/free.code.camp.kelowna/)
