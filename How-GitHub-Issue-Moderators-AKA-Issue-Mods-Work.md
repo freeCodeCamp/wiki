@@ -43,7 +43,7 @@ PRs must meet the following requirements:
 8. Code should pass all tests and linting
 9. Code should be of general high quality and a needed change or improvement
 
-If the issue does not meet one or more of these requirements, note the deficiencies in a comment and/or highlight lines.  New Contributors may be referred to the [HelpContributors](https://gitter.im/FreeCodeCamp/HelpContributors) Chat room.  At at the Mod's discretion the issue may be closed.
+If the issue does not meet one or more of these requirements, note the deficiencies in a comment and/or highlight lines. New Contributors may be referred to the [HelpContributors](https://gitter.im/FreeCodeCamp/HelpContributors) Chat room. The PR may alternatively be closed at a Mod's discretion.
 
 ##### Quality Assurance
 Assuming that the basic requirements for the PR are met, all PRs should undergo some level of Quality Assurance testing.  The most basic QA is to simply checkout the PR on a local copy of the site and test the changed functionality.  Be sure to read through the code changes and understand what the potential side effects are. Exercise code and corner cases.  Be sure to try both negative and positive test cases.
@@ -73,4 +73,4 @@ The number of issue moderators will always remain small due to the nature of Git
 * Non-Default Profile Image set on GitHub
 
 #### Activity Requirement
-Please note that we will frequently remove issue mods whom we think are inactive. If you are removed, please do not take this personally - we can add you back to the team, just message us and let us know you're still active.
+Please note that we will frequently remove issue mods whom we think to be inactive. If you are removed, please do not take this personally - we can add you back to the team, just message us and let us know you're still active.
