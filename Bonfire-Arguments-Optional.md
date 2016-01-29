@@ -21,7 +21,7 @@ In the case that only one argument was passed, do not worry about how to prompt 
 
 **Solution ahead!**
 
-## Code Solution:
+## Solution #1:
 
 ```js
 function add() {
@@ -76,7 +76,7 @@ function add() {
 - Still inside the big else, we need to check the argument we saved, if it is a number then we return the function expecting a second argument.
 - Now inside the function we are returning, we have to check for non numbers again just as at the beginning using **checkNum** if undefined then return that, otherwise if numbers add them and return the addition.
 
-## Second Solution:
+## Solution #2:
 
 ```js
 function add() {
@@ -115,7 +115,40 @@ function add() {
     }
 }
 ```
+
+## Solution #3:
+
+```js
+// This is a more generic solution. 
+// It will return the sum of unlimited number of arguemnts if they are numbers 
+function add(b) {
+    // check if all passed arguments are numbers. 
+    for (var key in arguments) {
+        // return undefined if even one argument is not a number 
+        if (typeof arguments[key] !== "number") return undefined;
+    }
+    // return closure function if only one argument was passed
+    var sum = 0;
+    if (arguments.length === 1){
+        return function(y) {
+            // return undefined if the argument of closure function is not a number
+            if (typeof y !== "number") return undefined;
+            // else return the sum of arguments of original function and closure 
+            return b + y;
+        };
+    }
+    // return the sum of all arguments if more that one argument was passed in original function
+    else if (arguments.length > 1) {
+        // loop through the arguments and sum them. 
+        for (var i = 0; i < arguments.length; i++){
+            sum += arguments[i]; // can't use reduce() function because arguments is an object not an array
+        }
+        return sum;
+    }
+}
+```
+
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @coded9 for your help with Bonfire: Arguments Optional`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @coded9 @aganita for your help with Bonfire: Arguments Optional`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
