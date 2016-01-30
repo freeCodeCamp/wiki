@@ -1060,7 +1060,8 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - Washington
     - [Anacortes](https://www.facebook.com/groups/free.code.camp.anacortes/)
     - [Bellevue](https://www.facebook.com/groups/free.code.camp.bellevue/)
-    - [Centralia](https://www.facebook.com/groups/free.code.camp.olympia/)
+    - [Centralia](https://www.facebook.com/groups/free.code.camp.centralia/)
+    - [National Harbor](https://www.facebook.com/groups/free.code.camp.national.harbor/)
     - [Olympia](https://www.facebook.com/groups/free.code.camp.olympia/)
     - [Port Orchard](https://www.facebook.com/groups/free.code.camp.port.orchard/)
     - [Redmond](https://www.facebook.com/groups/free.code.camp.redmond.wa/)
