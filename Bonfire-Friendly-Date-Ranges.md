@@ -57,6 +57,14 @@ function friendly(str) {
     var month1 = date1.getUTCFullYear() * 12 + date1.getUTCMonth();
     return month2 - month1;
   }
+  
+  //day diff
+  function dayDiff(date1, date2) {
+    if(date2.getUTCMonth() === date1.getUTCMonth()){
+      return date1.getUTCDate()-date2.getUTCDate();
+    }
+    return 0;
+  }
 
   // Get's the right month string.
   function getMonth(date) {
@@ -74,10 +82,20 @@ function friendly(str) {
     if (date1.getUTCMonth() === date2.getUTCMonth() && date1.getUTCFullYear() === date2.getUTCFullYear()) {
       return [getMonth(date1) + ' ' + dateEnding(date1.getUTCDate()), dateEnding(date2.getUTCDate())];
     }
-
-    // Handles more than a month of difference, but less than 12 months
-    if (monthDiff(date1, date2) < 12) {
+    
+    // Handles more than a month of difference, but less than 12 months and different year
+    if (monthDiff(date1, date2) < 12 && date1.getUTCFullYear() !== date2.getUTCFullYear() ) {
       return [getMonth(date1) + ' ' + dateEnding(date1.getUTCDate()), getMonth(date2) + ' ' + dateEnding(date2.getUTCDate())];
+    }
+
+    // Handles same month but different year
+    if (monthDiff(date1, date2) <= 12 && dayDiff(date1, date2)>0) {
+      return [getMonth(date1) + ' ' + dateEnding(date1.getUTCDate())+', '+date1.getUTCFullYear(), getMonth(date2) + ' ' + dateEnding(date2.getUTCDate())];
+    }
+    
+    // Handles more than a month of difference, but less than 12 months and same year
+    if (monthDiff(date1, date2) < 12) {
+      return [getMonth(date1) + ' ' + dateEnding(date1.getUTCDate())+', '+date1.getUTCFullYear(), getMonth(date2) + ' ' + dateEnding(date2.getUTCDate())];
     }
 
     // Handles cases with more than 12 months apaprt.
