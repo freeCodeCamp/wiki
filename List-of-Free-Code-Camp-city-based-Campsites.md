@@ -1060,8 +1060,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - Washington
     - [Anacortes](https://www.facebook.com/groups/free.code.camp.anacortes/)
     - [Bellevue](https://www.facebook.com/groups/free.code.camp.bellevue/)
-    - [Centralia](https://www.facebook.com/groups/free.code.camp.centralia/)
-    - [National Harbor](https://www.facebook.com/groups/free.code.camp.national.harbor/)
+    - [Centralia](https://www.facebook.com/groups/free.code.camp.olympia/)
     - [Olympia](https://www.facebook.com/groups/free.code.camp.olympia/)
     - [Port Orchard](https://www.facebook.com/groups/free.code.camp.port.orchard/)
     - [Redmond](https://www.facebook.com/groups/free.code.camp.redmond.wa/)
@@ -1090,7 +1089,6 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Caracas](https://www.facebook.com/groups/free.code.camp.caracas/)
   - [Coro](https://www.facebook.com/groups/free.code.camp.coro)
   - [Guacara](https://www.facebook.com/groups/free.code.camp.guacara/)
-  - [Maturin](https://www.facebook.com/free.code.camp.maturin/)
   - [Valencia](https://www.facebook.com/groups/free.code.camp.valencia.venezuela/)    
 - Vietnam
   - [Da Nang](https://www.facebook.com/groups/free.code.camp.your.Da.Nang/)
