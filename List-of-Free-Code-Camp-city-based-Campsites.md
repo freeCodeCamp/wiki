@@ -18,6 +18,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Bariloche](https://www.facebook.com/groups/free.code.camp.bariloche/)
   - [Buenos Aires](https://www.facebook.com/groups/free.code.camp.buenos.aires/)
   - [Cordoba](https://www.facebook.com/groups/free.code.camp.cordoba/)
+  - [La Plata](https://www.facebook.com/groups/free.code.camp.la.plata/)
   - [Rosario](https://www.facebook.com/groups/free.code.camp.rosario/)
 - Armenia
   - [Yerevan](https://www.facebook.com/groups/free.code.camp.armenia/)
@@ -43,6 +44,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Rangpur](https://www.facebook.com/groups/free.code.camp.rangpur/)
 - Belarus
   - [Brest](https://www.facebook.com/groups/free.code.camp.brest/)
+  - [Gomel](https://www.facebook.com/groups/free.code.camp.gomel/)
   - [Minsk](https://www.facebook.com/groups/free.code.camp.Minsk/)
 - Belgium
   - [Antwerp](https://www.facebook.com/groups/free.code.camp.antwerp/)
@@ -423,7 +425,9 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
 - Lithuania
   - [Vilnius](https://www.facebook.com/groups/free.code.camp.vilnius.lt/)
 - Libya
-  - [Tripoli](https://www.facebook.com/groups/free.code.camp.Tripoli.Libya/)    
+  - [Tripoli](https://www.facebook.com/groups/free.code.camp.Tripoli.Libya/)
+- Luxembourg
+  - [Luxembourg](https://www.facebook.com/groups/free.code.camp.luxembourg/) 
 - Macedonia
   - [Skopje](https://www.facebook.com/groups/free.code.camp.skopje/)
   - [Struga](https://www.facebook.com/groups/free.code.camp.struga/)
@@ -439,6 +443,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Male](https://www.facebook.com/groups/freecodemv/)
 - Mexico
   - [Ciudad Juárez](https://www.facebook.com/groups/free.code.camp.juarezchi/)
+  - [Ciudad Obregón](https://www.facebook.com/groups/free.code.camp.cd.obregon/)
   - [Coatzacoalcos](https://www.facebook.com/groups/free.code.camp.coatzacoalcos/)
   - [Culiacan](https://www.facebook.com/groups/free.code.camp.culiacan/)
   - [Durango](https://www.facebook.com/groups/free.code.camp.durango/)
@@ -485,6 +490,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Almere](https://www.facebook.com/groups/free.code.camp.almere.netherlands/)
   - [Amsterdam](https://www.facebook.com/groups/free.code.camp.amsterdam/)
   - [Breda](https://www.facebook.com/groups/free.code.camp.breda/)
+  - [Enschede](https://www.facebook.com/groups/free.code.camp.enschede)
   - [Groningen](https://www.facebook.com/groups/free.code.camp.groningen/)
   - [Rotterdam](https://www.facebook.com/groups/free.code.camp.rotterdam/)
   - [Sittard](https://www.facebook.com/groups/free.code.camp.sittard/)
@@ -522,6 +528,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Mianwali](https://www.facebook.com/groups/free.code.camp.mianwali/)
   - [Multan](https://www.facebook.com/groups/free.code.camp.multan)
   - [Peshawar](https://www.facebook.com/groups/free.code.camp.Peshawar/)
+  - [Quetta](https://www.facebook.com/groups/free.code.camp.quetta)
   - [Rawalpindi](https://www.facebook.com/groups/free.code.camp.rawalpindi/)
   - [Sahiwal](https://www.facebook.com/groups/1505677729748974/)
 - Panama
@@ -590,6 +597,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Kosovo](https://www.facebook.com/groups/free.code.camp.kosovo/)
   - [Krasnodar](https://www.facebook.com/groups/free.code.camp.krasnodar/)
   - [Moscow](https://www.facebook.com/groups/free.code.camp.moscow/)
+  - [Nizhnevartovsk](https://www.facebook.com/groups/free.code.camp.nizhnevartovsk/)
   - [Omsk](https://www.facebook.com/groups/free.code.camp.omsk/)
   - [Orenburg](https://www.facebook.com/groups/free.code.camp.orenburg/)
   - [Pavlovo](https://www.facebook.com/groups/Free.Code.Camp.Pavlovo/)
@@ -634,6 +642,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Cape Town](https://www.facebook.com/groups/free.code.camp.cape.town/)
   - [Durban](https://www.facebook.com/groups/free.code.camp.durban.kwazulu.natal/)
   - [Johannesburg](https://www.facebook.com/groups/free.code.camp.johannesburg/)
+  - [Pretoria](https://www.facebook.com/groups/150891448624679/)
 - South Korea
   - [Busan](https://www.facebook.com/groups/free.code.camp.busan/)
   - [Daegu](https://www.facebook.com/groups/free.code.camp.your.daegu/)
@@ -668,6 +677,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
 - Switzerland
   - [Basel](https://www.facebook.com/groups/free.code.camp.basel/)
   - [Geneva](https://www.facebook.com/groups/free.code.camp.geneva/) 
+  - [Morges](https://www.facebook.com/groups/free.code.camp.morges/)
   - [Saas-Fee](https://www.facebook.com/groups/free.code.camp.saas.fee)
   - [Ticino](https://www.facebook.com/groups/free.code.camp.ticino/)
   - [Zurich](https://www.facebook.com/groups/free.code.camp.zurich/)
