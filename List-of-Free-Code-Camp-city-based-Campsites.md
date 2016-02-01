@@ -103,6 +103,8 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Teresina](https://www.facebook.com/groups/free.code.camp.teresina.piaui/)
   - [Uberlandia](https://www.facebook.com/groups/free.code.camp.uberlandia/)
   - [Vitória](https://www.facebook.com/groups/free.code.camp.vitoria.e.regiao.metropolitana.es/)
+- Brunei
+  - [Bandar Seri Begawan](https://www.facebook.com/groups/free.code.camp.brunei.darussalam/)
 - Bulgaria
   - [Sofia](https://www.facebook.com/groups/free.code.camp.sofia/)
 - Cambodia
@@ -136,6 +138,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - Ontario
     - [Barrie](https://www.facebook.com/groups/free.code.camp.Barrie.Ontario/)
     - [Cambridge](https://www.facebook.com/groups/free.code.camp.Cambridge.ON.Canada/)
+    - [Hamilton](https://www.facebook.com/groups/free.code.camp.hamilton/)
     - [Kingston](https://www.facebook.com/groups/free.code.camp.kingston.ontario/)
     - [London](https://www.facebook.com/groups/free.code.camp.london.on/)
     - [Mississauga](https://www.facebook.com/groups/free.code.camp.sauga)
@@ -285,6 +288,8 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Thessaloniki](https://www.facebook.com/groups/free.code.camp.thessaloniki/)
 - Guatemala
   - [Guatemala City](https://www.facebook.com/groups/free.code.camp.guatemala/)
+- Haiti
+  - [Port-au-Prince](https://www.facebook.com/groups/1123827534318839/)
 - Honduras
   - [Tegucigalpa](https://www.facebook.com/groups/free.code.camp.Honduras/)
 - Hong Kong
@@ -567,6 +572,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Braga](https://www.facebook.com/groups/free.code.camp.braga/)
   - [Lisbon](https://www.facebook.com/groups/free.code.camp.lisbon/)
   - [Porto](https://www.facebook.com/groups/free.code.camp.porto/)
+  - [Viseu](https://www.facebook.com/groups/free.code.camp.viseu/)
 - Puerto Rico
   - [San Juan](https://www.facebook.com/groups/free.code.camp.sanjuan.pr/)
 - Qatar
@@ -604,6 +610,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Perm](https://www.facebook.com/groups/free.code.camp.your.city.perm/)
   - [Rostovondon](https://www.facebook.com/groups/free.code.camp.rostovondon/)
   - [Saint Petersburg](https://www.facebook.com/groups/free.code.camp.saint.petersburg/)
+  - [Samara](https://www.facebook.com/groups/free.code.camp.samara/)
   - [Saratov](https://www.facebook.com/groups/free.code.camp.saratov/)
   - [Tomsk](https://www.facebook.com/groups/free.code.camp.tomsk/)
   - [Tyumen](https://www.facebook.com/groups/free.code.camp.Tyumen/)
@@ -614,6 +621,8 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Yekaterinburg](https://www.facebook.com/groups/free.code.camp.yekaterinburg)
 - Rwanda
   - [Kigali](https://www.facebook.com/groups/free.code.camp.kigali/)
+- Saint Lucia
+  - [Castries](https://www.facebook.com/groups/661483293955192/) 
 - Salvador
   - [San Salvador](https://www.facebook.com/groups/free.code.camp.san.salvador/)
 - Saudi Arabia
@@ -828,6 +837,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - Georgia
     - [Albany](https://www.facebook.com/groups/1672818199656454/)
     - [Atlanta](https://www.facebook.com/groups/free.code.camp.atlanta/)
+    - [Augusta](https://www.facebook.com/groups/free.code.camp.augusta.ga/)
     - [Columbus](https://www.facebook.com/groups/free.code.camp.columbus.georgia/)
     - [Macon](https://www.facebook.com/groups/703656036438040)
     - [Savannah](https://www.facebook.com/groups/free.code.camp.savannah/)
@@ -839,6 +849,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - Idaho
     - [Boise](https://www.facebook.com/groups/free.code.camp.boise)
     - [Idaho Falls](https://www.facebook.com/groups/free.code.camp.idaho.falls.idaho/)
+    - [Moscow](https://www.facebook.com/groups/free.code.camp.moscow.idaho/)
     - [Pocatello](https://www.facebook.com/groups/free.code.camp.pocatello.idaho/)
   - Illinois
     - [Bloomington-Normal](https://www.facebook.com/groups/free.code.camp.bloomington.normal/)
