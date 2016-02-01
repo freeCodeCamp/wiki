@@ -90,7 +90,33 @@ function sumPrimes(num) {
 }
 ```
 
+##Another Solution
+```js
+function sumPrimes(num) {
+  var res=0;
+
+  //Function to return boolean if the number is Prime
+function Prime(num) {
+  for(var i = 2; i < num; i++){
+    //if the number is divisable by anything else the itself (i<num) it isnt Prime
+    if (num % i === 0) return false;
+  }
+  return true;
+}
+for(var i = 2; i <= num; i++){
+    if(Prime(i)){
+        res+=i;
+    }
+  }
+    return res;
+}
+```
+#Code Explained:
+-Exactly like the Recursive solution above it as a function looping to find prime numbers
+-In this case the i variable in the for loop starts a two since 1 is not a prime number and won't need to be tested
+-`if(Prime(i))` is a short-hand version of `if(Prime(i)===true)`
+
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @shadowfool for your help with Bonfire: Sum All Primes`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @shadowfool @UniverSoulSun for your help with Bonfire: Sum All Primes`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
