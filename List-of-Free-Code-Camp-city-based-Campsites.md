@@ -547,6 +547,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Aichi](https://www.facebook.com/groups/free.code.camp.aichi/)
   - [Lima](https://www.facebook.com/groups/Free.Code.Camp.Lima/)
 - Philippines
+  - [Batangas](https://www.facebook.com/groups/free.code.camp.batangas/) 
   - [Bicol](https://www.facebook.com/groups/free.code.camp.Bicol/)
   - [Cagayan de Oro](https://www.facebook.com/groups/free.code.camp.cagayandeoro.city/)
   - [Cebu](https://www.facebook.com/groups/free.code.camp.cebu/)
