@@ -694,6 +694,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
 - Syria
   - [Homs](https://www.facebook.com/groups/free.code.camp.Homs/) 
 - Taiwan
+  - [Kaohsiung](https://www.facebook.com/groups/free.code.camp.kaohsiung/)
   - [Taipei](https://www.facebook.com/groups/free.code.camp.taipei/)
 - Tanzania
   - [Dar-Es-Salaam](https://www.facebook.com/groups/free.code.camp.dar.es.salaam/)
@@ -772,6 +773,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Fremont](https://www.facebook.com/groups/free.code.camp.fremont/)
     - [Fresno](https://www.facebook.com/groups/free.code.camp.fresno.ca/)
     - [Glendora](https://www.facebook.com/groups/free.code.camp.Glendora.California/)
+    - [Joshua Tree](https://www.facebook.com/groups/free.code.camp.Joshua.Tree.Ca/)
     - [Lake Forest](https://www.facebook.com/groups/free.code.camp.lake.forest.ca/)
     - [Lindsay](https://www.facebook.com/groups/free.code.camp.lindsay/)
     - [Los Angeles](https://www.facebook.com/groups/free.code.camp.los.angeles/)
@@ -836,6 +838,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Sarasota](https://www.facebook.com/groups/free.code.camp.sarasota.florida/)
     - [West Palm Beach](https://www.facebook.com/groups/free.code.camp.wpb/)
   - Georgia
+    - [Acworth](https://www.facebook.com/groups/free.code.camp.acworth.ga/)
     - [Albany](https://www.facebook.com/groups/1672818199656454/)
     - [Atlanta](https://www.facebook.com/groups/free.code.camp.atlanta/)
     - [Augusta](https://www.facebook.com/groups/free.code.camp.augusta.ga/)
