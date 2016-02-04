@@ -46,6 +46,21 @@ function largestOfFour(arr) {
 }
 ```
 
+#### Third solution
+(Using `.reduce()` )
+
+```js
+function largestOfFour(arr) {
+  var largestValuesArray = [];
+  arr.forEach(function(each) {
+    largestValuesArray.push(each.reduce(function(a,b) {
+      return Math.max(a, b);
+    }, 0));
+  });
+
+}
+```
+
 # Code Explanation:
 
 #### First Solution
@@ -82,6 +97,9 @@ i.e. `Math.max.apply(null, [9, 43, 20, 6]);` would invoke something like a `Max.
   - So, we pass `null` as the 2nd param to `Function.apply.bind` which gives a *context* to the `Math.max` method.
   - Since, `Math.max` is independent of any *context*, hence, it ignores the bogus *context* given by `Function.apply` method call. 
   - Thus, our `Function.apply.bind(Math.max, null)` makes a new function accepting the `arr.map` values i.e. the inner arrays.
+
+####Third solution
+For more information on `.reduce()` [click here.](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)<br>
 
 *Bien noté*? :neutral_face:
 
