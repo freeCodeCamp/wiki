@@ -1,0 +1,10 @@
+.container {
+  position:fixed;
+  height: '100vh';
+  width:960px;
+}
+.articlesList {
+  height:100vh;
+  position:fixed;
+  overflow-y: 'auto';
+}
