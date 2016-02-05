@@ -44,7 +44,8 @@ Remember to use [ Read-Search-Ask](http://github.com/FreeCodeCamp/freecodecamp/w
 
 **Solution ahead!**
 
-## Code Solution:
+## Code solutions:
+#### First solution
 
 ```
 for (var x = 0; x < contacts.length; x++){
@@ -59,7 +60,24 @@ for (var x = 0; x < contacts.length; x++){
 return "No such contact";
 ```
 
+#### Second solution
+(Declarative programming)
+
+```
+  var result = "No such contact";
+  contacts.map(function (contact) {
+    if (contact.firstName == firstName) {
+      if (contact[prop]){
+        result = contact[prop];
+      }
+      else result = "No such property";
+    }
+  });
+  return result;
+```  
+
 # Code Explanation:
+####First solution
 - The **for loop** runs, starting at the first object in the `contacts` list
 - If the `firstName` parameter passed into the function matches the value of the `"firstName"` key in the first object, the `if` statement passes
 - Then, if the `prop` parameter passed into the function is present in that object, the value of the `prop` is returned
@@ -74,9 +92,12 @@ return "No such contact";
 - `"likes"` is found within the first object, so the second `if` statement returns true
 - The value of `"likes"` is returned - `"Pizza", "Coding", "Brownie Points"`
 
-
+####Second solution
+(Declarative programming)
+Pretty much the same done in the previous solution, except without telling the machine how to do its job.
+Additionally, instead of multiple `return` statements, there's the only one at the end, and what changes is the possible result as the function goes into the multiple checks.
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @leftynaut for your help with Checkpoint: Profile Lookup`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @leftynaut, @hallaathrad for your help with Checkpoint: Profile Lookup`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
