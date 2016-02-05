@@ -97,6 +97,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Recife](https://www.facebook.com/groups/free.code.camp.recife)
   - [Rio de Janeiro](https://www.facebook.com/groups/free.code.camp.rio.de.janeiro/)
   - [Salvador](https://www.facebook.com/groups/free.code.camp.salvador/)
+  - [Sao Carlos](https://www.facebook.com/groups/1132339280123644/)
   - [Sao Joao da Boa Vista](https://www.facebook.com/groups/free.code.camp.sao.joao.da.boa.vista/)
   - [Sao Paulo](https://www.facebook.com/groups/free.code.camp.sao.paulo/)
   - [Sorocaba](https://www.facebook.com/groups/free.code.camp.sorocaba.sp/)
@@ -223,6 +224,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Derby](https://www.facebook.com/groups/free.code.camp.derby/)
   - [Exeter](https://www.facebook.com/groups/free.code.camp.exeter.uk/)    
   - [Hove](https://www.facebook.com/groups/free.code.camp.hove)
+  - [Kingston upon Hull](https://www.facebook.com/groups/free.code.camp.kingston.upon.hull/)
   - [Leeds](https://www.facebook.com/groups/free.code.camp.leeds/)
   - [Liverpool](https://www.facebook.com/groups/free.code.camp.liverpool/)
   - [London](https://www.facebook.com/groups/free.code.camp.london/)
@@ -267,6 +269,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Tbilisi](https://www.facebook.com/groups/free.code.camp.tbilisi/)
 - Germany
   - [Berlin](https://www.facebook.com/groups/free.code.camp.berlin/)
+  - [Bodensee](https://www.facebook.com/groups/845042248939611/)
   - [Braunschweig](https://www.facebook.com/groups/free.code.camp.braunschweig/)
   - [Chemnitz](https://www.facebook.com/groups/free.code.camp.chemnitz/)
   - [Flensburg](https://www.facebook.com/groups/free.code.camp.flensburg.germany/)
@@ -284,6 +287,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
 - Ghana
   - [Accra](https://www.facebook.com/groups/free.code.camp.accra/)
 - Greece
+  - [Alexandroupolis](https://www.facebook.com/groups/free.code.camp.alexandroupolis) 
   - [Athens](https://www.facebook.com/groups/free.code.camp.athens.greece/)
   - [Thessaloniki](https://www.facebook.com/groups/free.code.camp.thessaloniki/)
 - Guatemala
@@ -561,6 +565,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Bydgoszcz](https://www.facebook.com/groups/free.code.camp.bydgoszcz/)
   - [Gdańsk](https://www.facebook.com/groups/free.code.camp.trojmiasto/)
   - [Gdynia](https://www.facebook.com/groups/free.code.camp.gdynia/)
+  - [Katowice](https://www.facebook.com/groups/735470933219031/)
   - [Krakow](https://www.facebook.com/groups/free.code.camp.krakow/)
   - [Lodz](https://www.facebook.com/groups/free.code.camp.lodz/)
   - [Plock](https://www.facebook.com/groups/free.code.camp.plock/)
@@ -569,6 +574,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Sopot](https://www.facebook.com/groups/free.code.camp.trojmiasto/)
   - [Szczecin](https://www.facebook.com/groups/free.code.camp.szczecin/)
   - [Warsaw](https://www.facebook.com/groups/free.code.camp.warsaw/)
+  - [Wroclaw](https://www.facebook.com/groups/free.code.camp.wroclaw/)
 - Portugal
   - [Braga](https://www.facebook.com/groups/free.code.camp.braga/)
   - [Lisbon](https://www.facebook.com/groups/free.code.camp.lisbon/)
@@ -1116,7 +1122,8 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Coro](https://www.facebook.com/groups/free.code.camp.coro)
   - [Guacara](https://www.facebook.com/groups/free.code.camp.guacara/)
   - [Maturin](https://www.facebook.com/free.code.camp.maturin/)
-  - [Valencia](https://www.facebook.com/groups/free.code.camp.valencia.venezuela/)    
+  - [Valencia](https://www.facebook.com/groups/free.code.camp.valencia.venezuela/)
+  - [Valle de La Pascua](https://www.facebook.com/groups/free.code.camp.vlp/)
 - Vietnam
   - [Da Nang](https://www.facebook.com/groups/free.code.camp.your.Da.Nang/)
   - [Hanoi](https://www.facebook.com/groups/free.code.camp.hanoi/)
