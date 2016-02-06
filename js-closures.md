@@ -1,14 +1,16 @@
 Closures are functions that refer to independent (free) variables. In other words, the function defined in the closure 'remembers' the environment in which it was created.
 
 ```js
-function init() {
-  var name = "Mozilla"; // name is a local variable created by init
-  function displayName() { // displayName() is the inner function, a closure
-    alert(name); // use variable declared in the parent function    
+function makeFunc() {
+  var name = "Mozilla";
+  function displayName() {
+    alert(name);
   }
-  displayName();    
-};
-init();
+  return displayName;
+}
+
+var myFunc = makeFunc();
+myFunc();
 ```
 
 See [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
