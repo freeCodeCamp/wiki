@@ -1,33 +1,48 @@
 .container {
   max-width:960px;
-  padding:60px 30px 0;
+  padding:90px 30px 0;
   margin:0 auto;
-  height:100vh;
+  position:relative;
+}
+a{
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.wiki-header {
+  z-index:999;
+  position:fixed;
+  top:0;
+  width:95%;
+  height:80px;
+  background:#fff;
+}
+.wiki-header a {
+  color:#fff;
+}
+.wiki-header a:hover {
+  color:#006400;
+}
+.wiki-header img {
+  margin-top:30px;
+  width:270px;
+}
+.wiki-header span {
+  position:absolute;
+  top:40px;
+  margin-left:10px;
 }
 .articleContent {
   width:95%;
-  margin:20px auto 0;
-}
-@media (min-width:700px) {
-  .articleContent {
-    width:auto;
-    padding-right:30px;
-    height:88vh;
-    overflow-y: scroll;
-  }
+  margin:40px auto 0;
 }
 .wikiSelector {
   position:fixed;
-  top:0;
-  left:0;
-  right:0;
-  padding:0 40px;
-  height:70px;
-  background:#fff;
+  top:90px;
 }
 .wikiSelector select {
-  width:100%;
-  margin:35px auto 0;
+  width:95%;
 }
 .wikiAside {
   width: 220px;
@@ -46,3 +61,17 @@
   overflow-y: scroll;
 }
 
+@media (max-width:700px) {
+  .wiki-header, .wiki-selector {
+    text-align:center
+  }
+}
+@media (min-width:700px) {
+  .articleContent {
+    width:auto;
+    padding-right:30px;
+    height:88vh;
+    overflow-y: scroll;
+    margin-top:0;
+  }
+}
