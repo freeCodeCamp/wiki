@@ -14,9 +14,10 @@ a:hover {
   z-index:999;
   position:fixed;
   top:0;
-  width:95%;
+  width:100%;
   height:80px;
   background:#fff;
+  margin-left:-30px;
 }
 .wiki-header a {
   color:#fff;
@@ -30,8 +31,6 @@ a:hover {
 }
 .wiki-header span {
   position:absolute;
-  top:40px;
-  margin-left:10px;
 }
 .articleContent {
   width:95%;
@@ -63,10 +62,19 @@ a:hover {
 
 @media (max-width:700px) {
   .wiki-header, .wiki-selector {
-    text-align:center
+    text-align:center;
+  }
+  .wiki-header span {
+    left:50%;
+    top:60px;
+    transform: translateX(-50%);
   }
 }
 @media (min-width:700px) {
+  .wiki-header span {
+    margin-left:10px;
+    top:40px;
+  }
   .articleContent {
     width:auto;
     padding-right:30px;
