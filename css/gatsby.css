@@ -1,3 +1,6 @@
+body,html {
+  overflow:hidden;
+}
 .container {
   max-width:960px;
   padding:90px 30px 0;
