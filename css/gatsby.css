@@ -70,7 +70,7 @@ a:hover {
     transform: translateX(-50%);
   }
 }
-@media (min-width:700px) {
+@media (min-width:701px) {
   .wiki-header span {
     margin-left:10px;
     top:40px;
