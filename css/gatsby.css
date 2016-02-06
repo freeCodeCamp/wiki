@@ -1,10 +1,48 @@
 .container {
-  position:fixed;
-  height: '100vh';
-  width:960px;
-}
-.articlesList {
+  max-width:960px;
+  padding:60px 30px 0;
+  margin:0 auto;
   height:100vh;
-  position:fixed;
-  overflow-y: 'auto';
 }
+.articleContent {
+  width:95%;
+  margin:20px auto 0;
+}
+@media (min-width:700px) {
+  .articleContent {
+    width:auto;
+    padding-right:30px;
+    height:88vh;
+    overflow-y: scroll;
+  }
+}
+.wikiSelector {
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  padding:0 40px;
+  height:70px;
+  background:#fff;
+}
+.wikiSelector select {
+  width:100%;
+  margin:35px auto 0;
+}
+.wikiAside {
+  width: 220px;
+  border-left: 1px solid lightgrey;
+  float:right;
+  padding-left:20px;
+}
+.searchBar {
+  margin-top:10px;
+  margin-bottom:25px;
+}
+.articlesList ul {
+  list-style: none;
+  margin-left: 0;
+  height:82vh;
+  overflow-y: scroll;
+}
+
