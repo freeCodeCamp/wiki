@@ -1,0 +1,85 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'd:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'd:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'gatsby-cli',
+1 verbose cli   '-g' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.2
+4 verbose install initial load of C:\Users\Rex\AppData\Roaming\npm\package.json
+5 verbose readDependencies loading dependencies from C:\Users\Rex\AppData\Roaming\npm\package.json
+6 silly cache add args [ 'gatsby-cli', null ]
+7 verbose cache add spec gatsby-cli
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: 'gatsby-cli',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'gatsby-cli',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: '*',
+8 silly cache add   type: 'range' }
+9 silly addNamed gatsby-cli@*
+10 verbose addNamed "*" is a valid semver range for gatsby-cli
+11 silly addNameRange { name: 'gatsby-cli', range: '*', hasData: false }
+12 silly mapToRegistry name gatsby-cli
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/gatsby-cli
+16 verbose addNameRange registry:https://registry.npmjs.org/gatsby-cli not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/gatsby-cli
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 8:03:22 PM
+20 verbose request id 4a2cf26426b97b9f
+21 http request GET https://registry.npmjs.org/gatsby-cli
+22 http 404 https://registry.npmjs.org/gatsby-cli
+23 verbose headers { 'content-type': 'application/json',
+23 verbose headers   'cache-control': 'max-age=0',
+23 verbose headers   'content-length': '2',
+23 verbose headers   'accept-ranges': 'bytes',
+23 verbose headers   date: 'Sun, 06 Dec 2015 04:03:24 GMT',
+23 verbose headers   via: '1.1 varnish',
+23 verbose headers   age: '0',
+23 verbose headers   connection: 'keep-alive',
+23 verbose headers   'x-served-by': 'cache-lax1432-LAX',
+23 verbose headers   'x-cache': 'MISS',
+23 verbose headers   'x-cache-hits': '0',
+23 verbose headers   'x-timer': 'S1449374603.909664,VS0,VE90' }
+24 silly get cb [ 404,
+24 silly get   { 'content-type': 'application/json',
+24 silly get     'cache-control': 'max-age=0',
+24 silly get     'content-length': '2',
+24 silly get     'accept-ranges': 'bytes',
+24 silly get     date: 'Sun, 06 Dec 2015 04:03:24 GMT',
+24 silly get     via: '1.1 varnish',
+24 silly get     age: '0',
+24 silly get     connection: 'keep-alive',
+24 silly get     'x-served-by': 'cache-lax1432-LAX',
+24 silly get     'x-cache': 'MISS',
+24 silly get     'x-cache-hits': '0',
+24 silly get     'x-timer': 'S1449374603.909664,VS0,VE90' } ]
+25 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/gatsby-cli
+25 verbose stack     at makeError (d:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:264:12)
+25 verbose stack     at CachingRegistryClient.<anonymous> (d:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:242:14)
+25 verbose stack     at Request._callback (d:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:172:14)
+25 verbose stack     at Request.self.callback (d:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:198:22)
+25 verbose stack     at emitTwo (events.js:87:13)
+25 verbose stack     at Request.emit (events.js:172:7)
+25 verbose stack     at Request.<anonymous> (d:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1063:14)
+25 verbose stack     at emitOne (events.js:82:20)
+25 verbose stack     at Request.emit (events.js:169:7)
+25 verbose stack     at IncomingMessage.<anonymous> (d:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1009:12)
+26 verbose statusCode 404
+27 verbose pkgid gatsby-cli
+28 verbose cwd d:\mean\wiki
+29 error Windows_NT 10.0.10240
+30 error argv "d:\\Program Files\\nodejs\\node.exe" "d:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "gatsby-cli" "-g"
+31 error node v4.2.2
+32 error npm  v2.14.7
+33 error code E404
+34 error 404 Registry returned 404 for GET on https://registry.npmjs.org/gatsby-cli
+34 error 404
+34 error 404 'gatsby-cli' is not in the npm registry.
+34 error 404 You should bug the author to publish it (or use the name yourself!)
+34 error 404
+34 error 404 Note that you can also install from a
+34 error 404 tarball, folder, http url, or git url.
+35 verbose exit [ 1, true ]
