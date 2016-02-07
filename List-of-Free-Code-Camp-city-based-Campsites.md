@@ -243,6 +243,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Stoke-on-Trent](https://www.facebook.com/groups/free.code.camp.stoke.on.trent/)
   - [Sunderland](https://www.facebook.com/groups/free.code.camp.sunderland.uk/)
   - [Warrington](https://www.facebook.com/groups/free.code.camp.warrington/)
+  - [Wearside](https://www.facebook.com/groups/free.code.camp.sunderland.tyne.and.wear/)
   - [Worcester](https://www.facebook.com/groups/free.code.camp.worcester/)
   - [York](https://www.facebook.com/groups/free.code.camp.york/)
 - Estonia
@@ -313,6 +314,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Aligarh](https://www.facebook.com/groups/1622011571406263/)
   - [Allahabad](https://www.facebook.com/groups/free.code.camp.allahabad/)
   - [Arunachalpradesh](https://www.facebook.com/groups/free.code.camp.itanagar.arunachalpradesh/)
+  - [Assam](https://web.facebook.com/groups/free.code.camp.assam/)
   - [Aurangabad](https://www.facebook.com/groups/freecodecampauranagabad/)
   - [Bapatla](https://www.facebook.com/groups/free.code.camp.bapatla/)
   - [Bengaluru](https://www.facebook.com/groups/free.code.camp.bengaluru/)
@@ -610,6 +612,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
 - Russia
   - [Almetyevsk](https://www.facebook.com/groups/free.code.camp.almetyevsk/)
   - [Belgorod](https://www.facebook.com/groups/free.code.camp.belgorod/)
+  - [Blagoveshchensk](https://www.facebook.com/groups/free.code.camp.blagoveshchensk.amur.region/)
   - [Cheljabinsk](https://www.facebook.com/groups/free.code.camp.cheljabinsk/)
   - [Cherepovets](https://www.facebook.com/groups/free.code.camp.cherepovets/)    
   - [Irkutsk](https://www.facebook.com/groups/free.code.camp.irkutsk/)
