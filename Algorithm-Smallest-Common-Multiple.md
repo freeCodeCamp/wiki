@@ -105,6 +105,6 @@ function smallestCommons(arr) {
 This code is based on the [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm) for finding smallest common multiples.
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @Adoyle2014 for your help with Bonfire: Smallest Common Multiple`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @Adoyle2014 for your help with Algorithm: Smallest Common Multiple`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

@@ -1,4 +1,4 @@
-#Waypoint: Introducing JavaScript Object Notation JSON
+#Challenge: Introducing JavaScript Object Notation JSON
 
 JavaScript Object Notation or `JSON` uses the format of JavaScript Objects to store data. JSON is flexible because it allows for `Data Structures` with arbitrary combinations of `strings`, `numbers`, `booleans`, `arrays`, and `objects`.
 

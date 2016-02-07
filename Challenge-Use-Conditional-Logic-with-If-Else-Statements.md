@@ -1,4 +1,4 @@
-#Waypoint: Use Conditional Logic with If Statements
+#Challenge: Use Conditional Logic with If Statements
 
 We can use `if` statements in JavaScript to execute code only if the specified condition is met.
 

@@ -69,7 +69,7 @@ Our mockups show what our app should look like. It's much faster to iterate on a
 
 Because this is a single page app, we'll rely heavily - or in this case exclusively - on JavaScript. Let's use one of the most popular JavaScript stacks: the MEAN stack. One big benefit of the MEAN stack is that all of its components are free and open-source. There are also tons of resources available for learning the MEAN stack, and for debugging it when you inevitably encounter errors. 
 
-You can have a [MEAN stack development environment](http://www.freecodecamp.com/challenges/waypoint-get-set-for-basejumps) up and running in the cloud in less than an hour, for free.
+You can have a [MEAN stack development environment](http://www.freecodecamp.com/challenges/Challenge-get-set-for-Back End Projects) up and running in the cloud in less than an hour, for free.
 
 Here are the components we'll use:
 1. [MongoDB](http://mongodb.org/) for our database

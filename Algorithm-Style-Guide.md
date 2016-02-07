@@ -1,16 +1,16 @@
 _work in progress_
 
-# Bonfire Style Guide
-Writing Bonfire challenges is a great way to exercise your own problem solving and testing abilities. It is a simple three step process.
-1. Fill out the [generator](http://www.freecodecamp.com/bonfire-challenge-generator) form and test your challenge.
-2. Once you have confirmed a working bonfire challenge in the generator, copy and paste the fields into the [JSON generator.](http://www.freecodecamp.com/bonfire-json-generator)
-3. Copy the JSON, fork the freecodecamp repository, and submit a pull request with your addition to the [bonfires.json.](https://github.com/FreeCodeCamp/freecodecamp/blob/master/seed_data/bonfires.json)
+# Algorithm Style Guide
+Writing Algorithm challenges is a great way to exercise your own problem solving and testing abilities. It is a simple three step process.
+1. Fill out the [generator](http://www.freecodecamp.com/algorithm-challenge-generator) form and test your challenge.
+2. Once you have confirmed a working Algorithm challenge in the generator, copy and paste the fields into the [JSON generator.](http://www.freecodecamp.com/algorithm-json-generator)
+3. Copy the JSON, fork the freecodecamp repository, and submit a pull request with your addition to the challenge .json file.
 
 ## Name
 Name your challenge
 
 ## Difficulty
-Attempt to rate difficulty compared against existing bonfire challenges.
+Attempt to rate difficulty compared against existing Algorithm challenges.
 
 _TODO: add basic quantifiers for each difficulty level_
 
@@ -30,11 +30,11 @@ _Leave this field blank. It will soon be removed from the generator._
 ## Tests
 These tests are what bring your challenge to life. Without them, we cannot confirm the accuracy of a user's submitted answer. Choose your tests wisely.
 
-Bonfire tests are written using the [Chai.js](http://chaijs.com/) assertion library. Please use the `should` and `expect` syntax for end user readability. As an example of what not do to, many of the original Bonfire challenges are written with `assert` syntax and many of the test cases are difficult to read.
+Algorithm tests are written using the [Chai.js](http://chaijs.com/) assertion library. Please use the `should` and `expect` syntax for end user readability. As an example of what not do to, many of the original Algorithm challenges are written with `assert` syntax and many of the test cases are difficult to read.
 
-If your bonfire question has a lot of edge cases, you will need to write many tests for full coverage. If you find yourself writing more tests than you desire, you may consider simplifying the requirements of your bonfire challenge. For difficulty level 1 through 3, you will generally only need 2 to 4 tests.
+If your Algorithm question has a lot of edge cases, you will need to write many tests for full coverage. If you find yourself writing more tests than you desire, you may consider simplifying the requirements of your Algorithm challenge. For difficulty level 1 through 3, you will generally only need 2 to 4 tests.
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @brandenbyers @Rafase282 for your help with the Bonfire Style Guide`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @brandenbyers @Rafase282 for your help with the Algorithm Style Guide`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

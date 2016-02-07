@@ -1,4 +1,4 @@
-#### When I started working through my first bonfires, I was really scared of speaking to strangers. What would this person think about me? 
+#### When I started working through my first Algorithms, I was really scared of speaking to strangers. What would this person think about me? 
 Would I even be able to write good code with someone watching me?
 
 Now, some weeks later I've pair programmed and reviewed code with more than 40 campers and let me tell you: it's not as scary as it seems.

@@ -22,7 +22,7 @@ In Firefox:
   * Click in `Storage` link.
     ![Print the localStorage Object from web console and show the Storage](http://i.imgur.com/AsflWtv.png)
   * The **Storage** panel will appear at right.
-  * Filter the results to find the bonfire, zipline or waypoint causing the problem.
+  * Filter the results to find the Algorithm, Front End Project or Challenge causing the problem.
   * When located, mouse over it and click the `x` at right.
     ![Click the x for deleting the value entry.](http://i.imgur.com/3URr4jQ.png)
   * Once removed, check if the problem was solved. Refresh or close and open the browser if necessary.

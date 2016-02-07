@@ -3,7 +3,7 @@ APIs - or Application Programming Interfaces - are tools that computers use to c
 
 `$(document).ready()` This function makes it so all code inside of it only runs once our page loads.
 
-Inside that you can add any function or code, for this particular waypoint you need to add a click handler:
+Inside that you can add any function or code, for this particular Challenge you need to add a click handler:
 
 ```js
 $("#getMessage").on("click", function(){

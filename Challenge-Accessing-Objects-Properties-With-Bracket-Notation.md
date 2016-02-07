@@ -1,4 +1,4 @@
-#Waypoint: Accessing Objects Properties with Bracket Notation
+#Challenge: Accessing Objects Properties with Bracket Notation
 
 The second way to access the properties of an object is bracket notation (`[]`). If the property of the object you are trying to access has a space in it, you will need to use bracket notation.
 

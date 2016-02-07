@@ -8,7 +8,7 @@ Our open source community has been hard at work throughout September on some maj
 * Each certificate has a unique verifiable URL that employers can check. This makes it is impossible to forge our certificates without access to our production servers.
 
 ###Code Portfolios
-* All challenges and their solutions now show up on your code portfolio, including Waypoints.
+* All challenges and their solutions now show up on your code portfolio, including Challenges.
 * You can hide your solutions from other people.
 
 ###Unauthenticated Campers
@@ -17,7 +17,7 @@ Our open source community has been hard at work throughout September on some maj
 
 ###Improved challenges
 * @berkeleytrue figured out a way to make all challenge solutions 100% sharable. You can copy a URL directly from your browser and share it with others, and they will be able to run your code against the challenge's tests. URLs update automatically when you run a challenge's tests.
-* We completely rewrote all Bonfire tests to be as transparent as possible. By popular request, we no longer show the Chai tests themselves - just a message clearly explaining what each test is testing.
+* We completely rewrote all Algorithm tests to be as transparent as possible. By popular request, we no longer show the Chai tests themselves - just a message clearly explaining what each test is testing.
 * By popular request, we added gif-style challenges, and are replacing our video-style challenges with these. All of our old videos will remain available on our [YouTube channel](https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ?sub_confirmation=1).
 
 ###Wiki improvements
@@ -39,9 +39,9 @@ Our open source community has been hard at work throughout September on some maj
 * A clickable hint button on each challenge that cycles through a series of increasingly helpful hints.
 * Recommended solutions that you can compare your solution with once you complete each challenge.
 * We'll re-record some of our dated-looking gifs.
-* We'll finish the Get Set for Basejumps with Clementine.js (gif-style challenge)
-* We'll finish the new Get Set for Ziplines (gif-style challenge)
-* We'll move all Zipline and Basejump challenges to gif-style.
+* We'll finish the Get Set for Back End Projects with Clementine.js (gif-style challenge)
+* We'll finish the new Get Set for Front End Projects (gif-style challenge)
+* We'll move all Front End Project and Back End Project challenges to gif-style.
 * We'll add a back button to our gif-style challenges.
 * We'll launch our job board.
 * We'll publish several new JSON API and AJAX-related challenges
@@ -54,7 +54,7 @@ Our open source community has been hard at work throughout September on some maj
 * Turning Free Code Camp into a single-page isomorphic app
 * Creating a browser-based replacement for Screen Hero / Team Viewer that is well suited to pairing on Free Code Camp.
 * React.js curriculum
-* D3.js curriculum and data visualization Ziplines
+* D3.js curriculum and data visualization Front End Projects
 
 ##Our codebase is improving quickly. If you see something that looks funky or broken, please click that "bug" button and create a GitHub issue for us. Thanks for your patience and support.
 

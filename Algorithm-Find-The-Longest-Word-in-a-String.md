@@ -89,6 +89,6 @@ In case you're wondering about that `0` after the callback function, it is used 
 See the code's inline comments.
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 @shadowfool @Hallaathrad for your help with Bonfire: Find the Longest Word in a String`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 @shadowfool @Hallaathrad for your help with Algorithm: Find the Longest Word in a String`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

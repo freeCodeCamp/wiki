@@ -22,7 +22,7 @@ Note: The labels ***blocked***, ***confirmed***, and ***QA*** are also tied to [
 | duplicate          | The issue is a duplicate of another issue and most likely will be closed.|
 | easy               | This is used to flag issues that aren't critical, but should be easy for a camper to fix for their first couple of PRs. Think of these as the camper gateway to becoming a contributor. |
 | enhancement        | Similar to a Feature Request, but more related to improving existing features rather than adding new ones.|
-| feature request    | A request to add a feature to FCC. For example, ability to edit or remove bonfires from campers profile page.|
+| feature request    | A request to add a feature to FCC. For example, ability to edit or remove Algorithms from campers profile page.|
 | firefox            | The issue can only be reproduced in Mozilla Firefox.|
 | help wanted        | Owners or issue moderators need campers’ help to investigate or fix the issue.|
 | hikes              | The issue is related to Hikes (they are currently not available in curriculum).|

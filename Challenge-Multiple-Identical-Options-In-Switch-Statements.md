@@ -1,4 +1,4 @@
-#Waypoint: Multiple Identical Options in Switch Statements
+#Challenge: Multiple Identical Options in Switch Statements
 
 If the `break` statement is ommitted from a `switch` statement's `case`, the following `case` statement(s) are executed until a `break` is encountered. If you have multiple inputs with the same output, you can represent them in a `switch` statement like this:
 

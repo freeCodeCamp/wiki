@@ -36,7 +36,7 @@ code here
 - Explain your code here
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @username1 @username2 @yourusername for your help with Bonfire: Name of the Bonfire`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @username1 @username2 @yourusername for your help with Algorithm: Name of the Algorithm`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
 

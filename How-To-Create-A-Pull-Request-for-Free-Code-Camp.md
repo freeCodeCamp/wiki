@@ -65,8 +65,8 @@ Review the [Contribution Guidelines](https://github.com/FreeCodeCamp/FreeCodeCam
 2. By default, all pull requests should be against the FCC main repo, `staging` branch.
 3. Make a clear title for your PR which succinctly indicates what is being fixed.  Do not add the issue number in the title.
 Examples:
-`Add Test Cases to Bonfire Drop It`
-`Correct typo in Waypoint Size Your Images`
+`Add Test Cases to Algorithm Drop It`
+`Correct typo in Challenge Size Your Images`
 4. In the body of your PR include a more detailed summary of the changes you made and why.
 5. Indicate if you have tested on a local copy of the site or not.
 6. If your PR is due to an issue, you can [reference and close that issue](https://help.github.com/articles/closing-issues-via-commit-messages/) automatically by adding a keyword like `Closes #xxxx`, where `xxxx` is the issue number.

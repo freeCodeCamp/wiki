@@ -1,8 +1,8 @@
-#Waypoint: Comparisons with the Logical Or Operator
+#Challenge: Comparisons with the Logical Or Operator
 
 The `logical or` operator (`||`) returns `true` if either of the `operands` is `true`. Otherwise, it returns `false`.
 
-The pattern below should look familiar from prior waypoints:
+The pattern below should look familiar from prior Challenges:
 
 ```js
 if (num > 10) {

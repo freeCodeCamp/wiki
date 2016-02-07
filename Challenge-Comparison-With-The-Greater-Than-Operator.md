@@ -1,4 +1,4 @@
-#Waypoint: Comparison with the Greater Than Operator
+#Challenge: Comparison with the Greater Than Operator
 
 The greater than operator (`>`) compares the values of two numbers. If the number to the left is greater than the number to the right, it returns `true`. Otherwise, it returns `false`.
 

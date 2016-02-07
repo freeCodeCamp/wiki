@@ -1,4 +1,4 @@
-##Waypoint: Comparison with the Equality Operator
+##Challenge: Comparison with the Equality Operator
 
 There are many `Comparison Operators` in JavaScript. All of these operators return a boolean `true` or `false` value.
 

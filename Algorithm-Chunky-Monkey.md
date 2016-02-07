@@ -1,22 +1,22 @@
 ![](http://i.imgur.com/RdrnNvA.png)
 
 # Explanation
-Our goal for this bonfire is to split `arr` (first argument) into smaller chunks of arrays with the length provided by `size` (second argument). There are 4 green checks (objectives) our code needs to pass in order to complete this bonfire:
+Our goal for this Algorithm is to split `arr` (first argument) into smaller chunks of arrays with the length provided by `size` (second argument). There are 4 green checks (objectives) our code needs to pass in order to complete this Algorithm:
 1. `(['a', 'b', 'c', 'd'], 2)` is expected to be `[['a', 'b'], ['c', 'd']]`
 2. `([0, 1, 2, 3, 4, 5], 3)` is expected to be `[[0, 1, 2], [3, 4, 5]]`
 3. `([0, 1, 2, 3, 4, 5], 2)` is expected to be `[[0, 1], [2, 3], [4, 5]]`
 4. `([0, 1, 2, 3, 4, 5], 4)` is expected to be `[[0, 1, 2, 3], [4, 5]]`
 
-Click **More information** under the bonfire title and read the helpful links if you haven't yet.   
+Click **More information** under the Algorithm title and read the helpful links if you haven't yet.   
 
-## How to approach the bonfire
+## How to approach the Algorithm
 The helpful links suggest to use `Array.push()` so let's start by first creating a new array to store the smaller arrays we will soon have like this:
 
 ```js
 var newArray = [];
 ```
 
-  Next we'll need a `for loop` to loop through `arr` then finally we need a method to do the actual splitting and we can use `Array.slice()` to do that. The key to this bonfire is understanding how a `for loop`, `size`, `Array.slice()` and `Array.push()` all work together.  
+  Next we'll need a `for loop` to loop through `arr` then finally we need a method to do the actual splitting and we can use `Array.slice()` to do that. The key to this Algorithm is understanding how a `for loop`, `size`, `Array.slice()` and `Array.push()` all work together.  
 
 # How does a for loop and Array.slice() work
 **For Loop**
@@ -134,7 +134,7 @@ chunk(["a", "b", "c", "d"], 2);
 ```
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @kirah1314 @Rafase282 @jsommamtek for your help with Bonfire: Chunky Monkey`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @kirah1314 @Rafase282 @jsommamtek for your help with Algorithm: Chunky Monkey`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
 

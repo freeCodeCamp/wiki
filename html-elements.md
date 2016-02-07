@@ -4,4 +4,4 @@ Closing tags look like this: `</h1>`.
 
 Note that the only difference between opening and closing tags is that closing tags have a slash after their opening angle bracket.
 
-Try it here! http://www.freecodecamp.com/challenges/waypoint-say-hello-to-html-elements
+Try it here! http://www.freecodecamp.com/challenges/Challenge-say-hello-to-html-elements

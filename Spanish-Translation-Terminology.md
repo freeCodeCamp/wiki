@@ -8,10 +8,10 @@ Vale recalcar que todos los términos están abiertos a discusión. En caso se t
 
 ###Untranslated
 * Free Code Camp
-* Waypoint
-* Bonfire
-* Zipline
-* Basejump
+* Challenge
+* Algorithm
+* Front End Project
+* Back End Project
 * Top menu buttons.
 * Camper
 * Full Stack
