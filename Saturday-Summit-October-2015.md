@@ -4,5 +4,5 @@ During this 1 hour live stream, we'll:
 - launch our free Front End and Full Stack Development Certificate programs
 - demo our new, more comprehensive portfolio pages
 - demo a new way that all our campers can immediately start helping nonprofits
-- talk with camper Blake Johnston, who created the Clementine.js boilerplate that Free Code Camp will use for our full stack Basejump challenges
+- talk with camper Blake Johnston, who created the Clementine.js boilerplate that Free Code Camp will use for our full stack Back End Project challenges
 - launch our first-ever t-shirt campaign on teespring.com

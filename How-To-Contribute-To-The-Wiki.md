@@ -158,11 +158,11 @@ Get to your directory on your local machine
 
 All of the files for the wiki are .md files. These are **markdown** files. They use [markdown language](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for the formatting of the files.
 
- - The Bonfire pages begin with Bonfire
- - The Waypoints pages begin with Waypoint
+ - The Algorithm pages begin with Algorithm
+ - The Challenges pages begin with Challenge
  - The JavaScript references pages begin with js
- - The Zipline pages begin with Zipline
- - The Basejump pages begin with Basejump
+ - The Front End Project pages begin with Front End Project
+ - The Back End Project pages begin with Back End Project
  - There are no spaces in the file names. use - instead
  - Files should be Title Cased (the first letter of each word should be capitalized)
 
@@ -210,7 +210,7 @@ Now that you've made your change, you have to *commit* and *push*.
 		-Adds everything that's changed
 	- `git add filestring*`
 		- adds everything starting with filestring
-		- example `git add bonfire*`
+		- example `git add Algorithm*`
 + commmit:
 	- git commit -m "Short Description of Change"
 		- the message should reflect what is being edited

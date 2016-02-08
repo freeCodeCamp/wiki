@@ -10,7 +10,7 @@ There should be at least 5 sub-arrays in the list.
 Remember to use [ Read-Search-Ask](http://github.com/FreeCodeCamp/freecodecamp/wiki/How-to-get-help-when-you-get-stuck) if you get stuck. Try to pair program. Write your own code.
 
 ## Useful Link
-- [Waypoint: Nest one Array within Another Array](http://www.freecodecamp.com/challenges/waypoint-nest-one-array-within-another-array)
+- [Challenge: Nest one Array within Another Array](http://www.freecodecamp.com/challenges/nest-one-array-within-another-array)
 
 ## Problem Explanation:
 - `myList` should be an array.

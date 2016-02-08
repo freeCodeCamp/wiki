@@ -6,18 +6,18 @@ In Computer Science a **queue** is an abstract *Data Structure* where items are 
 
 ***Instructions***
 
-Write a function queue which takes an "array" and an "item" as arguments. 
+Write a function queue which takes an "array" and an "item" as arguments.
 
-Add the item onto the end of the array, then remove the first element of the array. 
+Add the item onto the end of the array, then remove the first element of the array.
 
 The queue function should return the element that was removed.
 
 Remember to use [ Read-Search-Ask](http://github.com/FreeCodeCamp/freecodecamp/wiki/How-to-get-help-when-you-get-stuck) if you get stuck. Try to pair program. Write your own code.
 
 ## Useful Links
-- [Waypoint: Manipulate Arrays With push()](http://www.freecodecamp.com/challenges/waypoint-manipulate-arrays-with-push)
-- [Waypoint: Manipulate Arrays With shift()](http://www.freecodecamp.com/challenges/waypoint-manipulate-arrays-with-shift)
-- [Waypoint: Passing Values to Functions with Arguments](http://www.freecodecamp.com/challenges/waypoint-passing-values-to-functions-with-arguments)
+- [Challenge: Manipulate Arrays With push()](http://www.freecodecamp.com/challenges/manipulate-arrays-with-push)
+- [Challenge: Manipulate Arrays With shift()](http://www.freecodecamp.com/challenges/manipulate-arrays-with-shift)
+- [Challenge: Passing Values to Functions with Arguments](http://www.freecodecamp.com/challenges/passing-values-to-functions-with-arguments)
 
 ## Problem Explanation:
 - Change the code below `//Your Code here` and up to `//Change this line`
@@ -63,7 +63,7 @@ function queue(arr, item) {
 - `var removed = arr.shift();` Removes the first element. So `arr` is now [1]. 2 has been removed and is stored in `removed`
 - `return removed;` 2 is returned
 
-***Note*** 
+***Note***
 You don't actually need to store it in a variable if you return it directly!
 
 ```js

@@ -6,7 +6,7 @@ Here is a summary for those who don't have time to watch the full 90 minutes:
 
  -Nothing will change up to and including the Front End Development Certificate. 
 
- -The old Full Stack Certification will now be the Backend certification. This will include the current backend stuff (including Basejumps) and will also include 5JSON/API development Basejumps. Advanced Bonfires will be included here.
+ -The old Full Stack Certification will now be the Backend certification. This will include the current backend stuff (including Back End Projects) and will also include 5JSON/API development Back End Projects. Advanced Algorithms will be included here.
 
  -React.js will replace Angular/js and will be in the Data Visualization Certification as will SASS and D3.js. This certification will include React/SASS projects and D3 projects.
 
@@ -16,11 +16,11 @@ Here is a summary for those who don't have time to watch the full 90 minutes:
 
  -Some changes centered around the new curriculum will be live in a few days.
 
-**--Waypoints--**
+**--Challenges--**
 
- -@SaintPeter is creating ~60 new Javascript waypoints.
+ -@SaintPeter is creating ~60 new Javascript Challenges.
 
- -Also creating new 'checkpoints' that will act like mini-bonfires during the waypoints.  They will be 'blank page' challenges that are intended to ease campers in the transition from waypoints to bonfires. 
+ -Also creating new 'checkpoints' that will act like mini-Algorithms during the Challenges.  They will be 'blank page' challenges that are intended to ease campers in the transition from Challenges to Algorithms. 
 
  -There is a 'challenge-o-matic' challenge tool that anyone will be able to use to create challenges and contribute to FCC.
 
@@ -48,7 +48,7 @@ Here is a summary for those who don't have time to watch the full 90 minutes:
 
  **-Why React.js over Angular.js?** It's simpler to learn and to teach, and 'more fun' to write in.  Another reason is that FCC feels that there is a 'critical mass' behind React.js, based on lots of big names moving their codebases into React.js. Wordpress, for example, is changing and represents 25% of the internet. Wide adoption of React.js translates to more employment opportunities. Angular.js is much more popular right now, but @QuincyLarson thinks that React.js will overtake Angular.js.  Angular 2 will be coming out soon, and is a complete overhaul from Angular 1; the only thing the same is the name. @SaintPeter added that the new [Wiki Site](beta.freecodecamp.com/wiki) is written in React.js and very responsive.
 
- **-Is FCC sufficient to make me a web developer?** @SaintPeter : No.  FCC provides a framework and linear path to guide your learning but won't provide everything to everyone. Don't feel like you're cheating on FCC if you go to other resources to supplement your learning.@QuincyLarson: FCC is pulling ahead of its peers in terms of being exhaustive and we would like FCC to be as comprehensive as possible in the future. That said, of course you should supplement your learning with other sites. One of FCC's primary focuses are the projects (I assume Ziplines and Basejumps?) So use other materials if you need to, but come back to FCC to use that knowledge to work through the projects.
+ **-Is FCC sufficient to make me a web developer?** @SaintPeter : No.  FCC provides a framework and linear path to guide your learning but won't provide everything to everyone. Don't feel like you're cheating on FCC if you go to other resources to supplement your learning.@QuincyLarson: FCC is pulling ahead of its peers in terms of being exhaustive and we would like FCC to be as comprehensive as possible in the future. That said, of course you should supplement your learning with other sites. One of FCC's primary focuses are the projects (I assume Front End Projects and Back End Projects?) So use other materials if you need to, but come back to FCC to use that knowledge to work through the projects.
 
  **-Since SASS is being added, is there a chance to add an HTML preprocesser like Jade?** @BerkeleyTrue - Maybe, but it doesn't seem like it would add much to the curriculum.
 
@@ -68,4 +68,4 @@ Here is a summary for those who don't have time to watch the full 90 minutes:
 
  **-How can people hire FCC graduates?** @QuincyLarson - Employers can use the [Free Code Camp Job Board](http://www.freecodecamp.com/jobs) to post positions. FCC wants only high quality jobs from high quality employers, so they are currently charging $1000 to post a job on the job board. FCC is still trying to figure out how to market to employers and help them understand what they will get when they hire an FCC graduate.  Only about 5% of people in the U.S. learn to code compared to 100% in China. Already, software developer is the most common job in some U.S. states. Providing coding education to everyone for free is a big and ambitious goal. The job board (and its cost) is just another manifestation of that.  
 
- **-If I'm an established developer, can I start work on nonprofit projects immediately?** @QuincyLarson - No. Everyone who works on our nonprofit projects has to earn the Full Stack Development Certification first. Completing the program isn't just about demonstrating ability, it's also about demonstrating commitment to the program. It's important that people who work on the nonprofits are dedicated and have put in the time and effort to get to that point; FCC doesn't want people quitting half way through a project. @QuincyLarson pointed out that FCC is intentionally difficult and is probably among the most difficult coding resources around. Even people who have experience coding can take hours to complete a Zipline or Basejump. This is by design. @SaintPeter - As a reminder, all of the waypoints are optional (for everyone). If you have a coding background, you only have to complete the Bonfires, Ziplines, and Basejumps in order to get the certificates.
+ **-If I'm an established developer, can I start work on nonprofit projects immediately?** @QuincyLarson - No. Everyone who works on our nonprofit projects has to earn the Full Stack Development Certification first. Completing the program isn't just about demonstrating ability, it's also about demonstrating commitment to the program. It's important that people who work on the nonprofits are dedicated and have put in the time and effort to get to that point; FCC doesn't want people quitting half way through a project. @QuincyLarson pointed out that FCC is intentionally difficult and is probably among the most difficult coding resources around. Even people who have experience coding can take hours to complete a Front End Project or Back End Project. This is by design. @SaintPeter - As a reminder, all of the Challenges are optional (for everyone). If you have a coding background, you only have to complete the Algorithms, Front End Projects, and Back End Projects in order to get the certificates.

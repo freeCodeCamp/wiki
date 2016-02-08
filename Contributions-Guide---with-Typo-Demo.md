@@ -1,9 +1,9 @@
 
 # Detailed Guide to Contributions.
 ===================================
- Guide first posted at [Sean Campbell's Blog](https://natacseanc.wordpress.com/2015/09/07/beginners-guide-to-easy-contributions-to-free-code-camp/) 
+ Guide first posted at [Sean Campbell's Blog](https://natacseanc.wordpress.com/2015/09/07/beginners-guide-to-easy-contributions-to-free-code-camp/)
 
-The first 2 steps are *setting up* the environment. 
+The first 2 steps are *setting up* the environment.
 
 ### Step 1: Fork, Clone, Upstream Setup
 
@@ -32,7 +32,7 @@ Your local `staging` branch is up to date with the [Free Code Camp repo](https:/
 
 ### Step 2: Follow README.md Instructions for more Setup.
 
-This guide stresses importance of reading the [README.md](https://github.com/FreeCodeCamp/FreeCodeCamp#contributing) on contributing. Please have [ESlinter](http://eslint.org/docs/user-guide/integrations.html) running, as the warning are there to help you. 
+This guide stresses importance of reading the [README.md](https://github.com/FreeCodeCamp/FreeCodeCamp#contributing) on contributing. Please have [ESlinter](http://eslint.org/docs/user-guide/integrations.html) running, as the warning are there to help you.
 
 ### Prerequisites
 
@@ -61,7 +61,7 @@ npm install -g gulp
 touch .env
 ```
 
-What goes in the .env file?? Well first if you do not have a [Mandrill account](https://mandrill.com/signup/?_ga=1.36983655.693747097.1440924471) you will need to set one up. 
+What goes in the .env file?? Well first if you do not have a [Mandrill account](https://mandrill.com/signup/?_ga=1.36983655.693747097.1440924471) you will need to set one up.
 Mandrill is an email service that is beyond the scope of this guide. A quick note; this file will not be included when pushing to GitHub as it will be listed in the `.gitignore` file.
 
 #### .env file contents
@@ -135,7 +135,7 @@ The issue on GitHub will look something like this.
 <a href="https://natacseanc.files.wordpress.com/2015/09/issue1.png"><img class="alignnone wp-image-161" src="https://natacseanc.files.wordpress.com/2015/09/issue1.png?w=300" alt="issue" width="456" height="205" /></a>
 
 
-To find out what file the challenge will be in go to the FCC Map to find out which section the challenge is a part of; the example is [Learn how Script Tags and Document Ready Work](http://freecodecamp.com/challenges/waypoint-learn-how-script-tags-and-document-ready-work) and it is a part of the jQuery section.
+To find out what file the challenge will be in go to the FCC Map to find out which section the challenge is a part of; the example is [Learn how Script Tags and Document Ready Work](http://freecodecamp.com/challenges/learn-how-script-tags-and-document-ready-work) and it is a part of the jQuery section.
 
 <a href="https://natacseanc.files.wordpress.com/2015/09/section.png"><img class="alignnone size-medium wp-image-164" src="https://natacseanc.files.wordpress.com/2015/09/section.png?w=300" alt="section" width="300" height="262" /></a>
 
@@ -158,7 +158,7 @@ Go to your terminal and run the command below to make sure that nothing has chan
 git fetch upstream
 ```
 
-If there was a change then merge in like Step 1. Create a branch that explains the change ie `fix/typo-jquery-challenge-test`. Include a brief description of the changes you have made. Include `closes #1337` for each issue that this pull request intends to close.
+If there was a change then merge in like Step 1. Create a branch that explains the change ie `fix/typo-jquery-test`. Include a brief description of the changes you have made. Include `closes #1337` for each issue that this pull request intends to close.
 
 ```bash
 # create and move to branch
@@ -236,7 +236,7 @@ Clicking this takes you to the screen where you can review the changes once agai
 
 <img class="alignnone size-full wp-image-132" src="https://natacseanc.files.wordpress.com/2015/09/pr.png" alt="pr" width="600" height="489" />
 
-Guide written by: [@natac13](https://github.com/natac13) on Twitter [@natac1311](https://twitter.com/?lang=en) 
+Guide written by: [@natac13](https://github.com/natac13) on Twitter [@natac1311](https://twitter.com/?lang=en)
 
 ### Appendix A: Stash
 

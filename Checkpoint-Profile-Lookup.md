@@ -17,8 +17,8 @@ If **prop** does not correspond to any valid properties then return **"No such p
 Remember to use [ Read-Search-Ask](http://github.com/FreeCodeCamp/freecodecamp/wiki/How-to-get-help-when-you-get-stuck) if you get stuck. Try to pair program. Write your own code.
 
 ## Useful Links
-- [Waypoint: Accessing Objects Properties with Bracket Notation](http://www.freecodecamp.com/challenges/waypoint-accessing-objects-properties-with-bracket-notation)
-- [Waypoint: Iterate with JavaScript For Loops](http://www.freecodecamp.com/challenges/waypoint-iterate-with-javascript-for-loops)
+- [Challenge: Accessing Objects Properties with Bracket Notation](http://www.freecodecamp.com/challenges/accessing-objects-properties-with-bracket-notation)
+- [Challenge: Iterate with JavaScript For Loops](http://www.freecodecamp.com/challenges/iterate-with-javascript-for-loops)
 
 ## Problem Explanation:
 - Change the code below `// Only change code below this line` and up to `// Only change code above this line`

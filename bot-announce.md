@@ -1,7 +1,7 @@
 ## Announcing CamperBot!
 
 CamperBot is our new AI friend who's going to make the FCC chatrooms more fun.
-He can get info from the wiki, share bonfire hints, and help you get brownie points for helping people!
+He can get info from the wiki, share Algorithm hints, and help you get brownie points for helping people!
 
 https://twitter.com/FreeCodeCamp/status/627338604134559744
 

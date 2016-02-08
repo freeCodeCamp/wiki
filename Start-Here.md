@@ -8,8 +8,8 @@
 - The Back End Development Certificate
 - [The Full Stack Development Certificate](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Free-Code-Camp-Full-Stack-Development-Certificate)
 - The Coding Interview Preparation
-- [Guide to Basejumps](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Guide-to-Basejumps-Table-of-Contents)
-- [Basejump Resources](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Basejump-Resources)
+- [Guide to Back End Projects](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Guide-to-Back-End-Projects-Table-of-Contents)
+- [Back End Project Resources](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Back-End-Project-Resources)
 - [Why JavaScript?](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Why-does-Free-Code-Camp-use-JavaScript-instead-of-Ruby-or-Python)
 
 ## Community
