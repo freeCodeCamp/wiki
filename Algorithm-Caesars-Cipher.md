@@ -87,6 +87,6 @@ range when subtracted by 13 so we'll add 26(number of letters in
 e.g. M(77) ↔ 77-13 = 64(Not an English alphabet) +26 = 90 ↔ Z(90)
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @anuragaryan and @SaintPeter for your help with Bonfire: Caesar's Cipher`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @anuragaryan and @SaintPeter for your help with Algorithm: Caesar's Cipher`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

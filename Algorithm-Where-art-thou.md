@@ -116,6 +116,6 @@ function where(collection, source) {
 Check this http://repl.it/BFZQ/19 for pretty debugging and code explanation
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @abhisekp @dting @coded9 for your help with Bonfire: Where art Thou`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @abhisekp @dting @coded9 for your help with Algorithm: Where art Thou`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

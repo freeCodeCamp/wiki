@@ -135,7 +135,7 @@ The issue on GitHub will look something like this.
 <a href="https://natacseanc.files.wordpress.com/2015/09/issue1.png"><img class="alignnone wp-image-161" src="https://natacseanc.files.wordpress.com/2015/09/issue1.png?w=300" alt="issue" width="456" height="205" /></a>
 
 
-To find out what file the challenge will be in go to the FCC Map to find out which section the challenge is a part of; the example is [Learn how Script Tags and Document Ready Work](http://freecodecamp.com/challenges/waypoint-learn-how-script-tags-and-document-ready-work) and it is a part of the jQuery section.
+To find out what file the challenge will be in go to the FCC Map to find out which section the challenge is a part of; the example is [Learn how Script Tags and Document Ready Work](http://freecodecamp.com/challenges/Challenge-learn-how-script-tags-and-document-ready-work) and it is a part of the jQuery section.
 
 <a href="https://natacseanc.files.wordpress.com/2015/09/section.png"><img class="alignnone size-medium wp-image-164" src="https://natacseanc.files.wordpress.com/2015/09/section.png?w=300" alt="section" width="300" height="262" /></a>
 

@@ -1,5 +1,5 @@
 # Explanation:
-This is very simple, they just want you to get familiar with how their Bonfires work.
+This is very simple, they just want you to get familiar with how their Algorithms work.
 
 ## Hint: 1
 Read details.
@@ -32,6 +32,6 @@ meetBonfire("You can do this!");
 All you had to do was change from false to true.
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 for your help with Bonfire: Meet Bonfire`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 for your help with Algorithm: Meet Algorithm`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

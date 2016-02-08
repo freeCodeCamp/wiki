@@ -43,7 +43,7 @@ function slasher(arr, howMany) {
 - [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @clint74 @Rafase282 @M-Bowe for your help with Bonfire: Slasher Flick`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @clint74 @Rafase282 @M-Bowe for your help with Algorithm: Slasher Flick`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
 

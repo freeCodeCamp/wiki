@@ -115,6 +115,6 @@ function binaryAgent(str) {
 - Lastly we use our defined regex and function in the `String.replace()` function.
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`thanks @Rafase282 @JamesKee @sabahang @crisvdkooij for your help with Bonfire: Binary Agents`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`thanks @Rafase282 @JamesKee @sabahang @crisvdkooij for your help with Algorithm: Binary Agents`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

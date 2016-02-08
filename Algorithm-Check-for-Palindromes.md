@@ -100,6 +100,6 @@ function palindrome(str) {
 - If neither of the first two conditions are met, then we assume that the two characters are equal, and we return a recursive call to the function. The difference here is that we pass the current value of `str` and we slice the first and last elements off the string. This process continues until there are no characters left to check!
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 @abhisekp @shadowfool for your help with Bonfire: Check for Palindromes`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 @abhisekp @shadowfool for your help with Algorithm: Check for Palindromes`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

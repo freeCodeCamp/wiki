@@ -24,9 +24,9 @@ You will write a card counting function. It will receive a **card** parameter an
 Remember to use [ Read-Search-Ask](http://github.com/FreeCodeCamp/freecodecamp/wiki/How-to-get-help-when-you-get-stuck) if you get stuck. Try to pair program. Write your own code.
 
 ## Useful Links
-- [Waypoint: Selecting from many options with Switch Statements](http://www.freecodecamp.com/challenges/waypoint-selecting-from-many-options-with-switch-statements)
-- [Waypoint: Chaining If Else Statements](http://www.freecodecamp.com/challenges/waypoint-chaining-if-else-statements)
-- [Waypoint: Increment a Number with Javascript](http://www.freecodecamp.com/challenges/waypoint-increment-a-number-with-javascript)
+- [Challenge: Selecting from many options with Switch Statements](http://www.freecodecamp.com/challenges/Challenge-selecting-from-many-options-with-switch-statements)
+- [Challenge: Chaining If Else Statements](http://www.freecodecamp.com/challenges/Challenge-chaining-if-else-statements)
+- [Challenge: Increment a Number with Javascript](http://www.freecodecamp.com/challenges/Challenge-increment-a-number-with-javascript)
 
 ## Problem Explanation:
 - Change the code below `// Only change code below this line` and up to `// Only change code above this line`

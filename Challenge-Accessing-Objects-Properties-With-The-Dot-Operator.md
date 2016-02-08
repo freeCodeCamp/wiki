@@ -1,4 +1,4 @@
-#Waypoint: Accessing Objects Properties with the Dot Operator
+#Challenge: Accessing Objects Properties with the Dot Operator
 
 There are two ways to access the properties of an object: the dot operator (`.`) and bracket notation (`[]`), similar to an array.
 

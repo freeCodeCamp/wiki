@@ -73,6 +73,6 @@ drop([1, 2, 3], function(n) {return n < 3; });
 - Return the trimmed array.
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 @sabahang for your help with Bonfire: Drop it`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 @sabahang for your help with Algorithm: Drop it`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

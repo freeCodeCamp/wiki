@@ -1,4 +1,4 @@
-#Waypoint: Iterate Through an Array with a For Loop
+#Challenge: Iterate Through an Array with a For Loop
 
 A common task in Javascript is to iterate through the contents of an array. One way to do that is with a `for` loop. This code will output each element of the array `arr` to the console:
 

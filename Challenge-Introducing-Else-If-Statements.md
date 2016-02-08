@@ -1,4 +1,4 @@
-#Waypoint: Introducing Else If Statements
+#Challenge: Introducing Else If Statements
 
 If you have multiple conditions that need to be addressed, you can chain `if` statements together with `else if` statements.
 

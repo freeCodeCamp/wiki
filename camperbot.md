@@ -5,7 +5,7 @@ Hi, I'm **[CamperBot](https://github.com/FreeCodeCamp/freecodecamp/wiki/camperbo
 - `wiki TOPIC` show contents of topic page
 - `thanks @username`  send brownie points to another user
 - `about @username`   shows info on that user
-- `bonfire BONFIRENAME` info on a bonfire
+- `Algorithm BONFIRENAME` info on a Algorithm
 
 :speech_balloon: [meet CamperBot in this room!](https://gitter.im/FreeCodeCamp/camperbotPlayground)
 
@@ -18,16 +18,16 @@ wiki muta  # first entry with muta in name
 wiki bobbytables  # showing images
 wiki video  # and video
 rollem    # secret sauce
-bonfire roman   # any bonfire with roman in name
+Algorithm roman   # any Algorithm with roman in name
 ```
 For playing with CamperBot please use the testing channel:
 [https://gitter.im/FreeCodeCamp/camperbotPlayground](https://gitter.im/FreeCodeCamp/camperbotPlayground)
 
-## Help on Bonfires
+## Help on Algorithms
 Live currently on the HelpBonFires channel on Gitter
 [https://gitter.im/FreeCodeCamp/HelpBonfires](https://gitter.im/FreeCodeCamp/HelpBonfires)
 
-We've added some bonfire specific commands. If you type `bonfire $BONFIRENAME` (where $BONFIRENAME is part of a bonfire name) it will set the chat to be about that bonfire. Then you can use some other bonfire specific commands:
+We've added some Algorithm specific commands. If you type `Algorithm $BONFIRENAME` (where $BONFIRENAME is part of a Algorithm name) it will set the chat to be about that Algorithm. Then you can use some other Algorithm specific commands:
 
 - bf details - more info
 - bf spoiler - show some hints
@@ -53,7 +53,7 @@ We're looking for ideas for new features to add, and some people to help working
 Have a look at Tickets with [help wanted](https://github.com/FreeCodeCamp/camperbot/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) on the repo and maybe you can contribute?
 
 In future, we're planning:
-- Bonfire step-by-step tutorials will be available via chat and from the CamperBot
+- Algorithm step-by-step tutorials will be available via chat and from the CamperBot
 - realtime tagging and searching of chats by topic
 - a scripting language and natural language processing
 Get involved and let us know what you'd like to see next!

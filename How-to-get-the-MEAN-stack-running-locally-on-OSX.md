@@ -39,15 +39,15 @@ npm install -g express yo grunt grunt-cli generator-angular-fullstack bower
 ```
 
 ## Step 4: generating a fullstack app
-Make a directory for your Basejump projects. Assuming your desktop is your de facto workspace:
+Make a directory for your Back End Project projects. Assuming your desktop is your de facto workspace:
 ```sh
-mkdir ~/Desktop/basejumps && cd ~/Desktop/basejumps
+mkdir ~/Desktop/Back End Projects && cd ~/Desktop/Back End Projects
 ```
 Now that all the preparations are in place, it's time for the main event:
 ```sh
 yo angular-fullstack
 ```
-Answer the questions according to checklist items #13-23 of [Waypoint: Get Set for Basejumps](http://www.freecodecamp.com/challenges/waypoint-get-set-for-basejumps). Consult #24-27 if you run into errors. This will download ~350MB worth of files into your current directory.
+Answer the questions according to checklist items #13-23 of [Challenge: Get Set for Back End Projects](http://www.freecodecamp.com/challenges/Challenge-get-set-for-Back End Projects). Consult #24-27 if you run into errors. This will download ~350MB worth of files into your current directory.
 
 Before going any further, we need to fix a [known issue](https://github.com/clnhll/guidetobasejumps#fixing-exportsupdate) in some generated files:
 ```sh
@@ -85,7 +85,7 @@ grunt serve
 ```
 Grunt should automatically open your new Angular site's index page as soon as it finishes starting up.
 
-Now you should be able to follow the rest of the Waypoint instructions to push to GitHub and Heroku. Just ignore the part about SSH key (#33-36) and replace `~/workspace` with your app directory's path.
+Now you should be able to follow the rest of the Challenge instructions to push to GitHub and Heroku. Just ignore the part about SSH key (#33-36) and replace `~/workspace` with your app directory's path.
 
 ***
 

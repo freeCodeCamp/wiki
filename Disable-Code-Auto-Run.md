@@ -2,6 +2,6 @@ By default, the Free Code Camp site automatically loads and runs your last recor
 `run=disabled`  
 
 #### Example:
-URL: `http://www.freecodecamp.com/challenges/bonfire-meet-bonfire#?solution=function%20meetBonfire(argument)`
+URL: `http://www.freecodecamp.com/challenges/Algorithm-meet-Algorithm#?solution=function%20meetBonfire(argument)`
 
-No-Run URL: `http://www.freecodecamp.com/challenges/bonfire-meet-bonfire#?run=disabled&solution=function%20meetBonfire(argument)`
+No-Run URL: `http://www.freecodecamp.com/challenges/Algorithm-meet-Algorithm#?run=disabled&solution=function%20meetBonfire(argument)`

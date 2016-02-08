@@ -1,4 +1,4 @@
-#Waypoint: Comparison with the Strict Equality Operator
+#Challenge: Comparison with the Strict Equality Operator
 
 Strict equality (`===`) is the counterpart to the equality operator (`==`). Unlike the equality operator, strict equality tests both the `type` and `value` of the compared elements.
 

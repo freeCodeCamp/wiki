@@ -1,7 +1,7 @@
-The curriculum lead-up to the first Basejump is not very comprehensive.  Here are a number of common resources which other campers have found helpful.
+The curriculum lead-up to the first Back End Project is not very comprehensive.  Here are a number of common resources which other campers have found helpful.
 
-### Getting Started with Basejumps
-* https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Intro-to-Yeoman-Angular-Fullstack-Basejumps - Lots of helpful tips and tricks for the Yeoman Angular Fullstack setup
+### Getting Started with Back End Projects
+* https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Intro-to-Yeoman-Angular-Fullstack-Back End Projects - Lots of helpful tips and tricks for the Yeoman Angular Fullstack setup
 * https://github.com/DaftMonk/generator-angular-fullstack#generators - Generator used by Yeoman, you can find syntax and what files it creates
 
 ### APIs

@@ -130,7 +130,7 @@ function fearNotLetter(str) {
 ####Third solution (Declarative):
 - First we define variables to store the character code for the first letter in the string, and to store whatever missing letters we may find.
 - We turn the string to an array in order to map through it instead of using those nasty `for` and `whiles` (See [this article](http://www.sitepoint.com/quick-tip-stop-writing-loops-start-thinking-with-maps/) for refence as to why. And give it a serious try. Really... you'll thank me for it.
-(If you're not sure how to `map`, you can review [Waypoint: Iterate over arrays with map] ](http://www.freecodecamp.com/challenges/waypoint-iterate-over-arrays-with-map) and [MDN's reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)).
+(If you're not sure how to `map`, you can review [Challenge: Iterate over arrays with map] ](http://www.freecodecamp.com/challenges/Challenge-iterate-over-arrays-with-map) and [MDN's reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)).
 - As we `map` through our letters' character codes, we go comparing with the one that should be in that position.
 - If the current letter matches, we move the comparison variable to its next position so we can compare on the next cycle.
 - if not, the missing letter will be assigned to the `missing` variable, which will be returned after the map is finished.
@@ -146,6 +146,6 @@ function fearNotLetter(str) {
 
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @rohitnwn @sabahang @Hallaathrad for your help with Bonfire: Missing Letters`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @rohitnwn @sabahang @Hallaathrad for your help with Algorithm: Missing Letters`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

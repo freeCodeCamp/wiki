@@ -1,4 +1,4 @@
-#:fire: Bonfire: Falsy Bouncer
+#:fire: Algorithm: Falsy Bouncer
 
 # The problem
 
@@ -66,7 +66,7 @@ function bouncer(arr) {
 
 # References
 - **Array.filter()**: [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
-- **Gorka Hernández Blog**: [https://www.gorkahernandez.com/blog/fcc-bonfire-series-115-falsey-bouncer/](https://www.gorkahernandez.com/blog/fcc-bonfire-series-115-falsey-bouncer/)
+- **Gorka Hernández Blog**: [https://www.gorkahernandez.com/blog/fcc-Algorithm-series-115-falsey-bouncer/](https://www.gorkahernandez.com/blog/fcc-Algorithm-series-115-falsey-bouncer/)
 
 
 # Credits:

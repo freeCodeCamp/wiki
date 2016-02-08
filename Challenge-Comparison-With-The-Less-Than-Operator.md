@@ -1,4 +1,4 @@
-#Waypoint: Comparison with the Less Than Operator
+#Challenge: Comparison with the Less Than Operator
 
 The less than operator (`<`) compares the values of two numbers. If the number to the left is less than the number to the right, it returns `true`. Otherwise, it returns `false`. Like the equality operator, less than operator converts data types while comparing.
 

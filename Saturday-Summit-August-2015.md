@@ -11,7 +11,7 @@
 - New Live Streams [35:34] (https://youtu.be/UhoxoYrJ6Qs?t=35m34s)
 - New Internet Radio Station DJ'd by campers [36:30] (https://youtu.be/UhoxoYrJ6Qs?t=36m30s)
 - FCC Bot [39:24] (https://youtu.be/UhoxoYrJ6Qs?t=39m24s)
-- Matt Yamamoto Zipline Demo [54:24] (https://youtu.be/UhoxoYrJ6Qs?t=54m24s)
+- Matt Yamamoto Front End Project Demo [54:24] (https://youtu.be/UhoxoYrJ6Qs?t=54m24s)
 - Closing from Quincy [1:04:15] (https://youtu.be/UhoxoYrJ6Qs?t=1h4m15s)
 - [Pull Request After Party with Quincy] (https://youtu.be/r0lCJ_TFYlI)
 

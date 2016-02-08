@@ -16,6 +16,6 @@ More information about this you can find here https://en.wikipedia.org/wiki/Flow
 
 **Pseudocode** is an informal language that helps developers write algorithms. It is a text-based design tool and it uses a human readable language. It’s a structured english text that describes an algorithm. 
 
-Every bonfire in Free Code Camp curriculum can be solved using pseudocode and after that translated using javascript in a functional javascript code.
+Every Algorithm in Free Code Camp curriculum can be solved using pseudocode and after that translated using javascript in a functional javascript code.
 
 **[How to start when you are stuck (II)](https://github.com/FreeCodeCamp/freecodecamp/wiki/How-to-start-when-you-are-stuck-(II))**

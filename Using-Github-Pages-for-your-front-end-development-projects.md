@@ -21,7 +21,7 @@ How it works is simple. Github checks if your repository has a branch called `gh
 
 ### First things first
 
-Let's make a new folder for your project. I'll use the [Camper News](http://freecodecamp.com/challenges/zipline-stylize-stories-on-camper-news) project as my example.
+Let's make a new folder for your project. I'll use the [Camper News](http://freecodecamp.com/challenges/Front End Project-stylize-stories-on-camper-news) project as my example.
 
 Got to your work directory and make a new one. You can do this in the terminal (or not).
 

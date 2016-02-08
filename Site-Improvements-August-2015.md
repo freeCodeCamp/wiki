@@ -3,10 +3,10 @@
 * doubled the number of our HTML5 and Bootstrap challenges
 * replaced Codecademy's JavaScript and jQuery challenges with our own challenges
 * added our own Object-oriented Programming and Functional Programming challenges
-* added two new Zipline front end challenges (Personal Portfolio and Simon game), and moved our Ziplines to much earlier in our curriculum
+* added two new Front End Project front end challenges (Personal Portfolio and Simon game), and moved our Front End Projects to much earlier in our curriculum
 * completely replaced our Field Guide with a searchable, and easily-editable open-source wiki
-* made it so your Bonfire code is stored in your browser, so if you leave the page, your code will be there when you come back
-* simplified our portfolio pages. You can now click a single button to mirror your Free Code Camp profile with your GitHub profile. Bonfire solutions are no longer shown here, but they'll eventually be accessible through our API.
+* made it so your Algorithm code is stored in your browser, so if you leave the page, your code will be there when you come back
+* simplified our portfolio pages. You can now click a single button to mirror your Free Code Camp profile with your GitHub profile. Algorithm solutions are no longer shown here, but they'll eventually be accessible through our API.
 * fixed some issues with Brownie Points and Streaks
 * improved our Camper News page by removing the (mostly unused) comments and adding one-click upvoting
 * added a Creative Commons license to literally all of our images and text

@@ -1,5 +1,5 @@
 # Coding Help
-I started this list while doing bonfires, noticing a few things that were common issues / questions but I think most of them are going to be useful to people coding in general. If you've got some tips to help people code I'd love to hear them.
+I started this list while doing Algorithms, noticing a few things that were common issues / questions but I think most of them are going to be useful to people coding in general. If you've got some tips to help people code I'd love to hear them.
 
 1. If you don't know where to start, write some pseudocode. Plan out the logic you're trying to implement in your native language before you try to put it into code.
 

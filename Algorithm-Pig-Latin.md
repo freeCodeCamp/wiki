@@ -118,6 +118,6 @@ Let's start with a recursive function that will go checking for the first letter
 Then we'll grab our string, remove the letters up until that index, concatenate either that same chunk of removed string or `w` accordingly, and then `ay` regardless.
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @sabahang @aganita @Hallaathrad for your help with Bonfire: Pig Latin`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @sabahang @aganita @Hallaathrad for your help with Algorithm: Pig Latin`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

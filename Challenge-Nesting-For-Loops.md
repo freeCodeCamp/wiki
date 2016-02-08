@@ -1,6 +1,6 @@
-#Waypoint: Nesting For Loops
+#Challenge: Nesting For Loops
 
-If you have a multi-dimensional array, you can use the same logic as the prior waypoint to loop through both the array and any sub-arrays. Here is an example:
+If you have a multi-dimensional array, you can use the same logic as the prior Challenge to loop through both the array and any sub-arrays. Here is an example:
 
 ```js
     var arr = [

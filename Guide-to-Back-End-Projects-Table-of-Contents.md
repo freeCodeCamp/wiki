@@ -27,5 +27,5 @@
 <a href="#">highlighted.items/are/hypothetical</a> URLs that allow access to different pages in your app  
 *italicizedItems* are function and object names within your code
 
-[PREVIOUS](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Intro-to-Yeoman-Angular-Fullstack-Basejumps)
+[PREVIOUS](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Intro-to-Yeoman-Angular-Fullstack-Back End Projects)
 [NEXT](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Frontend-file-structure)

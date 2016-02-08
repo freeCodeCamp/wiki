@@ -31,6 +31,6 @@ Uses the operator `typeof` to check if the variable is a boolean.
 If it is, it will return `true`. Otherwise, if it is any other type it will return `false`.
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 for your help with Bonfire: Boo-who`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 for your help with Algorithm: Boo-who`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

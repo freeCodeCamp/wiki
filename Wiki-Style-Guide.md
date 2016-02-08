@@ -10,7 +10,7 @@ You can include images if they help you better communicate your subject.
 
 #### Use descriptive, punctuation-free titles that follow a name convention as `Name of Page`.
 Our wiki articles are [written in GitHub-flavor Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-- [Bonfire Style Guide](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Bonfire-Style-Guide)
+- [Algorithm Style Guide](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Algorithm-Style-Guide)
 
 If you have questions about contributing to the Free Code Camp Wiki message [@rafase282](https://gitter.im/rafase282) in [Gitter](https://github.com/FreeCodeCamp/freecodecamp/wiki/Gitter)
 

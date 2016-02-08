@@ -1,4 +1,4 @@
-#Waypoint: Accessing Nested Objects in JSON
+#Challenge: Accessing Nested Objects in JSON
 
 The properties and sub-properties of JSON objects can be accessed by chaining together the dot or bracket notation.
 

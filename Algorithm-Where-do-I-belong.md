@@ -53,6 +53,6 @@ function where(arr, num) {
 - Then use the numerical sort method to sort the elements of the array. in the end just return the index value of the number that was push earlier using the `Array.indexOf()` method.
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 and @rahul1992 for your help with Bonfire: Where do I belong`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 and @rahul1992 for your help with Algorithm: Where do I belong`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
