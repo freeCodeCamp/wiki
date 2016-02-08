@@ -3,3 +3,5 @@ pages/
 scripts/node_modules
 public/
 node_modules/
+*.db
+*.log
