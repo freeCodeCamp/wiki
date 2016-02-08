@@ -16,7 +16,7 @@
 **Solution ahead!**
 
 ## Code Solution:
-####First solution:
+### First solution:
 
 ```js
 function fearNotLetter(str) {
@@ -56,19 +56,19 @@ function fearNotLetter(str) {
 }
 ```
 
-####Second solution:
+### Second solution:
 
 ```js
 function fearNotLetter(str) {
-  
+
   for(var i = 0; i < str.length; i++) {
     /* code of current character */
     var code = str.charCodeAt(i);
-    
+
     /* if code of current character is not equal to first charcter + no of iteration
     hence character has been escaped*/
     if ( code !== str.charCodeAt(0) + i) {
-    
+
       /* if current character has escaped one character find previous char and return*/
       return String.fromCharCode(code-1);
     }  
@@ -77,24 +77,26 @@ function fearNotLetter(str) {
 }
 ```
 
-####Third solution (Declarative)
+### Third solution (Declarative)
+
 ```js
 // Adding this solution for the sake of avoiding using 'for' and 'while' loops.
 // See the explanation for reference as to why. It's worth the effort.
 
 function fearNotLetter(str) {
   var compare = str.charCodeAt(0), missing;
-  
+
   str.split('').map(function(letter,index){
     if (str.charCodeAt(index) == compare) { ++compare; }
     else { missing = String.fromCharCode(compare); }
   });
-  
+
   return missing;
 }
 ```
 
-####Fourth solution:
+### Fourth solution:
+
 ```js
 function fearNotLetter(str) {
   var strArr = str.split('');
@@ -113,7 +115,8 @@ function fearNotLetter(str) {
 }
 ```
 
-####Fifth solution:
+### Fifth solution:
+
 ```js
 function fearNotLetter(str) {
   var allChars = '';
@@ -123,27 +126,27 @@ function fearNotLetter(str) {
   return allChars.match(notChars) ? allChars.match(notChars).join('') : undefined;
 }
 ```
+
 # Code Explanation:
-####First and second solutions:
+## First and second solutions:
 - Read comments in code.
 
-####Third solution (Declarative):
+## Third solution (Declarative):
 - First we define variables to store the character code for the first letter in the string, and to store whatever missing letters we may find.
 - We turn the string to an array in order to map through it instead of using those nasty `for` and `whiles` (See [this article](http://www.sitepoint.com/quick-tip-stop-writing-loops-start-thinking-with-maps/) for refence as to why. And give it a serious try. Really... you'll thank me for it.
-(If you're not sure how to `map`, you can review [Challenge: Iterate over arrays with map] ](http://www.freecodecamp.com/challenges/Challenge-iterate-over-arrays-with-map) and [MDN's reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)).
+- (If you're not sure how to `map`, you can review [Challenge: Iterate over arrays with map] ](http://www.freecodecamp.com/challenges/iterate-over-arrays-with-map) and [MDN's reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)).
 - As we `map` through our letters' character codes, we go comparing with the one that should be in that position.
 - If the current letter matches, we move the comparison variable to its next position so we can compare on the next cycle.
 - if not, the missing letter will be assigned to the `missing` variable, which will be returned after the map is finished.
 
-####Fourth solution:
+## Fourth solution:
 - Increase loop index only when you have found all the missing letters between current and next letter
 - Every time you find a missing letter push it to `missingchars`
 
-####Fifth solution:
+## Fifth solution:
 - Create a new String that consists all the letters in the range
 - Create a Regular Expression for anything except `str`
 - Use `match()` to strip off the `str` letters from your newly created String
-
 
 # Credits:
 If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @rohitnwn @sabahang @Hallaathrad for your help with Algorithm: Missing Letters`**

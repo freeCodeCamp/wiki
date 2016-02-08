@@ -20,9 +20,9 @@ par and strokes will always be numeric and positive.
 Remember to use [ Read-Search-Ask](http://github.com/FreeCodeCamp/freecodecamp/wiki/How-to-get-help-when-you-get-stuck) if you get stuck. Try to pair program. Write your own code.
 
 ## Useful Links
-- [Challenge: Chaining If Else Statements](http://www.freecodecamp.com/challenges/Challenge-chaining-if-else-statements)
-- [Challenge: Comparison with the Greater Than Equal To Operator](http://www.freecodecamp.com/challenges/Challenge-comparison-with-the-greater-than-equal-to-operator)
-- [Challenge: Comparison with the Less Than Equal To Operator](http://www.freecodecamp.com/challenges/Challenge-comparison-with-the-less-than-equal-to-operator)
+- [Challenge: Chaining If Else Statements](http://www.freecodecamp.com/challenges/chaining-if-else-statements)
+- [Challenge: Comparison with the Greater Than Equal To Operator](http://www.freecodecamp.com/challenges/comparison-with-the-greater-than-equal-to-operator)
+- [Challenge: Comparison with the Less Than Equal To Operator](http://www.freecodecamp.com/challenges/comparison-with-the-less-than-equal-to-operator)
 
 ## Problem Explanation:
 - Change the code below `// Only change code below this line` and above `// Only change code above this line`

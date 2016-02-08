@@ -24,9 +24,9 @@ You will write a card counting function. It will receive a **card** parameter an
 Remember to use [ Read-Search-Ask](http://github.com/FreeCodeCamp/freecodecamp/wiki/How-to-get-help-when-you-get-stuck) if you get stuck. Try to pair program. Write your own code.
 
 ## Useful Links
-- [Challenge: Selecting from many options with Switch Statements](http://www.freecodecamp.com/challenges/Challenge-selecting-from-many-options-with-switch-statements)
-- [Challenge: Chaining If Else Statements](http://www.freecodecamp.com/challenges/Challenge-chaining-if-else-statements)
-- [Challenge: Increment a Number with Javascript](http://www.freecodecamp.com/challenges/Challenge-increment-a-number-with-javascript)
+- [Challenge: Selecting from many options with Switch Statements](http://www.freecodecamp.com/challenges/selecting-from-many-options-with-switch-statements)
+- [Challenge: Chaining If Else Statements](http://www.freecodecamp.com/challenges/chaining-if-else-statements)
+- [Challenge: Increment a Number with Javascript](http://www.freecodecamp.com/challenges/increment-a-number-with-javascript)
 
 ## Problem Explanation:
 - Change the code below `// Only change code below this line` and up to `// Only change code above this line`
@@ -98,8 +98,8 @@ function cc(card) {
 - After the `switch` statement, the `if` statement checks `count`, which is now 0
 - This then drops down to the `else` statement, which will return **0 Hold**
 
-***Note*** 
-As mentioned earlier, the `switch` statement could have also been an `else if` statment
+***Note***
+As mentioned earlier, the `switch` statement could have also been an `else if` statement
 
 # Credits:
 If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @leftynaut for your help with Checkpoint: Counting Cards`**

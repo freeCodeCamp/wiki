@@ -19,10 +19,10 @@ Always return the entire collection object.
 Remember to use [ Read-Search-Ask](http://github.com/FreeCodeCamp/freecodecamp/wiki/How-to-get-help-when-you-get-stuck) if you get stuck. Try to pair program. Write your own code.
 
 ## Useful Links
-- [Challenge: Accessing Objects Properties with Bracket Notation](http://www.freecodecamp.com/challenges/Challenge-accessing-objects-properties-with-bracket-notation)
-- [Challenge: Add New Properties to a JavaScript Object](http://www.freecodecamp.com/challenges/Challenge-add-new-properties-to-a-javascript-object)
-- [Challenge: Delete Properties from a JavaScript Object](http://www.freecodecamp.com/challenges/Challenge-delete-properties-from-a-javascript-object)
-- [Challenge: Accessing Nested Objects in JSON] (http://www.freecodecamp.com/challenges/Challenge-accessing-nested-objects-in-json)
+- [Challenge: Accessing Objects Properties with Bracket Notation](http://www.freecodecamp.com/challenges/accessing-objects-properties-with-bracket-notation)
+- [Challenge: Add New Properties to a JavaScript Object](http://www.freecodecamp.com/challenges/add-new-properties-to-a-javascript-object)
+- [Challenge: Delete Properties from a JavaScript Object](http://www.freecodecamp.com/challenges/delete-properties-from-a-javascript-object)
+- [Challenge: Accessing Nested Objects in JSON] (http://www.freecodecamp.com/challenges/accessing-nested-objects-in-json)
 
 ## Problem Explanation:
 - Change the code below `// Only change code below this line` and up to `// Alter values below to test your code`
