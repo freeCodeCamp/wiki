@@ -6,17 +6,25 @@ The `filter()` method creates a new array with all elements that pass the test i
 arr.filter(callback[, thisArg])
 ```
 
-## parameters
+## filter() Parameters
 
-|          | Parameter                           |
-|----------|-------------------------------------|
-| Required | Arr                                 |
-| Required | callback (function with max 3 args) |
-| Optional | thisArg                             |
+|          | Parameter | Description                                       |
+|----------|-----------|---------------------------------------------------|
+| Required | arr       | Array being filtered                              |
+| Required | callback  | Function with 3 arguments (element, index, array) |
+| Optional | thisArg   | Value of *this* while executing callback          |
 
-**Return:** A new array that contains all the values for which the callback function returns true. If the callback function returns false for all elements of array1, the length of the new array is 0.
+**Return:** A new array that contains all the values for which the callback function returns true. If the callback function returns false for all elements of arr, the length of the new array is 0.
 
 [MDN link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) | [MSDN link](https://msdn.microsoft.com/library/ff679973%28v=vs.94%29.aspx?f=255&MSPPError=-2147217396)
+
+## Callback Parameters
+
+|          | Parameter | Description                                       |
+|----------|-----------|---------------------------------------------------|
+| Optional | element   | current element of array being filtered           |
+| Optional | index     | current index of array being filtered             |
+| Optional | array     | current array being filtered                      |
 
 ## Examples
 ```js
