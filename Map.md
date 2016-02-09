@@ -251,7 +251,7 @@
 12. [Challenge: Join Strings with .join](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Join-Strings-with-.join)
 
 # Basic Algorithm Scripting
-1. [Algorithm: Meet Algorithm](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Algorithm-Meet-Algorithm)
+1. [Algorithm: Get Set for our Algorithm Challenges](http://www.freecodecamp.com/challenges/get-set-for-our-algorithm-challenges)
 2. [Algorithm: Reverse a String](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Algorithm-Reverse-a-String)
 3. [Algorithm: Factorialize a Number](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Algorithm-Factorialize-a-Number)
 4. [Algorithm: Check for Palindromes](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Algorithm-Check-for-Palindromes)
