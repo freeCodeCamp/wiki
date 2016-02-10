@@ -6,7 +6,7 @@ Let’s try an example. If we take a look at one of the Free Code Camp exercices
 
 ![](http://biancamihai.github.io/img/Algorithm-1.png)
 
-So what does Free Code Camp want from us with this problem? Well it wants as to create a function that gets a string as a parameter and returns an integer. This integer should represent the length of the longest word in this string. Usually you can solve a problem on Free Code Camp by just looking at the **More information** text. In this case Free code camp is giving us some very good tips:
+So what does Free Code Camp want from us with this problem? Well it wants us to create a function that gets a string as a parameter and returns an integer. This integer should represent the length of the longest word in this string. Usually you can solve a problem on Free Code Camp by just looking at the **More information** text. In this case Free code camp is giving us some very good tips:
     
     Return the length of the longest word in the provided sentence.
     Your response should be a number.
