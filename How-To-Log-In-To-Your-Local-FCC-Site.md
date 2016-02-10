@@ -46,5 +46,15 @@ The output from running `$ gulp` mentions the **Access Port** is 3001. I have on
 <br><br>
 ![Update .env file](./images/How-To-Log-In-To-Your-Local-FCC-Site/update-env-file.png)
 
+## Tips
+1. Remove / unset with comment block the unwanted provider in [passport-provider](https://github.com/FreeCodeCamp/FreeCodeCamp/blob/staging/server/passport-providers.js).
+
+2. Add SESSION_SECRET and COOKIE_SECRET in `.env` if you get error on express-session and cookieParser.
+```
+COOKIE_SECRET='secret'
+SESSION_SECRET='secret'
+```
+3. Run command `node seed` before run `gulp` if you dont get the challenges.
+
 ## Finished
 Congratulations! You can now successfully log into your local FCC site using your GitHub account.
