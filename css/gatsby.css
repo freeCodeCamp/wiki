@@ -48,7 +48,7 @@ a:hover {
   width:95%;
 }
 .wikiAside {
-  width: 220px;
+  width: 250px;
   border-left: 1px solid lightgrey;
   float:right;
   padding-left:20px;
@@ -62,6 +62,7 @@ a:hover {
   margin-left: 0;
   height:82vh;
   overflow-y: scroll;
+  text-transform: capitalize;
 }
 
 @media (max-width:700px) {
