@@ -187,7 +187,7 @@ node seed/
 gulp
 ```
 
-The gulp command will take a second or too then there will be a IP address that I right click and open in my browser. Now I will navigate to that challenge to verify the changes were what I expected. This is the purple local URL:
+The gulp command will take a second or two then there will be a IP address that I right click and open in my browser. Now I will navigate to that challenge to verify the changes were what I expected. This is the purple local URL:
 
 <a href="https://natacseanc.files.wordpress.com/2015/09/ipadress.png"><img class="alignnone size-full wp-image-137" src="https://natacseanc.files.wordpress.com/2015/09/ipadress.png" alt="ipadress" width="674" height="100" /></a>
 
