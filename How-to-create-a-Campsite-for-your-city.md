@@ -42,7 +42,7 @@ Please follow these steps:
 ![A screen shot showing you the group description box on the Facebook page.](https://www.evernote.com/shard/s116/sh/e13808ea-f084-46f1-95bc-63db524383d5/0586484d44360e73e9acda956dad7f6a/deep/0/Free-Code-Camp-Testland.png)
 
 <br>
-- Click the "Upload a photo button. To start out, you'll probably just want to use Free Code Camp's banner (download it [here](https://s3.amazonaws.com/freecodecamp/wide-social-banner.png)), or a scenic shot of your city. Later you can update this with a picture from one of your city's Free Code Camp events. 
+- Click the "Upload a photo button. To start out, you'll probably just want to use Free Code Camp's banner (download it [here](https://github.com/FreeCodeCamp/wiki/blob/master/images/FCC-FBbanner.png)), or a scenic shot of your city. Later you can update this with a picture from one of your city's Free Code Camp events. 
 
 ![A screenshot showing the "Upload a photo" button.](https://www.evernote.com/shard/s116/sh/fabe226a-5a26-4508-b015-1dac35192a21/37f8119dc57845a31e972217714b038b/deep/0/Free-Code-Camp-Testland.png)
 
