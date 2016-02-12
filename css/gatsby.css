@@ -40,11 +40,17 @@ a:hover {
   margin:40px auto 0;
 }
 .wikiSelector {
-  position:fixed;
-  top:50px;
+    position: fixed;
+    top: 0;
+    left:0;
+    height: 80px;
+    display: block;
+    background: #fff;
+    width: 100%;
+    padding: 50px 40px 10px;
 }
 .wikiSelector select {
-  width:95%;
+  width:90%;
 }
 .wikiAside {
   width: 250px;
