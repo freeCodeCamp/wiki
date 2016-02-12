@@ -68,7 +68,7 @@ arr.slice(2, 2 + 2)
 ```
 
   Now `arr.slice()` starts at the element 2 and stops at element 4 and in the next loop, `arr.slice()` will start at element 4 and stop at element 6. `newArray.push()` will push all the elements out into chunks of smaller arrays with the length of `size`.
-  
+
 ## Spoiler Alert!
 [![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
 
@@ -123,9 +123,9 @@ function chunk(arr, size) {
   // Break it up.
   var newArr = [];
   var i = 0;
-  
+
   while (i < arr.length) {
-    newArray.push(arr.slice(i, i+size));
+    newArr.push(arr.slice(i, i+size));
     i += size;
   }
   return newArr;
@@ -133,8 +133,22 @@ function chunk(arr, size) {
 chunk(["a", "b", "c", "d"], 2);
 ```
 
+#### Solution 4:
+
+```js
+// splice & slice, avoiding size counting
+function chunk(arr, size) {
+  var ar = arr.slice();
+  var res = [];
+  do {
+    res.push(ar.splice(0, size));
+  } while (ar.length > 0);
+  return res;
+}
+```
+
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @kirah1314 @Rafase282 @jsommamtek for your help with Algorithm: Chunky Monkey`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @kirah1314 @Rafase282 @jsommamtek @oshliaer for your help with Algorithm: Chunky Monkey`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
 
