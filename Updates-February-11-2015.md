@@ -44,6 +44,6 @@
 
 ## Coming soon
 - We will launch our Spanish challenges in the next few days.
-- We plan to release optional React, Sass, and D3 challenges this Spring. But don't wait - you can complete the projects with the help of these projects' official documenation - 16 campers have already done just that.
+- We plan to release optional React, Sass, and D3 challenges this Spring. But don't wait - you can complete the projects with the help of these projects' official documentation - 16 campers have already done just that.
 
 ### Happy coding!
