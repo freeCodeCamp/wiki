@@ -1,4 +1,4 @@
-# On February 11, 2015, we made the following improvements to Free Code Camp:
+# On February 11, 2016, we made the following improvements to Free Code Camp:
 
 ## Fixing the bottlenecks that made FreeCodeCamp.com so slow
 - Our open source community is growing rapidly, and this week our site has slowed to a crawl during peak hours.
