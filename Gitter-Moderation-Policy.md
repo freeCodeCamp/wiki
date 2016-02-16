@@ -12,7 +12,7 @@ Hey, I'm sorry but I had to temporarily ban you.
 
 I can consider unbanning you, but I need you to do something first.
 
-1. Read our [Code of Conduct](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Code-of-Conduct).    
+1. Read our [**`Code of Conduct`**](http://www.freecodecamp.com/code-of-conduct).    
 2. Please confirm that you've read it.    
 3. Explain to me why you think I banned you.    
 ```
