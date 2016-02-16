@@ -252,6 +252,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Milton Keynes](https://www.facebook.com/groups/free.code.camp.milton.keynes/)
   - [Newcastle](https://www.facebook.com/groups/free.code.camp.newcastle/)
   - [Norfolk](https://www.facebook.com/groups/free.code.camp.norfolk/)  
+  - [Nottingham](https://www.facebook.com/groups/free.code.camp.nottingham/)
   - [Reading](https://www.facebook.com/groups/free.code.camp.reading/)
   - [Salisbury](https://www.facebook.com/groups/free.code.camp.salisbury/)
   - [Sheffield](https://www.facebook.com/groups/free.code.camp.sheffield/)
@@ -272,6 +273,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
 - Finland   
   - [Helsinki](https://www.facebook.com/groups/free.code.camp.helsinki/)
   - [Jyväskylä](https://www.facebook.com/groups/free.code.camp.jyvaskyla/)
+  - [Kuopio](https://www.facebook.com/groups/free.code.camp.kuopio/)
   - [Lappeenranta](https://www.facebook.com/groups/free.code.camp.lappeenranta/)
   - [Tampere](https://www.facebook.com/groups/Free.Code.Camp.Tampere/)
   - [Turku](https://www.facebook.com/groups/free.code.camp.turku/)    
@@ -302,6 +304,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Halle](https://www.facebook.com/groups/free.code.camp.halle.saale/)
   - [Hamburg](https://www.facebook.com/groups/free.code.camp.hamburg/)
   - [Hamm](https://www.facebook.com/groups/free.code.camp.hamm/)
+  - [Hanover](https://www.facebook.com/groups/free.code.camp.hanover.germany/)
   - [Koblenz](https://www.facebook.com/groups/free.code.camp.koblenz/)
   - [Koeln](https://www.facebook.com/groups/free.code.camp.koeln/)
   - [Leipzig](https://www.facebook.com/groups/free.code.camp.leipzig/)
@@ -945,6 +948,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - Kentucky
     - [Bowling Green](https://www.facebook.com/groups/free.code.camp.BG.kentucky/)
     - [Frankfort](https://www.facebook.com/groups/free.code.camp.frankfort.kentucky/)
+    - [Lexington](https://www.facebook.com/groups/free.code.camp.lexington/)
     - [Louisville](https://www.facebook.com/groups/free.code.camp.louisville/)
     - [Manchester](https://www.facebook.com/groups/free.code.camp.manchester.kentucky/)
   - Louisiana
@@ -969,7 +973,6 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - Massachusetts
     - [Boston](https://www.facebook.com/groups/free.code.camp.boston/)
     - [Cape Cod](https://www.facebook.com/groups/free.code.camp.cape.cod/)
-    - [Lexington](https://www.facebook.com/groups/free.code.camp.lexington/)
     - [Northampton](https://www.facebook.com/groups/free.code.camp.northampton.mass/)
     - [Pepperell](https://www.facebook.com/groups/free.code.camp.pepperell.ma/)
   - Michigan
@@ -1052,6 +1055,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - North Carolina
     - [Asheville](https://www.facebook.com/groups/free.code.camp.asheville/)
     - [Charlotte](https://www.facebook.com/groups/free.code.camp.charlotte.nc/)
+    - [Durham](https://www.facebook.com/groups/free.code.camp.durham/)
     - [Fayetteville](https://www.facebook.com/groups/freecodecampfayettevilleNC/)
     - [Greenville](https://www.facebook.com/groups/free.code.camp.greenville.nc/)
     - [Hickory](https://www.facebook.com/groups/free.code.camp.hickory.nc)
