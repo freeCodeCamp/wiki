@@ -36,6 +36,11 @@ function titleCase(str) {
 }
 ```
 
+### Code Explanation:
+We are modifying the `replaceAt` function using prototype to facilitate the use of the program.
+
+Split the string by whitespaces, and create a variable to track the updated title. Then we use a loop to turn turn the first character of the word to uppercase and the rest to lowercase. by creating concatenated string composed of the whole word in lowercase with the first character replaced by it's uppercase.
+
 Second Solution:
 
 ```js
@@ -69,7 +74,7 @@ function titleCase(str) {
 titleCase("I'm a little tea pot", "");
 ```
 
-Minimal Solution:
+Fourth Solution:
 
 ```js
 function titleCase(str) {
@@ -80,18 +85,28 @@ function titleCase(str) {
 titleCase("I'm a little tea pot", "");
 ```
 
-Minimaler Solution:
+Fifth Solution:
 
 ```js
-function titleCase(s) {return s.toLowerCase().replace(/^[a-z]|\s[a-z]/g, function(m){return m.toUpperCase()})}
+function titleCase(str) {
+  return str.toLowerCase().replace(/( |^)[a-z]/g, (L) => L.toUpperCase());
+}
 ```
 
-# Code Explanation:
-We are modifying the `replaceAt` function using prototype to facilitate the use of the program.
+### Code Explanation:
+**Brief**: The solution works by first lowercasing all the characters in the string and then only uppercasing the first character of each word.
 
-Split the string by whitespaces, and create a variable to track the updated title. Then we use a loop to turn turn the first character of the word to uppercase and the rest to lowercase. by creating concatenated string composed of the whole word in lowercase with the first character replaced by it's uppercase.
+**Detail**:
+
+- Lowercase the whole string using `str.toLowerCase()`. See  [**`String.prototype.toLowerCase`**](http://devdocs.io#q=js+String+toLowerCase)
+- Replace every word's first character to uppercase using `.replace`. See  [**`String.prototype.replace`**](http://devdocs.io#q=js+String+replace)
+- Search for words and a lowercase character at the beginning of each word i.e. matching any lowercase character following a `space` or matching the first character of the whole string, by using the following pattern.
+- Regex explanation: See [**`Regex Pattern`**](http://regex101.com/)
+ - `( |^)` matches a `space` character or beginning of the whole string (`^`).
+ - `[a-z]` matches a single character in the range between a to z (case sensitive i.e. lowercase).
+- The `g` modifier searches for other such word pattern in the whole string and replaces them.
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 @PoojaKumar @Hallaathrad for your help with Algorithm: Title Case a Sentence`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 @PoojaKumar @Hallaathrad @abhisekp for your help with Algorithm: Title Case a Sentence`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
