@@ -115,6 +115,25 @@ function add() {
     }
 }
 ```
+
+## Third Solution:
+```js
+//jshint esversion: 6
+function add() {
+  var args = Array.from(arguments);
+  return args.some(n => typeof n !== 'number') ? 
+    undefined: 
+    args.length > 1 ?
+      args.reduce((acc, n) => acc += n, 0):
+      (n) => typeof n === "number" ? 
+        n + args[0]:
+        undefined;
+}
+```
+- First I iterate through the arguments and check for arguments that are not a number and return undefined
+- If it's not I then check if the arguments length is above 1, if it is I sum the arguments using Array.prototype.reduce
+- Else I return a function that checks if the passed in argument is a number and sum it, if not return undefined
+
 # Credits:
 If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @coded9 for your help with Algorithm: Arguments Optional`**
 
