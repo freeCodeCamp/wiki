@@ -338,6 +338,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Ahmedabad](https://www.facebook.com/groups/free.code.camp.ahmedabad/)
   - [Aligarh](https://www.facebook.com/groups/1622011571406263/)
   - [Allahabad](https://www.facebook.com/groups/free.code.camp.allahabad/)
+  - [Amethi](https://www.facebook.com/groups/code.camp.amethi/)
   - [Anantapur](https://www.facebook.com/groups/free.code.camp.anantapur/)
   - [Arunachalpradesh](https://www.facebook.com/groups/free.code.camp.itanagar.arunachalpradesh/)
   - [Assam](https://web.facebook.com/groups/free.code.camp.assam/)
@@ -412,7 +413,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Ponorogo](https://www.facebook.com/groups/free.code.camp.ponorogo)
   - [Sidoarjo](https://www.facebook.com/groups/free.code.camp.sidoarjo/)
   - [Solo](https://www.facebook.com/groups/free.code.camp.solo/)
-  - [Surabaya](https://www.facebook.com/groups/free.code.camp.surabaya/)
+  - [Surabaya](https://www.facebook.com/groups/free.code.camp.surabaya.new/)
   - [Yogyakarta](https://www.facebook.com/groups/free.code.camp.yogyakarta/)
 - Iran
   - [Isfahan](https://www.facebook.com/groups/free.code.camp.isfahan/)
@@ -488,6 +489,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
 - Maldives
   - [Male](https://www.facebook.com/groups/freecodemv/)
 - Mexico
+  - [Acapulco](https://www.facebook.com/groups/free.code.camp.acapulco/) 
   - [Ciudad Juárez](https://www.facebook.com/groups/free.code.camp.juarezchi/)
   - [Ciudad Obregón](https://www.facebook.com/groups/free.code.camp.cd.obregon/)
   - [Coatzacoalcos](https://www.facebook.com/groups/free.code.camp.coatzacoalcos/)
@@ -545,6 +547,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
 - New Zealand
   - [Auckland](https://www.facebook.com/groups/awesome.code.camp/)
   - [Christchurch](https://www.facebook.com/groups/free.code.camp.christchurch/)
+  - [Masterton](https://www.facebook.com/groups/free.code.camp.masterton/)
   - [Palmerston North](https://www.facebook.com/groups/free.code.camp.palmerston.north/)
   - [Richmond](https://www.facebook.com/groups/free.code.camp.richmond/)
   - [Wellington](https://www.facebook.com/groups/free.code.camp.wellington.nz/)      
