@@ -45,6 +45,23 @@ Second Solution:
 
 ```js
 function titleCase(str) {
+  var convertToArray = str.toLowerCase().split(" ");
+  var result = convertToArray.map(function(val){
+      return val.replace(val.charAt(0), val.charAt(0).toUpperCase());
+  });
+  return result.join(" ");
+}
+
+titleCase("I'm a little tea pot");
+```
+
+### Code Explanation:
+We are making entire string lowercase and then converting it into array. Then we are using map function to replace the lowercase character with uppercase. Finally, we are returning the string using `join` method.
+
+Third Solution:
+
+```js
+function titleCase(str) {
   var newstr=str.toLowerCase().split(" ");
   for(var i=0;i<newstr.length;i++){
   var f=newstr[i].charAt(0);
@@ -60,7 +77,7 @@ function titleCase(str) {
 titleCase("hello world");
 ```
 
-Third Solution:
+Fourth Solution:
 
 ```js
 function titleCase(str) {
@@ -74,18 +91,18 @@ function titleCase(str) {
 titleCase("I'm a little tea pot", "");
 ```
 
-Fourth Solution:
+Fifth Solution:
 
 ```js
 function titleCase(str) {
   return str.replace(/\w\S*/g, function(word){
-    return word.charAt(0).toUpperCase()+word.substr(1).toLowerCase();}); 
+    return word.charAt(0).toUpperCase()+word.substr(1).toLowerCase();});
 }
 
 titleCase("I'm a little tea pot", "");
 ```
 
-Fifth Solution:
+Sixth Solution:
 
 ```js
 function titleCase(str) {
@@ -107,6 +124,6 @@ function titleCase(str) {
 - The `g` modifier searches for other such word pattern in the whole string and replaces them.
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 @PoojaKumar @Hallaathrad @abhisekp for your help with Algorithm: Title Case a Sentence`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 @PoojaKumar @Hallaathrad @abhisekp @ksharifbd for your help with Algorithm: Title Case a Sentence`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
