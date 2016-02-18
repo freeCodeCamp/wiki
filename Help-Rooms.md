@@ -1,6 +1,7 @@
 # Help Rooms
+
 - HTML/CSS/Bootstrap - [**`[FreeCodeCamp/Help]`**](https://gitter.im/FreeCodeCamp/Help)
-- Javascript/Algorimths - [**`[FreeCodeCamp/HelpJavaScript]`**](https://gitter.im/FreeCodeCamp/HelpJavaScript)
+- JavaScript/Algorithms - [**`[FreeCodeCamp/HelpJavaScript]`**](https://gitter.im/FreeCodeCamp/HelpJavaScript)
 - Front End -  [**`[FreeCodeCamp/HelpFrontEnd]`**](https://gitter.im/FreeCodeCamp/HelpFrontEnd)
 - Data Visualization - [**`[FreeCodeCamp/HelpDataViz]`**](https://gitter.im/FreeCodeCamp/HelpDataViz)
 - Back End - [**`[FreeCodeCamp/HelpBackEnd]`**](https://gitter.im/FreeCodeCamp/HelpBackEnd)
