@@ -241,7 +241,8 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Chester](https://www.facebook.com/groups/free.code.camp.chester)
   - [Coventry](https://www.facebook.com/groups/free.code.camp.coventry/)
   - [Derby](https://www.facebook.com/groups/free.code.camp.derby/)
-  - [Exeter](https://www.facebook.com/groups/free.code.camp.exeter.uk/)    
+  - [Exeter](https://www.facebook.com/groups/free.code.camp.exeter.uk/)
+  - [Guildford](https://www.facebook.com/groups/free.code.camp.guildford/)
   - [Hove](https://www.facebook.com/groups/free.code.camp.hove)
   - [Kent](https://www.facebook.com/groups/free.code.camp.kent/)
   - [Kingston upon Hull](https://www.facebook.com/groups/free.code.camp.kingston.upon.hull/)
@@ -990,6 +991,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Lansing](https://www.facebook.com/groups/free.code.camp.lansing/)
     - [Milford](https://www.facebook.com/groups/free.code.camp.milford.michigan/)
     - [Muskegon](https://www.facebook.com/groups/free.code.camp.muskegon/)
+    - [Tri-cities](https://www.facebook.com/groups/free.code.camp.bay.city/)
     - [University Center](https://www.facebook.com/groups/free.code.camp.university.center/)
   - Minnesota
     - [Coattage Grove](https://www.facebook.com/groups/free.code.camp.cottagegrove/)
