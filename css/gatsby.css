@@ -1,4 +1,5 @@
 body,html {
+  overflow:hidden;
 }
 .wiki-container {
   max-width:960px;
@@ -40,17 +41,11 @@ a:hover {
   margin:40px auto 0;
 }
 .wikiSelector {
-    position: fixed;
-    top: 0;
-    left:0;
-    height: 80px;
-    display: block;
-    background: #fff;
-    width: 100%;
-    padding: 50px 40px 10px;
+  position:fixed;
+  top:50px;
 }
 .wikiSelector select {
-  width:90%;
+  width:95%;
 }
 .wikiAside {
   width: 250px;
