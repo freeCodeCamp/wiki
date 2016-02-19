@@ -599,6 +599,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Batangas](https://www.facebook.com/groups/free.code.camp.batangas/) 
   - [Bicol](https://www.facebook.com/groups/free.code.camp.Bicol/)
   - [Cagayan de Oro](https://www.facebook.com/groups/free.code.camp.cagayandeoro.city/)
+  - [Cavite City](https://www.facebook.com/groups/free.code.camp.cavite.city/)
   - [Cebu](https://www.facebook.com/groups/free.code.camp.cebu/)
   - [Davao](https://www.facebook.com/groups/free.code.camp.davao/)
   - [Makati](https://www.facebook.com/groups/free.code.camp.makati/)
@@ -831,6 +832,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Cathedral City](https://www.facebook.com/groups/free.code.camp.cathedral.city/)
     - [Covina](https://www.facebook.com/groups/Free.Code.Camp.Covina/)
     - [Davis](https://www.facebook.com/groups/free.code.camp.davis/)
+    - [Diamon Bar](https://www.facebook.com/groups/Free.Code.Camp.Diamond.Bar/)
     - [Emeryville](https://www.facebook.com/groups/free.code.camp.emeryville/)
     - [Folsom](https://www.facebook.com/groups/free.code.camp.folsom)
     - [Fremont](https://www.facebook.com/groups/free.code.camp.fremont/)
@@ -921,6 +923,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Idaho Falls](https://www.facebook.com/groups/free.code.camp.idaho.falls.idaho/)
     - [Moscow](https://www.facebook.com/groups/free.code.camp.moscow.idaho/)
     - [Pocatello](https://www.facebook.com/groups/free.code.camp.pocatello.idaho/)
+    - [Twin Falls](https://www.facebook.com/groups/free.code.camp.twin.falls/)
   - Illinois
     - [Bloomington-Normal](https://www.facebook.com/groups/free.code.camp.bloomington.normal/)
     - [Centralia](https://www.facebook.com/groups/free.code.camp.centralia/)
@@ -1028,6 +1031,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Las Vegas](https://www.facebook.com/groups/free.code.camp.las.vegas.nv/)
     - [Reno](https://www.facebook.com/groups/free.code.camp.reno/)
   - New Hampshire
+    - [Derry](https://www.facebook.com/groups/free.code.camp.derry.nh/)
     - [Franklin](https://www.facebook.com/groups/freecode.camp.franklin/)
     - [Lebanon](https://www.facebook.com/groups/free.code.camp.lebanon.nh)
     - [Rochester](https://www.facebook.com/groups/free.code.camp.rochester.new.hampshire/)
@@ -1073,6 +1077,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Greensboro](https://www.facebook.com/groups/freecodecampgreensboro/)
   - North Dakota
     - [Bismarck](https://www.facebook.com/groups/free.code.camp.bismarck.north.dakota/)
+    - [Fargo](https://www.facebook.com/groups/free.code.camp.fargo/)
   - Ohio
     - [Athens](https://www.facebook.com/groups/free.code.camp.athens.ohio/)
     - [Cincinnati](https://www.facebook.com/groups/free.code.camp.cincinnati/)
