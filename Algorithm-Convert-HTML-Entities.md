@@ -71,6 +71,28 @@ function convert(str) {
   return str;
 }
 ```
+
+##Another Solution
+```js
+function convert(str) {
+    
+    //map of key:value pairs
+    var dictionary = {
+       "&":"&amp;",
+       "<":"&lt;",
+       ">":"&gt;",
+       "\"":"&quot;",
+       "\'":"&apos;"
+    };
+ 
+    // Allows for a dynamic collection of key:value pairs
+    var regex = new RegExp(Object.keys(dictionary).join("|"), "gi");
+    return str.replace(regex, function(key) {
+        return dictionary[key];
+    });
+}
+```
+
 ##Another Solution
 ```js
 function convert(str) {
