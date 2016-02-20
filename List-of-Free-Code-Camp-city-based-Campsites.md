@@ -98,6 +98,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Joinville](https://www.facebook.com/groups/free.code.camp.joinville/)
   - [Londrina](https://www.facebook.com/groups/free.code.camp.londrina/)
   - [Lucas do Rio Verde](https://www.facebook.com/groups/1683221241966841/)
+  - [Maceió](https://www.facebook.com/groups/free.code.camp.alagoas/)
   - [Mogi das Cruzes](https://www.facebook.com/groups/free.code.camp.mogidascruzes/)
   - [Natal](https://www.facebook.com/groups/free.code.camp.natal)
   - [Olinda](https://www.facebook.com/groups/free.code.camp.olinda/)
@@ -740,8 +741,9 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Jaffna](https://www.facebook.com/groups/free.code.camp.jaffna/)
 - Sweden
   - [Göteborg](https://www.facebook.com/groups/free.code.camp.goteborg/)
-  - [Stockholm](https://www.facebook.com/groups/free.code.camp.stockholm.sweden/)
+  - [Lund](https://www.facebook.com/groups/free.code.camp.lund/)
   - [Malmö](https://www.facebook.com/groups/free.code.camp.malmo/)
+  - [Stockholm](https://www.facebook.com/groups/free.code.camp.stockholm.sweden/)
 - Switzerland
   - [Basel](https://www.facebook.com/groups/free.code.camp.basel/)
   - [Geneva](https://www.facebook.com/groups/free.code.camp.geneva/) 
@@ -1101,6 +1103,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Bethlehem](https://www.facebook.com/groups/216683128680444/)
     - [Bushkill](https://www.facebook.com/groups/Free.Code.Camp.Bushkill.PA/)
     - [Harrisburg](https://www.facebook.com/groups/free.code.camp.harrisburg.pa/)
+    - [Kutztown](https://www.facebook.com/groups/free.code.camp.Kutztown/)
     - [Lehighton](https://www.facebook.com/groups/free.code.camp.lehighton.pa/)
     - [Philadelphia](https://www.facebook.com/groups/free.code.camp.philadelphia/)
     - [Pittsburgh](https://www.facebook.com/groups/free.code.camp.pittsburgh.pa/)
