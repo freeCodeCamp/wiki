@@ -103,6 +103,6 @@ function sym() {
 - [Array.reduce()](http://devdocs.io/javascript/global_objects/array/reduce)
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @guyjoseph @jjmax75 @imranismail for your help with Algorithm: Symmetric Difference`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @guyjoseph @jjmax75 for your help with Algorithm: Symmetric Difference`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
