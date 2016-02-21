@@ -133,6 +133,26 @@ function inventory(arr1, arr2) {
 });
 }
 ```
+
+#### Fourth Solution
+```js
+//jshint esversion: 6
+function inventory(curInv, newInv) {
+  var inv = new Map();
+  
+  [...curInv, ...newInv].forEach(cur => {
+     if(inv.has(cur[1]))
+       inv.set(cur[1], inv.get(cur[1]) + cur[0]);
+     else
+       inv.set(cur[1], cur[0]);
+  });
+  
+  return [...inv]
+    .map(cur => [cur[1], cur[0]])
+    .sort((a, b) => a[1] > b[1] ? 1 : -1);
+}
+```
+
 # Code Explanation:
 #### First solution
 - Start by creating a variable to store the index in.  Define variables outside of loops
@@ -148,12 +168,20 @@ function inventory(arr1, arr2) {
 #### Second and Third solutions
 - Read comments in code.
 
+#### Fourth solution
+- Start by creating the `inv` [map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map) to store the updated inventory
+- Combine both `curInv` and `newInv` and iterate through
+- Check if `inv` has the key, update it's value if `inv` has them. Otherwise store the new value
+- Use ES6 spread operator to convert `inv` map to a 2d array
+- Map through the array to change it's location to be [value, key] as needed by the challenge
+- Sort the array alphabetically
+
 ## Related links
 - [Function.prototype.call](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call)
 - [Array.prototype.sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @guyjoseph @Rafase282 @anuragaryan for your help with Algorithm: Inventory Update`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @guyjoseph @Rafase282 @anuragaryan @imranismail for your help with Algorithm: Inventory Update`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
 
