@@ -133,6 +133,26 @@ function inventory(arr1, arr2) {
 });
 }
 ```
+
+#### Fourth Solution
+```js
+//jshint esversion: 6
+function inventory(curInv, newInv) {
+  var inv = new Map();
+  
+  [...curInv, ...newInv].forEach(item => {
+     if(inv.has(item[1]))
+       inv.set(item[1], inv.get(item[1]) + item[0]);
+     else
+       inv.set(item[1], item[0]);
+  });
+  
+  return [...inv]
+    .map(item => [item[1], item[0]])
+    .sort((a, b) => a[1] > b[1] ? 1 : -1);
+}
+```
+
 # Code Explanation:
 #### First solution
 - Start by creating a variable to store the index in.  Define variables outside of loops
@@ -147,6 +167,14 @@ function inventory(arr1, arr2) {
 
 #### Second and Third solutions
 - Read comments in code.
+
+#### Fourth solution
+- Start by creating the `inv` [map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map) to store the updated inventory
+- Combine both `curInv` and `newInv` and iterate through
+- Check if `inv` has the key, update it's value if `inv` has them. Otherwise store the new value
+- Use ES6 spread operator to convert `inv` map to a 2d array
+- Map through the array to change it's location to be [value, key] as needed by the challenge
+- Sort the array alphabetically
 
 ## Related links
 - [Function.prototype.call](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call)
