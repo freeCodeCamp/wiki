@@ -46,7 +46,7 @@ sym([1, 3], c) = [1, 4, 5]
 
 **Solution ahead!**
 
-## Code Solution:
+## Code Solution 1:
 
 ```js
 function sym() {
@@ -74,8 +74,29 @@ function sym() {
 }
 ```
 
-# Code Explanation:
+# Code Explanation 1:
 - Read comments in code.
+
+# Code Solution 2:
+```js
+//jshint esversion: 6
+function sym() {
+  // difference between set A and set B
+  const diff = (A, B) => new Set([...A].filter(n => !B.has(n)));
+  // spread operator to convert array like object to array
+  const result = [...arguments]
+    // map elements in arguments (array) to Set
+    .map(arr => new Set(arr))
+    // using the formula in https://en.wikipedia.org/wiki/Symmetric_difference
+    // i reduce it by uniting the diff(A, B) and diff(B, A)
+    .reduce((acc, set) => new Set([...diff(acc, set), ...diff(set, acc)])); 
+  
+  // convert the set to array by using spread operator again
+  return [...result];
+}
+```
+# Code Explaination 2:
+- Read comments in code
 
 # Related Links
 - [Symmetric Difference](https://en.wikipedia.org/wiki/Symmetric_difference)
