@@ -231,6 +231,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Al-Mansoura](https://www.facebook.com/groups/free.code.camp.almansoura/)    
   - [Alexandria](https://www.facebook.com/groups/free.code.camp.alex/)
   - [Cairo](https://www.facebook.com/groups/free.code.camp.cairo/)
+  - [Asyut](https://www.facebook.com/groups/free.code.camp.assiut/)
   - [Tanta](https://www.facebook.com/groups/free.code.camp.tanta/)
 - England
   - [Bedford](https://www.facebook.com/groups/free.code.camp.bedford/)
@@ -253,10 +254,12 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Manchester](https://www.facebook.com/groups/free.code.camp.manchester/)
   - [Milton Keynes](https://www.facebook.com/groups/free.code.camp.milton.keynes/)
   - [Newcastle](https://www.facebook.com/groups/free.code.camp.newcastle/)
-  - [Norfolk](https://www.facebook.com/groups/free.code.camp.norfolk/)  
+  - [Norfolk](https://www.facebook.com/groups/free.code.camp.norfolk/)
+  - [Northampton](https://www.facebook.com/groups/free.code.camp.northampton/)
   - [Nottingham](https://www.facebook.com/groups/free.code.camp.nottingham/)
   - [Reading](https://www.facebook.com/groups/free.code.camp.reading/)
   - [Salisbury](https://www.facebook.com/groups/free.code.camp.salisbury/)
+  - [Sharqiyah](https://www.facebook.com/groups/free.code.camp.sharkia/)
   - [Sheffield](https://www.facebook.com/groups/free.code.camp.sheffield/)
   - [Southampton](https://www.facebook.com/groups/FCC.Southampton/)
   - [Stoke-on-Trent](https://www.facebook.com/groups/free.code.camp.stoke.on.trent/)
@@ -300,6 +303,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Braunschweig](https://www.facebook.com/groups/free.code.camp.braunschweig/)
   - [Chemnitz](https://www.facebook.com/groups/free.code.camp.chemnitz/)
   - [Dresden](https://www.facebook.com/groups/766727883464168/)
+  - [Düsseldorf](https://www.facebook.com/groups/free.code.camp.duesseldorf/)
   - [Flensburg](https://www.facebook.com/groups/free.code.camp.flensburg.germany/)
   - [Frankfurt](https://www.facebook.com/groups/free.code.camp.frankfurt.main/)
   - [Göttingen](https://www.facebook.com/groups/free.code.camp.goettingen/)
@@ -366,6 +370,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Hyderabad](https://www.facebook.com/groups/free.code.camp.hyderabad/)
   - [Indore](https://www.facebook.com/groups/free.code.camp.Indore/)
   - [Itanagar](https://www.facebook.com/groups/free.code.camp.itanagar.arunachalpradesh/)    
+  - [Jabalpur](https://www.facebook.com/groups/free.code.camp.your.city.jabalpur/)
   - [Jaipur](https://www.facebook.com/groups/free.code.camp.jaipur/)
   - [Jalgaon](https://www.facebook.com/groups/free.code.camp.jalgaon/)
   - [Jamnagar](https://www.facebook.com/groups/free.code.camp.jamnagar.guj.in/)
@@ -447,6 +452,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
 - Jamaica
   - [Kingston](https://www.facebook.com/groups/free.code.camp.kingston.jamaica/)
 - Japan
+  - [Osaka](https://www.facebook.com/groups/free.code.camp.osaka/)
   - [Sasebo](https://www.facebook.com/groups/free.code.camp.sasebo/)
   - [Tokyo](https://www.facebook.com/groups/free.code.camp.tokyo/)
   - [Tsukuba](https://www.facebook.com/groups/free.code.camp.tsukuba/)
@@ -586,6 +592,8 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Quetta](https://www.facebook.com/groups/free.code.camp.quetta)
   - [Rawalpindi](https://www.facebook.com/groups/free.code.camp.rawalpindi/)
   - [Sahiwal](https://www.facebook.com/groups/1505677729748974/)
+- Palestine
+  - [Gaza](https://www.facebook.com/groups/free.code.camp.gaza/)
 - Panama
   - [Panama City](https://www.facebook.com/groups/free.code.camp.panama.city)
 - Papua New Guinea
@@ -682,6 +690,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
 - Salvador
   - [San Salvador](https://www.facebook.com/groups/free.code.camp.san.salvador/)
 - Saudi Arabia
+  - [Damman](https://www.facebook.com/groups/free.code.camp.dammam/) 
   - [Jeddah](https://www.facebook.com/groups/freecodecamp.jeddah/)
   - [Riyadh](https://www.facebook.com/groups/free.code.camp.Riyadh/)
   - [Women only group](https://www.facebook.com/groups/girlscodeksa/)
@@ -778,6 +787,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Cherkassy](https://www.facebook.com/groups/free.code.camp.cherkassy/)
   - [Chernivtsi](https://www.facebook.com/groups/free.code.camp.chernivtsi.chernivetska.oblast.u/)
   - [Dnipropetrovsk](https://www.facebook.com/groups/free.code.camp.dnipropetrovsk)
+  - [Donetsk](https://www.facebook.com/groups/free.code.camp.donetsk/)
   - [Ivano Frankivsk](https://www.facebook.com/groups/free.code.camp.ivano.frankivsk/)
   - [Kerch](https://www.facebook.com/groups/free.code.camp.kerch/)
   - [Kharkiv](https://www.facebook.com/groups/free.code.camp.kharkiv/)
@@ -880,6 +890,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Colorado Springs](https://www.facebook.com/groups/freecodecampcoloradosprings/)
     - [Denver](https://www.facebook.com/groups/free.code.camp.denver/)
     - [Fort Collins](https://www.facebook.com/groups/free.code.camp.fort.collins/)
+    - [Montrose](https://www.facebook.com/groups/free.code.camp.montrose.co/)
     - [Pueblo](https://www.facebook.com/groups/free.code.camp.pueblo/)
   - Connecticut
     - [Hartford](https://www.facebook.com/groups/free.code.camp.hartford.connecticut/)
@@ -1036,6 +1047,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Derry](https://www.facebook.com/groups/free.code.camp.derry.nh/)
     - [Franklin](https://www.facebook.com/groups/freecode.camp.franklin/)
     - [Lebanon](https://www.facebook.com/groups/free.code.camp.lebanon.nh)
+    - [Manchester](https://www.facebook.com/groups/free.code.camp.manchester.new.hampshire/)
     - [Rochester](https://www.facebook.com/groups/free.code.camp.rochester.new.hampshire/)
   - New Jersey
     - [Atlantic City](https://www.facebook.com/groups/free.code.camp.atlantic.city/) 
