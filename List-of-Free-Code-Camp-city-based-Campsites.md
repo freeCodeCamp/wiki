@@ -120,6 +120,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Bandar Seri Begawan](https://www.facebook.com/groups/free.code.camp.brunei.darussalam/)
 - Bulgaria
   - [Sofia](https://www.facebook.com/groups/free.code.camp.sofia/)
+  - [Varna](https://www.facebook.com/groups/free.code.camp.varna)
 - Cambodia
   - [Phnom Penh](https://www.facebook.com/groups/free.code.camp.phnompenh.cambodia/)
 - Cameroon
@@ -374,6 +375,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Jaipur](https://www.facebook.com/groups/free.code.camp.jaipur/)
   - [Jalgaon](https://www.facebook.com/groups/free.code.camp.jalgaon/)
   - [Jamnagar](https://www.facebook.com/groups/free.code.camp.jamnagar.guj.in/)
+  - [Kerala](https://www.facebook.com/groups/free.code.camp.kerala.india/)
   - [Kochi](https://www.facebook.com/groups/1542888942704307)
   - [Kolkata](https://www.facebook.com/groups/free.code.camp.kolkata/)
   - [Kozhikode](https://www.facebook.com/groups/free.code.camp.kozhikode/)
@@ -463,6 +465,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Kulsary](https://www.facebook.com/groups/free.code.camp.kulsary/)
 - Kenya
   - [Kisumu](https://www.facebook.com/groups/free.code.camp.Kisumu/)
+  - [Mombasa](https://www.facebook.com/groups/free.code.camp.mombasa/)
   - [Nairobi](https://www.facebook.com/groups/free.code.camp.nairobi/)
 - Kosovo
   - [Ferizaj](https://www.facebook.com/groups/free.code.camp.ferizaj/)
@@ -487,6 +490,8 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Skopje](https://www.facebook.com/groups/free.code.camp.skopje/)
   - [Struga](https://www.facebook.com/groups/free.code.camp.struga/)
   - [Strumica](https://www.facebook.com/groups/free.code.camp.strumica/)
+- Madagascar
+  - [Antananarivo](https://www.facebook.com/groups/free.code.camp.antananarivo/)
 - Malaysia
   - [Johor](https://www.facebook.com/groups/free.code.camp.nusajaya.malaysia/)
   - [Kota Kinabalu](https://www.facebook.com/groups/Free.code.camp.KK.Sabah/)
@@ -501,21 +506,23 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Ciudad Juárez](https://www.facebook.com/groups/free.code.camp.juarezchi/)
   - [Ciudad Obregón](https://www.facebook.com/groups/free.code.camp.cd.obregon/)
   - [Coatzacoalcos](https://www.facebook.com/groups/free.code.camp.coatzacoalcos/)
-  - [Culiacan](https://www.facebook.com/groups/free.code.camp.culiacan/)
+  - [Culiacán](https://www.facebook.com/groups/free.code.camp.culiacan/)
   - [Durango](https://www.facebook.com/groups/free.code.camp.durango/)
   - [Guadalajara](https://www.facebook.com/groups/fcc.guadalajara)
   - [Guanajuato](https://www.facebook.com/groups/free.code.camp.guanajuato/)
   - [Hermosillo](https://www.facebook.com/groups/free.code.camp.Hermosillo/)
   - [La Paz](https://www.facebook.com/groups/free.code.camp.lapaz.mx/)
+  - [León](https://www.facebook.com/groups/free.code.camp.leon.gt/)
   - [Mexico City](https://www.facebook.com/groups/free.code.camp.mexico.df/)
   - [Monterrey](https://www.facebook.com/groups/free.code.camp.monterrey/)
+  - [Pachuca](https://www.facebook.com/groups/free.code.camp.pachuca/)
   - [Puebla](https://www.facebook.com/groups/free.code.camp.pueblaMX/)
   - [Puerto Vallarta](https://www.facebook.com/groups/free.code.camp.puerto.vallarta/)
-  - [San Luis Potosi](https://www.facebook.com/groups/free.code.camp.san.luis.potosi/)
+  - [San Luís Potosí](https://www.facebook.com/groups/free.code.camp.san.luis.potosi/)
   - [Santiago de Querétaro](https://www.facebook.com/groups/free.code.camp.santiago.de.queretaro/)
   - [Tapachula](https://www.facebook.com/groups/free.code.camp.tapachula/)
   - [Tijuana](https://www.facebook.com/groups/free.code.camp.tijuana/)
-  - [Tuxtla Gutierrez](https://www.facebook.com/groups/free.code.camp.tuxtla.gutierrez/)    
+  - [Tuxtla Gutiérrez](https://www.facebook.com/groups/free.code.camp.tuxtla.gutierrez/)    
   - [Zacatecas](https://www.facebook.com/groups/free.code.camp.zacatecas/)
 - Moldova
   - [Balti](https://www.facebook.com/groups/free.code.camp.balti/)
@@ -594,6 +601,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Sahiwal](https://www.facebook.com/groups/1505677729748974/)
 - Palestine
   - [Gaza](https://www.facebook.com/groups/free.code.camp.gaza/)
+  - [Ramallah](https://www.facebook.com/groups/free.code.camp.ramallah/)
 - Panama
   - [Panama City](https://www.facebook.com/groups/free.code.camp.panama.city)
 - Papua New Guinea
@@ -761,6 +769,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Ticino](https://www.facebook.com/groups/free.code.camp.ticino/)
   - [Zurich](https://www.facebook.com/groups/free.code.camp.zurich/)
 - Syria
+  - [Damascus](https://www.facebook.com/groups/free.code.camp.your.damascus/)
   - [Homs](https://www.facebook.com/groups/free.code.camp.Homs/)
   - [Latakia](https://www.facebook.com/groups/free.code.camp.latakia/)
 - Taiwan
@@ -893,6 +902,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Montrose](https://www.facebook.com/groups/free.code.camp.montrose.co/)
     - [Pueblo](https://www.facebook.com/groups/free.code.camp.pueblo/)
   - Connecticut
+    - [Bridgeport](https://www.facebook.com/groups/freecodecampbridgeport/)
     - [Hartford](https://www.facebook.com/groups/free.code.camp.hartford.connecticut/)
     - [New Haven](https://www.facebook.com/groups/free.code.camp.new.haven/)
     - [Shelton](https://www.facebook.com/groups/free.code.camp.shelton.ct/)
@@ -1201,6 +1211,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Sheridan](https://www.facebook.com/groups/free.code.camp.sheridan/)
 - Uruguay
   - [Montevideo](https://www.facebook.com/groups/free.code.camp.montevideo/)
+  - [Paysandú](https://www.facebook.com/groups/free.code.camp.paysandu/)
 - Uzbekistan
   - [Tashkent](https://www.facebook.com/groups/free.code.camp.tashkent/)
 - Venezuela
