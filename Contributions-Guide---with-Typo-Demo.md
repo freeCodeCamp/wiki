@@ -15,7 +15,7 @@ cd freecodecamp
 git remote add upstream https://github.com/FreeCodeCamp/FreeCodeCamp
 ```
 
-The first line clones the repo to your local machine; making a directory called `freecodecamp` in the current folder you are in. Then move inside that folder with `cd freecodecamp`. The last line adds the original Free Code Camp repo as a remote upstream. This allows you to pull in the changes that are made to the main project to keep you local copy up to date. This is done by running...
+The first line clones the repo to your local machine, making a directory called `freecodecamp` in the current folder you are in. Then move inside that folder with `cd freecodecamp`. The last line adds the original Free Code Camp repo as a remote upstream. This allows you to pull in the changes that are made to the main project to keep your local copy up to date. This is done by running...
 
 ```bash
 git fetch upstream
@@ -32,7 +32,7 @@ Your local `staging` branch is up to date with the [Free Code Camp repo](https:/
 
 ### Step 2: Follow README.md Instructions for more Setup.
 
-This guide stresses importance of reading the [README.md](https://github.com/FreeCodeCamp/FreeCodeCamp#contributing) on contributing. Please have [ESlinter](http://eslint.org/docs/user-guide/integrations.html) running, as the warning are there to help you.
+This guide stresses the importance of reading the [README.md](https://github.com/FreeCodeCamp/FreeCodeCamp#contributing) on contributing. Please have [ESlinter](http://eslint.org/docs/user-guide/integrations.html) running, as the warnings are there to help you.
 
 ### Prerequisites
 
@@ -165,7 +165,7 @@ If there was a change then merge in like Step 1. Create a branch that explains t
 git checkout -b fix/typo-jquery-challange-test
 ```
 
-Open the `jQuery.json` file; the issue that you is that there is parenthesis in the test output that should not be there. Each test has two parts to the `assert()` method. The first is the test(s), the second part which is separated by a comma is the output description. Please note this picture shows after the change has been made.
+Open the `jQuery.json` file; the issue that you have is that there is parenthesis in the test output that should not be there. Each test has two parts to the `assert()` method. The first is the test(s), the second part which is separated by a comma is the output description. Please note this picture shows after the change has been made.
 
 <a href="https://natacseanc.files.wordpress.com/2015/09/test.png"><img class="alignnone size-full wp-image-131" src="https://natacseanc.files.wordpress.com/2015/09/test.png" alt="test" width="809" height="18" /></a>
 
@@ -193,7 +193,7 @@ The gulp command will take a second or two then there will be a IP address that 
 
 ### Step 7: Creating Pull Request
 
-After making changes and verification of you work run:
+After making changes and verification of your work run:
 
 ```bash
 # check status for piece of mind to see unstaged changes
@@ -228,7 +228,7 @@ git push -u origin fix/typo-jquery-test
 # where the part after origin is what ever you called the local branch
 ```
 
-Now the changes are on both you local machine and you GitHub account. Opening up a browser you can navigate to the forked copy on your GitHub account. There will be a green button just above the listing of files on the right that read Compare & Pull Request.
+Now the changes are on both your local machine and your GitHub account. Opening up a browser, you can navigate to the forked copy on your GitHub account. There will be a green button just above the listing of files on the right that read Compare & Pull Request.
 
 <img class="alignnone size-full wp-image-139" src="https://natacseanc.files.wordpress.com/2015/09/compare.png" alt="compare" width="500" height="203" />
 
@@ -253,7 +253,7 @@ git stash
 # merge upstream into the working branch
 git merge upstream/staging
 
-# reapply you changes
+# reapply your changes
 git stash apply
 ```
 
