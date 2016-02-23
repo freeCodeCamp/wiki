@@ -70,7 +70,13 @@ function sym() {
   };
 
   // Reduce all arguments getting the difference of them
-  return args.reduce(getDiff, []);
+  var symarray = args.reduce(getDiff, []);
+
+  // Run filter function to get the unique values
+  var unique = symarray.filter(function(elem, index, self) {
+    return index == self.indexOf(elem);
+    });
+  return unique;
 }
 ```
 
