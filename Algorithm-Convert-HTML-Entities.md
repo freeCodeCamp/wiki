@@ -74,6 +74,21 @@ function convert(str) {
 ##Another Solution
 ```js
 function convert(str) {
+  entCharsLookup={
+    '&':'&amp;',
+    '<':'&lt;',
+    '>':'&gt;',
+    '\"':'&quot;',
+    '\'':'&apos;'
+  };
+  return str.split('').map(function(char){
+    return entCharsLookup[char] || char;
+  }).join('');
+}
+```
+##Another Solution
+```js
+function convert(str) {
 //Chaining of replace method with different arguments
   str = str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&apos;');
 return str;
