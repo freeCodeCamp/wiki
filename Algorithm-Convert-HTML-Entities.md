@@ -52,52 +52,34 @@ function convert(str) {
 }
 ```
 
-##Another Solution
-```js
-function convert(str) {
-    
-    //map of key:value pairs
-    var html = {
-       "&":"&amp;",
-       "<":"&lt;",
-       ">":"&gt;",
-       "\"":"&quot;",
-       "\'":"&apos;"
-    };
-        str = str.replace(/&|<|>|"|'/gi, function(matched){
-        return html[matched];
-        });
+## Solution
 
-  return str;
-}
-```
-##Another Solution
 ```js
 function convert(str) {
-  entCharsLookup={
+  // Use Object Lookup to declare as many HTML entities as needed.
+  htmlEntities={
     '&':'&amp;',
     '<':'&lt;',
     '>':'&gt;',
     '\"':'&quot;',
     '\'':'&apos;'
   };
-  return str.split('').map(function(char){
-    return entCharsLookup[char] || char;
+  //Use map function to return a filtered str with all entities changed automatically.
+  return str.split('').map(function(entity){
+    return htmlEntities[entity] || entity;
   }).join('');
 }
 ```
-##Another Solution
-```js
-function convert(str) {
-//Chaining of replace method with different arguments
-  str = str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&apos;');
-return str;
-}
-```
+
 # Code Explanation:
-- Read comments in code.
+- Create a object to use the Lookup functionality to easily find the characters.
+- Split the original string by characters and use map to check for the changed html entity or use the same one. Alternatively you could use Regex `str.replace(/&|<|>|"|'/gi`.
+- The a function is added which is what returns the converted entity or the original one if there is no conversion. If you go the regex route then you just have to return the matched hits. `return html[entity];`
+- Lastly we join all the characters once again.
+
+**Note** that if you went the regex route then you don't need to join anything, just make sure you return the whole operation or save it to a variable and then return it.
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @jhalls for your help with Algorithm: Convert HTML Entities`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @jodekirk for your help with Algorithm: Convert HTML Entities`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
