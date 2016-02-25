@@ -17,7 +17,7 @@
 
 **Solution ahead!**
 
-## Code Solution:
+## Basic Solution:
 
 ```js
 function convert(str) {
@@ -52,7 +52,17 @@ function convert(str) {
 }
 ```
 
-## Solution
+## Medium Solution
+
+```js
+function convert(str) {
+//Chaining of replace method with different arguments
+  str = str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&apos;');
+return str;
+}
+```
+
+## Advance Solution
 
 ```js
 function convert(str) {
@@ -71,7 +81,7 @@ function convert(str) {
 }
 ```
 
-# Code Explanation:
+# Code Explanation (Advance Solution):
 - Create a object to use the Lookup functionality to easily find the characters.
 - Split the original string by characters and use map to check for the changed html entity or use the same one. Alternatively you could use Regex `str.replace(/&|<|>|"|'/gi`.
 - The a function is added which is what returns the converted entity or the original one if there is no conversion. If you go the regex route then you just have to return the matched hits. `return html[entity];`
