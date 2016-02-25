@@ -322,6 +322,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Munich](https://www.facebook.com/groups/free.code.camp.munich/)
   - [Stuttgart](https://www.facebook.com/groups/free.code.camp.stuttgart/)
   - [Wuerzburg](https://www.facebook.com/groups/free.code.camp.wuerzburg/)
+  - [Wuppertal](https://www.facebook.com/groups/free.code.camp.wuppertal/)
 - Ghana
   - [Accra](https://www.facebook.com/groups/free.code.camp.accra/)
 - Greece
@@ -379,6 +380,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Jalgaon](https://www.facebook.com/groups/free.code.camp.jalgaon/)
   - [Jamnagar](https://www.facebook.com/groups/free.code.camp.jamnagar.guj.in/)
   - [Kerala](https://www.facebook.com/groups/free.code.camp.kerala.india/)
+  - [Koch Bihar](https://www.facebook.com/groups/Free.Code.Camp.KochBihar/)
   - [Kochi](https://www.facebook.com/groups/1542888942704307)
   - [Kolkata](https://www.facebook.com/groups/free.code.camp.kolkata/)
   - [Kozhikode](https://www.facebook.com/groups/free.code.camp.kozhikode/)
@@ -429,6 +431,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Yogyakarta](https://www.facebook.com/groups/free.code.camp.yogyakarta/)
 - Iran
   - [Isfahan](https://www.facebook.com/groups/free.code.camp.isfahan/)
+  - [Tabriz](https://www.facebook.com/groups/free.code.camp.tabriz/)
   - [Tehran](https://www.facebook.com/groups/free.code.camp.tehran/)
   - [Masshad](https://www.facebook.com/groups/free.code.camp.mashhad/)
 - Iraq
@@ -440,6 +443,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
 - Israel
   - [Haifa](https://www.facebook.com/groups/free.code.camp.Haifa/)
   - [Jerusalem](https://www.facebook.com/groups/free.code.camp.jerusalem/)
+  - [Pnei Kedem](https://www.facebook.com/groups/free.code.camp.pneikedem/)
   - [Tel Aviv](https://www.facebook.com/groups/free.code.camp.Tel.Aviv/)
 - Italy
   - [Cagliari](https://www.facebook.com/groups/free.code.camp.cagliari/)
@@ -464,6 +468,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
 - Jordan
   - [Amman](https://www.facebook.com/groups/free.code.camp.amman/)
 - Kazakhstan
+  - [Almaty](https://www.facebook.com/groups/free.code.camp.Almaty/)
   - [Astana](https://www.facebook.com/groups/free.code.camp.astana/)
   - [Kulsary](https://www.facebook.com/groups/free.code.camp.kulsary/)
 - Kenya
