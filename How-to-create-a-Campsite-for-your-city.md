@@ -1,7 +1,11 @@
-If you didn't see your city on [our list of Campsites](https://github.com/FreeCodeCamp/freecodecamp/wiki/List-of-Free-Code-Camp-city-based-Campsites), you should create your own Facebook group for your city.
+If you didn't see your city on [our list of Campsites](https://github.com/FreeCodeCamp/freecodecamp/wiki/List-of-Free-Code-Camp-city-based-Campsites), you should create your own Facebook group for your city.<br>
+We like keeping things as local as possible, so please create groups only for cities, or even smaller areas. 
+
+Please, do not create campsites for a whole State/province/department/county/etc. as they will not be added to the list.
 
 <br> 
-Please follow these steps: 
+Now, to the fun part!
+It's easy, just follow these steps: 
 - Sign in to Facebook. 
 - Click the down arrow in the upper right corner of the screen, then choose "Create Group" from the options.
 
@@ -32,12 +36,13 @@ Please follow these steps:
 
 <br>
 - Click the "Customize Address" button.
-- Enter "free.code.camp.your.city.name" with each word separated by periods. 
+- Enter "free.code.camp.your.city" with each word separated by periods. 
+<br><br>**(Not "your.city"! this is just an example)**
 
 ![a screenshot telling you to enter free.code.camp.your.city.name with each word seperated by periods.](https://www.evernote.com/shard/s116/sh/357b1bd9-7c40-4f72-8a9a-d918e632a5e8/c4714ca59360b2517dfffe90c60b1556/deep/0/Free-Code-Camp-Testland.png)
 
 <br>
-- Please feel free to personalize your city's group description, but be sure to include a link to Free Code Camp: "http://www.freecodecamp.com".  It makes it much easier for possible new members to find you if you mention the country your city is in (or its state/province if in North America).<br>**Note: in this image, we use Testland as an example.**
+- Please feel free to personalize your city's group description, but be sure to include a link to Free Code Camp: "http://www.freecodecamp.com".  It makes it much easier for possible new members to find you if you mention the country your city is in (or its state/province if in North America).<br><br>**Note: in this image, we also use "Testland" as an example, but you should use the name of your city instead.**
 
 ![A screen shot showing you the group description box on the Facebook page.](https://www.evernote.com/shard/s116/sh/e13808ea-f084-46f1-95bc-63db524383d5/0586484d44360e73e9acda956dad7f6a/deep/0/Free-Code-Camp-Testland.png)
 
