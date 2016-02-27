@@ -74,29 +74,25 @@ This is the option to choose if you want to directly create your files and submi
 _Figure 3a_ ![Creating File](http://i.imgur.com/ZpREhd5.png)
 
 As you can see from _Figure 3a_ there are similar options when it comes to creating a new file for a pull request online. This is the way to directly contribute from the web, even from your smart phone!
-1. **File Name**: This will be the file name with extension include to create it. it is required. Please do not use weird character or white space, use `-` if you need space and Keep the first letter capitalize for better styling.
 
+1. **File Name**: This will be the file name with extension include to create it. it is required. Please do not use weird character or white space, use `-` if you need space and Keep the first letter capitalize for better styling.
 2. **File Content:** This is the area where you write the content of your file.
 3. **Preview Tab:** This allows you to preview your file.
-
 4. **Title:** This is where you must write a title for your pull request to let everyone know what the commit is about. The title should be descriptive but not too long .
-
 5. **Extra Details:** Here you can add more details if needed.
-
 6. This option is for committing directly instead of using a pull request. This will be grayed out for regular users, only admins can write directly to the repository.
-
 7. This is the way to go, it will let you create a new branch to create the pull request from. It will also give you the option to write a branch name, use a self descriptive one.
-
 8. Send the proposed pull request. The rest is like _Figure 1b_ and onwards with confirmations and such.
 
 ### Editing Existing Files
-Besides creating new files, you might also need to edit existing ones for which you will need to locate the file on the repository. Clicking it will give the following view: _Figure 4a_ ![Edit File](http://i.imgur.com/equ8XG7.png)
-- Clicking the pencil will allow you to edit the file as a pull request.
+Besides creating new files, you might also need to edit existing ones for which you will need to locate the file on the repository. Clicking it will give the following view:
+ _Figure 4a_ ![Edit File](http://i.imgur.com/equ8XG7.png)
+1. Clicking the pencil will allow you to edit the file as a pull request.
   - The following is the view that a regular user would get as they do not have write access. Please note the message in blue. Everything else is pretty much standard now, if not see _Figure 1b_ and onwards. However, this is the most accurate view as it is from a non admin account.
     - _Figure 4b_ ![Edit PR](http://i.imgur.com/tTF7oY2.png)
 
-- Clicking the trash bin will create a pull request to delete the file.
-  - Deletign the file is very similar, just add the details for the pull request information.
+2. Clicking the trash bin will create a pull request to delete the file.
+  - Deleting the file is very similar, just add the details for the pull request information.
     - _Figure 4c_ ![Delete PR](http://i.imgur.com/WQCCsre.png)
 
 If you have any further questions feel free to come over the Gitter chat and ask for help, see the [list](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Official-Free-Code-Camp-Chat-Rooms) or if you need help with the wiki the visit the [room.](https://gitter.im/FreeCodeCamp/Wiki)
