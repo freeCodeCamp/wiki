@@ -46,7 +46,7 @@ Alright, let's get started. We will create a new folder to house our example fil
 
 In the folder, we will create a file called ```style.scss``` and an HTML file to style called ```index.html```:
 
-<img src="./images/Integrate-Sass-in-your-Projects/sass_01.png" alt="Create folder and Sass and HTML file">
+<img src="./images/Up_and_Running_with_Sass/sass_01.png" alt="Create folder and Sass and HTML file">
 
 *The ```tree``` command in the image above is from an npm package you can install and is not native to the command line. The ```ls``` command essentially does the same.*
 
@@ -95,7 +95,7 @@ Once that code has been typed and saved into the ```style.scss``` file, the watc
 
 Below we can see the files listed in the project folder.
 
-<img src="./images/Integrate-Sass-in-your-Projects/sass_01.png" alt="Create folder and Sass and HTML file">
+<img src="./images/Up_and_Running_with_Sass/sass_01.png" alt="Create folder and Sass and HTML file">
 
 And now if we open up ```index.html``` in a web browser, we can see our HTML page styled using CSS which was compiled from the sample Sass code. Similarly, we can open up the ```style.css``` file to see how Sass output the original Sass code. Compact, isn't it?
 
