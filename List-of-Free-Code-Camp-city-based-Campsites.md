@@ -192,6 +192,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Nanjing](https://www.facebook.com/groups/free.code.camp.nanjing/)
   - [Shanghai](https://www.facebook.com/groups/963661723712718/)
   - [Shenzhen](https://www.facebook.com/groups/free.code.camp.shenzhen/)
+  - [Shijiazhuang](https://www.facebook.com/groups/free.code.camp.shijiazhuang/)
   - [Suzhou](https://www.facebook.com/groups/free.code.camp.suzhou/)
   - [Tianjin](https://www.facebook.com/groups/free.code.camp.Tianjin/)
   - [Wuhan](https://www.facebook.com/groups/free.code.camp.wuhan/)
@@ -540,6 +541,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [León](https://www.facebook.com/groups/free.code.camp.leon.gt/)
   - [Mexico City](https://www.facebook.com/groups/free.code.camp.mexico.df/)
   - [Monterrey](https://www.facebook.com/groups/free.code.camp.monterrey/)
+  - [Morelos](https://www.facebook.com/groups/free.code.camp.morelos.mx/)
   - [Pachuca](https://www.facebook.com/groups/free.code.camp.pachuca/)
   - [Puebla](https://www.facebook.com/groups/free.code.camp.pueblaMX/)
   - [Puerto Vallarta](https://www.facebook.com/groups/free.code.camp.puerto.vallarta/)
@@ -807,6 +809,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Latakia](https://www.facebook.com/groups/free.code.camp.latakia/)
 - Taiwan
   - [Kaohsiung](https://www.facebook.com/groups/free.code.camp.kaohsiung/)
+  - [Taichung](https://www.facebook.com/groups/free.code.camp.taichung.city/)
   - [Taipei](https://www.facebook.com/groups/free.code.camp.taipei/)
 - Tanzania
   - [Arusha](https://www.facebook.com/groups/Free.Code.Camp.Arusha.Moshi/)
@@ -1140,6 +1143,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - North Dakota
     - [Bismarck](https://www.facebook.com/groups/free.code.camp.bismarck.north.dakota/)
     - [Fargo](https://www.facebook.com/groups/free.code.camp.fargo/)
+    - [Grand Forks](https://www.facebook.com/groups/free.code.camp.grand.forks/)
   - Ohio
     - [Akron](https://www.facebook.com/groups/free.code.camp.akron)
     - [Athens](https://www.facebook.com/groups/free.code.camp.athens.ohio/)
