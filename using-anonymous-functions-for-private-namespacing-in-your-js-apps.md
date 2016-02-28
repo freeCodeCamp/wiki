@@ -75,7 +75,3 @@ document.querySelector('body').style.background = 'blue';
 ```
 
 By wrapping any code that shouldn't be modified within an anonymous function, you can better prevent cheating in JS gaming but more importantly, you can stop errors from occurring within your code and save everyone from massive headaches!
-
-Thanks for reading!
-
--Marcus Parsons
