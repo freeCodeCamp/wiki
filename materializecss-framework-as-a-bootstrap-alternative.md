@@ -1,4 +1,4 @@
-# MaterializeCSS framework as a bootstrap framework.
+# MaterializeCSS framework as a an alternative to Bootstrap
 [MaterializeCSS](http://materializecss.com/) is a modern responsive front-end framework based on google's [Material Design principles](https://www.google.com/design/spec/material-design/introduction.html).
 ## What is Material Design?
 Material Design (codenamed Quantum Paper) is a design language developed by Google. Expanding upon the "card" motifs that debuted in Google Now, Material Design makes more liberal use of grid-based layouts, responsive animations and transitions, padding, and depth effects such as lighting and shadows.[wikipedia]
@@ -47,6 +47,8 @@ Other than this simplicity, here are more reasons why I love materializeCSS:
 - A community is also growing around it
 - [Someone](http://fezvrasta.github.io/bootstrap-material-design/) is looking to produce a blend of Bootstrap + Materialize. Sweeet!
 
+
 ### Anything else?
-Well, that's all I know, I am a simple man!
+Try it out and maybe you will love it. In fact since thats where even android UI is already headed, this might a good way to get yourself better at Material design for mobile-focused web-apps like [progressive web apps](https://developers.google.com/web/fundamentals/getting-started/your-first-progressive-web-app/#what-will-you-learn)
+
 
