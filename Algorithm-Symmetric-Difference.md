@@ -74,14 +74,19 @@ function sym() {
 
   // Run filter function to get the unique values
   var unique = symarray.filter(function(elem, index, self) {
-    return index == self.indexOf(elem);
+    return index === self.indexOf(elem);
     });
   return unique;
 }
 ```
 
 # Code Explanation 1:
-- Read comments in code.
+- 1. The reason you want to break down the arguments object to a array is if you want to use functional methods like reduce and
+- filter, the data needs to be in array form.
+- 2. getDiff is first checking arr2 if it doesn't have any element(item) in arr1. (A unique number) with filterFunction.
+- next getDiff will check the inverse of the first check for uniqueness and concatinate it to the array.
+- 3. symarray uses getDiff.  It's used as the callback function here and starts the reduce function with an empty array.  Why do this? The reduce function is calling our filter function everytime (and runs the cross check needed from filterFunction). The function will essentially return an array with all symmetric differences (but with double values at this point).
+- 4. unique uses the filter method and creates a new array from the reduced and filtered array of symarray and getDiff.  This filter checks if the index the filter is currently at its equal to the index of the element in the orginal array.  The reason this is done is to filter out double values in the symmetric difference symarray.  You can only have one index per unique number which is why it'll return false for any double value.
 
 # Code Solution 2:
 ```js
@@ -109,6 +114,6 @@ function sym() {
 - [Array.reduce()](http://devdocs.io/javascript/global_objects/array/reduce)
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @guyjoseph @jjmax75 for your help with Algorithm: Symmetric Difference`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @guyjoseph @jjmax75 @benschac for your help with Algorithm: Symmetric Difference`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
