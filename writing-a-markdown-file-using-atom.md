@@ -23,11 +23,11 @@ Markdown files are easy to write, and you can find a markdown cheatsheet [here](
 
 You can compose a README.md file on GitHub itself:
 
-![screen shot 2016-02-29 at 18 06 24](https://cloud.githubusercontent.com/assets/10364894/13405946/e4d62a7c-df18-11e5-9056-1f213b2d0b9f.png)
+![screen shot 2016-02-29 at 18 07 19](https://cloud.githubusercontent.com/assets/10364894/13405950/e68b0a7c-df18-11e5-876f-9de0b5305bb3.png)
 
 This gives you the capability to switch between 'Edit new file' and 'Preview' views:
 
-![screen shot 2016-02-29 at 18 07 19](https://cloud.githubusercontent.com/assets/10364894/13405950/e68b0a7c-df18-11e5-876f-9de0b5305bb3.png)
+![screen shot 2016-02-29 at 18 06 24](https://cloud.githubusercontent.com/assets/10364894/13405946/e4d62a7c-df18-11e5-9056-1f213b2d0b9f.png)
 
 This is ideal if your readme file is small, and you don't mind switching between the two views.
 
