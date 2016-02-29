@@ -41,7 +41,7 @@ We are modifying the `replaceAt` function using prototype to facilitate the use 
 
 Split the string by whitespaces, and create a variable to track the updated title. Then we use a loop to turn turn the first character of the word to uppercase and the rest to lowercase. by creating concatenated string composed of the whole word in lowercase with the first character replaced by it's uppercase.
 
-Second Solution:
+## Second Solution:
 
 ```js
 function titleCase(str) {
@@ -58,7 +58,7 @@ titleCase("I'm a little tea pot");
 ### Code Explanation:
 We are making entire string lowercase and then converting it into array. Then we are using map function to replace the lowercase character with uppercase. Finally, we are returning the string using `join` method.
 
-Third Solution:
+## Third Solution:
 
 ```js
 function titleCase(str) {
@@ -77,7 +77,7 @@ function titleCase(str) {
 titleCase("hello world");
 ```
 
-Fourth Solution:
+## Fourth Solution:
 
 ```js
 function titleCase(str) {
@@ -91,7 +91,7 @@ function titleCase(str) {
 titleCase("I'm a little tea pot", "");
 ```
 
-Fifth Solution:
+## Fifth Solution:
 
 ```js
 function titleCase(str) {
@@ -102,7 +102,7 @@ function titleCase(str) {
 titleCase("I'm a little tea pot", "");
 ```
 
-Sixth Solution:
+## Sixth Solution:
 
 ```js
 function titleCase(str) {
@@ -123,7 +123,8 @@ function titleCase(str) {
  - `[a-z]` matches a single character in the range between a to z (case sensitive i.e. lowercase).
 - The `g` modifier searches for other such word pattern in the whole string and replaces them.
 
-# Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 @PoojaKumar @Hallaathrad @abhisekp @ksharifbd for your help with Algorithm: Title Case a Sentence`**
+### Credits:
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:
+**`Thanks @Rafase282 @PoojaKumar @Hallaathrad @abhisekp @ksharifbd for your help with Algorithm: Title Case a Sentence`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
