@@ -131,5 +131,3 @@ gulp.task('watch', function() {
 
 gulp.task('default', ['build']);
 ```
-
-by [Thomas Vaeth](http://thomasvaeth.com)
