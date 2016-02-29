@@ -20,7 +20,7 @@ If you want to contribute but have no idea what you would like to contribute the
 
 We welcome **any technology relate articles**, not just JavaScript related or Curriculum specific. However, we do ask that you write them in third person instead of first person perspective. We also welcome articles in **other languages**, and welcome **translations** of current articles.
 
-If merged your name will be automatically added to the list of contributors to the repository and your name will be on the document history at github so we ask that you refrain from signing them with your name or any self promotion, the document itself as it will be part of FreeCodeCamp.
+If we merge your pull request, your name will be automatically added to the document history on GitHub, and the repo's contributors. Please don't add additional bylines when creating or editing an article.
 
 ### Guides on how to Contribute
 - [How To Contribute From Your Browser](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Guide-Online-Contribution) This is currently the easiest way we have to contribute. A simplified version can be found on [here](https://medium.freecodecamp.com/how-to-land-your-first-open-source-contribution-from-your-browser-in-15-minutes-756d9bbf81ad) also.
