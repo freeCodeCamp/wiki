@@ -23,11 +23,11 @@ Markdown files are easy to write, and you can find a markdown cheatsheet [here](
 
 You can compose a README.md file on GitHub itself:
 
-[IMAGE]
+![screen shot 2016-02-29 at 18 06 24](https://cloud.githubusercontent.com/assets/10364894/13405946/e4d62a7c-df18-11e5-9056-1f213b2d0b9f.png)
 
 This gives you the capability to switch between 'Edit new file' and 'Preview' views:
 
-[IMAGE]
+![screen shot 2016-02-29 at 18 07 19](https://cloud.githubusercontent.com/assets/10364894/13405950/e68b0a7c-df18-11e5-876f-9de0b5305bb3.png)
 
 This is ideal if your readme file is small, and you don't mind switching between the two views.
 
@@ -48,15 +48,15 @@ Atom, like other text editors, makes use of packages, which are pieces of code t
 
 3. **To see your live preview, right click your `.md` file from the explorer on the left, and then select the top option, 'Markdown Preview':**
 
-  [IMAGE]
+  ![screen shot 2016-02-29 at 18 17 30](https://cloud.githubusercontent.com/assets/10364894/13405953/e852809c-df18-11e5-8db2-d12e630cc2a7.png)
 
   Cool! You should now see two panes in Atom. On the left is your text, and on the right is your 'compiled' markdown, ie what it might look like on GitHub:
 
-  [IMAGE]
+  ![screen shot 2016-02-29 at 18 21 38](https://cloud.githubusercontent.com/assets/10364894/13405958/eaf4bc0c-df18-11e5-9727-33e21df55838.png)
 
   Notice that Atom also recognises what you are working with to be a specific format, ie 'GitHub Markdown':
 
-  [IMAGE]
+  ![screen shot 2016-02-29 at 19 15 43](https://cloud.githubusercontent.com/assets/10364894/13405964/ed9c2422-df18-11e5-8118-0358e9cdbeaa.png)
 
 4. **When your markdown file is ready to commit to your GitHub repository, you can go ahead and commit it!**
 
