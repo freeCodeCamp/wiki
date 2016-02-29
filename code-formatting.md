@@ -1,13 +1,13 @@
-### Inline code
-This an inline **\`**`<paste code here>`**\`** code formatting with a single backtick(\`) at *start* and *end* around the `code`.
-
-### Code Block
+### Multi line Code
 **\`\`\`js** ⇦ Type 3 backticks and then press `[shift + enter ⏎]` (type js or html or css)
 ```text
 <paste your code here>,
 then press [shift + enter ⏎]
 ```
 **\`\`\`** ⇦ Type 3 backticks, then press `[enter ⏎]`
+
+### Single line Code
+This an inline **\`**`<paste code here>`**\`** code formatting with a single backtick(\`) at *start* and *end* around the `code`.
 
 See also: ☛ [**How to type Backticks**](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/code-formatting#typing-backticks) | ☯ [Compose Mode](https://gitter.zendesk.com/hc/en-us/articles/201302311-Compose-mode) | ❄ [Gitter Formatting Basics](https://gitter.zendesk.com/hc/en-us/articles/200176682-Markdown-basics)
 
