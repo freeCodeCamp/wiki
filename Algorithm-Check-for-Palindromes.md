@@ -77,11 +77,11 @@ function palindrome(str) {
 function palindrome(str) {
   str = str.toLowerCase();
   str = str.replace(/\s+/g, '');
-  str = str.replace(/([-_.,*+?^=!:${}()|\[\]\/\\])/g,'');
+  str = str.replace(/([-_.,()|\[\]\/\\])/g,'');
   
-  myArray = [];
+  var myArray = [];
   myArray = str.split("");
-  newArray = myArray.slice();
+  var newArray = myArray.slice();
   newArray.reverse();
   for(var i = 0; i<myArray.length; i++){
     if(myArray[i] !== newArray[i]){
