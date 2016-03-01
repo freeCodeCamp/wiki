@@ -3,13 +3,13 @@ Make sure your contribution addresses the points mentioned below:
 
 **Filenames:**
 - Your filename should NOT contain any special characters or spaces.
-- Use only "-" to separate words in the filename.
-- Filenames should have the ".md" extension.
+- Use only `-` to separate words in the filename.
+- Filenames should have the `.md` extension.
 - Filenames should follow a Camel-Case format such as : `Title-For-The-Article.md`
 
 **Formatting:**
-- Ensure that you use markdown syntax for articles.
-- Checkout the guides for reference:
+
+Ensure that you use markdown syntax for articles, we do not accept `HTML` or `CSS` or anything else other than markdown. **Please Checkout these guides for reference:**
 - [Master Markdown](https://guides.github.com/features/mastering-markdown/)
 - [Working with Advanced Formatting](https://help.github.com/articles/working-with-advanced-formatting/)
 
