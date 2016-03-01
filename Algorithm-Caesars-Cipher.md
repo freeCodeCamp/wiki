@@ -29,7 +29,7 @@ function rot13(str) {
     var nstr="";
     for(var i=0; i<str.length; i++){
         //Checks if character lies between A-Z
-        if(str.charCodeAt(i) < 65 || str.charCodeAt(i) > 91) {
+        if(str.charCodeAt(i) < 65 || str.charCodeAt(i) > 90) {
             nstr += String.fromCharCode(str.charCodeAt(i));
             continue;
         }
@@ -59,7 +59,7 @@ function rot13(str) {
       // Convert char to a character code
       x = char.charCodeAt(0);
       // Checks if character lies between A-Z
-      if (x < 65 || x > 91) {
+      if (x < 65 || x > 90) {
         return String.fromCharCode(x);  // Return un-converted character
       }
       //N = ASCII 78, if the character code is less than 78, shift forward 13 places
