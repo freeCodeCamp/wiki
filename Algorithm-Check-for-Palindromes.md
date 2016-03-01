@@ -71,6 +71,29 @@ function palindrome(str) {
 }
 ```
 
+## Fourth Solution
+
+```js
+function palindrome(str) {
+  str = str.toLowerCase();
+  str = str.replace(/\s+/g, '');
+  str = str.replace(/([-_.,()|\[\]\/\\])/g,'');
+  
+  var myArray = [];
+  myArray = str.split("");
+  var newArray = myArray.slice();
+  newArray.reverse();
+  for(var i = 0; i<myArray.length; i++){
+    if(myArray[i] !== newArray[i]){
+      return false;
+    }
+  }
+  // Good luck!
+  return true;
+}
+
+```
+
 # Code Explanation:
 
 ## First Solution
@@ -99,7 +122,17 @@ function palindrome(str) {
 
 - If neither of the first two conditions are met, then we assume that the two characters are equal, and we return a recursive call to the function. The difference here is that we pass the current value of `str` and we slice the first and last elements off the string. This process continues until there are no characters left to check!
 
+## Fourth Solution
+
+- This solution uses two arrays and loops through each index.  We start by cleaning up the string, making all the characters lower case and removing any characters we do not want. 
+
+- Our first array: myArray is created by spliting the string into an array.  
+
+- Our second array: newArray is created by making a clone of myArray with the .slice() method.  We cannot assign newArray equal to myArray since they will both point to the same reference and a change to one will change the other.  Using .slice() creates a seperate entity for our second array.  When we call .reverse() on newArray it does not change myArray.
+
+- Use a for loop to iterate though each index and return false when the values don't match
+
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 @abhisekp @shadowfool for your help with Algorithm: Check for Palindromes`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 @abhisekp @shadowfool @lggit for your help with Algorithm: Check for Palindromes`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
