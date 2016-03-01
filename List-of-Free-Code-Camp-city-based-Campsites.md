@@ -187,6 +187,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Chongqing](https://www.facebook.com/groups/free.code.camp.chongqing/)
   - [Guangzhou](https://www.facebook.com/groups/free.code.camp.guangzhou/)
   - [Hangzhou](https://www.facebook.com/groups/free.code.camp.hangzhou/)
+  - [Jincheng](https://www.facebook.com/groups/free.code.camp.jincheng/)
   - [Kunming](https://www.facebook.com/groups/free.code.camp.kunming/)
   - [Linyi](https://www.facebook.com/groups/free.code.camp.Linyi/)
   - [Nanjing](https://www.facebook.com/groups/free.code.camp.nanjing/)
@@ -787,6 +788,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Tarragona](https://www.facebook.com/groups/free.code.camp.tarragona/)
   - [Valencia](https://www.facebook.com/groups/free.code.camp.vlc/)
   - [Valladolid](https://www.facebook.com/groups/free.code.camp.valladolid.spain)
+  - [Vitoria-Gasteiz](https://www.facebook.com/groups/free.code.camp.vitoria.gasteiz/)
   - [Zaragoza](https://www.facebook.com/groups/free.code.camp.zaragoza/)  
 - Sri Lanka
   - [Batticaloa](https://www.facebook.com/groups/free.code.camp.batticaloa/)
@@ -1238,6 +1240,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Lakewood](https://www.facebook.com/groups/free.code.camp.lakewood/)
     - [National Harbor](https://www.facebook.com/groups/free.code.camp.national.harbor/)
     - [Olympia](https://www.facebook.com/groups/free.code.camp.olympia/)
+    - [Port Angeles](https://www.facebook.com/groups/free.code.camp.port.angeles/)
     - [Port Orchard](https://www.facebook.com/groups/free.code.camp.port.orchard/)
     - [Redmond](https://www.facebook.com/groups/free.code.camp.redmond.wa/)
     - [Seattle](https://www.facebook.com/groups/free.code.camp.seattle/)
