@@ -16,6 +16,7 @@ The following are our official chat rooms.
 | [PHP](https://gitter.im/FreeCodeCamp/php) | get help doing our back end projects in PHP, from your fellow campers |  
 | [Go](https://gitter.im/FreeCodeCamp/go) | get help doing our back end projects in Go, from your fellow campers | 
 | [Elixir](https://gitter.im/FreeCodeCamp/elixir) | get help doing our back end projects in Elixir, from your fellow campers |
+| [.NET](https://gitter.im/FreeCodeCamp/dotnet) | get help doing our back end projects in Microsoft .NET framework, from your fellow campers |
 | [Linux](https://gitter.im/FreeCodeCamp/linux) | get help with using Linux, from your fellow campers | 
 | [SQL](https://gitter.im/FreeCodeCamp/sql) | get help on relational databases and SQL, from your fellow campers |    
 | [CodeReview](https://gitter.im/freecodecamp/CodeReview) | give and receive constructive feedback from your fellow campers on your projects |    
