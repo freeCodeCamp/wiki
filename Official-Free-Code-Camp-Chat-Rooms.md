@@ -10,6 +10,14 @@ The following are our official chat rooms.
 | [HelpFrontEnd](https://gitter.im/freecodecamp/HelpFrontEnd) | get help with our front end projects from your fellow campers |    
 | [HelpDataViz](https://gitter.im/freecodecamp/HelpDataViz) | get help with our data visualization projects from your fellow campers |    
 | [HelpBackEnd](https://gitter.im/freecodecamp/HelpBackEnd) | get help with our back end projects from your fellow campers |    
+| [Python](https://gitter.im/FreeCodeCamp/python) | get help doing our back end projects in Python, from your fellow campers |    
+| [Java](https://gitter.im/FreeCodeCamp/java) | get help doing our back end projects in Java, from your fellow campers |    
+| [Ruby](https://gitter.im/FreeCodeCamp/ruby) | get help doing our back end projects in Ruby, from your fellow campers |    
+| [PHP](https://gitter.im/FreeCodeCamp/php) | get help doing our back end projects in PHP, from your fellow campers |  
+| [Go](https://gitter.im/FreeCodeCamp/go) | get help doing our back end projects in Go, from your fellow campers | 
+| [Elixir](https://gitter.im/FreeCodeCamp/elixir) | get help doing our back end projects in Elixir, from your fellow campers |
+| [Linux](https://gitter.im/FreeCodeCamp/linux) | get help with using Linux, from your fellow campers | 
+| [SQL](https://gitter.im/FreeCodeCamp/sql) | get help on relational databases and SQL, from your fellow campers |    
 | [CodeReview](https://gitter.im/freecodecamp/CodeReview) | give and receive constructive feedback from your fellow campers on your projects |    
 | [YouCanDoThis](https://gitter.im/freecodecamp/YouCanDoThis) | learning to code is hard - share your feelings and get moral support here |    
 | [CodingJobs](https://gitter.im/freecodecamp/CodingJobs) | chat about the process of getting a coding job, such as portfolios, networking, and interviewing |    
