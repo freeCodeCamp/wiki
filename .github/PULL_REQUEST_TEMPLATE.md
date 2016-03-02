@@ -5,7 +5,7 @@ Make sure your contribution addresses the points mentioned below:
 - Your filename should NOT contain any special characters or spaces.
 - Use only `-` to separate words in the filename.
 - Filenames should have the `.md` extension.
-- Filenames should follow a Camel-Case format such as : `Title-For-The-Article.md`
+- Filenames should follow a Camel-Case format such as : `Title-For-The-Article.md` It is important that you follow this format, including the **capitalization of the first character of every words** in the filename.
 
 **Formatting:**
 
