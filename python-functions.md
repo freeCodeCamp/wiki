@@ -7,11 +7,11 @@ Several built-in functions have been discussed and used previous examples. Just 
 
 ##### Resources
 
-https://docs.python.org/3/reference/compound_stmts.html#function-definitions
+[Python Docs - Function Definitions](https://docs.python.org/3/reference/compound_stmts.html#function-definitions)
 
 ### Defining Functions
 
-https://docs.python.org/3/tutorial/controlflow.html#defining-functions
+[Python Docs](https://docs.python.org/3/tutorial/controlflow.html#defining-functions)
 
 We can create a function that writes the Fibonacci series to an arbitrary boundary:
 
@@ -28,9 +28,7 @@ We can create a function that writes the Fibonacci series to an arbitrary bounda
 ... fib(2000)
 0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597
 ```
-The keyword def introduces a function definition. It must be followed by the function name and the parenthesized list of formal parameters. The statements that form the body of the function start at the next line, and must be indented.
-
-https://docs.python.org/3/reference/compound_stmts.html#def
+The keyword [def](https://docs.python.org/3/reference/compound_stmts.html#def) introduces a function definition. It must be followed by the function name and the parenthesized list of formal parameters. The statements that form the body of the function start at the next line, and must be indented.
 
 The first statement of the function body can optionally be a string literal; this string literal is the function’s documentation string, or docstring. (More about docstrings can be found in the section Documentation Strings.) There are tools which use docstrings to automatically produce online or printed documentation, or to let the user interactively browse through code; it’s good practice to include docstrings in code that you write, so make a habit of it.
 
@@ -89,7 +87,7 @@ The arguments used to call a function cannot be reassigned by the function, but 
 
 ### `return` Statement
 
-https://docs.python.org/3/reference/simple_stmts.html#the-return-statement
+[Python Docs](https://docs.python.org/3/reference/simple_stmts.html#the-return-statement)
 
 All functions return a value when called.
 
@@ -105,7 +103,7 @@ False
 True
 ```
 
-If no expression list is specified, None is returned:
+If no expression list is specified, `None` is returned:
 
 ```python
 >>> def no_expression_list():
@@ -167,19 +165,19 @@ This value can be assigned to another name which can then also be used as a func
 
 ### Coding Style
 
-https://docs.python.org/3/tutorial/controlflow.html#intermezzo-coding-style
+[Python Docs - Intermezzo Coding Style](https://docs.python.org/3/tutorial/controlflow.html#intermezzo-coding-style)
 
 ### Default Argument Values
 
-https://docs.python.org/3/tutorial/controlflow.html#default-argument-values
+[Python Docs - Default Argument Values](https://docs.python.org/3/tutorial/controlflow.html#default-argument-values)
 
 ### Keyword Arguments
 
-https://docs.python.org/3/tutorial/controlflow.html#keyword-arguments
+[Python Docs - Keyword Arguments](https://docs.python.org/3/tutorial/controlflow.html#keyword-arguments)
 
 ### Arbitrary Arguments
 
-https://docs.python.org/3/tutorial/controlflow.html#unpacking-argument-lists
+[Python Docs - Unpacking Argument Lists](https://docs.python.org/3/tutorial/controlflow.html#unpacking-argument-lists)
 
 ### Nested functions
 
@@ -204,20 +202,24 @@ NameError: name 'inside_fn' is not defined
 #### `global`
 
 
-https://docs.python.org/3/reference/simple_stmts.html#the-global-statement
+[Python Docs - the Global Statement](https://docs.python.org/3/reference/simple_stmts.html#the-global-statement)
 
 #### `nonlocal`
 
-https://docs.python.org/3/reference/simple_stmts.html#the-nonlocal-statement
-https://www.python.org/dev/peps/pep-3104/
+[Python Docs - the nonlocal Statement](https://docs.python.org/3/reference/simple_stmts.html#the-nonlocal-statement)
+
+[PEP 3104 - Access to Names in Outer Scopes](https://www.python.org/dev/peps/pep-3104/)
 
 ### Lambda Expressions
 
 ### Anonymous functions
-https://docs.python.org/3/tutorial/controlflow.html#lambda-expressions
-https://docs.python.org/3/reference/expressions.html#lambda
+
+[Python Docs - Lambda Expressions Tutorial](https://docs.python.org/3/tutorial/controlflow.html#lambda-expressions)
+
+[Python Docs - Lambda Expressions](https://docs.python.org/3/reference/expressions.html#lambda)
 
 ### Decorators
 
-https://www.python.org/dev/peps/pep-0318/
-https://docs.python.org/3/whatsnew/2.4.html?highlight=decorator
+[PEP 0318 - Decorators for Functions and Methods](https://www.python.org/dev/peps/pep-0318/)
+
+[Python Docs - Decorators](https://docs.python.org/3/whatsnew/2.4.html?highlight=decorator)
