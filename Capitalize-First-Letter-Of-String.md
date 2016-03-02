@@ -1,6 +1,7 @@
 # Capitalize the First Letter of a String
 
 To capitalize the first letter of a random string, you should follow these steps:
+
 1. Get the first letter of the string;
 2. Convert the first letter to uppercase;
 3. Get the remainder of the string;
