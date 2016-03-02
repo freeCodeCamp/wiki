@@ -1,6 +1,7 @@
 # Capitalize the First Letter of a String
 
 To capitalize the first letter of a random string, you should follow these steps:
+
 1. Get the first letter of the string;
 2. Convert the first letter to uppercase;
 3. Get the remainder of the string;
@@ -10,56 +11,63 @@ To capitalize the first letter of a random string, you should follow these steps
 
 You should use [charAt()](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-String-prototype-charAt) method, at *index 0*, to select the first character of the string.
 
-```javascript
-var string = "freecodecamp";
+```js
+var string = "freeCodecamp";
 
 string.charAt(0); // Returns "f"
 ```
 
+> NOTE: `charAt` is preferable than using `[ ]` (bracket notation) as `str.charAt(0)` returns an empty string (*`''`*) for `str = ''` instead of `undefined` in case of `''[0]`.
+
 ### 2. Convert the First Letter to uppercase
 
-You should use [toUpperCase()](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-String-prototype-toUpperCase) method and convert the calling string to uppercase.
+You may use [toUpperCase()](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-String-prototype-toUpperCase) method and convert the calling string to upper case.
 
-```javascript
-var string = "freecodecamp";
+```js
+var string = "freeCodecamp";
 
 string.charAt(0).toUpperCase(); // Returns "F"
 ```
 
 ### 3. Get the Remainder of the String
 
-You should use [slice()](https://github.com/freecodecamp/freecodecamp/wiki/js-array-prototype-slice) method and get the remainder of the string (from the second character, *index 1*, to the end of the string).
+You may use [slice()](https://github.com/freecodecamp/freecodecamp/wiki/js-array-prototype-slice) method and get the remainder of the string (from the second character, *index 1*, to the end of the string).
 
-```javascript
-var string = "freecodecamp";
+```js
+var string = "freeCodecamp";
 
-string.slice(1); // Returns "reecodecamp"
+string.slice(1); // Returns "reeCodecamp"
 ```
 
 ### 4. Return the result adding the first letter and the remainder of the string
 
 You should create a function that accepts a string as only argument and returns the concatenation of the first letter capitalized `string.charAt(0).toUpperCase()` and the remainder of the string `string.slice(1)`.
 
-```javascript
-var string = "freecodecamp";
+```js
+var string = "freeCodecamp";
 
 function capitalizeFirstLetter(str) {
   return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
-capitalizeFirstLetter(string); // Returns "Freecodecamp"
+capitalizeFirstLetter(string); // Returns "FreeCodecamp"
 ```
 
-Or you should add that function to the `String.prototype` and chain it with other methods.
+Or you may add that function to the `String.prototype` for using it directly on a string using the following code (*so that the method is not enumerable but can be overwritten or deleted later*):
 
-```javascript
-var string = "freecodecamp";
+```js
+var string = "freeCodecamp";
 
-String.prototype.capitalizeFirstLetter = function() {
-  return this.charAt(0).toUpperCase() + str.slice(1);
-}
+/* this is how methods are defined in prototype of any built-in Object */
+Object.defineProperty(String.prototype, 'capitalizeFirstLetter', {
+    value: function () {
+        return this.charAt(0).toUpperCase() + this.slice(1);
+    },
+    writable: true, // so that one can overwrite it later
+    configurable: true // so that it can be deleted later
+});
 
-string.capitalizeFirstLetter(); // Returns "Freecodecamp"
+string.capitalizeFirstLetter(); // Returns "FreeCodecamp"
 ```
 
 #### Source
