@@ -51,14 +51,16 @@ function capitalizeFirstLetter(str) {
 capitalizeFirstLetter(string); // Returns "Freecodecamp"
 ```
 
-Or you should add that function to the `String.prototype` and chain it with other methods.
+Or you may add that function **(which is not a good practice)** to the `String.prototype`, using the following code so that the method is not enumerable:
 
 ```javascript
 var string = "freecodecamp";
 
-String.prototype.capitalizeFirstLetter = function() {
-  return this.charAt(0).toUpperCase() + str.slice(1);
-}
+Object.defineProperty(String.prototype, 'capitalizeFirstLetter', {
+    get() {
+        return this.charAt(0).toUpperCase() + this.slice(1);
+    }
+})
 
 string.capitalizeFirstLetter(); // Returns "Freecodecamp"
 ```
