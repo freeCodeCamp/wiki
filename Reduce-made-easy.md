@@ -1,13 +1,13 @@
 # Using `Array.prototype.reduce()` to Reduce Conceptual Boilerplate for Problems on Arrays
 
-That's quite a mouthful! It could have just been titled as **Use `Array.prototype.reduce()` to Solve Array Problems Easily** or **`Array.prototype.reduce()` FTW!**. That would have been so much easier to read and parse.
+That's quite a mouthful! It could have just been titled as **Use [`Array.prototype.reduce()`](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-Array-prototype-reduce) to Solve Array Problems Easily** or **`Array.prototype.reduce()` FTW!**. That would have been so much easier to read and parse.
 
 But It was not. Loops in JavaScript are just like that. They are not terse, they make you beat around the bush for a while. As the joke goes, two things are most difficult in computer science - [cache invalidation](https://en.wikipedia.org/wiki/Cache_invalidation), [naming things](https://www.quora.com/Why-is-naming-things-hard-in-computer-science-and-how-can-it-can-be-made-easier), and [off-by-one error](https://en.wikipedia.org/wiki/Off-by-one_error).
 
 And then there is the danger of writing [asynchonous code inside a for loop without using closure from IIFE](http://stackoverflow.com/questions/11488014/asynchronous-process-inside-a-javascript-for-loop).
 
 This article would start with a claim - that you can avoid using a for-loop or while-loop to solve any `Array` related problems.
-Instead, you can solve all of them using `Array.prototype.reduce()`. If you wish to read forward; do make sure you know about recursive functions, and some of the cool functional tools like `map()` or `filter()`.
+Instead, you can solve all of them using `Array.prototype.reduce()`. If you wish to read forward; do make sure you know about recursive functions, and some of the cool functional tools like [`Array.prototype.map()`](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-Array-prototype-map) or [`Array.prototype.filter()`](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-Array-prototype-filter).
 
 Grand claims require grand evidence. So let's demonstrate how we can get accustomed with using `reduce()`.
 
@@ -85,7 +85,7 @@ arr.reduce(function(acc, item){
 }, initialValue);
 ```
 
-Now, let's find out what would the value of these `acc` and `item` are. We have mentioned earlier that the `reduce` is a replacement for itertaive constructs.
+Now, let's find out what would the value of these `acc` and `item` are. We have mentioned earlier that the `reduce` is a replacement for iterative constructs.
 
 It stands to reason that `reduce` would take your custom callback function; and iterate over the Array on which `reduce` has been invoked.
 
@@ -135,9 +135,9 @@ This time the output changes to:
 
 As you can see, the value of `acc` would remain constant throughout. And that is expected - we are not altering the value of `acc` anywhere in the custom callback. We return whatever `reduce` makes available at a given iteration.
 
-But we did realize something - the value of `acc` for current iteration, would be the `return` value from custom callback from previous iteration. And ultimately, when the iteration is over; the final value of `acc` would be returned by `reduce` call.
+But we did realize something - the value of `acc` for current iteration, would be the `return` value from custom callback from previous iteration. And ultimately, when the iteration is over, the final value of `acc` would be returned by `reduce` call.
 
-This leaves only one important part in our understanding - the value of execution context, or `this`!
+This leaves only one important part in our understanding - the value of execution context, or [`this`](http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/)!
 
 So, we again approach our friendly neighbor, the JS console and execute this:
 
@@ -149,8 +149,8 @@ arr.reduce(function(acc, item){
 }, 0);
 ```
 
-If you are in [strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode), it would return `undefined` as value of `this`. Otherwise, in-browser, it would point to `window` object as `this`.
-Can we override and set it on our own, using `bind`? Sure! just use `bind` with the callback:
+If you are in [strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode), it would return `undefined` as value of `this`. Otherwise, in-browser, it would point to [`window`](https://developer.mozilla.org/en-US/docs/Web/API/Window) object as `this`.
+Can we override and set it on our own, using [`bind`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_objects/Function/bind)? Sure! just use `bind` with the callback:
 
 ```js
 var arr = [10, 20, 30, 60];
@@ -202,7 +202,7 @@ var arr = [20, 50, 5, 60];
 arr.reduce(Math.max, 0);
 ```
 
-but this would not work and would return `NaN`. Here's the reason - `acc` and `item` are not the **only** arguments to the custom callback. When you call `Math.max()` tries to call it on non-numeric arguments, resulting in `NaN`.
+but this would not work and would return `NaN`. Here's the reason - `acc` and `item` are not the **only** arguments to the custom callback. When you call [`Math.max()`](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Math.max) tries to call it on non-numeric arguments, resulting in `NaN`.
 
 Notice that I didn't put much thought into picking the initial value. I just picked it as `0`; resulting in a bug!
 
@@ -219,7 +219,7 @@ arr.reduce(function(acc, item){
 
 We are getting there. We should hone our skills on another Array related problem. Just to have some fun, let's go with a bit tougher one.
 
-Say, we are to find [LCM](https://en.wikipedia.org/wiki/Least_common_multiple) of an Array of integers. Now, from theory, we know that LCM of two numbers would be product of them, divided by their HCF.
+Say, we are to find [LCM](https://en.wikipedia.org/wiki/Least_common_multiple) of an Array of integers. Now, from theory, we know that LCM of two numbers would be product of them, divided by their [HCF](https://en.wikipedia.org/wiki/Greatest_common_divisor).
 
 Eucledian algorithm for HCF finding exists; and abundant are its implementation. No point wasting your time making you write an HCF function when you can write one yourself, or find one.
 
@@ -262,7 +262,7 @@ The output should be `[1, 2, 3, 'cat', 'dog', 'fish', 'bird']`
 
 It's time to formulate a strategy. We clearly need to distinguish between an array and an element. Also, `acc` should be the array being formed throughout the iteration; meaning the initial value would be an empty array `[]`. 
 
-Throughout the callback function code; we would simply extract the content from the `item`, which can be a deeply nested array; and we would `concat()` it with the `acc` value. It's better to use `concat()` over `push()`; because `push()` alters the original array; while `concat()` creates a new array and returns it.
+Throughout the callback function code, we would simply extract the content from the `item`, which can be a deeply nested array; and we would [`Array.prototype.concat()`](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-Array-prototype-concat) it with the `acc` value. It's better to use `concat()` over [`Array.prototype.push()`](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-Array-prototype-push); because `push()` alters the original array; while `concat()` creates a new array and returns it.
 
 And since we don't know the level of nesting at any given instant; we must go call our custom callback recursively. Meaning, we have to write it somewhere else and call it by name inside `reduce()`.
 
@@ -290,7 +290,7 @@ Yes, go ahead and play with it. But notice how we can simply write 3-4 lines of 
 
 For instance, if you want to alter or tweak the logic the logic later (Say you want to upper case some string or encode some string); you can easily identify where to alter. The actual nesting happens inside the `if` condition. And the way we have used the `reduce` call there - it maintains the order of elements as they are in the array.
 
-Let's take another seemingly complex example; and bring it to its knees weilding the sword of `reduce`!
+Let's take another seemingly complex example, and bring it to its knees weilding the sword of `reduce`!
 
 We are to find out the [symmetrical differences](http://www.freecodecamp.com/challenges/symmetric-difference) of two or more arrays. It looks daunting; but then you start to think.
 
