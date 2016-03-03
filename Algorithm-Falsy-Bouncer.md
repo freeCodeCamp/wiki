@@ -1,7 +1,7 @@
 ![](http://i.imgur.com/GluUbAz.jpg)
 
 # Problem Explanation:
-Remove all [falsy](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-falsy) values from an array.
+Remove all [falsy](js-falsy) values from an array.
 
 ## Hint: 1
 Falsy is something which evaluates to FALSE. There are only six falsy values in JavaScript: undefined, null, NaN, 0, "" (empty string), and false of course.
@@ -49,7 +49,7 @@ function bouncer(arr) {
 ```
 
 # Code Explanation:
-The `Array.prototype.filter` method expects a function that returns a `Boolean` value which takes a single argument and returns `true` for [truthy](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-truthy) value or `false` for [falsy](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-falsy) value. Hence we pass the built-in `Boolean` function. The second solution replaces the array in-place, and utilises an anonymous function as the callback for the `filter` method. This avoids polluting the global scope with a single-use function, and makes our code more concise.
+The `Array.prototype.filter` method expects a function that returns a `Boolean` value which takes a single argument and returns `true` for [truthy](js-truthy) value or `false` for [falsy](js-falsy) value. Hence we pass the built-in `Boolean` function. The second solution replaces the array in-place, and utilises an anonymous function as the callback for the `filter` method. This avoids polluting the global scope with a single-use function, and makes our code more concise.
 
 # Credits:
 If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @renelis @abhisekp @Rafase282 for your help with Algorithm: Falsy Bouncer`**

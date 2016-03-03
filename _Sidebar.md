@@ -1,7 +1,7 @@
 New to Free Code Camp?
-- [Start Here](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Start-Here)
+- [Start Here](Start-Here)
 - [How to use this Wiki](https://github.com/FreeCodeCamp/freecodecamp/wiki/How-to-use-the-Free-Code-Camp-Wiki)
-- [Challenge Guides](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Map)
+- [Challenge Guides](Map)
 
 JS Concepts
 - [Closures](https://github.com/freecodecamp/freecodecamp/wiki/js-closures)
@@ -24,17 +24,17 @@ JS Language Reference
 - [Array.prototype.slice](https://github.com/freecodecamp/freecodecamp/wiki/js-array-prototype-slice)
 - [Array.prototype.some](https://github.com/freecodecamp/freecodecamp/wiki/js-array-prototype-some)
 - [Array.prototype.toString](https://github.com/freecodecamp/freecodecamp/wiki/js-array-prototype-tostring)
-- [Boolean](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-Boolean)
+- [Boolean](js-Boolean)
 - [for loop](https://github.com/freecodecamp/freecodecamp/wiki/js-for-loop)
 - [for..in loop](https://github.com/freecodecamp/freecodecamp/wiki/js-for-in-loop)
 - [for..of loop](https://github.com/freecodecamp/freecodecamp/wiki/js-for-of-loop)
-- [String.prototype.split](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-String-prototype-split)
-- [String.prototype.toLowerCase](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-String-prototype-toLowerCase)
-- [String.prototype.toUpperCase](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-String-prototype-toUpperCase)
+- [String.prototype.split](js-String-prototype-split)
+- [String.prototype.toLowerCase](js-String-prototype-toLowerCase)
+- [String.prototype.toUpperCase](js-String-prototype-toUpperCase)
 - [undefined](https://github.com/freecodecamp/freecodecamp/wiki/js-undefined)
 
 Other Links
 - [Programming Fundamental](https://github.com/freecodecamp/freecodecamp/wiki/programming-fundamental)
 - [JS Resources](https://github.com/freecodecamp/freecodecamp/wiki/js-resources)
-- [JS RegEx Resources](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/JS-Regex-Resources)
-- [Web Resources](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Web-Resources)
+- [JS RegEx Resources](JS-Regex-Resources)
+- [Web Resources](Web-Resources)

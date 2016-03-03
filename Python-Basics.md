@@ -714,4 +714,4 @@ Here are a few things to keep in mind:
 >>> id(b)       # b is still bound to the original object.
 140355241530152
 ```
-Now that we have covered the basics, it's time to discuss [Python Operators](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Python-Operators)
+Now that we have covered the basics, it's time to discuss [Python Operators](Python-Operators)

@@ -1,14 +1,14 @@
 # Introduction
 
-[Previous](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Python)
+[Previous](Python)
 
-[Home](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Python)
+[Home](Python)
 
-[Next](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Python-Basics)
+[Next](Python-Basics)
 
 ## What is Python?
 
-[Python](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Python) is a general purpose programming language which is dynamically typed, interpreted, and known for its easy readability with great design principles.
+[Python](Python) is a general purpose programming language which is dynamically typed, interpreted, and known for its easy readability with great design principles.
 
 To know more about Python, you might want to check [this](https://www.python.org/doc/essays/blurb/) and [this](https://docs.python.org/3/faq/general.html).
 
@@ -148,7 +148,7 @@ The argument that we called the `print` function with is a `str` object or *stri
 
 The `objects` parameter is prefixed with a `*` which indicates that the function will take an arbitrary number of arguments for that parameter.
 
-We shall now continue with [Python Basics](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Python-Basics)
+We shall now continue with [Python Basics](Python-Basics)
 
 
 

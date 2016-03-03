@@ -5,5 +5,5 @@ If you've gotten to the Stock Charting Back End Project you may have noticed tha
 
 Even better, if you just include SocketIO when prompted during the yeoman angular-fullstack setup, there is absolutely no work involved to include it. It works out of the box, has a working demo on the **main/** route, and you can learn how to use it yourself by simply looking at how they include it in **main.controller.js** (so I won’t go any further into detail).
 
-[PREVIOUS](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/isLoggedInAsync())
-[NEXT](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Epilogue)
+[PREVIOUS](isLoggedInAsync())
+[NEXT](Epilogue)

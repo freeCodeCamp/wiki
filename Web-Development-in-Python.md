@@ -1,13 +1,13 @@
 # Using Python for Web Development
 
-[Previous](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Python-Functions)
+[Previous](Python-Functions)
 
-[Home](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Python)
+[Home](Python)
 
-[Next](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Install-Django-Flask)
+[Next](Install-Django-Flask)
 
 
-[Python](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Python) is known for its beautiful syntax and ease of readabilty. This scripting language can be used for some quick-and-dirty prototyping of your idea of a web-app. It can also be used to build scalable and maintainable large web applications.
+[Python](Python) is known for its beautiful syntax and ease of readabilty. This scripting language can be used for some quick-and-dirty prototyping of your idea of a web-app. It can also be used to build scalable and maintainable large web applications.
 
 #### Web Frameworks in Python
 
@@ -50,4 +50,4 @@ You are probably wondering what, then, is left for the developer to do? Based on
 
 Your code will fill the gaps *intentionally* left in the framework code - and combining your code with the framework; your web application would have life breathed into it!
 
-So let's get started with some web frameworks and learn how they help build web app on-hands. But before that, we would need to set-up the development environment by completing [installation of web frameworks in Python](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Install-Django-Flask).
+So let's get started with some web frameworks and learn how they help build web app on-hands. But before that, we would need to set-up the development environment by completing [installation of web frameworks in Python](Install-Django-Flask).

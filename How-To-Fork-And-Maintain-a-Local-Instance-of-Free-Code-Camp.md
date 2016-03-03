@@ -1,5 +1,5 @@
 # Overview
-If you plan to write a [Pull Request for Free Code Camp](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/How-To-Create-A-Pull-Request-for-Free-Code-Camp), you will almost certainly need a local copy of the site. Having a local copy of the site will give you additional capability with Git that are not available via the GitHub browser interface, including updating your fork and rebasing/squashing commits.
+If you plan to write a [Pull Request for Free Code Camp](How-To-Create-A-Pull-Request-for-Free-Code-Camp), you will almost certainly need a local copy of the site. Having a local copy of the site will give you additional capability with Git that are not available via the GitHub browser interface, including updating your fork and rebasing/squashing commits.
 
 This guide will cover how to fork the FCC project, clone a local copy, and how to maintain your fork. All Git commands will be given for the command line, which we strongly recommend that you use, but most commands can be executed in a graphical Git environment as well.
 

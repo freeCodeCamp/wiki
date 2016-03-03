@@ -1,4 +1,4 @@
-Your user profile displays your recent activity. If you get [Brownie Points](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Brownie-Points/) on several consecutive days, you will start a streak.
+Your user profile displays your recent activity. If you get [Brownie Points](Brownie-Points/) on several consecutive days, you will start a streak.
 
 ![A picture of a camper's streak readout showing a 21-day streak](https://www.evernote.com/l/AlyDvfhZplROUZxyMN8dIGGd-DQT7Bn8S9oB/image.png)
 

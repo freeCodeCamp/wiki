@@ -8,7 +8,7 @@ Please note that Free Code Camp is not partnered with, nor do we receive a refer
 ### Building a website: 
 - [http://www.wix.com/](http://www.wix.com/) 
 - [https://wordpress.com/](https://wordpress.com/) 
-- [Build it yourself for free with no code](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/How-to-deploy-a-website-without-writing-any-code-at-all) 
+- [Build it yourself for free with no code](How-to-deploy-a-website-without-writing-any-code-at-all) 
 - [XPRS - another tool for building websites for free with no code](https://xprs.imcreator.com)
 
 ### Donor and Volunteer Management Systems 

@@ -23,5 +23,5 @@ $http.post('/api/things', newThing).success(function(thatThingWeJustAdded) {
 ~~~
 This updates the local array for seemingly instant results for your user and then syncs it to your database and updates the local array in the background with the database’s version of your *newThing* object, unique *._id* and all. Notice the callback we pass to the *success* function receives the new *thing* back from the database as an argument! This way you can easily add it back to your local scope without too much overhead.
 
-[PREVIOUS](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Seed-data)
-[NEXT](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Dynamic-URLs-using-$routeParams)
+[PREVIOUS](Seed-data)
+[NEXT](Dynamic-URLs-using-$routeParams)

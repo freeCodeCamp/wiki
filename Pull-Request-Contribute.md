@@ -19,4 +19,4 @@ These are general guidelines for PR's that work across most projects. It gives e
 * [GitHub & Git Foundations Training](https://www.youtube.com/playlist?list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-) - How to use Git and GitHub
 * [FreeCodeCamp Contribution Guidelines](https://github.com/FreeCodeCamp/FreeCodeCamp#contributing)
 * [How to write Git commit messages](http://chris.beams.io/posts/git-commit/)
-* [How to Clone FCC to a Windows PC](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/How-to-clone-the-FreeCodeCamp-website-on-a-Windows-pc)
+* [How to Clone FCC to a Windows PC](How-to-clone-the-FreeCodeCamp-website-on-a-Windows-pc)

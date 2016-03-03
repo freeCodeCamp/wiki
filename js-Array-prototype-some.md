@@ -20,7 +20,7 @@ var isEven = function isEven(currentElement, index, array) {
     }
 }
 ```
-*see wiki* on [Arithmetic Operators](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Arithmetic-Operators) to see the remainder operator `%`
+*see wiki* on [Arithmetic Operators](Arithmetic-Operators) to see the remainder operator `%`
 
 **Has 3 arguments**
 

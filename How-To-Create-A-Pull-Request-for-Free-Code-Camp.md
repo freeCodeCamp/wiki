@@ -15,7 +15,7 @@ There are two methods of creating a Pull for Free Code Camp:
 Take away only one thing from this document, it should be this:  Never, EVER make edits to the `staging` branch.  ALWAYS make a new branch BEFORE you edit files.  This is critical, because if your PR is not accepted, your copy of `staging` will be forever sullied and the only way to fix it is to delete your fork and re-fork.
 
 # Editing via your Local Fork (Recommended)
-This is the recommended method.  Read about [How to Setup and Maintain a Local Instance of Free Code Camp](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/How-To-Fork-And-Maintain-a-Local-Instance-of-Free-Code-Camp).
+This is the recommended method.  Read about [How to Setup and Maintain a Local Instance of Free Code Camp](How-To-Fork-And-Maintain-a-Local-Instance-of-Free-Code-Camp).
 
 1. Perform the maintenance step of rebasing `staging`
 2. Ensure you are on the `staging` branch using `git status`:
@@ -42,10 +42,10 @@ You can also do:
 to add all unstaged files.  Take care, though, because you can accidentially add files you don't want added.  Review your `git status` first.
 8. Commit your edits:
 `git commit -m "Brief Description of Commit"`
-9. [Squash your commits](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/git-rebase#squashing-multiple-commits-into-one), if there are more than one.
+9. [Squash your commits](git-rebase#squashing-multiple-commits-into-one), if there are more than one.
 10. Push your commits to your GitHub Fork:
 `git push -u origin branch/name-here`
-11. Go to [Common Steps](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/How-To-Create-A-Pull-Request-for-Free-Code-Camp#common-steps)
+11. Go to [Common Steps](How-To-Create-A-Pull-Request-for-Free-Code-Camp#common-steps)
 
 # Editing via the GitHub Interface
 **Note:** Editing via the GitHub Interface is not recommended, since it is not possible to update your fork via GitHub's interface without deleting and recreating your fork.
@@ -56,7 +56,7 @@ Note: Branch naming is important.
 Use a name like `fix/short-fix-description` or `feature/short-feature-description`
 Review the [Contribution Guidelines](https://github.com/FreeCodeCamp/FreeCodeCamp/blob/staging/CONTRIBUTING.md) for more detail.
 3. Edit the file and commit the changes.
-4. Continue to [Common Steps](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/How-To-Create-A-Pull-Request-for-Free-Code-Camp#common-steps)
+4. Continue to [Common Steps](How-To-Create-A-Pull-Request-for-Free-Code-Camp#common-steps)
 
 
 # Common Steps

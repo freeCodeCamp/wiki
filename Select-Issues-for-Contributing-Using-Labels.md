@@ -1,4 +1,4 @@
-In this article you can find labels (see the table below) used to categorize the variety of issues submitted to FCC. The labels range from **bugs** to **questions** to **curriculum requests**. For example, if an issue has a ***Wiki*** label, you can create a Wiki article about that issue - after reading the [Wiki Style Guide](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Wiki-Style-Guide). 
+In this article you can find labels (see the table below) used to categorize the variety of issues submitted to FCC. The labels range from **bugs** to **questions** to **curriculum requests**. For example, if an issue has a ***Wiki*** label, you can create a Wiki article about that issue - after reading the [Wiki Style Guide](Wiki-Style-Guide). 
 
 You can use labels to help you choose which issues to click on, rather than randomly clicking to find one of interest to you. Of course, you can work on and submit PRs for issues without labels. How ever you choose an issue, please be sure to read [Guidelines for Contributing](https://github.com/FreeCodeCamp/FreeCodeCamp/blob/staging/CONTRIBUTING.md) before submitting any pull requests.
 

@@ -30,4 +30,4 @@ Then later on in **wall.controller.js**, you can see what username was requested
 var wallOwner = $routeParams.username;
 ```
 
-[PREVIOUS](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Quick-tip-keep-data-in-sync) [NEXT](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/More-useful-APIs)
+[PREVIOUS](Quick-tip-keep-data-in-sync) [NEXT](More-useful-APIs)

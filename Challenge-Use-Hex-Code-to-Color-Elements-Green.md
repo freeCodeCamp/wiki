@@ -1,4 +1,4 @@
-Just as with [red](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Challenge-Use-Hex-Code-to-Color-Elements-Red) and the others.
+Just as with [red](Challenge-Use-Hex-Code-to-Color-Elements-Red) and the others.
 
 ```
 <style>

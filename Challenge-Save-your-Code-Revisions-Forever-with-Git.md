@@ -4,12 +4,12 @@ For that you will need `git-it` to go to the challenges, and `git-it verify` to 
 
 After you learn how to use git, here are other resources to help you learn more about git:
 
-- [Creating a New Github Issue](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Creating-a-New-Github-Issue)
-- [Git Blame](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Git-Blame)
-- [Git Merge](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/git-merge)
-- [Git Rebase](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/git-rebase)
-- [Other Git Resources](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Git-Resources)
-- [Writing Great Git Commit Messages](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Writing-great-git-commit-message)
-- [Using GitHub Pages for your front end dev projects](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Using-Github-Pages-for-your-front-end-development-projects)
-- [Search your issue on GitHub](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Searching-for-Your-Issue-on-Github)
-- [How Issue Mods Work](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/How-GitHub-Issue-Moderators-AKA-Issue-Mods-Work)
+- [Creating a New Github Issue](Creating-a-New-Github-Issue)
+- [Git Blame](Git-Blame)
+- [Git Merge](git-merge)
+- [Git Rebase](git-rebase)
+- [Other Git Resources](Git-Resources)
+- [Writing Great Git Commit Messages](Writing-great-git-commit-message)
+- [Using GitHub Pages for your front end dev projects](Using-Github-Pages-for-your-front-end-development-projects)
+- [Search your issue on GitHub](Searching-for-Your-Issue-on-Github)
+- [How Issue Mods Work](How-GitHub-Issue-Moderators-AKA-Issue-Mods-Work)
