@@ -19,6 +19,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Buenos Aires](https://www.facebook.com/groups/free.code.camp.buenos.aires/)
   - [Cordoba](https://www.facebook.com/groups/free.code.camp.cordoba/)
   - [La Plata](https://www.facebook.com/groups/free.code.camp.la.plata/)
+  - [Resistencia](https://www.facebook.com/groups/free.code.camp.resistencia/)
   - [Rosario](https://www.facebook.com/groups/free.code.camp.rosario/)
 - Armenia
   - [Yerevan](https://www.facebook.com/groups/free.code.camp.armenia/)
@@ -259,6 +260,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Exeter](https://www.facebook.com/groups/free.code.camp.exeter.uk/)
   - [Guildford](https://www.facebook.com/groups/free.code.camp.guildford/)
   - [Hove](https://www.facebook.com/groups/free.code.camp.hove)
+  - [Huddersfield](https://www.facebook.com/groups/free.code.camp.huddersfield/)
   - [Hull](https://www.facebook.com/groups/free.code.camp.hull/)
   - [Kent](https://www.facebook.com/groups/free.code.camp.kent/)
   - [Kingston upon Hull](https://www.facebook.com/groups/free.code.camp.kingston.upon.hull/)
@@ -268,7 +270,6 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Manchester](https://www.facebook.com/groups/free.code.camp.manchester/)
   - [Milton Keynes](https://www.facebook.com/groups/free.code.camp.milton.keynes/)
   - [Newcastle](https://www.facebook.com/groups/free.code.camp.newcastle/)
-  - [Norfolk](https://www.facebook.com/groups/free.code.camp.norfolk/)
   - [Northampton](https://www.facebook.com/groups/free.code.camp.northampton/)
   - [Nottingham](https://www.facebook.com/groups/free.code.camp.nottingham/)
   - [Reading](https://www.facebook.com/groups/free.code.camp.reading/)
