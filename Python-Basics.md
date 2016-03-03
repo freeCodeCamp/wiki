@@ -1,10 +1,10 @@
 # Python Basics
 
-[Previous](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Python-Introduction)
+[Previous](Python-Introduction)
 
-[Home](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Python)
+[Home](Python)
 
-[Next](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Python-Operators)
+[Next](Python-Operators)
 
 ## Objects
 
