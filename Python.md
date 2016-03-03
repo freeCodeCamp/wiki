@@ -15,3 +15,15 @@ There are various implementations of Python language available, although most co
 Python is so wide-spread in its use, that most Linux and OSX distros come pre-installed with Python. Because a lot of installed software packages use Python internally.
 
 Python is used in data science, machine learning, and especially, web development.
+
+To get more familiar with Python, [start here](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Python-Introduction)
+
+If you are looking for something specific in Python, pick from this list of resources:
+
+- [Introduction](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Python-Introduction)
+- [Basics](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Python-Basics)
+- [Operators](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Python-Operators)
+- [More Built-in Types](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Python-More-Builtin-Types)
+- [Functions](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Python-Functions)
+- [Web-development in Python](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Web-Development-in-Python)
+- [Installing Django and Flask](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Install-Django-Flask)

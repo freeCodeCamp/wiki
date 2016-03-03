@@ -1,5 +1,11 @@
 # Operations and Operators
 
+[Previous](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Python-Basics)
+
+[Home](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Python)
+
+[Next](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Python-More-Builtin-Types)
+
 ## Truth Value Testing
 
 [Python Docs - Truth Value Testing](https://docs.python.org/3/library/stdtypes.html#truth-value-testing)
@@ -208,3 +214,5 @@ for a complete list of code points with the `Nd` property.
 
 **TODO**
 * Add info about using `_` for previous output in interactive mode.
+
+We shall be covering a few more in-built types [next](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Python-More-Builtin-Types).
