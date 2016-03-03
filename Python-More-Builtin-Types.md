@@ -1,5 +1,11 @@
 # More Built-in Types
 
+[Previous](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Python-Operators)
+
+[Home](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Python)
+
+[Next](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Python-Functions)
+
 ## Containers
 
 Some objects contain references to other objects; these are called containers.
@@ -579,3 +585,5 @@ added**
 #### Examples:
 
 #### Uses:
+
+Next, we shall embark upon [Python-Functions](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Python-Functions)

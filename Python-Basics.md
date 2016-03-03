@@ -1,5 +1,11 @@
 # Python Basics
 
+[Previous](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Python-Introduction)
+
+[Home](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Python)
+
+[Next](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Python-Operators)
+
 ## Objects
 
 > In Python, everything is an *object*.
@@ -708,4 +714,4 @@ Here are a few things to keep in mind:
 >>> id(b)       # b is still bound to the original object.
 140355241530152
 ```
-
+Now that we have covered the basics, it's time to discuss [Python Operators](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Python-Operators)

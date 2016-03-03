@@ -1,5 +1,10 @@
 # Setting Up Python Web-framework: Django and Flask
 
+[Previous](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Web-Development-in-Python)
+
+[Home](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Python)
+
+
 In this article, we shall be discussing how to install [Django](https://www.djangoproject.com/) and [Flask](http://flask.pocoo.org/) - two popular web frameworks written in Python.
 
 Perhaps you are already familiar with the widespread usage and community support for Python; in web-development. You might as well be aware as to what a web framework is; and the options available for Python.
