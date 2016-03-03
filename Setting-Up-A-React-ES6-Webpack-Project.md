@@ -224,6 +224,7 @@ To explain what is going on in this file, we'll break it down:
 There's still one more file left to write before our project is ready. It's the Webpack configuration file. At first, `webpack.config.js` files can be confusing to look at, but often, they're not as complex as they seem.
 
 In this case, at its most basic, a `webpack.config.js` exports an object that has the following properties:
+
 | Property | Role |
 | --- | --- |
 | entry | What goes in: the entry point of the app. In this case, it's `src/js/client.js`. |
