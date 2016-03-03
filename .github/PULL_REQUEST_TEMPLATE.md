@@ -24,9 +24,9 @@ Ensure that you use markdown syntax for articles, we do not accept `HTML` or `CS
 
 **Commits and Squashing:**
 - Your Pull Request/Submission should contain one single commit.
-- For multiple commits follow the [guide to squash them](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/git-rebase#squashing-multiple-commits-into-one).
-- If you are new to contributing, you can [use the browser](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Guide-Online-Contribution) and we will squash multiple commits for you, if requested.
-- However, for more control over the pull request we advise you [use the local method](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/How-To-Contribute-To-The-Wiki) and squash the commits yourself.
+- For multiple commits follow the [guide to squash them](git-rebase#squashing-multiple-commits-into-one).
+- If you are new to contributing, you can [use the browser](Guide-Online-Contribution) and we will squash multiple commits for you, if requested.
+- However, for more control over the pull request we advise you [use the local method](How-To-Contribute-To-The-Wiki) and squash the commits yourself.
 
 **Signing off:**
 - If we merge your pull request, your name will be automatically added to the document history on GitHub, and the repo's contributors list.

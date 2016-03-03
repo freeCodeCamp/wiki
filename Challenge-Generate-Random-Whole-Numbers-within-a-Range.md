@@ -3,7 +3,7 @@
 
 `Math.floor(Math.random() * (max - min + 1)) + min`
 
-**See Also:** :scroll: [**Explanation**](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Challenge-Generate-Random-Whole-Numbers-within-a-Range#explanation) | [Explanation in SO](https://stackoverflow.com/questions/1527803/generating-random-numbers-in-javascript-in-a-specific-range/1527820#1527820)
+**See Also:** :scroll: [**Explanation**](Challenge-Generate-Random-Whole-Numbers-within-a-Range#explanation) | [Explanation in SO](https://stackoverflow.com/questions/1527803/generating-random-numbers-in-javascript-in-a-specific-range/1527820#1527820)
 
 ## Explanation
 > `Math.random()` creates a floating point number between `0` (inclusive) and `1` (exclusive)

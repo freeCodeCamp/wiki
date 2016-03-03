@@ -10,4 +10,4 @@ If you notice any inaccuracies or bad coding practices in this guide, please let
 I believe in you!
 -[clnhll](https://github.com/clnhll)
 
-[PREVIOUS](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Bonus-SocketIO)
+[PREVIOUS](Bonus-SocketIO)

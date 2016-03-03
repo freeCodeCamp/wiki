@@ -6,5 +6,5 @@ angular.module('myApp')
   .controller('MainCtrl', function ($scope, $http) { ...
 ~~~
 
-[PREVIOUS](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Frontend-file-structure)
-[NEXT](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Creating-a-new-directive)
+[PREVIOUS](Frontend-file-structure)
+[NEXT](Creating-a-new-directive)

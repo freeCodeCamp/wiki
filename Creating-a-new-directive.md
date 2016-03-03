@@ -8,5 +8,5 @@ And if you need an html template for your custom directive (maybe you’re just 
 <newdirective></newdirective>
 ~~~
 
-[PREVIOUS](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Creating-a-new-route)
-[NEXT](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Grunt)
+[PREVIOUS](Creating-a-new-route)
+[NEXT](Grunt)

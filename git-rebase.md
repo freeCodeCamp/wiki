@@ -1,4 +1,4 @@
-**Were you referred to this page to get your PR accepted? Scroll right [to the bottom](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/git-rebase#git-rebase-at-fcc) then!**
+**Were you referred to this page to get your PR accepted? Scroll right [to the bottom](git-rebase#git-rebase-at-fcc) then!**
 
 `git rebase` is an extremely useful tool that is all about rewriting git history, though most commonly used to *squash* multiple commits into one. While useful in this scenario, this is not the only function that the `git rebase` command can perform. It in fact proves to be far more useful when used for the intended function that its name suggests: to essentially *rebase* a branch. Let me explain what I mean by that.
 

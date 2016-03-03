@@ -19,7 +19,7 @@ Help Requests are not appropriate for Issues.  Do not provide code support in yo
 Confirm or validate the bug if possible.  Seek additional clarification or details if needed.  Once the issue has been reproduced or at least deemed legitimate, label it `confirmed`.
     * If it's a simple change to an existing challenge, flag as `help wanted` and, optionally, as `easy`.  Use other tags as appropriate.
     * If the issue is more significant, flag as `bug`
-    * [Label Usage Guide](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Select-Issues-for-Contributing-Using-Labels)
+    * [Label Usage Guide](Select-Issues-for-Contributing-Using-Labels)
 
     If there is a question as to the proper course of action on an issue, feel free to tag @FreeCodeCamp/issue-moderators to give an opinion.  Flag as `Discussing`.
 3. **Duplicate Issues**  

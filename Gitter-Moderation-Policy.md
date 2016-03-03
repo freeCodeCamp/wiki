@@ -2,7 +2,7 @@
 
 1) Moderators will ban the following people immediately:    
 Spammers    
-People who violate our [code of conduct](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Code-of-Conduct) (trolls)    
+People who violate our [code of conduct](Code-of-Conduct) (trolls)    
 People who come across as excessively negative    
 
 2) Moderators will then send them this message:

@@ -13,7 +13,7 @@
 
 Find javascript libraries at http://jster.net
 
-See Also: :loop: [**Quick JS**](https://github.com/freecodecamp/freecodecamp/wiki/js-resources#quick-js) | :watch: [**Challenges**](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/JS-Resources#challenges) | :wrench: [**Exercises**](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/JS-Resources#exercises) | :clipboard: [Editors](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/JS-Resources#editors) | :newspaper: [Blogs](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/JS-Resources#blogs) | :books: [Books](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/JS-Resources#books)
+See Also: :loop: [**Quick JS**](https://github.com/freecodecamp/freecodecamp/wiki/js-resources#quick-js) | :watch: [**Challenges**](JS-Resources#challenges) | :wrench: [**Exercises**](JS-Resources#exercises) | :clipboard: [Editors](JS-Resources#editors) | :newspaper: [Blogs](JS-Resources#blogs) | :books: [Books](JS-Resources#books)
 
 ## []()
 
@@ -21,7 +21,7 @@ See Also: :loop: [**Quick JS**](https://github.com/freecodecamp/freecodecamp/wik
 - [REPL](https://repl.it/languages/Javascript) ([*node*](https://repl.it/languages/iojs/))
 - [JSBin](http://jsbin.com)
 - [CodePen](http://codepen.io)
-- [CoderPad (*pair programming*)](http://coderpad.io) ([*Get Demo access forever*](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/JS-Resources#coderpad-demo-access-forever) :smile: )
+- [CoderPad (*pair programming*)](http://coderpad.io) ([*Get Demo access forever*](JS-Resources#coderpad-demo-access-forever) :smile: )
 - [C9 (*IDE*, *pair programming*)](http://c9.io)
 - [Object Playground (*visualize objects*)](http://www.objectplayground.com/)
 - [Plunker](http://plnkr.co)

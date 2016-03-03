@@ -53,7 +53,7 @@ Always delete the branch after the pull request has been merged or closed. There
 _Figure 1f_ ![Delete Branch](http://i.imgur.com/vePGN3Y.png)
 
 ### 2. New Pull Request Button
-This is used to create [pull requests](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/How-To-Create-A-Pull-Request-for-Free-Code-Camp) from files that are already in existing branches, not really for adding new files. So if you are looking to add new files then check the other options. It will look like this:
+This is used to create [pull requests](How-To-Create-A-Pull-Request-for-Free-Code-Camp) from files that are already in existing branches, not really for adding new files. So if you are looking to add new files then check the other options. It will look like this:
 - _Figure 2a_ ![PR Button](http://i.imgur.com/WryvU3P.png)
 
 You will have to select the **base** branch which and then select the branch you want to submit a pull request against to. This means your changes are already on the branch and for some reason you did not submit the pull request before. Because of **write access** being required regular users should not be able to create new branches on the repository.
@@ -66,7 +66,7 @@ If you want to use a fork instead of a branch then you will click the link and g
 
 Going back to _Figure 2b_ you will note that you get information like the base branch, the branch with your changes, and how many commits there are along with file changes. From there it's the same as the tutorial for uploading files, please see _Figures 1b_ and onwards with the details that come along with it. But basically you just fill out the details and submit the pull request.
 
-However, something new is the fact that you can **Assign** people, usually contributors with the **Assignee** Option on the far right side of _Figure 2b_. Above it, you will select the milestone for the pull request if any, and above that, select the labels that would fit your pull request. These are all optional though. If you want to learn more about labels then check [this article.](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Select-Issues-for-Contributing-Using-Labels)
+However, something new is the fact that you can **Assign** people, usually contributors with the **Assignee** Option on the far right side of _Figure 2b_. Above it, you will select the milestone for the pull request if any, and above that, select the labels that would fit your pull request. These are all optional though. If you want to learn more about labels then check [this article.](Select-Issues-for-Contributing-Using-Labels)
 
 ### 3. New File Button
 This is the option to choose if you want to directly create your files and submit a pull request from the browser. Unlike the **New Pull Request** button, this option allows you to create new files.
@@ -95,4 +95,4 @@ Besides creating new files, you might also need to edit existing ones for which 
   - Deleting the file is very similar, just add the details for the pull request information.
     - _Figure 4c_ ![Delete PR](http://i.imgur.com/WQCCsre.png)
 
-If you have any further questions feel free to come over the Gitter chat and ask for help, see the [list](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Official-Free-Code-Camp-Chat-Rooms) or if you need help with the wiki the visit the [room.](https://gitter.im/FreeCodeCamp/Wiki)
+If you have any further questions feel free to come over the Gitter chat and ask for help, see the [list](Official-Free-Code-Camp-Chat-Rooms) or if you need help with the wiki the visit the [room.](https://gitter.im/FreeCodeCamp/Wiki)

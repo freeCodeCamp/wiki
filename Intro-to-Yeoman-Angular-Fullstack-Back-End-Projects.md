@@ -4,6 +4,6 @@ Yeoman is a tool that allows you to generate barebones apps based on different s
 
 Once you've completed the Challenge: Get Set for Back End Projects, use this guide to navigate the base structure of your new app and learn how to interact with the database as well as the user.
 
-[NEXT](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Guide-to-Back-End-Projects-Table-of-Contents)
+[NEXT](Guide-to-Back-End-Projects-Table-of-Contents)
 
 Sourced from ([https://github.com/clnhll/guidetobasejumps](https://github.com/clnhll/guidetobasejumps)) with permission.

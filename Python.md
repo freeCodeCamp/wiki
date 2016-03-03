@@ -16,14 +16,14 @@ Python is so wide-spread in its use, that most Linux and OSX distros come pre-in
 
 Python is used in data science, machine learning, and especially, web development.
 
-To get more familiar with Python, [start here](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Python-Introduction)
+To get more familiar with Python, [start here](Python-Introduction)
 
 If you are looking for something specific in Python, pick from this list of resources:
 
-- [Introduction](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Python-Introduction)
-- [Basics](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Python-Basics)
-- [Operators](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Python-Operators)
-- [More Built-in Types](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Python-More-Builtin-Types)
-- [Functions](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Python-Functions)
-- [Web-development in Python](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Web-Development-in-Python)
-- [Installing Django and Flask](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Install-Django-Flask)
+- [Introduction](Python-Introduction)
+- [Basics](Python-Basics)
+- [Operators](Python-Operators)
+- [More Built-in Types](Python-More-Builtin-Types)
+- [Functions](Python-Functions)
+- [Web-development in Python](Web-Development-in-Python)
+- [Installing Django and Flask](Install-Django-Flask)

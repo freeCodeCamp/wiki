@@ -1,10 +1,10 @@
 # Functions
 
-[Previous](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Python-Operators)
+[Previous](Python-Operators)
 
-[Home](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Python)
+[Home](Python)
 
-[Next](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Web-Development-in-Python)
+[Next](Web-Development-in-Python)
 
 
 Functions are a way to organize code into reusable blocks. As a reminder, functions in Python are "first class objects."
@@ -230,4 +230,4 @@ NameError: name 'inside_fn' is not defined
 
 [Python Docs - Decorators](https://docs.python.org/3/whatsnew/2.4.html?highlight=decorator)
 
-Now that we have covered basics of Python, let us apply Python in [Web Development](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Web-Development-in-Python)!
+Now that we have covered basics of Python, let us apply Python in [Web Development](Web-Development-in-Python)!

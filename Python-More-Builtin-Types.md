@@ -1,10 +1,10 @@
 # More Built-in Types
 
-[Previous](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Python-Operators)
+[Previous](Python-Operators)
 
-[Home](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Python)
+[Home](Python)
 
-[Next](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Python-Functions)
+[Next](Python-Functions)
 
 ## Containers
 
@@ -586,4 +586,4 @@ added**
 
 #### Uses:
 
-Next, we shall embark upon [Python-Functions](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Python-Functions)
+Next, we shall embark upon [Python-Functions](Python-Functions)
