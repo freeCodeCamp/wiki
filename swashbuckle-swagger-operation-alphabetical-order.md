@@ -30,7 +30,7 @@ namespace YourNamespace.Swagger.Extensions
 
         private static void AddControllerDescriptions(SwaggerDocument swaggerDoc, System.Web.Http.Description.IApiExplorer apiExplorer)
         {
-            var doc = new PortalWebAPI.Areas.HelpPage.XmlDocumentationProvider(GetXmlCommentsPath());
+            var doc = new YourPortal.Areas.HelpPage.XmlDocumentationProvider(GetXmlCommentsPath());
 
             List<Tag> lst = new List<Tag>();
             var desc = apiExplorer.ApiDescriptions;
