@@ -28,6 +28,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Bellingham](https://www.facebook.com/groups/free.code.camp.bellingham/)
   - [Brisbane](https://www.facebook.com/groups/free.code.camp.brisbane/)
   - [Canberra](https://www.facebook.com/groups/free.code.camp.canberra/)
+  - [Geelong](https://www.facebook.com/groups/free.code.camp.Geelong.Australia/)
   - [Gold Coast](https://www.facebook.com/groups/free.code.camp.Gold.Coast/)
   - [Hobart](https://www.facebook.com/groups/free.code.camp.hobart/)
   - [Ipswich](https://www.facebook.com/groups/free.code.camp.ipswich.qld/)
@@ -309,6 +310,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Marseille](http://facebook.com/groups/free.code.camp.marseille)
   - [Montpellier](https://www.facebook.com/groups/free.code.camp.montpellier/)
   - [Nantes](https://www.facebook.com/groups/free.code.camp.nantes/)
+  - [Nice](https://www.facebook.com/groups/Free.Code.Camp.Nice/)
   - [Paris](https://www.facebook.com/groups/free.code.camp.paris/)
   - [Poitiers](https://www.facebook.com/groups/free.code.camp.poitiers/)
   - [Toulouse](https://www.facebook.com/groups/free.code.camp.toulouse/)
@@ -742,6 +744,8 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Dundee](https://www.facebook.com/groups/free.code.camp.dundee/) 
   - [Edinburgh](https://www.facebook.com/groups/free.code.camp.edinburgh/)
   - [Glasgow](https://www.facebook.com/groups/free.code.camp.glasgow/)      
+- Senegal
+  - [Dakar](https://www.facebook.com/groups/free.code.camp.dakar.sn/) 
 - Serbia
   - [Belgrade](https://www.facebook.com/groups/free.code.camp.belgrade/)
   - [Krusevac](https://www.facebook.com/groups/free.code.camp.krusevac/)
@@ -890,6 +894,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - California
     - [Alameda](https://www.facebook.com/groups/free.code.camp.berkeley/)
     - [Arcadia](https://www.facebook.com/groups/free.code.camp.arcadia)
+    - [Arcata](https://www.facebook.com/groups/free.code.camp.arcata.california/)
     - [Bakersfield](https://www.facebook.com/groups/free.code.camp.bakersfield.california/)
     - [Berkeley](https://www.facebook.com/groups/free.code.camp.berkeley/)
     - [Cathedral City](https://www.facebook.com/groups/free.code.camp.cathedral.city/)
@@ -937,6 +942,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Temecula](https://www.facebook.com/groups/free.code.camp.temecula/)
     - [Turlock](https://www.facebook.com/groups/free.code.camp.turlock/)
     - [Tustin](https://www.facebook.com/groups/free.code.camp.tustin/)
+    - [Visalia](https://www.facebook.com/groups/free.code.camp.visalia/)
     - [Yreka](http://www.facebook.com/groups/Free.Code.Camp.Yreka)
   - Colorado
     - [Boulder](https://www.facebook.com/groups/free.code.camp.boulder/)
@@ -999,6 +1005,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Champaign-Urbana](https://www.facebook.com/groups/free.code.camp.champaign.urbana/)
     - [Chicago](https://www.facebook.com/groups/free.code.camp.chicago/)
     - [Macomb](https://www.facebook.com/groups/free.code.camp.macomb.il/)
+    - [Naperville](https://www.facebook.com/groups/free.code.camp.naperville)
     - [Peoria](https://www.facebook.com/groups/free.code.camp.Peoria/)
     - [Sterling](https://www.facebook.com/groups/free.code.camp.Sterling.IL/)
     - [Quad Cities](https://www.facebook.com/groups/free.code.camp.quadcities/)
