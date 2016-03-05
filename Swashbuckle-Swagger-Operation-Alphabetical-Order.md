@@ -50,8 +50,7 @@ namespace YourNamespace.Swagger.Extensions
         }
         private static string GetXmlCommentsPath()
         {
-            //return System.Web.HttpContext.Current.Server.MapPath("~/App_Data/PortalWebAPI.XML");
-            return System.Web.Hosting.HostingEnvironment.MapPath("~/App_Data/PortalWebAPI.xml");
+            return System.Web.Hosting.HostingEnvironment.MapPath("~/App_Data/YourPortal.xml");
         }
     }
 }
