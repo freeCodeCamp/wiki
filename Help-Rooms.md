@@ -13,6 +13,7 @@
 - Elixir - [**`[FreeCodeCamp/Elixir]`**](https://gitter.im/FreeCodeCamp/elixir)
 - Linux - [**`[FreeCodeCamp/Linux]`**](https://gitter.im/FreeCodeCamp/linux)
 - SQL and Relational Databases - [**`[FreeCodeCamp/SQL]`**](https://gitter.im/FreeCodeCamp/SQL)
+- .Net - [**`[FreeCodeCamp/DotNet]`**](https://gitter.im/FreeCodeCamp/dotnet)
 - Non-profit Projects - [**`[FreeCodeCamp/NonprofitProjects]`**](https://gitter.im/FreeCodeCamp/NonprofitProjects)
 - Code Review - [**`[FreeCodeCamp/CodeReview]`**](https://gitter.im/FreeCodeCamp/CodeReview)
 - You Can Do This -  [**`[FreeCodeCamp/YouCanDoThis]`**](https://gitter.im/FreeCodeCamp/YouCanDoThis)
