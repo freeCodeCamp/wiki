@@ -59,7 +59,7 @@ drop([1, 2, 3, 4], function(n) {return n >= 3;});
 ## Code Solution 3:
 ```js
 function drop(arr, func) {
-  while(!func(arr[0])){
+  while(!func(arr[0]) && arr[0] != undefined){
     arr.shift();
   }
   return arr;
@@ -69,10 +69,10 @@ drop([1, 2, 3], function(n) {return n < 3; });
 ```
 
 # Code Explanation
-- Use a while loop with `Array.shift()` to continue checking and dropping the first element of the array until the function returns true.
-- Return the trimmed array.
+- Use a while loop with `Array.shift()` to continue checking and dropping the first element of the array until the function returns true. Return the trimmed array.
+- If none of the elements of the array return true, the array empties. When that happens, `!func(undefined)` returns `true` creating an infinite loop. To prevent this, check if there is a first element with `arr[0] != undefined`.
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 @sabahang for your help with Algorithm: Drop it`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 @sabahang @danielcodes for your help with Algorithm: Drop it`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
