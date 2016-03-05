@@ -39,7 +39,7 @@ The first thing to do is open our terminal/command line. We need to install Webp
 - [Help: More about installing Node Modules globally](https://docs.npmjs.com/getting-started/installing-npm-packages-globally)
 
 ```
-npm install webpack –g && npm install webpack-dev-server -g
+npm install webpack webpack-dev-server -g
 ```
 
 Installing these modules globally means that we can refer to use their respective command line interfaces in the terminal. Installing Webpack allows us to run `webpack` from the terminal to execute a Webpack script. Installing Webpack Dev Server allows us to run a localhost server using our Webpack configuration. This will all become clear a little later.
@@ -486,7 +486,7 @@ In the next tutorial we will cover some more advanced steps, including:
 
 Here is a list of all the instructions mentioned in this tutorial.
 
-- `npm install webpack –g && npm install webpack-dev-server -g`
+- `npm install webpack webpack-dev-server -g`
 - `mkdir react-webpack-example && cd $_`
 - `touch webpack.config.js`
 - `npm init`
