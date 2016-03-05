@@ -1,10 +1,10 @@
 # FreeCodeCamp - Wiki Pull Request Template
 
-----
+--------------------------------------------------------------------------------
 
 PLEASE REMOVE THIS WHOLE TEMPLATE BEFORE YOU SUBMIT YOUR PULL REQUEST
 
-----
+--------------------------------------------------------------------------------
 
 Make sure your contribution addresses the points mentioned below:
 
@@ -14,7 +14,7 @@ Make sure your contribution addresses the points mentioned below:
 - Filenames should have the `.md` extension.
 - Filenames should follow a Start-Case format (i.e. Every single word starts with a capital). It is mandatory to follow this convention.
 
-    *e.g.*``Proper-Title-For-An-Article.md``
+    _e.g._`Proper-Title-For-An-Article.md`
 
 **Formatting:**
 
@@ -25,6 +25,7 @@ Ensure that you use markdown syntax for articles, we do not accept `HTML` or `CS
 **Commits and Squashing:**
 - Your Pull Request/Submission should contain one single commit.
 - For multiple commits follow the [guide to squash them](git-rebase#squashing-multiple-commits-into-one).
+- Write a [proper commit message](Writing-great-git-commit-message).
 - If you are new to contributing, you can [use the browser](Guide-Online-Contribution) and we will squash multiple commits for you, if requested.
 - However, for more control over the pull request we advise you [use the local method](How-To-Contribute-To-The-Wiki) and squash the commits yourself.
 
@@ -34,9 +35,8 @@ Ensure that you use markdown syntax for articles, we do not accept `HTML` or `CS
 
 Add `closes #XXXX` in your comment to auto-close any corresponding issue (if applicable), and only if your Pull Request is addressing said issue COMPLETELY; else, just leave a comment with the Pull Request number at the original issue.
 
-
-----
+--------------------------------------------------------------------------------
 
 REMEMBER TO REMOVE THIS WHOLE TEMPLATE BEFORE YOU SUBMIT YOUR PULL REQUEST
 
-----
+--------------------------------------------------------------------------------
