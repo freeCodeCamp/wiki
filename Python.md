@@ -27,3 +27,4 @@ If you are looking for something specific in Python, pick from this list of reso
 - [Functions](Python-Functions)
 - [Web-development in Python](Web-Development-in-Python)
 - [Installing Django and Flask](Install-Django-Flask)
+- [More Python Resources](Python-Resources)
