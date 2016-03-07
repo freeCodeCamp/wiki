@@ -1,12 +1,6 @@
 In CSS, selectors are patterns used to select DOM elements.
 
-Examples of selectors are `a` or `h1` in:
-```css
-a { color: black; }
-h1 { font-size 24px; }
-```
-
-or in:
+Here is an example of using selectors. In the following code, `a` and `h1` are selectors:
 
 ```css
 a {
@@ -21,28 +15,44 @@ h1 {
 
 | Selector | Selects |
 |---|---|---|
-| `head` | element with the 'head' tag |
-| `.red` | element with the 'red' class |
-| `#nav` | element with the 'nav' ID |
-| `div#container` | all divs with the 'container' ID |
-| `*` | all DOM elements |
+| `head` | selects the element with the 'head' tag |
+| `.red` | selects all elements with the 'red' class |
+| `#nav` | selects the elements with the 'nav' Id |
+| `div.row` | selects all elements with the div tag and the 'row' class |
+| `*` | Wildcard selector. Selects all DOM elements. See bellow for using it with other selectors |
 
-Selectors can be combined in interesting ways like:
+We can combine selectors in interesting ways. Some examples:
 
 | Selectors | Select |
 |---|---|---|
 | `li a` | DOM descendant selector. All aa's tags that are child of li tags |
-| `li > a` | Difference selector. Select only direct descendants, an not all of them like the descendant selectors |
-| `li + a` | The adjacent selector. It only selects the element that is immediately preceded by the former element. In this case, only the first `a` after each `li`. |
-| `a:link` | `link` pseudo-class selects all links that have not been clicked yet |
-| `a:hover` | `hover` pseudo-class selects a link that is being hovered by a mouse pointer |
-| `a:active` | `active` pseudo-class selects a link that is being clicked by a mouse pointer |
-| `a:visited` | `visited` pseudo-class selects a link that has already been clicked |
+| `div.row *` | selects all elements that are descendant (or child) of the elements with div tag and 'row' class |
+| `li > a` | Difference selector. Select direct descendants, instead of all descendants like the descendant selectors |
+| `li + a` | The adjacent selector. It selects the element that is immediately preceded by the former element. In this case, only the first `a` after each `li`. |
+
+Pseudo-selectors or pseudo structural classes are also useful for selecting structural elements from the DOM. Here are some of them:
+
+| Selectors | Select |
+|---|---|---|
+| `:first-child` | Target the first element immediately inside (or child of) another element |
+| `:last-child` | Target the last element immediately inside (or child of) another element |
+| `:nth-child()` |  Target the nth element immediately inside (or child of) another element. Admits integers, `even`, odd` or formulas |
+| `:not()` | Target elements that are not the argument |
+| `::after` | Allows inserting content onto a page from CSS, instead of HTML. While the end result is not actually in the DOM, it appears on the page as if it is. |
+
+We can use pseudo-elements to define a special state of an element of the DOM but don't point to an element by themselves . Some examples:
+
+| Pseudo-elements | Selects |
+|---|---|---|
+| `:link` | `link` pseudo-class selects all links that have not been clicked yet |
+| `:hover` | `hover` pseudo-class selects a link that is being hovered by a mouse pointer |
+| `:active` | `active` pseudo-class selects a link that is being clicked by a mouse pointer |
+| `:visited` | `visited` pseudo-class selects a link that has already been clicked |
 
 ## Games
 [CSS Diner](http://flukeout.github.io) is a web game that teaches almost everything there is to know about combining selectors.
 
 ## this is a stub entry!
-please read up on this stuff from cheat sheets around the web and edit/complete this document!
+Please read this article up from cheat sheets around the web and edit/complete this document!
 
-[Great Reference at CodeTuts](http://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
+Additional high quality reference at [CodeTuts](http://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048) and at [CSS-tricks.com](https://css-tricks.com/almanac/selectors/).
