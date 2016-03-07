@@ -575,6 +575,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Santiago de Querétaro](https://www.facebook.com/groups/free.code.camp.santiago.de.queretaro/)
   - [Tapachula](https://www.facebook.com/groups/free.code.camp.tapachula/)
   - [Tijuana](https://www.facebook.com/groups/free.code.camp.tijuana/)
+  - [Torreón](https://www.facebook.com/groups/free.code.camp.torreon/)
   - [Tuxtla Gutiérrez](https://www.facebook.com/groups/free.code.camp.tuxtla.gutierrez/)  
   - [Villahermosa](https://www.facebook.com/groups/free.code.camp.tabasco/)
   - [Zacatecas](https://www.facebook.com/groups/free.code.camp.zacatecas/)
@@ -948,6 +949,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Oakland](https://www.facebook.com/groups/free.code.camp.berkeley/)
     - [Orange County](https://www.facebook.com/groups/free.code.camp.orange.county/)
     - [Pasadena](https://www.facebook.com/groups/free.code.camp.pasadena.ca/)
+    - [Redwood city](https://www.facebook.com/groups/free.code.camp.redwood.city/) 
     - [Riverside](https://www.facebook.com/groups/free.code.camp.riverside.ca/)
     - [Sacramento](https://www.facebook.com/groups/free.code.camp.sacramento/)
     - [Salinas](https://www.facebook.com/groups/free.code.camp.salinas.valley/)
@@ -1052,6 +1054,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Lawrence](https://www.facebook.com/groups/free.code.camp.lawrence)
     - [Wichita](https://www.facebook.com/groups/free.code.camp.wichita/)
   - Kentucky
+    - [Berea](https://www.facebook.com/groups/free.code.camp.berea.kentucky/)
     - [Bowling Green](https://www.facebook.com/groups/free.code.camp.BG.kentucky/)
     - [Frankfort](https://www.facebook.com/groups/free.code.camp.frankfort.kentucky/)
     - [Lexington](https://www.facebook.com/groups/free.code.camp.lexington/)
@@ -1080,6 +1083,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - Massachusetts
     - [Boston](https://www.facebook.com/groups/free.code.camp.boston/)
     - [Cape Cod](https://www.facebook.com/groups/free.code.camp.cape.cod/)
+    - [Lexington](https://www.facebook.com/groups/free.code.camp.lexington.ma/)
     - [Northampton](https://www.facebook.com/groups/free.code.camp.northampton.mass/)
     - [Pepperell](https://www.facebook.com/groups/free.code.camp.pepperell.ma/)
   - Michigan
@@ -1297,6 +1301,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
 - Uzbekistan
   - [Tashkent](https://www.facebook.com/groups/free.code.camp.tashkent/)
 - Venezuela
+  - [Acarigua](https://www.facebook.com/groups/free.code.camp.acarigua/)
   - [Barquisimeto](https://www.facebook.com/groups/free.code.camp.barquisimeto/)
   - [Caracas](https://www.facebook.com/groups/free.code.camp.caracas/)
   - [Coro](https://www.facebook.com/groups/free.code.camp.coro)
