@@ -14,7 +14,7 @@ It's easy, just follow these steps:
 <br>
 - Set the group name as "Free Code Camp" plus the proper name of your city.<br>Avoid using slang terms such as "Philly" for "Philadelphia". If your city is not the biggest city that uses its name, also include the state or province. For example, the Free Code Camp group in Paris, France should be called "Free Code Camp Paris". The Free Code Camp group in Paris, Texas should be called "Free Code Camp Paris, Texas".<br>If you are in North America, we suggest you add the initials of your state/province here.
 - Set your group to public. 
-- You'll need to add at least one friend from your city to this group in order to create the group. 
+- You'll need to add at least one person in order to create the group. Add [Justin](https://www.facebook.com/FCC.campsiteCounsellor)!, you can do so by using his email `fcc.campsitecounsellor@facebook.com`.
 
 ![A screenshot of the Facebook group creation modal saying that your group name should be Free Code Camp plus your city name, that your group should be public, and that you need to invite at least one Facebook friend.](https://www.evernote.com/shard/s116/sh/4ed3197c-db1b-4103-a040-b42482ad232a/6c34948ebe12c57f0b7a54d7b2222ab3/deep/0/Facebook.png)
 
