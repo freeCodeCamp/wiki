@@ -114,12 +114,16 @@ the driver [here](https://sites.google.com/a/chromium.org/chromedriver/downloads
 and follow [this stack overflow question](http://stackoverflow.com/questions/13724778/how-to-run-selenium-webdriver-test-cases-in-chrome).
 Firefox has had historically better performance than chrome when running
 integration tests, which is a very important consideration since compared to
-unit tests, integration tests are extremely slow. This is because integration
-tests are testing the entire system, rather than 'units' (small components). In
-the real world, sometimes its best to avoid integration tests because of the
+unit tests, integration tests are extremely slow. 
+
+This is because integration
+tests are testing the **entire** system, rather than 'units' (small components). In
+the real world, sometimes it's best to avoid integration tests because of the
 long development time to create them, slow run time, ambiguous errors, and
-other reasons. They are still worth consideration when developing a real world
-app, and can be very useful despite the downsides. 
+other reasons you would discover in time. 
+
+However, they are still worth our consideration when developing a real world
+app, and can be very useful in terms of reliability despite the performance downsides. 
 
 Next, we need to install a package called [Selenium](http://selenium.googlecode.com/svn/trunk/docs/api/py/index.html). This package will provide
 us with a WebDriver so we can control a browser with our tests. Selenium is
