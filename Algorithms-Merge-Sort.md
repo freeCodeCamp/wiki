@@ -8,7 +8,7 @@ To learn about Merge Sort, a basic knowledge about Recursion is a pre-requisite.
 - Sort the left half and the right half using the same recurring algorithm.
 - Merge the sorted halves.
 
-The biggest advantage of using Merge sort is that it takes only n*log(n) steps to sort an entire Array. It is a lot better than n^2 running time of bubble sort or insertion sort.
+The biggest advantage of using Merge sort is that the [time complexity](https://www.youtube.com/watch?v=V42FBiohc6c&list=PL2_aWCzGMAwI9HK8YPVBjElbLbI3ufctn) is only n*log(n) to sort an entire Array. It is a lot better than n^2 running time of bubble sort or insertion sort.
 Before we write the JavaScript code, let us understand how merge sort works with the help of a diagram.
 
 ![alt tag] (http://i67.tinypic.com/2ahe49y.png)
@@ -41,7 +41,7 @@ function merge (a,b) {
     }
     
 ```
-When we merge the two halfs, we store the result in an auxilliary array. We will compare the starting element of left array to the starting element of right array. Whichever is lesser will be pushed into the results array and we will remove it from there respective arrays using shift() operator. If we still end up with values in either of left or right array, we would simply concatenate it in the end of the result.
+When we merge the two halfs, we store the result in an auxilliary array. We will compare the starting element of left array to the starting element of right array. Whichever is lesser will be pushed into the results array and we will remove it from there respective arrays using [shift() operator](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-Array-prototype-shift). If we still end up with values in either of left or right array, we would simply concatenate it in the end of the result.
 ```javascript
 var test = [5,6,7,3,1,3,15];
 console.log(mergeSort(test));
