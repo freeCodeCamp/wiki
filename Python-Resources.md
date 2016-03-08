@@ -1,6 +1,9 @@
 # Python Resources
 
 [Home](Python)
+[Tutorials](#tutorials)
+[Challenges](#challenges)
+[Community](#community)
 
 ## Tutorials
 
