@@ -363,11 +363,11 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Hong Kong](https://www.facebook.com/groups/free.code.camp.hk/)
 - Hungary
   - [Budapest](https://www.facebook.com/groups/free.code.camp.budapest/)
+  - [Szeged](https://www.facebook.com/groups/free.code.camp.szeged/)
 - Iceland
   - [Reykjavik](https://www.facebook.com/groups/free.code.camp.reykjavik/)
 - India
   - Andhra Pradesh
-    - [Anantapur](https://www.facebook.com/groups/free.code.camp.anantapur/)
     - [Bapatla](https://www.facebook.com/groups/free.code.camp.bapatla/)
     - [Guntur](https://www.facebook.com/groups/free.code.camp.guntur/)
     - [Tirupathi](https://www.facebook.com/groups/free.code.camp.tirupathi/)
