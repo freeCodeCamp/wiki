@@ -21,7 +21,7 @@ Before we write the JavaScript code, let us understand how merge sort works with
 
 Let's write MergeSort in JavaScript:
 
-```
+```javascript
 function mergeSort (arr) {    
   if (arr.length < 2) return arr;
   var mid = Math.floor(arr.length /2);
@@ -32,7 +32,7 @@ function mergeSort (arr) {
   
 ```
 First we check the length of the array. If it is 1 then we simply return the array. This would be our base case. Else, we will find out the middle value and divide the array into two halves. We will now sort both of the halves with recursive calls to MergeSort function. 
-```
+```javascript
 function merge (a,b) {
     var result = [];
     while (a.length >0 && b.length >0)
@@ -42,7 +42,7 @@ function merge (a,b) {
     
 ```
 When we merge the two halfs, we store the result in an auxilliary array. We will compare the starting element of left array to the starting element of right array. Whichever is lesser will be pushed into the results array and we will remove it from there respective arrays using shift() operator. If we still end up with values in either of left or right array, we would simply concatenate it in the end of the result.
-```
+```javascript
 var test = [5,6,7,3,1,3,15];
 console.log(mergeSort(test));
 
