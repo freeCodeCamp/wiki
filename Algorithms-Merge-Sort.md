@@ -2,7 +2,7 @@
 
 Most modern languages have an inbuilt sort() function which automatically sorts an input array or list. Did you ever wonder how the sort function actually works on the inside?. Knowing common sorting algorithms and their implementations is the most important part of a coding interview. In this series of articles, we will look at several important sorting algorithms. How they are implemented, the time and space complexity etc. Our very first post is on Merge Sort.
 
-To learn about Merge Sort, a basic knowledge about Recursion is a pre-requisite. Merge Sort is based on the principle of Divide and Conquer. The whole process of sorting an array of N integers can be summarized into three steps-
+To learn about Merge Sort, a basic knowledge about [Recursion](http://programmers.stackexchange.com/questions/25052/in-plain-english-what-is-recursion) is a pre-requisite. Merge Sort is based on the principle of Divide and Conquer. The whole process of sorting an array of N integers can be summarized into three steps-
 
 - Divide the array into two halves.
 - Sort the left half and the right half using the same recurring algorithm.
