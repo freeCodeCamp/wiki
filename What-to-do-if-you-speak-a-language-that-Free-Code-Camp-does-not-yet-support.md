@@ -30,8 +30,7 @@ or create one yourself and share it at the
 and at other places to invite more translators and reviewers that speak your 
 language.  
 
-We invite you to read some recommendations based on the spanish team experience:
-  https://github.com/vtamara/fcc_trad/blob/master/Recomendaciones.EN.md
+We invite you to read some [**recommendations**](https://github.com/vtamara/fcc_trad/blob/master/Recomendaciones.EN.md) based on the spanish team experience.
 
 Please adapt them to your team (we encourage you to translate them to make 
 it easier for people that speaks your language).
