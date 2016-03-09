@@ -4,6 +4,7 @@
 [Tutorials](#tutorials)
 [Challenges](#challenges)
 [Community](#community)
+[Blogs](#blogs)
 [Podcasts](#podcasts)
 [Courses](#courses)
 [Hosting](#hosting)
