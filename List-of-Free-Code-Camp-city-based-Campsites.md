@@ -19,6 +19,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Buenos Aires](https://www.facebook.com/groups/free.code.camp.buenos.aires/)
   - [Cordoba](https://www.facebook.com/groups/free.code.camp.cordoba/)
   - [La Plata](https://www.facebook.com/groups/free.code.camp.la.plata/)
+  - [Mendoza](https://www.facebook.com/groups/free.code.camp.mendoza/)
   - [Resistencia](https://www.facebook.com/groups/free.code.camp.resistencia/)
   - [Rosario](https://www.facebook.com/groups/free.code.camp.rosario/)
 - Armenia
@@ -170,6 +171,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [North York](https://www.facebook.com/groups/free.code.camp.north.york/)
     - [Ottawa](https://www.facebook.com/groups/free.code.camp.ottawa/)
     - [Owen Sound](https://www.facebook.com/groups/free.code.camp.owen.sound)
+    - [Peterborough](https://www.facebook.com/groups/free.code.camp.peterborough/)
     - [Scarborough](https://www.facebook.com/groups/free.code.camp.scarborough/)
     - [Toronto](https://www.facebook.com/groups/free.code.camp.to/)
   - Prince Edward Island
@@ -287,6 +289,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Telford](https://www.facebook.com/groups/free.code.camp.telford/)
   - [Warrington](https://www.facebook.com/groups/free.code.camp.warrington/)
   - [Wearside](https://www.facebook.com/groups/free.code.camp.sunderland.tyne.and.wear/)
+  - [Welwyn + Hatfield](https://www.facebook.com/groups/free.code.camp.welwyn.hatfield/)
   - [Worcester](https://www.facebook.com/groups/free.code.camp.worcester/)
   - [York](https://www.facebook.com/groups/free.code.camp.york/)
 - Estonia
@@ -301,6 +304,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Jyväskylä](https://www.facebook.com/groups/free.code.camp.jyvaskyla/)
   - [Kuopio](https://www.facebook.com/groups/free.code.camp.kuopio/)
   - [Lappeenranta](https://www.facebook.com/groups/free.code.camp.lappeenranta/)
+  - [Oulu](https://www.facebook.com/groups/free.code.camp.finland.oulu/)
   - [Tampere](https://www.facebook.com/groups/Free.Code.Camp.Tampere/)
   - [Turku](https://www.facebook.com/groups/free.code.camp.turku/)
   - [Vaasa](https://www.facebook.com/groups/free.code.camp.vaasa/)
@@ -495,6 +499,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Milan](https://www.facebook.com/groups/free.code.camp.milan/)
   - [Napoli](https://www.facebook.com/groups/free.code.camp.napoli)
   - [Palermo](https://www.facebook.com/groups/free.code.camp.palermo/)
+  - [Parma](https://www.facebook.com/groups/free.code.camp.parma/)
   - [Pavia](https://www.facebook.com/groups/free.code.camp.pavia)    
   - [Perugia](https://www.facebook.com/groups/free.code.camp.perugia.it/)
   - [Roma](https://www.facebook.com/groups/free.code.camp.roma/)
@@ -809,6 +814,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Fuengirola](https://www.facebook.com/groups/free.code.camp.fuengirola/)
   - [Jaén](https://www.facebook.com/groups/free.code.camp.jaen/)
   - [Madrid](https://www.facebook.com/groups/free.code.camp.madrid/)
+  - [Málaga](https://www.facebook.com/groups/free.code.camp.malaga/)
   - [Murcia](https://www.facebook.com/groups/free.code.camp.murcia/)
   - [Ourense](https://www.facebook.com/groups/free.code.camp.ourense/)
   - [Rojales](https://www.facebook.com/groups/free.code.camp.rojales/)
@@ -894,7 +900,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - Alabama
     - [Birmingham](https://www.facebook.com/groups/free.code.camp.oxford.al/)
     - [Enterprise](https://www.facebook.com/groups/free.code.camp.enterprise.alabama/)
-    - [Huntsville](https://www.facebook.com/groups/free.code.camp.huntsville/)
+    - [Huntsville](https://www.facebook.com/groups/free.code.camp.huntsville.al/)
     - [Montgomery](https://www.facebook.com/groups/free.code.camp.montgomery.alabama/)
     - [Tuscaloosa](https://www.facebook.com/groups/free.code.camp.tuscaloosa/)
   - Alaska
@@ -1061,6 +1067,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Lexington](https://www.facebook.com/groups/free.code.camp.lexington/)
     - [Louisville](https://www.facebook.com/groups/free.code.camp.louisville/)
     - [Manchester](https://www.facebook.com/groups/free.code.camp.manchester.kentucky/)
+    - [Paducah](https://www.facebook.com/groups/free.code.camp.paducah/)
   - Louisiana
     - [Baton Rouge](https://www.facebook.com/groups/free.code.camp.baton.rouge.louisiana/)
     - [Lafayette](https://www.facebook.com/groups/free.code.camp.lafayette/)
