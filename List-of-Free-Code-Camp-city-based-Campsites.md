@@ -402,6 +402,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - Himachal Pradesh
     - [Shimla](https://www.facebook.com/groups/free.code.camp.shimla/)
   - Jammu & Kashmir
+    - [Jammu](https://www.facebook.com/groups/free.code.camp.jammu1/)
     - [Srinagar](https://www.facebook.com/groups/free.code.camp.srinagar/)
   - Jharkhand
     - [Dhanbad](https://www.facebook.com/groups/free.code.camp.Dhanbad/)
@@ -555,6 +556,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Kuching](https://www.facebook.com/groups/free.code.camp.kuching/)
   - [Penang](https://www.facebook.com/groups/free.code.camp.penang/)
   - [Perlis](https://www.facebook.com/groups/free.code.camp.perlis.malaysia)
+  - [Taiping](https://www.facebook.com/groups/free.code.camp.taiping/)
 - Maldives
   - [Male](https://www.facebook.com/groups/freecodemv/)
 - Mauritius
@@ -650,7 +652,9 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Kristiansand](https://www.facebook.com/groups/free.code.camp.kristiansand/)
   - [Sandefjord](https://www.facebook.com/groups/Free.Code.Camp.Sandefjord/)
   - [Stavanger](https://www.facebook.com/groups/free.code.camp.stavanger/)  
-  - [Trondheim](https://www.facebook.com/groups/free.code.camp.trondheim/)  
+  - [Trondheim](https://www.facebook.com/groups/free.code.camp.trondheim/)
+- Oman
+  - [Muscat](https://www.facebook.com/groups/free.code.camp.muscat/)
 - Pakistan
   - [Bannu](https://www.facebook.com/groups/free.code.camp.bannu/) 
   - [Gujrat City](https://www.facebook.com/groups/free.code.camp.gujrat/)
@@ -1238,6 +1242,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Memphis](https://www.facebook.com/groups/free.code.camp.Memphis/)
     - [Nashville](https://www.facebook.com/groups/free.code.camp.nashville/)
   - Texas
+    - [Abilene](https://www.facebook.com/groups/free.code.camp.abilene/) 
     - [Amarillo](https://www.facebook.com/groups/freecodecampamarillotexas/)
     - [Austin](https://www.facebook.com/groups/free.code.camp.austin/)
     - [Bryan College Station](https://www.facebook.com/groups/free.code.camp.bryan.college.station/)
@@ -1288,6 +1293,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Port Orchard](https://www.facebook.com/groups/free.code.camp.port.orchard/)
     - [Redmond](https://www.facebook.com/groups/free.code.camp.redmond.wa/)
     - [Seattle](https://www.facebook.com/groups/free.code.camp.seattle/)
+    - [Shelton](https://www.facebook.com/groups/free.code.camp.shelton/)
     - [Spokane](https://www.facebook.com/groups/free.code.camp.spokane/)
     - [Tacoma](https://www.facebook.com/groups/free.code.camp.tacoma/)
     - [Tri-Cities](https://www.facebook.com/groups/free.code.camp.tricitieswa/)
