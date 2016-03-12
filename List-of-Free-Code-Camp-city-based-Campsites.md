@@ -15,6 +15,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
 - Angola
   - [Luanda](https://www.facebook.com/groups/free.code.camp.luanda/)
 - Argentina
+  - [Bahía Blanca](https://www.facebook.com/groups/freecodecampbahiablanca/) 
   - [Bariloche](https://www.facebook.com/groups/free.code.camp.bariloche/)
   - [Buenos Aires](https://www.facebook.com/groups/free.code.camp.buenos.aires/)
   - [Cordoba](https://www.facebook.com/groups/free.code.camp.cordoba/)
@@ -138,7 +139,8 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Dschang](https://www.facebook.com/groups/free.code.camp.dschang/)
 - Canada
   - Alberta
-    - [Calgary](https://www.facebook.com/groups/free.code.camp.calgary/)    
+    - [Calgary](https://www.facebook.com/groups/free.code.camp.calgary/)
+    - [Canmore](https://www.facebook.com/groups/free.code.camp.Canmore.Alberta/)
     - [Edmonton](https://www.facebook.com/groups/free.code.camp.edmonton/)
   - British Columbia
     - [Abbotsford](https://www.facebook.com/groups/free.code.camp.abbotsford/)
@@ -150,6 +152,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Prince George](https://www.facebook.com/groups/free.code.camp.princegeorge/)
     - [Surrey](https://www.facebook.com/groups/free.code.camp.surrey/)
     - [Vancouver](https://www.facebook.com/groups/free.code.camp.vancouver.bc.canada/)
+    - [Victoria](https://www.facebook.com/groups/free.code.camp.victoria.bc.canada/)
   - Manitoba
     - [Winnipeg](https://www.facebook.com/groups/free.code.camp.winnipeg/) 
   - New Brunswick
@@ -971,6 +974,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [San Jose](https://www.facebook.com/groups/free.code.camp.san.jose)
     - [San Luis Obispo](https://www.facebook.com/groups/free.code.camp.SLO/)
     - [Santa Barbara](https://www.facebook.com/groups/free.code.camp.santa.barbara/)
+    - [Santa Clara](https://www.facebook.com/groups/free.code.camp.santa.clara/)
     - [Santa Clarita](https://www.facebook.com/groups/free.code.camp.santa.clarita/)
     - [Santa Cruz](https://www.facebook.com/groups/free.code.camp.santa.cruz.california/)
     - [Santa Rosa](https://www.facebook.com/groups/free.code.camp.santa.rosa/)
