@@ -12,5 +12,5 @@ Here are some helpful links:
 
 [Jumpstart Your Campsite with Coffee-and-Code](http://blog.freecodecamp.com/2015/09/jump-start-your-local-campsite-with-coffee-and-code.html)
 
-[5 Steps to a Successful Meetup](5-Steps-to-organizing-a-successful-Campsite-event.)
+[5 Steps to a Successful Meetup](5-Steps-to-organizing-a-successful-Campsite-event)
 
