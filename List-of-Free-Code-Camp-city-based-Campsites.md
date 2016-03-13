@@ -811,6 +811,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Gwangju](https://www.facebook.com/groups/GwangjuCodeCano/)
   - [Jeonju](https://www.facebook.com/groups/free.code.camp.jeonju/)
   - [Seoul](https://www.facebook.com/groups/free.code.camp.seoul/)
+  - [Suwon](https://www.facebook.com/groups/free.code.camp.suwon/)
 - Spain
   - [Almeria](https://www.facebook.com/groups/free.code.camp.almeria/)
   - [Barcelona](https://www.facebook.com/groups/free.code.camp.barcelona/)
@@ -1324,6 +1325,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Caracas](https://www.facebook.com/groups/free.code.camp.caracas/)
   - [Coro](https://www.facebook.com/groups/free.code.camp.coro)
   - [Guacara](https://www.facebook.com/groups/free.code.camp.guacara/)
+  - [Maracay](https://www.facebook.com/groups/free.code.camp.maracay)
   - [Maturin](https://www.facebook.com/free.code.camp.maturin/)
   - [Merida](https://www.facebook.com/groups/free.code.camp.merida.venezuela/)
   - [Valencia](https://www.facebook.com/groups/free.code.camp.valencia.venezuela/)
