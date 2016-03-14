@@ -1,21 +1,29 @@
-# Problem Explanation:
-We need to take the string and reverse it, so if it originally reads 'hello', it will now read 'olleh'. We will need to split the string, and therefore we will be working with Arrays as well.
+:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](http://github.com/FreeCodeCamp/FreeCodeCamp/wiki/How-to-get-help-when-you-get-stuck) if you get stuck. Try to pair program. :busts_in_silhouette: Write your own code. :memo:
 
-## Hint: 1
-- Start by splitting the string by characters.
+# :checkered_flag: Problem Explanation:
+> We need to take the string and reverse it, so if it originally reads 'hello', it will now read 'olleh'. We will need to split the string, and therefore we will be working with Arrays as well.
 
-## Hint: 2
-- Look up the built in function to reverse a string.
+## :speech_balloon: Hint: 1
+> Start by splitting the string by characters.
 
-## Hint: 3
-- Do not forget to join the characters back together after you reverse them.
+*try to solve the problem now*
+
+## :speech_balloon: Hint: 2
+> Look up the built in function to reverse a string.
+
+*try to solve the problem now*
+
+## :speech_balloon: Hint: 3
+> Do not forget to join the characters back together after you reverse them.
+
+*try to solve the problem now*
 
 ## Spoiler Alert!
 [![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
 
 **Solution ahead!**
 
-## Code Solution:
+## :beginner: Basic Code Solution:
 
 ```js
 function reverseString(str) {
@@ -23,16 +31,24 @@ function reverseString(str) {
 }
 ```
 
-# Code Explanation:
-- Our goal is to take the input, `str`, and return it in reverse. Our first step is to split the string by characters using `split('')`. Notice that we don't leave anything in between the single quotes, this tells the function to split the string by each character.
+### Code Explanation:
+> - Our goal is to take the input, `str`, and return it in reverse. Our first step is to split the string by characters using `split('')`. Notice that we don't leave anything in between the single quotes, this tells the function to split the string by each character.
 
-- Using the `split()` function will turn our string into an array of characters, keep that in mind as we move forward.
+> - Using the `split()` function will turn our string into an array of characters, keep that in mind as we move forward.
 
-- Next we *chain* the `reverse()` function, which takes our array of characters and reverses them.
+> - Next we *chain* the `reverse()` function, which takes our array of characters and reverses them.
 
-- Finally, we *chain* `join('')` to put our characters back together into a string. Notice once again that we left no spaces in the argument for join, this makes sure that the array of characters is joined back together by each character.
+> - Finally, we *chain* `join('')` to put our characters back together into a string. Notice once again that we left no spaces in the argument for join, this makes sure that the array of characters is joined back together by each character.
 
-# Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 for your help with Algorithm: Reverse a String`**
+### :trophy: Credits:
+If you found this page useful, you may say thanks to the contributors by copying and pasting the following line in the main chat:
 
-> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
+**`Thanks @Rafase282 for your help with Algorithm: Reverse a String`**
+
+## :clipboard: NOTE TO CONTRIBUTORS:
+- :warning: **DO NOT** add solutions that are similar to any existing solutions. If you think it is ***similar but better***, then try to merge (or replace) the existing similar solution.
+- Add an explanation of your solution.
+- Categorize the solution in one of the following categories &mdash; **Basic**, **Intermediate** and **Advanced**. :traffic_light:
+- Please add your username only if you have added any **relevant main contents**. (:warning: ***DO NOT*** *remove any existing usernames*)
+
+> See :point_right: [**`Challenge Solution Template`**](Challenge-Solution-Template) for reference.
