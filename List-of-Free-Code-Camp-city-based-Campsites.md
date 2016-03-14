@@ -1,7 +1,6 @@
 If your city isn't listed here, you should [[create a Campsite for your city|How-to-create-a-Campsite-for-your-city]].
 
 [![Google Map of Campsites](google-campsites-map.png)](https://www.google.com/maps/d/u/0/embed?mid=zH0hxoM17_fk.kDBMlxfk0BZ8)
-
 [Edit Map](https://www.google.com/maps/d/edit?mid=zH0hxoM17_fk.kDBMlxfk0BZ8)
 
 - Afghanistan
@@ -256,6 +255,9 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Cairo](https://www.facebook.com/groups/free.code.camp.cairo/)
   - [Asyut](https://www.facebook.com/groups/free.code.camp.assiut/)
   - [Tanta](https://www.facebook.com/groups/free.code.camp.tanta/)
+- El Salvador
+  - [San Miguel](https://www.facebook.com/groups/free.code.camp.sv/)
+  - [San Salvador](https://www.facebook.com/groups/free.code.camp.san.salvador/) 
 - England
   - [Bedford](https://www.facebook.com/groups/free.code.camp.bedford/)
   - [Birmingham](https://www.facebook.com/groups/free.code.camp.birmingham.uk/)
@@ -281,6 +283,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Milton Keynes](https://www.facebook.com/groups/free.code.camp.milton.keynes/)
   - [Newcastle](https://www.facebook.com/groups/free.code.camp.newcastle/)
   - [Northampton](https://www.facebook.com/groups/free.code.camp.northampton/)
+  - [Norwich](https://www.facebook.com/groups/free.code.camp.norwich.england/)
   - [Nottingham](https://www.facebook.com/groups/free.code.camp.nottingham/)
   - [Reading](https://www.facebook.com/groups/free.code.camp.reading/)
   - [Salisbury](https://www.facebook.com/groups/free.code.camp.salisbury/)
@@ -509,8 +512,10 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Roma](https://www.facebook.com/groups/free.code.camp.roma/)
   - [Siena](https://www.facebook.com/groups/free.code.camp.siena/)
   - [Torino](https://www.facebook.com/groups/free.code.camp.torino/)
+  - [Venice](https://www.facebook.com/groups/free.code.camp.venice/)
 - Jamaica
   - [Kingston](https://www.facebook.com/groups/free.code.camp.kingston.jamaica/)
+  - [Montego Bay](https://www.facebook.com/groups/free.code.camp.montego.bay/)
 - Japan
   - [Osaka](https://www.facebook.com/groups/free.code.camp.osaka/)
   - [Sasebo](https://www.facebook.com/groups/free.code.camp.sasebo/)
@@ -769,9 +774,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
 - Rwanda
   - [Kigali](https://www.facebook.com/groups/free.code.camp.kigali/)
 - Saint Lucia
-  - [Castries](https://www.facebook.com/groups/free.code.camp.your.castries/) 
-- Salvador
-  - [San Salvador](https://www.facebook.com/groups/free.code.camp.san.salvador/)
+  - [Castries](https://www.facebook.com/groups/free.code.camp.your.castries/)
 - Saudi Arabia
   - [Damman](https://www.facebook.com/groups/free.code.camp.dammam/) 
   - [Jeddah](https://www.facebook.com/groups/freecodecamp.jeddah/)
@@ -818,7 +821,8 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Caceres](https://www.facebook.com/groups/free.code.camp.caceres/)
   - [Cadiz](https://www.facebook.com/groups/free.code.camp.cadiz/)
   - [Ciudad Real](https://www.facebook.com/groups/free.code.camp.ciudad.real/)
-  - [Gijon](https://www.facebook.com/groups/free.code.camp.gijon/)    
+  - [Córdoba](https://www.facebook.com/groups/free.code.camp.cordoba.spain/)
+  - [Gijón](https://www.facebook.com/groups/free.code.camp.gijon/)    
   - [Fuengirola](https://www.facebook.com/groups/free.code.camp.fuengirola/)
   - [Jaén](https://www.facebook.com/groups/free.code.camp.jaen/)
   - [Madrid](https://www.facebook.com/groups/free.code.camp.madrid/)
