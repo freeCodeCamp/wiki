@@ -12,7 +12,7 @@ Add the item onto the end of the array, then remove the first element of the arr
 
 The queue function should return the element that was removed.
 
-Remember to use [ Read-Search-Ask](http://github.com/FreeCodeCamp/freecodecamp/wiki/How-to-get-help-when-you-get-stuck) if you get stuck. Try to pair program. Write your own code.
+Remember to use [ Read-Search-Ask](How-to-get-help-when-you-get-stuck) if you get stuck. Try to pair program. Write your own code.
 
 ## Useful Links
 - [Challenge: Manipulate Arrays With push()](http://www.freecodecamp.com/challenges/manipulate-arrays-with-push)

@@ -3,7 +3,7 @@ The algorithm to convert from Celsius to Fahrenheit is the temperature in Celsiu
 
 You are given a variable `celsius` representing a temperature in Celsius. Create a variable `fahrenheit` and apply the algorithm to assign it the corresponding temperature in Fahrenheit.
 
-Remember to use [ Read-Search-Ask](http://github.com/FreeCodeCamp/freecodecamp/wiki/How-to-get-help-when-you-get-stuck) if you get stuck. Try to pair program. Write your own code.
+Remember to use [ Read-Search-Ask](How-to-get-help-when-you-get-stuck) if you get stuck. Try to pair program. Write your own code.
 
 ## Useful Links
 - [The Order of Operations: PEMDAS](http://www.purplemath.com/modules/orderops.htm)
