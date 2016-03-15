@@ -213,6 +213,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Bogota](https://www.facebook.com/groups/free.code.camp.bogota/)
   - [Bucaramanga](https://www.facebook.com/groups/free.code.camp.bucaramanga/)
   - [Cali](https://www.facebook.com/groups/free.code.camp.cali/)
+  - [Cartagena](https://www.facebook.com/groups/free.code.camp.cartagena/)
   - [Manizales](https://www.facebook.com/groups/free.code.camp.manizales/)
   - [Medellin](https://www.facebook.com/groups/free.code.camp.Medellin.col/)
   - [Pasto](https://www.facebook.com/groups/free.code.camp.pasto/)
@@ -699,7 +700,8 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Davao](https://www.facebook.com/groups/free.code.camp.davao/)
   - [Makati](https://www.facebook.com/groups/free.code.camp.makati/)
   - [Manila](https://www.facebook.com/groups/free.code.camp.manila/)
-  - [Quezon City](https://www.facebook.com/groups/free.code.camp.quezon.city/)    
+  - [Quezon City](https://www.facebook.com/groups/free.code.camp.quezon.city/)   
+  - [San Juan](https://www.facebook.com/groups/free.code.camp.san.juan.philippines/)
   - [Surigao](https://www.facebook.com/groups/free.code.camp.surigao/)
 - Poland
   - [Bialystok](https://www.facebook.com/groups/free.code.camp.bialystok/)
@@ -847,6 +849,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Lund](https://www.facebook.com/groups/free.code.camp.lund/)
   - [Malmö](https://www.facebook.com/groups/free.code.camp.malmo/)
   - [Stockholm](https://www.facebook.com/groups/free.code.camp.stockholm.sweden/)
+  - [Sundsvall](https://www.facebook.com/groups/free.code.camp.sundsvall/)
 - Switzerland
   - [Basel](https://www.facebook.com/groups/free.code.camp.basel/)
   - [Geneva](https://www.facebook.com/groups/free.code.camp.geneva/) 
