@@ -7,7 +7,7 @@ The first element in each sub-array should contain a string with the name of the
 
 There should be at least 5 sub-arrays in the list.
 
-Remember to use [ Read-Search-Ask](http://github.com/FreeCodeCamp/freecodecamp/wiki/How-to-get-help-when-you-get-stuck) if you get stuck. Try to pair program. Write your own code.
+Remember to use [ Read-Search-Ask](How-to-get-help-when-you-get-stuck) if you get stuck. Try to pair program. Write your own code.
 
 ## Useful Link
 - [Challenge: Nest one Array within Another Array](http://www.freecodecamp.com/challenges/nest-one-array-within-another-array)

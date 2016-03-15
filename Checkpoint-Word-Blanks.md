@@ -6,7 +6,7 @@ You will need to use string operators to build a new string, result, using the p
 
 You will also need to provide additional strings, which will not change, in between the provided words.
 
-Remember to use [ Read-Search-Ask](http://github.com/FreeCodeCamp/freecodecamp/wiki/How-to-get-help-when-you-get-stuck) if you get stuck. Try to pair program. Write your own code.
+Remember to use [ Read-Search-Ask](How-to-get-help-when-you-get-stuck) if you get stuck. Try to pair program. Write your own code.
 
 ## Useful Links
 - [Mad Libs](https://en.wikipedia.org/wiki/Mad_Libs)
