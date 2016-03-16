@@ -164,8 +164,33 @@ function inventory(curInv, newInv) {
 - Then we sort the array by the product name (`arr1[x][1]` holds the name)
 - Return the sorted array
 - For Solution two, the explanation is on the code. Feel free to use different components on each solution to create your own if you like.
+- 
 
-#### Second and Third solutions
+#### Fifth Solution (and probably the simplest)
+```js
+function inventory(arr1, arr2) {
+    // check against arr2 like in the directions
+    for(var i = 0; i < arr2.length -1; i++) {
+    // Iterate through each arr1 element 
+      for(var j = 0; j < arr1.length -1; j++) {
+      // if arr1 element is unique
+        if(arr2[i].indexOf(arr1[j][1]) !== -1) {
+        // update arr2 count
+          arr2[i][0] += arr1[j][0];
+          // remove arr1 element from array.
+          arr1.splice(j, 1);
+        }
+      }
+    }
+    
+    // alphabetically sort results
+    return arr1.concat(arr2).sort(function(a, b) {
+      return a[1] > b[1];
+    });
+}
+```
+
+#### Second, Third and Fifth solutions
 - Read comments in code.
 
 #### Fourth solution
@@ -181,7 +206,7 @@ function inventory(curInv, newInv) {
 - [Array.prototype.sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
 
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @guyjoseph @Rafase282 @anuragaryan for your help with Algorithm: Inventory Update`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @guyjoseph @Rafase282 @anuragaryan @benschac for your help with Algorithm: Inventory Update`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
 
