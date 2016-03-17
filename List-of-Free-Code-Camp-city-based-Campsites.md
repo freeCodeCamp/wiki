@@ -56,7 +56,6 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Gent](https://www.facebook.com/groups/free.code.camp.gent/)
   - [Leuven](https://www.facebook.com/groups/free.code.camp.leuven/)
 - Belize
-  - [Belize City](https://www.facebook.com/groups/free.code.camp.belize.city/)
   - [Belize](https://www.facebook.com/groups/free.code.camp.belize/)
   - [Louisville](https://www.facebook.com/groups/free.code.camp.Louisville)
 - Benin
@@ -258,8 +257,9 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
 - Egypt
   - [Al-Mansoura](https://www.facebook.com/groups/free.code.camp.almansoura/)    
   - [Alexandria](https://www.facebook.com/groups/free.code.camp.alex/)
-  - [Cairo](https://www.facebook.com/groups/free.code.camp.cairo/)
   - [Asyut](https://www.facebook.com/groups/free.code.camp.assiut/)
+  - [Cairo](https://www.facebook.com/groups/free.code.camp.cairo/)
+  - [Sharqiyah](https://www.facebook.com/groups/free.code.camp.sharkia/)
   - [Tanta](https://www.facebook.com/groups/free.code.camp.tanta/)
 - El Salvador
   - [San Miguel](https://www.facebook.com/groups/free.code.camp.sv/)
@@ -293,7 +293,6 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Nottingham](https://www.facebook.com/groups/free.code.camp.nottingham/)
   - [Reading](https://www.facebook.com/groups/free.code.camp.reading/)
   - [Salisbury](https://www.facebook.com/groups/free.code.camp.salisbury/)
-  - [Sharqiyah](https://www.facebook.com/groups/free.code.camp.sharkia/)
   - [Sheffield](https://www.facebook.com/groups/free.code.camp.sheffield/)
   - [Southampton](https://www.facebook.com/groups/FCC.Southampton/)
   - [Stoke-on-Trent](https://www.facebook.com/groups/free.code.camp.stoke.on.trent/)
@@ -322,7 +321,6 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Vaasa](https://www.facebook.com/groups/free.code.camp.vaasa/)
 - France
   - [Bordeaux](https://www.facebook.com/groups/free.code.camp.your.city.Bordeaux/)
-  - [Dax](https://www.facebook.com/groups/509612812554265/)
   - [Grenoble](https://www.facebook.com/groups/free.code.camp.grenoble/)
   - [Lille](https://www.facebook.com/groups/free.code.camp.lille/)
   - [Lyon](https://www.facebook.com/groups/free.code.camp.lyon/)
@@ -338,6 +336,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Tbilisi](https://www.facebook.com/groups/free.code.camp.tbilisi/)
 - Germany
   - [Berlin](https://www.facebook.com/groups/free.code.camp.berlin/)
+  - [Bremen](https://www.facebook.com/groups/free.code.camp.bremen)
   - [Bodensee](https://www.facebook.com/groups/free.code.camp.bodensee/)
   - [Braunschweig](https://www.facebook.com/groups/free.code.camp.braunschweig/)
   - [Chemnitz](https://www.facebook.com/groups/free.code.camp.chemnitz/)
@@ -364,6 +363,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
 - Greece
   - [Alexandroupolis](https://www.facebook.com/groups/free.code.camp.alexandroupolis) 
   - [Athens](https://www.facebook.com/groups/free.code.camp.athens.greece/)
+  - [Katerini](https://www.facebook.com/groups/free.code.camp.katerini/)
   - [Patras](https://www.facebook.com/groups/free.code.camp.Patras/)
   - [Preveza](https://www.facebook.com/groups/free.code.camp.preveza/)
   - [Thessaloniki](https://www.facebook.com/groups/free.code.camp.thessaloniki/)
@@ -734,6 +734,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
 - Qatar
   - [Doha](https://www.facebook.com/groups/free.code.camp.doha/)
 - Romania
+  - [Arad](https://www.facebook.com/groups/free.code.camp.romania.arad/)
   - [Bacau](https://www.facebook.com/groups/free.code.camp.bacau.romania/)
   - [Brasov](https://www.facebook.com/groups/free.code.camp.brasov)
   - [Bucharest](https://www.facebook.com/groups/free.code.camp.bucharest/)
@@ -1210,7 +1211,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Greenville](https://www.facebook.com/groups/free.code.camp.greenville.nc/)
     - [Hickory](https://www.facebook.com/groups/free.code.camp.hickory.nc)
     - [Jacksonville](https://www.facebook.com/groups/free.code.camp.jacksonville.nc/)
-    - [Oriental](https://www.facebook.com/groups/orientalnc/)
+    - [Oriental](https://www.facebook.com/groups/free.code.camp.orientalnc/)
     - [Raleigh](https://www.facebook.com/groups/free.code.camp.raleigh/)
     - [Research Triangle Park](https://www.facebook.com/groups/free.code.camp.rtp)
     - [Wake Forest](https://www.facebook.com/groups/free.code.camp.wake.forest)
