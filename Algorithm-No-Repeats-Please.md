@@ -68,8 +68,11 @@ function permAlone(str) {
   var arr = str.split('');
   var permutations = [];
   var tmp;
+  
+  // return 0 if str contains same character
+  if (str.match(regex) !== null && str.match(regex)[0] === str) return 0;
 
-  // FUnction to swap variables' content.
+  // Function to swap variables' content.
   function swap(index1, index2) {
     tmp = arr[index1];
     arr[index1] = arr[index2];
