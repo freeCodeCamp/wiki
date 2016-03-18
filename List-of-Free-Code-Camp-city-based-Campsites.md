@@ -56,7 +56,6 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Gent](https://www.facebook.com/groups/free.code.camp.gent/)
   - [Leuven](https://www.facebook.com/groups/free.code.camp.leuven/)
 - Belize
-  - [Belize City](https://www.facebook.com/groups/free.code.camp.belize.city/)
   - [Belize](https://www.facebook.com/groups/free.code.camp.belize/)
   - [Louisville](https://www.facebook.com/groups/free.code.camp.Louisville)
 - Benin
@@ -258,8 +257,9 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
 - Egypt
   - [Al-Mansoura](https://www.facebook.com/groups/free.code.camp.almansoura/)    
   - [Alexandria](https://www.facebook.com/groups/free.code.camp.alex/)
-  - [Cairo](https://www.facebook.com/groups/free.code.camp.cairo/)
   - [Asyut](https://www.facebook.com/groups/free.code.camp.assiut/)
+  - [Cairo](https://www.facebook.com/groups/free.code.camp.cairo/)
+  - [Sharqiyah](https://www.facebook.com/groups/free.code.camp.sharkia/)
   - [Tanta](https://www.facebook.com/groups/free.code.camp.tanta/)
 - El Salvador
   - [San Miguel](https://www.facebook.com/groups/free.code.camp.sv/)
@@ -293,7 +293,6 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Nottingham](https://www.facebook.com/groups/free.code.camp.nottingham/)
   - [Reading](https://www.facebook.com/groups/free.code.camp.reading/)
   - [Salisbury](https://www.facebook.com/groups/free.code.camp.salisbury/)
-  - [Sharqiyah](https://www.facebook.com/groups/free.code.camp.sharkia/)
   - [Sheffield](https://www.facebook.com/groups/free.code.camp.sheffield/)
   - [Southampton](https://www.facebook.com/groups/FCC.Southampton/)
   - [Stoke-on-Trent](https://www.facebook.com/groups/free.code.camp.stoke.on.trent/)
