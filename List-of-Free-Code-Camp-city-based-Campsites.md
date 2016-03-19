@@ -396,6 +396,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - Bihar
     - [Muzaffarpur](https://www.facebook.com/groups/free.code.camp.muzaffarpur/)
     - [Patna](http://www.facebook.com/groups/free.code.camp.patna)
+    - [Siwan](https://www.facebook.com/groups/free.code.camp.Siwan/)
   - Chattisgarh
     - [Raipur](https://www.facebook.com/groups/free.code.camp.raipur/)
   - [Delhi](https://www.facebook.com/groups/free.code.camp.delhi/)
@@ -470,6 +471,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Dehra Dun](https://www.facebook.com/groups/free.code.camp.dehradun/)
     - [Roorke](https://www.facebook.com/groups/542330719257663/)
   - West Bengal
+    - [Asansol](https://www.facebook.com/groups/free.code.camp.asansol/) 
     - [Koch Bihar](https://www.facebook.com/groups/Free.Code.Camp.KochBihar/)
     - [Kolkata](https://www.facebook.com/groups/free.code.camp.kolkata/)
     - [Siliguri](https://www.facebook.com/groups/free.code.camp.siliguri/)
@@ -564,6 +566,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
 - Madagascar
   - [Antananarivo](https://www.facebook.com/groups/free.code.camp.antananarivo/)
 - Malaysia
+  - [Ipoh](https://www.facebook.com/groups/free.code.camp.your.perak/)
   - [Johor](https://www.facebook.com/groups/free.code.camp.nusajaya.malaysia/)
   - [Kota Bharu](https://www.facebook.com/groups/free.code.camp.kotabharu.malaysia/)
   - [Kota Kinabalu](https://www.facebook.com/groups/Free.code.camp.KK.Sabah/)
@@ -682,6 +685,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Quetta](https://www.facebook.com/groups/free.code.camp.quetta)
   - [Rawalpindi](https://www.facebook.com/groups/free.code.camp.rawalpindi/)
   - [Sahiwal](https://www.facebook.com/groups/1505677729748974/)
+  - [Sargodha](https://www.facebook.com/groups/free.code.camp.sargodha/)
   - [Sialkot](https://www.facebook.com/groups/free.code.camp.sialkot/)
 - Palestine
   - [Gaza](https://www.facebook.com/groups/free.code.camp.gaza/)
@@ -725,6 +729,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Warsaw](https://www.facebook.com/groups/free.code.camp.warsaw/)
   - [Wroclaw](https://www.facebook.com/groups/free.code.camp.wroclaw/)
 - Portugal
+  - [Aveiro](https://www.facebook.com/groups/free.code.camp.aveiro/)
   - [Braga](https://www.facebook.com/groups/free.code.camp.braga/)
   - [Lisbon](https://www.facebook.com/groups/free.code.camp.lisbon/)
   - [Porto](https://www.facebook.com/groups/free.code.camp.porto/)
