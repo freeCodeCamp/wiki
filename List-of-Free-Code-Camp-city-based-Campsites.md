@@ -183,6 +183,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Charlottetown](https://www.facebook.com/groups/free.code.camp.charlottetown/)
   - Saskatchewan
     - [Moose Jaw](https://www.facebook.com/groups/free.code.camp.moosejaw/)
+    - [Regina](https://www.facebook.com/groups/free.code.camp.regina/)
   - Québec
     - [Montreal](https://www.facebook.com/groups/free.code.camp.montreal/)
     - [Québec](https://www.facebook.com/groups/free.code.camp.quebec.city/)
@@ -321,6 +322,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Vaasa](https://www.facebook.com/groups/free.code.camp.vaasa/)
 - France
   - [Bordeaux](https://www.facebook.com/groups/free.code.camp.your.city.Bordeaux/)
+  - [Chelles](https://www.facebook.com/groups/free.code.camp.chelles/)
   - [Grenoble](https://www.facebook.com/groups/free.code.camp.grenoble/)
   - [Lille](https://www.facebook.com/groups/free.code.camp.lille/)
   - [Lyon](https://www.facebook.com/groups/free.code.camp.lyon/)
@@ -429,6 +431,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Kannur](https://www.facebook.com/groups/free.code.camp.your.city.kannur/)
     - [Kochi](https://www.facebook.com/groups/1542888942704307)
     - [Kozhikode](https://www.facebook.com/groups/free.code.camp.kozhikode/)
+    - [Thrissur](https://www.facebook.com/groups/free.code.camp.thrissur/)
     - [Trivandrum](https://www.facebook.com/groups/freecodecamp.trivandrum/)
   - Maharashtra
     - [Aurangabad](https://www.facebook.com/groups/freecodecampauranagabad/)
@@ -566,7 +569,6 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
 - Madagascar
   - [Antananarivo](https://www.facebook.com/groups/free.code.camp.antananarivo/)
 - Malaysia
-  - [Ipoh](https://www.facebook.com/groups/free.code.camp.your.perak/)
   - [Johor](https://www.facebook.com/groups/free.code.camp.nusajaya.malaysia/)
   - [Kota Bharu](https://www.facebook.com/groups/free.code.camp.kotabharu.malaysia/)
   - [Kota Kinabalu](https://www.facebook.com/groups/Free.code.camp.KK.Sabah/)
@@ -575,6 +577,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Penang](https://www.facebook.com/groups/free.code.camp.penang/)
   - [Perlis](https://www.facebook.com/groups/free.code.camp.perlis.malaysia)
   - [Taiping](https://www.facebook.com/groups/free.code.camp.taiping/)
+  - [Tanjong Malim](https://www.facebook.com/groups/free.code.camp.your.perak/)
 - Maldives
   - [Male](https://www.facebook.com/groups/freecodemv/)
 - Mauritius
@@ -1269,6 +1272,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - Tennessee
     - [Chattanooga](https://www.facebook.com/groups/free.code.camp.chattanooga/)
     - [Clarksville](https://www.facebook.com/groups/free.code.camp.clarksville.TN/)
+    - [Jackson](https://www.facebook.com/groups/free.code.camp.jackson.tennessee/)
     - [Knoxville](https://www.facebook.com/groups/free.code.camp.knoxville.tn/)
     - [Memphis](https://www.facebook.com/groups/free.code.camp.Memphis/)
     - [Nashville](https://www.facebook.com/groups/free.code.camp.nashville/)
@@ -1333,6 +1337,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - West Virginia
     - [Charleston](https://www.facebook.com/groups/free.code.camp.charleston.wv)
     - [Morgantown](https://www.facebook.com/groups/free.code.camp.morgantown/)
+    - [Wheeling](https://www.facebook.com/groups/248260915513841/)
   - Wisconsin
     - [Appleton](https://www.facebook.com/groups/free.code.camp.appleton/)
     - [La Crosse](https://www.facebook.com/groups/free.code.camp.la.crosse)
