@@ -21,7 +21,7 @@
 ## Code Solution:
 #### First solution
 ```js
-function inventory(arr1, arr2) {
+function updateInventory(arr1, arr2) {
 
     // Variable for location of product
     var index;
@@ -69,7 +69,7 @@ function inventory(arr1, arr2) {
 ```
 #### Second solution
 ```js
-function inventory(arr1, arr2) {
+function updateInventory(arr1, arr2) {
   // All inventory must be accounted for or you're fired!
 
   var index;
@@ -116,7 +116,7 @@ function inventory(arr1, arr2) {
 
 #### Third solution
 ```js
-function inventory(arr1, arr2) {
+function updateInventory(arr1, arr2) {
   var flag=0;
   arr2.forEach(function(item){
     flag=0;
@@ -137,7 +137,7 @@ function inventory(arr1, arr2) {
 #### Fourth Solution
 ```js
 //jshint esversion: 6
-function inventory(curInv, newInv) {
+function updateInventory(curInv, newInv) {
   var inv = new Map();
   
   [...curInv, ...newInv].forEach(item => {
