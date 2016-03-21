@@ -799,7 +799,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Riyadh](https://www.facebook.com/groups/free.code.camp.Riyadh/)
   - [Women only group](https://www.facebook.com/groups/girlscodeksa/)
 - Scotland
-  - [Aberdeenshite](https://www.facebook.com/groups/free.code.camp.aberdeenshire/)
+  - [Aberdeenshire](https://www.facebook.com/groups/free.code.camp.aberdeenshire/)
   - [Dundee](https://www.facebook.com/groups/free.code.camp.dundee/) 
   - [Edinburgh](https://www.facebook.com/groups/free.code.camp.edinburgh/)
   - [Glasgow](https://www.facebook.com/groups/free.code.camp.glasgow/)      
