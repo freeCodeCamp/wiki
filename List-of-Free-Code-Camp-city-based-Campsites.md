@@ -456,6 +456,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - Rajasthan
     - [Bikaner](https://www.facebook.com/groups/free.code.camp.bikaner/)
     - [Jaipur](https://www.facebook.com/groups/free.code.camp.jaipur/)
+    - [Udaipur](https://www.facebook.com/groups/free.code.camp.udaipur/)
   - Tamil Nadu
     - [Chennai](https://www.facebook.com/groups/free.code.camp.chennai/)
     - [Coimbatore](https://www.facebook.com/groups/free.code.camp.coimbatore)
