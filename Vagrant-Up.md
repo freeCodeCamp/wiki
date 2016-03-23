@@ -1,3 +1,7 @@
+# Vagrant
+
+## Installation
+
 The following instruction will help you install the necessary software and also how to set up your first Vagrant and Virtual Box. This will create a working environment so you can test your web site on your local machine. The <b>Vagrantfile</b> can be configured to your specific environment so that anyone working with you can make and see changes no matter if they use Linux, Mac OS X, or Windows. Using this virtual environment, you will be able to see your PHP scripts run, build and work with your databases, and so much more. So, without further or do, let's get down to business. 
 
 
