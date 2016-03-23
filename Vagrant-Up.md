@@ -7,11 +7,11 @@ The following instruction will help you install the necessary software and also 
 
 Check out the following links and install each program. Be sure that it matches your OS (Operating System).
 
-https://www.virtualbox.org/
+[Virtual Box](https://www.virtualbox.org/)
 
-https://www.vagrantup.com/downloads.html
+[Vagrant](https://www.vagrantup.com/downloads.html)
 
-https://git-scm.com/downloads
+[Git Bash, Gui, and Command](https://git-scm.com/downloads)
 
 Now that we have the necessary programs installed, let’s get down to business.
 
