@@ -1,13 +1,15 @@
-# Explanation:
+:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](http://github.com/FreeCodeCamp/FreeCodeCamp/wiki/How-to-get-help-when-you-get-stuck) if you get stuck. Try to pair program. :busts_in_silhouette: Write your own code. :memo:
+
+# :checkered_flag: ProblemExplanation:
 You will get an array that contains sub arrays of numbers and you need to return an array with the largest number from each of the sub arrays.
 
-## Hint: 1
+## :speech_balloon: Hint: 1
 You will need to keep track of the array with the answer and the largest number of each sub-array.
 
-## Hint: 2
+## :speech_balloon: Hint: 2
 You can work with multidimensional arrays by `Array[Index][SubIndex]`
 
-## Hint: 3
+## :speech_balloon: Hint: 3
 Pay close attention to the timing of the storing of variables when working with loops
 
 ## Spoiler Alert!
@@ -15,7 +17,7 @@ Pay close attention to the timing of the storing of variables when working with 
 
 **Solutions ahead!**
 
-#### First solution
+## :beginner: Basic Code Solution:
 (Procedural approach)
 
 ```js
@@ -36,21 +38,7 @@ function largestOfFour(arr) {
 }
 ```
 
-#### Second solution
-(Declarative approach)
-> NOTE: This is an advanced solution. NOT FOR BEGINNERS.
-
-```js
-function largestOfFour(arr) {
-  return arr.map(Function.apply.bind(Math.max, null));
-}
-```
-
-# Code Explanation:
-
-#### First Solution
-(Procedural approach)
-
+### Code Explanation:
 - Create a variable to store the *results* as an array.
 - Create an outer loop to iterate through the outer array.
 - Create a second variable to hold the largest number. This must be outside an inner loop so it won't be reassigned until we find a larger number.
@@ -59,10 +47,40 @@ function largestOfFour(arr) {
 - After the inner loop, save the largest number in the corresponding position inside of the `results` array.
 - And finally return said array.
 
-#### Second Solution
+## :sunflower: Intermediate Code Solution:
 (Declarative approach)
 
-> TL;DR: **We build a special callback function (using the `Function.bind` method), that works just like `Math.max` but also has `Function.apply`'s ability to take arrays as its arguments ** :smiley:
+```js
+function largestOfFour(arr) {
+  return arr.map(function(group){
+    return group.reduce(function(prev, current) {
+      return (current > prev) ? current : prev;
+    }, 0);
+  });
+}
+```
+
+### Code Explanation:
+- we map all items within the main array to a new array using `Array.prototype.map()` and return this array as the final result
+- within each inner array, we reduce its contents down to a single value using `Array.prototype.reduce()`
+- the callback function passed to the reduce method takes the previous value (or 0) and the current value and compares the two values
+- if the current value is higher than the previous value we set it as the new previous value for comparison with the next item within the array or returns it to the map method callback if it's the last item  
+
+**Reference:-**
+- [Map on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+- [Reduce on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
+
+## :rotating_light: Advanced Code Solution:
+(Declarative approach)
+
+```js
+function largestOfFour(arr) {
+  return arr.map(Function.apply.bind(Math.max, null));
+}
+```
+
+### Code Explanation:
+TL;DR: We build a special callback function (using the `Function.bind` method), that works just like `Math.max` but also has `Function.apply`'s ability to take arrays as its arguments :smiley:
 
 - We start by mapping through the elements inside the main array. Meaning each one of the inner arrays.
 
@@ -72,7 +90,7 @@ function largestOfFour(arr) {
 - To do the work of accepting arguments in the shape of an array, there is this `Function.apply` method, but it complicates things a bit by *invoking* the *context* function.<br>
 i.e. `Math.max.apply(null, [9, 43, 20, 6]);` would invoke something like a `Max.max` method. What we're looking for... almost. 
 
-> Here we're passing `null` as the *context* of the `Function.apply` method as `Math.max` doesn't need any context.
+Here we're passing `null` as the *context* of the `Function.apply` method as `Math.max` doesn't need any context.
 
 - Since `arr.map` expects a callback function, not just an expression, we create a function out of the previous expression by using the `Function.bind` method. 
 - Since, `Function.apply` is a static *method* of the same `Function` *object*, we can call `Function.prototype.bind` on `Function.apply` i.e. `Function.apply.bind`.
@@ -85,14 +103,20 @@ i.e. `Math.max.apply(null, [9, 43, 20, 6]);` would invoke something like a `Max.
 
 *Bien noté*? :neutral_face:
 
-
 **Reference:-**
 - http://devdocs.io/#q=js+Math+max
 - http://devdocs.io/#q=js+Array+map
 - http://devdocs.io/#q=js+Function+apply
 - http://devdocs.io/#q=js+Function+bind
 
-# Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 @abhisekp @Hallaathrad for your help with Algorithm: Return Largest Numbers in Arrays`**
+### :trophy: Credits:
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: 
+**`Thanks @Rafase282 @abhisekp @Hallaathrad @cloudb for your help with Algorithm: Return Largest Numbers in Arrays`**
 
-> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
+## :clipboard: NOTE TO CONTRIBUTORS:
+- :warning: **DO NOT** add solutions that are similar to any existing solutions. If you think it is ***similar but better***, then try to merge (or replace) the existing similar solution.
+- Add an explanation of your solution.
+- Categorize the solution in one of the following categories &mdash; **Basic**, **Intermediate** and **Advanced**. :traffic_light:
+- Please add your username only if you have added any **relevant main contents**. (:warning: ***DO NOT*** *remove any existing usernames*)
+
+> See :point_right: [**`Challenge Solution Template`**](Challenge-Solution-Template) for reference.
