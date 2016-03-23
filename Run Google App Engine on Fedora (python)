@@ -1,0 +1,27 @@
+I faced a lot of challenges while making Google App Engine run on my Fedora platform. So, to tackle the exact problems faced by me, I am writing this post:
+
+STEP 1:
+Follow the steps in this documentation by google: https://cloud.google.com/appengine/docs/python/#uploading_the_application
+
+Testing the application as given in the above document may not work for many. 
+So, try this: http://stackoverflow.com/a/16970921 as given by Brice Lin.
+Also, follow the deployment strategy as provided by Brice Lin. To do this open another terminal(if you wish).
+
+STEP 2:
+Before deploying, you have to create the project in the Google Cloud Platform. Follow the steps from  https://cloud.google.com/appengine/docs/python/#uploading_the_application
+
+STEP 3:
+But still following the above deployment strategy may not work for many. And an error like this may follow:
+
+ ERROR appcfg.py:2396 An error occurred processing file '': HTTP Error 400: Bad Request Unexpected HTTP status 400. Aborting. Error 400: --- begin server output --- A version or backend parameter is required. --- end server output ---
+
+This error occurs because of the missing Version statement in file app.yaml.
+ So add:
+           version: 1
+ in the app.yaml file in the application repository. Here,helloworld is the repository.
+
+
+ Now it will work. Cheers.
+ Happy Coding & Making Application.
+
+Don't forget to check this link out:  https://www.youtube.com/watch?v=bfgO-LXGpTM
