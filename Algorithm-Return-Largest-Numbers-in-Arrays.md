@@ -104,10 +104,10 @@ Here we're passing `null` as the *context* of the `Function.apply` method as `Ma
 *Bien noté*? :neutral_face:
 
 **Reference:-**
-- http://devdocs.io/#q=js+Math+max
-- http://devdocs.io/#q=js+Array+map
-- http://devdocs.io/#q=js+Function+apply
-- http://devdocs.io/#q=js+Function+bind
+- [Math.max on DevDocs](http://devdocs.io/#q=js+Math+max)
+- [Array.map on DevDocs](http://devdocs.io/#q=js+Array+map)
+- [Function.apply on DevDocs](http://devdocs.io/#q=js+Function+apply)
+- [Function.bind on DevDocs](http://devdocs.io/#q=js+Function+bind)
 
 ### :trophy: Credits:
 If you found this page useful, you can give thanks by copying and pasting this on the main chat: 
