@@ -313,6 +313,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Suva](https://www.facebook.com/groups/free.code.camp.suva/)    
 - Finland   
   - [Helsinki](https://www.facebook.com/groups/free.code.camp.helsinki/)
+  - [Joensuu](https://www.facebook.com/groups/free.code.camp.joensuu/)
   - [Jyväskylä](https://www.facebook.com/groups/free.code.camp.jyvaskyla/)
   - [Kuopio](https://www.facebook.com/groups/free.code.camp.kuopio/)
   - [Lappeenranta](https://www.facebook.com/groups/free.code.camp.lappeenranta/)
@@ -622,6 +623,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Casablanca](https://www.facebook.com/groups/free.code.camp.casablanca/)
   - [Marrakesh](https://www.facebook.com/groups/free.code.camp.marrakesh/)
   - [Rabat](https://www.facebook.com/groups/965419830196366/)
+  - [Sefrou](https://www.facebook.com/groups/free.code.camp.sefrou/)
 - Mozambique
   - [Maputo](https://www.facebook.com/groups/free.code.camp.maputo/)
 - Myanmar [Burma]
@@ -973,6 +975,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Diamon Bar](https://www.facebook.com/groups/Free.Code.Camp.Diamond.Bar/)
     - [Emeryville](https://www.facebook.com/groups/free.code.camp.emeryville/)
     - [Ensenada](https://www.facebook.com/groups/free.code.camp.ensenada/)
+    - [Eureka](https://www.facebook.com/groups/free.code.camp.eureka.ca/)
     - [Fairfield](https://www.facebook.com/groups/free.code.camp.fairfield/)
     - [Folsom](https://www.facebook.com/groups/free.code.camp.folsom)
     - [Fremont](https://www.facebook.com/groups/free.code.camp.fremont/)
@@ -1099,6 +1102,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Coldwater](https://www.facebook.com/groups/free.code.camp.coldwater.ks/)
     - [Kansas City](https://www.facebook.com/groups/free.code.camp.kansascity/)
     - [Lawrence](https://www.facebook.com/groups/free.code.camp.lawrence)
+    - [Wellington](https://www.facebook.com/groups/free.code.camp.wellington.ks/)
     - [Wichita](https://www.facebook.com/groups/free.code.camp.wichita/)
   - Kentucky
     - [Berea](https://www.facebook.com/groups/free.code.camp.berea.kentucky/)
@@ -1210,7 +1214,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Buffalo](https://www.facebook.com/groups/free.code.camp.buffalo/)
     - [Coram](https://www.facebook.com/groups/free.code.camp.coram.ny/)
     - [Ithaca](https://www.facebook.com/groups/free.code.camp.ithaca/)
-    - [Long Island](https://www.facebook.com/groups/556335464525087/)
+    - [Long Island](https://www.facebook.com/groups/free.code.camp.long.island.ny)
     - [New Paltz](https://www.facebook.com/groups/free.code.camp.new.paltz/)
     - [New York City](https://www.facebook.com/groups/free.code.camp.new.york.city/)
     - [Rochester](https://www.facebook.com/groups/free.code.camp.Rochester.New.York/)
@@ -1343,7 +1347,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - West Virginia
     - [Charleston](https://www.facebook.com/groups/free.code.camp.charleston.wv)
     - [Morgantown](https://www.facebook.com/groups/free.code.camp.morgantown/)
-    - [Wheeling](https://www.facebook.com/groups/248260915513841/)
+    - [Wheeling](https://www.facebook.com/groups/free.code.camp.wheeling.wv/)
   - Wisconsin
     - [Appleton](https://www.facebook.com/groups/free.code.camp.appleton/)
     - [La Crosse](https://www.facebook.com/groups/free.code.camp.la.crosse)
