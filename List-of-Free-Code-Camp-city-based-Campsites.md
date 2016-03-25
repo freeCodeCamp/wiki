@@ -313,6 +313,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Suva](https://www.facebook.com/groups/free.code.camp.suva/)    
 - Finland   
   - [Helsinki](https://www.facebook.com/groups/free.code.camp.helsinki/)
+  - [Joensuu](https://www.facebook.com/groups/free.code.camp.joensuu/)
   - [Jyväskylä](https://www.facebook.com/groups/free.code.camp.jyvaskyla/)
   - [Kuopio](https://www.facebook.com/groups/free.code.camp.kuopio/)
   - [Lappeenranta](https://www.facebook.com/groups/free.code.camp.lappeenranta/)
@@ -1213,7 +1214,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Buffalo](https://www.facebook.com/groups/free.code.camp.buffalo/)
     - [Coram](https://www.facebook.com/groups/free.code.camp.coram.ny/)
     - [Ithaca](https://www.facebook.com/groups/free.code.camp.ithaca/)
-    - [Long Island](http://www.facebook.com/groups/free.code.camp.long.island.ny)
+    - [Long Island](https://www.facebook.com/groups/free.code.camp.long.island.ny)
     - [New Paltz](https://www.facebook.com/groups/free.code.camp.new.paltz/)
     - [New York City](https://www.facebook.com/groups/free.code.camp.new.york.city/)
     - [Rochester](https://www.facebook.com/groups/free.code.camp.Rochester.New.York/)
@@ -1346,7 +1347,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - West Virginia
     - [Charleston](https://www.facebook.com/groups/free.code.camp.charleston.wv)
     - [Morgantown](https://www.facebook.com/groups/free.code.camp.morgantown/)
-    - [Wheeling](https://www.facebook.com/groups/248260915513841/)
+    - [Wheeling](https://www.facebook.com/groups/free.code.camp.wheeling.wv/)
   - Wisconsin
     - [Appleton](https://www.facebook.com/groups/free.code.camp.appleton/)
     - [La Crosse](https://www.facebook.com/groups/free.code.camp.la.crosse)
