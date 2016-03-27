@@ -465,6 +465,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - Tamil Nadu
     - [Chennai](https://www.facebook.com/groups/free.code.camp.chennai/)
     - [Coimbatore](https://www.facebook.com/groups/free.code.camp.coimbatore)
+    - [Madurai](https://www.facebook.com/groups/free.code.camp.maduraicity/)
     - [Salem](https://www.facebook.com/groups/free.code.camp.salem/)
     - [Tirupur](https://www.facebook.com/groups/free.code.camp.tirupur/)
   - Telengana
@@ -791,6 +792,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Saint Petersburg](https://www.facebook.com/groups/free.code.camp.saint.petersburg/)
   - [Samara](https://www.facebook.com/groups/free.code.camp.samara/)
   - [Saratov](https://www.facebook.com/groups/free.code.camp.saratov/)
+  - [Stavropol](https://www.facebook.com/groups/free.code.camp.stavropol/)
   - [Tomsk](https://www.facebook.com/groups/free.code.camp.tomsk/)
   - [Tyumen](https://www.facebook.com/groups/free.code.camp.Tyumen/)
   - [Ufa](https://www.facebook.com/groups/free.code.camp.ufa/)
@@ -821,8 +823,6 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Novi Sad](https://www.facebook.com/groups/free.code.camp.novi.sad/)
   - [Subotica](https://www.facebook.com/groups/free.code.camp.subotica/)
   - [Vrsac](https://www.facebook.com/groups/free.code.camp.vrsac/)
-- Seychelles
-  - [Victoria](https://www.facebook.com/groups/free.code.camp.victoria.bc/)
 - Singapore
   - [Singapore](https://www.facebook.com/groups/free.code.camp.singapore/)
 - Slovakia
@@ -1228,6 +1228,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Asheville](https://www.facebook.com/groups/free.code.camp.asheville/)
     - [Charlotte](https://www.facebook.com/groups/free.code.camp.charlotte.nc/)
     - [Durham](https://www.facebook.com/groups/free.code.camp.durham/)
+    - [Elizabeth City](https://www.facebook.com/groups/free.code.camp.Elizabeth.City/)
     - [Fayetteville](https://www.facebook.com/groups/freecodecampfayettevilleNC/)
     - [Greenville](https://www.facebook.com/groups/free.code.camp.greenville.nc/)
     - [Hickory](https://www.facebook.com/groups/free.code.camp.hickory.nc)
