@@ -67,8 +67,8 @@ function largestOfFour(arr) {
 - if the current value is higher than the previous value we set it as the new previous value for comparison with the next item within the array or returns it to the map method callback if it's the last item  
 
 **Reference:-**
-- [Map on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
-- [Reduce on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
+- [Array.prototype.map()](js-Array-prototype-map)
+- [Array.prototype.reduce()](js-Array-prototype-reduce)
 
 ## :rotating_light: Advanced Code Solution:
 (Declarative approach)
@@ -88,29 +88,28 @@ TL;DR: We build a special callback function (using the `Function.bind` method), 
 `Math.max([9, 43, 20, 6]); // Resulting in 43`<br>Alas, it doesn't.
 
 - To do the work of accepting arguments in the shape of an array, there is this `Function.apply` method, but it complicates things a bit by *invoking* the *context* function.<br>
-i.e. `Math.max.apply(null, [9, 43, 20, 6]);` would invoke something like a `Max.max` method. What we're looking for... almost. 
+i.e. `Math.max.apply(null, [9, 43, 20, 6]);` would invoke something like a `Max.max` method. What we're looking for... almost.
 
 Here we're passing `null` as the *context* of the `Function.apply` method as `Math.max` doesn't need any context.
 
-- Since `arr.map` expects a callback function, not just an expression, we create a function out of the previous expression by using the `Function.bind` method. 
+- Since `arr.map` expects a callback function, not just an expression, we create a function out of the previous expression by using the `Function.bind` method.
 - Since, `Function.apply` is a static *method* of the same `Function` *object*, we can call `Function.prototype.bind` on `Function.apply` i.e. `Function.apply.bind`.
 
 - Now we pass the *context* for the `Function.apply.bind` call (in this case we want `Math.max`so we can gain its functionality).
 - Since the embedded `Function.apply` method will also require a context as it's 1st argument, we need to pass it a bogus *context*.
   - So, we pass `null` as the 2nd param to `Function.apply.bind` which gives a *context* to the `Math.max` method.
-  - Since, `Math.max` is independent of any *context*, hence, it ignores the bogus *context* given by `Function.apply` method call. 
+  - Since, `Math.max` is independent of any *context*, hence, it ignores the bogus *context* given by `Function.apply` method call.
   - Thus, our `Function.apply.bind(Math.max, null)` makes a new function accepting the `arr.map` values i.e. the inner arrays.
 
-*Bien noté*? :neutral_face:
 
 **Reference:-**
-- [Math.max on DevDocs](http://devdocs.io/#q=js+Math+max)
-- [Array.map on DevDocs](http://devdocs.io/#q=js+Array+map)
+- [Math.max](Math.max)
+- [Array.prototype.map()](js-Array-prototype-map)
 - [Function.apply on DevDocs](http://devdocs.io/#q=js+Function+apply)
 - [Function.bind on DevDocs](http://devdocs.io/#q=js+Function+bind)
 
 ### :trophy: Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: 
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:
 **`Thanks @Rafase282 @abhisekp @Hallaathrad @cloudb for your help with Algorithm: Return Largest Numbers in Arrays`**
 
 ## :clipboard: NOTE TO CONTRIBUTORS:
