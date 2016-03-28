@@ -547,6 +547,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Astana](https://www.facebook.com/groups/free.code.camp.astana/)
   - [Kulsary](https://www.facebook.com/groups/free.code.camp.kulsary/)
 - Kenya
+  - [Kangundo](https://www.facebook.com/groups/free.code.camp.Kangundo/)
   - [Kisumu](https://www.facebook.com/groups/free.code.camp.Kisumu/)
   - [Mombasa](https://www.facebook.com/groups/free.code.camp.mombasa/)
   - [Nairobi](https://www.facebook.com/groups/free.code.camp.nairobi/)
@@ -845,10 +846,10 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Seoul](https://www.facebook.com/groups/free.code.camp.seoul/)
   - [Suwon](https://www.facebook.com/groups/free.code.camp.suwon/)
 - Spain
-  - [Almeria](https://www.facebook.com/groups/free.code.camp.almeria/)
+  - [Almería](https://www.facebook.com/groups/free.code.camp.almeria/)
   - [Barcelona](https://www.facebook.com/groups/free.code.camp.barcelona/)
-  - [Caceres](https://www.facebook.com/groups/free.code.camp.caceres/)
-  - [Cadiz](https://www.facebook.com/groups/free.code.camp.cadiz/)
+  - [Cáceres](https://www.facebook.com/groups/free.code.camp.caceres/)
+  - [Cádiz](https://www.facebook.com/groups/free.code.camp.cadiz/)
   - [Ciudad Real](https://www.facebook.com/groups/free.code.camp.ciudad.real/)
   - [Córdoba](https://www.facebook.com/groups/free.code.camp.cordoba.spain/)
   - [Gijón](https://www.facebook.com/groups/free.code.camp.gijon/)    
