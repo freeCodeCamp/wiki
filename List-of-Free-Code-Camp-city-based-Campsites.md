@@ -669,6 +669,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Managua](https://www.facebook.com/groups/free.code.camp.managua/)
 - Nigeria
   - [Abuja](https://www.facebook.com/groups/abuja.free.code.camp/)
+  - [Benin City](https://www.facebook.com/groups/free.code.camp.benincity/)
   - [Calabar](https://www.facebook.com/groups/free.code.camp.calabar/)
   - [Dutse](https://www.facebook.com/groups/free.code.camp.dutse.jigawa/)
   - [Ibadan](https://www.facebook.com/groups/free.code.camp.Ibadan/)
@@ -925,7 +926,6 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Dnipropetrovsk](https://www.facebook.com/groups/free.code.camp.dnipropetrovsk)
   - [Donetsk](https://www.facebook.com/groups/free.code.camp.donetsk/)
   - [Ivano Frankivsk](https://www.facebook.com/groups/free.code.camp.ivano.frankivsk/)
-  - [Kerch](https://www.facebook.com/groups/free.code.camp.kerch/)
   - [Kharkiv](https://www.facebook.com/groups/free.code.camp.kharkiv/)
   - [Khmelnitsky](https://www.facebook.com/groups/free.code.camp.khmelnitsky)
   - [Kherson](https://www.facebook.com/groups/free.code.camp.kherson/)
@@ -1225,6 +1225,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Buffalo](https://www.facebook.com/groups/free.code.camp.buffalo/)
     - [Coram](https://www.facebook.com/groups/free.code.camp.coram.ny/)
     - [Ithaca](https://www.facebook.com/groups/free.code.camp.ithaca/)
+    - [Kingston](https://www.facebook.com/groups/free.code.camp.kingston/)
     - [Long Island](https://www.facebook.com/groups/free.code.camp.long.island.ny)
     - [New Paltz](https://www.facebook.com/groups/free.code.camp.new.paltz/)
     - [New York City](https://www.facebook.com/groups/free.code.camp.new.york.city/)
@@ -1340,6 +1341,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Richmond](https://www.facebook.com/groups/free.code.camp.richmond.va/)
     - [Roanoke](https://www.facebook.com/groups/free.code.camp.roanoke.va/)
     - [Virginia Beach](https://www.facebook.com/groups/free.code.camp.virginia.beach/)
+    - [Winchester](https://www.facebook.com/groups/free.code.camp.winchester/)
   - Washington
     - [Anacortes](https://www.facebook.com/groups/free.code.camp.anacortes/)
     - [Bellevue](https://www.facebook.com/groups/free.code.camp.bellevue/)
