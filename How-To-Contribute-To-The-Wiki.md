@@ -92,6 +92,7 @@ Additionally you can contact [@Rafase282](https://gitter.im/Rafase282) or ask in
 
 Lastly you could just make a change you feel is needed without coordinating with anyone - typo fixes for example
 
+Keep in mind, these are all **Markdown** files. If you are creating a new file, for a new wiki article, it **has** to be in [Markdown format](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), and filename **must end in `.md`**.
 
 ----------
 
@@ -166,7 +167,7 @@ All of the files for the wiki are .md files. These are **markdown** files. They 
  - There are no spaces in the file names. use - instead
  - Files should be Title Cased (the first letter of each word should be capitalized)
 
-Simply edit the file on your machine, or make a new one.
+Simply edit the file on your machine, or make a new one. If you are making a new file, make sure the filename ends in `.md`.
 
 ----------
 
