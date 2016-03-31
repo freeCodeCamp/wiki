@@ -1,11 +1,11 @@
 # Problem Explanation:
-- You will create a program that converts an integer to a roman numeral.
+- You will create a program that converts an integer to a Roman Numeral.
 
 ## Hint: 1
-- Creating an array with the Roman Numerals and one with the decimal equivalent for the new forms will be very helpful.
+- Creating two arrays, one with the Roman Numerals and one with the decimal equivalent for the new forms will be very helpful.
 
 ## Hint: 2
-- If you add the numbers that go before the new letter is introduced, it will save you plenty of code, like values for 4, 9, and 40.
+- If you add the numbers to the arrays that go before the new letter is introduced, like values for 4, 9, and 40, it will save you plenty of code.
 
 ## Hint: 3
 - You can't have more than three consecutive Roman numerals together.
@@ -25,7 +25,7 @@ var convert = function(num) {
   var romanNumeral = [ 'M', 'CM', 'D', 'CD', 'C', 'XC', 'L', 'XL', 'X', 'IX', 'V', 'IV', 'I' ];
 
   //empty string variable for the final roman number
-  
+
   var romanized = '';
 
   // Loop through the indices of the decimalValue array.
