@@ -2,14 +2,14 @@
 # **What is a Sprint?**
 
 
-A **_sprint_** is a set period of time broken out from a project's overall timeline with associated tasks to be completed during that period of time. That list of tasks is referred to as the sprint's <b>Product Backlog</b>.
+A **sprint** is a set period of time broken out from a project's overall timeline with associated tasks to be completed during that period of time. That list of tasks is referred to as the sprint's *Product Backlog*.
 
 
-A *sprint* allows a larger timeline to be easily broken into smaller, more digestible pieces in order to focus effort from all stakeholders on a few logically scheduled tasks at a time.
+The ideology behind a *sprint* allows a larger timeline to be easily broken into smaller, more digestible pieces in order to focus effort from all stakeholders on a few logically scheduled tasks at a time.
 
-Generally all deliverables from a sprint must be accepted by the key stakeholders prior to moving to the next sprint and a project will have multiple sprints until scope has been met.
+All deliverables from a sprint must be accepted by the key stakeholders prior to moving to the next sprint and a project will have multiple sprints until scope has been met.
 
-A *sprint* generally begins with a planning meeting where the person or persons requesting the work meet with the developers in order to determine what work can realistically be completed during the time period, or sprint, being discussed. The developer will generally have the final say on what work will be completed during the sprint.
+In most cases, a *sprint* begins with a planning meeting where the person or persons requesting the work meet with the developers in order to determine what work can realistically be completed during the time period, or sprint, being discussed. The developer will generally have the final say on what work will be completed during the sprint.
 
 In some organizations these meetings will be overseen by either a Scrum Master or a Project Manager in order to ensure the overall goal of the project has been met after all sprints have been completed.
 
@@ -19,5 +19,5 @@ In addition, in some organizations developers will meet daily to discuss project
 
 ![sprint schedule](http://i.imgur.com/l8EAw1L.png "example of sprint schedule")
 
-The above is an example of a sprint plan which has been laid out in six 30 day sprints. You can see that there is a Sprint Dev in each of the six sprints but from Sprint 2 on there is something labeled as a __Sprint # Increment__. This will be further elaborated on in a future wiki article.
+The above is an example of a sprint plan which has been laid out in six 30 day sprints. You can see that there is a Sprint Dev in each of the six sprints but from Sprint 2 on there is something labeled as a __Sprint # Increment__. 
 
