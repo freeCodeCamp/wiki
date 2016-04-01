@@ -196,6 +196,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Valdivia](https://www.facebook.com/groups/free.code.camp.valdivia/)
   - [Valparaiso](https://www.facebook.com/groups/free.code.camp.valparaiso/)
 - China
+  - [Anshun](https://www.facebook.com/groups/free.code.camp.anshun/) 
   - [Beijing](https://www.facebook.com/groups/free.code.camp.beijing/)
   - [Changchun](https://www.facebook.com/groups/free.code.camp.changchun/)
   - [Changsha](https://www.facebook.com/groups/free.code.camp.changsha/)
@@ -736,12 +737,14 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Surigao](https://www.facebook.com/groups/free.code.camp.surigao/)
 - Poland
   - [Bialystok](https://www.facebook.com/groups/free.code.camp.bialystok/)
+  - [Bielsko](https://www.facebook.com/groups/free.code.camp.bielsko/)
   - [Bydgoszcz](https://www.facebook.com/groups/free.code.camp.bydgoszcz/)
   - [Gdańsk](https://www.facebook.com/groups/free.code.camp.trojmiasto/)
   - [Gdynia](https://www.facebook.com/groups/free.code.camp.gdynia/)
   - [Katowice](https://www.facebook.com/groups/free.code.camp.the.katowice/)
   - [Krakow](https://www.facebook.com/groups/free.code.camp.krakow/)
   - [Lodz](https://www.facebook.com/groups/free.code.camp.lodz/)
+  - [Opole](https://www.facebook.com/groups/free.code.camp.opole/)
   - [Plock](https://www.facebook.com/groups/free.code.camp.plock/)
   - [Poznan](https://www.facebook.com/groups/free.code.camp.poznan/)
   - [Siedlce](https://www.facebook.com/groups/free.code.camp.siedlce/)
@@ -794,6 +797,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Krasnoyarsk](https://www.facebook.com/groups/free.code.camp.krasnoyarsk)
   - [Moscow](https://www.facebook.com/groups/free.code.camp.moscow/)
   - [Nizhnevartovsk](https://www.facebook.com/groups/free.code.camp.nizhnevartovsk/)
+  - [Novorossiysk](https://www.facebook.com/groups/free.code.camp.novorossiysk/)
   - [Omsk](https://www.facebook.com/groups/free.code.camp.omsk/)
   - [Orenburg](https://www.facebook.com/groups/free.code.camp.orenburg/)
   - [Pavlovo](https://www.facebook.com/groups/Free.Code.Camp.Pavlovo/)
@@ -848,6 +852,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Pretoria](https://www.facebook.com/groups/150891448624679/)
   - [Randfontein](https://www.facebook.com/groups/free.code.camp.your.randfontein/)
 - South Korea
+  - [Bundang](https://www.facebook.com/groups/free.code.camp.bundang/) 
   - [Busan](https://www.facebook.com/groups/free.code.camp.busan/)
   - [Daegu](https://www.facebook.com/groups/free.code.camp.your.daegu/)
   - [Gwangju](https://www.facebook.com/groups/GwangjuCodeCano/)
@@ -1096,6 +1101,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Champaign-Urbana](https://www.facebook.com/groups/free.code.camp.champaign.urbana/)
     - [Chicago](https://www.facebook.com/groups/free.code.camp.chicago/)
     - [Dixon](https://www.facebook.com/groups/free.code.camp.dixon.il/)
+    - [Gurnee](https://www.facebook.com/groups/free.code.camp.gurnee)
     - [Macomb](https://www.facebook.com/groups/free.code.camp.macomb.il/)
     - [Naperville](https://www.facebook.com/groups/free.code.camp.naperville)
     - [Peoria](https://www.facebook.com/groups/free.code.camp.Peoria/)
@@ -1143,6 +1149,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Rockland](https://www.facebook.com/groups/435736603276121/)
   - Maryland
     - [Baltimore](https://www.facebook.com/groups/free.code.camp.baltimore/)
+    - [College Park](https://www.facebook.com/groups/free.code.camp.college.park.md)
     - [Columbia](https://www.facebook.com/groups/190253084650546/)
     - [Frederick](https://www.facebook.com/groups/free.code.camp.frederick.md)
     - [Germantown](https://www.facebook.com/groups/free.code.camp.germantown.maryland/)
@@ -1167,6 +1174,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Lansing](https://www.facebook.com/groups/free.code.camp.lansing/)
     - [Milford](https://www.facebook.com/groups/free.code.camp.milford.michigan/)
     - [Muskegon](https://www.facebook.com/groups/free.code.camp.muskegon/)
+    - [Traverse City](https://www.facebook.com/groups/free.code.camp.traverse.city.mi/)
     - [Tri-cities](https://www.facebook.com/groups/free.code.camp.bay.city/)
     - [University Center](https://www.facebook.com/groups/free.code.camp.university.center/)
   - Minnesota
