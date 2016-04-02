@@ -723,6 +723,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Aichi](https://www.facebook.com/groups/free.code.camp.aichi/)
   - [Huancayo](https://www.facebook.com/groups/free.code.camp.huancayo)
   - [Lima](https://www.facebook.com/groups/Free.Code.Camp.Lima/)
+  - [Trujillo](https://www.facebook.com/groups/free.code.camp.trujillo)
 - Philippines
   - [Batangas](https://www.facebook.com/groups/free.code.camp.batangas/) 
   - [Bicol](https://www.facebook.com/groups/free.code.camp.Bicol/)
@@ -893,6 +894,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Göteborg](https://www.facebook.com/groups/free.code.camp.goteborg/)
   - [Lund](https://www.facebook.com/groups/free.code.camp.lund/)
   - [Malmö](https://www.facebook.com/groups/free.code.camp.malmo/)
+  - [Norrköping](https://www.facebook.com/groups/free.code.camp.norrkoping)
   - [Stockholm](https://www.facebook.com/groups/free.code.camp.stockholm.sweden/)
   - [Sundsvall](https://www.facebook.com/groups/free.code.camp.sundsvall/)
 - Switzerland
@@ -966,7 +968,6 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Tuscaloosa](https://www.facebook.com/groups/free.code.camp.tuscaloosa/)
   - Alaska
     - [Anchorage](https://www.facebook.com/groups/free.code.camp.anchorage/)
-    - [Homer](https://www.facebook.com/groups/186447548384327/)
     - [Juneau](https://www.facebook.com/groups/free.code.camp.juneau/)
   - Arizona
     - [Flagstaff](https://www.facebook.com/groups/free.code.camp.northern.arizona/)
@@ -1241,6 +1242,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Ithaca](https://www.facebook.com/groups/free.code.camp.ithaca/)
     - [Kingston](https://www.facebook.com/groups/free.code.camp.kingston/)
     - [Long Island](https://www.facebook.com/groups/free.code.camp.long.island.ny)
+    - [Middletown](https://www.facebook.com/groups/free.code.camp.middletown.ny/)
     - [New Paltz](https://www.facebook.com/groups/free.code.camp.new.paltz/)
     - [New York City](https://www.facebook.com/groups/free.code.camp.new.york.city/)
     - [Rochester](https://www.facebook.com/groups/free.code.camp.Rochester.New.York/)
