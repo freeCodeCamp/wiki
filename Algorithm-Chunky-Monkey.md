@@ -79,7 +79,7 @@ arr.slice(2, 2 + 2)
 #### Solution 1:
 
 ```js
-function chunk(arr, size) {
+function chunkArrayInGroups(arr, size) {
 
   var temp = [];
   var result = [];
@@ -103,7 +103,7 @@ function chunk(arr, size) {
 #### Solution 2:
 
 ```js
-function chunk(arr, size) {
+function chunkArrayInGroups(arr, size) {
   // Break it up
   // It's already broken :(
   arr = arr.slice();
@@ -119,7 +119,7 @@ function chunk(arr, size) {
 #### Solution 3:
 
 ```js
-function chunk(arr, size) {
+function chunkArrayInGroups(arr, size) {
   // Break it up.
   var newArr = [];
   var i = 0;
@@ -130,14 +130,14 @@ function chunk(arr, size) {
   }
   return newArr;
 }
-chunk(["a", "b", "c", "d"], 2);
+chunkArrayInGroups(["a", "b", "c", "d"], 2);
 ```
 
 #### Solution 4:
 
 ```js
 // splice & slice, avoiding size counting
-function chunk(arr, size) {
+function chunkArrayInGroups(arr, size) {
   var ar = arr.slice();
   var res = [];
   do {
