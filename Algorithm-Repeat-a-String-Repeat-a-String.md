@@ -19,7 +19,7 @@ Make the variable created store the current value and append the word to it.
 
 ####First Solution
 ```js
-function repeat(str, num) {
+function repeatStringNumTimes(str, num) {
   var accumulatedStr = '';
 
   while (num > 0) {
@@ -34,7 +34,7 @@ function repeat(str, num) {
 ####Second Solution
 
 ```js
-function repeat(str, num) {
+function repeatStringNumTimes(str, num) {
   var newstr = [];
   for (var i = 0; i < num; i++) {
     newstr.push(str);
@@ -42,19 +42,19 @@ function repeat(str, num) {
   return newstr.join('');
 }
 
-repeat("abc", 3);
+repeatStringNumTimes("abc", 3);
 ```
 
 ####Third Solution 
 (using Recursion)
 ```js
-function repeat(str, num) {
+function repeatStringNumTimes(str, num) {
   if(num < 0)
     return "";
   if(num === 1)
     return str;
   else
-    return str + repeat(str, num - 1);
+    return str + repeatStringNumTimes(str, num - 1);
 }
 ```
 
@@ -62,11 +62,11 @@ function repeat(str, num) {
 (Declarative approach)
 
 ```js
-function repeat(str, num) {
-  return num >= 0 ? str.repeat(num) : "";
+function repeatStringNumTimes(str, num) {
+  return num >= 0 ? str.repeatStringNumTimes(num) : "";
 }
 
-repeat("abc", 3);
+repeatStringNumTimes("abc", 3);
 ```
 
 # Code Explanation:
