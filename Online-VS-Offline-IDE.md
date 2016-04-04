@@ -2,17 +2,15 @@
 
 ## Offline IDEs
 
-There are several offline [IDE](Integrated Development Environment) that programmers use in order to stay more productive to learn and be more productive at work.
+There are several offline [IDE](Integrated-Development-Environment) that programmers use in order to stay more productive to learn and be more productive at work.
 
 - **[Eclipse](https://www.app5.unisys.com/offerings/ClearPathConnection/eclipse.html)** is more than a Java editor. Its biggest advantages are code completion by tabbing method which saves a lot of time when writing documentation.
 
-  It has a build in syntax check to fix any mistype words while coding a project. All of features we've come to expect of an IDE are their code completion, templates, integration  with various SCMSs, and integration with build systems.
+  It has a built-in syntax check to fix any mistype words while coding a project. All of features we've come to expect of an IDE are their code completion, templates, integration  with various SCMSs, and integration with build systems.
 
   Its code formatting and cleanup tools are very powerful. I find its build system to work well and intuitively. I think these are the things upon which its reputation is really built.
 
   Furthermore it has a refactoring that find and replace function, variables and classes of a specific work.
-
-  Eclipse offers more plugins, platforms, frameworks, and is simpler to use compare  to other IDEs such as **IntelliJ**, **BlueJ** and **JEdit**.
 
 - **[NetBeans](https://netbeans.org/features/)** is a free intuitive editor that does it all compared from other IDEs. It has simple Swing GUI design tool to build user interfaces by dragging and dropping components for instance buttons, textboxes.
 
@@ -26,6 +24,11 @@ There are several offline [IDE](Integrated Development Environment) that program
 - **[CodeRun Studio](http://www.webappers.com/2009/12/04/coderun-studio-free-cross-platform-online-ide/)** is an online IDE that you build web application. It allows you to run and test code online.
 
   The disadvantage is that there is a 14 days trial then it must be paid. It is difficult to save your project since you must pay in order to fully operate it.
+- **[Cloud9 IDE](https://c9.io)** Cloud9 IDE is a open source, from version 3.0, online integrated development environment. It supports hundreds of programming languages, including [PHP](Php), [Ruby](Ruby), Perl, [Python](Python), [JavaScript](Advantages-and-Disadvantages-of-Javascript) with Node.js, and [Go](Go). It enables developers to get started with coding immediately with pre-setup workspaces, collaborate with their peers with collaborative coding features, and web development features like live preview and browser compatibility testing.
+
+  It is written almost entirely in JavaScript, and uses Node.js on the back-end. The editor component uses Ace. As of July 2014, it uses Docker containers for its workspaces, and is hosted on Google Compute Engine.
+
+  Cloud9 IDE, Inc. is the company that actively maintains Cloud9 IDE. The company has offices in San Francisco and Amsterdam.
 
 ## Conclusion
 
