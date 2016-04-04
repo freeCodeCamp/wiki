@@ -13,7 +13,7 @@ In most cases, a *sprint* begins with a planning meeting where the person or per
 
 In some organizations these meetings will be overseen by either a Scrum Master or a Project Manager in order to ensure the overall goal of the project has been met after all sprints have been completed.
 
-Sprints, on average, will last as much as 30 days or as little as a week depending upon both the size of the project, the number of tasks to be completed, and the number of resources available to work on the sprint's tasks. 
+Sprints, on average, will last as much as 30 days or as little as a 7 days depending upon both the size of the project, the number of tasks to be completed, and the number of resources available to work on the sprint's tasks. 
 
 In addition, in some organizations developers will meet daily to discuss project progress, needs, and roadblocks. These meetings are sometimes referred to as SCRUM meeting or Daily Stand-up Meeting. The person or persons are sometimes invited to listen however they are only in attendance as observers.
 
@@ -21,3 +21,4 @@ In addition, in some organizations developers will meet daily to discuss project
 
 The above is an example of a sprint plan which has been laid out in six 30 day sprints. You can see that there is a Sprint Dev in each of the six sprints but from Sprint 2 on there is something labeled as a __Sprint # Increment__. 
 
+The Sprint Dev is a representation of the development going on during this sprint while Sprint Increment is a the sum of all product backlog items that were completed in the current sprint and all previous sprints. 
