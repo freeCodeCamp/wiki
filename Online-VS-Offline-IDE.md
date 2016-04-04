@@ -12,9 +12,9 @@ There are several offline [IDE](Integrated Development Environment) that program
 
   Furthermore it has a refactoring that find and replace function, variables and classes of a specific work.
 
-  Eclipse offers more plugins, platforms, frameworks, and simpler to use compare  to other IDE such as **IntelliJ**, **BlueJ** and **JEdit**.
+  Eclipse offers more plugins, platforms, frameworks, and is simpler to use compare  to other IDEs such as **IntelliJ**, **BlueJ** and **JEdit**.
 
-- **[NetBeans](https://netbeans.org/features/)** is a free intuitive editor that does it all compared from other IDE. It has simple Swing GUI design tool to build user interfaces by dragging and dropping components for instance buttons, textboxes.
+- **[NetBeans](https://netbeans.org/features/)** is a free intuitive editor that does it all compared from other IDEs. It has simple Swing GUI design tool to build user interfaces by dragging and dropping components for instance buttons, textboxes.
 
   The _disadvantage_ it is that with all its features it is slow to load and uses  more memory than other IDE's.
 
@@ -35,4 +35,4 @@ An offline IDE will be more beneficial to a programmer rather than an online IDE
 
 If there is a major storm the connection will be affected causing many projects to be unfinished and incomplete.
 
-The only advantages of online IDE is that projects can be access everywhere; there are no setup and configurations.  There is no hardware limitation since all information will be stores in cloud.
+The only advantage of an online IDE is that projects can be access everywhere; there are no setup and configurations.  There is no hardware limitation since all information is be stored in the cloud.
