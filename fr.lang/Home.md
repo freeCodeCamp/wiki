@@ -29,6 +29,6 @@ Si nous fusionnons votre **pull request**, votre nom sera automatiquement ajout�
 - [En savoir plus sur la façon de faire une pull request à partir d'une fork](Pull-Request-Contribute)
 - [Comment Squash vos Commits:](git-rebase # squashing-multiple-commits-en-un) Nous exigeons un seul commit par pull request, sauf indication contraire émise par un modérateur.
 
-Si vous avez des questions à ce sujet, veuillez envoyer un message à [Rafase282 dans Gitter](https://gitter.im/Rafase282) ou rejoignez le [salon Gitter Wiki](Https://gitter.im/FreeCodeCamp/Wiki) pour en discuter.
+Si vous avez des questions à ce sujet, veuillez envoyer un message en anglais à [Rafase282 dans Gitter](https://gitter.im/Rafase282) ou rejoignez le [salon Gitter Wiki](Https://gitter.im/FreeCodeCamp/Wiki) pour en discuter.
 
 Nous sommes impatients de collaborer avec vous sur l'amélioration de ce wiki!
