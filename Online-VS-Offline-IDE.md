@@ -1,10 +1,10 @@
-# Online vs Offline IDE
+# Online vs Offline IDEs
 
 ## Offline IDEs
 
 There are several offline [IDE](Integrated Development Environment) that programmers use in order to stay more productive to learn and be more productive at work.
 
-- **[Eclipse](https://www.app5.unisys.com/offerings/ClearPathConnection/eclipse.html)** is more than a Java editor. Its biggest advantages are code completion by tabbing method which saves a lot of time writing documentations.
+- **[Eclipse](https://www.app5.unisys.com/offerings/ClearPathConnection/eclipse.html)** is more than a Java editor. Its biggest advantages are code completion by tabbing method which saves a lot of time when writing documentation.
 
   It has a build in syntax check to fix any mistype words while coding a project. All of features we've come to expect of an IDE are their code completion, templates, integration  with various SCMSs, and integration with build systems.
 
