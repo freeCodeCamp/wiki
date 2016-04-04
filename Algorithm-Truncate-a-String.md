@@ -18,7 +18,7 @@ Do not forget that when we truncate the word, we also must count the length adde
 ## Code Solution:
 
 ```js
-function truncate(str, num) {
+function truncateString(str, num) {
   if (str.length <= num)
     return str;
   

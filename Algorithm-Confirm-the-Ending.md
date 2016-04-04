@@ -1,7 +1,7 @@
 ![](http://i.imgur.com/Z7vhddH.jpg)
 
 # Explanation:
-The function is a whole Boolean operation. You need to return true if the first argument ends with the second argument. This means that for the problem script, it should return true for the `end('Bastian', 'n'); case.`
+The function is a whole Boolean operation. You need to return true if the first argument ends with the second argument. This means that for the problem script, it should return true for the `confirmEnding('Bastian', 'n'); case.`
 
 ## Hint: 1
 Take a look at how substr() works. You will be trying to get the last Nth characters.
@@ -20,7 +20,7 @@ Check that you have the proper syntax and that you use `===` to compare.
 ## Code Solution:
 
 ```js
-function end(str, target) {
+function confirmEnding(str, target) {
   return str.substr(-target.length) === target;
 }
 ```

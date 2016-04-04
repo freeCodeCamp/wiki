@@ -18,7 +18,7 @@ If there is no index for that number then you will have to deal with that case t
 ## Code Solution:
 
 ```js
-function where(arr, num) {
+function getIndexToIns(arr, num) {
   arr.sort(function(a, b) {
     return a - b;
   });
@@ -39,7 +39,7 @@ function where(arr, num) {
 ## Code Solution 2:
 
 ```js
-function where(arr, num) {
+function getIndexToIns(arr, num) {
   arr.push(num);
   arr.sort(function(a, b)
            {return a-b;}

@@ -19,11 +19,11 @@
 ## Code Solution:
 
 ```js
-function friendly(str) {
+function makeFriendlyDates(str) {
 
   var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
-  // COnverst a YYYY-MM-DD string into a date object.
+  // Convert a YYYY-MM-DD string into a date object.
   function convertDate(str) {
     // Split the dates to work independently.
     var dateStr = str.split('-');
