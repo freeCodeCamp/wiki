@@ -230,6 +230,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Popayan](https://www.facebook.com/groups/free.code.camp.popayan/)
   - [Riohacha](https://www.facebook.com/groups/free.code.camp.riohacha/)
   - [Quibdo](https://www.facebook.com/groups/free.code.camp.quibdo/)
+  - [Villavicencio](https://www.facebook.com/groups/free.code.camp.villavicencio/)
 - Costa Rica
   - [San Jose](https://www.facebook.com/groups/free.code.camp.san.jose.costa.rica/)
   - [San Pedro](https://www.facebook.com/groups/free.code.camp.costa.rica.san.pedro/)
@@ -284,7 +285,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Coventry](https://www.facebook.com/groups/free.code.camp.coventry/)
   - [Derby](https://www.facebook.com/groups/free.code.camp.derby/)
   - [Exeter](https://www.facebook.com/groups/free.code.camp.exeter.uk/)
-  - [Guildford](https://www.facebook.com/groups/free.code.camp.guildford/)
+  - [Guildford](https://www.facebook.com/groups/free.code.camp.guildford.uk/)
   - [Hove](https://www.facebook.com/groups/free.code.camp.hove)
   - [Huddersfield](https://www.facebook.com/groups/free.code.camp.huddersfield/)
   - [Hull](https://www.facebook.com/groups/free.code.camp.hull/)
@@ -839,8 +840,9 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
 - Serbia
   - [Belgrade](https://www.facebook.com/groups/free.code.camp.belgrade/)
   - [Krusevac](https://www.facebook.com/groups/free.code.camp.krusevac/)
-  - [Nis](https://www.facebook.com/groups/free.code.camp.nis/)
+  - [Niš](https://www.facebook.com/groups/free.code.camp.nis/)
   - [Novi Sad](https://www.facebook.com/groups/free.code.camp.novi.sad/)
+  - [Šabac](https://www.facebook.com/groups/free.code.camp.sabac/)
   - [Subotica](https://www.facebook.com/groups/free.code.camp.subotica/)
   - [Vrsac](https://www.facebook.com/groups/free.code.camp.vrsac/)
 - Singapore
@@ -996,6 +998,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Bakersfield](https://www.facebook.com/groups/free.code.camp.bakersfield.california/)
     - [Berkeley](https://www.facebook.com/groups/free.code.camp.berkeley/)
     - [Cathedral City](https://www.facebook.com/groups/free.code.camp.cathedral.city/)
+    - [Cerritos](https://www.facebook.com/groups/free.code.camp.cerritos/)
     - [Covina](https://www.facebook.com/groups/Free.Code.Camp.Covina/)
     - [Davis](https://www.facebook.com/groups/free.code.camp.davis/)
     - [Diamon Bar](https://www.facebook.com/groups/Free.Code.Camp.Diamond.Bar/)
