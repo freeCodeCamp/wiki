@@ -129,11 +129,39 @@ function rot13(str) {
 }
 ```
 
+## :rotating_light: Advanced Code Solution:
+
+```js
+function rot13(str) {
+  // start with a new empty string
+  var newStr = "";
+  // loop over the characters in the original string
+  for (var i = 0; i < str.length; i++) {
+    // extract the unicode for the i-th character
+    var x = str.charCodeAt(i);
+    // process only if character is alphabet, unicode between 65(A) and 91(Z)
+    if (x >= 65 && x <= 91) {
+      // convert the character to the coded character and add to new string.
+      // To convert the character to coded character first shift the unicodes
+      // such that range is between 0 ans 26. Then add 13 (rotation value) to
+      // shift the character. Finally add 65 to bring the code back between
+      // the character range
+      newStr += String.fromCharCode((x - 65 + 13)%26 + 65);
+    } else {
+      // if not a character, directly add to the new string
+      newStr += str[i];
+    }
+  }
+  // return the newstring
+  return newStr;
+}
+```
+
 
 ### :trophy: Credits:
 If you found this page useful, you may say thanks to the contributors by copying and pasting the following line in the main chat:
 
-**`thanks @anuragaryan @SaintPeter @vaskezu for your help with Algorithm: Caesar's Cipher`**
+**`thanks @anuragaryan @SaintPeter @vaskezu @The-Seth for your help with Algorithm: Caesar's Cipher`**
 
 ## :clipboard: NOTE TO CONTRIBUTORS:
 - :warning: **DO NOT** add solutions that are similar to any existing solutions. If you think it is ***similar but better***, then try to merge (or replace) the existing similar solution.
