@@ -14,7 +14,7 @@ _Figure 0a_![Imgur](http://i.imgur.com/6MkwQCx.png)
 ### 1. Upload Files Button
 If you have already created the files, which should be `.md` files for **Markdown** or if you are contributing source code then feel free to use the adequate file extension.
 
-After you select it, you will see something similar to _Figure 3a_ bellow. You have the following options:
+After you select it, you will see something similar to _Figure 3a_ below. You have the following options:
 - **Drag or select files to upload:** This allows you to actually add the files, any files, so be careful with what you upload.
 - **Remove Files:** If you press the `x` it will remove the unwanted files before you proceed.
 - **Add Title:** This will let you add a title for your pull request. Please try to use a self descriptive but short title. You will have a place to add as much detail as you like.
@@ -26,14 +26,14 @@ After you select your files, you will be presented with a screen like _Figure 1b
 - **Change Base branch:** Always select master unless you know what you are doing. The base should be the target branch.
 - **Compare to branch:** This should be the branch you create for your pull request.
 - **Details:** As before, you will have a chance to change the title and details which will have the previous values.
-  - _Figure 1b_![Creatign PR](http://i.imgur.com/rHfSVcX.png)
+  - _Figure 1b_![Creating PR](http://i.imgur.com/rHfSVcX.png)
 
 - **Files Preview:** You will have the chance to see what your files look like from _Figure 1c_. **Note** that here I changed the actual pull request for another one with a better branch name and a draft of this guide instead of just random images.
 - You can select to view the code with differences between the previous version and the new one if you are modifying an existing file.
 - The current view is the Rich difference that allows to view the changes on the same file, red for deletions, green for additions.  Lastly you have the option to view the file as if it was live.
   - _Figure 1c_![File Preview](http://i.imgur.com/oYS8ZNr.png)
 
-Next is to click on `Create pull request`. it is the green button and it will take you to view your pull request. it will look similar to _Figure 1d_ bellow.
+Next is to click on `Create Pull Request`. it is the green button and it will take you to view your pull request. it will look similar to _Figure 1d_ bellow.
 - _Figure 1d_![Created PR](http://i.imgur.com/PSx5NPU.png)
 
 The first thing you will notice is the title with the pull request number, in the example it is `#393`. Next, is the status of the pull request, it will either be `Open`, `Closed` or `Merged`.
@@ -75,7 +75,7 @@ _Figure 3a_ ![Creating File](http://i.imgur.com/ZpREhd5.png)
 
 As you can see from _Figure 3a_ there are similar options when it comes to creating a new file for a pull request online. This is the way to directly contribute from the web, even from your smart phone!
 
-1. **File Name**: This will be the file name with extension include to create it. it is required. Please do not use weird character or white space, use `-` if you need space and Keep the first letter capitalize for better styling.
+1. **File Name**: This will be the file name with the .md extension. The extension is required.Please do not use weird characters or white space. Use `-` if you need space and Keep the first letter capitalize for better styling. example: This-Is-How-It-Should-Be.md
 2. **File Content:** This is the area where you write the content of your file.
 3. **Preview Tab:** This allows you to preview your file.
 4. **Title:** This is where you must write a title for your pull request to let everyone know what the commit is about. The title should be descriptive but not too long .
