@@ -35,19 +35,27 @@ e.g. 'A' ↔ 'N', 'T' ↔ 'G'.
 ```js
 function rot13(str) {
     var nstr="";
+    /**
+    * It's not a good idea to use numbers other than 0 or 1 in your code
+    * So we will dynamically obtain ASCII values of A, Z and mid-point
+    **/
+    var VALUE_OF_A = "A".charCodeAt(0); // ASCII value of A, which is 65
+    var VALUE_OF_Z = "Z".charCodeAt(0); // ASCII value of Z, which is 90
+    var LENGTH_OF_ALPHABET = VALUE_OF_Z - VALUE_OF_A + 1; // this is 26
+    var VALUE_OF_MID_POINT = VALUE_OF_A + LENGTH_OF_ALPHABET/2; // ASCII value of halfway letter in alphabet, which is 78
     for(var i=0; i<str.length; i++){
         //Checks if character lies between A-Z
-        if(str.charCodeAt(i) < 65 || str.charCodeAt(i) > 90) {
-            nstr += String.fromCharCode(str.charCodeAt(i));
+        if(str.charCodeAt(i) < VALUE_OF_A || str.charCodeAt(i) > VALUE_OF_Z) {
+            nstr += str[i];
             continue;
         }
         //N = ASCII 78, if the character code is less than 78, shift forward 13 places
-        if(str.charCodeAt(i) < 78){
-            nstr += String.fromCharCode(str.charCodeAt(i) + 13);
+        if(str.charCodeAt(i) < VALUE_OF_MID_POINT){
+            nstr += String.fromCharCode(str.charCodeAt(i) + LENGTH_OF_ALPHABET/2);
         }
         else{
             //Otherwise shift the character 13 places backward
-            nstr += String.fromCharCode(str.charCodeAt(i) - 13);
+            nstr += String.fromCharCode(str.charCodeAt(i) - LENGTH_OF_ALPHABET/2);
 
         }
     }
@@ -59,7 +67,7 @@ function rot13(str) {
 ### Code Explanation:
 > - A string variable `nstr` is declared and initialized to store the
 decoded string.
-- The for loop is used to loop through each character of the input string.
+- The `for loop` is used to loop through each character of the input string.
 - If the character is not uppercase English alphabets(i.e. its ascii doesn't lie between 65 and 91 ), we'll leave it
 as it is and [continue](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/continue) with next iteration.
 - If it's the uppercase English alphabet, we'll subtract 13 from it's
@@ -68,6 +76,43 @@ ascii code.
 range when subtracted by 13 so we'll add 26 (number of letters in English alphabets) to it so that after A it'll go back to Z.
 e.g. M(77) ↔ 77-13 = 64(Not an English alphabet) +26 = 90 ↔ Z(90)
 
+It is quite possible to replace the `if-else` logic with a simple modulo operation, because of the cyclic nature of English alphabet.
+
+So, our final code could very well look like as follows.
+
+### Alternate Solution
+```js
+function rot13(str) {
+    var nstr="";
+    var position_in_alphabet = 0; // position of 'A' by default
+    /**
+    * It's not a good idea to use numbers other than 0 or 1 in your code
+    * So we will dynamically obtain ASCII values of A, Z and mid-point
+    **/
+    var VALUE_OF_A = "A".charCodeAt(0); // ASCII value of A, which is 65
+    var VALUE_OF_Z = "Z".charCodeAt(0); // ASCII value of Z, which is 90
+    var LENGTH_OF_ALPHABET = VALUE_OF_Z - VALUE_OF_A + 1; // this is 26
+    var VALUE_OF_MID_POINT = VALUE_OF_A + LENGTH_OF_ALPHABET/2; // ASCII value of halfway letter in alphabet, which is 78
+    for(var i=0; i<str.length; i++){
+        //Checks if character lies between A-Z
+        if(str.charCodeAt(i) < VALUE_OF_A || str.charCodeAt(i) > VALUE_OF_Z) {
+            nstr += str[i];
+            continue;
+        }
+        
+        position_in_alphabet = str.charCodeAt(i) - VALUE_OF_A;
+        nstr += String.fromCharCode((position_in_alphabet + LENGTH_OF_ALPHABET/2) % LENGTH_OF_ALPHABET + VALUE_OF_A);
+        
+    }
+
+    return nstr;
+}
+```
+
+### Code Explanation:
+> - `position_in_alphabet` offsets the value from absolute ASCII value of the letter to be within 0 to 25
+- The next part computes the forward shift by 13, and then takes modulo by 26; to keep the value within 0 to 25
+- Lastly, the addition of `VALUE_OF_A` would offset the value back to be within 65-90, so that it's a valid ASCII value and a String can be created from it.
 
 ## :sunflower: Intermediate Code Solution:
 
@@ -78,6 +123,11 @@ function rot13(str) {
   var rotCharArray = [];
   //regular expression for all upper case letter from A to Z
   var regEx = /[A-Z]/ ;
+  // Obtain the constants
+  var VALUE_OF_A = "A".charCodeAt(0); // ASCII value of A, which is 65
+  var VALUE_OF_Z = "Z".charCodeAt(0); // ASCII value of Z, which is 90
+  var LENGTH_OF_ALPHABET = VALUE_OF_Z - VALUE_OF_A + 1; // this is 26
+  
   //split str into a character array
   str = str.split("");
   //iterate over each character in the array
@@ -85,10 +135,10 @@ function rot13(str) {
     //regEx.test(str[x]) will return (true or false) if it maches the regEx or not
     if (regEx.test(str[x])) {
     //checks if the new character code is greater or equal to 65 (letter A)
-      if (str[x].charCodeAt()-13 >= 65) {
-        rotCharArray.push(str[x].charCodeAt()-13);
+      if (str[x].charCodeAt()- LENGTH_OF_ALPHABET/2 >= VALUE_OF_A) {
+        rotCharArray.push(str[x].charCodeAt()-LENGTH_OF_ALPHABET/2);
       } else {
-        rotCharArray.push(str[x].charCodeAt()+13);
+        rotCharArray.push(str[x].charCodeAt()+LENGTH_OF_ALPHABET/2);
       }
     } else {
       rotCharArray.push(str[x].charCodeAt());
@@ -115,16 +165,20 @@ function rot13(str) {
     .map.call(str, function(char) {
       // Convert char to a character code
       x = char.charCodeAt(0);
+      var VALUE_OF_A = "A".charCodeAt(0); // ASCII value of A, which is 65
+      var VALUE_OF_Z = "Z".charCodeAt(0); // ASCII value of Z, which is 90
+      var LENGTH_OF_ALPHABET = VALUE_OF_Z - VALUE_OF_A + 1; // this is 26
+      var VALUE_OF_MID_POINT = VALUE_OF_A + LENGTH_OF_ALPHABET/2; // ASCII value of halfway letter in alphabet, which is 78
       // Checks if character lies between A-Z
-      if (x < 65 || x > 90) {
+      if (x < VALUE_OF_A || x > VALUE_OF_Z) {
         return String.fromCharCode(x);  // Return un-converted character
       }
       //N = ASCII 78, if the character code is less than 78, shift forward 13 places
-      else if (x < 78) {
-        return String.fromCharCode(x + 13);
+      else if (x < VALUE_OF_MID_POINT) {
+        return String.fromCharCode(x + LENGTH_OF_ALPHABET2);
       }
       // Otherwise shift the character 13 places backward
-      return String.fromCharCode(x - 13);
+      return String.fromCharCode(x - LENGTH_OF_ALPHABET/2);
     }).join('');  // Rejoin the array into a string
 }
 ```
