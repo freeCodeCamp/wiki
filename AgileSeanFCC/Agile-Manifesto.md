@@ -32,3 +32,5 @@ Steve Mellor
 Ken Schwaber
 Jeff Sutherland
 Dave Thomas
+
+Read the original at http://agilemanifesto.org/
