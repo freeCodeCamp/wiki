@@ -21,9 +21,10 @@ to maintain a constant pace indefinitely.
 
 9. Continuous attention to technical excellence and good design enhances agility.
 
-10. Simplicity -- * the art of maximizing the amount of work not done * -- is essential.
+10. Simplicity -- the art of maximizing the amount of work not done -- is essential.
 
 11. The best architectures, requirements, and designs emerge from self-organizing teams.
 
 12. At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.
 
+Read the original at http://agilemanifesto.org/principles.html
