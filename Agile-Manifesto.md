@@ -15,22 +15,22 @@ We are uncovering better ways of developing software by doing it and helping oth
 
 
 Original Signators: 
-<li>Kent Beck
-<li>Mike Beedle
-<li>Arie van Bennekum
-<li>Alistair Cockburn
-<li>Ward Cunningham
-<li>Martin Fowler
-<li>James Grenning
-<li>Jim Highsmith
-<li>Andrew Hunt
-<li>Ron Jeffries
-<li>Jon Kern
-<li>Brian Marick
-<li>Robert C. Martin
-<li>Steve Mellor
-<li>Ken Schwaber
-<li>Jeff Sutherland
-<li>Dave Thomas
++ Kent Beck
++ Mike Beedle
++ Arie van Bennekum
++ Alistair Cockburn
++ Ward Cunningham
++ Martin Fowler
++ James Grenning
++ Jim Highsmith
++ Andrew Hunt
++ Ron Jeffries
++ Jon Kern
++ Brian Marick
++ Robert C. Martin
++ Steve Mellor
++ Ken Schwaber
++ Jeff Sutherland
++ Dave Thomas
 
 Read the original at http://agilemanifesto.org/
