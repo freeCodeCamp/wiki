@@ -27,4 +27,4 @@ How to create and submit issues.
 
 ### How to Become an Issue Moderator for the Wiki
 
-Requirements on becoming a mod.
+If you are really committed to contributing to the wiki and you would like to join the team and be able to merge pull request, create new labels, assign mods to specific pull request and more then just check the [requirements to become a wiki mod](Become-A-Wiki-Mod) and follow the instructions.
