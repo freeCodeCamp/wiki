@@ -80,12 +80,10 @@ function rot13(str) {
   for (var x in str) {
     //regEx.test(str[x]) will return (true or false) if it maches the regEx or not
     if (regEx.test(str[x])) {
-    //checks if the new character code is greater or equal to 65 (letter A)
-      if (str[x].charCodeAt()-13 >= 65) {
-        rotCharArray.push(str[x].charCodeAt()-13);
-      } else {
-        rotCharArray.push(str[x].charCodeAt()+13);
-      }
+      // A more general approach
+      // possible because of modular arithmetic 
+      // and cyclic nature of rot13 transform
+      rotCharArray.push((str[x].charCodeAt - 65 + 13) % 26 + 65);
     } else {
       rotCharArray.push(str[x].charCodeAt());
     }
