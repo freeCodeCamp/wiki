@@ -106,7 +106,11 @@ function rot13(str) { // LBH QVQ VG!
   return str.replace(/[A-Z]/g, (L) => String.fromCharCode(65 + (L.charCodeAt(0) - 65 + 13) % 26));
 }
 ```
-
+### Code Explanation:
+>- `String.prototype.replace` [function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace) lets you transform a `String` based on some pattern match (defined by a regular expression), and the [transformation function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace#Specifying_a_function_as_a_parameter) (which is applied to each of the pattern matches).
+- [Arrow function](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions/Arrow_functions) syntax is used to write the function parameter to `replace()`.
+- `L` represents a single unit, from every pattern match with `/[A-Z]/g` - which is every uppercase letter in the alphabet, from `A` to `Z`, present in the string.
+- The arrow function applies the `rot13` transform on every uppercase letter from English alphabet present in the given string.
 
 ### :trophy: Credits:
 If you found this page useful, you may say thanks to the contributors by copying and pasting the following line in the main chat:
