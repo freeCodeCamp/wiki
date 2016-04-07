@@ -7,6 +7,7 @@
 - Back End - [**`[FreeCodeCamp/HelpBackEnd]`**](https://gitter.im/FreeCodeCamp/HelpBackEnd)
 - Python - [**`[FreeCodeCamp/Python]`**](https://gitter.im/FreeCodeCamp/python)
 - Java - [**`[FreeCodeCamp/Java]`**](https://gitter.im/FreeCodeCamp/java)
+- Git - [**`[FreeCodeCamp/Git]`**](https://gitter.im/FreeCodeCamp/Git)
 - Go - [**`[FreeCodeCamp/Go]`**](https://gitter.im/FreeCodeCamp/go)
 - Ruby - [**`[FreeCodeCamp/Ruby]`**](https://gitter.im/FreeCodeCamp/ruby)
 - PHP - [**`[FreeCodeCamp/PHP]`**](https://gitter.im/FreeCodeCamp/php)
