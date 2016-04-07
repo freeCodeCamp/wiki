@@ -85,7 +85,7 @@ function rot13(str) {
       // A more general approach
       // possible because of modular arithmetic 
       // and cyclic nature of rot13 transform
-      rotCharArray.push((str[x].charCodeAt - 65 + 13) % 26 + 65);
+      rotCharArray.push((str[x].charCodeAt() - 65 + 13) % 26 + 65);
     } else {
       rotCharArray.push(str[x].charCodeAt());
     }
