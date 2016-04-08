@@ -29,6 +29,6 @@ JavaScript와 연관되거나 특정 커리큘럼이 아니더라도, **기술 �
 - [Fork로부터 pull request를 만드는 방법](https://github.com/FreeCodeCamp/wiki/blob/master/Pull-Request-Contribute) 
 - [Squash Commit하는 방법](https://github.com/FreeCodeCamp/wiki/blob/master/git-rebase#squashing-multiple-commits-into-one): 관리자에 의해 별도로 지정되지 않으면 Pull Request 당 오직 하나의 commit이 필요합니다. 
 
-만약 당신이 Free Code Camp Wiki에 기여하는 것에 대해 질문이 있다면 [Gitter에 @Rahase282](https://gitter.im/Rafase282)에게 메시지를 보내거나 [Gitter Wiki Room](https://gitter.im/FreeCodeCamp/Wiki)으로 오십시오.
+만약 당신이 Free Code Camp Wiki에 기여하는 것에 대해 질문이 있다면 [Gitter에 @Rafase282](https://gitter.im/Rafase282)에게 메시지를 보내거나 [Gitter Wiki Room](https://gitter.im/FreeCodeCamp/Wiki)으로 오십시오.
 
 우리는 이 위키를 확장하거나 개선하도록 당신과 함께 협력하기를 기대합니다!
