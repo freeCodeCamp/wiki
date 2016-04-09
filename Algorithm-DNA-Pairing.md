@@ -21,7 +21,7 @@
 
 ### Solution 1
 ```js
-function pair(str) {
+function pairElement(str) {
   // Return each strand as an array of two elements, the original and the pair.
   var paired = [];
 
@@ -59,7 +59,7 @@ function pair(str) {
 
 ### Solution 2
 ```js
-function pair(str) {
+function pairElement(str) {
   //define a map object with all pair possibilities 
   var map = {T:'A', A:'T', G:'C', C:'G'};
   //split str into a a char Array

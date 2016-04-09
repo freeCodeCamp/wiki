@@ -18,7 +18,7 @@ If no element satisfy the function then you must return **undefined**
 ## Code Solution:
 
 ```js
-function find(arr, func) {
+function findElement(arr, func) {
   // Make num undefined by default
   var num;
 
@@ -35,20 +35,20 @@ function find(arr, func) {
   return num;
 }
 
-find([1, 2, 3, 4], function(num) {
+findElement([1, 2, 3, 4], function(num) {
   return num % 2 === 0;
 });
 ```
 
 ## Another Code Solution:
 ```js
-function find(arr, func) {
+function findElement(arr, func) {
   filterArr = arr.filter(func); //filter array with the function provided
   
   return filterArr[0]; //return the first element that returns true, or undefined if no elements return true
 }
 
-find([1, 2, 3, 4], function(num){ return num % 2 === 0; });
+findElement([1, 2, 3, 4], function(num){ return num % 2 === 0; });
 ```
 # Code Explanation:
 - To make the code easier, create an undefined variable that will be returned.

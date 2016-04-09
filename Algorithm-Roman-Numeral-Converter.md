@@ -18,7 +18,7 @@
 # Code Solution:
 
 ```js
-var convert = function(num) {
+var convertToRoman = function(num) {
 
   // Create arrays with default conversion with matching indices.
   var decimalValue = [ 1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1 ];

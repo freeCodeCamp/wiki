@@ -26,7 +26,7 @@ Remember to use [ Read-Search-Ask](How-to-get-help-when-you-get-stuck) if you ge
 ## Code Solution:
 
 ```js
-function convert(celsius) {
+function convertToF(celsius) {
   // Only change code below this line
   var fahrenheit = (celsius * (9/5)) + 32;
 
@@ -39,7 +39,7 @@ function convert(celsius) {
 }
 
 // Change the inputs below to test your code
-convert(30);
+convertToF(30);
 ```
 
 # Code Explanation:

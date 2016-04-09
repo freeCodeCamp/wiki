@@ -13,7 +13,7 @@ Try to use `Object.prototype.hasOwnProperty` method to know if the property name
 - [http://devdocs.io/#q=js+Object+hasOwnProperty](http://devdocs.io/#q=js+Object+hasOwnProperty)
 
 ## Hint: 3
-Check equivalence of `Object` in `collection` with `Object` passed as second parameter to `where` function.
+Check equivalence of `Object` in `collection` with `Object` passed as second parameter to `whereAreYou` function.
 
 ## Spoiler Alert!
 [![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
@@ -24,7 +24,7 @@ Check equivalence of `Object` in `collection` with `Object` passed as second par
 ### First
 
 ```js
-function where(collection, source) {
+function whereAreYou(collection, source) {
   // "What's in a name? that which we call a rose
   // By any other name would smell as sweet.”
   // -- by William Shakespeare, Romeo and Juliet
@@ -48,7 +48,7 @@ function where(collection, source) {
 ### Second
 
 ```js
-function where(collection, source) {
+function whereAreYou(collection, source) {
   // "What's in a name? that which we call a rose
   // By any other name would smell as sweet.”
   // -- by William Shakespeare, Romeo and Juliet
@@ -68,7 +68,7 @@ function where(collection, source) {
 ### Third
 
 ```js
-function where(collection, source) {
+function whereAreYou(collection, source) {
   // "What's in a name? that which we call a rose
   // By any other name would smell as sweet.”
   // -- by William Shakespeare, Romeo and Juliet
@@ -87,7 +87,7 @@ function where(collection, source) {
 ### Fourth
 
 ```js
-function where(collection, source) {
+function whereAreYou(collection, source) {
 //Array for storing the matched objects
   var arr = [];
   //For maintaining the number of key-value matches

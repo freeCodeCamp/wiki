@@ -6,10 +6,10 @@ In this example:
 
 ```js
 var someVar = "Hat";
-function myFun() {
+function myOutfit() {
   var someVar = "Head";
   return someVar;
 }
 ```
 
-The function `myFun` will return `"Head"` because the `local` version of the variable is present.
+The function `myOutfit` will return `"Head"` because the `local` version of the variable is present.

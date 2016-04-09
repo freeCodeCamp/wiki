@@ -20,7 +20,7 @@ Check two arrays and return a new array that contains only the items that are no
 ## Code Solution:
 
 ```js
-function diff(arr1, arr2) {
+function diffArray(arr1, arr2) {
   var newArr = arr1.concat(arr2);
 
   function check(item) {
@@ -36,7 +36,7 @@ function diff(arr1, arr2) {
 ## Code Solution 2:
 
 ```js
-function diff(arr1, arr2) {
+function diffArray(arr1, arr2) {
   // Same, same; but different.
   var newArr = arr1.filter(function (el) {
     return arr2.indexOf(el) === -1;
@@ -54,7 +54,7 @@ function diff(arr1, arr2) {
 
 ```js
 // This solution runs two times faster than solutions 1 and 2
-function diff(arr1, arr2) {
+function diffArray(arr1, arr2) {
   var newArr = [];
   // Looping through arr1 to find elements that do not exist in arr2  
   for (var i = 0; i < arr1.length; i++) {
