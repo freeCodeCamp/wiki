@@ -20,7 +20,7 @@
 ## Code Solution:
 
 ```js
-function boo(bool) {
+function booWho(bool) {
   return typeof bool === 'boolean';
 }
 ```

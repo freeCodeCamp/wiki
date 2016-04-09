@@ -2,14 +2,14 @@
 
 Variables which are declared within a function, as well as the function parameters have local scope. That means, they are only visible within that function.
 
-Here is a function `myTest` with a local variable called `loc`.
+Here is a function `myLocalScope` with a local variable called `loc`.
 
 ```js
-function myTest() {
+function myLocalScope() {
   var loc = "foo";
   console.log(loc);
 }
-myTest(); // "foo"
+myLocalScope(); // "foo"
 console.log(loc); // "undefined"
 ```
 

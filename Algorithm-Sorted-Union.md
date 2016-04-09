@@ -19,7 +19,7 @@
 #### First Solution:
 
 ```js
-function unite(arr1, arr2, arr3) {
+function uniteUnique(arr1, arr2, arr3) {
   // Creates an empty array to store our final result.
   var finalArray = [];
 
@@ -49,7 +49,7 @@ function unite(arr1, arr2, arr3) {
 #### Second Solution:
 
 ```js
-function unite() {
+function uniteUnique() {
   var concatArr = [];
   var i = 0;
   while (arguments[i]){
@@ -71,7 +71,7 @@ function unite() {
 #### Third Solution:
 
 ```js
-function unite(arr1, arr2, arr3) {
+function uniteUnique(arr1, arr2, arr3) {
  var newArr;
  //Convert the arguments object into an array
   var args = Array.prototype.slice.call(arguments);

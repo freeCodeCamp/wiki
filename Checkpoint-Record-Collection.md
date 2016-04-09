@@ -26,7 +26,7 @@ Remember to use [ Read-Search-Ask](How-to-get-help-when-you-get-stuck) if you ge
 
 ## Problem Explanation:
 - Change the code below `// Only change code below this line` and up to `// Alter values below to test your code`
-- Take note that you are editing the inside of the `update` function
+- Take note that you are editing the inside of the `updateRecords` function
 - For the given `id` parameter, which is associated to the `collection` object:
   - If the `value` parameter isn't an empty string, update (or set) the `value` parameter for the `prop` parameter
   - If the `prop` parameter is equal to `"tracks"` and the `value` isn't an empty string, push the `value` onto the end of the `tracks` array
@@ -50,7 +50,7 @@ Remember to use [ Read-Search-Ask](How-to-get-help-when-you-get-stuck) if you ge
 ## Code Solution:
 
 ```
-function update(id, prop, value) {
+function updateRecords(id, prop, value) {
   if (prop === "tracks" && value !== "") {
     collection[id][prop].push(value);
   } else if (value !== ""){
@@ -69,7 +69,7 @@ function update(id, prop, value) {
 - If both these checks fail (meaning `value` must be an empty string), then the key (`prop`) is removed from the object.
 
 ***Example Run***
-- `update(5439, "artist", "ABBA");` runs
+- `updateRecords(5439, "artist", "ABBA");` runs
 - `prop` is equal to "artist", not "tracks", so the first part of the `else if` statement fails
 - `value` is not a blank string, so the second part of the else if statement passes
 - `artist: "ABBA"` is added to the `5439` `id`

@@ -20,7 +20,7 @@ You could use loops or callbacks functions, there are multiple ways to solve thi
 ## Code Solution using for-in loop & hasOwnProperty:
 
 ```js
-function every(collection, pre) {
+function truthCheck(collection, pre) {
   // Create a counter to check how many are true.
   var counter = 0;
   // Check for each object
@@ -42,7 +42,7 @@ function every(collection, pre) {
 
 ##  Code Solution using Array.every():
 ```js
-function every(collection, pre) {
+function truthCheck(collection, pre) {
   return collection.every(function (element) {
     return element.hasOwnProperty(pre) && Boolean(element[pre]);
   });
@@ -55,7 +55,7 @@ function every(collection, pre) {
 
 ## Code solution using Array.reduce:
 ```js
-function every(collection, pre) {
+function truthCheck(collection, pre) {
     return collection.reduce(function(acc, next) {
         if (next[pre]) {
             return acc;

@@ -20,7 +20,7 @@
 ## Basic Solution:
 
 ```js
-function convert(str) {
+function convertHTML(str) {
   // Split by character to avoid problems.
 
   var temp = str.split('');
@@ -55,7 +55,7 @@ function convert(str) {
 ## Medium Solution
 
 ```js
-function convert(str) {
+function convertHTML(str) {
 //Chaining of replace method with different arguments
   str = str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&apos;');
 return str;
@@ -65,7 +65,7 @@ return str;
 ## Advanced Solution
 
 ```js
-function convert(str) {
+function convertHTML(str) {
   // Use Object Lookup to declare as many HTML entities as needed.
   htmlEntities={
     '&':'&amp;',

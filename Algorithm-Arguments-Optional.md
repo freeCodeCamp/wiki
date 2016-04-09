@@ -24,7 +24,7 @@ In the case that only one argument was passed, do not worry about how to prompt 
 ## Code Solution:
 
 ```js
-function add() {
+function addTogether() {
   // Function to check if a number is actually a number
   // and return undefined otherwise.
   var checkNum = function(num) {
@@ -79,7 +79,7 @@ function add() {
 ## Second Solution:
 
 ```js
-function add() {
+function addTogether() {
   var args = new Array(arguments.length);
   //Storing the arguments in an array
   for(var i = 0; i < args.length; ++i) {
@@ -119,7 +119,7 @@ function add() {
 ## Third Solution:
 ```js
 //jshint esversion: 6
-function add() {
+function addTogether() {
   var args = Array.from(arguments);
   return args.some(n => typeof n !== 'number') ? 
     undefined: 

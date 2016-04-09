@@ -22,7 +22,7 @@ Remember to use [ Read-Search-Ask](How-to-get-help-when-you-get-stuck) if you ge
 
 ## Problem Explanation:
 - Change the code below `// Only change code below this line` and up to `// Only change code above this line`
-- Take note that you are editing the inside of the `lookUp` function
+- Take note that you are editing the inside of the `lookUpProfile` function
   - This function includes two parameters, `firstName` and `prop`
 - The function should check look through the `contact` list for the given `firstName` parameter
   - If there is a match found, the function should then look for the given `prop` parameter
@@ -69,7 +69,7 @@ return "No such contact";
 
 ***Example Run***
 
-- `lookUp("Akira","likes");` runs
+- `lookUpProfile("Akira","likes");` runs
 - `"Akira"` is matched to the `"firstName"` key in the first object, so the `if` statement returns true
 - `"likes"` is found within the first object, so the second `if` statement returns true
 - The value of `"likes"` is returned - `"Pizza", "Coding", "Brownie Points"`

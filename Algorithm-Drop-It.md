@@ -20,8 +20,8 @@ If you still can't figure out how to solve it with shift, then try solving it wi
 ## Code Solution 1:
 
 ```js
-function drop(arr, func) {
-  // Drop them elements.
+function dropElements(arr, func) {
+  // drop them elements.
   var times = arr.length;
   for (var i = 0; i < times; i++) {
     if (func(arr[0])) {
@@ -43,11 +43,11 @@ drop([1, 2, 3], function(n) {return n < 3; });
 ## Code Solution 2:
 
 ```js
-function drop(arr, func) {
+function dropElements(arr, func) {
   return arr.slice(arr.findIndex(func) >= 0 ? arr.findIndex(func): arr.length, arr.length);
 }
 
-drop([1, 2, 3, 4], function(n) {return n >= 3;});
+dropElements([1, 2, 3, 4], function(n) {return n >= 3;});
 ```
 
 # Code Explanation:
@@ -58,14 +58,14 @@ drop([1, 2, 3, 4], function(n) {return n >= 3;});
 ## Code Solution 3:
 
 ```js
-function drop(arr, func) {
+function dropElements(arr, func) {
   while(arr.length > 0 && !func(arr[0])) {
     arr.shift();
   }
   return arr;
 }
 
-drop([1, 2, 3], function(n) {return n < 3; });
+dropElements([1, 2, 3], function(n) {return n < 3; });
 ```
 
 # Code Explanation

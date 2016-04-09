@@ -8,7 +8,7 @@ Each `if` statement requires a `boolean` condition to evaluate. If the boolean e
 
 ```js
 
-function test(myVal) {
+function trueOrFalse(myVal) {
   if (myVal > 10) {
      return "Greater Than";
   }

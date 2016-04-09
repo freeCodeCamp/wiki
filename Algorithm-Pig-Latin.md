@@ -19,7 +19,7 @@
 
 #### First solution
 ```js
-function translate(str) {
+function translatePigLatin(str) {
   // Create variables to be used
   var pigLatin = '';
   var regex = /[aeiou]/gi;
@@ -44,7 +44,7 @@ function translate(str) {
 
 #### Second solution
 ```js
-function translate(str) {
+function translatePigLatin(str) {
   //finding all the consonants in the beginning of the str. 
   //by using && below I'm achiving a concept called Intersection of Regular Expressions
   //where your pattern finds the union of two or more RegEx rules. 
@@ -67,7 +67,7 @@ function translate(str) {
 #### Third solution
 ```js
 
-function translate(str) {
+function translatePigLatin(str) {
     var strArr = [];
     var tmpChar;
     
@@ -92,11 +92,11 @@ function translate(str) {
  return strArr.join("")+"ay";
 }
 
-translate("consonant");
+translatePigLatin("consonant");
 ```
 #### Fourth Solution (recursive and declarative)
 ```js
-function translate(str) {
+function translatePigLatin(str) {
   function check(obj) {
   	return ['a','i','u','e','o'].indexOf(str.charAt(obj)) == -1 ?
       										  check(obj+1) : obj;}
