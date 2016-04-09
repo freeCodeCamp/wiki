@@ -1,4 +1,4 @@
-If your city isn't listed here, you should [[create a Campsite for your city|How-to-create-a-Campsite-for-your-city]].
+If your city isn't listed here, you should [create a Campsite for your city](How-to-create-a-Campsite-for-your-city).
 
 [![Google Map of Campsites](https://raw.githubusercontent.com/FreeCodeCamp/wiki/master/google-campsites-map.png)](https://www.google.com/maps/d/u/0/embed?mid=zH0hxoM17_fk.kDBMlxfk0BZ8)
 [Edit Map](https://www.google.com/maps/d/edit?mid=zH0hxoM17_fk.kDBMlxfk0BZ8)
