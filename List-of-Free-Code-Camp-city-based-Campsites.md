@@ -269,6 +269,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Alexandria](https://www.facebook.com/groups/free.code.camp.alex/)
   - [Asyut](https://www.facebook.com/groups/free.code.camp.assiut/)
   - [Cairo](https://www.facebook.com/groups/free.code.camp.cairo/)
+  - [Damanhur](https://www.facebook.com/groups/free.code.camp.damanhur)
   - [Sharqiyah](https://www.facebook.com/groups/free.code.camp.sharkia/)
   - [Tanta](https://www.facebook.com/groups/free.code.camp.tanta/)
 - El Salvador
@@ -416,6 +417,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Patna](http://www.facebook.com/groups/free.code.camp.patna)
     - [Siwan](https://www.facebook.com/groups/free.code.camp.Siwan/)
   - Chattisgarh
+    - [Bilaspur](https://www.facebook.com/groups/free.code.camp.bilaspur/)
     - [Raipur](https://www.facebook.com/groups/free.code.camp.raipur/)
   - [Delhi](https://www.facebook.com/groups/free.code.camp.delhi/)
   - Gujarat
@@ -526,6 +528,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Cork](https://www.facebook.com/groups/free.code.camp.cork.ireland/)
   - [Dublin](https://www.facebook.com/groups/free.code.camp.dublin/)
   - [Galway](https://www.facebook.com/groups/free.code.camp.galway/)
+  - [Sligo](https://www.facebook.com/groups/free.code.camp.sligo/)
   - [Waterford](https://www.facebook.com/groups/free.code.camp.waterford/)
 - Israel
   - [Haifa](https://www.facebook.com/groups/free.code.camp.Haifa/)
@@ -968,6 +971,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Mykolaiv](https://www.facebook.com/groups/free.code.camp.mykolaiv/)
   - [Odessa](https://www.facebook.com/groups/free.code.camp.your.city.odessa.ukraine/)
   - [Rivne](https://www.facebook.com/groups/free.code.camp.rivne/)
+  - [Sumy](https://www.facebook.com/groups/free.code.camp.sumy)
   - [Ternopil](https://www.facebook.com/groups/free.code.camp.Ternopil.Ukraine/)
   - [Vinnitsa](https://www.facebook.com/groups/free.code.camp.vinnitsa/)
   - [Zaporozhye](https://www.facebook.com/groups/free.code.camp.zaporozhye/)
