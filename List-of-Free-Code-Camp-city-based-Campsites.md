@@ -1187,6 +1187,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Lexington](https://www.facebook.com/groups/free.code.camp.lexington.ma/)
     - [Northampton](https://www.facebook.com/groups/free.code.camp.northampton.mass/)
     - [Pepperell](https://www.facebook.com/groups/free.code.camp.pepperell.ma/)
+    - [Worcester](https://www.facebook.com/groups/free.code.camp.worcester.ma/)
   - Michigan
     - [Ann Arbor](https://www.facebook.com/groups/free.code.camp.ann.arbor/)
     - [Big Rapids](https://www.facebook.com/groups/free.code.camp.bigrapids/)
