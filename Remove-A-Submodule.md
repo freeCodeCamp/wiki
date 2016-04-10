@@ -1,6 +1,6 @@
 Removing a submodule is useful when it is no longer required. The steps below outline the removal of a submodule.
 
-#### To remove a submodule follow the steps below:
+#### Remove Submodule
 
 1. Delete the section referring to the submodule from the ```.gitmodules``` file
 
@@ -16,7 +16,7 @@ Removing a submodule is useful when it is no longer required. The steps below ou
 
 7. Delete the now untracked submodule files ```rm -rf path_to_submodule```
 
-Information sourced from:
+##### Sources
 
-http://stackoverflow.com/questions/1260748/how-do-i-remove-a-submodule
-https://git.wiki.kernel.org/index.php/GitSubmoduleTutorial#Removal
+* [Stackoverflow](http://stackoverflow.com/questions/1260748/how-do-i-remove-a-submodule)
+* [git.wiki.kernel.org](https://git.wiki.kernel.org/index.php/GitSubmoduleTutorial#Removal)
