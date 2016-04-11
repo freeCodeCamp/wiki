@@ -1,28 +1,22 @@
-Live streaming your code is an educational and invigorating experience for the streamer and the audience. If you've never seen live coding, check out the popular [twitch.tv channel](http://twitch.tv/freecodecamp). We are actively looking for more streamers of all levels to code JavaScript on the Free Code Camp channel.
+# How to Stream Live Coding on FreeCodeCamp
 
-If you...
-* Want the immediate positive help and feedback of other coders
-* Aren't afraid to try something new
-* Code JavaScript, HTML, or CSS
-_you should give it a try!_
+Live streaming your code is an educational and invigorating experience for the streamer and the audience. If you've never seen live coding, check out our [Twitch channel](http://twitch.tv/freecodecamp). We are actively looking for more streamers of all levels to code on the FreeCodeCamp channel.
 
+## Please follow these steps to get started:
 
+1. Get your computer set up to stream. This process varies depending on your operating system, and it usually involves downloading software to integrate with Twitch. Most Free Code Camp users use [OBS](https://obsproject.com/), but you can find all of the supported software on [Twitch's site](http://www.twitch.tv/broadcast). Here is a useful [guide](https://medium.freecodecamp.com/setting-up-obs-for-live-coding-7-steps-99b8986e7249#.s8wdu73uu) on setting up OBS.
 
-**Please follow these steps to get started:**
+2. Contact a twitch mod via [gitter](https://gitter.im/FreeCodeCamp/LiveCoding). They will help you get the stream key to get set up on the FreeCodeCamp Channel.
 
-1. Get your computer set up to stream. This process varies depending on your operating system, and it usually involves downloading software to integrate with Twitch. Most Free Code Camp users use [OBS](https://obsproject.com/forum/resources/setting-up-obs-with-twitch.117/), but you can find all of the supported software on [Twitch's site](http://www.twitch.tv/broadcast). Another helpful tutorial connecting OBS and Twitch can be found [here](http://www.hdpvrcapture.com/wordpress/?p=5951).
+3. Have fun streaming!
 
-2. Contact Briana via [gitter](https://gitter.im/septimus) or [twitter](https://twitter.com/brianamarie132). She can help you get the stream key to get set up on the Free Code Camp Channel. 
-
-3. Have fun streaming! 
-
-**General rules/guidelines:**
-* JavaScript, HTML, and CSS only (including libraries and frameworks of course).
+## General rules/guidelines:
+* Although we prefer you to stream JavaScript, HTML, and CSS, you can stream any language you want. Just be aware that many of our viewers are only fluent with the languages and frameworks freecodecamp provides.
 * Language and content must be safe-for-work.
-* Before streaming, check the channel to see if someone's already up and give a heads up about your plan to stream in the [Twitch.tv chat room on gitter](https://gitter.im/FreeCodeCamp/LiveCoding).
-* Please use a webcam at the same time - the audience wants to see you!
+* Before streaming, check the channel to see if someone's already up and give a heads up about your plan to stream in the [LiveCoding channel on gitter](https://gitter.im/FreeCodeCamp/LiveCoding).
+* Please use a webcam if you have one - the audience wants to see you!
 * Use the chat room almost as a pair-programmer. Interact as much as possible and work together for best results.
 * Think out-loud as much as possible so that your viewers can understand what you're thinking and doing.
-* No music please. If you need music while you code, use earbuds so it's not on the stream. 
+* Only copyright-free music please. Use [Twitch Music](https://music.twitch.tv) as a guideline for what music you can and can't use.
 
-Please contact Briana via [gitter](https://gitter.im/septimus) or [twitter](https://twitter.com/brianamarie132) and get started today! 
+Please contact one of our mods in the [LiveCoding chat room](https://gitter.im/FreeCodeCamp/LiveCoding) to get started today!
