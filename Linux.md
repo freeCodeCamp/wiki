@@ -2,7 +2,12 @@
 ![alt text][logo]
 [logo]: https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png "Linux mascot - Tux"
 
+##Table of Contents
 
+- [Origins of Linux and the Free Software Movement](#origins-of-linux-and-the-free-software-movement)
+- [Who runs Linux?](#who-runs-linux)
+- [Why run Linux?](#why-run-linux)
+- [How to get Linux](#how-to-get-linux)
 
 ## Origins of Linux and the Free Software Movement
 In the 1980s a famous MIT hacker working for the Artificial Intelligence lab named [Richard Stallman](https://en.wikipedia.org/wiki/Richard_Stallman) promoted the sharing of knowledge and ideas freely, specifically within the area of software. [UNIX](https://en.wikipedia.org/wiki/Unix) was the [operating system](https://en.wikipedia.org/wiki/Operating_system) (OS) of choice by many in the engineering and scientific community, but the problem was UNIX was [proprietary software](https://en.wikipedia.org/wiki/Proprietary_software). This meant only the vendors of the OS had access to the [source code](https://en.wikipedia.org/wiki/Source_code). That went against Stallman's philosophy. Not only did this mean the end users were not allowed to see how the software worked, they could not make any improvements or fixes to it if they could.
@@ -14,8 +19,9 @@ Stallman started the [Free Software Foundation](https://en.wikipedia.org/wiki/Fr
 
 Over time Linux began to gather strong traction within the free software movement. Thousands of developers around the world started experimenting and using it, making contributions where they saw fit. As it became more stable and feature-rich, businesses slowly started to adopt Linux as a solution for their needs and even started contributing to Linux themselves. Linux reaches many devices and environments to this day and continues to grow in popularity.
 
+[Back to top](#table-of-contents)
 
-## Who runs Linux?
+## Who runs Linux
 
 - Linux now operates on the majority of smartphones and tablets around the world via the [Android][1] OS (based off the Linux kernel). As of March 2016 Android holds [60.99%](https://www.netmarketshare.com/operating-system-market-share.aspx?qprid=8&qpcustomd=1) of the market share on mobile devices (tablets and smartphones). It also holds [82.8%](http://www.idc.com/prodserv/smartphone-os-market-share.jsp) for smartphones alone (per 2015 Q2 numbers).
 - As of March 2016, Alexa reported that [96.55%](http://www.w3cook.com/os/summary/) of the top 1 million Internet domains in the world are powered by servers running Linux.
@@ -26,7 +32,9 @@ Over time Linux began to gather strong traction within the free software movemen
 
 Other adoptions of Linux from around the world can be viewed [here](https://en.wikipedia.org/wiki/List_of_Linux_adopters).
 
-##Why run Linux?
+[Back to top](#table-of-contents)
+
+##Why run Linux
 
 - **Constant and efficient improvements.**
     Linux updates happen through the global collaboration of developers. Bugs are documented and resolved much quicker with this type of support. Also, since the developers are also the end-users they have a motivation to make sure it meets user's needs and that it is designed to run well.
@@ -51,6 +59,8 @@ Linux also can utilize software such as [Apache](https://httpd.apache.org/) to s
 - **It's Free.**
   Hard to beat that!
 
+[Back to top](#table-of-contents)
+
 ## How to get Linux
 
 While most vendors provide one OS that gets incremental updates and new versions over time (e.g. Windows, Mac OSX, Solaris), Linux has hundreds of different versions to choose from created by different vendors. This is in part because Linux is freely-distributed code which can be tailored to specific user's needs. While the [Linux Kernel](https://en.wikipedia.org/wiki/Linux_kernel) typically stays the same (core functionality of the OS handling tasks like network management, disk usage, memory utilization, I/O etc.), the many different versions of Linux differ in parts such as which GUI it uses (i.e. [Gnome](https://en.wikipedia.org/wiki/Gnome), [KDE](https://en.wikipedia.org/wiki/KDE), [XFCE](https://en.wikipedia.org/wiki/Xfce), or none at all), system tools, environments, package managers, and applications provided. This unique collection of software along with the kernel define what we call a [Linux Distribution](https://en.wikipedia.org/wiki/Linux_distribution) (distro for short). 
@@ -61,6 +71,8 @@ Opinions on which distribution to choose varies between users, but it is best to
 Most versions of Linux have a feature that allows the user to test out the distribution before installing it to disk in what is called a [live CD](https://en.wikipedia.org/wiki/Live_CD) or a [live USB](http://www.linuxliveusb.com/). A user can put a smaller version of the distribution either burned onto a CD/DVD or a USB drive and boot from it. It will leave a user's current OS intact but they are free to experiment with the user interface and some of the applications. Most distributions will provide a way of using live media first for testing, and later while using the live media be given an option to install the OS onto disk permanently.
 
 For users wishing to keep their current OS or not wishing to make a full transition, another option is to create a virtualized environment and install Linux in it using a tool such as [VirtualBox](https://www.virtualbox.org/wiki/Downloads). A user can run their current OS and have a VirtualBox window running with a Linux distribution in it. This would be an ideal situation for someone who wants to keep running Windows or OSX, but still have access to a Linux environment.
+
+[Back to top](#table-of-contents)
 
 [1]: https://en.wikipedia.org/wiki/Android_(operating_system)
 [2]: https://en.wikipedia.org/wiki/Info_(Unix)
