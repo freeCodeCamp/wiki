@@ -1,38 +1,37 @@
-Building nonprofit projects is the main way that our campers learn full stack JavaScript and agile software development. Once you've earned both your Front End Development Certification and your Full Stack Development Certification, you'll begin this process.
+Building nonprofit projects is the main way that our campers learn full stack JavaScript and agile software development. You'll begin this process once you've earned your Front End Development, Data Visualization, and Back End Development certifications.
 
 ## Starting with the end in mind
 
-Our goal at Free Code Camp is to help you land a job as a junior software developer (or, if you prefer, a 'pivot job' that leads your current career in a more technical direction).
+Our goal at Free Code Camp is to help you land a job as a software developer or get promoted in your current company to a more technical role.
 
-You'll continue to work on nonprofit projects until you've built a sufficiently impressive portfolio and references to start your job search. Your portfolio will ultimately have four nonprofit projects. We estimate that the 800 hours of nonprofit projects you're going to complete, in addition to the 800 hours of challenges you've already completed, will be enough to qualify you for your first coding job. This will produce a much broader portfolio than a traditional coding bootcamp, which generally only has one or two capstone projects.
+You'll continue to work on nonprofit projects until you've built a sufficiently impressive portfolio and references to start your job search. Your portfolio will ultimately have four nonprofit projects. We estimate that the 800 hours of nonprofit projects and 80 hours of interview prep you're going to complete, in addition to the 1,200 hours of challenges you've already completed by this point, will be more than enough to qualify you for your first coding job.
 
-## Choosing your first Nonprofit Project
+## Your first Nonprofit Project
 
-We've categorized all the nonprofit projects by estimated time investment per camper: 100 hours, 200 hours, and 300 hours. These are only rough estimates.
+We generally scope Nonprofit Projects to 200 hours, or about 10 weeks at 20 hours per week of development per camper. These are only rough estimates. You'll only work on one project at a time.
 
-Example: if you and the camper you're paired up with (your pair) each stated you could work 20 hours per week. If the project is a 100 hour per camper project, you should be able to complete it in about 5 weeks.
-Our Nonprofit Project team will match you and your pair based on:
+You will choose another camper to partner with on this projects. You should choose your them based on:
 
 - Your estimated time commitment (10, 20 or 40 hours per week)
-- Your time zone
-- The nonprofit projects you've chosen
+- Your time zones (Will you be able to pair program together?)
 - Prior coding experience (we'd like both campers to be able to contribute equally)
 
 
 We won't take age or gender into account. This will provide you with valuable experience in meshing with diverse teams, which is a reality of the contemporary workplace.
 
-You'll only work on one project at a time. Once you start a nonprofit project, we'll remove you from all other nonprofit project you've expressed interest in. There's a good chance those projects will no longer be available when you finish your current project, anyway. Don't worry, though - we get new nonprofit project requests every day, so there will be plenty more projects for you to consider after you finish your current one.
+Then, you'll email team@freecodecamp.com  with:
 
-### Finalizing the Project
+- Names
+- Contact information
+- Links to each of your Free Code Camp code portfolios
+- Timezones
+- Hours pledged per week
 
-Before you can start working on the project, our team of Nonprofit Project Coordinators will go through the following process:
+We'll send you a list of 3 nonprofit projects that need your help, and together you will choose one to begin work on. While you do this, our team will code review each of your code portfolios to ensure that all user stories have been completed, and that there are no signs of academic dishonesty.
 
-- We'll wait until there are two campers who have chosen the same project and look like they're a good match for one another based on the factors mentioned above.
-- We'll call the stakeholder to confirm once again that he or she agrees with our [terms](http://freecodecamp.com/nonprofits) and has signed our [Nonprofit Project Stakeholder Pledge] (http://goo.gl/forms/0YKkd9bpcR).
-- We'll set an initial meeting with representatives from Free Code Camp, the two campers, and the stakeholder.
-- If the stakeholder and both campers shows up promptly, and seem enthusiastic and professional, we'll start the project.
+### Beginning the Project
 
-This lengthy process serves an important purpose: it reduces the likelihood that any of our campers or stakeholders will waste their precious time.
+We'll set an initial meeting with representatives from Free Code Camp, the two campers, and the stakeholder. If the stakeholder and both campers show up promptly, and seem enthusiastic and professional, we'll start the project. This lengthy process serves an important purpose: it reduces the likelihood that any of our campers or stakeholders will waste their precious time.
 
 ### Nonprofit Stakeholders
 
@@ -46,14 +45,13 @@ When you and your pair partner first speak with your nonprofit stakeholder, you'
 - create a new Trello board and use it to prioritize what needs to be built.
 - and establish deadlines based on your weekly time commitment, and how long you think each task will take.
 
-It's notoriously difficult to estimate how long building software projects will take, so feel free to ask our volunteer team for help.
+Ideally, we'll scope each project to be completed in 10 sprints. It's notoriously difficult to estimate how long building software projects will take, so feel free to ask our volunteer team for help.
 
-You'll continue to meet with your stakeholder at least twice a month in your project's Gitter channel.
-You should also ask questions in your project's Gitter channel as they come up throughout the week, and your stakeholder can answer them asynchronously.
+You'll continue to meet with your stakeholder weekly using the conference software GoToMeeting. You will also correspond with the team on the project's Trello board.
 
 Getting "blocked" on a task can take away your sense of forward momentum, so be sure to proactively seek answers to any ambiguities you encounter.
 
-Ultimately, the project will be considered complete once both the stakeholder's needs have been met, and you and your pair are happy with the project. Then you can add it to your portfolio!
+Ultimately, the project will be considered complete once the stakeholder's needs have been met, and you and your partner are happy with the project. Then you can add it to your portfolio!
 
 ### Working with your Pair
 
