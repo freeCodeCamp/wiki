@@ -2,7 +2,7 @@
 
 Based on [http://ricostacruz.com/cheatsheets/react-router.html](http://ricostacruz.com/cheatsheets/react-router.html) but updated for v2.0.0 of React Router.
 
-### Basic
+## Basic
 
 ```js
 import { render } from 'react-dom'
@@ -18,7 +18,7 @@ render((
 ), document.getElementById('app'))
 ```
 
-### Nesting
+## Nesting
 
 ```js
 import React from 'react'
@@ -52,7 +52,7 @@ render((
 ), document.getElementById('app'))
 ```
 
-### URL params
+## URL params
 
 ```js
 class Message extends React {
@@ -62,7 +62,7 @@ class Message extends React {
     ...
 ```
 
-### Link
+## Link
 
 ```js
 import { Link } from 'react-router'
@@ -84,7 +84,7 @@ import { Link } from 'react-router'
   }
 ```
 
-### Other config
+## Other config
 
 ```js
 <Route path="/">
