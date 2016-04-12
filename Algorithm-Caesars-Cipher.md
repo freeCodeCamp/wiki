@@ -1,7 +1,7 @@
 :triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](How-to-get-help-when-you-get-stuck) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :memo:
 
 # :checkered_flag: Problem Explanation:
-- You need to write a function, which will take string encoded with
+- You need to write a function, which will take a string encoded with
 *Caesar cipher* as a parameter and decode it.
 - The one used here is ROT13 where the value of the letter is
 shifted by 13 places.
