@@ -1,6 +1,6 @@
-:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](http://github.com/FreeCodeCamp/FreeCodeCamp/wiki/How-to-get-help-when-you-get-stuck) if you get stuck. Try to pair program. :busts_in_silhouette: Write your own code. :memo:
+:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](How-to-get-help-when-you-get-stuck) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :memo:
 
-# :checkered_flag: ProblemExplanation:
+# :checkered_flag: Problem Explanation:
 
 You will get an array that contains sub arrays of numbers and you need to return an array with the largest number from each of the sub arrays.
 
@@ -8,13 +8,19 @@ You will get an array that contains sub arrays of numbers and you need to return
 
 You will need to keep track of the array with the answer and the largest number of each sub-array.
 
+> *try to solve the problem now*
+
 ## :speech_balloon: Hint: 2
 
 You can work with multidimensional arrays by `Array[Index][SubIndex]`
 
+> *try to solve the problem now*
+
 ## :speech_balloon: Hint: 3
 
 Pay close attention to the timing of the storing of variables when working with loops
+
+> *try to solve the problem now*
 
 ## Spoiler Alert!
 
@@ -24,7 +30,7 @@ Pay close attention to the timing of the storing of variables when working with 
 
 ## :beginner: Basic Code Solution:
 
-(Procedural approach)
+**(Procedural approach)**
 
 ```js
 function largestOfFour(arr) {
@@ -56,7 +62,7 @@ function largestOfFour(arr) {
 
 ## :sunflower: Intermediate Code Solution:
 
-(Declarative approach)
+**(Declarative approach)**
 
 ```js
 function largestOfFour(arr) {
@@ -82,7 +88,7 @@ function largestOfFour(arr) {
 
 ## :rotating_light: Advanced Code Solution:
 
-(Declarative approach)
+**(Declarative approach)**
 
 ```js
 function largestOfFour(arr) {
@@ -122,7 +128,7 @@ Here we're passing `null` as the _context_ of the `Function.prototype.apply` met
 
 **Reference:-**
 
-- <Math.max>
+- [Math.max](Math.max)
 - [Array.prototype.map()](js-Array-prototype-map)
 - [Function.prototype.apply on DevDocs](http://devdocs.io/#q=js+Function+apply)
 - [Function.bind on DevDocs](http://devdocs.io/#q=js+Function+bind)
@@ -138,4 +144,4 @@ If you found this page useful, you can give thanks by copying and pasting this o
 - Categorize the solution in one of the following categories -- **Basic**, **Intermediate** and **Advanced**. :traffic_light:
 - Please add your username only if you have added any **relevant main contents**. (:warning: **_DO NOT_** _remove any existing usernames_)
 
-> See :point_right: [**`Challenge Solution Template`**](Challenge-Solution-Template) for reference.
+> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Challenge-Solution-Template) for reference.
