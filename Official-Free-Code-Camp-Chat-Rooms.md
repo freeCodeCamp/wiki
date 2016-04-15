@@ -31,4 +31,4 @@ The following are our official chat rooms.
 
 By joining these chat rooms, you accept our [Code of Conduct](https://github.com/FreeCodeCamp/freecodecamp/wiki/Code-of-Conduct).
 
-If you also want to hang out with other campers in person, be sure to join a [Campsite in your city](List-of-Free-Code-Camp-city-based-Campsites-and-Chat-rooms).
+If you also want to hang out with other campers in person, be sure to join a [Campsite in your city](List-of-Free-Code-Camp-city-based-Campsites).
