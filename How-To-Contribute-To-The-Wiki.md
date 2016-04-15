@@ -47,7 +47,7 @@ GitHub Desktop is a GUI interface, but there are benefits to learning the comman
 
  *The following image is a reference to both sets of directions* 
  
- ![Grabbing the Git URL](./images/How-To-Contribute-To-The-Wiki/Grabbing-The-Git-URL.png)
+ ![Grabbing the Git URL](./images/Wiki-Contribute/Grabbing-The-Git-URL.png)
  
 #### Github Desktop Directions
 
@@ -61,7 +61,7 @@ GitHub Desktop is a GUI interface, but there are benefits to learning the comman
  + Click on "Clone wiki"
  + Select where to clone it into
  
- ![GitHub Desktop Cloning](./images/How-To-Contribute-To-The-Wiki/GitHub-Desktop-Cloning.PNG)
+ ![GitHub Desktop Cloning](./images/Wiki-Contribute/GitHub-Desktop-Cloning.PNG)
  
  
 #### Command Line Directions
@@ -107,7 +107,7 @@ You should make a new branch and not work on master.
 
 **GitHub Desktop Directions**
 
-![GitHub Desktop New Branch](./images/How-To-Contribute-To-The-Wiki/GitHub-Desktop-NewBranch.PNG)
+![GitHub Desktop New Branch](./images/Wiki-Contribute/GitHub-Desktop-NewBranch.PNG)
 
 + Click on the Fork icon and it'll show you a tiny form to create a branch
 + Make sure your From Branch is FreeCodeCamp/master (or upstream/master if you have one)
@@ -180,7 +180,7 @@ Simply edit the file on your machine, or make a new one. If you are making a new
 Now that you've made your change, you have to *commit* and *push*.
 
 **GitHub Desktop Directions**
-![Commit Changes To Your Branch](./images/How-To-Contribute-To-The-Wiki/Commit-Changes-To-Your-Branch.PNG)
+![Commit Changes To Your Branch](./images/Wiki-Contribute/Commit-Changes-To-Your-Branch.PNG)
 
 + Go to GitHub Desktop
 + Click on the branch (even if you're on it. This will guarantee it'll refresh)
@@ -237,7 +237,7 @@ Now that you've made your change, you have to *commit* and *push*.
 ## Part 5: Pull Request To FCC Wiki Repo
 
 **GitHub Desktop Directions**
-![Commit Changes To Your Branch](./images/How-To-Contribute-To-The-Wiki/GitHub-Desktop-Pull-Request.PNG)
+![Commit Changes To Your Branch](./images/Wiki-Contribute/GitHub-Desktop-Pull-Request.PNG)
 
 + Click on the Pull Request Icon/Test
 + Select FreeCodeCamp/master (or upstream/master if you have it set up)
@@ -255,7 +255,7 @@ Now that you've made your change, you have to *commit* and *push*.
 + Click "Create pull request"
 
 
-![Commit Changes To Your Branch](./images/How-To-Contribute-To-The-Wiki/GitHub-PR.PNG)
+![Commit Changes To Your Branch](./images/Wiki-Contribute/GitHub-PR.PNG)
 
 
 
@@ -283,7 +283,7 @@ A viewing extension. If you set up .md files to automatically open in Chrome, it
 
 Use the Github theme to have a better feel of the end result
 
-![Markdown preview plus](./images/How-To-Contribute-To-The-Wiki/Markdown-Preview-Plus.PNG)
+![Markdown preview plus](./images/Wiki-Contribute/Markdown-Preview-Plus.PNG)
 
 
 ----------
