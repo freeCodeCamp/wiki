@@ -25,7 +25,7 @@ Si nous fusionnons votre **pull request**, votre nom sera automatiquement ajout�
 ### Guides sur comment contribuer
 - [Comment contribuer à partir de votre navigateur](Guide-Online-Contribution): Ceci est actuellement la meilleure solution pour contribuer. Vous pouvez lire cet [article](https://medium.freecodecamp.com/how-to-land-your-first-open-source-contribution-from-your-browser-in-15-minutes-756d9bbf81ad) pour plus de détails.
 - [Guide sur les Pull Request](PULL_REQUEST_TEMPLATE)
-- [Comment faire pour contribuer au Wiki:](How-To-Contribute-To-The-Wiki) Ceci est un guide qui va vous montrer comment obtenir une copie locale de sorte que vous puissiez apporter des modifications à partir de votre ordinateur, il fonctionne également pour contribuer au dépôt principal.
+- [Comment faire pour contribuer au Wiki:](Wiki-Contribute) Ceci est un guide qui va vous montrer comment obtenir une copie locale de sorte que vous puissiez apporter des modifications à partir de votre ordinateur, il fonctionne également pour contribuer au dépôt principal.
 - [En savoir plus sur la façon de faire une pull request à partir d'une fork](Pull-Request-Contribute)
 - [Comment Squash vos Commits:](git-rebase # squashing-multiple-commits-en-un) Nous exigeons un seul commit par pull request, sauf indication contraire émise par un modérateur.
 

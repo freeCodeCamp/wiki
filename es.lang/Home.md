@@ -10,7 +10,7 @@ The best way to access this wiki is via [CamperBot](camperbot), located in our G
 
 To contribute a wiki article for any of the bonfires, please use this [template](Bonfire-Wiki-Template). This is essential for [@CamperBot](https://github.com/camperbot) to retrieve the article. Bonfire articles that do not use this template will be removed.
 
-You will then need to fork the [wiki](https://github.com/FreeCodeCamp/wiki) and create a branch where you will make your changes to later submit a pull request to be merged before the changes goes live on the wiki. This is to filter any spam content or damage to **our** wiki. Detailed instructions with graphics found here: [How To Contribute To The Wiki.](How-To-Contribute-To-The-Wiki)
+You will then need to fork the [wiki](https://github.com/FreeCodeCamp/wiki) and create a branch where you will make your changes to later submit a pull request to be merged before the changes goes live on the wiki. This is to filter any spam content or damage to **our** wiki. Detailed instructions with graphics found here: [How To Contribute To The Wiki.](Wiki-Contribute)
 
 If you have questions about contributing to the Free Code Camp Wiki message [@Rafase282 in Gitter](https://gitter.im/Rafase282).
 
