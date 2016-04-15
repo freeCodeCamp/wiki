@@ -15,7 +15,7 @@ There are two methods of creating a Pull for Free Code Camp:
 Take away only one thing from this document, it should be this:  Never, EVER make edits to the `staging` branch.  ALWAYS make a new branch BEFORE you edit files.  This is critical, because if your PR is not accepted, your copy of `staging` will be forever sullied and the only way to fix it is to delete your fork and re-fork.
 
 # Editing via your Local Fork (Recommended)
-This is the recommended method.  Read about [How to Setup and Maintain a Local Instance of Free Code Camp](How-To-Fork-And-Maintain-a-Local-Instance-of-Free-Code-Camp).
+This is the recommended method.  Read about [How to Fork and Maintain a Local Instance of Free Code Camp](https://www.freecodecamp.com/wiki/en/how-to-fork-and-maintain-a-local-instance-of-free-code-camp/).
 
 1. Perform the maintenance step of rebasing `staging`
 2. Ensure you are on the `staging` branch using `git status`:
@@ -23,7 +23,7 @@ This is the recommended method.  Read about [How to Setup and Maintain a Local I
   $ git status
   On branch staging
   Your branch is up-to-date with 'origin/staging'.
-  
+
   nothing to commit, working directory clean
   ```
 3. If you are not on staging or your working directory is not clean, resolve any outstanding files/commits and checkout staging
