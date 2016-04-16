@@ -72,6 +72,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Santa Cruz](https://www.facebook.com/groups/free.code.camp.SC/)
 - Bosnia and Herzegovina
   - [Banja Luka](https://www.facebook.com/groups/free.code.camp.banja.luka/)
+  - [Bihac](https://www.facebook.com/groups/free.code.camp.bihac/)
   - [Bijeljina](https://www.facebook.com/groups/free.code.camp.bijeljina/)
   - [Mostar](https://www.facebook.com/groups/free.code.camp.mostar/)
   - [Sarajevo](https://www.facebook.com/groups/free.code.camp.sarajevo)
@@ -651,6 +652,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [San Luís Potosí](https://www.facebook.com/groups/free.code.camp.san.luis.potosi/)
   - [Santiago de Querétaro](https://www.facebook.com/groups/free.code.camp.santiago.de.queretaro/)
   - [Tapachula](https://www.facebook.com/groups/free.code.camp.tapachula/)
+  - [Tepic](https://www.facebook.com/groups/free.code.camp.tepic/)
   - [Tijuana](https://www.facebook.com/groups/free.code.camp.tijuana/)
   - [Torreón](https://www.facebook.com/groups/free.code.camp.torreon/)
   - [Tuxtla Gutiérrez](https://www.facebook.com/groups/free.code.camp.tuxtla.gutierrez/)  
@@ -1310,6 +1312,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Greenville](https://www.facebook.com/groups/free.code.camp.greenville.nc/)
     - [Hickory](https://www.facebook.com/groups/free.code.camp.hickory.nc)
     - [Jacksonville](https://www.facebook.com/groups/free.code.camp.jacksonville.nc/)
+    - [New Bern](https://www.facebook.com/groups/free.code.camp.new.bern/)
     - [Oriental](https://www.facebook.com/groups/free.code.camp.orientalnc/)
     - [Raleigh](https://www.facebook.com/groups/free.code.camp.raleigh/)
     - [Research Triangle Park](https://www.facebook.com/groups/free.code.camp.rtp)
