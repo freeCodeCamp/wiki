@@ -4,7 +4,7 @@
 
 Explain what is asked, in an easy to understand and detailed way.
 
-## Relevant Links
+#### Relevant Links
 
 - [Link Title 1](http://example.com)
 - [Link Title 2](http://example.com)
@@ -92,7 +92,7 @@ If you found this page useful, you may say thanks to the contributors by copying
 
 - :warning: **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
 - Add an explanation of your solution.
-- Categorize the solution in one of the following categories -- **Basic**, **Intermediate** and **Advanced**. :traffic_light:
+- Categorize the solution in one of the following categories &mdash; **Basic**, **Intermediate** and **Advanced**. :traffic_light:
 - Please add your username only if you have added any **relevant main contents**. (:warning: **_DO NOT_** _remove any existing usernames_)
 
 > See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution) for reference.
