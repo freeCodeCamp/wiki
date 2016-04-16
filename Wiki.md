@@ -20,7 +20,7 @@ How to contribute via PR, helping mod the PR, creating issues, etc.
 
 We currently have a couple of guides to help you contribute, via the browser, command line or desktop application.
 
-- [How To Contribute From Your Browser:](Wiki-Guide-Online-Contribution) This is currently the easiest way we have to contribute. A simplified version can be found on [here](https://medium.freecodecamp.com/how-to-land-your-first-open-source-contribution-from-your-browser-in-15-minutes-756d9bbf81ad) also.
+- [How To Contribute From Your Browser:](Wiki-Contribute-Online) This is currently the easiest way we have to contribute. A simplified version can be found on [here](https://medium.freecodecamp.com/how-to-land-your-first-open-source-contribution-from-your-browser-in-15-minutes-756d9bbf81ad) also.
 - [How To Contribute To The Wiki Locally:](Wiki-Contribute-Local-GUI) This is a guide that will show you how to have a local copy so you can make changes from your computer, it also works for contributing to the main repository.
 - [Pull Request Guidelines](PULL_REQUEST_TEMPLATE)
 - [More on how to make a pull request from a fork](Pull-Request-Contribute)
