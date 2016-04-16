@@ -1,5 +1,7 @@
 # Welcome to the Free Code Camp Wiki!
+
 Our open source community's Wiki focuses on answering your questions about learning to code and getting a coding job. We also cover in detail our:
+
 - Curriculum
 - Local Campsite Communities
 - Nonprofit Projects
@@ -9,7 +11,9 @@ Our open source community's Wiki focuses on answering your questions about learn
 The best way to access this wiki is via [CamperBot](camperbot), located in our Gitter channels. CamperBot is a community designed tool useful for accessing our wiki content without ever leaving Gitter.
 
 ## Contributing to the Wiki
+
 To contribute a wiki article for any of the Algorithms, please use this [template](Algorithm-Wiki-Template). This is essential for [@CamperBot](https://github.com/camperbot) to retrieve the article. Algorithm articles that do not use this template will be removed. Please note that while we will publish solutions that can help others, we don't need many of them and a maximum of three solutions will be accepted in the following categories:
+
 - Basic
 - Intermediate
 - Advance
@@ -23,11 +27,8 @@ We welcome **any technology relate articles**, not just JavaScript related or Cu
 If we merge your pull request, your name will be automatically added to the document history on GitHub, and the repo's contributors. Please don't add additional bylines when creating or editing an article.
 
 ### Guides on how to Contribute
-- [How To Contribute From Your Browser](Guide-Online-Contribution) This is currently the easiest way we have to contribute. A simplified version can be found on [here](https://medium.freecodecamp.com/how-to-land-your-first-open-source-contribution-from-your-browser-in-15-minutes-756d9bbf81ad) also.
-- [Pull Request Guidelines](PULL_REQUEST_TEMPLATE)
-- [How To Contribute To The Wiki:](Wiki-Contribute) This is a guide that will show you how to have a local copy so you can make changes from your computer, it also works for contributing to the main repository.
-- [More on how to make a pull request from a fork](Pull-Request-Contribute)
-- [How to Squash Commits:](git-rebase#squashing-multiple-commits-into-one) We required only one commit per Pull Request unless otherwise specified by a moderator.
+
+They are all located on our [Wiki Central](Wiki) Page. Please take a look before anything else.
 
 If you have questions about contributing to the Free Code Camp Wiki message [@Rafase282 in Gitter](https://gitter.im/Rafase282) or come the [Gitter Wiki Room.](https://gitter.im/FreeCodeCamp/Wiki)
 
