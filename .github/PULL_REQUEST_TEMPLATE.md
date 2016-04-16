@@ -26,8 +26,8 @@ Ensure that you use markdown syntax for articles, we do not accept `HTML` or `CS
 - Your Pull Request/Submission should contain one single commit.
 - For multiple commits follow the [guide to squash them](git-rebase#squashing-multiple-commits-into-one).
 - Write a [proper commit message](Writing-great-git-commit-message).
-- If you are new to contributing, you can [use the browser](Guide-Online-Contribution) and we will squash multiple commits for you, if requested.
-- However, for more control over the pull request we advise you [use the local method](Wiki-Contribute) and squash the commits yourself.
+- If you are new to contributing, you can [use the browser](Wiki-Contribute-Online) and we will squash multiple commits for you, if requested.
+- However, for more control over the pull request we advise you [use the local method](Wiki-Contribute-Local-GUI) and squash the commits yourself.
 
 **Signing off:**
 - If we merge your pull request, your name will be automatically added to the document history on GitHub, and the repo's contributors list.

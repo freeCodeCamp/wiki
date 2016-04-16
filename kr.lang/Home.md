@@ -23,9 +23,9 @@ JavaScript와 연관되거나 특정 커리큘럼이 아니더라도, **기술 �
 만약 당신의 pull request가 병합된다면, 당신의 이름은 자동으로 GitHub 문서 히스토리와 repo의 기여자로 추가됩니다. 기사를 작성하거나 편집할 때 추가적인 필자 명을 덧붙이지 마시기 바랍니다. 
 
 ### 기여하는 방법에 대한 가이드
-- [브라우저(Browser)로부터 기여하는 방법](https://github.com/FreeCodeCamp/wiki/blob/master/Guide-Online-Contribution) 이것은 현재 우리가 기여할 수 있는 가장 쉬운 방법입니다. 또한 축약본은 [여기](https://medium.freecodecamp.com/how-to-land-your-first-open-source-contribution-from-your-browser-in-15-minutes-756d9bbf81ad#.be5x5rbo7)서 찾을 수 있습니다.
+- [브라우저(Browser)로부터 기여하는 방법](https://github.com/FreeCodeCamp/wiki/blob/master/Wiki-Contribute-Online) 이것은 현재 우리가 기여할 수 있는 가장 쉬운 방법입니다. 또한 축약본은 [여기](https://medium.freecodecamp.com/how-to-land-your-first-open-source-contribution-from-your-browser-in-15-minutes-756d9bbf81ad#.be5x5rbo7)서 찾을 수 있습니다.
 - [Pull Request 가이드라인](https://github.com/FreeCodeCamp/wiki/blob/master/PULL_REQUEST_TEMPLATE)
-- [Wiki에 기여하는 방법](https://github.com/FreeCodeCamp/wiki/blob/master/Wiki-Contribute): 당신의 컴퓨터로부터 변경할 수 있도록 로컬 복사본을를 가지고 오는 방법을 보여주는 가이드이며, 메인 저장소에 기여하기 위해 작동합니다.  
+- [Wiki에 기여하는 방법](https://github.com/FreeCodeCamp/wiki/blob/master/Wiki-Contribute-Local-GUI): 당신의 컴퓨터로부터 변경할 수 있도록 로컬 복사본을를 가지고 오는 방법을 보여주는 가이드이며, 메인 저장소에 기여하기 위해 작동합니다.  
 - [Fork로부터 pull request를 만드는 방법](https://github.com/FreeCodeCamp/wiki/blob/master/Pull-Request-Contribute) 
 - [Squash Commit하는 방법](https://github.com/FreeCodeCamp/wiki/blob/master/git-rebase#squashing-multiple-commits-into-one): 관리자에 의해 별도로 지정되지 않으면 Pull Request 당 오직 하나의 commit이 필요합니다. 
 

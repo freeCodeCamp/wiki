@@ -15,6 +15,7 @@ GitHub Desktop is a GUI interface, but there are benefits to learning the comman
 2. [Part 1: Choose What To Work On](#part-1-choose-what-to-work-on)
 
 3. [Part 2: Making A New Branch](#part-2-making-a-new-branch)
+
 4. [Part 3: Getting Ready To Edit](#part-3-getting-ready-to-edit)
 5. [Part 4: Commit To Your Branch](#part-4-commit-to-your-branch)
 6. [Part 5: Pull Request To FCC Wiki Repo](#part-5-pull-request-to-fcc-wiki-repo)
@@ -48,7 +49,7 @@ Branch     | A pointer to a version of a repo as of when the branch was last cre
 
 _The following image is a reference to both sets of directions_
 
-![Grabbing the Git URL](./images/Wiki-Contribute/Grabbing-The-Git-URL.png)
+![Grabbing the Git URL](./images/Wiki-Contribute/Local/GUI/Grabbing-The-Git-URL.png)
 
 #### Github Desktop Directions
 
@@ -63,7 +64,7 @@ If it doesn't do it automatically, you can:
 - Click on "Clone wiki"
 - Select where to clone it into
 
-  ![GitHub Desktop Cloning](./images/Wiki-Contribute/GitHub-Desktop-Cloning.PNG)
+  ![GitHub Desktop Cloning](./images/Wiki-Contribute/Local/GUI/GitHub-Desktop-Cloning.PNG)
 
 #### Command Line Directions
 
@@ -98,7 +99,7 @@ You should make a new branch and not work on master.
 
 **GitHub Desktop Directions**
 
-![GitHub Desktop New Branch](./images/Wiki-Contribute/GitHub-Desktop-NewBranch.PNG)
+![GitHub Desktop New Branch](./images/Wiki-Contribute/Local/GUI/GitHub-Desktop-NewBranch.PNG)
 
 - Click on the Fork icon and it'll show you a tiny form to create a branch
 - Make sure your From Branch is FreeCodeCamp/master (or upstream/master if you have one)
@@ -156,7 +157,7 @@ Simply edit the file on your machine, or make a new one. If you are making a new
 
 Now that you've made your change, you have to _commit_ and _push_.
 
-**GitHub Desktop Directions** ![Commit Changes To Your Branch](./images/Wiki-Contribute/Commit-Changes-To-Your-Branch.PNG)
+**GitHub Desktop Directions** ![Commit Changes To Your Branch](./images/Wiki-Contribute/Local/GUI/Commit-Changes-To-Your-Branch.PNG)
 
 - Go to GitHub Desktop
 - Click on the branch (even if you're on it. This will guarantee it'll refresh)
@@ -197,6 +198,7 @@ Now that you've made your change, you have to _commit_ and _push_.
   - `git add -A`
 
   - -Adds everything that's changed
+
   - `git add filestring*`
 
     - adds everything starting with filestring
@@ -224,7 +226,7 @@ Push       | Applies a commit from your local to the remote version of your bran
 
 **GitHub Desktop Directions**
 
-![Commit Changes To Your Branch](./images/Wiki-Contribute/GitHub-Desktop-Pull-Request.PNG)
+![Commit Changes To Your Branch](./images/Wiki-Contribute/Local/GUI/GitHub-Desktop-Pull-Request.PNG)
 
 - Click on the Pull Request Icon/Test
 - Select FreeCodeCamp/master (or upstream/master if you have it set up)
@@ -244,7 +246,7 @@ Push       | Applies a commit from your local to the remote version of your bran
 - Review the form
 - Click "Create pull request"
 
-![Commit Changes To Your Branch](./images/Wiki-Contribute/GitHub-PR.PNG)
+![Commit Changes To Your Branch](./images/Wiki-Contribute/Local/GUI/GitHub-PR.PNG)
 
 Vocabulary   | Meaning
 ------------ | --------------------------------------------
@@ -263,4 +265,4 @@ A viewing extension. If you set up .md files to automatically open in Chrome, it
 
 Use the Github theme to have a better feel of the end result
 
-![Markdown preview plus](./images/Wiki-Contribute/Markdown-Preview-Plus.PNG)
+![Markdown preview plus](./images/Wiki-Contribute/Local/GUI/Markdown-Preview-Plus.PNG)
