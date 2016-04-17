@@ -113,32 +113,48 @@ Note: The solution above requires over 2,000 loops to calculate the test case
 
 ```js
 function smallestCommons(arr) {
-  for (i = Math.max(...arr); i >= Math.min(...arr); i--) { arr.push(i); }
+    var range = [];
+    for (var i = Math.max(arr[0], arr[1]); i >= Math.min(arr[0], arr[1]); i--) {
+	range.push(i);
+    }
 
-  return arr.slice(2).reduce(function(x, y) {
-    var a = x, b = y, t = 0;
-    while (a % b) { a = a % b; t = a; a = b; b = t; }
-    return x / b * y;
-  });
+    return range.reduce(function(previousValue, currentValue) {
+	var gcdPrevCurr = gcd(previousValue, currentValue);
+	return (previousValue * currentValue) / gcdPrevCurr;
+    });
+
+    function gcd(x, y) {	// Implements The Euclidean Algorithm
+	if (y === 0)
+	    return x;
+	else
+	    return gcd(y, x%y);
+    }
 }
 ```
 
 If you have trouble understanding the `.reduce()` method, you can compare it to
 this code, which essentially does the same thing:
 
-```
+```js
 function smallestCommons(arr) {
-  for (i = Math.max(...arr); i >= Math.min(...arr); i--) { arr.push(i); }
+    var range = [];
+    for (var i = Math.max(arr[0], arr[1]); i >= Math.min(arr[0], arr[1]); i--) {
+	range.push(i);
+    }
 
-  var lcm = arr[2], a = 0, b = 0, t = 0;
+    var lcm = range[0];
+    for (i = 1; i < range.length; i++) {
+	var GCD = gcd(lcm, range[i]);
+	lcm = (lcm * range[i]) / GCD;
+    }
+    return lcm;
 
-  for (i = 3; i < arr.length; i++) {
-    a = lcm, b = arr[i];
-    while (a % b) { a = a % b; t = a; a = b; b = t; }
-    lcm = lcm / b * arr[i];
-  }
-
-  return lcm;
+    function gcd(x, y) {	// Implements the Euclidean Algorithm
+	if (y === 0)
+	    return x;
+	else
+	    return gcd(y, x%y);
+    }
 }
 ```
 
