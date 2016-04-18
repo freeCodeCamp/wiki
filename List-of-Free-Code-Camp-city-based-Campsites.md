@@ -317,6 +317,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Northampton](https://www.facebook.com/groups/free.code.camp.northampton/)
   - [Norwich](https://www.facebook.com/groups/free.code.camp.norwich.england/)
   - [Nottingham](https://www.facebook.com/groups/free.code.camp.nottingham/)
+  - [Preston](https://www.facebook.com/groups/free.code.camp.preston/)
   - [Reading](https://www.facebook.com/groups/free.code.camp.reading/)
   - [Salisbury](https://www.facebook.com/groups/free.code.camp.salisbury/)
   - [Sheffield](https://www.facebook.com/groups/free.code.camp.sheffield/)
@@ -333,7 +334,6 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Tallinn](https://www.facebook.com/groups/free.code.camp.tallinn/)
 - Ethiopia
   - [Addis Ababa](https://www.facebook.com/groups/free.code.camp.addis.abeba/)
-  - [Nazareth](https://www.facebook.com/groups/Free.Code.Camp.Nazareth.Israel/)
 - Fiji
   - [Suva](https://www.facebook.com/groups/free.code.camp.suva/)    
 - Finland   
@@ -553,6 +553,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
 - Israel
   - [Haifa](https://www.facebook.com/groups/free.code.camp.Haifa/)
   - [Jerusalem](https://www.facebook.com/groups/free.code.camp.jerusalem/)
+  - [Nazareth](https://www.facebook.com/groups/Free.Code.Camp.Nazareth.Israel/)
   - [Pnei Kedem](https://www.facebook.com/groups/free.code.camp.pneikedem/)
   - [Tel Aviv](https://www.facebook.com/groups/free.code.camp.Tel.Aviv/)
 - Italy
@@ -717,6 +718,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Calabar](https://www.facebook.com/groups/free.code.camp.calabar/)
   - [Dutse](https://www.facebook.com/groups/free.code.camp.dutse.jigawa/)
   - [Ibadan](https://www.facebook.com/groups/free.code.camp.Ibadan/)
+  - [Ilorin](https://www.facebook.com/groups/free.code.camp.ilorin.nigeria/)
   - [Kaduna](https://www.facebook.com/groups/free.code.camp.kaduna/)
   - [Lagos](https://www.facebook.com/groups/free.code.camp.lagos/)
   - [Ondo](https://web.facebook.com/groups/free.code.camp.ondo/)
@@ -1071,6 +1073,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Oakland](https://www.facebook.com/groups/free.code.camp.berkeley/)
     - [Orange County](https://www.facebook.com/groups/free.code.camp.orange.county/)
     - [Pasadena](https://www.facebook.com/groups/free.code.camp.pasadena.ca/)
+    - [Palo Alto]()
     - [Pleasant Hill](https://www.facebook.com/groups/free.code.camp.pleasantHill/)
     - [Redwood city](https://www.facebook.com/groups/free.code.camp.redwood.city/) 
     - [Riverside](https://www.facebook.com/groups/free.code.camp.riverside.ca/)
@@ -1233,6 +1236,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Lansing](https://www.facebook.com/groups/free.code.camp.lansing/)
     - [Milford](https://www.facebook.com/groups/free.code.camp.milford.michigan/)
     - [Muskegon](https://www.facebook.com/groups/free.code.camp.muskegon/)
+    - [Novi](https://www.facebook.com/groups/Free.Code.Camp.NOVI.MI/)
     - [Traverse City](https://www.facebook.com/groups/free.code.camp.traverse.city.mi/)
     - [Tri-cities](https://www.facebook.com/groups/free.code.camp.bay.city/)
     - [University Center](https://www.facebook.com/groups/free.code.camp.university.center/)
@@ -1384,7 +1388,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Amarillo](https://www.facebook.com/groups/freecodecampamarillotexas/)
     - [Arlington](https://www.facebook.com/groups/free.code.camp.arlington.texas/)
     - [Austin](https://www.facebook.com/groups/free.code.camp.austin/)
-    - [Bryan College Station](https://www.facebook.com/groups/free.code.camp.bryan.college.station/)
+    - [Bryan / College Station](https://www.facebook.com/groups/free.code.camp.bryan.college.station/)
     - [Dallas](https://www.facebook.com/groups/free.code.camp.dallas/)
     - [El Paso](https://www.facebook.com/groups/free.code.camp.el.paso)
     - [Fort Worth](https://www.facebook.com/groups/freecodecampfortworth/)
