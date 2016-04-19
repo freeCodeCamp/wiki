@@ -1,9 +1,11 @@
 New to Free Code Camp?
+
 - [Start Here](Start-Here)
-- [How to use this Wiki](https://github.com/FreeCodeCamp/freecodecamp/wiki/How-to-use-the-Free-Code-Camp-Wiki)
+- [How to use this Wiki](Wiki)
 - [Challenge Guides](Map)
 
 JS Concepts
+
 - [Closures](https://github.com/freecodecamp/freecodecamp/wiki/js-closures)
 - [Falsy](https://github.com/freecodecamp/freecodecamp/wiki/js-falsy)
 - [Functions](https://github.com/freecodecamp/freecodecamp/wiki/js-functions)
@@ -14,6 +16,7 @@ JS Concepts
 - [Truthy](https://github.com/freecodecamp/freecodecamp/wiki/js-truthy)
 
 JS Language Reference
+
 - [arguments](https://github.com/freecodecamp/freecodecamp/wiki/js-arguments)
 - [Array.prototype.filter](https://github.com/freecodecamp/freecodecamp/wiki/js-array-prototype-filter)
 - [Array.prototype.indexOf](https://github.com/freecodecamp/freecodecamp/wiki/js-array-prototype-indexof)
@@ -34,6 +37,7 @@ JS Language Reference
 - [undefined](https://github.com/freecodecamp/freecodecamp/wiki/js-undefined)
 
 Other Links
+
 - [Programming Fundamental](https://github.com/freecodecamp/freecodecamp/wiki/programming-fundamental)
 - [JS Resources](https://github.com/freecodecamp/freecodecamp/wiki/js-resources)
 - [JS RegEx Resources](JS-Regex-Resources)

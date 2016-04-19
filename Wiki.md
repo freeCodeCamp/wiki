@@ -18,13 +18,23 @@ The title will have to change to something better. This will be the central area
 
 ## Using the Wiki
 
-**To-DO**
+The Free Code Camp wiki exists to provide clear answers to common questions about Free Code Camp, learning to code, and getting a coding job. Please feel free to add relevant content to the wiki. Just be sure to search for a topic and see if it already exists before starting a new page.
 
-- Finding articles
-- Sharing links
-- Reactify vs Github wiki
+Individual Wiki's can be accessed from the main page, or from other linked Wiki pages.
 
-How to contribute via PR, helping mod the PR, creating issues, etc.
+You can also access them from Gitter using Camperbot
+
+- **`help $topic`**
+
+  Finds related materials to that topic, usually a page from the [wiki](https://github.com/FreeCodeCamp/freecodecamp/wiki). Examples: `help css` `help bootstrap`
+
+- **`topics`**
+
+  Shows the list of topics.
+
+- **`find $topic`**
+
+  This will search for entries that include `$topic` in the title. Examples: `find wiki`
 
 ## Contribution Guides
 
