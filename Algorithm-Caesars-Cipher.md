@@ -32,25 +32,23 @@ Leave anything that doesn't come between A-Z as it is.
 
 ```js
 function rot13(str) {
-    var nstr="";
-    for(var i=0; i<str.length; i++){
-        //Checks if character lies between A-Z
-        if(str.charCodeAt(i) < 65 || str.charCodeAt(i) > 90) {
-            nstr += String.fromCharCode(str.charCodeAt(i));
-            continue;
-        }
-        //N = ASCII 78, if the character code is less than 78, shift forward 13 places
-        if(str.charCodeAt(i) < 78){
-            nstr += String.fromCharCode(str.charCodeAt(i) + 13);
-        }
-        else{
-            //Otherwise shift the character 13 places backward
-            nstr += String.fromCharCode(str.charCodeAt(i) - 13);
-
-        }
-    }
-
-    return nstr;
+  // Split str into a character array
+  return str.split('')
+  // Iterate over each character in the array
+    .map.call(str, function(char) {
+      // Convert char to a character code
+      x = char.charCodeAt(0);
+      // Checks if character lies between A-Z
+      if (x < 65 || x > 90) {
+        return String.fromCharCode(x);  // Return un-converted character
+      }
+      //N = ASCII 78, if the character code is less than 78, shift forward 13 places
+      else if (x < 78) {
+        return String.fromCharCode(x + 13);
+      }
+      // Otherwise shift the character 13 places backward
+      return String.fromCharCode(x - 13);
+    }).join('');  // Rejoin the array into a string
 }
 ```
 
@@ -82,12 +80,10 @@ function rot13(str) {
   for (var x in str) {
     //regEx.test(str[x]) will return (true or false) if it maches the regEx or not
     if (regEx.test(str[x])) {
-    //checks if the new character code is greater or equal to 65 (letter A)
-      if (str[x].charCodeAt()-13 >= 65) {
-        rotCharArray.push(str[x].charCodeAt()-13);
-      } else {
-        rotCharArray.push(str[x].charCodeAt()+13);
-      }
+      // A more general approach
+      // possible because of modular arithmetic 
+      // and cyclic nature of rot13 transform
+      rotCharArray.push((str[x].charCodeAt() - 65 + 13) % 26 + 65);
     } else {
       rotCharArray.push(str[x].charCodeAt());
     }
@@ -106,32 +102,20 @@ rot13("LBH QVQ VG!");
 ## :rotating_light: Advanced Code Solution:
 
 ```js
-function rot13(str) {
-  // Split str into a character array
-  return str.split('')
-  // Iterate over each character in the array
-    .map.call(str, function(char) {
-      // Convert char to a character code
-      x = char.charCodeAt(0);
-      // Checks if character lies between A-Z
-      if (x < 65 || x > 90) {
-        return String.fromCharCode(x);  // Return un-converted character
-      }
-      //N = ASCII 78, if the character code is less than 78, shift forward 13 places
-      else if (x < 78) {
-        return String.fromCharCode(x + 13);
-      }
-      // Otherwise shift the character 13 places backward
-      return String.fromCharCode(x - 13);
-    }).join('');  // Rejoin the array into a string
+function rot13(str) { // LBH QVQ VG!
+  return str.replace(/[A-Z]/g, (L) => String.fromCharCode(65 + (L.charCodeAt(0) - 65 + 13) % 26));
 }
 ```
-
+### Code Explanation:
+>- `String.prototype.replace` [function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace) lets you transform a `String` based on some pattern match (defined by a regular expression), and the [transformation function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace#Specifying_a_function_as_a_parameter) (which is applied to each of the pattern matches).
+- [Arrow function](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions/Arrow_functions) syntax is used to write the function parameter to `replace()`.
+- `L` represents a single unit, from every pattern match with `/[A-Z]/g` - which is every uppercase letter in the alphabet, from `A` to `Z`, present in the string.
+- The arrow function applies the `rot13` transform on every uppercase letter from English alphabet present in the given string.
 
 ### :trophy: Credits:
 If you found this page useful, you may say thanks to the contributors by copying and pasting the following line in the main chat:
 
-**`thanks @anuragaryan @SaintPeter @vaskezu for your help with Algorithm: Caesar's Cipher`**
+**`thanks @anuragaryan @SaintPeter @vaskezu @abhisekp for your help with Algorithm: Caesar's Cipher`**
 
 ## :clipboard: NOTE TO CONTRIBUTORS:
 - :warning: **DO NOT** add solutions that are similar to any existing solutions. If you think it is ***similar but better***, then try to merge (or replace) the existing similar solution.
