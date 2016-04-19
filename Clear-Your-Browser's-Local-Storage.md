@@ -2,8 +2,8 @@ Removing all your locally stored challenges will solve many problems related to 
 
 In Chrome:
 * On 'freecodecamp.com' open your console
- * Windows: Ctrl + Shift + J
- * Mac OS: Cmd + Opt + J
+ * Windows: `Ctrl` + `Shift` + `J`
+ * Mac OS: `Cmd` + `Opt` + `J`
 * Go to resources tab(chrome). 
  * There click on the localStorage link in the nav bar on the right.
 * Delete all the entries on the right side, or run this command in your browser's console to clear all entries from your localStorage: `localStorage.clear();`
