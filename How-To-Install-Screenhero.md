@@ -6,12 +6,14 @@ You'll use Screenhero to pair program on the Algorithms and Front End Project ch
 
 Here are other alternatives to Screenhero as suggested by our fellow campers:
 
-* TeamViewer (also works for Linux)	
-* Skype + ScreenLeap
-* Codeshare.io
-* Kobra.io
-* Google Hangouts
-* jsbin
-* Cloud 9
-* Appear.in
-* [tmate](http://tmate.io) + some communication tool, e.g, Google Hangouts, Skype, [appear.in](http://appear.in)
+* [TeamViewer](https://www.teamviewer.com) (also works for Linux)	
+* [Skype](https://www.skype.com) + [ScreenLeap](https://www.screenleap.com/)
+* [Codeshare.io](https://codeshare.io/)
+* [Kobra.io](https://kobra.io/)
+* [Google Hangouts](https://hangouts.google.com/)
+* [Jsbin](https://jsbin.com/)
+* [JSFiddle](https://jsfiddle.net/)
+* [Cloud 9](https://c9.io)
+* [Appear.in](https://appear.in)
+* [Floobits](https://floobits.com/)
+* [tmate](https://tmate.io) + a communication tool, e.g, [Google Hangouts](https://hangouts.google.com/), [Skype](https://www.skype.com), [appear.in](https://appear.in)
