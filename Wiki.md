@@ -34,7 +34,7 @@ You can also access them from Gitter using Camperbot
 
 - **`find $topic`**
 
-  This will search for entries that include `$topic` in the title. Examples: `find wiki`
+  This will search for entries that include `$topic` in the title. Example: `find wiki`
 
 ## Contribution Guides
 
@@ -65,7 +65,7 @@ If you are really committed to contributing to the wiki and you would like to jo
 
 ## Templates
 
-We have a few template for different aspects of the wiki. such as different articles and fixed information to help contribute.
+We have a few template for different aspects of the wiki, such as different articles and fixed information to help contribute.
 
 ### Article Templates
 
@@ -76,7 +76,7 @@ These kind of templates are a guide to the creation of new articles such as algo
 
 ### Contribution Templates
 
-These templates are visible when you are trying to contribute to the Wiki. They will provide with useful information, guides, and guidelines that you must follow to ensure a proper contribution.
+These templates are visible when you are trying to contribute to the Wiki. They will provide you with useful information, guides, and guidelines that you must follow to ensure a proper contribution.
 
 - [Contributing](CONTRIBUTING)
 - [Pull Request](PULL_REQUEST_TEMPLATE)
