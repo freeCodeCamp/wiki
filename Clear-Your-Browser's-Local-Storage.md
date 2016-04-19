@@ -1,7 +1,7 @@
 Removing all your locally stored challenges will solve many problems related to the browser crashing on FreeCodeCamp
 
 In Chrome:
-* On 'freecodecamp.com' open your console
+* On [freecodecamp](https://freecodecamp.com) open your console
  * Windows: `Ctrl` + `Shift` + `J`
  * Mac OS: `Cmd` + `Opt` + `J`
 * Go to resources tab(chrome). 
