@@ -4,15 +4,25 @@ The title will have to change to something better. This will be the central area
 
 ## Table of Content
 
-1. Using the Wiki
-2. Contributing
+1. [Using the Wiki](#using-the-wiki)
+2. [Contribution Guides](#contribution-guides)
+
+  - [Label Guides](#labels)
+  - [Issue Guides](#issues)
+  - [Mods Guides](#wiki-mods)
+
+3. [Templates](#templates)
+
+  - [Articles](#article-templates)
+  - [Contribution Templates](#contribution-templates)
 
 ## Using the Wiki
+
+**To-DO**
 
 - Finding articles
 - Sharing links
 - Reactify vs Github wiki
-- Contributing to the Wiki
 
 How to contribute via PR, helping mod the PR, creating issues, etc.
 
@@ -28,21 +38,37 @@ We currently have a couple of guides to help you contribute, via the browser, co
 
 ### Labels
 
-Explanation and guidelines for the current labels used for the wiki.
+Before creating your first pull request or starting your work as an issue moderator it is strongly suggested to get familiar with the [labels guide](Wiki-Labels-Guide). This will provide you with a through understanding on our labeling system so you can proper utilize it and keep a stable workflow.
+
+For labels on a global levels on FreeCodeCamp's repositories you can follow [this](Select-Issues-for-Contributing-Using-Labels) guide.
 
 ### Issues
 
-How to create and submit issues.
+Creating issues in general is simpler than creating a pull request.
 
-### How to Become an Issue Moderator for the Wiki
+- [Creating a New Github Issue](Creating-a-New-Github-Issue)
+- [Searching for Your Issue on Github](Searching-for-Your-Issue-on-Github)
+
+### Wiki Mods
 
 If you are really committed to contributing to the wiki and you would like to join the team and be able to merge pull request, create new labels, assign mods to specific pull request and more then just check the [requirements to become a wiki mod](Wiki-Become-A-Wiki-Mod) and follow the instructions.
 
-**This page is still under construction, feel free to contribute to it by linking existing resources or extending on the content of this page.**
+## Templates
 
-## Article Templates
+We have a few template for different aspects of the wiki. such as different articles and fixed information to help contribute.
 
-We provide templates for different kind of articles, currently we have the following:
+### Article Templates
+
+These kind of templates are a guide to the creation of new articles such as algorithms challenges, and informational articles.
 
 - [JavaScript Articles](Wiki-Template-JavaScript)
 - [Challenge Solutions](Wiki-Template-Challenge-Solution)
+
+### Contribution Templates
+
+These templates are visible when you are trying to contribute to the Wiki. They will provide with useful information, guides, and guidelines that you must follow to ensure a proper contribution.
+
+- [Contributing](CONTRIBUTING)
+- [Pull Request](PULL_REQUEST_TEMPLATE)
+
+**This page is still under construction, feel free to contribute to it by linking existing resources or extending on the content of this page.**
