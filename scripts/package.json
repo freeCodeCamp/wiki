@@ -1,6 +1,6 @@
 {
   "name": "scripts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Auto clean up and convert files to deploy from `wiki` to `gh-pages`",
   "main": "convert_files.js",
   "scripts": {
@@ -11,5 +11,10 @@
   "dependencies": {
     "mkdirp": "^0.5.1",
     "promise": "^7.0.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.0.3",
+    "eslint": "^2.8.0",
+    "eslint-plugin-react": "^5.0.1"
   }
 }
