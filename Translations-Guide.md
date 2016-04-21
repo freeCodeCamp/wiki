@@ -11,6 +11,7 @@ and also join the channel for translators of your specific language
 
 * Amharic [FreeCodeCamp/TranslationAmharic](https://gitter.im/FreeCodeCamp/TranslationAmharic)
 * Arabic [FreeCodeCamp/TranslationArabic](https://gitter.im/FreeCodeCamp/TranslationArabic)
+* Bahasa Indonesia : [FreeCodeCamp/TranslationBahasaIndonesia](https://gitter.im/FreeCodeCamp/TranslationBahasaIndonesia)
 * Bangla: [FreeCodeCamp/TranslationBangla](https://gitter.im/FreeCodeCamp/TranslationBangla)
 * Brazilian Portuguese: [FreeCodeCamp/BrazilianPortuguese](https://gitter.im/FreeCodeCamp/BrazilianPortuguese)
 * Chinese (Simplified): [FreeCodeCamp/TranslationChinese](https://gitter.im/FreeCodeCamp/TranslationChinese)
