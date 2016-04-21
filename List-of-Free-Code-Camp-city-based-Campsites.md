@@ -374,6 +374,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
   - [Duisburg](https://www.facebook.com/groups/free.code.camp.duisburg/)
   - [Düsseldorf](https://www.facebook.com/groups/free.code.camp.duesseldorf/)
   - [Flensburg](https://www.facebook.com/groups/free.code.camp.flensburg.germany/)
+  - [Forchheim](https://www.facebook.com/groups/free.code.camp.forchheim.bayern/)
   - [Frankfurt](https://www.facebook.com/groups/free.code.camp.frankfurt.main/)
   - [Göttingen](https://www.facebook.com/groups/free.code.camp.goettingen/)
   - [Halle](https://www.facebook.com/groups/free.code.camp.halle.saale/)
@@ -706,6 +707,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
 - New Zealand
   - [Auckland](https://www.facebook.com/groups/awesome.code.camp/)
   - [Christchurch](https://www.facebook.com/groups/free.code.camp.christchurch/)
+  - [Dunedin](https://www.facebook.com/groups/free.code.camp.dunedin/)
   - [Hamilton](https://www.facebook.com/groups/free.code.camp.hamilton.nz/)
   - [Masterton](https://www.facebook.com/groups/free.code.camp.masterton/)
   - [Palmerston North](https://www.facebook.com/groups/free.code.camp.palmerston.north/)
@@ -1411,6 +1413,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [Waco](https://www.facebook.com/groups/free.code.camp.waco.tx/)
     - [Wichita Falls](https://www.facebook.com/groups/free.code.camp.wichita.falls.tx/)
   - Utah
+    - [Layton](https://www.facebook.com/groups/free.code.camp.layton/)
     - [Lehi](https://www.facebook.com/groups/free.code.camp.lehi/)
     - [Logan](https://www.facebook.com/groups/free.code.camp.logan.utah/)
     - [Provo](https://www.facebook.com/groups/free.code.camp.provo/)
@@ -1418,7 +1421,7 @@ If your city isn't listed here, you should [[create a Campsite for your city|How
     - [St. George](https://www.facebook.com/groups/free.code.camp.st.george/)
     - [Tooele](https://www.facebook.com/groups/free.code.camp.Tooele/)
   - Vermont
-    - [Burlington](https://www.facebook.com/groups/1080815058603708/)
+    - [Burlington](https://www.facebook.com/groups/free.code.camp.burlington.VT/)
   - Virginia
     - [Arlington](https://www.facebook.com/groups/free.code.camp.arlington.va/)
     - [Blacksburg](https://www.facebook.com/groups/free.code.camp.blacksburg.virginia/)
