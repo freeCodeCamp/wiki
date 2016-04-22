@@ -163,7 +163,7 @@ public class Vehicle() {
 
 public class Car extends Vehicle {
 	public Car() {
-		super();
+	  super();
 	}
 	public void run() {
 	  super.start();
@@ -171,6 +171,8 @@ public class Car extends Vehicle {
 }
 ```
 
-Remember, if the superclass does not have any constructors defined, you dont have to call it explicitely in the subclass. Java handles that internally for you! Also, invocation to `super` constructor is done in the case when the super class is to be called with any other constructor other than the default constructor.
+Remember, if the superclass does not have any constructors defined, you dont have to call it explicitely in the subclass. Java handles that internally for you! Invocation to `super` constructor is done in the case when the super class is to be called with any other constructor other than the _default constructor_.
+
+If no other constructors are defined, then Java invokes the default super class constructor (*even if not defined explicitly*).
 
 Congrats, now you know all about Inheritance! Read more about advanced ways to inherit things in [Abstract Classes]() and [Interfaces]()!
