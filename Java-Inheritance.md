@@ -5,7 +5,11 @@ Java inheritance refers to the ability of a Java Class to `inherit` the properti
 * The Class that extends or inherits is called **subclass**
 * The Class that is being extended or inherited is called **superclass**
 
-Thus, inheritance gives Java the cool capability of _re-using_ code, or share code between classes! Let's describe it with the classic example of a `Vehicle` class and a `Car` class :
+Thus, inheritance gives Java the cool capability of _re-using_ code, or share code between classes! 
+
+## 
+
+Let's describe it with the classic example of a `Vehicle` class and a `Car` class :
 
 ```java
 public class Vehicle {
@@ -167,6 +171,6 @@ public class Car extends Vehicle {
 }
 ```
 
-Remember, if the superclass does not have any constructors defined, you dont have to call it explicitely in the subclass. Java handles that internally for you!
+Remember, if the superclass does not have any constructors defined, you dont have to call it explicitely in the subclass. Java handles that internally for you! Also, invocation to `super` constructor is done in the case when the super class is to be called with any other constructor other than the default constructor.
 
 Congrats, now you know all about Inheritance! Read more about advanced ways to inherit things in [Abstract Classes]() and [Interfaces]()!
