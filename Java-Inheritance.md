@@ -48,7 +48,7 @@ Therefore, whenever you need to share some common bit of code to some more class
 ### What cannot be inherited ?
 
 * `private` fields and methods
-* Constructors. Although, subclass _has_ to call superclass constructor if its defined as the [first thing](http://stackoverflow.com/questions/1168345/why-does-this-and-super-have-to-be-the-first-statement-in-a-constructor) in itws own constructor (More on that later!)
+* Constructors. Although, subclass constructor _has_ to call superclass constructor if its defined (More on that later!)
 * Multiple classes. Java supports only **single inheritance**, that is you can only inherit one class at a time.
 * Fields. Individual fields of a class cannot be overriden by the subclass.
 
@@ -145,7 +145,7 @@ boolean flag = car instanceof Vehicle; // true in this case!
 
 ## Constructors & Inheritance
 
-As mentioned earlier, constructors cannot be directly inherited by a subclass. Although, a subclass is _required_ to call its parent's constructor as the first thing in its own constructor. How? You guessed it, using `super` :
+As mentioned earlier, constructors cannot be directly inherited by a subclass. Although, a subclass is _required_ to call its parent's constructor as the [first thing](http://stackoverflow.com/questions/1168345/why-does-this-and-super-have-to-be-the-first-statement-in-a-constructor) in its own constructor. How? You guessed it, using `super` :
 
 ```java
 public class Vehicle() {
