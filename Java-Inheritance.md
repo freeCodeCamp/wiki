@@ -5,7 +5,7 @@ Java inheritance refers to the ability of a Java Class to `inherit` the properti
 * The Class that extends or inherits is called **subclass**
 * The Class that is being extended or inherited is called **superclass**
 
-Thus, inheritance gives Java the cool capability of _re-using_ a code, or share code between classes! Let's describe it with the classic example of a `Vehicle` class and a `Car` class :
+Thus, inheritance gives Java the cool capability of _re-using_ code, or share code between classes! Let's describe it with the classic example of a `Vehicle` class and a `Car` class :
 
 ```java
 public class Vehicle {
@@ -48,7 +48,7 @@ Therefore, whenever you need to share some common bit of code to some more class
 ### What cannot be inherited ?
 
 * `private` fields and methods
-* Constructors. Although, subclass constructor _has_ to call superclass constructor if its defined (More on that later!)
+* Constructors. Although, subclass _has_ to call superclass constructor if its defined as the [first thing](http://stackoverflow.com/questions/1168345/why-does-this-and-super-have-to-be-the-first-statement-in-a-constructor) in itws own constructor (More on that later!)
 * Multiple classes. Java supports only **single inheritance**, that is you can only inherit one class at a time.
 * Fields. Individual fields of a class cannot be overriden by the subclass.
 
