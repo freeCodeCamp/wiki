@@ -112,7 +112,7 @@ So, it's pretty simple to override methods in the subclass. Although, there is a
 * You cannot override private methods of the superclass. (Quite obvious, isn't it?)
 * What if the method of superclass which you are overriding in the subclass suddenly gets obliterated or methods changed? It would fail in runtime! So Java provides you a nifty annotation `@Override` which you can place over the subclass method, which will warn the compiler of those incidents! 
 
-Annotations in Java is a good coding practice, but they are not a necessity. The compiler is smart enough to figure out overriding on its own though. Unlike other OOP languages, Annotations in Java it doesn't necessarily modify the method or add extra functionality. Read more about [Java Annotations]() here.
+Annotations in Java is a good coding practice, but they are not a necessity. The compiler is smart enough to figure out overriding on its own though. Unlike other OOP languages, Annotations in Java it doesn't necessarily modify the method or add extra functionality. Read more about [Java Annotations](Java-Annotations) here.
 
 ## How to call super class methods?
 
@@ -175,4 +175,4 @@ Remember, if the superclass does not have any constructors defined, you dont hav
 
 If no other constructors are defined, then Java invokes the default super class constructor (*even if not defined explicitly*).
 
-Congrats, now you know all about Inheritance! Read more about advanced ways to inherit things in [Abstract Classes]() and [Interfaces]()!
+Congrats, now you know all about Inheritance! Read more about advanced ways to inherit things in [Abstract Classes](Java-Abstract-Classes) and [Interfaces](Java-Interfaces)!
