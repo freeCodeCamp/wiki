@@ -82,6 +82,20 @@ function myReplace(str, before, after) {
 }
 ```
 
+## Code Solution #4:
+
+```js
+function myReplace(str, before, after) {
+  // Preserve the case of the original word when replacing it
+  if (before.charAt(0).toUpperCase() === before.charAt(0)) {
+    after = after.charAt(0).toUpperCase() + after.slice(1);
+  }
+  // Replace the original str with the new one
+  return str.replace(before, after);
+}
+```
+
+
 # Code Explanation:
 - Read comments on program.
 
