@@ -108,6 +108,22 @@ function translatePigLatin(str) {
 }
 ```
 
+#### Fifth Solution (regex grouping)
+```js
+function translatePigLatin(str) {
+  // vowel = AEIOU  consonant = non-vowel;
+
+  // If first char is a vowel, append the str with "way" and return it
+  if (/^[aeiou]/i.test(str))
+    return str += "way";
+
+  // Use regex group to divide the str into consonant ($1) and vowel ($2),
+  // then reverse their position as "$2$1", and append the str with "ay"
+  return str.replace(/([^aeiou]+)([a-z]+)/i, "$2$1" + "ay");
+}
+```
+
+
 # Code Explanation:
 ####First-Third solution:
 - Read comments on code.
