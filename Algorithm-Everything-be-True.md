@@ -70,6 +70,25 @@ function truthCheck(collection, pre) {
 - Set initial reduce value to true.
 - Change it to false only when there is no key of a given name or it's falsy. Otherwise stick to the initial truthy value. 
 
+## Code Solution using for-in loop only:
+
+```js
+function truthCheck(collection, pre) {
+  // Iterate through every object in collection argument
+  for (var a in collection){
+    // If a predicate in collection[a] isn't defined, or is false, return false
+    if (!collection[a][pre]){
+      return false;
+    }
+  }
+  // Return true if the for loop finds no undefined or false predicates.
+  return true;
+}
+```
+
+### Code Explanation:
+- Read the comments in the code.
+
 # Credits:
 If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @estevanmaito @HermanFassett for your help with Algorithm: Everything  Be True`**
 
