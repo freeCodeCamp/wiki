@@ -14,3 +14,7 @@ Here are some helpful links:
 
 [5 Steps to a Successful Meetup](5-Steps-to-organizing-a-successful-Campsite-event)
 
+-------
+See also:
+[Campsite assets and promotional materials](https://github.com/FreeCodeCamp/assets/tree/master/Campsite%20materials)
+
