@@ -4,7 +4,7 @@ Interface in Java is a bit like the Class, but with a significant difference : a
 
 ```java
 public interface Vehicle {
-	public string licensePlate = "";
+	public String licensePlate = "";
 	public void start();
 	public void stop();
 }
@@ -23,7 +23,9 @@ public class Car implements Vehicle {
 }
 ```
 
-Now, there is a **ground rule** : The Class must implement **all** of the methods in the Interface. The methods must have _the exact same_ signature (name + parameters + exceptions) as described in the interface. The class _does not_ need to declare the fields though, only the methods.
+:rocket: [REPL It!](https://repl.it/CItd/0)
+
+Now, there is a **ground rule** : The Class must implement **all** of the methods in the Interface. The methods must have _the exact same_ signature (name, parameters and exceptions) as described in the interface. The class _does not_ need to declare the fields though, only the methods.
 
 # 
 
@@ -68,13 +70,15 @@ Starter.startEngine(tata); // starting truck engine ...
 
 ```
 
+:rocket: [REPL It!](https://repl.it/CItm/0)
+
 ## But how about multiple interfaces?
 
-Yes, you can implement multiple Interfaces in a single class. But do not forget to implement _all_ of the methods of all the Interfaces, otherwise compilation will fail!
+Yes, you can implement multiple Interfaces in a single class. While in [Inheritance](Java-Inheritance) within Classes you were restricted to inherit only one class, here you can extend any number of interfaces. But do not forget to implement _all_ of the methods of all the Interfaces, otherwise compilation will fail!
 
 ```java
 public interface GPS {
-	public LatLng getCoordinates();
+	public void getCoordinates();
 }
 
 public interface Radio {
@@ -83,7 +87,7 @@ public interface Radio {
 }
 
 public class Smartphone implements GPS,Radio {
-	public LatLng getCoordinates() {
+	public void getCoordinates() {
 		// return some coordinates
 	}
 	public void startRadio() {
@@ -95,29 +99,30 @@ public class Smartphone implements GPS,Radio {
 }
 ```
 
+:rocket: [REPL It!](https://repl.it/CIto/0)
+
 ## Some features of Interfaces
 
-* You can place variables within an Interface, although it wont be a sensible decision as Classes are not bound to have the same variable. In short, avoid placing variables!
+* You can place variables within an Interface, although it won't be a sensible decision as Classes are not bound to have the same variable. In short, avoid placing variables!
 * All variables and methods in an Interface are public, even if you leave out the `public` keyword.
 * An Interface cannot specify the implementation of a particular method. Its upto the Classes to do it. Although there has been a recent exception (see below).
-* If a Class implements multiple Interfaces, then there is a remote chance of method signature overlap. Since Java does not allow multiple methods of the exact same signature, this can lead to problems. See [this question](http://stackoverflow.com/questions/2598009/method-name-collision-in-interface-implementation-java) for more info!
+* If a Class implements multiple Interfaces, then there is a remote chance of method signature overlap. Since Java does not allow multiple methods of the exact same signature, this can lead to problems. See [this question](http://stackoverflow.com/questions/2598009/method-name-collision-in-interface-implementation-java) for more info.
 
 ## Interface Default Methods
 
 Before Java 8, we had no way to direct an Interface to have a particular method implementation. This lead to lot of confusion and code breaks if an Interface definition is suddenly changed.
 
-Suppose you wrote an open source library, which contains an Interface. Say your clients, i.e. practically all developers around the world, are using it heavily and are happy. Now you had to upgrade the library by adding a new method definition to the Interface to support a new feature. But that would break _all_ builds since all Classes implementing that Interface has to change now! What a catastrophe!
+Suppose, you wrote an open source library, which contains an Interface. Say, your clients, i.e. practically all developers around the world, are using it heavily and are happy. Now you have had to upgrade the library by adding a new method definition to the Interface to support a new feature. But that would break _all_ builds since all Classes implementing that Interface has to change now. What a catastrophe!
 
-Thankfully, Java 8 now provides us `default` methods of Interfaces. A `default` method _can_ contain its own implementation _directly_ within the Interface! So, if a Class does not implement a default method, the compiler will take the implementation mentioned within the Interface. Nice, isnt it?
+Thankfully, Java 8 now provides us `default` methods of Interfaces. A `default` method _can_ contain its own implementation _directly_ within the Interface! So, if a Class does not implement a default method, the compiler will take the implementation mentioned within the Interface. Nice, isn't it? So in your library, you may add any number of default methods in interfaces without the fear of breaking anything!
 
 ```java
 public interface GPS {
-	public LatLng getCoordinates();
-	default public LatLng getRoughCoordinates() {
+	public void getCoordinates();
+	default public void getRoughCoordinates() {
 		// implementation to return coordinates from rough sources
 		// such as wifi & mobile
 		System.out.println("Fetching rough coordinates...");
-		return new LatLng(0,0);
 	}
 }
 
@@ -127,7 +132,7 @@ public interface Radio {
 }
 
 public class Smartphone implements GPS,Radio {
-	public LatLng getCoordinates() {
+	public void getCoordinates() {
 		// return some coordinates
 	}
 	public void startRadio() {
@@ -144,7 +149,9 @@ Smartphone motoG = new Smartphone();
 motog.getRoughCoordinates(); // Fetching rough coordinates...
 ```
 
-### But, what happens if two interfaces has the same method signature?
+:rocket: [REPL It!](https://repl.it/CItp/0)
+
+### But, what happens if two interfaces have the same method signature?
 
 Awesome question. In that case, if you do not provide the implementation in the Class, poor compiler will get confused and simply fail! You have to provide a default method implemention within the Class also. There is also a nifty way using `super` to call which implementation you like :
 
@@ -176,8 +183,10 @@ public class Smartphone implements Radio, MusicPlayer {
 }
 
 Smartphone motoG = new Smartphone();
-motog.next(); // Next from MusicPlayer
+motoG.next(); // Next from MusicPlayer
 ```
+
+:rocket: [REPL It!](https://repl.it/CIts/0)
 
 ## Inheriting an Interface
 
@@ -206,14 +215,16 @@ public class SmartPhone implements MusicPlayer {
 		System.out.println("start");
 	}
 	public void stop() {
-		System.out.println("start");
+		System.out.println("stop");
 	}
 	public void pause() {
-		System.out.println("start");
+		System.out.println("pause");
 	}
 }
 ```
 
+:rocket: [REPL It!](https://repl.it/CIty/0)
+
 Whoops, did I forget `next()` ? See, since it was a `default` method, I didn't had to provide an implementation at all. (Wont work for JDK < 8)
 
-So, now you have a good grasp of Interfaces! Now go learn about [Abstract Classes](Java-Abstract-Classes) to know how Java gives you yet another way to define contracts.
+So, now you have a good grasp of Interfaces! Go learn about [Abstract Classes](Java-Abstract-Classes) to know how Java gives you yet another way to define contracts.
