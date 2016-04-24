@@ -1,7 +1,9 @@
-If your city isn't listed here, you should [create a Campsite for your city](How-to-create-a-Campsite-for-your-city).
+[![Google Map of Campsites](https://raw.githubusercontent.com/FreeCodeCamp/wiki/master/google-campsites-map.png)](https://www.google.com/maps/d/u/0/embed?mid=zH0hxoM17_fk.kDBMlxfk0BZ8)<br>
+(This map is very out of date and you should look for your city in the following list instead.<br>
+If you're up to it, please help us [edit the map](https://www.google.com/maps/d/edit?mid=zH0hxoM17_fk.kDBMlxfk0BZ8) and update the missing cities in there.)
 
-[![Google Map of Campsites](https://raw.githubusercontent.com/FreeCodeCamp/wiki/master/google-campsites-map.png)](https://www.google.com/maps/d/u/0/embed?mid=zH0hxoM17_fk.kDBMlxfk0BZ8)
-[Edit Map](https://www.google.com/maps/d/edit?mid=zH0hxoM17_fk.kDBMlxfk0BZ8)
+----
+If your city isn't listed here, you should [create your own Campsite](How-to-create-a-Campsite-for-your-city).
 
 - Afghanistan
   - [Kabul](https://www.facebook.com/groups/free.code.camp.kabul/)
@@ -515,6 +517,7 @@ If your city isn't listed here, you should [create a Campsite for your city](How
     - [Greater Noida](https://www.facebook.com/groups/free.code.camp.greater.noida/)
     - [Jhansi](https://www.facebook.com/groups/free.code.camp.jhansi/)
     - [Lucknow](https://www.facebook.com/groups/1647602228815736/)
+    - [Meerut](https://www.facebook.com/groups/free.code.camp.meerut/)
     - [Varanasi](https://www.facebook.com/groups/free.code.camp.varanasi/)
   - Uttarakhand
     - [Dehra Dun](https://www.facebook.com/groups/free.code.camp.dehradun/)
@@ -886,7 +889,7 @@ If your city isn't listed here, you should [create a Campsite for your city](How
   - [Edinburgh](https://www.facebook.com/groups/free.code.camp.edinburgh/)
   - [Glasgow](https://www.facebook.com/groups/free.code.camp.glasgow/)      
 - Senegal
-  - [Dakar](https://www.facebook.com/groups/free.code.camp.dakar.sn/) 
+  - [Dakar](https://www.facebook.com/groups/free.code.camp.dakar.sn/)
 - Serbia
   - [Belgrade](https://www.facebook.com/groups/free.code.camp.belgrade/)
   - [Krusevac](https://www.facebook.com/groups/free.code.camp.krusevac/)
@@ -1490,6 +1493,7 @@ If your city isn't listed here, you should [create a Campsite for your city](How
   - [Caracas](https://www.facebook.com/groups/free.code.camp.caracas/)
   - [Coro](https://www.facebook.com/groups/free.code.camp.coro)
   - [Guacara](https://www.facebook.com/groups/free.code.camp.guacara/)
+  - [Guayana](https://www.facebook.com/groups/free.code.camp.guayanaedobolivar/]
   - [Maracaibo](https://www.facebook.com/groups/free.code.camp.maracaibo/)
   - [Maracay](https://www.facebook.com/groups/free.code.camp.maracay)
   - [Merida](https://www.facebook.com/groups/free.code.camp.merida.venezuela/)
