@@ -63,6 +63,7 @@ Creating issues in general is simpler than creating a pull request.
 
 If you are really committed to contributing to the wiki and you would like to join the team and be able to merge pull request, create new labels, assign mods to specific pull request and more then just check the [requirements to become a wiki mod](Wiki-Become-A-Wiki-Mod) and follow the instructions.
 
+At some point you will need to [improve someone's pull request](Wiki-Improve-PR)
 ## Templates
 
 We have a few template for different aspects of the wiki, such as different articles and fixed information to help contribute.
