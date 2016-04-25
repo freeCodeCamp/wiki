@@ -41,6 +41,8 @@ Output:
     iter_While Value: 10
     
 
+:rocket: [REPL It!](https://repl.it/CJYj/0)
+
 ### The Do While loop
 
 The `do while` is very similar to the `while` loop in the way it works, but is *exit controlled* (unlike the `for` and `while` loops which are *entry controlled*), that is, the truth value of its `expression` is evaluated after the execution of `Statements`.
@@ -73,6 +75,8 @@ Output:
     20
     iter_DoWhile Value: 21
 
+:rocket: [REPL It!](https://repl.it/CJYl/0)
+
 ### The For loop
 
 The `for` loop give you a compact way to iterate over a range of values.
@@ -89,7 +93,8 @@ for (initialization; expression; increment)
 * `increment` - Invoked after each iteration through the loop. You can increase/decrease the value of variables here.
 
 ```java
-for (int iter_For = 0; iter_For < 10; iter_For++) 
+int iter_For;
+for (iter_For = 0; iter_For < 10; iter_For++) 
 {
     System.out.print (iter_For + " ");
     // Iterated 10 times, iter_For 0,1,2...9
@@ -101,6 +106,8 @@ Output:
 
     0 1 2 3 4 5 6 7 8 9
     iter_For Value: 10
+
+:rocket: [REPL It!](https://repl.it/CJYr/0)
 
 ### The For Each loop
 
@@ -129,6 +136,8 @@ Output:
 
     0 1 2 3 4 5 6 7 8 9
     
+:rocket: [REPL It!](https://repl.it/CJYs/0)
+
 In the above code snippet, `number_list` is an array. If you don't know what this is, don't worry about it. An array is a container object that holds a fixed number of values of a single type, but more on this later.
 
 ## Loop Control Statemens
@@ -168,18 +177,26 @@ for (int i = 0; i < 10; i++) // Loop 1
 }
 ```
 
+:rocket: [REPL It!](https://repl.it/CJZA/0)
+
 `break` statements can be particulary useful while searching for an element in an array. Using `break` in the following code improves efficiency as the loop stops as soon as the element we are looking for (`searchFor`) is found, instead of going on till the end of `arrayInts` is reached. 
 
 ```java
-int[] number_list = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+int j = 0;
+int[] arrayOfInts = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
 int searchFor = 5;
 
-for (int i : arrayInts) 
+for (int i : arrayOfInts) 
 {
-    if (arayOfInts[i] == searchfor)
+    if (arrayOfInts[j] == searchFor)
         break;
+    j++;
 }
+
+System.out.println("j = " + j);
 ```
+
+:rocket: [REPL It!](https://repl.it/CJZC/0)
 
 ### continue
 
@@ -207,18 +224,22 @@ String searchWord = "mississippi";
 
 // max stores the length of the string
 int max = searchWord.length();
-int count_i = 0;
+int numPs = 0;
 
 for (int i = 0; i < max; i++) 
 {
     // We only want to count i's - skip other letters
-    if (searchMe.charAt(i) != 'i')
+    if (searchWord.charAt(i) != 'i')
         continue;
 
     // Increase count_i for each i encountered
     numPs++;
 }
+
+System.out.println("numPs = " + numPs);
 ```
+
+:rocket: [REPL It!](https://repl.it/CJZH/0)
 
 ## Infinite Loops
 
