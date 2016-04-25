@@ -31,8 +31,16 @@ Or alternatively you can use caps `-C`, where git will skip the editor window, a
 
 Re-using the "Same" commit message is also known as redoing/recommiting.
 
+#### Unstage before a commit
+
+To undo a change staged before a commit simply run `git reset <file>` or `git reset` to unstage all changes before a commit.
+
+Note: In older versions of git, the commands were `git reset HEAD <file>` and `git reset HEAD` respectively. This was changed in Git 1.8.2 
+
 #### Some More tricks:
 
 You can go back any number of commits by using `git reset --soft HEAD~n` where you want to undo last `n` commits.
 
 ###### *Attribution: This article is based on a Stack Overflow question [here](http://stackoverflow.com/questions/927358/how-do-you-undo-the-last-commit/927386#927386).*
+
+[Stack Overflow] ((http://stackoverflow.com/questions/348170/undo-git-add-before-commit/348234#348234)
