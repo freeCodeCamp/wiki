@@ -100,6 +100,7 @@ If your city isn't listed here, you should [create your own Campsite](How-to-cre
   - [Caruaru](https://www.facebook.com/groups/free.code.camp.caruaru/)
   - [Caxias do Sul](https://www.facebook.com/groups/free.code.camp.caxias.do.sul/)
   - [Chapeco](https://www.facebook.com/groups/free.code.camp.chapeco/)
+  - [Cosmópolis](https://www.facebook.com/groups/free.code.camp.cosmopolis)
   - [Cuiabá](https://www.facebook.com/groups/free.code.camp.cuiaba/)
   - [Curitiba](https://www.facebook.com/groups/free.code.camp.curitiba/)
   - [Engenheiro Coelho](https://www.facebook.com/groups/free.code.camp.engenheiro.coelho/)
@@ -889,7 +890,7 @@ If your city isn't listed here, you should [create your own Campsite](How-to-cre
   - [Edinburgh](https://www.facebook.com/groups/free.code.camp.edinburgh/)
   - [Glasgow](https://www.facebook.com/groups/free.code.camp.glasgow/)      
 - Senegal
-  - [Dakar](https://www.facebook.com/groups/free.code.camp.dakar.sn/)
+  - [Dakar](https://www.facebook.com/groups/free.code.camp.dakar/)
 - Serbia
   - [Belgrade](https://www.facebook.com/groups/free.code.camp.belgrade/)
   - [Krusevac](https://www.facebook.com/groups/free.code.camp.krusevac/)
@@ -1161,6 +1162,7 @@ If your city isn't listed here, you should [create your own Campsite](How-to-cre
     - [Savannah](https://www.facebook.com/groups/free.code.camp.savannah/)
     - [South Atlanta suburbs](https://www.facebook.com/groups/free.code.camp.south.atlanta.suburbs/)
     - [Valdosta](https://www.facebook.com/groups/free.code.camp.valdosta/)
+    - [Winder](https://www.facebook.com/groups/fee.code.camp.winder.ga/)
   - Hawaii
     - [Honolulu](https://www.facebook.com/groups/free.code.camp.honolulu.hawaii/)
     - [Oahu](https://www.facebook.com/groups/free.code.camp.oahu.hawaii/)
@@ -1224,6 +1226,7 @@ If your city isn't listed here, you should [create your own Campsite](How-to-cre
   - Maine
     - [Auburn](https://www.facebook.com/groups/free.code.camp.auburn.maine/)
     - [Augusta](https://www.facebook.com/groups/free.code.camp.augusta/)
+    - [Portland](https://www.facebook.com/groups/free.code.camp.portland.maine/)
     - [Rockland](https://www.facebook.com/groups/435736603276121/)
   - Maryland
     - [Baltimore](https://www.facebook.com/groups/free.code.camp.baltimore/)
