@@ -80,6 +80,8 @@ System.out.println("Full Car Name = " + modelS.getManufacturerName() + " " + mod
 // prints Tesla Model S
 ```
 
+:rocket: [REPL It!](https://repl.it/CJZP/0)
+
 So, `Car` is a class, which has the fields or properties name and manufacturerName. `modelS` is an object of `Car` class. So `modelS` also has the same properties and methods.
 
 ### Access Modifiers
@@ -189,14 +191,16 @@ public class ElectricCar extends Car {
 
 ElectricCar modelS = new ElectricCar("Model S","Tesla");
 // prints Tesla
-System.out.println(modelS.getName());
+System.out.println(modelS.getManufacturerName());
 // prints Charging ...
 modelS.charge();
 ```
 
+:rocket: [REPL It!](https://repl.it/CJZY/0)
+
 See here that the class `ElecticCar` inherits or `extends` the public methods from `Car` class, as well as has its own methods and properties. Cool way to pass on information!
 
-Also notice the usage of [super](https://docs.oracle.com/javase/tutorial/java/IandI/super.html) keyword here. Since our `Car` class had a constructor, so we have to initialize that constructor from the child class as well. We do that using the `super` keyword. Read more about [Inheritance here](#TODO).
+Also notice the usage of [super](https://docs.oracle.com/javase/tutorial/java/IandI/super.html) keyword here. Since our `Car` class had a constructor, so we have to initialize that constructor from the child class as well. We do that using the `super` keyword. Read more about [Inheritance here](Java-Inheritance).
 
 ### Interfaces
 
@@ -233,7 +237,9 @@ class ElectricCar implements Car {
 }
 ```
 
-So interface basically binds you to a contract to follow, where you must _implement_ all the methods. If you don't, the compiler will complain! Know more about the [awesome power of Inheritance here](#TODO).
+:rocket: [REPL It!](https://repl.it/CJZa/0)
+
+So interface basically binds you to a contract to follow, where you must _implement_ all the methods. If you don't, the compiler will complain! Know more about the [awesome power of Interfaces here](Java-Interfaces).
 
 ## Basic Operations
 
@@ -334,6 +340,9 @@ One of the ways to represent this will be:
 
 ```java
 
+int cash = 50;
+String company = "friends";
+
 if(cash<25){
 	getCoffee();
 }else if(cash<60){
@@ -341,17 +350,20 @@ if(cash<25){
 }else if(cash<100){
 	getDecentMeal();
 	getGlassOfWine();
-}else{
-	
-  switch(company){
-    case "wife" : candleLitDinner();
-    break;
-    case "friends" : meetFriendsAtSportsBar();
-    break;
-  }
+}	else {
+
+	switch(company){
+		case "wife" : candleLitDinner();
+		break;
+		case "friends" : meetFriendsAtSportsBar();
+		break;
+	}
+
 }
 
 ```
+
+:rocket: [REPL It!](https://repl.it/CJZi/1)
 
     
     

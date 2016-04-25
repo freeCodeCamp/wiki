@@ -41,6 +41,8 @@ tesla.start();
 tesla.stop();
 ```
 
+:rocket: [REPL It!](https://repl.it/CJXz/0)
+
 But, does the parent Class has the methods of the child? No, it doesn't.
 
 Therefore, whenever you need to share some common bit of code to some more classes, it is always good to have a parent Class, and then extend that Class whenever needed! Saves a lot of lines of code, makes code modular and better testable.
@@ -70,6 +72,8 @@ Although, the opposite is not possible :
 Car car = new Vehicle(); // ERROR
 ```
 
+:rocket: [REPL It!](https://repl.it/CJYB/0)
+
 Since you can reference a Java subclass as a superclass instance, you can cast a subclass object easily to a superclass instance. It may be possible to cast a superclass object into a subclass type, but _only if the object is really an instance of subclass_. So keep this in mind :
 
 ```java
@@ -82,6 +86,8 @@ Vehicle v = bike; // upcasting, no problem here.
 Car car3 = (Car)bike; // Compilation Error : as bike is NOT a instance of Car
 ```
 
+:rocket: [REPL It!](https://repl.it/CJYM/0)
+
 Now you know how to share code through parent-child relationship. But, what if, you do not like the implementation of a particular method in the child class and want to write a new one for it? What to do then?
 
 ## Override it!
@@ -89,7 +95,7 @@ Now you know how to share code through parent-child relationship. But, what if, 
 Java lets you _override_ or redefine the methods defined in the superclass. For example, your `Car` class has a different implementation of `start()` than the parent `Vehicle`, so you do this :
 
 ```java
-public class Vehicle() {
+public class Vehicle {
 	public void start() {
 	  System.out.println("Vehicle start code");
 	}
@@ -104,6 +110,8 @@ public class Car extends Vehicle {
 Car car = new Car();
 car.start(); // "Car start code"
 ```
+
+:rocket: [REPL It!](https://repl.it/CJYZ/1)
 
 So, it's pretty simple to override methods in the subclass. Although, there is a _catch_. Only that superclass method will be overriden which has the _exact same method signature_ as the subclass method. That means the subclass method definition must have the exact same name, same number and type of parameters, and in the exact same sequence. Thus, `public void start(String key)` would not override `public void start()`.
 
@@ -135,6 +143,8 @@ Car car = new Car();
 car.run(); // "Vehicle start code"
 ```
 
+:rocket: [REPL It!](https://repl.it/CJY4/0)
+
 **N.B.** : Although you can call the parent method by `super` call, you cannot go up the inheritance with chained `super` calls.
 
 ## How to know the type of a class?
@@ -152,7 +162,7 @@ boolean flag = car instanceof Vehicle; // true in this case!
 As mentioned earlier, constructors cannot be directly inherited by a subclass. Although, a subclass is _required_ to call its parent's constructor as the [first thing](http://stackoverflow.com/questions/1168345/why-does-this-and-super-have-to-be-the-first-statement-in-a-constructor) in its own constructor. How? You guessed it, using `super` :
 
 ```java
-public class Vehicle() {
+public class Vehicle {
 	public Vehicle() {
 		// constructor
 	}
@@ -170,6 +180,8 @@ public class Car extends Vehicle {
   }
 }
 ```
+
+:rocket: [REPL It!](https://repl.it/CJY8/0)
 
 Remember, if the superclass does not have any constructors defined, you dont have to call it explicitely in the subclass. Java handles that internally for you! Invocation to `super` constructor is done in the case when the super class is to be called with any other constructor other than the _default constructor_.
 
