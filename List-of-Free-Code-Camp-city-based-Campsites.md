@@ -69,6 +69,7 @@ If your city isn't listed here, you should [create your own Campsite](How-to-cre
 - Bermuda
   - [Saint George](https://www.facebook.com/groups/free.code.camp.saint.george/)
 - Bolivia
+  - [Cochabamba](https://www.facebook.com/groups/free.code.camp.Cochabamba/)
   - [Sucre](https://www.facebook.com/groups/free.code.camp.Sucre/)
   - [La Paz](https://www.facebook.com/groups/free.code.camp.La.Paz/)
   - [Santa Cruz](https://www.facebook.com/groups/free.code.camp.SC/)
@@ -251,6 +252,7 @@ If your city isn't listed here, you should [create your own Campsite](How-to-cre
 - Croatia
   - [Dubrovnik](https://www.facebook.com/groups/free.code.camp.dubrovnik/) 
   - [Karlovac](https://www.facebook.com/groups/free.code.camp.karlovac/)
+  - [Osijek](https://www.facebook.com/groups/free.code.camp.osijek/)
   - [Rijeka](https://www.facebook.com/groups/542662595902378/)
   - [Split](https://www.facebook.com/groups/free.code.camp.split/)
   - [Varazdin](https://www.facebook.com/groups/free.code.camp.varazdin)
@@ -272,6 +274,7 @@ If your city isn't listed here, you should [create your own Campsite](How-to-cre
   - [Copenhagen](https://www.facebook.com/groups/fre.code.camp.copemhagen/)
   - [Hostelbro](https://www.facebook.com/groups/Free.Code.Camp.Holstebro/)
   - [Odense](https://www.facebook.com/groups/free.code.camp.odense/)
+  - [Roskilde](https://www.facebook.com/groups/free.code.camp.roskilde/)
 - Dominican Republic
   - [Santo Domingo](https://www.facebook.com/groups/free.code.camp.dr/)
 - Ecuador
@@ -351,6 +354,7 @@ If your city isn't listed here, you should [create your own Campsite](How-to-cre
   - [Turku](https://www.facebook.com/groups/free.code.camp.turku/)
   - [Vaasa](https://www.facebook.com/groups/free.code.camp.vaasa/)
 - France
+  - [Annemasse](https://www.facebook.com/groups/free.code.camp.annemasse/)
   - [Bordeaux](https://www.facebook.com/groups/free.code.camp.your.city.Bordeaux/)
   - [Chelles](https://www.facebook.com/groups/free.code.camp.chelles/)
   - [Grenoble](https://www.facebook.com/groups/free.code.camp.grenoble/)
@@ -489,6 +493,8 @@ If your city isn't listed here, you should [create your own Campsite](How-to-cre
     - [Gwalior](https://www.facebook.com/groups/free.code.camp.Gwalior/)
     - [Indore](https://www.facebook.com/groups/free.code.camp.Indore/)
     - [Jabalpur](https://www.facebook.com/groups/free.code.camp.your.city.jabalpur/)
+  - Manipur
+    - [Imphal](https://www.facebook.com/groups/free.code.camp.imphal.manipur/)
   - Meghalaya
     - [Shillong](https://www.facebook.com/groups/free.code.camp.shillong/)
   - Orissa
@@ -871,6 +877,7 @@ If your city isn't listed here, you should [create your own Campsite](How-to-cre
   - [Tomsk](https://www.facebook.com/groups/free.code.camp.tomsk/)
   - [Tyumen](https://www.facebook.com/groups/free.code.camp.Tyumen/)
   - [Ufa](https://www.facebook.com/groups/free.code.camp.ufa/)
+  - [Velikiy Novgorod](https://www.facebook.com/groups/free.code.camp.velikiy.novgorod/)
   - [Vladivostok](https://www.facebook.com/groups/free.code.camp.vladivostok/)
   - [Voronezh](https://www.facebook.com/groups/free.code.camp.voronezh/)
   - [Yaroslavl](https://www.facebook.com/groups/free.code.camp.yaroslavl/)
@@ -1029,6 +1036,7 @@ If your city isn't listed here, you should [create your own Campsite](How-to-cre
   - Territories
     - [Guam](https://www.facebook.com/groups/free.code.camp.Guam/) 
   - Alabama
+    - [Auburn](https://www.facebook.com/groups/free.code.code.auburn/)
     - [Dothan](https://www.facebook.com/groups/free.code.camp.dothan/)
     - [Birmingham](https://www.facebook.com/groups/free.code.camp.oxford.al/)
     - [Enterprise](https://www.facebook.com/groups/free.code.camp.enterprise.alabama/)
@@ -1239,6 +1247,7 @@ If your city isn't listed here, you should [create your own Campsite](How-to-cre
     - [Silver Spring](https://www.facebook.com/groups/free.code.camp.silverspring/)
   - Massachusetts
     - [Boston](https://www.facebook.com/groups/free.code.camp.boston/)
+    - [Burlington](https://www.facebook.com/groups/free.code.camp.massachusetts.burlington/)
     - [Cape Cod](https://www.facebook.com/groups/free.code.camp.cape.cod/)
     - [Lexington](https://www.facebook.com/groups/free.code.camp.lexington.ma/)
     - [Northampton](https://www.facebook.com/groups/free.code.camp.northampton.mass/)
