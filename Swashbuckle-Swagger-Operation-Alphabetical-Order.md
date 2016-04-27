@@ -1,12 +1,14 @@
 # Arranging operations alphabetically in Swashbuckle Swagger
 
-[Swashbuckle](https://github.com/domaindrivendev/Swashbuckle) seamlessly adds a [Swagger](http://swagger.io/) to WebAPI projects. However, the operations on the page do not appear in alphabetical order. However, Swashbuckle allows custom filters and with a little code, this is easy enough to implement. The code below creates a [DocumentFilter](https://github.com/domaindrivendev/Swashbuckle#documentfilter) which is then applied to the final document as outlined [here](https://github.com/domaindrivendev/Swashbuckle#modifying-generated-operations).
+[Swashbuckle](https://github.com/domaindrivendev/Swashbuckle) seamlessly adds a [Swagger](http://swagger.io/) to WebAPI projects. However, the operations on the page do not appear in alphabetical order.
 
-The Gist is available [here](https://gist.github.com/pallu/0f28e98fa89d2855a321).
+Although the operations will not appear in alphabetical order, Swashbuckle allows custom filters and with a little coding, the order can be shown in alphabetical order.
 
-And here's the same code
+## Code Example
 
-```C#
+The code below creates a [DocumentFilter](https://github.com/domaindrivendev/Swashbuckle#documentfilter) which is then applied to the final document as outlined [here](https://github.com/domaindrivendev/Swashbuckle#modifying-generated-operations).
+
+```csharp
 using Swashbuckle.Swagger;
 using System;
 using System.Collections.Generic;
@@ -25,7 +27,7 @@ namespace YourNamespace.Swagger.Extensions
 
             //controller comments do not get added to swagger docs. This is how to add them.
             AddControllerDescriptions(swaggerDoc, apiExplorer);
-            
+
         }
 
         private static void AddControllerDescriptions(SwaggerDocument swaggerDoc, System.Web.Http.Description.IApiExplorer apiExplorer)
@@ -55,19 +57,22 @@ namespace YourNamespace.Swagger.Extensions
     }
 }
 ```
+
 Now you can simply add it to the config file like this
+
 ```csharp
 .EnableSwagger(c =>
-	{
-    	...
-    	c.DocumentFilter<YourNamespace.Swagger.Extensions.CustomDocumentFilter>();
+    {
+        ...
+        c.DocumentFilter<YourNamespace.Swagger.Extensions.CustomDocumentFilter>();
         ...
     }
 );
 ```
-### References:
 
- * [Swashbuckle](https://github.com/domaindrivendev/Swashbuckle)
- * [Swagger](http://swagger.io/)
- * [DocumentFilter](https://github.com/domaindrivendev/Swashbuckle#documentfilter)
- * [Gist for code above](https://gist.github.com/pallu/0f28e98fa89d2855a321)
+## References:
+
+- [Swashbuckle](https://github.com/domaindrivendev/Swashbuckle)
+- [Swagger](http://swagger.io/)
+- [DocumentFilter](https://github.com/domaindrivendev/Swashbuckle#documentfilter)
+- [Gist for code above](https://gist.github.com/pallu/0f28e98fa89d2855a321)
