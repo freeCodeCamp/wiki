@@ -1,6 +1,8 @@
 # Bootstrap
 
-### Getting Started
+Bootstrap is the most popular CSS framework for developing responsive, mobile first projects for the web.
+
+## Getting Started
 
 Here is a simple HTML template which includes the latest compiled and minified CSS and Javascript for the Bootstrap library.
 We have used a CDN in this example, but you can checkout other ways of installing Bootstrap [here](http://getbootstrap.com/getting-started/#download).
@@ -23,7 +25,7 @@ We have used a CDN in this example, but you can checkout other ways of installin
 </html>
 ```
 
-### Learning Resources
+## Learning Resources
 
 - The official documentation for Bootstrap is available [here](http://getbootstrap.com/components/).
 - Checkout Bootstrap's open source GitHub repository [here](https://github.com/twbs/bootstrap).
