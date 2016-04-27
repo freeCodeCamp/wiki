@@ -30,3 +30,4 @@ We have used a CDN in this example, but you can checkout other ways of installin
 
 - The official documentation for Materialize is available [here](https://materializecss.com/).
 - Checkout Materialize's open source GitHub repository [here](https://github.com/Dogfalo/materialize).
+- [Here](https://scotch.io/tutorials/make-material-design-websites-with-the-materialize-css-framework) is a handy tutorial on using Materialize.
