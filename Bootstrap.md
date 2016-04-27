@@ -16,7 +16,7 @@ We have used a CDN in this example, but you can checkout other ways of installin
   </head>
   <body>
     <h1>Hello World</h1>
-
+    <!-- Add all HTML Code here -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   </body>
