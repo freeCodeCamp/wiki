@@ -19,7 +19,7 @@ We have used a CDN in this example, but you can checkout other ways of installin
   </head>
   <body>
     <h1>Hello World</h1>
-
+    <!-- Add all HTML Code here -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
   </body>
