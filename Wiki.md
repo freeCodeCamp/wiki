@@ -9,7 +9,8 @@ The title will have to change to something better. This will be the central area
 
   - [Label Guides](#labels)
   - [Issue Guides](#issues)
-  - [Mods Guides](#wiki-mods)
+  - [Mods Guides](#moderators)
+  - [Translation Guide](#translation)
 
 3. [Templates](#templates)
 
@@ -59,11 +60,18 @@ Creating issues in general is simpler than creating a pull request.
 - [Creating a New Github Issue](Creating-a-New-Github-Issue)
 - [Searching for Your Issue on Github](Searching-for-Your-Issue-on-Github)
 
-### Wiki Mods
+### Moderators
 
 If you are really committed to contributing to the wiki and you would like to join the team and be able to merge pull request, create new labels, assign mods to specific pull request and more then just check the [requirements to become a wiki mod](Wiki-Become-A-Wiki-Mod) and follow the instructions.
 
-At some point you will need to [improve someone's pull request](Wiki-Improve-PR)
+[**Improve someone's pull request:**](Wiki-Improve-PR) At some point while managing the influx of pull request, you will be face with the choice of letting an old contribution die out because the improvements needed have not been applied, or you could take contribution and improve it while also keeping the initial contributor's work. Often times, the later is teh best choice.
+
+### Translation
+
+We aim to translate all our articles in as many languages as supported. For this, we need people willing collaborate and translate articles. We have a series of articles that will help you get started and solve any issues.
+
+- [**Translation Guides**](Translations-Guide)
+
 ## Templates
 
 We have a few template for different aspects of the wiki, such as different articles and fixed information to help contribute.
