@@ -5,7 +5,6 @@ Materialize is a Responsive CSS framework based on Google's [Material Design](ht
 ## Getting Started
 
 Here is a simple HTML template which includes the latest compiled and minified CSS and Javascript for the Materialize library.
-We have used a CDN in this example, but you can checkout other ways of installing Materialize [here](http://materializecss.com/getting-started).
 
 ```html
 <!DOCTYPE html>
@@ -25,6 +24,8 @@ We have used a CDN in this example, but you can checkout other ways of installin
   </body>
 </html>
 ```
+
+We have used a CDN in this example, but you can checkout other ways of installing Materialize [here](http://materializecss.com/getting-started).
 
 ## Learning Resources
 
