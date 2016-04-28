@@ -1,4 +1,4 @@
-# Mapping Types
+# Python Mapping Types
 
 A mapping object maps hashable values to arbitrary objects. Mappings are mutable objects.
 

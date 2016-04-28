@@ -1,4 +1,4 @@
-# Functions
+# Python Functions
 
 [Previous](Python-Operators)
 
@@ -6,12 +6,11 @@
 
 [Next](Web-Development-in-Python)
 
-
 Functions are a way to organize code into reusable blocks. As a reminder, functions in Python are "first class objects."
 
 Several built-in functions have been discussed and used previous examples. Just as important is the ability for users to define their own functions.
 
-##### Resources
+## Resources
 
 [Python Docs - Function Definitions](https://docs.python.org/3/reference/compound_stmts.html#function-definitions)
 
@@ -34,9 +33,10 @@ We can create a function that writes the Fibonacci series to an arbitrary bounda
 ... fib(2000)
 0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597
 ```
+
 The keyword [def](https://docs.python.org/3/reference/compound_stmts.html#def) introduces a function definition. It must be followed by the function name and the parenthesized list of formal parameters. The statements that form the body of the function start at the next line, and must be indented.
 
-The first statement of the function body can optionally be a string literal; this string literal is the function’s documentation string, or docstring. (More about docstrings can be found in the section Documentation Strings.) There are tools which use docstrings to automatically produce online or printed documentation, or to let the user interactively browse through code; it’s good practice to include docstrings in code that you write, so make a habit of it.
+The first statement of the function body can optionally be a string literal; this string literal is the function's documentation string, or docstring. (More about docstrings can be found in the section Documentation Strings.) There are tools which use docstrings to automatically produce online or printed documentation, or to let the user interactively browse through code; it's good practice to include docstrings in code that you write, so make a habit of it.
 
 ### Calling Functions
 
@@ -49,6 +49,7 @@ A function definition statement does not execute the function. Executing (callin
 >>> say_hello()
 Hello
 ```
+
 The execution of a function introduces a new symbol table used for the local variables of the function. More precisely, all variable assignments in a function store the value in the local symbol table; whereas variable references first look in the local symbol table, then in the local symbol tables of enclosing functions, then in the global symbol table, and finally in the table of built-in names. Thus, global variables cannot be directly assigned a value within a function (unless named in a global statement), although they may be referenced.
 
 ```python
@@ -79,6 +80,7 @@ Hello Bob
 >>> person                  # person used to call remains bound to original object, 'Bob'.
 'Bob'
 ```
+
 The arguments used to call a function cannot be reassigned by the function, but arguments that reference mutable objects can have their values changed:
 
 ```python
@@ -206,7 +208,6 @@ NameError: name 'inside_fn' is not defined
 ### `global` and `nonlocal`
 
 #### `global`
-
 
 [Python Docs - the Global Statement](https://docs.python.org/3/reference/simple_stmts.html#the-global-statement)
 

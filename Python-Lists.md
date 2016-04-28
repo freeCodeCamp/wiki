@@ -1,4 +1,4 @@
-# Lists
+# Python Lists
 
 **TODO: `list` basic info**
 
@@ -15,6 +15,8 @@ An empty `list` is created using a pair of square brackets, `[]`:
 >>> len(empty_list)
 0
 ```
+
+## More
 
 A `list` can be created with elements by enclosing a comma separated list of elements with square brackets. Lists allow for the elements to be of different types (heterogeneous) but are most commonly of a single type (homogeneous):
 

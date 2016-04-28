@@ -1,4 +1,4 @@
-# FrozenSet
+# Python FrozenSet
 
 **TODO: `frozenset` basic info**
 

@@ -1,8 +1,10 @@
-# Iterators
+# Python Iterators
 
 Python supports a concept of iteration over containers. This is implemented using two distinct methods; these are used to allow user-defined classes to support iteration.
 
 [Python Docs - Iterator Types](https://docs.python.org/3/library/stdtypes.html#iterator-types)
+
+## More
 
 **TODO: Clarify what iteration means and what iterators can be used for.**
 

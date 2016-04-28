@@ -1,4 +1,4 @@
-# Integers
+# Python Integers
 
 The theoretical domain for integers in python is negative infinity to infinity. In practice, integer values are limited by the amount of available memory.
 
@@ -7,6 +7,8 @@ In Python 2, there was a distinction between **`int`**, numbers that fit in a 32
 **`int` creation using integer literals**
 
 [Integer Literals](https://docs.python.org/3/reference/lexical_analysis.html#integer-literals)
+
+## More
 
 _Integer objects_ can be created using using integer literals. Unadorned numbers without decimals are integer literals:
 

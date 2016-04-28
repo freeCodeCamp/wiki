@@ -1,4 +1,4 @@
-# Escape Sequences
+# Python Escape Sequences
 
 A list of escape sequences can be found [here](https://docs.python.org/3/reference/lexical_analysis.html#strings)
 
@@ -16,6 +16,8 @@ using escape sequences.
 >>> print("Backslashes \\ need to be escaped.")
 Backslashes \ need to be escaped.
 ```
+
+## More
 
 A _raw_ string can be used by prefixing the string with `r` or `R` which allows for backslashes to be included without the need to escape them -
 
