@@ -1,4 +1,4 @@
-# The Do While loop
+# The Java Do While loop
 
 The `do while` is very similar to the `while` loop in the way it works, but is _exit controlled_ (unlike the `for` and `while` loops which are _entry controlled_), that is, the truth value of its `expression` is evaluated after the execution of `Statements`.
 
@@ -10,7 +10,7 @@ do
 while (expression);
 ```
 
-This kind of loop is particularly useful if you want your `Statements` to be executed atleast once, irrespective of what `expression` evaluates to. You want to do this if you are initializing a variable inside your loop and plan on using its value later.
+This kind of loop is particularly useful if you want your `Statements` to be executed at least once, irrespective of what `expression` evaluates to. You want to do this if you are initializing a variable inside your loop and plan on using its value later.
 
 ```java
 int iter_DoWhile = 20;

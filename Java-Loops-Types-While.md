@@ -1,4 +1,4 @@
-# The While loop
+# The Java While Loop
 
 The `while` statement evaluates the `expression` (which must return a boolean value), and if it is `true`, the `Statements` get executed.
 

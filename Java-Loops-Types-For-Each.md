@@ -1,4 +1,4 @@
-# The For Each loop
+# The Java For Each Loop
 
 Also called the enhanced for loop, it is an extremely useful and simple way to iterate over each item in a collection, arrays as well as objects that implement the Iterable interface.
 

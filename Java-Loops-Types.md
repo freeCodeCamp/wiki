@@ -1,4 +1,4 @@
-# Types of Loops
+# Types of Java Loops
 
 Java has 4 types of loops - the `while`, `do while`, `for` and `for each`. While you can pick your favorite and use that almost everywhere, each of them has certain advantages in different applications.
 

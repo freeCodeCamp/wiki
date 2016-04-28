@@ -1,4 +1,4 @@
-# continue
+# Java `continue` Control Statement
 
 The `continue` statement makes a loop skip all the following lines after the continue and jump ahead to the beginning of the next iteration. In a `for` loop, control jumps to the update statement, and in a `while` or `do while` loop, control jumps to the boolean expression/condition.
 
