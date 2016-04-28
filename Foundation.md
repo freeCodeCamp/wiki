@@ -1,6 +1,6 @@
 # Foundation
 
-Foundation is the most advanced responsive front-end framework in the world (According to their website).
+[Foundation](http://foundation.zurb.com/) is the one of the most advanced responsive front-end frameworks.
 
 ## Getting Started
 
