@@ -1,4 +1,4 @@
-# Commenting Code
+# Python Commenting Code
 
 Comments are used to annotate, describe, or explain code that is complex or difficult to understand. Python will intentionally ignore comments when it compiles to bytecode by the interpreter. [`PEP 8`](https://www.python.org/dev/peps/pep-0008/#comments) has a section dealing with comments.
 
@@ -8,6 +8,8 @@ Comments are used to annotate, describe, or explain code that is complex or diff
 # This is a block comment.
 print('Hello world!') # This is an inline commment.
 ```
+
+## More
 
 Python does not include a formal way to write multiline comments. Each line of a comment spanning multiple lines should start with `#` and a space:
 

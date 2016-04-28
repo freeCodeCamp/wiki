@@ -1,8 +1,10 @@
-# Floating Point Numbers
+# Python Floating Point Numbers
 
 Some general information about floating point numbers and how they work in Python, can be found [here](https://docs.python.org/3/tutorial/floatingpoint.html).
 
 Nearly all implementations of Python follow the IEEE 754 specification: Standard for Binary Floating-Point Arithmetic. More information found on the [IEEE site](http://grouper.ieee.org/groups/754/).
+
+## More
 
 Float objects can be created using using [floating point literals](https://docs.python.org/3/reference/lexical_analysis.html#floating-point-literals):
 
