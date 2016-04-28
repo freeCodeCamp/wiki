@@ -2,7 +2,7 @@ This might be the first full webpage you have ever created. Here are some tips t
 
 # List Features
 
-List the features required by the user stories and any other rules you must fulfill Just write them down on a piece of paper. Having them on paper and not in a file will make it quicker to refer to them during the design process.
+List the features required by the user stories and any other rules you must fulfill. Just write them down on a piece of paper. Having them on paper and not in a file will make it quicker to refer to them during the design process.
 
 # Layout your page on paper
 
@@ -22,7 +22,7 @@ Rule 2 states that you can use which ever libraries you need. To save you time, 
 
 # Your external link isn't working
 
-Follow the instructions at the end of the video for what to add into your hyperlink. This should then work
+Follow the instructions at the end of the video for what to add into your hyperlink. This should then work.
 
 # Adding images to your page
 
