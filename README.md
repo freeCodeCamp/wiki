@@ -3,65 +3,94 @@
 Our open source community's Wiki focuses on answering your questions about learning to code and getting a coding job. We also cover in detail our:
 
 - Curriculum
+- Other Programming Languages
 - Local Campsite Communities
-- Nonprofit Projects
+- Nonprofit Projects  
+ ...and much more
 
-## Get a Fork ready
+*Taste* the wiki at [**FreeCodeCamp/wiki**](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki) :yum: 
 
-1. Fork it: You can get your own fork of our wiki by using the button or clicking [this](https://github.com/FreeCodeCamp/wiki/new/master?readme=1#fork-destination-box).
+## 
 
-  ![Fork Button](https://help.github.com/assets/images/help/repository/fork_button.jpg)
+### 1. **Fork it** :fork_and_knife:   
+You can get your own fork/copy of [FreeCodeCamp wiki](https://github.com/FreeCodeCamp/wiki) by using the <a href="https://github.com/FreeCodeCamp/wiki/new/master?readme=1#fork-destination-box"><kbd><b>Fork</b></kbd></a> button or clicking [this](https://github.com/FreeCodeCamp/wiki/new/master?readme=1#fork-destination-box).
 
-2. Once you have forked the repository, you will clone it with:
+> [![Fork Button](https://help.github.com/assets/images/help/repository/fork_button.jpg)](https://github.com/FreeCodeCamp/wiki)
 
-  ```sh
-  $ git clone https://github.com/YOUR-USERNAME/wiki.git
-  ```
+### 2. **Clone it** :busts_in_silhouette:  
+Once you have forked the wiki repository in Github, you need to clone/download it to local machine with...
+  
+```sh
+$ git clone https://github.com/YOUR_USERNAME/wiki.git
+```
 
-  This will make a local copy on your machine.
+> *this makes a local copy in your machine.*
 
-3. Add the remote: You will need a way to keep your fork synchronized with the original repository. The following command will show you **verbose** list of the current remotes you have.
+### 3. **Set it up** :up:
+Run the following commands to see that _your local copy_ has a reference to _your forked remote repository_ in Github :octocat:  
 
-  ```sh
-  $ git remote -v
-  origin  https://github.com/YOUR_USERNAME/wiki.git (fetch)
-  origin  https://github.com/YOUR_USERNAME/wiki.git (push)
-  ```
+```sh
+$ git remote -v
+origin  https://github.com/YOUR_USERNAME/wiki.git (fetch)
+origin  https://github.com/YOUR_USERNAME/wiki.git (push)
+```
 
-  This means there is no remote pointing to the original repository you forked from. You would add it with:
+Magic :sparkles: :sparkles: :eyes:  
+Now lets add a reference to the original [FreeCodeCamp wiki](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki) repository with...
 
-  ```sh
-  $ git remote add upstream https://github.com/FreeCodeCamp/wiki.git
-  ```
+```sh
+$ git remote add upstream https://github.com/FreeCodeCamp/wiki.git
+```
 
-  This will create a new remote named **upstream**. You can verify the changes with `git remote -v`
+> this adds a new remote named **upstream**.  
 
-  ```sh
-  $ git remote -v
-  origin    https://github.com/YOUR_USERNAME/wiki.git (fetch)
-  origin    https://github.com/YOUR_USERNAME/wiki.git (push)
-  upstream  https://github.com/FreeCodeCamp/wiki.git (fetch)
-  upstream  https://github.com/FreeCodeCamp/wiki.git (push)
-  ```
+You may see the changes with...
 
-4. Sync the fork when needed: After another PR has been merged, you will need to fetch the changes and rebase your work.
+> ```sh
+$ git remote -v
+origin    https://github.com/YOUR_USERNAME/wiki.git (fetch)
+origin    https://github.com/YOUR_USERNAME/wiki.git (push)
+upstream  https://github.com/FreeCodeCamp/wiki.git (fetch)
+upstream  https://github.com/FreeCodeCamp/wiki.git (push)
+```
 
-  ```sh
-  # fetch all remote repos and delete any deleted remote branches
-  $ git fetch --all --prune
+### 4. **Sync it** :recycle:
+Always keep your local copy of repository updated with the original repository.  
+Before making any changes and/or in an appropriate interval, run the following commands _carefully_ to update your local repository.
 
-  # switch to `master` branch
-  $ git checkout master
+```sh
+# fetch all remote repos and delete any deleted remote branches
+$ git fetch --all --prune 
 
-  # reset local `master` branch to match `upstream` repo `master` branch
-  $ git reset --hard upstream/master
+# switch to `master` branch
+$ git checkout master 
 
-  # push changes to your forked wiki repo
-  $ git push origin master
-  ```
+# reset local `master` branch to match `upstream` repo's `master` branch
+$ git reset --hard upstream/master 
 
-5. Once you have completed these steps, you can start contributing by checking our [issues](https://github.com/FreeCodeCamp/wiki/issues) and creating new pull requests.
+# push changes to your forked wiki repo
+$ git push origin master 
+```
 
-## Contribution Guides
+### 5. Ready Steady Go... :turtle: :rabbit2: 
+Once you have completed these steps, you are ready to start contributing by checking our [![Help Wanted Issues](https://img.shields.io/badge/Wiki-Help_Wanted_Issues-159818.svg?style=flat-square&maxAge=2592000)](https://github.com/FreeCodeCamp/wiki/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22 "Help Wanted Issues") and creating *new shiny* :sparkles: [pull requests](https://github.com/FreeCodeCamp/wiki/pulls).
 
-We currently have a couple of guides to help you contribute, via the browser, command line or desktop application. You can find this and many more guides and information on the [Wiki Central Page](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Wiki).
+## Help Contributing Guides
+We also have guides in our Wiki to assist you in your contributions. You can find this and many more guides, tutorials and other information in the [Wiki Central](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Wiki)  Page such as  
+
+> Contributing Using   
+- **Browser** *mostly* :earth_americas: 
+- and **Desktop application** :computer:
+
+<!-- 
+- **Command Line** interface :page_with_curl: 
+-->
+
+_**Happy Contributing**_ :smiley: 
+<br>
+<br>
+
+> ----
+<p align="center">Need Help? Read <a href="https://github.com/FreeCodeCamp/wiki/blob/master/.github/CONTRIBUTING.md"><b>CONTRIBUTING</b></a> Guidelines<br>or Chat with us in <kbd><a href="https://gitter.im/FreeCodeCamp/Wiki"><img src="http://i.imgur.com/ThSWa6Y.png?2"> <b>FreeCodeCamp/Wiki</b></a></kbd></p>
+
+> ----
