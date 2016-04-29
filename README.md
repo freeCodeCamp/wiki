@@ -59,4 +59,4 @@ Our open source community's Wiki focuses on answering your questions about learn
 
 ## Contribution Guides
 
-We currently have a couple of guides to help you contribute, via the browser, command line or desktop application. You can find this and much more guides and information on the [Wiki Central Page](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Wiki).
+We currently have a couple of guides to help you contribute, via the browser, command line or desktop application. You can find this and many more guides and information on the [Wiki Central Page](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Wiki).
