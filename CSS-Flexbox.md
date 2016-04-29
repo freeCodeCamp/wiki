@@ -56,15 +56,19 @@ After adding `display: flex;` we get the below, the default flex properties are 
 Flexbox applies row as the default for the direction. Here is what they all look like: 
 
 `flex-direction: row;`
+
 ![flex-direction: row; example](http://i.imgur.com/Gv2PSmR.png)
 
 `flex-direction: row-reverse;`
+
 ![flex-direction: row-reverse example](http://i.imgur.com/eOutooF.png)
 
 `flex-direction: column;`
+
 ![flex-direction: column example](http://i.imgur.com/7ZtcqWh.png)
 
 `flex-direction: column-reverse;`
+
 ![flex-direction: column-reverse example](http://i.imgur.com/4cuV92k.png)
 
 ### Flex Wrap
