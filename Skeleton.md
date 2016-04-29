@@ -24,11 +24,12 @@ Here is a simple HTML template which includes the latest compiled and minified C
   </body>
 </html>
 ```
+<kbd><a href="http://jsbin.com/sekojaxali/edit?html,output"><img src="http://i.imgur.com/wBLOt8L.png"> <strong>JSBin Demo</strong></a></kbd>
 
 We have used a CDN in this example, but you can checkout other ways of installing Skeleton [here](https://github.com/dhg/Skeleton#getting-started).
 
 ## Learning Resources
 
-- The official documentation for Skeleton is available [here](http://getskeleton.com/#grid).
+- :point_right: [**`Official Documentation`**](http://getskeleton.com/#grid) of Skeleton.
 - Checkout Skeleton's open source GitHub repository [here](https://github.com/dhg/Skeleton).
 - [Here](http://getskeleton.com/#examples) are some examples of how Skeleton was used on different websites.
