@@ -36,10 +36,10 @@ Our open source community's Wiki focuses on answering your questions about learn
 
   ```sh
   $git remote -v
-  origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)
-  origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)
-  upstream  https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (fetch)
-  upstream  https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (push)
+  origin    https://github.com/YOUR_USERNAME/wiki.git (fetch)
+  origin    https://github.com/YOUR_USERNAME/wiki.git (push)
+  upstream  https://github.com/FreeCodeCamp/wiki.git (fetch)
+  upstream  https://github.com/FreeCodeCamp/wiki.git (push)
   ```
 
 4. Sync the fork when needed: After another PR has been merged, you will need to fetch the changes and rebase your work.
@@ -47,8 +47,8 @@ Our open source community's Wiki focuses on answering your questions about learn
   ```sh
   $git fetch upstream
   $git checkout master
-  $git rebase upstream/master
-  $git push
+  $git reset --hard upstream/master
+  $git push origin master
   ```
 
 5. Once you have completed these steps, you can start contributing by checking our [issues](https://github.com/FreeCodeCamp/wiki/issues) and creating new pull requests.
