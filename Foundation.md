@@ -23,6 +23,7 @@ Here is a simple HTML template which includes the latest compiled and minified C
   </body>
 </html>
 ```
+<kbd><a href="http://jsbin.com/gebolikiru/edit?html,output"><img src="http://i.imgur.com/wBLOt8L.png"> <strong>JSBin Demo</strong></a></kbd>
 
 We have used a CDN in this example, but you can checkout other ways of installing Foundation [here](http://foundation.zurb.com/sites/download/).
 
@@ -30,5 +31,5 @@ We have used a CDN in this example, but you can checkout other ways of installin
 
 - The official documentation for Foundation is available [here](http://foundation.zurb.com/sites/docs/).
 - Checkout Foundation's open source GitHub repository [here](https://github.com/zurb/foundation-sites).
-- [Here](http://foundation.zurb.com/learn/tutorials.html) is a list of tutorials on using the Foundation Framework.
+- :point_right: List of [**`Foundation Framework tutorials`**](http://foundation.zurb.com/learn/tutorials.html).
 - Checkout a series by DevTips on the Foundation Grid [here](https://www.youtube.com/playlist?list=PLqGj3iMvMa4LJo_lBMTJwAlQRElulSeL8).
