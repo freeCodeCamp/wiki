@@ -15,7 +15,7 @@ Our open source community's Wiki focuses on answering your questions about learn
   git clone https://github.com/YOUR-USERNAME/wiki.git
   ```
 
-3. Add the remote: You will need a way to keep your fork syncronized with the original. using remotes is the right way.
+3. Add the remote: You will need a way to keep your fork syncronized with the original repository.
 
   ```sh
   git remote -v
@@ -23,7 +23,7 @@ Our open source community's Wiki focuses on answering your questions about learn
   origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)
   ```
 
-  This means there is not remote pointing to the original one so you would add it with :
+  This means there is no remote pointing to the original one so you would add it with:
 
   ```sh
   git remote add upstream https://github.com/FreeCodeCamp/wiki.git
@@ -39,16 +39,16 @@ Our open source community's Wiki focuses on answering your questions about learn
   upstream  https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (push)
   ```
 
-4. Sync the fork when needed: After some other PR have been merged you will need to pull those.
+4. Sync the fork when needed: After some other PR has been merged, you will need to fetch the changes and rebase yoru work.
 
   ```sh
   git fetch upstream
   git checkout master
-  git rebase upsstream/master
+  git rebase upstream/master
   git push
   ```
 
-5. Once that is done, you can start contributing by checking our [issues](https://github.com/FreeCodeCamp/wiki/issues) and creating nee pull requests.
+5. Once that is done, you can start contributing by checking our [issues](https://github.com/FreeCodeCamp/wiki/issues) and creating new pull requests.
 
 ## Contribution Guides
 
