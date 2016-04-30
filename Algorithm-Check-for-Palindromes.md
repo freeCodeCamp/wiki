@@ -34,6 +34,8 @@ function palindrome(str) {
 }
 ```
 
+:rocket: [REPL It!](https://repl.it/CLjU/2)
+
 ## Second Solution
 
 ```js
@@ -47,6 +49,8 @@ function palindrome(str) {
   return true;
 }
 ```
+
+:rocket: [REPL It!](https://repl.it/CLjU/3)
 
 ## Third Solution
 (using recursion)
@@ -70,6 +74,8 @@ function palindrome(str) {
   }
 }
 ```
+
+:rocket: [REPL It!](https://repl.it/CLjU/4)
 
 # Code Explanation:
 

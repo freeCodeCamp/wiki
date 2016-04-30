@@ -50,6 +50,8 @@ function largestOfFour(arr) {
 }
 ```
 
+:rocket: [REPL It!](https://repl.it/CLjU/15)
+
 ### Code Explanation:
 
 - Create a variable to store the _results_ as an array.
@@ -74,6 +76,8 @@ function largestOfFour(arr) {
 }
 ```
 
+:rocket: [REPL It!](https://repl.it/CLjU/16)
+
 ### Code Explanation:
 
 - we map all items within the main array to a new array using `Array.prototype.map()` and return this array as the final result
@@ -95,6 +99,8 @@ function largestOfFour(arr) {
   return arr.map(Function.apply.bind(Math.max, null));
 }
 ```
+
+:rocket: [REPL It!](https://repl.it/CLjU/17)
 
 ### Code Explanation:
 

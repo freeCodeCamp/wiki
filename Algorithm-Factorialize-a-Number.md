@@ -63,6 +63,8 @@ function factorialize(num) {
 factorialize(5);
 ```
 
+:rocket: [REPL It!](https://repl.it/CLjU/1)
+
 # References
 - **Recursion**: [https://www.codecademy.com/courses/javascript-lesson-205/0/1](https://www.codecademy.com/es/courses/javascript-lesson-205/0/1)
 - **Factorialization**: [https://en.wikipedia.org/wiki/Factorial](https://en.wikipedia.org/wiki/Factorial)

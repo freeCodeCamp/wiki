@@ -27,6 +27,8 @@ function destroyer(arr) {
 }
 ```
 
+:rocket: [REPL It!](https://repl.it/CLjU/35)
+
 # Code Explanation:
 - The first line will turn the `arguments` variable into a full array instead of the limited array it currently is.
 - Next I remove the first argument since I don't need, since I only want the other arguments passed besides the first which is the array we are going to compare against.

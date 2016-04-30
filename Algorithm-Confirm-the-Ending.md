@@ -25,6 +25,8 @@ function confirmEnding(str, target) {
 }
 ```
 
+:rocket: [REPL It!](https://repl.it/CLjU/18)
+
 # Code Explanation:
 We use the subtring() with the negative value of the lengths of target. We could use -1 to get the last element but if the target is actually longer than one letter then the program will provide the wrong information. Then we return the value of this boolean expression.
 
