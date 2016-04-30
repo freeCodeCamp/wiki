@@ -2,7 +2,7 @@ It's possible to build dynamic, mobile-responsive websites without writing any c
 
 https://player.vimeo.com/video/115194017
 
-Here are the technologies we used here:
+Here are the technologies we used:
 
 - [atom.io](http://www.atom.io/) a free code editor 
 - [startbootstrap.com](http://www.startbootstrap.com/) a collection of free responsive (Bootstrap) templates 
