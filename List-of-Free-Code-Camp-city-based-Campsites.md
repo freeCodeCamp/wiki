@@ -546,6 +546,7 @@ If your city isn't listed here, you should [create your own Campsite](How-to-cre
     - [Siliguri](https://www.facebook.com/groups/free.code.camp.siliguri/)
 - Indonesia
   - [Bali](https://www.facebook.com/groups/free.code.camp.bali/)
+  - [Balikpapan](https://www.facebook.com/groups/free.code.camp.balikpapan/)
   - [Banda Aceh](https://www.facebook.com/groups/free.code.camp.banda.aceh/)
   - [Bandung](https://www.facebook.com/groups/free.code.camp.bandung/)
   - [Bekasi](https://www.facebook.com/groups/free.code.camp.bekasi/)
@@ -768,7 +769,8 @@ If your city isn't listed here, you should [create your own Campsite](How-to-cre
   - [Muscat](https://www.facebook.com/groups/free.code.camp.muscat/)
   - [Sohar](https://www.facebook.com/groups/free.code.camp.sohar/)
 - Pakistan
-  - [Bannu](https://www.facebook.com/groups/free.code.camp.bannu/) 
+  - [Bannu](https://www.facebook.com/groups/free.code.camp.bannu/)
+  - [Gujranwala](https://www.facebook.com/groups/free.code.camp.grw/)
   - [Gujrat City](https://www.facebook.com/groups/free.code.camp.gujrat/)
   - [Islamabad](https://www.facebook.com/groups/free.code.camp.islamabad/)
   - [Karachi](https://www.facebook.com/groups/free.code.camp.karachi/)
@@ -856,6 +858,7 @@ If your city isn't listed here, you should [create your own Campsite](How-to-cre
   - [Targu Mures](https://www.facebook.com/groups/free.code.camp.targu.mures/)
   - [Tecuci](https://www.facebook.com/groups/745118002278303/)
   - [Timisoara](https://www.facebook.com/groups/free.code.camp.timisoara/)
+  - [Tulcea](https://www.facebook.com/groups/free.code.camp.tulcea/)
 - Russia
   - [Almetyevsk](https://www.facebook.com/groups/free.code.camp.almetyevsk/)
   - [Barnaul](https://www.facebook.com/groups/free.code.camp.barnaul/)
@@ -1447,7 +1450,7 @@ If your city isn't listed here, you should [create your own Campsite](How-to-cre
     - [Logan](https://www.facebook.com/groups/free.code.camp.logan.utah/)
     - [Provo](https://www.facebook.com/groups/free.code.camp.provo/)
     - [Salt Lake City](https://www.facebook.com/groups/free.code.camp.salt.lake.city/)
-    - [St. George](https://www.facebook.com/groups/free.code.camp.st.george/)
+    - [St. George](https://www.facebook.com/groups/free.code.camp.saint.george/)
     - [Tooele](https://www.facebook.com/groups/free.code.camp.Tooele/)
   - Vermont
     - [Burlington](https://www.facebook.com/groups/free.code.camp.burlington.VT/)
