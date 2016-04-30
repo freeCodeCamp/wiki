@@ -1,17 +1,16 @@
 #Java Control Statements :
 
-In any programming language, the control over normal flow of program is necessary to make dynamic decisions at runtime and achieving desired results. `Control statements` manage the flow of execution of the program and decide the branching of logical flow. Java's program control statements can be put into following categories: `selection` , `iteration` and `jump statement` . `Selection statement` allows a program to choose different path of executions depending on an expression. `Iteration` allows a program to repeat one or more statements. `Jump statement` is used to transfer control to another part of the program. As `iteration` and `jump statements` are already covered in `Java-loops`, here we would discuss `Selection statements`.
+In any programming language, the control over normal flow of program is necessary to make dynamic decisions at runtime and achieving desired results. *Control statements* manage the flow of execution of the program and decide the branching of logical flow. Java's program control statements can be put into following categories: `selection` , `iteration` and `jump statement` . *Selection statement* allows a program to choose different path of executions depending on an expression. *Iteration* allows a program to repeat one or more statements. *Jump statement* is used to transfer control to another part of the program. As *iteration* and *jump statements* are already covered in `Java-loops`, here we would discuss *Selection statements*.
 
 ##Java's selection statement :
 
-`Selection statements` allow a program to choose different executions based on the outcome of an `expression` or `state of a variable
-`.
-Java has two selection statements : `if-else` and `switch`.
+*Selection statements* allow a program to choose different executions based on the outcome of an *expression* or state of a variable
+.
+Java has two selection statements : `if...else` and `switch`.
 
-###if-else
+###if..else
 
-`if-else` is a conditional branch statement that helps us to choose between two available choices. The general syntax of `if-else` is
-shown below :
+`if...else` is a conditional branch statement that helps us to choose between two available choices. The general syntax of `if...else` is shown below :
 
 ```
 if(condition)
@@ -48,9 +47,9 @@ Output :  Number is odd
 
 :rocket: [REPL It!](https://repl.it/CLR2/2)
 
-####Nested if-else
+####Nested if...else
 
-Nested `if-else` is very common in programming. Here one if statement is a target of another or subsequent `if-else statements`.
+Nested `if...else` is very common in programming. Here one if statement is a target of another or subsequent `if...else statements`.
 
 **Example :**
 
@@ -82,9 +81,9 @@ Output :  Number is greater than three
 
 :rocket: [REPL It!](https://repl.it/CLR2/3)
 
-####The if-else-if ladder
+####The if..else..if ladder
 
-The above code is highly unreadable. To make it better we can use chained `else-if statements` with the first `if statement`. 
+The above code is highly unreadable. To make it better we can use chained `else..if statements` with the first `if statement`. 
 
 ```java
 public class Main {
@@ -111,7 +110,7 @@ Output :  Three
 
 :rocket: [REPL It!](https://repl.it/CLR2/4)
 
-The `if` statement is executed from `top-down`. As soon as one of the `if condition` is true the statements associated with it are executed, and the rest of the ladder is bypassed. If none of the conditions are true then the final `else statement` is executed as a `default condition`.
+The `if` statement is executed from `top-down`. As soon as one of the `if condition` is true the statements associated with it are executed, and the rest of the ladder is bypassed. If none of the conditions are true then the final `else statement` is executed as a *default condition*.
 
 ###switch
 
@@ -158,7 +157,7 @@ Your grade is B
 
 :rocket: [REPL It!](https://repl.it/CLR2/6)
 
-Now Compile and run above program using various [command line arguments](https://docs.oracle.com/javase/tutorial/essential/environment/cmdLineArgs.html). Click on the links for using `command line arguments` in [Eclipse](http://www.cs.colostate.edu/helpdocs/eclipseCommLineArgs.html) and [Netbeans](http://netbeanside61.blogspot.in/2009/02/using-command-line-arguments-in.html).
+Now Compile and run above program using various [command line arguments](https://docs.oracle.com/javase/tutorial/essential/environment/cmdLineArgs.html). Click on the links for using *command line arguments* in [Eclipse](http://www.cs.colostate.edu/helpdocs/eclipseCommLineArgs.html) and [Netbeans](http://netbeanside61.blogspot.in/2009/02/using-command-line-arguments-in.html).
 
 
 ```
@@ -218,6 +217,6 @@ Your grade is A
 
 The `switch` differs from the `if` in that `switch` can only test for equality, whereas `if` can evaluate any type of Boolean expression. Also, note that two case constants can't have identical values in same `switch`.
 
-Another difference is that the `switch statement` is considered to be less flexible than the `else if` ladder, because it allows only testing of a single expression against a list of discrete values. Whereas,  `If statements` can compare between two variables.
+Another difference is that the `switch statement` is considered to be less flexible than the `else...if` ladder, because it allows only testing of a single expression against a list of discrete values. Whereas,  `If statements` can compare between two variables.
 
-A `switch statement` is usually more efficient than a set of `nested ifs` in terms of execution time. In case of `if-else` the `Java-compiler` would have a check, a jump to the next clause, a check, a jump to the next clause and so on. With switch case the `Java-Compiler` loads the value to compare and iterates through the value table to find a match, which is faster in most cases.
+A `switch statement` is usually more efficient than a set of `nested ifs` in terms of execution time. In case of `if...else` the `Java-compiler` would have a check, a jump to the next clause, a check, a jump to the next clause and so on. With switch case the `Java-Compiler` loads the value to compare and iterates through the value table to find a match, which is faster in most cases.
