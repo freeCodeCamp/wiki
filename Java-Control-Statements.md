@@ -1,11 +1,6 @@
 #Java Control Statements :
 
-**In** any programming languege, the flow of program is neccessary for executing the program and achieving desired results.
-`Control statements` manage the flow of execution of the program and decide the branching of logical flow. Java's program 
-control statements can be put into following categories: `selection` , `iteration` and `jump statement` . `Selection statement`
-allows a program to choose different path of executions depending on an expression. `Iteration` allows a program to repeat 
-one or more statements. `Jump statement` is used to transfer control to another part of the program. As `iteration` and `jump
-statements` are already covered in `Java-loops`, here we would discuss `Selection statements`.
+In any programming language, the control over normal flow of program is necessary to make dynamic decisions at runtime and achieving desired results. `Control statements` manage the flow of execution of the program and decide the branching of logical flow. Java's program control statements can be put into following categories: `selection` , `iteration` and `jump statement` . `Selection statement` allows a program to choose different path of executions depending on an expression. `Iteration` allows a program to repeat one or more statements. `Jump statement` is used to transfer control to another part of the program. As `iteration` and `jump statements` are already covered in `Java-loops`, here we would discuss `Selection statements`.
 
 ##Java's selection statement :
 
@@ -25,18 +20,16 @@ else
 statement2;
 ```
 
-In the above code snippet, the `condition` is first resolved. If it turns out to be true, then the statements that are inside the if 
-condition are executed(`statement1 in this case`). If the `condition` turns out to be false, then the statements inside else are 
-executed(`statement2, in this case`). 
+In the above code snippet, the `condition` is first evaluated. If it turns out to be `true` , then the statements that are inside the `if` condition are executed(`statement1` in this case). If the `condition` turns out to be `false`, then the statements inside `else` are executed(`statement2`, in this case). 
 
 **Example :**
 
-Here is an example usage which states whether a number is an `even number or an odd number`. Even numbers are divisible by two
-and hence leave a remainder of zero. The remainder on dividing the number by two can be obtained using the `modulo (%) mathematical
-operator`. 
+Here is an example usage which states whether a number is an even number or an odd number. Even numbers are divisible by two
+and hence leave a remainder of zero. The remainder on dividing the number by two can be obtained using the `modulo (%)` mathematical
+operator. 
 
-```
-public class Test {
+```java
+public class Main {
    public static void main(String args[])
       {
    int num=5;
@@ -51,16 +44,18 @@ else{
 }
 ```
 
-**Output : Number is odd**
+Output :  Number is odd
+
+:rocket: [REPL It!](https://repl.it/CLR2/2)
 
 ####Nested if-else
 
-`Nested if-else` is very common in programming. Here one if statement is a target of another or subsequent `if-else statements`.
+Nested `if-else` is very common in programming. Here one if statement is a target of another or subsequent `if-else statements`.
 
 **Example :**
 
-```
-public class Test {
+```java
+public class Main {
    public static void main(String args[])
       {
    
@@ -77,21 +72,25 @@ if (num == 1) {
         } else {
             System.out.println("Number is greater than three");
         }
-    }
+      }
+    }  
+  }
 }
 ```
 
-**Output : Number is greater than three**
+Output :  Number is greater than three
+
+:rocket: [REPL It!](https://repl.it/CLR2/3)
 
 ####The if-else-if ladder
 
 The above code is highly unreadable. To make it better we can use chained `else-if statements` with the first `if statement`. 
 
-```
-public class Test {
+```java
+public class Main {
    public static void main(String args[])
        {
-   int num=3
+   int num=3;
 
 if (num == 1) {
     System.out.println("One");
@@ -102,23 +101,26 @@ if (num == 1) {
 } else {
     System.out.println("Numbers greater than three cannot be processed by this code");
 }
+}
+}
 ```
 
-**Output : Three**
+:rocket: [REPL It!](https://repl.it/CLR2/4)
 
-Here the if statement is executed from `top-down`. As soon as one of the `if condition` is true the statements associated with it are
-executed, and the rest of the ladder is bypassed. If none of the conditions are true then the final `else statement` is executed as a
-`default condition`.
+Output :  Three
+
+:rocket: [REPL It!](https://repl.it/CLR2/4)
+
+The `if` statement is executed from `top-down`. As soon as one of the `if condition` is true the statements associated with it are executed, and the rest of the ladder is bypassed. If none of the conditions are true then the final `else statement` is executed as a `default condition`.
 
 ###switch
 
-The `switch` staement is Java's multiway branching statement. It provides an easy way to dispatch execution to a desired path based on
-the value of an expression. It is actually  a better alternative than using large `if-else statements`.
+The `switch` staement is `Java`'s multiway branching statement. It provides an easy way to dispatch execution to a desired path based on the value of an expression. 
 
 **Example :**
 
-```
-public class Test {
+```java
+public class Main {
 
    public static void main(String args[])
       {
@@ -146,35 +148,38 @@ public class Test {
 }
 ```
 
-**Output :**
+Output :
 
 ```
-$ java Test 
-Well done 
-Your grade Good
+$ java Main 
+Good
+Your grade is B
 ```
+
+:rocket: [REPL It!](https://repl.it/CLR2/6)
 
 Now Compile and run above program using various [command line arguments](https://docs.oracle.com/javase/tutorial/essential/environment/cmdLineArgs.html). Click on the links for using `command line arguments` in [Eclipse](http://www.cs.colostate.edu/helpdocs/eclipseCommLineArgs.html) and [Netbeans](http://netbeanside61.blogspot.in/2009/02/using-command-line-arguments-in.html).
 
+
 ```
-$ java Test "A"
+$ java Main "A"
 Well done
-Your grade Excellent!
+Your grade is A!
 ```
 
 In `switch statement` the value of the expression is compared with each of the cases. If a match is found , the code sequence
 following the case is executed. If none of the expressions match then the `default statement` is executed. The `default statement` is
 optional and if no default is provided, then no further action is taken. The `break statement` is used to terminate a statement
 sequenc. The `break statement` is optional. However, if you omit the `break` execution will continue to the next statement.
+Note that an expression used in `switch statement` must return an `int`, a `String`, or an `enumerated` value. `switch(i)` throws a `NullPointerException` if i is `null` and the entire switch statement completes abruptly for that reason.
 
 **Example :**
 
-```
-public class Test {
+```java
+public class Main {
    public static void main(String args[])
        {
-    char grade = args[0].charAt(0);
-    char grade = 'C';
+    char grade = 'A';
 
       switch(grade)
       {
@@ -195,22 +200,24 @@ public class Test {
 }
 ```
 
-**Output :**
+:rocket: [REPL It!](https://repl.it/CLR2/7)
+
+Output :
 
 ```
-$ java Test "A"
-Well done
-Your grade Excellent!
-Your grade Good
-Your grade Passed
-Your grade Failed
+$ java Main
+Excellent!
+Good
+Passed
+Failed
+Your grade is A
 ```
 
 
 ###Summary:
 
-The `switch` differs from the `if` in that `switch` can only test for equality, whereas if can evaluate any type of Boolean expressio
-n. Also, note that two case constants can't have identical values in same `switch`.
-A `switch statement` is usually more efficient than a set of `nested ifs`. In case of `if-else` the Java-compiler would have a check,
-a jump to the next clause, a check, a jump to the next clause and so on. With switch case the `Java-Compiler` loads the value to 
-compare and iterates through the value table to find a match, which is faster in most cases.
+The `switch` differs from the `if` in that `switch` can only test for equality, whereas `if` can evaluate any type of Boolean expression. Also, note that two case constants can't have identical values in same `switch`.
+
+Another difference is that the `switch statement` is considered to be less flexible than the `else if` ladder, because it allows only testing of a single expression against a list of discrete values. Whereas,  `If statements` can compare between two variables.
+
+A `switch statement` is usually more efficient than a set of `nested ifs` in terms of execution time. In case of `if-else` the `Java-compiler` would have a check, a jump to the next clause, a check, a jump to the next clause and so on. With switch case the `Java-Compiler` loads the value to compare and iterates through the value table to find a match, which is faster in most cases.
