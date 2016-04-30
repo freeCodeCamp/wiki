@@ -33,6 +33,8 @@ function findLongestWord(str) {
 }
 ```
 
+:rocket: [REPL It!](https://repl.it/CLjU/5)
+
 ####Second solution 
 (Using `.reduce()`)
 ```js
@@ -43,6 +45,8 @@ function findLongestWord(s) {
                   }, 0);
 }
 ```
+
+:rocket: [REPL It!](https://repl.it/CLjU/6)
 
 #### Third solution
 (Using recursiveness)
@@ -74,6 +78,8 @@ function findLongestWord(str) {
   }
 }
 ```
+
+:rocket: [REPL It!](https://repl.it/CLjU/7)
 
 # Code Explanation:
 ####First solution

@@ -31,6 +31,8 @@ function reverseString(str) {
 }
 ```
 
+:rocket: [REPL It!](https://repl.it/CLjU)
+
 ### Code Explanation:
 - Our goal is to take the input, `str`, and return it in reverse. Our first step is to split the string by characters using `split('')`. Notice that we don't leave anything in between the single quotes, this tells the function to split the string by each character.
 
