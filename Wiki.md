@@ -1,6 +1,6 @@
 # Wiki Central
 
-Here you will find all wiki related information with regards to guidelines, for contributing, moderating, and tips on the wiki usage.
+Here you will find all wiki related information with regards to guidelines for contributing, moderating, and tips on using the wiki.
 
 ## Table of Content
 
