@@ -1,6 +1,6 @@
-# All You Need to Know
+# Wiki Central
 
-The title will have to change to something better. This will be the central area for all wiki related articles, help, tips, etc.
+Here you will find all wiki related information with regards to guidelines, for contributing, moderating, and tips on the wiki usage.
 
 ## Table of Content
 
