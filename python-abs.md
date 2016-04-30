@@ -1,6 +1,6 @@
 # Python abs(x)
 
-`abs()` is a built in function in Python 3, to compute the absolute value of any number. It takes one argument `x`. The argument can even be a [complex number](https://docs.python.org/3.0/library/cmath.html), and in that case its [modulus](http://www.mathcentre.ac.uk/resources/sigma%20complex%20number%20leaflets/sigma-complex9-2009-1.pdf) is returned.
+`abs()` is a built-in function in Python 3, to compute the absolute value of any number. It takes one argument `x`. The argument can even be a [complex number](https://docs.python.org/3.0/library/cmath.html), and in that case its [modulus](http://www.mathcentre.ac.uk/resources/sigma%20complex%20number%20leaflets/sigma-complex9-2009-1.pdf) is returned.
 
 ## Argument
 It takes one argument `x` - an integer, or decimal, or a complex number.
