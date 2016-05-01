@@ -31,6 +31,8 @@ function repeatStringNumTimes(str, num) {
 }
 ```
 
+:rocket: [REPL It!](https://repl.it/CLjU/19)
+
 ####Second Solution
 
 ```js
@@ -45,6 +47,8 @@ function repeatStringNumTimes(str, num) {
 repeatStringNumTimes("abc", 3);
 ```
 
+:rocket: [REPL It!](https://repl.it/CLjU/20)
+
 ####Third Solution 
 (using Recursion)
 ```js
@@ -58,6 +62,8 @@ function repeatStringNumTimes(str, num) {
 }
 ```
 
+:rocket: [REPL It!](https://repl.it/CLjU/21)
+
 ####Fourth Solution
 (Declarative approach)
 
@@ -68,6 +74,8 @@ function repeatStringNumTimes(str, num) {
 
 repeatStringNumTimes("abc", 3);
 ```
+
+:rocket: [REPL It!](https://repl.it/CLjU/22)
 
 # Code Explanation:
 

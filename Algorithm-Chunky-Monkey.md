@@ -100,6 +100,8 @@ function chunkArrayInGroups(arr, size) {
 }
 ```
 
+:rocket: [REPL It!](https://repl.it/CLjU/24)
+
 #### Solution 2:
 
 ```js
@@ -115,6 +117,8 @@ function chunkArrayInGroups(arr, size) {
   return arr2;
 }
 ```
+
+:rocket: [REPL It!](https://repl.it/CLjU/25)
 
 #### Solution 3:
 
@@ -133,6 +137,8 @@ function chunkArrayInGroups(arr, size) {
 chunkArrayInGroups(["a", "b", "c", "d"], 2);
 ```
 
+:rocket: [REPL It!](https://repl.it/CLjU/26)
+
 #### Solution 4:
 
 ```js
@@ -146,6 +152,8 @@ function chunkArrayInGroups(arr, size) {
   return res;
 }
 ```
+
+:rocket: [REPL It!](https://repl.it/CLjU/27)
 
 # Credits:
 If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @kirah1314 @Rafase282 @jsommamtek @oshliaer for your help with Algorithm: Chunky Monkey`**

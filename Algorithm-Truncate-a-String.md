@@ -29,6 +29,8 @@ function truncateString(str, num) {
 }
 ```
 
+:rocket: [REPL It!](https://repl.it/CLjU/23)
+
 # Code Explanation:
 First we need an if-statement to test if the length of the full string passed in as the first argument already fits within the size limit passed in as the second argument. If so we can just return the string that was passed in.
 

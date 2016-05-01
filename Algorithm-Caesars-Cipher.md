@@ -52,6 +52,8 @@ function rot13(str) {
 }
 ```
 
+:rocket: [REPL It!](https://repl.it/CLjU/38)
+
 ### Code Explanation:
 - A string variable `nstr` is declared and initialized to store the
 decoded string.
@@ -98,6 +100,7 @@ function rot13(str) {
 rot13("LBH QVQ VG!");
 ```
 
+:rocket: [REPL It!](https://repl.it/CLjU/39)
 
 ## :rotating_light: Advanced Code Solution:
 
