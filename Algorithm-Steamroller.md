@@ -18,7 +18,7 @@ You will definitely need recursion or another way to go beyond two level arrays 
 ## Code Solution 1:
 
 ```js
-function steamroller(arr) {
+function steamrollArray(arr) {
   var flattenedArray = [];
 
   // Create function that adds an element if it is not an array.
@@ -37,7 +37,11 @@ function steamroller(arr) {
   arr.forEach(flatten);
   return flattenedArray;
 }
+
+// test here
+steamrollArray([1, [2], [3, [[4]]]]);
 ```
+:rocket: [REPL It!](https://repl.it/CLnh/0)
 
 # Code Explanation:
 - Create a new variable to keep flattened arrays.
@@ -49,12 +53,17 @@ function steamroller(arr) {
 ## Code Solution 2:
 
 ```js
-function steamroller(arr) {
+function steamrollArray(arr) {
   return arr.reduce(function (flat, toFlatten) {
-    return flat.concat(Array.isArray(toFlatten) ? steamroller(toFlatten) : toFlatten);
+    return flat.concat(Array.isArray(toFlatten) ? steamrollArray(toFlatten) : toFlatten);
   }, []);
 }
+
+// test here
+steamrollArray([1, [2], [3, [[4]]]]);
 ```
+:rocket: [REPL It!](https://repl.it/CLni/0)
+
 # Code Explanation:
 - Use reduce to concatenate each element into the last element
 - If the new element is an Array itself call the function recursively to flatten it before merging it with the rest of result
