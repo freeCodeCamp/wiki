@@ -48,7 +48,11 @@ function sumPrimes(num) {
 
   return res;
 }
+
+// test here
+sumPrimes(10);
 ```
+:rocket: [REPL It!](https://repl.it/CLnZ/0)
 
 # Code Explanation:
 - Create a function that generates the numbers from 1 to **num** and check if they are prime along the way.
@@ -59,7 +63,7 @@ function sumPrimes(num) {
 - Loop through the returned array and add all the elements to then return the final value.
 
 ## Recursive Solution:
-```JS
+```js
 function sumPrimes(num) {
   // function to check if the number presented is prime
   function isPrime(number){
@@ -88,7 +92,10 @@ function sumPrimes(num) {
     return num + sumPrimes(num - 1);
   }
 }
+// test here
+sumPrimes(10);
 ```
+:rocket: [REPL It!](https://repl.it/CLn0/0)
 
 # Credits:
 If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @shadowfool for your help with Algorithm: Sum All Primes`**
