@@ -56,6 +56,7 @@ var Person = function(firstAndLast) {
 var bob = new Person('Bob Ross');
 bob.getFullName();
 ```
+:rocket: [REPL It!](https://repl.it/CLov/0)
 
 # Code Explanation:
 - Create a variable that will make a copy of the full name that was passed as a parameter.
