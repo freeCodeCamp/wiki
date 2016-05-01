@@ -78,7 +78,11 @@ function sym() {
     });
   return unique;
 }
+
+// test here
+sym([1, 2, 3], [5, 2, 1, 4]);
 ```
+:rocket: [REPL It!](https://repl.it/CLoc/0)
 
 # Code Explanation 1:
 - 1. The reason you want to break down the arguments object to a array is if you want to use functional methods like reduce and
@@ -105,7 +109,12 @@ function sym() {
   // convert the set to array by using spread operator again
   return [...result];
 }
+
+// test here
+sym([1, 2, 3], [5, 2, 1, 4]);
 ```
+:rocket: [REPL It!](https://repl.it/CLod/0)
+
 # Code Explaination 2:
 - Read comments in code
 
