@@ -66,9 +66,13 @@ function addTogether() {
     }
   }
 }
-```
 
-# Code Explanation:
+// test here
+addTogether(2,3);
+```
+:rocket: [REPL It!](https://repl.it/CLnz/0)
+
+### Code Explanation:
 - First, I create a function with the sole purpose of checking if a number is actually a number and returns undefined if it is not. It uses **typeof** to check.
 - Check if we have two parameters, if so, then check if they are numbers or not using the **checkNum** function I created.
 - If they are not **undefined** then add them and return the addition. If they any of them is undefined then return undefined.
@@ -114,7 +118,11 @@ function addTogether() {
       }
     }
 }
+
+// test here
+addTogether(2,3);
 ```
+:rocket: [REPL It!](https://repl.it/CLoA/0)
 
 ## Third Solution:
 ```js
@@ -129,7 +137,13 @@ function addTogether() {
         n + args[0]:
         undefined;
 }
+
+// test here
+addTogether(2,3);
 ```
+:rocket: [REPL It!](https://repl.it/CLoB/0)
+
+### Code Explanation:
 - First I iterate through the arguments and check for arguments that are not a number and return undefined
 - If it's not I then check if the arguments length is above 1, if it is I sum the arguments using Array.prototype.reduce
 - Else I return a function that checks if the passed in argument is a number and sum it, if not return undefined
