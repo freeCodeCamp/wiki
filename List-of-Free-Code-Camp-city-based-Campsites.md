@@ -19,6 +19,7 @@ If your city isn't listed here, you should [create your own Campsite](How-to-cre
   - [Bahía Blanca](https://www.facebook.com/groups/freecodecampbahiablanca/) 
   - [Bariloche](https://www.facebook.com/groups/free.code.camp.bariloche/)
   - [Buenos Aires](https://www.facebook.com/groups/free.code.camp.buenos.aires/)
+  - [Concordia](https://www.facebook.com/groups/free.code.camp.concordia/)
   - [Cordoba](https://www.facebook.com/groups/fcccordoba/)
   - [La Plata](https://www.facebook.com/groups/free.code.camp.la.plata/)
   - [Mendoza](https://www.facebook.com/groups/free.code.camp.mendoza/)
@@ -67,7 +68,7 @@ If your city isn't listed here, you should [create your own Campsite](How-to-cre
 - Benin
   - [Cotonou](https://www.facebook.com/groups/free.code.camp.cotonou/)
 - Bermuda
-  - [Saint George](https://www.facebook.com/groups/free.code.camp.saint.george/)
+  - [Hamilton](https://www.facebook.com/groups/free.code.camp.hamilton.bermuda/)
 - Bolivia
   - [Cochabamba](https://www.facebook.com/groups/free.code.camp.Cochabamba/)
   - [Sucre](https://www.facebook.com/groups/free.code.camp.Sucre/)
@@ -807,6 +808,7 @@ If your city isn't listed here, you should [create your own Campsite](How-to-cre
   - [Davao](https://www.facebook.com/groups/free.code.camp.davao/)
   - [Makati](https://www.facebook.com/groups/free.code.camp.makati/)
   - [Manila](https://www.facebook.com/groups/free.code.camp.manila/)
+  - [Mati](https://www.facebook.com/groups/free.code.camp.mati/)
   - [Quezon City](https://www.facebook.com/groups/free.code.camp.quezon.city/)   
   - [San Juan](https://www.facebook.com/groups/free.code.camp.san.juan.philippines/)
   - [Surigao](https://www.facebook.com/groups/free.code.camp.surigao/)
@@ -1091,6 +1093,7 @@ If your city isn't listed here, you should [create your own Campsite](How-to-cre
     - [Folsom](https://www.facebook.com/groups/free.code.camp.folsom)
     - [Fremont](https://www.facebook.com/groups/free.code.camp.fremont/)
     - [Fresno](https://www.facebook.com/groups/free.code.camp.fresno.ca/)
+    - [Garden Grove](https://www.facebook.com/groups/free.code.camp.gardengrove/)
     - [Gilroy](https://www.facebook.com/groups/free.code.come.gilroy/)
     - [Glendora](https://www.facebook.com/groups/free.code.camp.Glendora.California/)
     - [Joshua Tree](https://www.facebook.com/groups/free.code.camp.Joshua.Tree.Ca/)
@@ -1155,6 +1158,7 @@ If your city isn't listed here, you should [create your own Campsite](How-to-cre
   - District of Columbia
     - [Washington, D.C.](https://www.facebook.com/groups/free.code.camp.washington.dc/)
   - Florida
+    - [Boca Raton](https://www.facebook.com/groups/free.code.camp.boca.raton/)
     - [Bonita Springs](https://www.facebook.com/groups/free.code.camp.Bonita.Springs/)    
     - [Brooksville](https://www.facebook.com/groups/free.code.camp.brooksville.florida/)
     - [Fort Lauderdale](https://www.facebook.com/groups/free.code.camp.ftlauderdale/)
