@@ -33,7 +33,11 @@ function sumFibs(num) {
 
     return result;
 }
+
+// test here
+sumFibs(4);
 ```
+:rocket: [REPL It!](https://repl.it/CLnV/0)
 
 # Code Explanation:
 - Create a variable to keep record of the current and previous numbers along with the result that will be returned.
@@ -61,7 +65,11 @@ function sumFibs(num) {
   
   return res;
 }
+
+// test here
+sumFibs(4);
 ```
+:rocket: [REPL It!](https://repl.it/CLnW/0)
 
 # Code Explanation:
 - See comments
