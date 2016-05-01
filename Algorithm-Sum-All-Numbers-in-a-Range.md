@@ -30,7 +30,7 @@ function sumAll(arr) {
 
 sumAll([1, 4]);
 ```
-
+:rocket: [REPL It!](https://repl.it/CLm6/0)
 ## Code Explanation:
 - First create a variable to store the max number between two.
 - The same as before for the Smallest number.
@@ -54,6 +54,7 @@ function sumAll(arr) {
   return sum;
 }
 ```
+:rocket: [REPL It!](https://repl.it/CLm7/0)
 
 ## Code Solution 3:
 
@@ -68,6 +69,8 @@ function sumAll(arr) {
 
 sumAll([1, 4]);
 ```
+
+:rocket: [REPL It!](https://repl.it/CLm8/0)
 
 ## Code Explanation:
 - Creating a variable sum to store the sum of the elements.
