@@ -39,8 +39,13 @@ var convertToRoman = function(num) {
   }
 
   return romanized;
-};
+}
+
+// test here
+convertToRoman(36);
 ```
+
+:rocket: [REPL It!](https://repl.it/CLmf/0)
 
 # Code Explanation:
 - Read comments on code.
