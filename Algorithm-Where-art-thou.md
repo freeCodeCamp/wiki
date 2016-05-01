@@ -43,7 +43,11 @@ function whereAreYou(collection, source) {
     return true;
   });
 }
+
+// test here
+whereAreYou([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], { last: "Capulet" });
 ```
+:rocket: [REPL It!](https://repl.it/CLmh/0)
 
 ### Second
 
@@ -63,7 +67,12 @@ function whereAreYou(collection, source) {
     });
   });
 }
+
+// test here
+whereAreYou([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], { last: "Capulet" });
+
 ```
+:rocket: [REPL It!](https://repl.it/CLmi/0)
 
 ### Third
 
@@ -83,7 +92,13 @@ function whereAreYou(collection, source) {
     }, false);
   });
 }
+
+// test here
+whereAreYou([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], { last: "Capulet" });
+
 ```
+:rocket: [REPL It!](https://repl.it/CLmj/0)
+
 ### Fourth
 
 ```js
@@ -109,7 +124,13 @@ function whereAreYou(collection, source) {
     });
     return arr;
 }
+// test here
+whereAreYou([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], { last: "Capulet" });
+
 ```
+
+:rocket: [REPL It!](https://repl.it/CLml/0)
+
 ## Code Explanation:
 > Please read the comments in the source code.
 
