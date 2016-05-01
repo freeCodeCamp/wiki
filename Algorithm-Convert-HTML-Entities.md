@@ -50,7 +50,11 @@ function convertHTML(str) {
   temp = temp.join('');
   return temp;
 }
+
+// test here
+convertHTML("Dolce & Gabbana");
 ```
+:rocket: [REPL It!](https://repl.it/CLnP/0)
 
 ## Medium Solution
 
@@ -60,7 +64,11 @@ function convertHTML(str) {
   str = str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&apos;');
 return str;
 }
+
+// test here
+convertHTML("Dolce & Gabbana");
 ```
+:rocket: [REPL It!](https://repl.it/CLnQ/0)
 
 ## Advanced Solution
 
@@ -79,7 +87,11 @@ function convertHTML(str) {
     return htmlEntities[entity] || entity;
   }).join('');
 }
+
+// test here
+convertHTML("Dolce & Gabbana");
 ```
+:rocket: [REPL It!](https://repl.it/CLnR/0)
 
 # Code Explanation (Advanced Solution):
 - Create a object to use the Lookup functionality to easily find the characters.
