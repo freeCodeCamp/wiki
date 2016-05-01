@@ -33,7 +33,11 @@ function truthCheck(collection, pre) {
   // Outside the loop, check to see if we got true for all of them and return true or false
   return counter == collection.length;
 }
+
+// test here
+truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "male"}, {"user": "Laa-Laa", "sex": "female"}, {"user": "Po", "sex": "female"}], "sex");
 ```
+:rocket: [REPL It!](https://repl.it/CLnw/0)
 
 ### Code Explanation:
 - First I create a counter to check how many cases are actually true.
@@ -47,7 +51,11 @@ function truthCheck(collection, pre) {
     return element.hasOwnProperty(pre) && Boolean(element[pre]);
   });
 }
+
+// test here
+truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "male"}, {"user": "Laa-Laa", "sex": "female"}, {"user": "Po", "sex": "female"}], "sex");
 ```
+:rocket: [REPL It!](https://repl.it/CLny/0)
 
 ### Code Explanation:
 - Uses the native "every" method to test whether all elements in the array pass the test.
@@ -56,15 +64,21 @@ function truthCheck(collection, pre) {
 ## Code solution using Array.reduce:
 ```js
 function truthCheck(collection, pre) {
-    return collection.reduce(function(acc, next) {
-        if (next[pre]) {
-            return acc;
-        } else {
-            acc = false;
-            return acc;
-        }
-    },true);
+  return collection.reduce(function(acc, next) {
+    if (next[pre]) {
+      return acc;
+    } 
+    else {
+      acc = false;
+      return acc;
+    }
+  },true);
+}
+
+// test here
+truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "male"}, {"user": "Laa-Laa", "sex": "female"}, {"user": "Po", "sex": "female"}], "sex");
 ```
+:rocket: [REPL It!](https://repl.it/CLnv/0)
 
 ### Code Explanation:
 - Set initial reduce value to true.
