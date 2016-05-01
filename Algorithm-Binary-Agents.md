@@ -33,7 +33,12 @@ function binaryAgent(str) {
 //we then simply join the string
   return uniString.join('');
 }
+
+// test here
+binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 01100010 01101111 01101110 01100110 01101001 01110010 01100101 01110011 00100000 01100110 01110101 01101110 00100001 00111111");
 ```
+:rocket: [REPL It!](https://repl.it/CLnm/0)
+
 # Code Explanation:
 - Separate the string into an array of strings separated by whitespace.
 - Create some variables that will be needed along the way, the names are self explanatory for the most part.
@@ -74,7 +79,12 @@ function binaryAgent(str) {
 
   return sentence;
 }
+
+// test here
+binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 01100010 01101111 01101110 01100110 01101001 01110010 01100101 01110011 00100000 01100110 01110101 01101110 00100001 00111111");
 ```
+:rocket: [REPL It!](https://repl.it/CLno/0)
+
 # Code Explanation
 - For each of these binary strings, check for the ones and ignore the zeroes.
 - For those that are one or active then convert them to decimal, this takes into account the position and the right power it needs to be raised to.
@@ -88,7 +98,11 @@ function binaryAgent(str) {
 function binaryAgent(str) {
   return String.fromCharCode(...str.split(" ").map(function(char){ return parseInt(char, 2); }));
 }
+
+// test here
+binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 01100010 01101111 01101110 01100110 01101001 01110010 01100101 01110011 00100000 01100110 01110101 01101110 00100001 00111111");
 ```
+:rocket: [REPL It!](https://repl.it/CLnp/0)
 
 # Code Explanation
 - First we use `split()` to be able to work on each character as an Array element
@@ -106,7 +120,11 @@ function binaryAgent(str) {
   }
   return str.replace(re, convertToChar);
 }
+
+// test here
+binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 01100010 01101111 01101110 01100110 01101001 01110010 01100101 01110011 00100000 01100110 01110101 01101110 00100001 00111111");
 ```
+:rocket: [REPL It!](https://repl.it/CLnr/0)
 
 # Code Explanation
 - In this solution we use `String.replace()` to find all the binary numbers and convert them to characters

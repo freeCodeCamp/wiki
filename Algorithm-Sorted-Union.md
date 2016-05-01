@@ -41,7 +41,11 @@ function uniteUnique(arr1, arr2, arr3) {
 
   return finalArray;
 }
+
+// test here
+uniteUnique([1, 3, 2], [5, 2, 1, 4], [2, 1]);
 ```
+:rocket: [REPL It!](https://repl.it/CLnM/0)
 
 # Code Explanation:
 - Check comments in code.
@@ -60,7 +64,11 @@ function uniteUnique() {
   }); 
   return uniqueArray;
 }
+
+// test here
+uniteUnique([1, 3, 2], [5, 2, 1, 4], [2, 1]);
 ```
+:rocket: [REPL It!](https://repl.it/CLnN/0)
 
 # Code Explanation:
 - Number of arguments can change dynamically so we don't need to bother providing our func with args at all
@@ -85,7 +93,12 @@ function uniteUnique(arr1, arr2, arr3) {
 
    return newArr;                    
 }
+
+// test here
+uniteUnique([1, 3, 2], [5, 2, 1, 4], [2, 1]);
 ```
+:rocket: [REPL It!](https://repl.it/CLnO/0)
+
 # Credits:
 If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @sabahang @coded9 for your help with Algorithm: Sorted Union`**
 

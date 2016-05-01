@@ -40,7 +40,11 @@ function translatePigLatin(str) {
 
   return pigLatin;
 }
+
+// test here
+translatePigLatin("consonant");
 ```
+:rocket: [REPL It!](https://repl.it/CLmt/0)
 
 #### Second solution
 ```js
@@ -62,11 +66,15 @@ function translatePigLatin(str) {
   }
   return newStr;
 }
+
+// test here
+translatePigLatin("consonant");
 ```
+
+:rocket: [REPL It!](https://repl.it/CLmu/0)
 
 #### Third solution
 ```js
-
 function translatePigLatin(str) {
     var strArr = [];
     var tmpChar;
@@ -92,8 +100,11 @@ function translatePigLatin(str) {
  return strArr.join("")+"ay";
 }
 
+// test here
 translatePigLatin("consonant");
 ```
+:rocket: [REPL It!](https://repl.it/CLmv/0)
+
 #### Fourth Solution (recursive and declarative)
 ```js
 function translatePigLatin(str) {
@@ -106,7 +117,11 @@ function translatePigLatin(str) {
                         'w' : str.substr(0, check(0))) 
                         + 'ay');
 }
+
+// test here
+translatePigLatin("consonant");
 ```
+:rocket: [REPL It!](https://repl.it/CLmw/0)
 
 # Code Explanation:
 ####First-Third solution:

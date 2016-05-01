@@ -54,7 +54,11 @@ function fearNotLetter(str) {
   else
     return valueToReturn;
 }
+
+// test here
+fearNotLetter("abce");
 ```
+:rocket: [REPL It!](https://repl.it/CLnC/0)
 
 ### Second solution:
 
@@ -75,7 +79,11 @@ function fearNotLetter(str) {
   }
   return undefined;
 }
+
+// test here
+fearNotLetter("abce");
 ```
+:rocket: [REPL It!](https://repl.it/CLnD/0)
 
 ### Third solution (Declarative)
 
@@ -93,7 +101,11 @@ function fearNotLetter(str) {
 
   return missing;
 }
+
+// test here
+fearNotLetter("abce");
 ```
+:rocket: [REPL It!](https://repl.it/CLnE/0)
 
 ### Fourth solution:
 
@@ -113,7 +125,11 @@ function fearNotLetter(str) {
   }
   return missingChars.join('') === '' ? undefined : missingChars.join('') ;
 }
+
+// test here
+fearNotLetter("abce");
 ```
+:rocket: [REPL It!](https://repl.it/CLnF/0)
 
 ### Fifth solution:
 
@@ -125,7 +141,11 @@ function fearNotLetter(str) {
     allChars += String.fromCharCode(str[0].charCodeAt(0)+i);
   return allChars.match(notChars) ? allChars.match(notChars).join('') : undefined;
 }
+
+// test here
+fearNotLetter("abce");
 ```
+:rocket: [REPL It!](https://repl.it/CLnG/0)
 
 # Code Explanation:
 ## First and second solutions:

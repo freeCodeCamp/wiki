@@ -32,8 +32,11 @@ function dropElements(arr, func) {
   }
   return arr;
 }
-drop([1, 2, 3], function(n) {return n < 3; });
+
+// test here
+dropElements([1, 2, 3, 4], function(n) {return n >= 3;})
 ```
+:rocket: [REPL It!](https://repl.it/CLna/0)
 
 # Code Explanation:
 - Create a for loop to check each element.
@@ -47,8 +50,10 @@ function dropElements(arr, func) {
   return arr.slice(arr.findIndex(func) >= 0 ? arr.findIndex(func): arr.length, arr.length);
 }
 
+// test here
 dropElements([1, 2, 3, 4], function(n) {return n >= 3;});
 ```
+:rocket: [REPL It!](https://repl.it/CLnc/0)
 
 # Code Explanation:
 - Use ES6 `findIndex()` function to  find the index of the element that passes the condition
@@ -65,8 +70,10 @@ function dropElements(arr, func) {
   return arr;
 }
 
-dropElements([1, 2, 3], function(n) {return n < 3; });
+// test here
+dropElements([1, 2, 3, 4], function(n) {return n >= 3;});
 ```
+:rocket: [REPL It!](https://repl.it/CLnf/0)
 
 # Code Explanation
 - Use a while loop with `Array.prototype.shift()` to continue checking and dropping the first element of the array until the function returns true. It also makes sure the array is not empty first to avoid infinite loops.

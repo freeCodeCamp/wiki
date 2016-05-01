@@ -44,14 +44,18 @@ function pairElement(str) {
   };
 
   // Loops through the input and pair.
-  console.log(char);
   for (var i = 0; i < str.length; i++) {
     search(str[i]);
   }
 
   return paired;
 }
+
+// test here
+pairElement("GCG");
 ```
+:rocket: [REPL It!](https://repl.it/CLmz/0)
+
 # Code Explanation:
 - The program is very simple, the best solution that I have come up with is to use a switch to catch all the possible four elements. Using if statements would take too much code. You could also use Regular Expressions.
 - Since we have to the original and the pair, I decided to take all four cases instead of the base two.
@@ -70,7 +74,11 @@ function pairElement(str) {
   }
  return strArr;
 }
+
+// test here
+pairElement("GCG");
 ```
+:rocket: [REPL It!](https://repl.it/CLnA/0)
 
 # Code Explanation:
 - Read the comments
