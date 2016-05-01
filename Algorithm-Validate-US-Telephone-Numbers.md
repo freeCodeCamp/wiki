@@ -25,7 +25,11 @@ function telephoneCheck(str) {
   
    return regex.test(str);
 }
+
+// test here
+telephoneCheck("555-555-5555");
 ```
+:rocket: [REPL It!](https://repl.it/CLo9/0)
 
 # Code Explanation:
 - `^` denotes the beginning of the string `(1\s?)?` checks allows for a "1" or a "1 " at the beginning.
@@ -43,7 +47,12 @@ function telephoneCheck(str) {
 
   return re.test(str);
 }
+
+// test here
+telephoneCheck("555-555-5555");
 ```
+:rocket: [REPL It!](https://repl.it/CLoa/0)
+
 # Code Explanation
 - This is an example of a very comprehensive and robust solution to validating US phone numbers client side. In such cases it might be much better and easier to implement this library [libphonenumber.](https://github.com/googlei18n/libphonenumber)
 
