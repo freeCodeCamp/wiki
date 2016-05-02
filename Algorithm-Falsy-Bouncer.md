@@ -28,6 +28,8 @@ function bouncer(arr) {
 }
 ```
 
+:rocket: [REPL It!](https://repl.it/CLjU/32)
+
 ```js
 function bouncer(arr) {
   function isTruthy(arg) {
@@ -39,6 +41,8 @@ function bouncer(arr) {
 }
 ```
 
+:rocket: [REPL It!](https://repl.it/CLjU/33)
+
 ```js
 function bouncer(arr) {
 	arr = arr.filter(function(element){
@@ -47,6 +51,8 @@ function bouncer(arr) {
   return arr;
 }
 ```
+
+:rocket: [REPL It!](https://repl.it/CLjU/34)
 
 # Code Explanation:
 The `Array.prototype.filter` method expects a function that returns a `Boolean` value which takes a single argument and returns `true` for [truthy](js-truthy) value or `false` for [falsy](js-falsy) value. Hence we pass the built-in `Boolean` function. The second solution replaces the array in-place, and utilises an anonymous function as the callback for the `filter` method. This avoids polluting the global scope with a single-use function, and makes our code more concise.

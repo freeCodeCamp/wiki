@@ -23,7 +23,11 @@
 function booWho(bool) {
   return typeof bool === 'boolean';
 }
+
+// test here
+booWho(null);
 ```
+:rocket: [REPL It!](https://repl.it/CLnK/0)
 
 # Code Explanation:
 

@@ -17,23 +17,28 @@ var outgoingLink = 'freecodecamp.com/wiki/docs';
 
 // Get File list
 fs.readdir('../pages/docs/', function(err, folders) {
-  if(err) throw err;
+  if (err) {
+    throw err;
+  }
   var fileList = folders.filter(function(folder) {
     // Remove stupid hidden folders
-    return !/^\./.test(folder);
+    return !(/^\./).test(folder);
   }).map(function(folder) {
     // Make directories/filenames
-    var filename = folder+'/index.md';
+    var filename = folder + '/index.md';
     var title = folder.replace(/-/g, ' ').replace('.md', '');
-    return { filename: filename, title: title};
+    return {
+      filename: filename,
+      title: title
+    };
   });
 
   fileList.forEach(function(fileobj) {
     // Create directory
 
-    var newFileName = '../pages/docs/'+fileobj.filename;
-
-    var data = fs.readFileSync(newFileName, 'utf-8'); //read existing contents into data
+    var newFileName = '../pages/docs/' + fileobj.filename;
+    // Read existing contents into data
+    var data = fs.readFileSync(newFileName, 'utf-8');
     var fd = fs.openSync(newFileName, 'w+');
 
     data = data.replace(incomingLink, outgoingLink);
@@ -41,9 +46,10 @@ fs.readdir('../pages/docs/', function(err, folders) {
 
     var header = '---\ntitle: ' + fileobj.title + '\norder: 5\n---\n';
     var buffer = new Buffer(header);
-
-    fs.writeSync(fd, buffer, 0, buffer.length); //write new data
-    fs.writeSync(fd, newData, 0, newData.length); //append old data
+    // Write new data
+    fs.writeSync(fd, buffer, 0, buffer.length);
+    // Append old data
+    fs.writeSync(fd, newData, 0, newData.length);
     fs.close(fd);
   });
 });

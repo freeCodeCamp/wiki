@@ -26,6 +26,8 @@ On this page you can change your profile picture, email address and write a bio.
 
 ## Following FreeCodeCamp
 
+#### We are currently moving away from using Twitch, we will update this page once details have been finalized.
+
 To follow FreeCodeCamp on Twitch, go to our channels [page](https://www.twitch.tv/freecodecamp/profile). Press the follow button and enable alerts as show below. You will now be sent an email every time FreeCodeCamp goes live.
 >![following freecodecamp](https://i.gyazo.com/b1b2c1caab7be32328b9982ae01e51d2.gif)
 

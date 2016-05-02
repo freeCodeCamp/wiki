@@ -29,6 +29,8 @@ function slasher(arr, howMany) {
 slasher([1, 2, 3], 2);
 ```
 
+:rocket: [REPL It!](https://repl.it/CLjU/28)
+
 ## Code Solution 2:
 
 ```javascript
@@ -39,6 +41,9 @@ function slasher(arr, howMany) {
 
 }
 ```
+
+:rocket: [REPL It!](https://repl.it/CLjU/29)
+
 # References
 - [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
 

@@ -108,7 +108,11 @@ function makeFriendlyDates(str) {
   return displayDate();
 
 }
+
+// test here
+makeFriendlyDates(['2016-07-01', '2016-07-04']);
 ```
+:rocket: [REPL It!](https://repl.it/CLos/0)
 
 # Code Explanation:
 - Read comments in code

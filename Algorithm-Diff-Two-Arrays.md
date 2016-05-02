@@ -31,7 +31,11 @@ function diffArray(arr1, arr2) {
 
   return newArr.filter(check);
 }
+
+// test here
+diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5]);
 ```
+:rocket: [REPL It!](https://repl.it/CLma/0)
 
 ## Code Solution 2:
 
@@ -48,7 +52,11 @@ function diffArray(arr1, arr2) {
   }));
   return newArr;
 }
+
+// test here
+diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5]);
 ```
+:rocket: [REPL It!](https://repl.it/CLmc/0)
 
 ## Code Solution 3:
 
@@ -73,7 +81,11 @@ function diffArray(arr1, arr2) {
   
   return newArr;
 }
+
+// test here
+diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5]);
 ```
+:rocket: [REPL It!](https://repl.it/CLme/0)
 
 # Credits:
 If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @aganita for your help with Algorithm: Diff Two Arrays`**

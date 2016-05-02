@@ -31,6 +31,8 @@ function reverseString(str) {
 }
 ```
 
+:rocket: [REPL It!](https://repl.it/CLjU)
+
 ### Code Explanation:
 - Our goal is to take the input, `str`, and return it in reverse. Our first step is to split the string by characters using `split('')`. Notice that we don't leave anything in between the single quotes, this tells the function to split the string by each character.
 
@@ -51,4 +53,4 @@ If you found this page useful, you may say thanks to the contributors by copying
 - Categorize the solution in one of the following categories &mdash; **Basic**, **Intermediate** and **Advanced**. :traffic_light:
 - Please add your username only if you have added any **relevant main contents**. (:warning: ***DO NOT*** *remove any existing usernames*)
 
-> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Challenge-Solution-Template) for reference.
+> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution) for reference.

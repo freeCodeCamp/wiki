@@ -50,6 +50,8 @@ function largestOfFour(arr) {
 }
 ```
 
+:rocket: [REPL It!](https://repl.it/CLjU/15)
+
 ### Code Explanation:
 
 - Create a variable to store the _results_ as an array.
@@ -74,6 +76,8 @@ function largestOfFour(arr) {
 }
 ```
 
+:rocket: [REPL It!](https://repl.it/CLjU/16)
+
 ### Code Explanation:
 
 - we map all items within the main array to a new array using `Array.prototype.map()` and return this array as the final result
@@ -95,6 +99,8 @@ function largestOfFour(arr) {
   return arr.map(Function.apply.bind(Math.max, null));
 }
 ```
+
+:rocket: [REPL It!](https://repl.it/CLjU/17)
 
 ### Code Explanation:
 
@@ -144,4 +150,4 @@ If you found this page useful, you can give thanks by copying and pasting this o
 - Categorize the solution in one of the following categories -- **Basic**, **Intermediate** and **Advanced**. :traffic_light:
 - Please add your username only if you have added any **relevant main contents**. (:warning: **_DO NOT_** _remove any existing usernames_)
 
-> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Challenge-Solution-Template) for reference.
+> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution) for reference.

@@ -36,6 +36,8 @@ function titleCase(str) {
 }
 ```
 
+:rocket: [REPL It!](https://repl.it/CLjU/8)
+
 ### Code Explanation:
 We are modifying the `replaceAt` function using prototype to facilitate the use of the program.
 
@@ -54,6 +56,8 @@ function titleCase(str) {
 
 titleCase("I'm a little tea pot");
 ```
+
+:rocket: [REPL It!](https://repl.it/CLjU/9)
 
 ### Code Explanation:
 We are making entire string lowercase and then converting it into array. Then we are using map function to replace the lowercase character with uppercase. Finally, we are returning the string using `join` method.
@@ -77,6 +81,8 @@ function titleCase(str) {
 titleCase("hello world");
 ```
 
+:rocket: [REPL It!](https://repl.it/CLjU/11)
+
 ## Fourth Solution:
 
 ```js
@@ -91,6 +97,8 @@ function titleCase(str) {
 titleCase("I'm a little tea pot", "");
 ```
 
+:rocket: [REPL It!](https://repl.it/CLjU/12)
+
 ## Fifth Solution:
 
 ```js
@@ -102,6 +110,8 @@ function titleCase(str) {
 titleCase("I'm a little tea pot", "");
 ```
 
+:rocket: [REPL It!](https://repl.it/CLjU/13)
+
 ## Sixth Solution:
 
 ```js
@@ -110,13 +120,16 @@ function titleCase(str) {
 }
 ```
 
+:rocket: [REPL It!](https://repl.it/CLjU/14)
+
 ### Code Explanation:
 **Brief**: The solution works by first lowercasing all the characters in the string and then only uppercasing the first character of each word.
 
 **Detail**:
 
-- Lowercase the whole string using `str.toLowerCase()`. See  [**`String.prototype.toLowerCase`**](http://devdocs.io#q=js+String+toLowerCase)
-- Replace every word's first character to uppercase using `.replace`. See  [**`String.prototype.replace`**](http://devdocs.io#q=js+String+replace)
+- Lowercase the whole string using `str.toLowerCase()`. See  [**`String.prototype.toLowerCase`**](http://devdocs.io#q=js+String+toLowe
+rCase)
+- Replace every word' first character to uppercase using `.replace`. See  [**`String.prototype.replace`**](http://devdocs.io#q=js+String+replace)
 - Search for words and a lowercase character at the beginning of each word i.e. matching any lowercase character following a `space` or matching the first character of the whole string, by using the following pattern.
 - Regex explanation: See [**`Regex Pattern`**](http://regex101.com/)
  - `( |^)` matches a `space` character or beginning of the whole string (`^`).

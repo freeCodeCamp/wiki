@@ -29,7 +29,11 @@ function spinalCase(str) {
   // Replace space and underscore with -
   return str.replace(regex, '-').toLowerCase();
 }
+
+// test here
+spinalCase('This Is Spinal Tap');
 ```
+:rocket: [REPL It!](https://repl.it/CLnS/0)
 
 #### Second solution
 ```js
@@ -39,7 +43,11 @@ function spinalCase(str) {
   // Split on whitespace and underscores and join with dash
   return str.toLowerCase().split(/(?:_| )+/) .join('-');
 }
+
+// test here
+spinalCase('This Is Spinal Tap');
 ```
+:rocket: [REPL It!](https://repl.it/CLnT/0)
 
 # Code Explanation:
 #### First and Second solutions

@@ -41,7 +41,11 @@ function orbitalPeriod(arr) {
 
   return newArr;
 }
+
+// test here
+orbitalPeriod([{name : "sputnik", avgAlt : 35873.5553}]);
 ```
+:rocket: [REPL It!](https://repl.it/CLow/0)
 
 #### Second solution
 
@@ -62,8 +66,11 @@ function orbitalPeriod(arr) {
   }
   return arr;
 }
+
+// test here
 orbitalPeriod([{name : "sputnik", avgAlt : 35873.5553}]);
 ```
+:rocket: [REPL It!](https://repl.it/CLoy/0)
 
 #### Third solution
 ```js
@@ -81,7 +88,12 @@ function orbitalPeriod(arr) {
   });
   return arr;
 }
+
+// test here
+orbitalPeriod([{name : "sputnik", avgAlt : 35873.5553}]);
 ```
+:rocket: [REPL It!](https://repl.it/CLoz/0)
+
 # Code Explanation:
 #### First solution
 - The GM and `earthRadius` is given to us.

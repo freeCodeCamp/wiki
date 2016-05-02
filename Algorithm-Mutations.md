@@ -30,6 +30,8 @@ function mutation(arr) {
  }
 ```
 
+:rocket: [REPL It!](https://repl.it/CLjU/30)
+
 ####Second Solution (Declarative):
 ```js
 function mutation(arr) {
@@ -41,6 +43,8 @@ function mutation(arr) {
               });
 }
 ```
+
+:rocket: [REPL It!](https://repl.it/CLjU/31)
 
 # Code Explanations:
 ####First solution (Procedural):

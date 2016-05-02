@@ -66,7 +66,27 @@ function updateInventory(arr1, arr2) {
 
     return arr1;
 }
+
+// test here
+// Example inventory lists
+var curInv = [
+    [21, "Bowling Ball"],
+    [2, "Dirty Sock"],
+    [1, "Hair Pin"],
+    [5, "Microphone"]
+];
+
+var newInv = [
+    [2, "Hair Pin"],
+    [3, "Half-Eaten Apple"],
+    [67, "Bowling Ball"],
+    [7, "Toothpaste"]
+];
+
+updateInventory(curInv, newInv);
 ```
+:rocket: [REPL It!](https://repl.it/CLok/0)
+
 #### Second solution
 ```js
 function updateInventory(arr1, arr2) {
@@ -112,7 +132,27 @@ function updateInventory(arr1, arr2) {
 
   return arr1;
 }
+
+// test here
+// Example inventory lists
+var curInv = [
+    [21, "Bowling Ball"],
+    [2, "Dirty Sock"],
+    [1, "Hair Pin"],
+    [5, "Microphone"]
+];
+
+var newInv = [
+    [2, "Hair Pin"],
+    [3, "Half-Eaten Apple"],
+    [67, "Bowling Ball"],
+    [7, "Toothpaste"]
+];
+
+updateInventory(curInv, newInv);
 ```
+:rocket: [REPL It!](https://repl.it/CLol/0)
+
 
 #### Third solution
 ```js
@@ -132,7 +172,27 @@ function updateInventory(arr1, arr2) {
     return a[1] > b[1] ? 1 : -1;
 });
 }
+
+// test here
+// Example inventory lists
+var curInv = [
+    [21, "Bowling Ball"],
+    [2, "Dirty Sock"],
+    [1, "Hair Pin"],
+    [5, "Microphone"]
+];
+
+var newInv = [
+    [2, "Hair Pin"],
+    [3, "Half-Eaten Apple"],
+    [67, "Bowling Ball"],
+    [7, "Toothpaste"]
+];
+
+updateInventory(curInv, newInv);
 ```
+:rocket: [REPL It!](https://repl.it/CLom/0)
+
 
 #### Fourth Solution
 ```js
@@ -151,7 +211,27 @@ function updateInventory(curInv, newInv) {
     .map(item => [item[1], item[0]])
     .sort((a, b) => a[1] > b[1] ? 1 : -1);
 }
+
+// test here
+// Example inventory lists
+var curInv = [
+    [21, "Bowling Ball"],
+    [2, "Dirty Sock"],
+    [1, "Hair Pin"],
+    [5, "Microphone"]
+];
+
+var newInv = [
+    [2, "Hair Pin"],
+    [3, "Half-Eaten Apple"],
+    [67, "Bowling Ball"],
+    [7, "Toothpaste"]
+];
+
+updateInventory(curInv, newInv);
 ```
+:rocket: [REPL It!](https://repl.it/CLon/0)
+
 
 # Code Explanation:
 #### First solution

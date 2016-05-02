@@ -36,6 +36,8 @@ for(var i = 0; i <= source.length; ++i) {
     temp.splice(i, 0, ch);    // Insert the new character
     dest.push(temp);    // Store the new sub-permutation    
 }
+
+
 ```
 
 Finding each permutation could then be done non-recursively by including the above in a function taking a source array and returning a destination array. For each letter of the input string, pass that character, as well as the array  returned from the previous call of the function.
@@ -102,7 +104,12 @@ function permAlone(str) {
   //Return how many have no repetitions.
   return filtered.length;
 }
+
+// test here
+permAlone('aab');
 ```
+:rocket: [REPL It!](https://repl.it/CLop/0)
+
 
 # Code Explanation:
 - Read comments in code

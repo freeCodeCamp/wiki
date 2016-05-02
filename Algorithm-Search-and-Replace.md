@@ -31,7 +31,12 @@ function myReplace(str, before, after) {
 
   return str;
 }
+
+// test here
+myReplace("A quick brown fox jumped over the lazy dog", "jumped", "leaped");
 ```
+:rocket: [REPL It!](https://repl.it/CLmo/0)
+
 ## Code Solution #2:
 
 ```js
@@ -47,9 +52,13 @@ function myReplace(str, before, after) {
   var  newStr =  str.replace(re,after);
 
  return newStr;
-
 }
+
+// test here
+myReplace("A quick brown fox jumped over the lazy dog", "jumped", "leaped");
 ```
+
+:rocket: [REPL It!](https://repl.it/CLmp/0)
 
 ## Code Solution #3:
 
@@ -80,7 +89,13 @@ function myReplace(str, before, after) {
     // replace "before" with "after" with "before"-casing 
     return str.replace(before, applyCasing(before, after));
 }
+
+// test here
+myReplace("A quick brown fox jumped over the lazy dog", "jumped", "leaped");
+
 ```
+
+:rocket: [REPL It!](https://repl.it/CLmq/0)
 
 # Code Explanation:
 - Read comments on program.
