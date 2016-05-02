@@ -83,6 +83,8 @@ If your city isn't listed here, you should [create your own Campsite](How-to-cre
   - [Srebrenica](https://www.facebook.com/groups/free.code.camp.srebrenica/)
   - [Tuzla](https://www.facebook.com/groups/free.code.camp.tuzla/)
   - [Zenica](https://www.facebook.com/groups/free.code.camp.bih.zenica/)
+- Botswana
+  - [Maun](https://www.facebook.com/groups/free.code.camp.maun/)
 - Brazil
   - [Águas de São Pedro](https://www.facebook.com/groups/free.code.camp.aguas.de.sao.pedro/)
   - [Americana](https://www.facebook.com/groups/free.code.camp.americana/)
@@ -262,7 +264,8 @@ If your city isn't listed here, you should [create your own Campsite](How-to-cre
   - [Varazdin](https://www.facebook.com/groups/free.code.camp.varazdin)
   - [Zagreb](https://www.facebook.com/groups/free.code.camp.zagreb/)
 - Cuba
-  - [Havana](https://www.facebook.com/groups/free.code.camp.havana/)
+  - [Guantánamo](https://www.facebook.com/groups/free.code.camp.gtmo/)
+  - [La Habana](https://www.facebook.com/groups/free.code.camp.havana/)
 - Cyprus
   - [Limassol](https://www.facebook.com/groups/free.code.camp.limassol/)
   - [Nicosia](https://www.facebook.com/groups/free.code.camp.nicosia/)
@@ -665,7 +668,8 @@ If your city isn't listed here, you should [create your own Campsite](How-to-cre
 - Mauritius
   - [Port Louis](https://www.facebook.com/groups/free.code.camp.port.louis/)
 - Mexico
-  - [Acapulco](https://www.facebook.com/groups/free.code.camp.acapulco/) 
+  - [Acapulco](https://www.facebook.com/groups/free.code.camp.acapulco/)
+  - [Aguascalientes](https://www.facebook.com/groups/free.code.camp.aguascalientes/)
   - [Ciudad Juárez](https://www.facebook.com/groups/free.code.camp.juarezchi/)
   - [Ciudad Obregón](https://www.facebook.com/groups/free.code.camp.cd.obregon/)
   - [Coatzacoalcos](https://www.facebook.com/groups/free.code.camp.coatzacoalcos/)
