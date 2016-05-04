@@ -1,3 +1,5 @@
+# JavaScript Closures
+
 Closures are functions that refer to independent (free) variables. In other words, the function defined in the closure 'remembers' the environment in which it was created.
 
 ```js
