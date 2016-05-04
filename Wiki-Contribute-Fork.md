@@ -1,13 +1,6 @@
-# Welcome to the Free Code Camp Wiki!
+# How to get a fork of our wiki and keep it syncronized
 
-Our open source community's Wiki focuses on answering your questions about learning to code and getting a coding job. We also cover in detail our:
-
-- Curriculum
-- Other Programming Languages
-- Local Campsite Communities
-- Nonprofit Projects and much more
-
-*Taste* the wiki at [**FreeCodeCamp/wiki**](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki) :yum:
+These steps are standard for contributing not only to our wiki but any other project once you understand what is going on.
 
 ## Steps to follow
 
