@@ -63,7 +63,7 @@ Creating issues in general is simpler than creating a pull request.
 
 ### Moderators
 
-If you are really committed to contributing to the wiki and you would like to join the team and be able to merge pull request, create new labels, assign mods to specific pull request and more then just check the [requirements to become a wiki mod](Wiki-Become-A-Wiki-Mod) and follow the instructions.
+If you are really committed to contributing to the wiki and you would like to join the team and be able to merge pull request, create new labels, assign mods to specific pull request and more then just check the [requirements to become a wiki mod](Wiki-Become-A-Mod) and follow the instructions.
 
 [**Improve someone's pull request:**](Wiki-Improve-PR) At some point while managing the influx of pull request, you will be faced with the choice of letting an old contribution die out because the improvements needed have not been applied, or you could take contribution and improve it while also keeping the initial contributor's work. Often times, the later is the best choice.
 
