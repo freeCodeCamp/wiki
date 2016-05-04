@@ -1,4 +1,4 @@
-# String.prototype.slice()
+# JavaScript String.prototype.slice()
 
 The JavaScript string method `.slice()` extracts a portion of a string and returns a new string.
 

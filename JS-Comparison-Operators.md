@@ -1,4 +1,4 @@
-# Comparison operators
+# JavaScript Comparison operators
 
 JavaScript has both **strict** and **type–converting** comparisons. 
 

@@ -1,4 +1,4 @@
-# js String prototype substr
+# JavaScript String prototype substr
 Gets a substring beginning at the specified location and having the specified length.
 
 ## Syntax

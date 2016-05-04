@@ -1,3 +1,5 @@
+# JavaScript For Loop
+
 ### Syntax
 >for ([initialization]; [condition]; [final-expression]) <br/> 
 >statement

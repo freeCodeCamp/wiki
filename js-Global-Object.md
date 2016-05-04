@@ -1,4 +1,4 @@
-# The Global Object
+# The JavaScript Global Object
 
 The global object is an object that is initialised by the JavaScript interpreter before the code is executed. All variables that are declared on the global scope (see: [Scopes](js-Scopes)) are stored in the global object as properties.
 

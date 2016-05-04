@@ -1,4 +1,4 @@
-# Array.prototype.join()
+# JavaScript Array.prototype.join()
 
 The JavaScript array method `.join()` will combine all elements of an array into a single string.
 

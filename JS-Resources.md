@@ -1,4 +1,4 @@
-### Tutorials
+### JavaScript Tutorials and other Resources
 - [JavaScript for Cats](http://jsforcats.com/)
 - [Professor Frisby's Mostly Adequate Guide to Functional Programming](https://github.com/DrBoolean/mostly-adequate-guide)
 - [Eloquent Javascript](http://www.eloquentjavascript.net) ([*annotated*](https://watchandcode.com/courses/eloquent-javascript-the-annotated-version))

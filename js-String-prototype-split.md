@@ -1,4 +1,4 @@
-# String.prototype.split()
+# JavaScript String.prototype.split()
 
 The split() method splits a string into an array of strings.
 

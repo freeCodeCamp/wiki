@@ -1,4 +1,4 @@
-# js Array prototype sort
+# JavaScript Array prototype sort
 The `sort()` method sorts the elements of an array *in place* and returns the sorted array.
 
 ## Syntax
