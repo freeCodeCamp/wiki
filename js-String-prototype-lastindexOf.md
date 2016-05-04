@@ -1,12 +1,14 @@
 # JavaScript String prototype lastIndexOf
+
 The `lastIndexOf()` method returns the index within the calling String object of the last occurrence of the specified value, or -1 if not found. The calling string is searched backward, starting at `fromIndex`.
 
 ## Syntax
+
 ```js
 str.lastIndexOf(searchValue[, fromIndex])
 ```
 
-### Parameters
+## Parameters
 
 **searchValue**
 
@@ -18,10 +20,12 @@ Optional. The location within the calling string to start the search at, indexed
 
 [MDN link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/lastIndexOf) | [MSDN link](https://msdn.microsoft.com/en-us/LIBRary/6d20k718%28v=vs.94%29.aspx)
 
-##Returns
+## Returns
+
 Returns the last occurrence of a substring in the string.
 
-##Description
+## Description
+
 Characters in a string are indexed from left to right. The index of the first character is 0, and the index of the last character is `stringName.length - 1`.
 
 The `lastIndexOf()` method is case sensitive. For example, the following expression returns `-1`:

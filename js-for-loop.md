@@ -1,6 +1,7 @@
 # JavaScript For Loop
 
 ### Syntax
+
 >for ([initialization]; [condition]; [final-expression]) <br/> 
 >statement
    
@@ -13,7 +14,8 @@ The javascript `for` statement consists of three expressions and a statement:
 
 any of these three expressions or the statement can be omitted. For loops are commonly used to count a certain number of iterations to repeat a statement. 
 
-### Common Pitfalls
+## Common Pitfalls
+
 **Exceeding the bounds of an array**
 
 When indexing over an array many times it is easy to exceed the bounds of the 

@@ -1,12 +1,14 @@
 # JavaScript String prototype substr
+
 Gets a substring beginning at the specified location and having the specified length.
 
 ## Syntax
+
 ```js
 str.substr(start[, length])
 ```
 
-### Parameters
+## Parameters
 
 **start**
 
@@ -18,10 +20,12 @@ Optional. The number of characters to extract.
 
 [MDN link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substr) | [MSDN link](https://msdn.microsoft.com/en-us/LIBRary/0esxc5wy%28v=vs.94%29.aspx)
 
-##Returns
+## Returns
+
 The characters in a string beginning at the specified location through the specified number of characters.
 
-##Description
+## Description
+
 `start` is a character index. The index of the first character is 0, and the index of the last character is 1 less than the length of the string. `substr()` begins extracting characters at start and collects length characters (unless it reaches the end of the string first, in which case it will return fewer).
 
 If `start` is positive and is greater than or equal to the length of the string, `substr()` returns an empty string.

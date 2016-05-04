@@ -1,12 +1,14 @@
 # JavaScript String prototype substring
+
 The `substring()` method returns a subset of a string between one index and another, or through the end of the string.
 
 ## Syntax
+
 ```js
 str.substring(indexStart[, indexEnd])
 ```
 
-### Parameters
+## Parameters
 
 **indexStart**
 
@@ -18,7 +20,8 @@ Optional. An integer between 0 and the length of the string, which specifies the
 
 [MDN link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substring) | [MSDN link](https://msdn.microsoft.com/en-us/LIBRary/3cz15ahb%28v=vs.94%29.aspx)
 
-##Description
+## Description
+
 `substring()` extracts characters from `indexStart` up to but not including `indexEnd`. In particular:
 
 - If `indexStart` equals `indexEnd`, `substring()` returns an empty string.

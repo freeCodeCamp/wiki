@@ -1,12 +1,14 @@
 # JavaScript String prototype replace
+
 The `replace()` method returns a new string with some or all matches of a pattern replaced by a replacement. The pattern can be a string or a `RegExp`, and the replacement can be a string or a function to be called for each match.
 
 ## Syntax
+
 ```js
 str.replace(regexp|substr, newSubStr|function[, flags])
 ```
 
-### Parameters
+## Parameters
 
 **regexp (pattern)**
 
@@ -26,10 +28,12 @@ A function to be invoked to create the new substring (to put in place of the sub
 
 [MDN link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace) | [MSDN link](https://msdn.microsoft.com/en-us/LIBRary/t0kbytzc%28v=vs.94%29.aspx)
 
-##Returns
+## Returns
+
 A new string with some or all matches of a pattern replaced by a replacement.
 
-##Description
+## Description
+
 This method does not change the String object it is called on. It simply returns a new string.
 
 To perform a global search and replace, either include the g switch in the regular expression or if the first parameter is a string, include g in the flags parameter.

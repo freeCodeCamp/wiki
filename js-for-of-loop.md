@@ -17,6 +17,7 @@ for (variable of object) {
 
 ## Examples
 ### Array
+
 ```js
 let arr = [ "fred", "tom", "bob" ];
 
@@ -30,6 +31,7 @@ for (let i of arr) {
 // bob
 ```
 ### Map
+
 ```js
 var m = new Map();
 m.set(1, "black");
@@ -44,6 +46,7 @@ console.log(n);
 // 2,red
 ```
 ### Set
+
 ```js
 var s = new Set();
 s.add(1);
@@ -58,6 +61,7 @@ console.log(n);
 // red
 ```
 ### Arguments object
+
 ```js
 // your browser must support for..of loop
 // and let-scoped variables in for loops
