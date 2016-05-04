@@ -920,6 +920,7 @@ If your city isn't listed here, you should [create your own Campsite](How-to-cre
   - [Dakar](https://www.facebook.com/groups/free.code.camp.dakar/)
 - Serbia
   - [Belgrade](https://www.facebook.com/groups/free.code.camp.belgrade/)
+  - [Knjazevac](https://www.facebook.com/groups/free.code.camp.knjazevac/)
   - [Krusevac](https://www.facebook.com/groups/free.code.camp.krusevac/)
   - [Niš](https://www.facebook.com/groups/free.code.camp.nis/)
   - [Novi Sad](https://www.facebook.com/groups/free.code.camp.novi.sad/)
@@ -1510,6 +1511,7 @@ If your city isn't listed here, you should [create your own Campsite](How-to-cre
     - [Wheeling](https://www.facebook.com/groups/free.code.camp.wheeling.wv/)
   - Wisconsin
     - [Appleton](https://www.facebook.com/groups/free.code.camp.appleton/)
+    - [Burlington](https://www.facebook.com/groups/free.code.camp.Racine.WI/)
     - [Kenosha](https://www.facebook.com/groups/free.code.camp.kenosha/)
     - [La Crosse](https://www.facebook.com/groups/free.code.camp.la.crosse)
     - [Madison](https://www.facebook.com/groups/free.code.camp.madison.wisconsin/)
