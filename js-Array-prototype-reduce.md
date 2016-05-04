@@ -1,12 +1,14 @@
 # JavaScript Array prototype reduce
+
 The `reduce()` method applies a function against an accumulator and each value of the array (from left-to-right) to reduce it to a single value.
 
 ## Syntax
+
 ```js
 arr.reduce(callback[, initialValue])
 ```
 
-### Parameters
+## Parameters
 
 - **callback**
     Function to execute on each value in the array, taking four arguments:
@@ -25,13 +27,16 @@ arr.reduce(callback[, initialValue])
 
 [MDN link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce) | [MSDN link](https://msdn.microsoft.com/en-us/LIBRary/ff679975%28v=vs.94%29.aspx)
 
-##Returns
+## Returns
+
 The accumulated result from the last call to the callback function.
 
-##Description
+## Description
+
 Calls the specified callback function for all the elements in an array. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.
 
-##Remarks
+## Remarks
+
 If an `initialValue` is provided, the reduce method calls the `callback` function one time for each element present in the array, in ascending index order. If an `initialValue` is not provided, the reduce method calls the `callback` function on each element, starting with the second element.
 
 The return value of the callback function is provided as the `previousValue` argument on the next call to the callback function. The return value of the last call to the callback function is the return value of the `reduce` method.

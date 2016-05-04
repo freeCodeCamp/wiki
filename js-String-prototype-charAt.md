@@ -1,12 +1,14 @@
 # JavaScript String prototype charAt
+
 The `charAt()` method returns the specified character from a string.
 
 ## Syntax
+
 ```js
 str.charAt(index)
 ```
 
-### Parameters
+## Parameters
 
 **index**
 
@@ -14,7 +16,8 @@ An integer between 0 and 1-less-than the length of the string.
 
 [MDN link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charAt) | [MSDN link](https://msdn.microsoft.com/en-us/LIBRary/65zt5h10%28v=vs.94%29.aspx)
 
-##Description
+## Description
+
 Characters in a string are indexed from left to right. The index of the first character is 0, and the index of the last character in a string called `stringName` is `stringName.length - 1`. If the index you supply is out of range, JavaScript returns an empty string.
 
 ## Examples

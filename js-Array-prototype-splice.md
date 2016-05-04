@@ -1,12 +1,15 @@
 # JavaScript Array prototype splice
+
 This method changes array's content by removing existing elements and/or adding new elements.
 
 ## Syntax
+
 ```js
 array.splice(start, deleteCount[, item1[, item2[, ...]]])
 ```
 
-### Parameters
+## Parameters
+
 | Parameter  |           Description                         |   Necessity   |
 |------------|-----------------------------------------------|---------------|
 |  start  | Index at which to start changing the array.                           |   Required    |
@@ -15,7 +18,8 @@ array.splice(start, deleteCount[, item1[, item2[, ...]]])
 
 [MDN link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice) | [MSDN link](https://msdn.microsoft.com/en-us/LIBRary/wctc5k7s%28v=vs.94%29.aspx)
 
-##Returns
+## Returns
+
 An array containing the deleted elements. If only one element is removed, an array of one element is returned. If no elements are removed, an empty array is returned.
 
 ## Examples
