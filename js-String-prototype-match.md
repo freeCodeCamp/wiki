@@ -1,4 +1,4 @@
-# js String prototype match
+# JavaScript String prototype match
 The `match()` method retrieves the matches when matching a string against a regular expression.
 
 ## Syntax

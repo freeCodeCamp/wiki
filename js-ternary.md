@@ -1,3 +1,5 @@
+# JavaScript Ternary Operator
+
 The Ternary operator replaces an if/then block in a very small compact way.
 It's mostly used in one liners for simple tests and replacements, like this:
 

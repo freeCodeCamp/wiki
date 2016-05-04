@@ -1,4 +1,4 @@
-# String.prototype.concat()
+# JavaScript String.prototype.concat()
 
 The concat() method combines the text of two or more strings and returns a new string.
 

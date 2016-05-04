@@ -1,4 +1,4 @@
-# String.prototype.indexOf()
+# JavaScript String.prototype.indexOf()
 
 The indexOf() method returns the index within the calling String object of the first occurrence of the specified value, starting the search at fromIndex. Returns -1 if the value is not found.
 

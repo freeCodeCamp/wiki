@@ -1,3 +1,5 @@
+# JavaScript Immutable
+
 > Immutable means unchangeable i.e. you can't change.
 
 Javascript has lots of immutable types e.g. `string` primitive type. Try this in your console.

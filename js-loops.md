@@ -1,3 +1,5 @@
+# JavaScript Loops
+
 Javascript has a few different ways to control flow, otherwise known as loops
 
 - [for](js-for)
