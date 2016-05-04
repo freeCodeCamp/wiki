@@ -1,4 +1,4 @@
-# Array.prototype.slice()
+# JavaScript Array.prototype.slice()
 
 > The `slice()` method returns a shallow copy of a portion of an array into a new array object.
 

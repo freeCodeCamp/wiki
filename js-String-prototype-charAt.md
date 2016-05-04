@@ -1,4 +1,4 @@
-# js String prototype charAt
+# JavaScript String prototype charAt
 The `charAt()` method returns the specified character from a string.
 
 ## Syntax

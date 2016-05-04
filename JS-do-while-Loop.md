@@ -1,4 +1,4 @@
-# do...while Loop
+# JavaScript do...while Loop
 
 The `do...while` loop is closely related to [`while`](JS-while-Loop) loop. In the do while loop, the condition is checked at the end of the loop.
 
