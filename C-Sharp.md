@@ -2,20 +2,20 @@
 
 1. ### Basics
   * Setup
-  * Your first C# program
-  * Types and variables
-  * Flow control statements
+  * Your First C# Program
+  * Types and Variables
+  * Flow Control Statements
   * Operators
   * Strings
-  * Classes, Objects, Interface and Main methods
-  * Fields and properties
-  * Scope and accessibility modifiers
-  * Handling exceptions
+  * Classes, Objects, Interface and Main Methods
+  * Fields and Properties
+  * Scope and Accessibility Modifiers
+  * Handling Exceptions
 
 2. ### Intermediate
   * Generics
-  * Events, delegates and lambda expressions
-  * Collection framework
+  * Events, Delegates and Lambda Expressions
+  * Collection Framework
   * LINQ
 
 3. ### Advanced
@@ -23,11 +23,11 @@
   * Task Parallel Library
 
 5. ### What's New in C# 6
-  * Null-Conditional operator
-  * Auto-Property initializers
-  * Nameof expressions
-  * Expression bodied functions and properties
-  * Other features
+  * Null-Conditional Operator
+  * Auto-Property Initializers
+  * Nameof Expressions
+  * Expression Bodied Functions and Properties
+  * Other Features
 
 4. ### Object-Oriented principles (OOP)
    * Encapsulation
@@ -36,16 +36,16 @@
    * Polymorphism
 
 6. ### Solid principles
-  * Single responsibility principle
-  * Open closed principle
-  * Liskov substitution principle
-  * Interface segregation principle
-  * Dependency inversion principle
+  * Single Responsibility Principle
+  * Open Closed Principle
+  * Liskov Substitution Principle
+  * Interface Segregation Principle
+  * Dependency Inversion Principle
 
-7. ### C# Best practices, Design patterns & Test driven development (TDD)
+7. ### C# Best practices, Design Patterns & Test Driven Development (TDD)
 
 ### Setup
-[LinqPad][linqpad] is an ultimate .NET scratchpad to quickly test your C# code snippets.The standard edition is free and a perfect tool for beginners to quickly execute language statements, expressions and programs.
+[LinqPad][linqpad] is an .NET scratchpad to quickly test your C# code snippets.The standard edition is free and a perfect tool for beginners to execute language statements, expressions and programs.
 
 Alternatively, you could also download [Visual Studio Community 2015]  [visualstudio]  which is an extensible [IDE][ide] used by most professionals for creating enterprise applications.
 
@@ -84,7 +84,7 @@ Note, this is just to share and test the code snippets, not to be used for devel
 
 If you are using visual Studio, follow this [tutorial](https://msdn.microsoft.com/en-us/library/k1sx6ed2.aspx) to create console application and understand your first C# program.
 
-### Types and variables
+### Types and Variables
 C# is a strongly typed language. Every variable has a type.
 Every expression or statement evaluates to a value.
 There are two kinds of types in C#
@@ -130,7 +130,7 @@ For complete list of all built-in data types see [here](https://msdn.microsoft.c
  Unless you are writing [unsafe code][unsafe] or dealing with [unmanaged code][unmanaged], you don't need to worry about the lifetime of your memory locations. .NET compiler and CLR will take care of this, but it's still good to keep this mind in order to optimize performance of your applications.
 
 More information [here] [heapvsstack]
-### Flow control statements
+### Flow Control Statements
 
 * [If else][ifelse] statement :
   [Edit in .NET Fiddle](https://dotnetfiddle.net/IFVB33)
