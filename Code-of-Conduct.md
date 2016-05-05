@@ -13,7 +13,13 @@ Free Code Camp should be a harassment-free experience for everyone, regardless o
 
 We do not tolerate harassment of campers in any form, anywhere on Free Code Camp's online media (Gitter, Twitch, Facebook, etc.) or during pair programming. Harassment includes sexual language and imagery, deliberate intimidation, stalking, unwelcome sexual attention, libel, and any malicious hacking or social engineering.
 
-If a camper engages in harassing behavior, our team will take any action we deem appropriate, up to and including banning them from Free Code Camp.
+We do not tolerate trolling.  Trolling includes but is not limited to posting off-topic, inflamitory, or derogetory comments with the deliberate intent of provoking an emotional response or disrupting the normal discussion for ammusment.
+
+If a camper engages in harassing behavior or trolling, our team will take any action we deem appropriate, up to and including banning them from Free Code Camp.
+
+No spamming is allowed. Spamming includes but is not limited to the repeated posting of irrelavant, excessivly large and/or off-topic messages in the chat room in an attempt to disrupt the discussion or promote some good or service.
+
+If a camper engages in spamming the camper will be banned immediately until the incident is reviewed by a moderator.
 
 No bots are allowed in any of the Official Chat Rooms without prior explicit permission from the FCC Core Team.
 
