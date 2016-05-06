@@ -101,6 +101,7 @@ If your city isn't listed here, you should [create your own Campsite](How-to-cre
   - [Brotas](https://www.facebook.com/groups/free.code.camp.brotas.sp)
   - [Campina Grande](https://www.facebook.com/groups/907676752679032/)
   - [Campinas](https://www.facebook.com/groups/free.code.camp.campinas/)
+  - [Campo Bom](https://www.facebook.com/groups/free.code.camp.campo.bom/)
   - [Campo Grande](https://www.facebook.com/groups/768732203272622/)
   - [Caruaru](https://www.facebook.com/groups/free.code.camp.caruaru/)
   - [Caxias do Sul](https://www.facebook.com/groups/free.code.camp.caxias.do.sul/)
@@ -153,6 +154,7 @@ If your city isn't listed here, you should [create your own Campsite](How-to-cre
 - Cambodia
   - [Phnom Penh](https://www.facebook.com/groups/free.code.camp.phnompenh.cambodia/)
 - Cameroon
+  - [Buea](https://www.facebook.com/groups/free.code.camp.buea/)
   - [Yaounde](https://www.facebook.com/groups/free.code.camp.yaounde)
   - [Douala](https://www.facebook.com/groups/free.code.camp.douala/)
   - [Dschang](https://www.facebook.com/groups/free.code.camp.dschang/)
@@ -377,6 +379,7 @@ If your city isn't listed here, you should [create your own Campsite](How-to-cre
   - [Orleans](https://www.facebook.com/groups/free.code.Camp.Orleans)
   - [Paris](https://www.facebook.com/groups/free.code.camp.paris/)
   - [Poitiers](https://www.facebook.com/groups/free.code.camp.poitiers/)
+  - [Rennes](https://www.facebook.com/groups/free.code.camp.rennes/)
   - [Strasbourg](https://www.facebook.com/groups/free.code.camp.strasbourg/)
   - [Toulouse](https://www.facebook.com/groups/free.code.camp.toulouse/)
 - Georgia
@@ -400,6 +403,7 @@ If your city isn't listed here, you should [create your own Campsite](How-to-cre
   - [Hamburg](https://www.facebook.com/groups/free.code.camp.hamburg/)
   - [Hamm](https://www.facebook.com/groups/free.code.camp.hamm/)
   - [Hanover](https://www.facebook.com/groups/free.code.camp.hanover.germany/)
+  - [Hohenfels](https://www.facebook.com/groups/free.code.camp.hohenfels/)
   - [Kiel](https://www.facebook.com/groups/free.code.camp.kiel/)
   - [Koblenz](https://www.facebook.com/groups/free.code.camp.koblenz/)
   - [Koeln](https://www.facebook.com/groups/free.code.camp.koeln/)
@@ -443,7 +447,9 @@ If your city isn't listed here, you should [create your own Campsite](How-to-cre
   - Andhra Pradesh
     - [Bapatla](https://www.facebook.com/groups/free.code.camp.bapatla/)
     - [Guntur](https://www.facebook.com/groups/free.code.camp.guntur/)
+    - [Narasaopet](https://www.facebook.com/groups/free.code.camp.Narasaraopet/)
     - [Nellore](https://www.facebook.com/groups/free.code.camp.your.city.nellore/)
+    - [Tanuku](https://www.facebook.com/groups/Free.code.camp.Tanuku/)
     - [Tirupathi](https://www.facebook.com/groups/free.code.camp.tirupathi/)
     - [Vijayawada](https://www.facebook.com/groups/free.code.camp.your.vijayawada/)
     - [Vizag](https://www.facebook.com/groups/free.code.camp.vizag/)
@@ -1356,6 +1362,7 @@ If your city isn't listed here, you should [create your own Campsite](How-to-cre
   - New York
     - [Albany](https://www.facebook.com/groups/free.code.camp.albany.ny/)
     - [Binghampton](https://www.facebook.com/groups/free.code.camp.binghamton.ny/)
+    - [Bronx](https://www.facebook.com/groups/free.code.camp.bronx.ny/)
     - [Buffalo](https://www.facebook.com/groups/free.code.camp.buffalo/)
     - [Ithaca](https://www.facebook.com/groups/free.code.camp.ithaca/)
     - [Kingston](https://www.facebook.com/groups/free.code.camp.kingston/)
@@ -1430,7 +1437,8 @@ If your city isn't listed here, you should [create your own Campsite](How-to-cre
     - [Mount Pleasant](https://www.facebook.com/groups/free.code.camp.mt.pleasant/)
     - [Spartanburg](https://www.facebook.com/groups/free.code.camp.spartanburg/)
     - [Greenville](https://www.facebook.com/groups/free.code.camp.Greenville/)
-  - South Dakota    
+  - South Dakota
+    - [Pierre](https://www.facebook.com/groups/free.code.camp.pierre.sd/)
     - [Sioux Falls](https://www.facebook.com/groups/free.code.camp.sioux.falls/)
   - Tennessee
     - [Chattanooga](https://www.facebook.com/groups/free.code.camp.chattanooga/)
