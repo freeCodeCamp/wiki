@@ -15,6 +15,8 @@
 ; => 5
 ;    nil
 ```
+:rocket: [IDEOne it!](https://ideone.com/xcNth2)
+
 `x` in this example never actually gets changed. `x` just refers to something
 different inside of our `let` binding. This can be a useful way to avoid repetition
 inside a function.
@@ -33,6 +35,8 @@ bugs and unintended behaviour.
 (add-5 5)
 ; => 11
 ```
+:rocket: [IDEOne it!](https://ideone.com/MFjA3C)
+
 Uh oh! That's not adding 5 anymore! Of course, this example is a bit silly, but
 using too many global variables can lead to bugs that are just as scary as this
 one.
@@ -52,6 +56,7 @@ expressions.
 ; => foo bar
 ;    nil
 ```
+:rocket: [IDEOne it!](https://ideone.com/y5EBIM)
 
 | [:point_left: Previous](Clojure-Conditionals) | [:book: Home :book:](Clojure) | [Next :point_right:](Clojure-Loop-Recur)|
 |:---|:---:|----:|

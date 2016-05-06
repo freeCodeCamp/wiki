@@ -72,6 +72,8 @@ A great feature about arguments in Clojure is destructuring. It allows you to
 (add [1 2] 3)
 ; => 6
 ```
+:rocket: [IDEOne it!](https://ideone.com/SWlvKn)
+
 The arguments to that function are a collection (`[x y]`) and a number (`z`).
 We can use destructuring to pull the first and second elements out of the list,
 and call them `x` and `y`.
@@ -88,6 +90,8 @@ You can also define a function with an arbitrary number of arguments using `&`.
 ;    ("foo" ["bar" 22])
 ;    nil
 ```
+:rocket: [IDEOne it!](https://ideone.com/VftymP)
+
 As you can see, using `&` separated our function's arguments into one variable
 called `first` and a list of variables called `rest`. This means that our function
 could have any number of arguments!
@@ -108,4 +112,4 @@ evaluates to `nil`. (`nil` is like `null` or `None` -- it represents nothing.)
 
 | [:point_left: Previous](Clojure-Summary) | [:book: Home :book:](Clojure) | [Next :point_right:](Clojure-Conditionals)|
 |:---|:---:|----:|
-| [Summary](Clojure-Summary) | [Table of Contents](Clojure) | [Conditionals](/Clojure-Conditionals)|
+| [Summary](Clojure-Summary) | [Table of Contents](Clojure) | [Conditionals](Clojure-Conditionals)|

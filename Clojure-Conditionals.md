@@ -26,6 +26,7 @@ operators use prefix notation, which means they might look weird to you.
 (not false)
 ; => true
 ```
+:rocket: [IDEOne it!](https://ideone.com/XfXn8T)
 
 ## If
 
@@ -75,6 +76,7 @@ read and understand (ignoring the lack of the word `else`):
 ; => Maths works!
 ;    nil
 ```
+:rocket: [IDEOne it!](https://ideone.com/5XhcAa)
 
 ## Alternatives to If
 
@@ -96,6 +98,8 @@ if it's true. Notice that using `if-not` avoids nesting our condition inside
 (if (= (+ 2 2) 4) (do (println "Maths works!") (println "Hooray!")))
 (when (= (+ 2 2) 4) (println "Maths works!") (println "Hooray!"))
 ```
+:rocket: [IDEOne it!](https://ideone.com/tUVAw3)
+
 **Note:** There is no `when/else`. `when` *only* executes if the condition is true.
 
 Clojure has plenty of useful macros like these for all kinds of tasks. Try having
