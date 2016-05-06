@@ -42,6 +42,8 @@ a positive number factorial (5 factorial, for example, equals `5 * 4 * 3 * 2`).
       prod
       (recur (dec n) (* prod n)))))
 ```
+:rocket: [IDEOne it!](https://ideone.com/3iP3tI)
+
 You'll notice that `(loop [n x prod 1] ...)` looks quite similar to a `let` binding.
 It actually works in just the same way -- here, we bind `n` to `x`, and `prod` to 1.
 
@@ -97,8 +99,11 @@ of `fact` and `fact-no-loop`:
 ; => "Elapsed time: 0.064937 msecs"
 ;    2432902008176640000
 ```
-At this scale, the difference is negligible. However, on a larger scale, this
-kind of optimisation can make your code much, much quicker.
+:rocket: [IDEOne it!](https://ideone.com/tpC0Xo)
+
+At this scale, the difference is negligible. In fact, `fact-no-loop` is occasionally
+faster than `fact` due to the unpredictable nature of computer memory. However,
+on a larger scale, this kind of optimisation can make your code much, much quicker.
 
 ### Nesting Recursion Within functions
 
