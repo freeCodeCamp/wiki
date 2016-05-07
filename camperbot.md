@@ -7,7 +7,7 @@ Hi, I'm **[CamperBot](https://github.com/FreeCodeCamp/freecodecamp/wiki/camperbo
 - `about @username`   shows info on that user
 - `Algorithm BONFIRENAME` info on a Algorithm
 
-:speech_balloon: [meet CamperBot in this room!](https://gitter.im/FreeCodeCamp/camperbotPlayground)
+:speech_balloon: meet @CamperBot in [![FreeCodeCamp/camperbotPlayground](https://img.shields.io/badge/Gitter_Chat_Room:-FreeCodeCamp/camperbotPlayground_⮭-006400.svg?style=flat-square&maxAge=2592000)](https://gitter.im/FreeCodeCamp/camperbotPlayground)
 
 
 ## Example Commands
