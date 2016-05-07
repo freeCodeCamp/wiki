@@ -44,7 +44,7 @@ You can also access wiki pages from Gitter using Camperbot:
 
 We currently have a couple of guides to help you contribute, via the browser, command line, or desktop application.
 
-- [How to Contribute from Your Browser](Wiki-Contribute-Online): This is currently the easiest way we have to contribute. A simplified version can also be found in the Medium post “[How to land your first open source contribution, from your browser, in 15 minutes](https://medium.freecodecamp.com/how-to-land-your-first-open-source-contribution-from-your-browser-in-15-minutes-756d9bbf81ad).”
+- [How to Contribute from Your Browser](Wiki-Contribute-Online): This is currently the easiest way we have to contribute. A simplified version can also be found in the Medium post "[How to land your first open source contribution, from your browser, in 15 minutes](https://medium.freecodecamp.com/how-to-land-your-first-open-source-contribution-from-your-browser-in-15-minutes-756d9bbf81ad)."
 - [How to Fork Our wiki](Wiki-Contribute-Fork): This shows you how to fork our wiki and keep your fork synchronized.
 - [How to Contribute to the Wiki Locally](Wiki-Contribute-Local-GUI): This guide shows you how to make changes to the wiki from a local copy on your computer; it also works for contributing to the main repository.
 - [Pull Request Guidelines](PULL_REQUEST_TEMPLATE)
@@ -55,7 +55,7 @@ We currently have a couple of guides to help you contribute, via the browser, co
 
 Before creating your first pull request or starting your work as an issue moderator, it is strongly suggested that you get familiar with the [labels guide](Wiki-Labels-Guide). This will provide you with a through understanding on our labeling system so you can use it properly and maintain a stable workflow.
 
-For a list of labels used globally throughout FreeCodeCamp’s repositories, consult the guide “[Select Issues for Contributing Using Labels](Select-Issues-for-Contributing-Using-Labels).”
+For a list of labels used globally throughout FreeCodeCamp’s repositories, consult the guide "[Select Issues for Contributing Using Labels](Select-Issues-for-Contributing-Using-Labels)."
 
 ### Issues
 
