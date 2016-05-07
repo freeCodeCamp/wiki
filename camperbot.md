@@ -1,14 +1,13 @@
-Hi, I'm **[CamperBot](https://github.com/FreeCodeCamp/freecodecamp/wiki/camperbot)**! I can help you in this chatroom :smile: 
+Hi, I'm **[CamperBot](https://github.com/FreeCodeCamp/freecodecamp/wiki/camperbot)**! I can help you in this chatroom :smile:
 
 ### Basic Commands:
-- ``find TOPIC``  find all entries about topic. ex: `find js`
+- `find TOPIC` find all entries about topic. e.g. `find js`
 - `wiki TOPIC` show contents of topic page
-- `thanks @username`  send brownie points to another user
-- `about @username`   shows info on that user
+- `thanks @username` send brownie points to another user
+- `about @username` shows info on that user
 - `Algorithm BONFIRENAME` info on a Algorithm
 
-:speech_balloon: meet @CamperBot in [![FreeCodeCamp/camperbotPlayground](https://img.shields.io/badge/Gitter_Chat_Room:-FreeCodeCamp/camperbotPlayground_⮭-006400.svg?style=flat-square&maxAge=2592000)](https://gitter.im/FreeCodeCamp/camperbotPlayground)
-
+:speech_balloon: meet CamperBot in [![FreeCodeCamp/camperbotPlayground](https://img.shields.io/badge/Gitter_Chat_Room:-FreeCodeCamp/camperbotPlayground_⮭-006400.svg?style=flat-square&maxAge=2592000)](https://gitter.im/FreeCodeCamp/camperbotPlayground)
 
 ## Example Commands
 
@@ -37,7 +36,7 @@ We've added some Algorithm specific commands. If you type `Algorithm $BONFIRENAM
 - `topics` selected pages from the wiki
 - `rooms`  all rooms the bot is in
 - `archives` show history
-- `music` deprecated, plug DJ no longer exists. 
+- `music` deprecated, plug DJ no longer exists.
 - `twitch` show the twitch feed
 
 ## Content for the wiki
