@@ -5,7 +5,7 @@
 
 ### Introduction
 
-Sass stands for "Semantically Awesome Stylesheets" and is a CSS Pre-Processor. A Pre-Processor compiles code written in a specific language down to "product" code that is machine-readable (browser-readable). Basically, Sass compiles code down to regular CSS that our browsers can interpret! *Why write code in Sass when CSS already exists?* The short answer is Sass comes with more powerful features built into its syntax that allow developers to write DRY-er, scalable, and more maintainable front-end code.
+Sass stands for "Syntactically Awesome Stylesheets" and is a CSS Pre-Processor. A Pre-Processor compiles code written in a specific language down to "product" code that is machine-readable (browser-readable). Basically, Sass compiles code down to regular CSS that our browsers can interpret! *Why write code in Sass when CSS already exists?* The short answer is Sass comes with more powerful features built into its syntax that allow developers to write DRY-er, scalable, and more maintainable front-end code.
 
 If you're familiar with CSS, then learning Sass will come a little easier to you. If not, it might be ideal to start learning some CSS basics on Free Code Camp's HTML5 & CSS section in their Front End Development Certification course, as well as taking a look at [MDN's CSS Article](https://developer.mozilla.org/en-US/docs/Web/CSS).
 
