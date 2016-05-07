@@ -1148,6 +1148,7 @@ If your city isn't listed here, you should [create your own Campsite](How-to-cre
     - [Santa Rosa](https://www.facebook.com/groups/free.code.camp.santa.rosa/)
     - [Sonora](https://www.facebook.com/groups/free.code.camp.sonora.ca/)
     - [South Los Angeles](https://www.facebook.com/groups/free.code.camp.southlosangeles/)
+    - [Stockton](https://www.facebook.com/groups/free.code.camp.Stockton/)
     - [Temecula](https://www.facebook.com/groups/free.code.camp.temecula/)
     - [Turlock](https://www.facebook.com/groups/free.code.camp.turlock/)
     - [Tustin](https://www.facebook.com/groups/free.code.camp.tustin/)
