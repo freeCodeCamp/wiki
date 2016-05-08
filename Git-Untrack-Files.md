@@ -1,4 +1,5 @@
 # Untrack files previously committed from new .gitignore
+
 To untrack a _single_ file, ie stop tracking the file but not delete it from the system use:
 
 `git rm --cached filename`
