@@ -42,7 +42,7 @@ You can also do:
 to add all unstaged files.  Take care, though, because you can accidentially add files you don't want added.  Review your `git status` first.
 8. Commit your edits:
 `git commit -m "Brief Description of Commit"`
-9. [Squash your commits](git-rebase#squashing-multiple-commits-into-one), if there are more than one.
+9. [Squash your commits](Git-Squash), if there are more than one.
 10. Push your commits to your GitHub Fork:
 `git push -u origin branch/name-here`
 11. Go to [Common Steps](How-To-Create-A-Pull-Request-for-Free-Code-Camp#common-steps)

@@ -27,7 +27,7 @@ Si nous fusionnons votre **pull request**, votre nom sera automatiquement ajout�
 - [Guide sur les Pull Request](PULL_REQUEST_TEMPLATE)
 - [Comment faire pour contribuer au Wiki:](Wiki-Contribute-Local-GUI) Ceci est un guide qui va vous montrer comment obtenir une copie locale de sorte que vous puissiez apporter des modifications à partir de votre ordinateur, il fonctionne également pour contribuer au dépôt principal.
 - [En savoir plus sur la façon de faire une pull request à partir d'une fork](Pull-Request-Contribute)
-- [Comment Squash vos Commits:](git-rebase # squashing-multiple-commits-en-un) Nous exigeons un seul commit par pull request, sauf indication contraire émise par un modérateur.
+- [Comment Squash vos Commits:](Git-Squash) Nous exigeons un seul commit par pull request, sauf indication contraire émise par un modérateur.
 
 Si vous avez des questions à ce sujet, veuillez envoyer un message en anglais à [Rafase282 dans Gitter](https://gitter.im/Rafase282) ou rejoignez le [salon Gitter Wiki](Https://gitter.im/FreeCodeCamp/Wiki) pour en discuter.
 

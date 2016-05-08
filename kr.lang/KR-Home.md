@@ -27,7 +27,7 @@ JavaScript와 연관되거나 특정 커리큘럼이 아니더라도, **기술 �
 - [Pull Request 가이드라인](https://github.com/FreeCodeCamp/wiki/blob/master/PULL_REQUEST_TEMPLATE)
 - [Wiki에 기여하는 방법](https://github.com/FreeCodeCamp/wiki/blob/master/Wiki-Contribute-Local-GUI): 당신의 컴퓨터로부터 변경할 수 있도록 로컬 복사본을를 가지고 오는 방법을 보여주는 가이드이며, 메인 저장소에 기여하기 위해 작동합니다.  
 - [Fork로부터 pull request를 만드는 방법](https://github.com/FreeCodeCamp/wiki/blob/master/Pull-Request-Contribute) 
-- [Squash Commit하는 방법](https://github.com/FreeCodeCamp/wiki/blob/master/git-rebase#squashing-multiple-commits-into-one): 관리자에 의해 별도로 지정되지 않으면 Pull Request 당 오직 하나의 commit이 필요합니다. 
+- [Squash Commit하는 방법](https://github.com/FreeCodeCamp/wiki/blob/master/Git-Squash): 관리자에 의해 별도로 지정되지 않으면 Pull Request 당 오직 하나의 commit이 필요합니다. 
 
 만약 당신이 Free Code Camp Wiki에 기여하는 것에 대해 질문이 있다면 [Gitter에 @Rafase282](https://gitter.im/Rafase282)에게 메시지를 보내거나 [Gitter Wiki Room](https://gitter.im/FreeCodeCamp/Wiki)으로 오십시오.
 

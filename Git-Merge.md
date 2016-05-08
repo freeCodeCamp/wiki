@@ -69,4 +69,4 @@ See it now? You *copied* the commit over. If you were to merge to the `dev` bran
 
 You merged the same commit twice! This will of course have no repercussions for your code itself, but if you one fine day decide to look at your `git logs`, you will immediately realize how dirty your git history is, with some commits being made over and over. If you wanted to revert to a commit, it would be very difficult to decide which commit to revert to.
 
-It is preferred that to you use [https://github.com/freecodecamp/freecodecamp/wiki/git-rebase](git-rebase).
+It is preferred that to you use [https://github.com/freecodecamp/freecodecamp/wiki/Git-Rebase](Git-Rebase).
