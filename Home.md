@@ -22,7 +22,7 @@ One code solution per category. If we already have enough solutions and yours is
 
 If you want to contribute but have no idea what you would like to contribute then feel free to check the open issues we have with request for articles or fixes to them [here.](https://github.com/FreeCodeCamp/wiki/issues)
 
-We welcome **any technology relate articles**, not just JavaScript related or Curriculum specific. However, we do ask that you write them in third person instead of first person perspective. We also welcome articles in **other languages**, and welcome **translations** of current articles.
+We welcome **any technology related articles**, not just JavaScript related or Curriculum specific. However, we do ask that you write them in third person instead of first person perspective. We also welcome articles in **other languages**, and welcome **translations** of current articles.
 
 If we merge your pull request, your name will be automatically added to the document history on GitHub, and the repo's contributors. Please don't add additional bylines when creating or editing an article.
 
