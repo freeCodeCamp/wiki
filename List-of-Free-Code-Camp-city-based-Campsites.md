@@ -958,6 +958,7 @@ If your city isn't listed here, you should [create your own Campsite](How-to-cre
   - [Daegu](https://www.facebook.com/groups/free.code.camp.your.daegu/)
   - [Gwangju](https://www.facebook.com/groups/GwangjuCodeCano/)
   - [Jeonju](https://www.facebook.com/groups/free.code.camp.jeonju/)
+  - [Jinju](https://www.facebook.com/groups/free.code.camp.jinju/)
   - [Sejong](https://www.facebook.com/groups/free.code.camp.sejong.city/)
   - [Seoul](https://www.facebook.com/groups/free.code.camp.seoul/)
   - [Suwon](https://www.facebook.com/groups/free.code.camp.suwon/)
@@ -1258,6 +1259,7 @@ If your city isn't listed here, you should [create your own Campsite](How-to-cre
     - [Bowling Green](https://www.facebook.com/groups/free.code.camp.BG.kentucky/)
     - [Frankfort](https://www.facebook.com/groups/free.code.camp.frankfort.kentucky/)
     - [Lexington](https://www.facebook.com/groups/free.code.camp.lexington/)
+    - [London](https://www.facebook.com/groups/free.code.camp.london.ky/)
     - [Louisville](https://www.facebook.com/groups/free.code.camp.louisville/)
     - [Manchester](https://www.facebook.com/groups/free.code.camp.manchester.kentucky/)
     - [Paducah](https://www.facebook.com/groups/free.code.camp.paducah/)
@@ -1270,6 +1272,7 @@ If your city isn't listed here, you should [create your own Campsite](How-to-cre
     - [Metairie](https://www.facebook.com/groups/free.code.camp.metairie.la/)
     - [Morgan City](https://www.facebook.com/groups/free.code.camp.morgan.ciry.la/)
     - [New Orleans](https://www.facebook.com/groups/free.code.camp.neworleans/)
+    - [Shreveport](https://www.facebook.com/groups/free.code.camp.shreveport/)
   - Maine
     - [Auburn](https://www.facebook.com/groups/free.code.camp.auburn.maine/)
     - [Augusta](https://www.facebook.com/groups/free.code.camp.augusta/)
@@ -1432,7 +1435,9 @@ If your city isn't listed here, you should [create your own Campsite](How-to-cre
     - [Montgomery County](https://www.facebook.com/groups/free.code.camp.montgomery.county.PA/)
     - [Philadelphia](https://www.facebook.com/groups/free.code.camp.philadelphia/)
     - [Pittsburgh](https://www.facebook.com/groups/free.code.camp.pittsburgh.pa/)
+    - [State College](https://www.facebook.com/groups/free.code.camp.stcollege.pa/)
     - [Wilkes-Barre](https://www.facebook.com/groups/free.code.camp.wilkesbarre/)
+    - [Williamsport](https://www.facebook.com/groups/free.code.camp.williamsport/)
   - Rhode Island
     - [Providence](https://www.facebook.com/groups/free.code.camp.providence/)
   - South Carolina
