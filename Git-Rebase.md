@@ -1,4 +1,4 @@
-# Git rebase
+# Git Rebase
 
 **Were you referred to this page to get your PR accepted? Scroll right [to the bottom](#git-rebase-at-fcc) then!**
 
@@ -6,7 +6,7 @@
 
 Let us say that you have a repository such as this:
 
-```
+```text
                                                   --- Commit 5 ----------- auth branch
                                                 /               
                                                --- Commit 4 -------------- dev branch 
@@ -20,14 +20,14 @@ Git provides you with two methods to do this: the `merge` command and the `rebas
 
 Let's run `rebase` now:
 
-```
-git checkout auth
-git rebase dev
+```sh
+$ git checkout auth
+$ git rebase dev
 ```
 
 The repo will now look like this:
 
-```
+```text
                                                                  --- Commit 5 --- auth branch
                                                                /
                                                --- Commit 4 --------------------- dev branch 
@@ -43,7 +43,7 @@ Do you see what happened? Git essentially saved the commits in the `auth` branch
 
 If you contribute to the FCC codebase, or are planning to do it, always run this command before you make any changes in your local files and push them:
 
-`git pull --rebase upstream staging` (thanks, @SaintPeter)
+`git pull --rebase upstream staging`
 
 If you don't have `upstream` set up, then run this command before you run the above command (git will throw an error because it doesn't know what upstream is): `git remote add upstream https://github.com/freecodecamp/freecodecamp.git`
 
