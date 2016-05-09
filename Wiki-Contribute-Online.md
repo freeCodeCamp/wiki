@@ -38,7 +38,7 @@ Next is to click on `Create Pull Request`. it is the green button and it will ta
 
 The first thing you will notice is the title with the pull request number, in the example it is `#393`. Next, is the status of the pull request, it will either be `Open`, `Closed` or `Merged`.
 
-You can click on the tabs to view the commits. Always try to have everything in one commit, or as few as possible if you have a good reason to have more than one commit. If you have multiple commits and need to **squash** them then follow these [instructions](https://github.com/freecodecamp/freecodecamp/wiki/git-rebase#squashing-multiple-commits-into-one).
+You can click on the tabs to view the commits. Always try to have everything in one commit, or as few as possible if you have a good reason to have more than one commit. If you have multiple commits and need to **squash** them then follow these [instructions](Git-Squash).
 
 That's it, you can reference people by adding `@` before their name. You can reference other issues or pull requests by adding their id, which would be `#393` from the example in _Figure 1d_.
 
@@ -53,7 +53,7 @@ Always delete the branch after the pull request has been merged or closed. There
 _Figure 1f_ ![Delete Branch](http://i.imgur.com/vePGN3Y.png)
 
 ### 2. New Pull Request Button
-This is used to create [pull requests](How-To-Create-A-Pull-Request-for-Free-Code-Camp) from files that are already in existing branches, not really for adding new files. So if you are looking to add new files then check the other options. It will look like this:
+This is used to create [pull requests](FCC-Pull-Request) from files that are already in existing branches, not really for adding new files. So if you are looking to add new files then check the other options. It will look like this:
 - _Figure 2a_ ![PR Button](http://i.imgur.com/WryvU3P.png)
 
 You will have to select the **base** branch which and then select the branch you want to submit a pull request against to. This means your changes are already on the branch and for some reason you did not submit the pull request before. Because of **write access** being required regular users should not be able to create new branches on the repository.

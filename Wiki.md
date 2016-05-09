@@ -49,7 +49,7 @@ We currently have a couple of guides to help you contribute, via the browser, co
 - [How to Contribute to the Wiki Locally](Wiki-Contribute-Local-GUI): This guide shows you how to make changes to the wiki from a local copy on your computer; it also works for contributing to the main repository.
 - [Pull Request Guidelines](PULL_REQUEST_TEMPLATE)
 - [More on How to Make a Pull Request from a Fork](Pull-Request-Contribute)
-- [How to Squash Commits](git-rebase#squashing-multiple-commits-into-one): We require only one commit per pull request, unless otherwise specified by a moderator.
+- [How to Squash Commits](Git-Squash): We require only one commit per pull request, unless otherwise specified by a moderator.
 
 ### Labels
 

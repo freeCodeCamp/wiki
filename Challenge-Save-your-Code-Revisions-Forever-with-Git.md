@@ -6,8 +6,8 @@ After you learn how to use git, here are other resources to help you learn more 
 
 - [Creating a New Github Issue](Creating-a-New-Github-Issue)
 - [Git Blame](Git-Blame)
-- [Git Merge](git-merge)
-- [Git Rebase](git-rebase)
+- [Git Merge](Git-Merge)
+- [Git Rebase](Git-Rebase)
 - [Other Git Resources](Git-Resources)
 - [Writing Great Git Commit Messages](Writing-great-git-commit-message)
 - [Using GitHub Pages for your front end dev projects](Using-Github-Pages-for-your-front-end-development-projects)

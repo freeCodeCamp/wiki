@@ -4,7 +4,7 @@ When you want to work on any of the translations, we encourage you to leave a co
 
 Check the technical steps in this guide for doing translations.
 
-After this you will have up to 15 days to create a [Pull Request](How-To-Create-A-Pull-Request-for-Free-Code-Camp) with the proposed translation or updating an existing one.
+After this you will have up to 15 days to create a [Pull Request](FCC-Pull-Request) with the proposed translation or updating an existing one.
 
 We invite you to check the directories and files in  [`seeds/challenges`](https://github.com/FreeCodeCamp/FreeCodeCamp/tree/staging/seed/challenges) for doing translations.
 
