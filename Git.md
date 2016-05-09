@@ -2,15 +2,11 @@
 
 A collection of resources on the [Git VCS](https://git-scm.com).
 
-```
-$ git --distributed-is-the-new-centralized
-```
+Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 
-_Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency._
+## Articles
 
-## Resources
-
-- [Ammend Last](Git-Amend-Last)
+- [Amend Last](Git-Amend-Last)
 - [Aliases](Git-Aliases)
 - [Git Behind a Proxy](Git-Behind-Proxy)
 - [Blame](Git-Blame)
@@ -20,7 +16,7 @@ _Git is a free and open source distributed version control system designed to ha
 - [Clone a specific branch](Git-Clone-Specific-Branch)
 - [Delete a branch both locally and remotely](Git-Delete-a-Branch-both-locally-and-remotely)
 - [Discard unstaged changes](Git-Discard-Unstaged-Changes)
-- [Force git to overwrite local files on pull](Git-Force-Git-to-overwrite-local-files-on-pull) 
+- [Force git to overwrite local files on pull](Git-Pull-Overwrite-Local-Files) 
 - [Merge](Git-Merge)
 - [Pull vs Fetch](Git-Pull-Vs-Git-Fetch)
 - [Push local to remote repository](Git-Push-Local-To-Remote-Repository)

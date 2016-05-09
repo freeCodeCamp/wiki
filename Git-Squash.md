@@ -19,4 +19,6 @@ pick commit_n
 
 Leave the first commit alone, and change the rest of the `pick`s to `squash`. Save and exit the editor.
 
-If you've already pushed to a remote before squashing your commits, you'll have to push to the remote again, with the `-f` flag, otherwise git will throw an error at you. Happy coding!
+If you've already pushed to a remote before squashing your commits, you'll have to push to the remote again, with the `-f` flag, otherwise git will throw an error at you.
+
+It is strongly suggested that you read the information in the opened file as there are many things you can do.

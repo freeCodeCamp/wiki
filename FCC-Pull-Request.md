@@ -45,7 +45,7 @@ to add all unstaged files.  Take care, though, because you can accidentially add
 9. [Squash your commits](Git-Squash), if there are more than one.
 10. Push your commits to your GitHub Fork:
 `git push -u origin branch/name-here`
-11. Go to [Common Steps](How-To-Create-A-Pull-Request-for-Free-Code-Camp#common-steps)
+11. Go to [Common Steps](FCC-Pull-Request#common-steps)
 
 # Editing via the GitHub Interface
 **Note:** Editing via the GitHub Interface is not recommended, since it is not possible to update your fork via GitHub's interface without deleting and recreating your fork.
@@ -56,7 +56,7 @@ Note: Branch naming is important.
 Use a name like `fix/short-fix-description` or `feature/short-feature-description`
 Review the [Contribution Guidelines](https://github.com/FreeCodeCamp/FreeCodeCamp/blob/staging/CONTRIBUTING.md) for more detail.
 3. Edit the file and commit the changes.
-4. Continue to [Common Steps](How-To-Create-A-Pull-Request-for-Free-Code-Camp#common-steps)
+4. Continue to [Common Steps](FCC-Pull-Request#common-steps)
 
 
 # Common Steps
