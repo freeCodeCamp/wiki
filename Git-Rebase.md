@@ -1,4 +1,4 @@
-# Git rebase
+# Git Rebase
 
 **Were you referred to this page to get your PR accepted? Scroll right [to the bottom](#git-rebase-at-fcc) then!**
 
@@ -20,7 +20,7 @@ Git provides you with two methods to do this: the `merge` command and the `rebas
 
 Let's run `rebase` now:
 
-```
+```sh
 git checkout auth
 git rebase dev
 ```
