@@ -20,10 +20,10 @@ Note: The labels ***blocked***, ***confirmed***, and ***QA*** are also tied to [
 | device specific    | The issue presents only for a particular device (smartphone, tablet, desktop, etc.).|
 | Discussing         | This issue is currently at the discussion stage. |
 | duplicate          | This issue duplicates another issue and most likely will be closed.|
-| easy               | This issue is not critical but should be easy for a camper to fix within their first couple of PRs. Think of these as the camper's gateway to becoming a contributor. |
 | enhancement        | Similar to a Feature Request, but more related to improving existing features rather than adding new ones.|
 | feature request    | A request to add a feature to FCC. For example, a request to add the ability to edit or remove Algorithms from a camper's profile page.|
 | firefox            | The issue can be reproduced only in Mozilla Firefox.|
+| first timers only  | This issue is not critical but should be easy for a camper to fix within their first couple of PRs. Think of these as the camper's gateway to becoming a contributor. |
 | help wanted        | Owners or issue moderators need campers' help to investigate or fix the issue.|
 | hikes              | The issue is related to Hikes (which are not currently available in the curriculum).|
 | ie/edge            | The issue can be reproduced only in Internet Explorer or Microsoft Edge. FCC officially supports only Google Chrome.|
