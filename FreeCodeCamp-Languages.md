@@ -1,3 +1,5 @@
+# What to do if you speak a language not yet supported by Free Code Camp
+
 Translation is an all-or-nothing proposal.
 
 We won't be able to add new languages to Free Code Camp until all of our 
@@ -8,4 +10,4 @@ the translation as the challenges are gradually updated (we use the
 github issue system to keep record).  
 
 If you're able to help us, please join the [gitter channel](https://gitter.im/FreeCodeCamp/Translators)
-and read the [TranslationGuide](https://github.com/FreeCodeCamp/wiki/blob/master/Translations-Guide.md)
+and read the [TranslationGuide](Translations-Guide.md)

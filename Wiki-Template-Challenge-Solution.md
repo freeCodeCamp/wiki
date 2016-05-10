@@ -1,6 +1,14 @@
+# Algorithm Article Template
+
+> This is the template that you should follow when writing new algorithm solutions or adding content, always make sure the latest version of this templated is implemented on your [pull request](PULL_REQUEST_TEMPLATE)
+
+## &nbsp;
+
+# Algorithm [add name here]
+
 :triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](How-to-get-help-when-you-get-stuck) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :memo:
 
-# :checkered_flag: Problem Explanation:
+## :checkered_flag: Problem Explanation:
 
 Explain what is asked, in an easy to understand and detailed way.
 

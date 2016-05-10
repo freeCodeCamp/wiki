@@ -1,4 +1,4 @@
-Pair programming is a great way to learn programming! [Read why.](https://github.com/FreeCodeCamp/freecodecamp/wiki/Why-You-Should-Try-Pair-Programming)
+Pair programming is a great way to learn programming! [Read why.](Pair-Programming-Why)
 
 1. **Communicate well with your partner.** Voice chat will make communication easy, let you focus on learning, and will allow you to use your time effectively.
 

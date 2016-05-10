@@ -1,6 +1,6 @@
 # If you're new to Free Code Camp, or just new to the wiki, start here:
 ## Curriculum
-- [What you will learn, and in what sequence you will learn it](What-you-will-learn,-and-in-what-sequence-you-will-learn-it)
+- [What you will learn, and in what sequence you will learn it](FreeCodeCamp-Curriculum-Sequence)
 - [How long does Free Code Camp take?](How-Long-Free-Code-Camp-Takes)
 - [What are these brownie points?](Brownie-Points)
 - [The Front End Development Certificate](Free-Code-Camp-Front-End-Development-Certificate)
@@ -10,7 +10,7 @@
 - The Coding Interview Preparation
 - [Guide to Back End Projects](Guide-to-Back-End-Projects-Table-of-Contents)
 - [Back End Project Resources](Back-End-Project-Resources)
-- [Why JavaScript?](Why-does-Free-Code-Camp-use-JavaScript-instead-of-Ruby-or-Python)
+- [Why JavaScript?](FreeCodeCamp-Why-JavaScript)
 
 ## Community
 - [Code of Conduct](Code-of-Conduct)

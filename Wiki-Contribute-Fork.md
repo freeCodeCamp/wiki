@@ -1,4 +1,4 @@
-# How to get a fork of our wiki and keep it syncronized
+# How to Fork our Wiki and Keep It Syncronized
 
 These steps are standard for contributing not only to our wiki but any other project once you understand what is going on.
 

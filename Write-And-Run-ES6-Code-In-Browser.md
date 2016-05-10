@@ -1,3 +1,5 @@
+# Write and Run ES6 Code in the Browser
+
 > Include the following code in the page.
 
 ```html

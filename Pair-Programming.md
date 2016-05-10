@@ -1,3 +1,5 @@
+# Pair Programming
+
 Pair programming is where two people code together on one computer.
 
 ![](http://cs10.org/sp15/resources/images/pairprogramming.jpg)
@@ -8,4 +10,4 @@ Because of its benefits, many engineers pair program full time. And it's the bes
 
 You can experience these benefits by pair programming with other Free Code Camp students on our coding challenges. Eventually, you'll work with people at nonprofits to build real-life software solutions.
 
-Here's [why you should try pair programming](https://github.com/FreeCodeCamp/freecodecamp/wiki/Why-You-Should-Try-Pair-Programming) and here are some tips on [how to be a good pair programmer](https://github.com/FreeCodeCamp/freecodecamp/wiki/Tips-on-How-To-Become-A-Good-Pair-Programmer).
+Here's [why you should try pair programming](Pair-Programming-Why) and here are some tips on [how to be a good pair programmer](Tips-on-How-To-Become-A-Good-Pair-Programmer).

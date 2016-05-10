@@ -2,18 +2,15 @@
 
 Here you will find all wiki related information with regards to guidelines for contributing, moderating, and tips on using the wiki.
 
-## Table of Content
+### Table of Content
 
 1. [Using the Wiki](#using-the-wiki)
 2. [Contribution Guides](#contribution-guides)
-
   - [Label Guides](#labels)
   - [Issue Guides](#issues)
   - [Mods Guides](#moderators)
   - [Translation Guide](#translation)
-
 3. [Templates](#templates)
-
   - [Articles](#article-templates)
   - [Contribution Templates](#contribution-templates)
 
@@ -50,6 +47,7 @@ We currently have a couple of guides to help you contribute, via the browser, co
 - [Pull Request Guidelines](PULL_REQUEST_TEMPLATE)
 - [More on How to Make a Pull Request from a Fork](Pull-Request-Contribute)
 - [How to Squash Commits](Git-Squash): We require only one commit per pull request, unless otherwise specified by a moderator.
+- [Create markdown articles using atom](Wiki-Create-Articles-With-Atom): this guide will help you write articles with atoma nd its markdown previwer.
 
 ### Labels
 
