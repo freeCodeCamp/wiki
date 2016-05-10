@@ -106,7 +106,7 @@ Here's the syntax I used to [create this simple BluePrint](https://jsapi.apiary.
 
 I recommend you create an account and start playing with it. If you link your [GitHub](http://github.com/) account with Apiary, you can ensure your documentation always stays up to date. You'll also be able to test your data visually without the need for actually hitting your API endpoints. If you prefer to test your API from the command line, [here's an example of how to do this](http://docs.agendor.apiary.io/).
 
-Later, once you've implemented your API with Node.js and Express.js, you'll just need to set your URL in Apiary. Then you can start testing your calls. Our current host url (<http://fcctodoapp.apiblueprint.org/>) will be replaced by your API's URL.
+Later, once you've implemented your API with Node.js and Express.js, you'll just need to set your URL in Apiary. Then you can start testing your calls. Our current host url ([http://fcctodoapp.apiblueprint.org/](http://fcctodoapp.apiblueprint.org/)) will be replaced by your API's URL.
 
 ![App demo picture](https://lh6.googleusercontent.com/hU3ilG_y9FqtL_zajQ_KOjWy8Qx590Go8nkNvA1j0oR50YJTpjJhL1lAPgjyeLTAS06tq6V62EcJrLQyT_TR2BK49DYiX6kksU6s9cqJDvvaS6jvepIM6uiO4JMbXuu-oXhdsas)
 
