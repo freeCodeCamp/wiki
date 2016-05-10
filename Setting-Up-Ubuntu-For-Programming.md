@@ -8,7 +8,7 @@
 
 [3. Jazzing up the Terminal](Ubuntu-Jazzing-up-the-Terminal)
 
-[4. Installing DevTools and modern web browsers](Ubuntu-Installing-DevTools-and-Modern-Web-Browsers)
+[4. Installing DevTools and modern web browsers](Ubuntu-Installing-DevTools)
 
 [5. Downloading Text Editors and IDEs](Ubuntu-Downloading-Text-Editors-and-IDEs)
 
