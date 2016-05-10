@@ -4,9 +4,10 @@ We discuss popular Text Editors and IDEs and how to install them on Ubuntu.
 
 ## Popular choices:
 
-#### Text Editors
+### Text Editors
 
 **Installing Atom:**
+
 ```bash
 sudo add-apt-repository ppa:webupd8team/atom
 sudo apt-get update
@@ -14,6 +15,7 @@ sudo apt-get install atom
 ```
 
 **Installing Sublime Text 3:**
+
 ```bash
 sudo add-apt-repository ppa:webupd8team/sublime-text-3
 sudo apt-get update
@@ -22,13 +24,13 @@ sudo apt-get install sublime-text-installer
 
 **Installing Visual Studio Code:**
 
-Download the latest Visual Studio Coder package: https://code.visualstudio.com/Docs/?dv=linux64_deb
+Download the latest Visual Studio Coder package: [Visual Studio](https://code.visualstudio.com/Docs/?dv=linux64_deb)
 
 ```bash
 sudo dpkg -i vscode-amd64.deb
 ```
 
-#### IDEs
+### IDEs
 
 **Installing Eclipse:**
 
@@ -36,7 +38,7 @@ sudo dpkg -i vscode-amd64.deb
 sudo apt-get install openjdk-7-jdk
 ```
 
-Download the latest Eclipse package: http://www.eclipse.org/downloads/?osType=linux
+Download the latest Eclipse package: [Eclipse](http://www.eclipse.org/downloads/?osType=linux)
 
 ```bash
 sudo mv eclipse-inst-linux64.tar.gz /opt/ && cd /opt
@@ -62,7 +64,7 @@ You can now drag this file to the launcher, enabling you to start Eclipse.
 
 **Installing Intellij IDEA:**
 
-Download the latest version of Intellij IDEA: https://www.jetbrains.com/idea/download/#section=linux
+Download the latest version of [**Intellij IDEA**](https://www.jetbrains.com/idea/download)
 
 ```bash
 sudo mv idea-2016.1.1.tar.gz /opt/ && cd /opt
