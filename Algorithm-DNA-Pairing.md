@@ -1,6 +1,8 @@
+# Algorithm DNA Pairing
+
 ![](http://i.imgur.com/usiNBDU.jpg)
 
-# Problem Explanation:
+### Problem Explanation:
 - You will get a DNA strand sequence and you need to get the pair and return it as a 2D array of the base pairs. Keep in mind that the provided strand should be first always.
 
 ## Hint: 1
@@ -64,7 +66,7 @@ pairElement("GCG");
 ### Solution 2
 ```js
 function pairElement(str) {
-  //define a map object with all pair possibilities 
+  //define a map object with all pair possibilities
   var map = {T:'A', A:'T', G:'C', C:'G'};
   //split str into a a char Array
   strArr = str.split('');

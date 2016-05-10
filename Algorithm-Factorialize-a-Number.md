@@ -1,4 +1,6 @@
-# Problem Explanation:
+# Algorithm Factorialize a Number
+
+### Problem Explanation:
 Return the factorial of the provided integer. If the integer is represented with the letter n, a factorial is the product of all positive integers less than or equal to n.
 
 Factorials are often represented with the shorthand notation n!
@@ -30,7 +32,7 @@ Is 5 _equal_ to 1 or 0? **No** ---> Oki doki, let's continue...
 What it returns can be viewed as `(5*(4*(3*(2*1))))` or just `5 * 4 * 3 * 2 * 1`, and the function will return the result of that operation: `120`. Now, let's check what the rest of the executions do:
 
 ### During the rest of the executions:
-**Second Execution**: 
+**Second Execution**:
 _num_ = 5-1 = **4** -> is _num_ 0 or 1? No<br>
 --> return the multiplication between 4 and the next result when _num_ is now 4-1.
 

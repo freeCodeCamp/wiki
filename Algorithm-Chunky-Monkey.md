@@ -1,6 +1,8 @@
+# Algorithm Chunky Monkey
+
 ![](http://i.imgur.com/RdrnNvA.png)
 
-# Explanation
+### Explanation:
 Our goal for this Algorithm is to split `arr` (first argument) into smaller chunks of arrays with the length provided by `size` (second argument). There are 4 green checks (objectives) our code needs to pass in order to complete this Algorithm:
 1. `(['a', 'b', 'c', 'd'], 2)` is expected to be `[['a', 'b'], ['c', 'd']]`
 2. `([0, 1, 2, 3, 4, 5], 3)` is expected to be `[[0, 1, 2], [3, 4, 5]]`
@@ -159,4 +161,3 @@ function chunkArrayInGroups(arr, size) {
 If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @kirah1314 @Rafase282 @jsommamtek @oshliaer for your help with Algorithm: Chunky Monkey`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
-

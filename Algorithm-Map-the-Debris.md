@@ -1,6 +1,8 @@
+# Algorithm Map the Debris
+
 ![](http://i.imgur.com/jSJ4E7L.jpg)
 
-# Problem Explanation:
+### Problem Explanation:
 The first thing to do is to get familiar with what the program is for, for this I would suggest you check the Wikipedia link as that is very important and from where you can also get the formula for the conversion. The hardest part are finding the formula, implementing it and for some modifying objects by the key. However, something that is not very clear is the fact that your program has to be able to check for any number of objects in the array which is what is tested on the second part.
 
 ## Hint: 1
@@ -53,13 +55,13 @@ orbitalPeriod([{name : "sputnik", avgAlt : 35873.5553}]);
 function orbitalPeriod(arr) {
   var GM = 398600.4418;
   var earthRadius = 6367.4447;
-  
+
   //Looping through each key in arr object
   for(var prop in arr){
     //formula  of orbital period https://en.wikipedia.org/wiki/Orbital_period here a = avgAlt+earthRadius
-    //Rounding off the orbital period value 
+    //Rounding off the orbital period value
   var orbitalPer = Math.round(2*Math.PI*Math.sqrt(Math.pow(arr[prop].avgAlt+earthRadius,3)/GM));
-  //deleting the avgAlt property 
+  //deleting the avgAlt property
   delete arr[prop].avgAlt;
   //adding orbitalPeriod property
   arr[prop].orbitalPeriod = orbitalPer;

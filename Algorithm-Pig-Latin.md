@@ -1,4 +1,6 @@
-# Problem Explanation:
+# Algorithm Pig Latin
+
+### Problem Explanation:
 - You need to create a program that will translate from English to Pig Latin. Check the instructions for converting to Pig Latin from the initial description or the wiki page. It might not be obvious but you need to remove all the consonants up to the first vowel in the case there letter does not start with a vowel.
 
 ## Hint: 1
@@ -23,16 +25,16 @@ function translatePigLatin(str) {
   // Create variables to be used
   var pigLatin = '';
   var regex = /[aeiou]/gi;
-  
+
   // Check if the first character is a vowel
   if (str[0].match(regex)) {
     pigLatin = str + 'way';
-  
+
   } else {
-    
+
     // Find how many consonants before the first vowel.
     var vowelIndice = str.indexOf(str.match(regex)[0]);
-    
+
     // Take the string from the first vowel to the last char
     // then add the consonants that were previously omitted and add the ending.
     pigLatin = str.substr(vowelIndice) + str.substr(0, vowelIndice) + 'ay';
@@ -49,14 +51,14 @@ translatePigLatin("consonant");
 #### Second solution
 ```js
 function translatePigLatin(str) {
-  //finding all the consonants in the beginning of the str. 
+  //finding all the consonants in the beginning of the str.
   //by using && below I'm achiving a concept called Intersection of Regular Expressions
-  //where your pattern finds the union of two or more RegEx rules. 
-  //In Java you can achive this with RegEx special character '&&' 
-  //but in Javascript you can use the following instead. 
+  //where your pattern finds the union of two or more RegEx rules.
+  //In Java you can achive this with RegEx special character '&&'
+  //but in Javascript you can use the following instead.
   //Credit goes to http://stackoverflow.com/q/6595477
   var consChars = str.match(/^[a-z]/) && str.match(/[^aeiou]*/).join('');
-  
+
   //if no consonants found (i.e. str starts with vowels)
   //use replace to remove consonants and construct newStr else add 'way' in the end
   if (consChars !== ''){
@@ -78,19 +80,19 @@ translatePigLatin("consonant");
 function translatePigLatin(str) {
     var strArr = [];
     var tmpChar;
-    
+
     // check if the char is consonant using RegEx
     function isConsonant(char) {
         return !/[aeiou]/.test(char);
     }
-    
-    // return initial str + "way" if it starts with vowel 
+
+    // return initial str + "way" if it starts with vowel
     // if not - convert str to array
     if (!isConsonant(str.charAt(0)))
         return str + "way";
-    else 
+    else
         strArr = str.split("");
-        
+
     // push all consonats to the end of the array
     while (isConsonant(strArr[0])) {
         tmpChar = strArr.shift();
@@ -111,10 +113,10 @@ function translatePigLatin(str) {
   function check(obj) {
   	return ['a','i','u','e','o'].indexOf(str.charAt(obj)) == -1 ?
       										  check(obj+1) : obj;}
-      										  
+
   return str.substr(check(0))
-            .concat((check(0) === 0 ? 
-                        'w' : str.substr(0, check(0))) 
+            .concat((check(0) === 0 ?
+                        'w' : str.substr(0, check(0)))
                         + 'ay');
 }
 

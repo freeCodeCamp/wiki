@@ -1,4 +1,6 @@
-# Explanation:
+# Algorithm Truncate a String
+
+### Explanation:
 We need to reduce the length of the string or **truncate** it if it is longer than the given maximum lengths specified and add `...` to the end. If it is not that long then we keep it as is.
 
 ## Hint: 1
@@ -21,10 +23,10 @@ Do not forget that when we truncate the word, we also must count the length adde
 function truncateString(str, num) {
   if (str.length <= num)
     return str;
-  
+
   if (num <= 3)
     return str.substr(0,num) + "...";
-  
+
   return str.substr(0,num-3) + "...";
 }
 ```

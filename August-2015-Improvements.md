@@ -1,4 +1,6 @@
-## Sunday's Improvements
+# August 2015 Improvements
+
+## Improvements made:
 * replaced our getting-started videos with a simple 10-minute process (using GIFs instead of videos)
 * doubled the number of our HTML5 and Bootstrap challenges
 * replaced Codecademy's JavaScript and jQuery challenges with our own challenges
@@ -18,7 +20,7 @@
 You can just keep going. If you have time to go back and try our new challenges, they should be a quick review for you. Otherwise, keep moving forward.
 
 ### Why are you deploying all these improvements at once?
-We've been working on some of the features for months on our Staging branch. Most of them were held up by a single task: our transition to [Loopback](http://loopback.io/). @BerkeleyTrue started working on this back in March. 
+We've been working on some of the features for months on our Staging branch. Most of them were held up by a single task: our transition to [Loopback](http://loopback.io/). @BerkeleyTrue started working on this back in March.
 
 ### Was deploying everything at once necessary?
 Probably not. Going forward, we will deploy new code several times a day (as we did prior to the Loopback feature). We plan to start using a [continuous integration](https://en.wikipedia.org/wiki/Continuous_integration) and other agile best practices as we reduce our [technical debt](https://en.wikipedia.org/wiki/Technical_debt).

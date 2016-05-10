@@ -1,4 +1,6 @@
-# Explanation:
+# Algorithm Pairwise
+
+### Explanation:
 The program should look for the numbers in the array which would add to make the number from the **arg.** Then instead of adding those numbers up, you will add their **indices** which is the reason why you get 11 on the example from detail.
 
 Remember that arrays start at index 0 and go from there so from [1,4,2,3,0,5] if we switch to their indices it would be [0,1,2,3,4,5] then we add indices 1 + 2 + 3 + 5 and we get 11. That is what we need to return.
@@ -88,7 +90,7 @@ function pairwise(arr, arg) {
      //Set the indices to NaN so that they can't be used in next iteration
      arr[i] =arr[j] = NaN;
     }
-   } 
+   }
   }
  return sum;
 }

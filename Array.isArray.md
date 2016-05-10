@@ -9,7 +9,7 @@ Array.isArray(obj)
 ### Parameters
 
 **obj**
-The object to be checked. 
+The object to be checked.
 
 [MDN link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray) | [MSDN link](https://msdn.microsoft.com/en-us/LIBRary/ff848265%28v=vs.94%29.aspx)
 
@@ -21,7 +21,7 @@ Array.isArray([]);
 Array.isArray([1]);
 Array.isArray(new Array());
 // Little known fact: Array.prototype itself is an array:
-Array.isArray(Array.prototype); 
+Array.isArray(Array.prototype);
 
 // all following calls return false
 Array.isArray();

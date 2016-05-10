@@ -1,4 +1,6 @@
-# Problem Explanation:
+# Algorithm Validate US Telephone Numbers
+
+### Problem Explanation:
 - The task is not that hard to understand, implementing it is the hardest part. You have a to validate an US phone number. This means there is a certain amount of numbers required, while you don't need to put the country code, you will still need the area code and use one of the few formats allowed.
 
 ## Hint: 1
@@ -20,9 +22,9 @@
 
 ```js
 function telephoneCheck(str) {
-    
+
    var regex = /^(1\s?)?(\(\d{3}\)|\d{3})[\s\-]?\d{3}[\s\-]?\d{4}$/;
-  
+
    return regex.test(str);
 }
 
@@ -42,7 +44,7 @@ telephoneCheck("555-555-5555");
 
 ```js
 function telephoneCheck(str) {
-  // Comprehensive regex from @dting 
+  // Comprehensive regex from @dting
   var re = /^(?:(?:\+?1\s*(?:[.-]\s*)?)?(?:\(\s*([2-9]1[02-9]|[2-9][02-8]1|[2-9][02-8][02-9])\s*\)|([2-9]1[02-9]|[2-9][02-8]1|[2-9][02-8][02-9]))\s*(?:[.-]\s*)?)?([2-9]1[02-9]|[2-9][02-9]1|[2-9][02-9]{2})\s*(?:[.-]\s*)?([0-9]{4})$/;
 
   return re.test(str);

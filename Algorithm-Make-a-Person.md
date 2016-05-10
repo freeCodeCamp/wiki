@@ -1,4 +1,6 @@
-# Explanation:
+# Algorithm Make a Person
+
+### Explanation:
 When I started the program I figured I just had to create the six functions mentioned in the details. However, it was not that simple. Creating them as a function was not the right way, I had to create them in a different way to make them a key.
 
 There is also a tricky part as you need six keys no more or less, so at first I had the variable that store the original name as a key too which was wrong.
@@ -47,7 +49,7 @@ var Person = function(firstAndLast) {
   this.setLastName = function(name) {
     fullName = fullName.split(" ")[0] + " " + name;
   };
-  
+
   this.setFullName = function(name) {
     fullName = name;
   };

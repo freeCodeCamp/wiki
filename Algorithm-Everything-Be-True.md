@@ -1,6 +1,8 @@
+# Algorithm Everything Be True
+
 ![](http://i.imgur.com/oKEJJJI.jpg)
 
-# Explanation:
+### Explanation:
 The program needs to check if the second argument is a [truthy](js-truthy) element, and it must check this for each object in the first argument.
 
 ### Hint: 1
@@ -67,7 +69,7 @@ function truthCheck(collection, pre) {
   return collection.reduce(function(acc, next) {
     if (next[pre]) {
       return acc;
-    } 
+    }
     else {
       acc = false;
       return acc;
@@ -82,7 +84,7 @@ truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "ma
 
 ### Code Explanation:
 - Set initial reduce value to true.
-- Change it to false only when there is no key of a given name or it's falsy. Otherwise stick to the initial truthy value. 
+- Change it to false only when there is no key of a given name or it's falsy. Otherwise stick to the initial truthy value.
 
 # Credits:
 If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @estevanmaito @HermanFassett for your help with Algorithm: Everything  Be True`**

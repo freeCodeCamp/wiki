@@ -1,6 +1,8 @@
+# Algorithm Caesars Cipher
+
 :triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](How-to-get-help-when-you-get-stuck) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :memo:
 
-# :checkered_flag: Problem Explanation:
+### :checkered_flag: Problem Explanation:
 - You need to write a function, which will take a string encoded with
 *Caesar cipher* as a parameter and decode it.
 - The one used here is ROT13 where the value of the letter is
@@ -83,7 +85,7 @@ function rot13(str) {
     //regEx.test(str[x]) will return (true or false) if it maches the regEx or not
     if (regEx.test(str[x])) {
       // A more general approach
-      // possible because of modular arithmetic 
+      // possible because of modular arithmetic
       // and cyclic nature of rot13 transform
       rotCharArray.push((str[x].charCodeAt() - 65 + 13) % 26 + 65);
     } else {

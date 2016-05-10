@@ -1,4 +1,6 @@
-# Explanation:
+# Algorithm Finders Keepers
+
+### Explanation:
 The problem is quite simple to understand. You will check for each element in the array that is passed in the first argument, if the element plugged in to the function passed as the second argument returns true the first time. We do not care about the second or third one that is true, only the very first one if any. If there are none, then return undefined. This last bit is not explained but it is part of the tests used.
 
 ## Hint: 1
@@ -48,7 +50,7 @@ findElement([1, 2, 3, 4], function(num){ return num % 2 === 0; });
 ```js
 function findElement(arr, func) {
   filterArr = arr.filter(func); //filter array with the function provided
-  
+
   return filterArr[0]; //return the first element that returns true, or undefined if no elements return true
 }
 

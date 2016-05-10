@@ -1,4 +1,6 @@
-# Problem Explanation:
+# Algorithm Exact Change
+
+### Problem Explanation:
 
 - You have to create a program that will handle when the register does not have
   enough cash or will have no cash after the transaction. Other than that it

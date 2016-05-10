@@ -1,6 +1,8 @@
+# Algorithm Falsy Bouncer
+
 ![](http://i.imgur.com/GluUbAz.jpg)
 
-# Problem Explanation:
+### Problem Explanation:
 Remove all [falsy](js-falsy) values from an array.
 
 ## Hint: 1

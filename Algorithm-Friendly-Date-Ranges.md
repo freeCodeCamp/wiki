@@ -1,4 +1,6 @@
-# Problem Explanation:
+# Algorithm Friendly Date Ranges
+
+### Problem Explanation:
 - Create a program that will take two dates and convert them into a more easy to understand date such as `January 1st, 2017`. It will also check the difference between them, and handles cases with no difference, more than a day, more than a month, more than a year, and more than a month and less than a year respectively.
 
 ## Hint: 1
@@ -57,7 +59,7 @@ function makeFriendlyDates(str) {
     var month1 = date1.getUTCFullYear() * 12 + date1.getUTCMonth();
     return month2 - month1;
   }
-  
+
   //day diff
   function dayDiff(date1, date2) {
     if(date2.getUTCMonth() === date1.getUTCMonth()){
@@ -82,7 +84,7 @@ function makeFriendlyDates(str) {
     if (date1.getUTCMonth() === date2.getUTCMonth() && date1.getUTCFullYear() === date2.getUTCFullYear()) {
       return [getMonth(date1) + ' ' + dateEnding(date1.getUTCDate()), dateEnding(date2.getUTCDate())];
     }
-    
+
     // Handles more than a month of difference, but less than 12 months and different year
     if (monthDiff(date1, date2) < 12 && date1.getUTCFullYear() !== date2.getUTCFullYear() ) {
       return [getMonth(date1) + ' ' + dateEnding(date1.getUTCDate()), getMonth(date2) + ' ' + dateEnding(date2.getUTCDate())];
@@ -92,7 +94,7 @@ function makeFriendlyDates(str) {
     if (monthDiff(date1, date2) <= 12 && dayDiff(date1, date2)>0) {
       return [getMonth(date1) + ' ' + dateEnding(date1.getUTCDate())+', '+date1.getUTCFullYear(), getMonth(date2) + ' ' + dateEnding(date2.getUTCDate())];
     }
-    
+
     // Handles more than a month of difference, but less than 12 months and same year
     if (monthDiff(date1, date2) < 12) {
       return [getMonth(date1) + ' ' + dateEnding(date1.getUTCDate())+', '+date1.getUTCFullYear(), getMonth(date2) + ' ' + dateEnding(date2.getUTCDate())];

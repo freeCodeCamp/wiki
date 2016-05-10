@@ -1,6 +1,8 @@
+# JavaScript Arithmetic Operators
+
 JavaScript provides the user with five arithmetic operators: `+`, `-`, `*`, `/` and `%`. The operators are for addition, subtraction, multiplication, division and remainder respectively.
 
-### Addition
+## Addition
 **Syntax**
 
 `a + b`
@@ -17,8 +19,8 @@ true + "bar"   // concatenates the boolean value and returns "truebar"
 
 *Hint:* There is a handy [increment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Increment_()) operator that is a great shortcut when you're adding numbers by 1.
 
-### Subtraction
-**Syntax** 
+## Subtraction
+**Syntax**
 
 `a - b`
 
@@ -33,8 +35,8 @@ true + 3   // interprets true as 1 and returns 4
 
 *Hint:* There is a handy [decrement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Decrement_(--)) operator that is a great shortcut when you're subtracting numbers by 1.
 
-### Multiplication
-**Syntax** 
+## Multiplication
+**Syntax**
 
 `a * b`
 
@@ -49,7 +51,7 @@ Infinity * 0         // returns NaN
 Infinity * Infinity  // returns Infinity
 ```
 
-### Division
+## Division
 **Syntax**
 
 `a / b`
@@ -67,7 +69,7 @@ true / 2             // interprets true a 1 and returns 0.5
 Infinity / Infinity  // returns NaN
 ```
 
-### Remainder
+## Remainder
 **Syntax**
 
 `a % b`
