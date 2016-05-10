@@ -75,7 +75,7 @@ function fearNotLetter(str) {
 
       /* if current character has escaped one character find previous char and return*/
       return String.fromCharCode(code-1);
-    }  
+    }
   }
   return undefined;
 }
@@ -147,6 +147,22 @@ fearNotLetter("abce");
 ```
 :rocket: [REPL It!](https://repl.it/CLnG/0)
 
+### Sixth solution:
+
+```js
+function fearNotLetter(str) {
+  for (var i = 1, l = str.length; i < l; i += 1) {
+    if (str.charCodeAt(i) !== (str.charCodeAt(i - 1) + 1) ) {
+      return String.fromCharCode(str.charCodeAt(i) - 1);
+    }
+  }
+}
+
+// test here
+fearNotLetter("abce");
+```
+:rocket: [REPL It!](https://repl.it/CPYk)
+
 # Code Explanation:
 ## First and second solutions:
 - Read comments in code.
@@ -168,7 +184,17 @@ fearNotLetter("abce");
 - Create a Regular Expression for anything except `str`
 - Use `match()` to strip off the `str` letters from your newly created String
 
+## Sixth solution:
+- for each letter in the string
+  - if the `charCode` of the `current letter` is not equal to 1 + the `charCode` of the `previous letter`
+  - then there is a missing letter
+    - missing letter could be retrieved via `String.fromCharCode()`
+    - `String.fromCharCode( 1 less than the charCode of the current letter )`;
+    - and `return` the string retrieved in the previous step
+    - the function ends there and it has `returned`
+  - if there is no missing letter, the function will return `undefined` implicitly.
+
 # Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @rohitnwn @sabahang @Hallaathrad for your help with Algorithm: Missing Letters`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @rohitnwn @sabahang @Hallaathrad @sarbbottam for your help with Algorithm: Missing Letters`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
