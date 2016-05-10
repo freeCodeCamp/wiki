@@ -19,4 +19,4 @@ Now, some weeks later I've pair programmed and reviewed code with more than 40 c
 - Pair with **less** experienced dev to **test your knowledge**
 - Gain a new skill that will be useful for interviews and employment down the road
 
-With the right person, pair programming is one of the best ways to learn at the same time as you make new friends! [You might also want to know how you could be a good pair programmer!](Tips-on-How-To-Become-A-Good-Pair-Programmer)
+With the right person, pair programming is one of the best ways to learn at the same time as you make new friends! [You might also want to know how you could be a good pair programmer!](Pair-Programming-Tips)

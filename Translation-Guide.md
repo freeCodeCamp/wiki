@@ -1,6 +1,4 @@
-# Translations Guide
-
-## Guidelines for translating FreeCodeCamp to any language
+# Guidelines for translating FreeCodeCamp to any language
 
 Thank you so much for your interest in translating FreeCodeCamp. Reading this document is recommended for participating in a collective effort to bring FreeCodeCamp to more and more people all around the world.
 
@@ -50,8 +48,6 @@ Seeing the final product as you advance with the translation can help you to sta
 - [Documentation of the source code of FreeCodeCamp.](https://github.com/FreeCodeCamp/FreeCodeCamp/blob/staging/README.md)
 - [Pull Request Contribute](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Pull-Request-Contribute)
 - [Help files for translating FreeCodeCamp's challenges and indications using Google Translator Toolkit.](https://github.com/vtamara/fcc_trad/blob/master/README.md)
-
---------------------------------------------------------------------------------
 
 If you find it useful, you can translate these instructions to your language and adapt them for your translation team (see for example, [original in Spanish.](https://github.com/vtamara/fcc_trad/blob/master/Recomendaciones.md))
 

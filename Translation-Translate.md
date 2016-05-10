@@ -2,6 +2,8 @@
 
 When you want to work on any of the translations, we encourage you to leave a comment like `"Working on it"` on the [open/ongoing translation issues](https://github.com/FreeCodeCamp/FreeCodeCamp/issues?q=is%3Aissue+is%3Aopen+label%3Atranslation). This will notify the contributors about your interest in doing the translation.
 
+##  
+
 Check the technical steps in this guide for doing translations.
 
 After this you will have up to 15 days to create a [Pull Request](FCC-Pull-Request) with the proposed translation or updating an existing one.
@@ -16,7 +18,7 @@ We invite you to check the directories and files in  [`seeds/challenges`](https:
 
  2. From your GitHub account [_fork_](https://help.github.com/articles/fork-a-repo) the FreeCodeCamp repository ([https://github.com/FreeCodeCamp/FreeCodeCamp](https://github.com/FreeCodeCamp/FreeCodeCamp)). That's it! Now, you have a _fork_ of the original repo under your account.
 
- ![Forking Free Code Camp's Repository](./images/Translations-Guide/Forking-FreeCodeCamp.gif)
+ ![Forking Free Code Camp's Repository](./images/Translation-Guide/Forking-FreeCodeCamp.gif)
 
  3. Launch a terminal/command prompt and clone a local copy of your fork to your computer (replace the word `USERNAME` with your github account's username):
 
@@ -56,5 +58,4 @@ We invite you to check the directories and files in  [`seeds/challenges`](https:
 
 If you think that you can't continue for a while with the translation, you can leave a comment on the same issue, indicating that another person should continue. You can push your changes so far so the next person won't duplicate your hard work.
 
--------
-[**Back to Translations Guide**](Translations-Guide)
+[**Back to Translations Guide**](Translation-Guide)

@@ -10,4 +10,4 @@ Because of its benefits, many engineers pair program full time. And it's the bes
 
 You can experience these benefits by pair programming with other Free Code Camp students on our coding challenges. Eventually, you'll work with people at nonprofits to build real-life software solutions.
 
-Here's [why you should try pair programming](Pair-Programming-Why) and here are some tips on [how to be a good pair programmer](Tips-on-How-To-Become-A-Good-Pair-Programmer).
+Here's [why you should try pair programming](Pair-Programming-Why) and here are some tips on [how to be a good pair programmer](Pair-Programming-Tips).

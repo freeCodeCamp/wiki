@@ -2,6 +2,8 @@
 
 > Many people want to collaborate, but get intimidated by the learning curve of Git and "Contribution Procedures" in general. While it's not difficult to get started, it's always nice to have someone to help you if you get stuck. These chat rooms are the best places to communicate whenever you need any assistance.
 
+##  
+
 Please join the gitter channel [**`[FreeCodeCamp/Translators]`**](https://gitter.im/FreeCodeCamp/Translators) and also join the channel for translators of your specific language (if it exists):
 
 | Language | Chat Room |
@@ -27,7 +29,6 @@ If it doesn't exist, we recommend you to [create a chat room on Gitter](https://
 
 If you need help in creating a chat room or just getting started, we advice you visit the official translators chat room of FreeCodeCamp at [**`[FreeCodeCamp/Translators]`**](https://gitter.im/FreeCodeCamp/Translators). You could also go there to recruit new translators for your language every once in a while. Its frequented by many campers and is a great place to connect with like minded translators.
 
-[![Joining Translators Chat Room](./images/Translations-Guide/Gitter_Chat.gif)](https://gitter.im/FreeCodeCamp/Translators)
+[![Joining Translators Chat Room](./images/Translation-Guide/Gitter_Chat.gif)](https://gitter.im/FreeCodeCamp/Translators)
 
--------
-[**Back to Translations Guide**](Translations-Guide)
+[**Back to Translations Guide**](Translation-Guide)

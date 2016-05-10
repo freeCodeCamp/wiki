@@ -2,13 +2,15 @@
 
 Before starting translations of challenges GitHub issues need to be created specific to the language of translation. Translators should create issues with the details of the challenges to be tracked in that particular issue.
 
-[![Create a translations issue](./images/Translations-Guide/Create_A_Issue.gif)](https://gitter.im/FreeCodeCamp/Translators)
+##  
+
+[![Create a translations issue](./images/Translation-Guide/Create_A_Issue.gif)](https://gitter.im/FreeCodeCamp/Translators)
 
 **FreeCodeCamp's [Issues Section](https://github.com/FreeCodeCamp/FreeCodeCamp/issues), has mainly two kinds of requests related with the translation of the challenges:**
 
 - Some to start the translation of one of the files in the directory `seeds/challenges`. See for example: [Issue #4544](https://github.com/FreeCodeCamp/FreeCodeCamp/issues/4544)
 
-[![Sample Issue](./images/Translations-Guide/ScreenShot_NewTranslation.png)](https://gitter.im/FreeCodeCamp/Translators)
+[![Sample Issue](./images/Translation-Guide/ScreenShot_NewTranslation.png)](https://gitter.im/FreeCodeCamp/Translators)
 
 - Other issues requesting to verify or to update an existing translation of one the files in directory `seeds/challenges`. For example: [Issue #6517](https://github.com/FreeCodeCamp/FreeCodeCamp/issues/6517). These can be reopened when there is a change in the English version of the challenge.
 
@@ -22,5 +24,4 @@ If you can't see any related issues, or that can't be reopened, then start by __
 
 > _Pro Tip : Follow the example shown above, for consistency in the formatting of the issues, like adding checklists for challenges._
 
--------
-[**Back to Translations Guide**](Translations-Guide)
+[**Back to Translations Guide**](Translation-Guide)
