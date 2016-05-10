@@ -1,4 +1,6 @@
-# How to take someone's PR and make your own based off it while keeping their commit
+# Improve Existing Pull Request by Another Contributor
+
+How to take someone's PR and make your own based off it while keeping their commit:
 
 1. Make a new branch, preferibly with the PR# of the original one.
 

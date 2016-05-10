@@ -9,13 +9,9 @@ GitHub Desktop is a GUI interface, but there are benefits to learning the comman
 ## Table Of Contents
 
 1. [Initial: One Time Setup](#initial-one-time-setup)
-
   - [Cloning](#cloning)
-
 2. [Part 1: Choose What To Work On](#part-1-choose-what-to-work-on)
-
 3. [Part 2: Making A New Branch](#part-2-making-a-new-branch)
-
 4. [Part 3: Getting Ready To Edit](#part-3-getting-ready-to-edit)
 5. [Part 4: Commit To Your Branch](#part-4-commit-to-your-branch)
 6. [Part 5: Pull Request To FCC Wiki Repo](#part-5-pull-request-to-fcc-wiki-repo)
@@ -25,17 +21,12 @@ GitHub Desktop is a GUI interface, but there are benefits to learning the comman
 
 1. Have a GitHub Account
 2. Get Git on your computer
-
   - [GitHub Desktop](https://desktop.github.com/). Also comes with Git Shell (a command line interface)
   - Other Git clients like Git Bash
-
 3. Go to the [Wiki Repo](https://github.com/FreeCodeCamp/wiki)
-
   - **CAREFUL:The Wiki is stored at a different repo than the main FCC site**
   - The above link is where you need to go
-
 4. Click on **Fork** if you don't already have a Fork
-
   - This will recreate the Wiki Repo under your username
   - This will also automatically create the same branches that the FCC wiki Repo has. Thus you will now have a master **branch** as well
 

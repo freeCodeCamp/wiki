@@ -9,7 +9,7 @@ After you learn how to use git, here are other resources to help you learn more 
 - [Git Merge](Git-Merge)
 - [Git Rebase](Git-Rebase)
 - [Other Git Resources](Git-Resources)
-- [Writing Great Git Commit Messages](Writing-great-git-commit-message)
+- [Writing Great Git Commit Messages](Git-Commit-Message)
 - [Using GitHub Pages for your front end dev projects](Using-Github-Pages-for-your-front-end-development-projects)
 - [Search your issue on GitHub](Searching-for-Your-Issue-on-Github)
 - [How Issue Mods Work](How-GitHub-Issue-Moderators-AKA-Issue-Mods-Work)

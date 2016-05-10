@@ -1,7 +1,7 @@
 New to Free Code Camp?
 
 - [Start Here](Start-Here)
-- [How to use this Wiki](Wiki)
+- [How to use this Wiki](Wiki-Central)
 - [Challenge Guides](Map)
 
 JS Concepts

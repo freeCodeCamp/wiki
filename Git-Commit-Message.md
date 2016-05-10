@@ -1,4 +1,4 @@
-### The seven rules of a great git commit message
+# Writing Good Git Commit Messages
 
 1. Separate subject from body with a blank line
 2. Limit the subject line to 50 characters

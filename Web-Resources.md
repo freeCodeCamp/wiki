@@ -1,7 +1,11 @@
-# Links
+# Web Resources
+
+Useful links to help you with your learning and projects.
+
+## Links
 - [Web Field Manual](http://webfieldmanual.com)
 
-# Debugging
+## Debugging
 - [node-inspector](https://www.npmjs.com/package/node-inspector)
 - [Brackets Live Preview](http://brackets.io)
 - [browser-sync](http://www.browsersync.io)

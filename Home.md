@@ -28,7 +28,7 @@ If we merge your pull request, your name will be automatically added to the docu
 
 ### Guides on how to Contribute
 
-They are all located on our [Wiki Central](Wiki) Page. Please take a look before anything else.
+They are all located on our [Wiki Central](Wiki-Central) Page. Please take a look before anything else.
 
 If you have questions about contributing to the Free Code Camp Wiki message [@Rafase282 in Gitter](https://gitter.im/Rafase282) or come the [Gitter Wiki Room.](https://gitter.im/FreeCodeCamp/Wiki)
 
