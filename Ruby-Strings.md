@@ -5,30 +5,30 @@
  * Strings are a series of characters 'strung' together between quotes.
  * Single or double quotes can be used to create strings in Ruby.
  * Ruby does some extra evaluation on strings that are created with double quotes, such as:
- 	*	Escaping characters: \n, \t, \s
- 	*	Using variables and expressions inside: #{variable or expression}
- * Strings with single quotes are rendered as they are without any special considerations.
+ 	*	Escaping characters: ```\n```, ```\t```, ```\s```
+ 	*	Using variables and expressions inside: ```#{variable or expression}```
+ * Strings with single quotes are rendered as they are, without any special considerations.
 
 **Examples:**
 
-```
+```ruby
 "Hello World"
-# is equivilant to:
+# is equivalent to:
 'Hello World'
 ```
-```
+```ruby
 "This is line 1.\nAnd this is line 2."
 # returns:
 This is line 1.
 And this is line 2.
 ```
-```
+```ruby
 name = "Batman"
 "Hello, my name is #{name}!"
 # returns:
 Hello, my name is Batman!
 ```
-```
+```ruby
 # Note that for single quotes, ruby doesn't take special consideration for variables or backslashes:
 'This is your name:\n#{name}'
 # returns:
@@ -40,10 +40,10 @@ This is your name:\n#{name}
 
 **Concatenation:**
 
-*	Strings can be joined together using the '+' operator.
+*	Strings can be joined together using the ```+``` operator.
 
 
-```
+```ruby
 "Hello" + " World" + "!"
 # returns:
 Hello World!
@@ -51,10 +51,10 @@ Hello World!
 
 **Multiplication:**
 
-*	Strings can be multiplied by an integer value using the '*' operator.
+*	Strings can be multiplied by an integer value using the ```*``` operator.
 
 
-```
+```ruby
 "Hello" * 3
 # returns:
 HelloHelloHello
@@ -66,36 +66,36 @@ HelloHelloHello
 
 ### length:
 
-*	The .length property returns the number of characters in a string including white-space.
+*	The ```.length``` property returns the number of characters in a string including white-space.
 
-```
+```ruby
 "Hello".length
 # returns: 5
 ```
-```
+```ruby
 "Hello World!".length
 # returns: 12
 ```
 
 ### count:
 
-*	The .count method counts how many times a specific character(s) is found in a string.
+*	The ```.count``` method counts how many times a specific character(s) is found in a string.
 *	This method is case-sensitive.
 
-```
+```ruby
 "HELLO".count('L')  
 # returns: 2
 ```
-```
+```ruby
 "HELLO WORLD!".count('LO')  
 # returns: 1
 ```
 
 ### insert:
 
-*	The .insert method inserts a string into another string before a given index.
+*	The ```.insert``` method inserts a string into another string before a given index.
 
-```
+```ruby
 "Hello".insert(3, "hi5")
 # returns:
 Helhi5lo
@@ -104,9 +104,9 @@ Helhi5lo
 
 ### upcase:
 
-*	The .upcase method transforms all letters in a string to uppercase.
+*	The ```.upcase``` method transforms all letters in a string to uppercase.
 
-```
+```ruby
 "Hello".upcase
 # returns:
 HELLO
@@ -114,9 +114,9 @@ HELLO
 
 ### downcase:
 
-*	The .downcase method transforms all letters in a string to lowercase.
+*	The ```.downcase``` method transforms all letters in a string to lowercase.
 
-```
+```ruby
 "Hello".downcase
 # returns:
 hello
@@ -124,20 +124,20 @@ hello
 
 ### capitilize:
 
-*	The .capitalize method make the first letter in a string uppercase and the rest of the string lowercase.
+*	The ```.capitalize``` method make the first letter in a string uppercase and the rest of the string lowercase.
 
-```
+```ruby
 "HELLO".capitalize
 # returns:
 Hello
 ```
-```
+```ruby
 "HELLO, HOW ARE YOU?".capitalize
 # returns:
 Hello, how are you?
 ```
-*Note that the first letter is only capitilized if it is at the beginning of the string:*
-```
+*Note that the first letter is only capitilized if it is at the beginning of the string.*
+```ruby
 "-HELLO".capitalize
 "1HELLO".capitalize
 # returns:
@@ -147,9 +147,9 @@ Hello, how are you?
 
 ### reverse:
 
-*	The .reverse method reverses the order of the characters in a string.
+*	The ```.reverse``` method reverses the order of the characters in a string.
 
-```
+```ruby
 "Hello World!".reverse
 # returns:
 "!dlroW olleH"
@@ -157,30 +157,46 @@ Hello, how are you?
 
 ### split:
 
-*	The .split takes a strings and 'splits' it into an array.
-*	The default method splits the string based on whitespace.
+*	The ```.split``` takes a strings and *splits* it into an array, then returns the array.
+*	The default method splits the string based on whitespace, unless a different separator is provided (see second example).
 
-```
+```ruby
 "Hello, how are you?".split
 # returns:
 ["Hello,", "how", "are", "you?"]
 ```
+```ruby
+"H-e-l-l-o".split('-')
+# returns:
+["H", "e", "l", "l", "o"]
+```
 
 ### chop:
 
-*	The .chop method removes the last character of the string.
+*	The ```.chop``` method removes the last character of the string.
+*	A new string is returned, unless you use the ```.chop!``` method which mutates the original string.
 
-```
+```ruby
 "Name".chop
 # returns:
 Nam
 ```
+```ruby
+name = "Batman"
+name.chop
+name == "Batma" # returns false
+```
+```ruby
+name = "Batman"
+name.chop!
+name == "Batma" # returns true
+```
 
 ### strip:
 
-*	The .strip method removes the leading and trailing whitespace on strings.
+*	The ```.strip``` method removes the leading and trailing whitespace on strings, including tabs, newlines, and carriage returns (```\t```, ```\n```, ```\r```).
 
-```
+```ruby
 "  Hello  ".strip
 # returns:
 Hello
