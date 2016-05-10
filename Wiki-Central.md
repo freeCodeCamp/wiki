@@ -2,7 +2,7 @@
 
 Here you will find all wiki related information with regards to guidelines for contributing, moderating, and tips on using the wiki.
 
-### Table of Content
+### Table of Contents
 
 1. [Using the Wiki](#using-the-wiki)
 2. [Contribution Guides](#contribution-guides)
