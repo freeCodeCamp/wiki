@@ -2,7 +2,7 @@
 
 > This is the template that you should follow when writing new algorithm solutions or adding content, always make sure the latest version of this templated is implemented on your [pull request](PULL_REQUEST_TEMPLATE)
 
-## &nbsp;
+##  
 
 # Algorithm [add name here]
 

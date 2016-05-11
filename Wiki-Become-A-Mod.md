@@ -2,7 +2,7 @@
 
 There are many ways to contribute to the [wiki](Wiki-Central) without being part of the [Senior Group](Wiki-Senior-Mods). However, if you want to become one, there are certain requirements that you must meet first:
 
-## &nbsp;
+##  
 
 - **Be Active:** You must have been actively contributing to the wiki. This means:
 
