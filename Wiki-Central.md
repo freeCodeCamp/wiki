@@ -72,7 +72,7 @@ If you are really committed to contributing to the wiki and  would like to join 
 
 We aim to translate all our articles into as many languages as we can support. For this, we need people willing to collaborate and translate articles. We have a series of articles that will help you get started and solve any issues:
 
-- [**Translation Guides**](Translations-Guide)
+- [**Translation Guides**](Translation-Guide)
 
 ## Templates
 

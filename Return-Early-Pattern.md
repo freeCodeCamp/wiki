@@ -1,10 +1,12 @@
-## The Return Early Pattern
+# The Return Early Pattern
 
 The return early pattern in JavaScript is a simple way to reduce the number of `else` statements within a function body to zero. There are many reasons to prefer this pattern over using `else` statements.
 
 * Reducing the total amount of code on the page
 * Reduce line length by reducing logical complexity
 * Improve Readability
+
+##  
 
 The essence of the return early pattern is to replace the need for `else` conditionals in JavaScript functions by using the `return` keyword in the body of the `if` statement.
 
