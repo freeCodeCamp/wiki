@@ -12,7 +12,7 @@ From [GitHub guides](https://guides.github.com/features/mastering-markdown/):
 
 > Markdown files have the extension `.md` and you'll see that a vast number of GitHub repositories have `README.md` files.
 
-## &nbsp;
+##  
 
 A great example is that if you want to write a Wiki file for this repository, it'll need to be a `.md` file. What you're reading right now is a markdown file called `writing-a-markdown-file-using-atom.md`.
 

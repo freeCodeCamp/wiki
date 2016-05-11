@@ -14,7 +14,7 @@ Navigate to the [Wiki.](https://github.com/FreeCodeCamp/wiki) You will encounter
 
 _Figure 0a_![Imgur](http://i.imgur.com/6MkwQCx.png)
 
-### 1\. Upload Files Button
+### 1. Upload Files Button
 
 If you have already created the files, which should be `.md` files for **Markdown** or if you are contributing source code then feel free to use the adequate file extension.
 
@@ -63,7 +63,7 @@ Always delete the branch after the pull request has been merged or closed. There
 
 _Figure 1f_ ![Delete Branch](http://i.imgur.com/vePGN3Y.png)
 
-### 2\. New Pull Request Button
+### 2. New Pull Request Button
 
 This is used to create [pull requests](FCC-Pull-Request) from files that are already in existing branches, not really for adding new files. So if you are looking to add new files then check the other options. It will look like this:
 
@@ -83,7 +83,7 @@ Going back to _Figure 2b_ you will note that you get information like the base b
 
 However, something new is the fact that you can **Assign** people, usually contributors with the **Assignee** Option on the far right side of _Figure 2b_. Above it, you will select the milestone for the pull request if any, and above that, select the labels that would fit your pull request. These are all optional though. If you want to learn more about labels then check [this article.](Select-Issues-for-Contributing-Using-Labels)
 
-### 3\. New File Button
+### 3. New File Button
 
 This is the option to choose if you want to directly create your files and submit a pull request from the browser. Unlike the **New Pull Request** button, this option allows you to create new files.
 

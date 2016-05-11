@@ -12,7 +12,7 @@
 
 > If applied, this commit will *`<<your subject line here>>`*
 
-## &nbsp;
+##  
 
 **For example:**
 

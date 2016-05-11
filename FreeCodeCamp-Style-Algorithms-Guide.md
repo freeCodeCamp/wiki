@@ -8,7 +8,7 @@ Writing Algorithm challenges is a great way to exercise your own problem solving
 - Solve your own Algorithm. Confirm that your tests work as expected and that your instructions are sufficiently clear.
 - Submit a pull request to Free Code Camp's Staging branch and in the pull request body, link to a gist that has your algorithmic solution.
 
-## &nbsp;
+##  
 
 Here is a description of each of the Algorithms' fields.
 
