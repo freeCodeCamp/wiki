@@ -12,11 +12,11 @@
 
 - Part 3: Interfacing Between Frontend & Backend
   - [Accessing the database from your frontend](Accessing-the-database-from-your-frontend)
-  - [Seed Data](Seed-Data)
-  - [Quick tip: keep data in sync](Quick-tip-keep-data-in-sync)
+  - [Seed Data](Angular-Seed-Data)
+  - [Quick tip: keep data in sync](Angular-Keep-Data-In-Sync)
 
 - Part 4: Dynamic URLs using $routeParams, more useful APIs
-  - [Dynamic URLS using $routeParams](Dynamic-URLs-using-$routeParams)
+  - [Dynamic URLS using $routeParams](Angular-Dynamic-URLs-Using-routeParams)
   - [More Useful APIs](More-useful-APIs)
 
 - Part 5: Auth, isLoggedInAsync()
