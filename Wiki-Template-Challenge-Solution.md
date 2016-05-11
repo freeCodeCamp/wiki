@@ -8,7 +8,7 @@
 
 :triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](How-to-get-help-when-you-get-stuck) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :memo:
 
-## :checkered_flag: Problem Explanation:
+### :checkered_flag: Problem Explanation:
 
 Explain what is asked, in an easy to understand and detailed way.
 
