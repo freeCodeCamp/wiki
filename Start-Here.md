@@ -30,4 +30,4 @@ If you're new to Free Code Camp, or just new to the wiki, start here:
 
 - [How Nonprofit Projects Work](How-FreeCodeCamp-Nonprofit-Projects-work)
 - [Natural Language Requirements](Free-Code-Camp-completion-language-requirements)
-- [Resources that Free Code Camp recommends to Nonprofits Who Don't Qualify](Other-resources-that-Free-Code-Camp-recommends-to-nonprofits)
+- [Resources that Free Code Camp recommends to Nonprofits Who Don't Qualify](FreeCodeCamp-Recommended-Resources)

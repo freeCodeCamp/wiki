@@ -1,8 +1,10 @@
-# Object.getOwnPropertyNames()
+# JavaScript Object.getOwnPropertyNames()
+
 The `Object.getOwnPropertyNames()` method returns an array of all properties (enumerable or not) found directly upon a given object.
 
 ## Syntax
-```js
+
+```javascript
 Object.getOwnPropertyNames(obj)
 ```
 
@@ -10,16 +12,17 @@ Object.getOwnPropertyNames(obj)
 
 **obj**
 
-The object whose enumerable *and non-enumerable* own properties are to be returned.
+The object whose enumerable _and non-enumerable_ own properties are to be returned.
 
 [MDN link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyNames) | [MSDN link](https://msdn.microsoft.com/en-us/LIBRary/ff688126%28v=vs.94%29.aspx)
 
-##Description
-`Object.getOwnPropertyNames()` returns an array whose elements are strings corresponding to the enumerable *and non-enumerable* properties found directly upon object. The ordering of the enumerable properties in the array is consistent with the ordering exposed by a `for...in` loop (or by `Object.keys()`) over the properties of the object. The ordering of the non-enumerable properties in the array, and among the enumerable properties, is not defined.
+## Description
+
+`Object.getOwnPropertyNames()` returns an array whose elements are strings corresponding to the enumerable _and non-enumerable_ properties found directly upon object. The ordering of the enumerable properties in the array is consistent with the ordering exposed by a `for...in` loop (or by `Object.keys()`) over the properties of the object. The ordering of the non-enumerable properties in the array, and among the enumerable properties, is not defined.
 
 ## Examples
 
-```js
+```javascript
 var arr = ['a', 'b', 'c'];
 console.log(Object.getOwnPropertyNames(arr).sort()); // logs '0,1,2,length'
 
@@ -48,7 +51,7 @@ my_obj.foo = 1;
 console.log(Object.getOwnPropertyNames(my_obj).sort()); // logs 'foo,getFoo'
 ```
 
-```js
+```javascript
 function Pasta(grain, size, shape) {
     this.grain = grain; 
     this.size = size; 
