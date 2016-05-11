@@ -30,4 +30,4 @@ Then later on in **wall.controller.js**, you can see what username was requested
 var wallOwner = $routeParams.username;
 ```
 
-[PREVIOUS](Quick-tip-keep-data-in-sync) [NEXT](More-useful-APIs)
+[PREVIOUS](Angular-Keep-Data-In-Sync) [NEXT](More-useful-APIs)
