@@ -12,7 +12,7 @@ publishing a module to NPM is easy.
 
 I created this simple utility as `index.js`:
 
-```
+```javascript
 var time = new Date().toTimeString();
 console.log(time);
 ```
@@ -26,7 +26,7 @@ Simply run `npm init` and answer the questions.
 
 Your `package.json` should look something like this:
 
-```
+```json
 {
   "name": "whattimeisit",
   "version": "1.0.0",
