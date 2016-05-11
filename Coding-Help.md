@@ -9,9 +9,9 @@ I started this list while doing Algorithms, noticing a few things that were comm
 The FreeCodeCamp code editor is great but you can get a lot more feedback on your code's behaviour by using chrome's JS debugger and a bunch of **console.log(myVariableGoesHere);**
 
   References
-  - https://developer.chrome.com/devtools/docs/console
-  - http://www.sublimetext.com/
-  - https://netbeans.org/downloads/
+  - [Chrome Console](https://developer.chrome.com/devtools/docs/console)
+  - [Sublime Text](http://www.sublimetext.com/)
+  - [Netbeans](https://netbeans.org/downloads/)
 
 4. Posting your code in gitter is as simple as adding a line consisting of only
 > \`\`\`
