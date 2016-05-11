@@ -1,11 +1,11 @@
-## Store data in web browser's storage
+# Store data in web browser's storage
 
 In order to manage data handled by your web application, you do not necessarily need a database.
 The respective Browser Storage features are supported by Chrome (version 4 and higher), Mozilla Firefox (version 3.5 and higher) and Internet Explorer (version 8 and higher), and a range of other browsers including those of iOS and Android.
 
-There are two main possibilities for browser storage:
+## There are two main possibilities for browser storage:
 
-### 1. localStorage
+#### 1. localStorage
 
 Any content/data saved to the ```localStorage``` object will be available after the browser has been restarted (closed and opened again).
 In order to ***save an item*** to ```localStorage```, you can use the method ```setItem()```. This method must be handed a key and a value.
@@ -30,7 +30,7 @@ To ***retrieve the item from the localStorage***, the method ```getItem``` must 
   Example: localStorage.clear();
   ```
 
-### 2. sessionStorage
+#### 2. sessionStorage
 
 Items saved in the ```sessionStorage``` object will remain until the browser is closed by the user. Then, the storage will be cleared.
 
@@ -57,7 +57,7 @@ To ***retrieve the item from the sessionStorage***, the method ```getItem``` mus
   Example: sessionStorage.clear();
   ```
 
-### Saving arrays to localStorage and sessionStorage
+#### Saving arrays to localStorage and sessionStorage
 
 You cannot just save single values to the ```localStorage``` and ```sessionStorage```, but you can also save the content of an array.
 
