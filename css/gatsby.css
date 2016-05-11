@@ -9,8 +9,8 @@ body,html {
   width: 100%; 
 }
 .wiki-container {
-  max-width:960px;
-  padding:80px 30px 0;
+  max-width:100%;
+  padding:40px 15px;
   box-sizing: border-box;
   display: inline-block;
   width: 100%;
