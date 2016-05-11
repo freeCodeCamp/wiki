@@ -1,17 +1,35 @@
-# Spanish Top Page
-Our open source community's Wiki focuses on answering your questions about learning to code and getting a coding job. We also cover in detail our:
-- Curriculum
-- Local Campsite Communities
-- Nonprofit Projects
+# ¡Bienvenido a la Wiki de Free Code Camp!
 
-![An illustration of CamperBot](http://i.imgur.com/gyJwzkx.png)
+La wiki de nuestra comunidad hace foco en responder tus preguntas sobre aprender a programar y obtener un trabajo en programación. También cubrimos en detalle nuestros:
 
-The best way to access this wiki is via [CamperBot](camperbot), located in our Gitter channels. CamperBot is a community designed tool useful for accessing our wiki content without ever leaving Gitter.
+- Planes de estudios
+- Grupos locales
+- Proyectos sin fines de lucro.
 
-To contribute a wiki article for any of the bonfires, please use this [template](Bonfire-Wiki-Template). This is essential for [@CamperBot](https://github.com/camperbot) to retrieve the article. Bonfire articles that do not use this template will be removed.
+![Una ilustración de CamperBot](http://i.imgur.com/gyJwzkx.png)
 
-You will then need to fork the [wiki](https://github.com/FreeCodeCamp/wiki) and create a branch where you will make your changes to later submit a pull request to be merged before the changes goes live on the wiki. This is to filter any spam content or damage to **our** wiki. Detailed instructions with graphics found here: [How To Contribute To The Wiki.](Wiki-Contribute-Local-GUI)
+La manera más simple de acceder a la wiki es vía [CamperBot](camperbot) en nuestros canales de Gitter. CamperBot es una útil herramienta diseñada por la comunidad para acceder al contenido de nuestra wiki sin necesidad de salir de Gitter.
 
-If you have questions about contributing to the Free Code Camp Wiki message [@Rafase282 in Gitter](https://gitter.im/Rafase282).
+## Contribuir con la Wiki
 
-We look forward to collaborating with you on expanding and improving this wiki!
+Para contribuir con un artículo de alguno de nuestros Algoritmos por favor utiliza la siguiente [plantilla](Bonfire-Wiki-Template). Esto es esencial para que [@CamperBot](https://github.com/camperbot) pueda encontrar el articulo. Los artículos de Algoritmos que no utilicen esta plantilla serán removidos. Por favor ten en cuenta que si bien vamos a publicar soluciones que puedan ayudar a los demás, no necesitamos muchas de ellas y solo serán aceptadas un máximo de tres soluciones en las siguientes categorías:
+
+- Básico
+- Intermedio
+- Avanzado
+
+Una solución por categoría. Si tenemos suficientes soluciones y la tuya es similar a alguna de ellas pero sientes que la tuya puede aportar algo importante te recomendamos que combines la tuya con la ya existente y la expandas o que escribas una explicación detallada del código.
+
+Si quieres contribuir pero no sabes sobre que escribir puedes verificar los problemas abiertos que tenemos solicitando nuevos artículos o modificaciones a los ya existentes [aquí](https://github.com/FreeCodeCamp/wiki/issues).
+
+Será bien recibido **cualquier artículo de tecnología**, no solo relacionado a JavaScript o nuestro plan de estudios. Sin embargo, te solicitamos que lo escribas en perspectiva de tercera persona en lugar de primera persona. También son aceptados artículos en **otros lenguajes**, o **traducciones** de actuales.
+
+Si aceptamos tu petición para añadir tu contribución tu nombre aparecerá automáticamente en historial del documento en Github y en los contribuidores del repositorio. Por favor no añadas líneas adicionales cuando crees o edites un articulo.
+
+### Guías sobre como contribuir
+
+Todas ellas están señaladas en nuestra pagina central de la [Wiki](Wiki-Central). Por favor hecha un vistazo antes que nada.
+
+Si tienes alguna duda sobre como contribuir a la wiki de Free Code Camp envía un mensaje a [@Rafase282 en Gitter](https://gitter.im/Rafase282) o ven a [la sala Wiki en Gitter](https://gitter.im/FreeCodeCamp/Wiki).
+
+¡Esperamos poder colaborar contigo en la ampliación y mejora de nuestra wiki!
