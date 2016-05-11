@@ -204,7 +204,7 @@ var arr = [20, 50, 5, 60];
 arr.reduce(Math.max, 0);
 ```
 
-but this would not work and would return `NaN`. Here's the reason - `acc` and `item` are not the **only** arguments to the custom callback. When you call [`Math.max()`](Math.max) tries to call it on non-numeric arguments, resulting in `NaN`.
+but this would not work and would return `NaN`. Here's the reason - `acc` and `item` are not the **only** arguments to the custom callback. When you call [`Math.max()`](JS-Math-Max) tries to call it on non-numeric arguments, resulting in `NaN`.
 
 Notice that I didn't put much thought into picking the initial value. I just picked it as `0`; resulting in a bug!
 

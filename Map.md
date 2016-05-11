@@ -1,5 +1,7 @@
-# Getting Started
+# Map of Help Articles for Free Code Camp Curriculum
+
 ## Join the Free Code Camp Community
+
 - [Learn how Free Code Camp Works](http://www.freecodecamp.com/challenges/learn-how-free-code-camp-works)
 - [Create a GitHub Account and Join our Chat Rooms](http://www.freecodecamp.com/challenges/create-a-github-account-and-join-our-chat-rooms)
 - [Configure your Code Portfolio](http://www.freecodecamp.com/challenges/configure-your-code-portfolio)
@@ -7,7 +9,9 @@
 - [Learn What to Do If You Get Stuck](http://www.freecodecamp.com/challenges/learn-what-to-do-if-you-get-stuck)
 
 # Front End Development Certification
+
 ## HTML5 and CSS
+
 - [Challenge: Say Hello to HTML Elements](Challenge-Say-Hello-to-HTML-Elements)
 - [Challenge: Headline with the h2 Element](Challenge-Headline-with-the-h2-Element)
 - [Challenge: Inform with the Paragraph Element](Challenge-Inform-with-the-Paragraph-Element)
@@ -80,6 +84,7 @@
 - [Challenge: Use RGB to Color Elements Gray](Challenge-Use-RGB-to-Color-Elements-Gray)
 
 ## Responsive Design with Bootstrap
+
 - [Challenge: Use Responsive Design with Bootstrap Fluid Containers](Challenge-Use-Responsive-Design-with-Bootstrap-Fluid-Containers)
 - [Challenge: Make Images Mobile Responsive](Challenge-Make-Images-Mobile-Responsive)
 - [Challenge: Center Text with Bootstrap](Challenge-Center-Text-with-Bootstrap)
@@ -113,6 +118,7 @@
 - [Challenge: Use Comments to Clarify Code](Challenge-Use-Comments-to-Clarify-Code)
 
 ## Gear up for Success
+
 1. [Join our LinkedIn Alumni Network](http://www.freecodecamp.com/challenges/join-our-linkedin-alumni-network)
 2. [Join our Subreddit](http://www.freecodecamp.com/challenges/join-our-subreddit)
 3. [Read Coding News on our Medium Publication](http://www.freecodecamp.com/challenges/read-coding-news-on-our-medium-publication)
@@ -120,6 +126,7 @@
 5. [Challenge: Commit to a Goal and a Nonprofit](http://www.freecodecamp.com/challenges/commit-to-a-goal-and-a-nonprofit)
 
 ## jQuery
+
 - [Challenge: Learn how Script Tags and Document Ready Work](Challenge-Learn-how-Script-Tags-and-Document-Ready-Work)
 - [Challenge: Target HTML Elements with Selectors Using jQuery](Challenge-Target-HTML-Elements-with-Selectors-Using-jQuery)
 - [Challenge: Target Elements by Class Using jQuery](Challenge-Target-Elements-by-Class-Using-jQuery)
@@ -140,11 +147,13 @@
 - [Challenge: Use jQuery to Modify the Entire Page](Challenge-Use-jQuery-to-Modify-the-Entire-Page)
 
 ## Basic Front End Development Projects
+
 - [Get Set for our Front End Development Projects](http://www.freecodecamp.com/challenges/get-set-for-our-front-end-development-projects)
 - Build a Tribute Page
 - Build a Personal Portfolio Webpage
 
 ## Basic JavaScript
+
 1. [Challenge: Comment your JavaScript Code](Challenge-Comment-your-JavaScript-Code)
 2. [Challenge: Understand Boolean Values](Challenge-Understand-Boolean-Values)
 3. [Challenge: Declare JavaScript Variables](Challenge-Declare-JavaScript-Variables)
@@ -252,6 +261,7 @@
 105. [Challenge: Invert Regular Expression Matches with JavaScript](Challenge-Invert-Regular-Expression-Matches-with-JavaScript)
 
 ## Object Oriented and Functional Programming
+
 - [Challenge: Declare JavaScript Objects as Variables](Challenge-Declare-JavaScript-Objects-as-Variables)
 - [Challenge: Construct JavaScript Objects with Functions](Challenge-Construct-JavaScript-Objects-with-Functions)
 - [Challenge: Make Object Properties Private](Challenge-Make-Object-Properties-Private)
@@ -266,6 +276,7 @@
 - [Challenge: Join Strings with .join](Challenge-Join-Strings-with-.join)
 
 ## Basic Algorithm Scripting
+
 - [Algorithm: Get Set for our Algorithm Challenges](http://www.freecodecamp.com/challenges/get-set-for-our-algorithm-challenges)
 - [Algorithm: Reverse a String](Algorithm-Reverse-a-String)
 - [Algorithm: Factorialize a Number](Algorithm-Factorialize-a-Number)
@@ -284,7 +295,8 @@
 - [Algorithm: Where do I belong](Algorithm-Where-do-I-belong)
 - [Algorithm: Caesar's Cipher](Algorithm-Caesars-Cipher)
 
-## JSON APIs and Ajax  
+## JSON APIs and Ajax
+
 - [Challenge: Trigger Click Events with jQuery](Challenge-Trigger-Click-Events-with-jQuery)
 - [Challenge: Change Text with Click Events](Challenge-Change-Text-with-Click-Events)
 - [Challenge: Get JSON with the jQuery getJSON Method](Challenge-Get-JSON-with-the-jQuery-getJSON-Method)
@@ -294,12 +306,14 @@
 - [Challenge: Get Geo-location Data](Challenge-Get-Geo-location-Data)
 
 ## Intermediate Front End Development Projects
+
 - Build a Random Quote Machine
 - Show the Local Weather
 - Build a Wikipedia Viewer
 - Use the Twitch.tv JSON API
 
 ## Intermediate Algorithm Scripting
+
 - [Algorithm: Sum All Numbers in a Range](Algorithm-Sum-All-Numbers-in-a-Range)
 - [Algorithm: Diff Two Arrays](Algorithm-Diff-Two-Arrays)
 - [Algorithm: Roman Numeral Converter](Algorithm-roman-numeral-converter)
@@ -323,6 +337,7 @@
 - [Algorithm: Arguments Optional](Algorithm-Arguments-Optional)
 
 ## Advanced Algorithm Scripting
+
 - [Algorithm: Validate US Telephone Numbers](Algorithm-Validate-US-Telephone-Numbers)
 - [Algorithm: Symmetric Difference](Algorithm-Symmetric-Difference)
 - [Algorithm: Exact Change](Algorithm-Exact-Change)
@@ -334,22 +349,28 @@
 - [Algorithm: Pairwise](Algorithm-pairwise)
 
 ## Advanced Front End Development Projects
+
 - Build a JavaScript Calculator
 - Build a Pomodoro Clock
 - Build a Tic Tac Toe Game
 - Build a Simon Game
 
 ## Claim Your Front End Development Certificate
+
 - [Claim Your Front End Development Certificate](http://www.freecodecamp.com/challenges/claim-your-front-end-development-certificate)
 
 # Data Visualization Certification
+
 ## Sass
-- Learn Sass Challenges Incomplete 
+
+- Learn Sass Challenges Incomplete
 
 ## React
+
 - Learn React Challenges
 
 ## React Projects
+
 - Build a Markdown Previewer
 - Build a Camper Leaderboard
 - Build a Recipe Box
@@ -357,9 +378,11 @@
 - Build a Rouguelike Dungeon Crawler Game
 
 ## D3
+
 - Learn D3 Challenges
 
 ## Data Visualization Projects
+
 - Visualize Data with a Bar Chart
 - Visualize Data with a Scatterplot Graph
 - Visualize Data with a Heat Map
@@ -367,17 +390,22 @@
 - Map Data Across the Globe
 
 ## Claim Your Data Visualization Certificate
+
 - Claim Your Data Visualization Certificate
 
 # Back End Development Certification
+
 ## Automated Testing and Debugging
+
 - [Challenge: Use the Javascript Console](Challenge-Use-the-Javascript-Console)
 - [Challenge: Using typeof](Challenge-Using-typeof)
 
 ## Git
+
 - [Challenge: Save your Code Revisions Forever with Git](Challenge-Save-your-Code-Revisions-Forever-with-Git)
 
 ## Node.js and Express.js
+
 - Challenge: Manage Packages with NPM
 - Challenge: Start a Node.js Server
 - Challenge: Continue working with Node.js Servers
@@ -385,9 +413,11 @@
 - Challenge: Build Web Apps with Express.js
 
 ## MongoDB
+
 - Challenge: Store Data in MongoDB
 
 ## API Projects
+
 - [Get Set for our Back End Development Projects](http://www.freecodecamp.com/challenges/get-set-for-our-back-end-development-projects)
 - Timestamp Microservice
 - Request Header Parser Microservice
@@ -396,6 +426,7 @@
 - File Metadata Microservice
 
 ## Dynamic Web Applications Projects
+
 - Build a Voting App
 - Build a Nightlife Coordination App
 - Chart the Stock Market
@@ -403,10 +434,13 @@
 - Build a Pinterest Clone
 
 ## Claim Your Back End Development Certificate
+
 - Claim Your Back End Development Certificate
 
 # Video Challenges
+
 ## Computer Basics
+
 - Computer Basics: The 4 Basic Parts of a Computer
 - Computer Basics: More Computer Hardware
 - Computer Basics: Chips and Moore's Law
@@ -431,10 +465,12 @@
 - Computer Security
 
 ## The DOM
+
 - The DOM: What's the Document Object Model?
 - The DOM: Style in the Header, Script in the Footer
 
 ## JavaScript Lingo
+
 - JavaScript Lingo: MDN and Documentation
 - JavaScript Lingo: Value Types
 - JavaScript Lingo: Variables & camelCase
@@ -445,6 +481,7 @@
 - JavaScript Lingo: Loops JavaScript Lingo: Regular Expressions
 
 ## Chrome Developer Tools
+
 - Chrome Dev Tools: Elements
 - Chrome Dev Tools: Network
 - Chrome Dev Tools: Sources
@@ -456,11 +493,14 @@
 - Chrome Dev Tools: Summary
 
 ## Big O Notation
+
 - Big O Notation: What It Is and Why You Should Care
 - Big O Notation: A Few Examples
 
 # Full Stack Development Certification
+
 ## Nonprofit Projects
+
 - Greenfield Nonprofit Project #1
 - Greenfield Nonprofit Project #2
 - Legacy Code Nonprofit Project #1
@@ -468,12 +508,15 @@
 - Claim your Full Stack Development Certification
 
 # Coding Interview Preparation
+
 ## Coding Interview Training
+
 - Soft Skill Training
 - Critical Thinking Training
 - Whiteboard Coding Training
 
 ## Mock Interviews
+
 - Mock Interview #1
 - Mock Interview #2
 - Mock Interview #3

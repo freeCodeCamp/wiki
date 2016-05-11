@@ -1,13 +1,14 @@
-# Math.pow()
+# JavaScript Math.pow()
 
 The Math.pow() returns the `base` to the `exponent` power.
 
 ## Syntax
-```js
+
+```javascript
 Math.pow(base, exponent);
 ```
 
-### Parameters
+## Parameters
 
 **base**
 
@@ -17,14 +18,13 @@ The base number
 
 The exponent with which to raise the base number.
 
-###Description 
+## Description
 
 .pow() is a static method of the Math object, so you must always use it as `Math.pow()`
 
+## Examples
 
-### Examples
-
-```js
+```javascript
 // Simple exponents
 Math.pow(2, 2);          // 4
 Math.pow(2, 3);          // 8
@@ -46,8 +46,6 @@ Math.pow(-5, 0.5);       // NaN because negative numbers don't have a real squar
 //a negative base with a fractional exponent will always return NaN
 
 Math.pow(-5, 1/2);       // NaN
-
 ```
-
 
 Source [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/pow)
