@@ -19,7 +19,7 @@ A key feature of the technologies we are using is that our `index.html` file wil
 
 - [Help: More about ES6](http://dev.venntro.com/2013/09/es6-part-1/)
 
-##### Prerequisites
+## Prerequisites
 
 This tutorial is intended to give you a bare bones structure upon which to expand. It should be a good starting point for anyone that wants to learn React and ES6. If you haven’t built anything with JavaScript or jQuery yet, you should go through some of the exercises in the [FreeCodeCamp map](http://www.freecodecamp.com/map) first.
 
