@@ -21,7 +21,7 @@
 
 - Part 5: Auth, isLoggedInAsync()
   - [Get info about the current user](Get-info-about-the-current-user)
-  - [Restrict a page to authenticated users](Restrict-a-page-to-authenticated-users)
+  - [Restrict a page to authenticated users](Page-Restriction)
   - [isLoggedInAsync()](isLoggedInAsync())
 
 - [Bonus: SocketIO](Bonus-SocketIO)

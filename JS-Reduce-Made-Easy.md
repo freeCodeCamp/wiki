@@ -6,8 +6,7 @@ But It was not. Loops in JavaScript are just like that. They are not terse, they
 
 And then there is the danger of writing [asynchonous code inside a for loop without using closure from IIFE](http://stackoverflow.com/questions/11488014/asynchronous-process-inside-a-javascript-for-loop).
 
-This article would start with a claim - that you can avoid using a for-loop or while-loop to solve any `Array` related problems.
-Instead, you can solve all of them using `Array.prototype.reduce()`. If you wish to read forward; do make sure you know about recursive functions, and some of the cool functional tools like [`Array.prototype.map()`](js-Array-prototype-map) or [`Array.prototype.filter()`](js-Array-prototype-filter).
+This article would start with a claim - that you can avoid using a for-loop or while-loop to solve any `Array` related problems. Instead, you can solve all of them using `Array.prototype.reduce()`. If you wish to read forward; do make sure you know about recursive functions, and some of the cool functional tools like [`Array.prototype.map()`](js-Array-prototype-map) or [`Array.prototype.filter()`](js-Array-prototype-filter).
 
 Grand claims require grand evidence. So let's demonstrate how we can get accustomed with using `reduce()`.
 
@@ -17,7 +16,7 @@ This is the cliched spoiler alert; to make sure you give those problems an hones
 
 Also, if you already understand it well enough, perhaps you would like to review this piece of writing and provide feedback.
 
-### Can I Reduce Any Array-related Problem?
+## Can I Reduce Any Array-related Problem?
 
 Yes, you can! In fact, the problem doesn't even have to have an Array - _it just has to be a problem, where you can create an intermediate array_.
 
@@ -25,7 +24,7 @@ Let's take an example. It's quite common to create a [slug url](https://en.wikip
 
 Say, we have to write a utility function, that creates this slug. You could probably write something like this:
 
-```js
+```javascript
 function createSlug(str){
   return str.split(" ").reduce(function(prev, next){
     return prev.concat([next.toLowerCase()]);
@@ -33,13 +32,14 @@ function createSlug(str){
   .join("-");
 }
 ```
+
 Don't take my word for it! Go ahead, and test it out in your console with some input like "Leo Finally Wins a Freaking Oscar!" See what it returns. I will wait...done? Ok, moving on.
 
 Yes, it's not a robust implementation. It does not take care of some edge cases, also it assumes the joining should happen with `"-"`.
 
 But it's a start. Notice how the usage of `reduce` takes the boilerplate out of your way -- the action happens only at the line:
 
-```js
+```javascript
 return prev.concat([next.toLowerCase()]);
 ```
 
@@ -49,16 +49,17 @@ You might very well imagine that, this looks like dark magic. Make sure that is 
 
 If the above code was not clear, you need to understand how `reduce` works. And by _understand_, I mean, know it like the back of your hand.
 
-### But I Do NOT Understand Reduce At All!
+## But I Do NOT Understand Reduce At All!
 
 Well, fear not! You are about to be a `reduce` Ninja in the next few minutes.
 
 Every JavaScript function has three things you need to know, to understand how the function works:
+
 - The input
 - The output
 - The execution context
 
-Yes, I can see you opening the official [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce) in a new tab! It's ok, go read that first. I am serious, this is no joke. 
+Yes, I can see you opening the official [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce) in a new tab! It's ok, go read that first. I am serious, this is no joke.
 
 You should always start at the official documentation to understand something.
 
@@ -68,18 +69,17 @@ Good, now that you are confused with the `prev` and `next` inside the callback; 
 
 As you must have seen in the documentation, it takes a few additional but optional arguments as well. But more on that later. Assuming `arr` is an arbitrary array.
 
-```js
+```javascript
 arr.reduce(function(){}, initialValue);
 ```
 
-Now, let's have a closer look at the callback function, which is the first argument of `reduce`. This callback, in turn, takes two arguments.
-These two arguments are called in the official documentation as `prev` and `next`. Personally, I don't think those names do justice to their true nature.
+Now, let's have a closer look at the callback function, which is the first argument of `reduce`. This callback, in turn, takes two arguments. These two arguments are called in the official documentation as `prev` and `next`. Personally, I don't think those names do justice to their true nature.
 
 So, throughout this text, we would be referring to them as `acc`, to represent accumulated value; and `item`, to denote the current item being accessed.
 
 With these so far, here's what a `reduce` should look like:
 
-```js
+```javascript
 arr.reduce(function(acc, item){
  /* here you have to complete the function */
 }, initialValue);
@@ -91,15 +91,16 @@ It stands to reason that `reduce` would take your custom callback function; and 
 
 Instead of describing these, let's ask the JS execution engine what these are!
 
-```js
+```javascript
 var arr = [10, 20, 30, 60];
 arr.reduce(function(acc, item){
    console.log(acc, item);
 }, 0);
 ```
+
 Executing the above in browser or Node console would give you this as output:
 
-```js
+```javascript
 0 10
 undefined 20
 undefined 30
@@ -116,7 +117,7 @@ In short, our `acc` accumulator, is not accumulating!
 
 But then, how do we make it accumulate? Let's try executing this:
 
-```js
+```javascript
 var arr = [10, 20, 30, 60];
 arr.reduce(function(acc, item){
    console.log(acc, item);
@@ -126,7 +127,7 @@ arr.reduce(function(acc, item){
 
 This time the output changes to:
 
-```js
+```javascript
 0 10
 0 20
 0 30
@@ -141,7 +142,7 @@ This leaves only one important part in our understanding - the value of executio
 
 So, we again approach our friendly neighbor, the JS console and execute this:
 
-```js
+```javascript
 var arr = [10, 20, 30, 60];
 arr.reduce(function(acc, item){
    console.log(acc, item, this);
@@ -149,10 +150,9 @@ arr.reduce(function(acc, item){
 }, 0);
 ```
 
-If you are in [strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode), it would return `undefined` as value of `this`. Otherwise, in-browser, it would point to [`window`](https://developer.mozilla.org/en-US/docs/Web/API/Window) object as `this`.
-Can we override and set it on our own, using [`bind`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_objects/Function/bind)? Sure! just use `bind` with the callback:
+If you are in [strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode), it would return `undefined` as value of `this`. Otherwise, in-browser, it would point to [`window`](https://developer.mozilla.org/en-US/docs/Web/API/Window) object as `this`. Can we override and set it on our own, using [`bind`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_objects/Function/bind)? Sure! just use `bind` with the callback:
 
-```js
+```javascript
 var arr = [10, 20, 30, 60];
 arr.reduce(function(acc, item){
    console.log(acc, item, this);
@@ -162,9 +162,10 @@ arr.reduce(function(acc, item){
 
 I have bound the array `arr` itself; but you can set it to any object in your environment.
 
-### Understanding Reduce
+## Understanding Reduce
 
 Let's summarize our understanding of this `reduce` function for easy reference:
+
 - Reduce takes a custom callback as its first argument, and some initial value as its second argument.
 - It's important we don't forget about the second argument, the initial value; and we explicitly set it while using it.
 - The input arguments to the custom callback is accumulated value `acc`; and the current item in Array, `item`.
@@ -173,7 +174,7 @@ Let's summarize our understanding of this `reduce` function for easy reference:
 
 Don't you try remembering them by cramming! Instead, let's remember them by applying them in real code.
 
-### Using Reduce
+## Using Reduce
 
 Let's start a simple Array operation off the top-of our head - _finding maximum in an Array_
 
@@ -189,7 +190,7 @@ The only way `acc` always gets the maximum of _subarray traversed so far_, is if
 
 So, here's what the function would look like:
 
-```js
+```javascript
 var arr = [20, 50, 5, 60];
 arr.reduce(function(acc, item){
   return Math.max(acc, item);
@@ -197,7 +198,8 @@ arr.reduce(function(acc, item){
 ```
 
 It could be tempting to rewrite it as follows, in tandem with functional programming principles;
-```js
+
+```javascript
 var arr = [20, 50, 5, 60];
 arr.reduce(Math.max, 0);
 ```
@@ -210,7 +212,7 @@ So, what if my Array is consisted of values less than zero? Say, `arr = [-7, -56
 
 Instead, we should pick the lowest possible value for initial value.
 
-```js
+```javascript
 var arr = [-20, -50, -5, -60];
 arr.reduce(function(acc, item){
   return Math.max(acc, item);
@@ -231,9 +233,9 @@ So, how do we formulate the solution? We need to think of `acc` in the middle of
 
 And yes, the initial value. It should be a number, whose LCM with another number would be the other number. Clearly, it is `1`.
 
-Let's write our  `reduce` solution.
+Let's write our `reduce` solution.
 
-```js
+```javascript
 var arr = [1, 2, 3, 4, 5, 6];
 arr.reduce(function(acc, item){
   return acc * item / hcf(acc, item);
@@ -242,17 +244,17 @@ arr.reduce(function(acc, item){
 
 I am assuming an `hcf()` function is available in the environment. I picked the entries in a way; it should return `60` as answer.
 
-### More Reduce
+## More Reduce
 
 Reduce is not just a function to provide you with utilities to solve some Mathy problems like sum of the array, hcf of the array, minimum of the array etc.
 
-It is perfectly capable of going above and beyond. We shall be dealing with some complex examples for now. 
+It is perfectly capable of going above and beyond. We shall be dealing with some complex examples for now.
 
 Say, you wish to flatten nested arrays. And yes, before you start jumping up-and-down in your seat - the nesting could be any arbitrary level deep.
 
 For instance, we could take this Array to test our code with.
 
-```js
+```javascript
 var arr = [[1, 2, 3], ['cat', 'dog', ['fish', 'bird'], [[[]]]]];
 ```
 
@@ -260,13 +262,13 @@ This looks sufficiently complex to begin with - nested arrays, empty nested arra
 
 The output should be `[1, 2, 3, 'cat', 'dog', 'fish', 'bird']`
 
-It's time to formulate a strategy. We clearly need to distinguish between an array and an element. Also, `acc` should be the array being formed throughout the iteration; meaning the initial value would be an empty array `[]`. 
+It's time to formulate a strategy. We clearly need to distinguish between an array and an element. Also, `acc` should be the array being formed throughout the iteration; meaning the initial value would be an empty array `[]`.
 
 Throughout the callback function code, we would simply extract the content from the `item`, which can be a deeply nested array; and we would [`Array.prototype.concat()`](js-Array-prototype-concat) it with the `acc` value. It's better to use `concat()` over [`Array.prototype.push()`](js-Array-prototype-push); because `push()` alters the original array; while `concat()` creates a new array and returns it.
 
 And since we don't know the level of nesting at any given instant; we must go call our custom callback recursively. Meaning, we have to write it somewhere else and call it by name inside `reduce()`.
 
-```js
+```javascript
 var arr = [[1, 2, 3], ['cat', 'dog', ['fish', 'bird'], [[[]]]]];
 
 function flattenArray(arr) {
@@ -276,12 +278,11 @@ function flattenArray(arr) {
     }
     return acc.concat(item); // this does the ordering. If you want reverse ordered output, just reverse it!
   }, [])
-   
+
 }
 
 // call it like this
 flattenArray(arr);
-
 ```
 
 Of course, this requires some background in recursive functions; but that's not too difficult to pick up, compared to the matter of this long one!
@@ -298,11 +299,11 @@ What would the initial value be? Of course, we are forming an array; so it would
 
 Just to be clear, this function could accept arbitrary number of arrays; so, we have to convert them all to an array of arrays for easy manipulation.
 
-```js
+```javascript
 function symDiff(args){
   // convert args to an Array
   var argsArray = Array.prototype.slice.call(arguments);
-  
+
   // now do the reduce magic!
   argsArray.reduce(function(acc, item){
     return acc
@@ -318,11 +319,11 @@ function symDiff(args){
 
 Yes, I know. It looks big. So, let's see if we can refactor to make it small. Notice that both the `filter` functions do same work; except with altered set of argument pairs. Cool! Let's create a separate function and call it twice with those arguments.
 
-```js
+```javascript
 function symDiff(args){
   // convert args to an Array
   var argsArray = Array.prototype.slice.call(arguments);
-  
+
   // now do the reduce magic!
   argsArray.reduce(function(acc, item){
     var funWithFiltering = function(arr1, arr2){
@@ -330,7 +331,7 @@ function symDiff(args){
         return arr2.indexOf(itemInArr1) === -1;
       });
     };
-    
+
     return funWithFiltering(acc, item).concat(funWithFiltering(item, acc));
   }. []);
 }
@@ -338,7 +339,7 @@ function symDiff(args){
 
 This looks better. But there is still one other problem. This would keep duplicates in the array. If that is not needed, we could just as easily write another function using `reduce` to remove the duplicates.
 
-```js
+```javascript
 function removeDuplicates(arr){
   arr.filter(item, index, self){
     // Keep only the first instance of the array, as given by indexOf()
@@ -352,12 +353,13 @@ We cannot keep on ignoring this any longer. I have been using `filter` while pro
 
 Do give it a try! Implement `map` and `filter` with `reduce`. You have to take care of optional arguments too.
 
-### Wrapping up
+## Wrapping up
 
 Whoa that was quite a lot! But I think I have made a strong case of using `reduce` whenever you want to use a loop to get it done. Be habituated with it like its your first nature.
 
-As soon as you get a problem on some String transformation or Array manipuation; start by writing 
-```js
+As soon as you get a problem on some String transformation or Array manipuation; start by writing
+
+```javascript
 return arr.reduce(function(acc, item){_}, _);
 ```
 
