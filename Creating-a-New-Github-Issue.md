@@ -1,4 +1,4 @@
-Before submitting an issue try [Searching for Your Issue on Github](Searching-for-Your-Issue-on-Github)
+Before submitting an issue try [Searching for Your Issue on Github](Search-Existing-Issue)
 
 Crafting a good issue will make it much easier for the dev team to replicate and resolve your problem. Follow these steps to do it right:
 

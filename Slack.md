@@ -1,4 +1,6 @@
-### Slack is a popular chatroom service that Free Code Camp outgrew
+# Slack
+
+Slack is a popular chatroom service that Free Code Camp outgrew
 
 ![Free Code Camp's Slack usage stats](https://www.evernote.com/l/AHRvSgBsEqZMBqugb3gWNG9jSKhPT8Dj5FAB/image.png)
 

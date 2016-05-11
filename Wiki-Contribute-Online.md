@@ -81,7 +81,7 @@ If you want to use a fork instead of a branch then you will click the link and g
 
 Going back to _Figure 2b_ you will note that you get information like the base branch, the branch with your changes, and how many commits there are along with file changes. From there it's the same as the tutorial for uploading files, please see _Figures 1b_ and onwards with the details that come along with it. But basically you just fill out the details and submit the pull request.
 
-However, something new is the fact that you can **Assign** people, usually contributors with the **Assignee** Option on the far right side of _Figure 2b_. Above it, you will select the milestone for the pull request if any, and above that, select the labels that would fit your pull request. These are all optional though. If you want to learn more about labels then check [this article.](Select-Issues-for-Contributing-Using-Labels)
+However, something new is the fact that you can **Assign** people, usually contributors with the **Assignee** Option on the far right side of _Figure 2b_. Above it, you will select the milestone for the pull request if any, and above that, select the labels that would fit your pull request. These are all optional though. If you want to learn more about labels then check [this article.](FreeCodeCamp-Issue-Labels)
 
 ### 3. New File Button
 

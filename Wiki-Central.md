@@ -53,14 +53,14 @@ We currently have a couple of guides to help you contribute, via the browser, co
 
 Before creating your first pull request or starting your work as an issue moderator, it is strongly suggested that you get familiar with the [labels guide](Wiki-Labels-Guide). This will provide you with a through understanding on our labeling system so you can use it properly and maintain a stable workflow.
 
-For a list of labels used globally throughout FreeCodeCamp’s repositories, consult the guide "[Select Issues for Contributing Using Labels](Select-Issues-for-Contributing-Using-Labels)."
+For a list of labels used globally throughout FreeCodeCamp’s repositories, consult the guide "[Select Issues for Contributing Using Labels](FreeCodeCamp-Issue-Labels)."
 
 ### Issues
 
 Creating issues in general is simpler than creating a pull request.
 
 - [Creating a New Github Issue](Creating-a-New-Github-Issue)
-- [Searching for Your Issue on Github](Searching-for-Your-Issue-on-Github)
+- [Searching for Your Issue on Github](Search-Existing-Issue)
 
 ### Moderators
 

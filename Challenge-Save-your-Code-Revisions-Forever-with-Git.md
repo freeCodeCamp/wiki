@@ -11,5 +11,5 @@ After you learn how to use git, here are other resources to help you learn more 
 - [Other Git Resources](Git-Resources)
 - [Writing Great Git Commit Messages](Git-Commit-Message)
 - [Using GitHub Pages for your front end dev projects](GitHub-Hosting)
-- [Search your issue on GitHub](Searching-for-Your-Issue-on-Github)
+- [Search your issue on GitHub](Search-Existing-Issue)
 - [How Issue Mods Work](How-GitHub-Issue-Moderators-AKA-Issue-Mods-Work)

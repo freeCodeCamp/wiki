@@ -1,14 +1,17 @@
 # String.length
+
 The `length` property represents the length of a string.
 
 ## Syntax
-```js
+
+```javascript
 str.length
 ```
 
 [MDN link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/length) | [MSDN link](https://msdn.microsoft.com/en-us/LIBRary/3d616214%28v=vs.94%29.aspx)
 
-##Description
+## Description
+
 This property returns the number of code units in the string. UTF-16, the string format used by JavaScript, uses a single 16-bit code unit to represent the most common characters, but needs to use two code units for less commonly-used characters, so it's possible for the value returned by length to not match the actual number of characters in the string.
 
 For an empty string, length is 0.
@@ -17,7 +20,7 @@ The static property `String.length` returns the value 1.
 
 ## Examples
 
-```js
+```javascript
 var x = 'Mozilla';
 var empty = '';
 
@@ -28,7 +31,7 @@ console.log('The empty string has a length of ' + empty.length);
 /* "The empty string has a length of 0" */
 ```
 
-```js
+```javascript
 var str = "every good boy does fine";
         var start = 0;
         var end = str.length - 1;

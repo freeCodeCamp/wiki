@@ -12,7 +12,7 @@
 
 - Part 3: Interfacing Between Frontend & Backend
   - [Accessing the database from your frontend](Accessing-the-database-from-your-frontend)
-  - [Seed Data](Seed-data)
+  - [Seed Data](Seed-Data)
   - [Quick tip: keep data in sync](Quick-tip-keep-data-in-sync)
 
 - Part 4: Dynamic URLs using $routeParams, more useful APIs
