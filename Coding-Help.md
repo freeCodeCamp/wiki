@@ -5,11 +5,13 @@ I started this list while doing Algorithms, noticing a few things that were comm
 
 2. Comment your code! Can't stress that one enough, if you get lost or take a break then come back you need to know what your code is trying to do. It will also reinforce what the code means to you, and help other people understand what your code does if you get stuck and ask for help. If you've got a any other tips for campers I'd love to see them!
 
-3. Use the chrome javascript debugger console in conjunction with something like netbeans IDE or sublime text to write your code. Both are free to download.
-The free code camp window is great but you can get a lot more feedback on your code's behaviour by using chrome's JS debugger and a bunch of **console.log(myVariableGoesHere);**
-https://developer.chrome.com/devtools/docs/console
-http://www.sublimetext.com/
-https://netbeans.org/downloads/
+3. Use the chrome javascript debugger console in conjunction with something like the netbeans IDE or sublime text to write your code. Both are free to download.
+The FreeCodeCamp code editor is great but you can get a lot more feedback on your code's behaviour by using chrome's JS debugger and a bunch of **console.log(myVariableGoesHere);**
+
+  References
+  - https://developer.chrome.com/devtools/docs/console
+  - http://www.sublimetext.com/
+  - https://netbeans.org/downloads/
 
 4. Posting your code in gitter is as simple as adding a line consisting of only
 > \`\`\`
