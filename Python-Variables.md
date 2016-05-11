@@ -2,6 +2,8 @@
 
 Having _objects_ isn't useful unless there is a way to use them. In order to use an _object_, there must be a way to reference them. In Python this is done by **binding** objects to **names**. A detailed overview of can be found [here](https://docs.python.org/3/reference/executionmodel.html)
 
+##  
+
 One way this is done is by using an [_assignment statement_](https://docs.python.org/3/reference/simple_stmts.html#assignment-statements). This is commonly called _assigning a variable_ in the context of Python. If speaking about programming in the context of other languages, **binding** an _object_ to a **name** may be more precise.
 
 ```python

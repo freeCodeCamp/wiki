@@ -1,6 +1,10 @@
+# Pair Programming and Why it is special
+
 Pair Programming is an Agile Development practice that was born out of the **Extreme Programming** movement.
 
 Working as a team of [exactly] two, at a single computer, the pair will slide the keyboard and mouse back-and-forth throughout a "pairing session".  This increases the code quality by providing a "greater than the sum of its parts" effect of two developers working on a single problem domain.
+
+##  
 
 The increase in quality of the code, combined with the effect of knowledge and understanding on the project being spread across multiple developers, can produce a large savings in cost on the project as a whole.
 

@@ -16,7 +16,7 @@ The imaginary part of a complex number can be created using an imaginary literal
 3.5
 ```
 
-## More
+##  
 
 No literal exists for creating a complex number with non-zero real and imaginary parts. To create a non-zero real part complex number, add an imaginary literal to a floating point number:
 

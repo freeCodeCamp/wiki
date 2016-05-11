@@ -22,6 +22,8 @@ step is needed.
 range(0, 10)
 ```
 
+##  
+
 **Examples:**
 
 Since `ranges` are iterables they can be passed into the `list` and `tuple` constructors to create those types of sequences. Using this fact, we can visualize some examples:

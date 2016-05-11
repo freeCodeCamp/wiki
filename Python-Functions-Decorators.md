@@ -1,4 +1,4 @@
-# Decorators
+# Python Decorators
 
 [PEP 0318 - Decorators for Functions and Methods](https://www.python.org/dev/peps/pep-0318/)
 

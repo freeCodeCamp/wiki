@@ -17,6 +17,8 @@ Operation | Meaning
 `is`      | object identity
 `is not`  | negated object identity
 
+##  
+
 Objects of different types, except different numeric types, never compare equal. Furthermore, some types (for example, function objects) support only a degenerate notion of comparison where any two objects of that type are unequal. The `<`, `<=`, `>` and `>=` operators will raise a `TypeError` exception when comparing a complex number with another built-in numeric type, when the objects are of different types that cannot be compared, or in other cases where there is no defined ordering.
 
 Non-identical instances of a class normally compare as non-equal unless the class defines the `__eq__()` method.

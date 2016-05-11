@@ -4,7 +4,7 @@ Python supports a concept of iteration over containers. This is implemented usin
 
 [Python Docs - Iterator Types](https://docs.python.org/3/library/stdtypes.html#iterator-types)
 
-## More
+##  
 
 **TODO: Clarify what iteration means and what iterators can be used for.**
 

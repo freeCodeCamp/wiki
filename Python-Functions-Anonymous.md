@@ -1,4 +1,4 @@
-# Anonymous functions
+# Python Anonymous functions
 
 [Python Docs - Lambda Expressions Tutorial](https://docs.python.org/3/tutorial/controlflow.html#lambda-expressions)
 

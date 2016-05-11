@@ -1,6 +1,9 @@
+# ES6 Promises
+
 A new feature of ES6 to help with async programming.
 
 ## syntax
+
 ```javascript
 new Promise(executor);
 new Promise(function(resolve, reject) { ... });
