@@ -1,4 +1,6 @@
-# Problem Explanation:
+# Algorithm Symmetric Difference
+
+### Problem Explanation:
 Symmetric Difference is the difference between **two** sets.
 
 So in the Symmetric Difference Algorithm you would work through the arrays of numbers something like this -
@@ -104,8 +106,8 @@ function sym() {
     .map(arr => new Set(arr))
     // using the formula in https://en.wikipedia.org/wiki/Symmetric_difference
     // i reduce it by uniting the diff(A, B) and diff(B, A)
-    .reduce((acc, set) => new Set([...diff(acc, set), ...diff(set, acc)])); 
-  
+    .reduce((acc, set) => new Set([...diff(acc, set), ...diff(set, acc)]));
+
   // convert the set to array by using spread operator again
   return [...result];
 }

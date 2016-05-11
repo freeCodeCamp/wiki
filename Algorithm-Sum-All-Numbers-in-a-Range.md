@@ -1,4 +1,6 @@
-# Problem Explanation:
+# Algorithm Sum all Numbers in a Range
+
+### Problem Explanation:
 - You need to create a program that will take an array of two numbers who are not necessarily in order, and then add not just those numbers but any numbers in between. For example, [3,1] will be the same as `1+2+3` and not just `3+1`
 
 ## Hint: 1
@@ -74,7 +76,7 @@ sumAll([1, 4]);
 
 ## Code Explanation:
 - Creating a variable sum to store the sum of the elements.
-- Starting iteration of the loop from min element of given array and stopping when it reaches the max element. 
+- Starting iteration of the loop from min element of given array and stopping when it reaches the max element.
 - Using a spread operator (...arr) allows passing the actual array to the function instead of one-by-one elements.
 
 ## References & Details:

@@ -1,4 +1,6 @@
-# Explanation:
+# Algorithm Where do I Belong
+
+### Explanation:
 This can be a tricky problem to understand. You need to find where in the array a number should be inserted by order, and return the index where it should go.
 
 ## Hint: 1

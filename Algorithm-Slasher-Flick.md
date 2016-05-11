@@ -1,4 +1,6 @@
-# Problem Explanation:
+# Algorithm Slasher Flick
+
+### Problem Explanation:
 Return the remaining elements of an array after chopping off n elements from the head.
 
 For example: `slasher([1, 2, 3], 2);` must return [3]

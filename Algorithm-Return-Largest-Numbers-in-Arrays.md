@@ -1,6 +1,8 @@
+# Algorithm Return largest Numbers in Arrays
+
 :triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](How-to-get-help-when-you-get-stuck) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :memo:
 
-# :checkered_flag: Problem Explanation:
+### :checkered_flag: Problem Explanation:
 
 You will get an array that contains sub arrays of numbers and you need to return an array with the largest number from each of the sub arrays.
 

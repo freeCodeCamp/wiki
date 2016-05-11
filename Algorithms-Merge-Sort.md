@@ -1,4 +1,6 @@
-# Merge Sort
+# Algorithm Merge Sort
+
+## 
 
 Most modern languages have an inbuilt sort() function which automatically sorts an input array or list. Did you ever wonder how the sort function actually works on the inside?. Knowing common sorting algorithms and their implementations is the most important part of a coding interview. In this series of articles, we will look at several important sorting algorithms. How they are implemented, the time and space complexity etc. Our very first post is on Merge Sort.
 
@@ -17,7 +19,7 @@ Before we write the JavaScript code, let us understand how merge sort works with
 - We split the array into two halves Arr1 = (5, 8, 3) and  Arr2 = (9, 1, 2).
 -  Again, we divide them into two halves: Arr3 = (5, 8) and Arr4 = (3) and  Arr5 = (9, 1) and Arr6 = (2)
 -  Again, we divide them into two halves: Arr7 = (5), Arr8 =  (8),  Arr9 = (9),  Arr10 = (1) and Arr6 = (2)
--  We will now compare the elements in these sub arrays in order to merge them. 
+-  We will now compare the elements in these sub arrays in order to merge them.
 
 Let's write MergeSort in JavaScript:
 
@@ -29,9 +31,9 @@ function mergeSort (arr) {
   var subRight = mergeSort(arr.slice(mid));
   return merge(subLeft, subRight);
   }
-  
+
 ```
-First we check the length of the array. If it is 1 then we simply return the array. This would be our base case. Else, we will find out the middle value and divide the array into two halves. We will now sort both of the halves with recursive calls to MergeSort function. 
+First we check the length of the array. If it is 1 then we simply return the array. This would be our base case. Else, we will find out the middle value and divide the array into two halves. We will now sort both of the halves with recursive calls to MergeSort function.
 ```javascript
 function merge (a,b) {
     var result = [];
@@ -39,7 +41,7 @@ function merge (a,b) {
         result.push(a[0] < b[0]? a.shift() : b.shift());
     return result.concat(a.length? a : b);
     }
-    
+
 ```
 When we merge the two halfs, we store the result in an auxilliary array. We will compare the starting element of left array to the starting element of right array. Whichever is lesser will be pushed into the results array and we will remove it from there respective arrays using [shift() operator](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-Array-prototype-shift). If we still end up with values in either of left or right array, we would simply concatenate it in the end of the result.
 
@@ -52,4 +54,4 @@ console.log(mergeSort(test));
 >> [1, 3, 3, 5, 6, 7, 15]
 ```
 
-If you still have problem in understanding MergeSort, a [video explanation] (https://www.youtube.com/watch?v=TzeBrDU-JaY) will make it even more clear. 
+If you still have problem in understanding MergeSort, a [video explanation] (https://www.youtube.com/watch?v=TzeBrDU-JaY) will make it even more clear.

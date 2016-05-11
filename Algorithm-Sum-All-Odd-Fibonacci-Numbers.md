@@ -1,4 +1,6 @@
-# Explanation:
+# Algorithm Sum all Odd Fibonacci Numbers
+
+### Explanation:
 You will need to gather all the **Fibonacci** numbers and then check for the odd ones. Once you get the odd ones then you will add them all. The last number should be the number given as a parameter if it actually happens to be an off Fibonacci number.
 
 ## Hint: 1
@@ -56,13 +58,13 @@ function sumFibs(num) {
       arrFib.push(i);
       i = arrFib[arrFib.length - 1] + arrFib[arrFib.length - 2];
   }
-  
+
   // return the sum of odd numbers from the array
-  var res = arrFib.reduce(function(prev, curr) { 
+  var res = arrFib.reduce(function(prev, curr) {
       if (curr%2 !== 0) return prev + curr;
       else return prev;
     });
-  
+
   return res;
 }
 

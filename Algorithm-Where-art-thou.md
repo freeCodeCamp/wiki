@@ -1,6 +1,8 @@
+# Algorithm Where art thou
+
 ![](http://i.imgur.com/IUY2p6Y.jpg)
 
-# Problem Explanation
+### Problem Explanation:
 Write an algorithm that will take an `array` for the first argument and return an `array` with all the  `object`s that matches all the properties and values in the `Object` passed as second parameter.
 
 ## Hint: 1
@@ -107,20 +109,20 @@ function whereAreYou(collection, source) {
   var arr = [];
   //For maintaining the number of key-value matches
   var count ;
-  collection.forEach(function(collObj) { 
+  collection.forEach(function(collObj) {
   //Initialize to zero for each object in collection
-     count = 0 ; 
+     count = 0 ;
      for(var prop in source){
      //Check whether the key exists and the key-value is matched
         if( collObj.hasOwnProperty(prop) && collObj[prop] === source[prop])
         //Increase the count if matched
-        count++; 
+        count++;
        }
      //Check whether all key-value pairs in source are matched
-     if(count>=Object.keys(source).length){ 
+     if(count>=Object.keys(source).length){
         arr.push(collObj);
       }
-    
+
     });
     return arr;
 }

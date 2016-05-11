@@ -1,6 +1,8 @@
+# Algorithm Arguments Optional
+
 ![](http://i.imgur.com/63Iaec6.jpg)
 
-# Explanation:
+### Explanation:
 It can be quite complicated to understand what needs to be done. There are always many ways to do something when coding but regardless of the algorithm used,  we have to create a program that does the following:
 - It has to add two numbers passed as parameters and return the sum.
 - It has to check if any of the numbers are actual numbers, otherwise return **undefined** and stop the program right there.
@@ -101,14 +103,14 @@ function addTogether() {
  //When only one argument is provided
  if(args.length == 1){
      a= args[0];
-     //Check the  argument using typeof 
+     //Check the  argument using typeof
     if(typeof a!=='number'){
         return undefined;
       }
     else{
-       //Making use of closures 
+       //Making use of closures
        return function(b){
-       //Checking the second argument 
+       //Checking the second argument
          if(typeof b !=='number'){
            return undefined;
            }
@@ -129,11 +131,11 @@ addTogether(2,3);
 //jshint esversion: 6
 function addTogether() {
   var args = Array.from(arguments);
-  return args.some(n => typeof n !== 'number') ? 
-    undefined: 
+  return args.some(n => typeof n !== 'number') ?
+    undefined:
     args.length > 1 ?
       args.reduce((acc, n) => acc += n, 0):
-      (n) => typeof n === "number" ? 
+      (n) => typeof n === "number" ?
         n + args[0]:
         undefined;
 }

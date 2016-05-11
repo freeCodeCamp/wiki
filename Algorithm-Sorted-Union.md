@@ -1,4 +1,6 @@
-# Problem Explanation:
+# Algorithm Sorted Union
+
+### Problem Explanation:
 - The program has to return a new array of unique values from two original arrays in the order they show up. So there is not sorting required, and no duplicates.
 
 ## Hint: 1
@@ -61,7 +63,7 @@ function uniteUnique() {
   }
   uniqueArray = concatArr.filter(function(item, pos) {
     return concatArr.indexOf(item) == pos;
-  }); 
+  });
   return uniqueArray;
 }
 

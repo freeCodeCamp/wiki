@@ -1,17 +1,18 @@
-## Accessibility basics: What is this thing you speak of?
+# Accessibility basics: What is this thing you speak of?
 
-
-> "The Dark Arts are many, varied, ever-changing, and eternal. 
-> Fighting them is like fighting a many-headed monster, which, each time a neck is severed, sprouts a head even fiercer and cleverer than before. 
+> "The Dark Arts are many, varied, ever-changing, and eternal.
+> Fighting them is like fighting a many-headed monster, which, each time a neck is severed, sprouts a head even fiercer and cleverer than before.
 > You are fighting that which is unfixed, mutating, indestructible."
 >
 > —Professor Severus Snape, Harry Potter Series
 
 In this day and age, more and more new technologies are invented to make the life of developers, as well as users easier.
 To what degree this is a good thing is a debate for another time, for now it's enough to say the toolbox of a developer, especially a web developer, is as ever-changing as the so called "dark arts"  are according to our friend Snape. :)
- 
+
 One tool in that toolbox should be accessibility. It is a tool that should ideally be used in one of the very first steps of writing any form of web content.
 However, this tool is often not all that well presented in the toolbox of most developers. This could be due to a simple case of not knowing it even exists to extreme cases like just not caring about it.
+
+## 
 
 In my life as a user, and later a developer,  who benefits from accessibility in any form of content, I have seen both ends of that spectrum.
 If you are reading this article, I am guessing you are in one of the following categories:
@@ -22,10 +23,10 @@ If you are reading this article, I am guessing you are in one of the following c
 
 If you fall outside these rather broad categories, please let me know. I always like to hear from the people who read what I write about.
 
-### So, what is accessibility anyway?
+## So, what is accessibility anyway?
 
-Accessibility in itself is a bit of a misleading term sometimes, especially if English is your second language. 
- 
+Accessibility in itself is a bit of a misleading term sometimes, especially if English is your second language.
+
 If your site is on the internet, reachable by anyone with a web browser, in one sense that website is accessible to everyone with a web browser.
 
 But, is all content on your website actually readable, usable and understandable for everyone? Are there no thresholds that bar certain people from ' accessing'  all the information you are exposing?
@@ -40,24 +41,24 @@ You could ask yourself questions like the following ones:
 This is where accessibility comes into play.  Accessibility basically entails making your content as friendly, as easy to 'access' as possible for the largest amount of people.
 This includes people who are deaf, blind, dyslexic, mute, on a slow connection, colorblind, suffering from epilepsy etc.
 
-### Why implement accessibility?
+## Why implement accessibility?
 
 This is one for the final category I just listed. You may think that accessibility doesn't apply to you or to your users, so why implement it? What would a blind person do with a photo editing tool?
 
-The truth is, you're right to a certain degree. If you have done meticulous user research and have excluded any chance of a certain group of people visiting your website, the priority for catering to that group of people diminishes quite a bit. 
+The truth is, you're right to a certain degree. If you have done meticulous user research and have excluded any chance of a certain group of people visiting your website, the priority for catering to that group of people diminishes quite a bit.
 
 However, doing this research is key in actually defending such a statement. Did you know there were [blind gamers?](http://audiogames.net) and even [blind photographers?](http://peteeckert.com/). Perhaps you knew [musicians can be deaf](http://mentalfloss.com/article/25750/roll-over-beethoven-6-modern-deaf-musicians)?
 
 If you did, good for you. If not, I guess this drives my point home all the more. :)
 
-The picture gets even more complicated when we look at legislation that actually forces you to make certain websites and web apps accessible. 
-A prime example is the US-based [section 508](http://jimthatcher.com/webcourse1.htm). Right now, this law mainly refers to government organisations, public sector websites etc. However, laws change. 
+The picture gets even more complicated when we look at legislation that actually forces you to make certain websites and web apps accessible.
+A prime example is the US-based [section 508](http://jimthatcher.com/webcourse1.htm). Right now, this law mainly refers to government organisations, public sector websites etc. However, laws change.
 
 Last year, airline websites were included in this list which meant that even here in Europe, airline website devs scrambled to make their content accessible. Not doing so can get your company a fine of literally tens of thousands of dollars for each day the problem isn't fixed.
 
 There's variations on this legislation all over the world, some more severe and all-encompassing than others. Not knowing about that fact doesn't make the lawsuit go away, sadly. :)
 
-### Ok, so accessibility is a big deal. Now how do we implement  it?
+## Ok, so accessibility is a big deal. Now how do we implement  it?
 
 That question, sadly, is harder to answer than it may seem. The Harry Potter quote at the top is there for a reason, and its not my being an avid Fantasy reader. :)
 
@@ -77,29 +78,29 @@ The HTML specification is a document that describes how the language should be u
 <span class="clickable-with-JavaScript">English</span>
 ```
 
-Guess what? All three of these elements break several criteria of WCAG and therefore are not accessible at all. 
- 
+Guess what? All three of these elements break several criteria of WCAG and therefore are not accessible at all.
+
 The first element breaks the so-called 'name, role, value'-criterium, which states that all elements on a web page should expose their name, their role (like button) and their value (like the contents of an edit field) to assistive technologies. This div actually doesn't provide any of the three, rendering it invisible to screenreaders.
- 
+
 The second element looks like a heading visually after styling it with CSS, but semantically is a span. Therefore, assistive technologies won't know its a heading. A screenreader will read this as regular text, instead of a heading. Screenreaders often have a hotkey to quickly jump to the nearest heading, this heading will not be included in that scope.
- 
+
 The third element could for example be an element a user can click to change the language of the website. Maybe a fancy animated menu of languages will expand when it is clicked. However, this is also a span and does not expose its role (link, or button), making assistive technologies think this is just the word English with some styling.
- 
+
 Spans and divs are non-elements. They are meant to contain other elements, not to be elements themselves. You can fix these in two ways:
 
 - You can manually add ARIA-attributes to the elements above. This is an advanced topic and outside the scope of this article.
 - Or, you can simply do this:
- 
+
 ```html
 <button>This is a button</button>
- 
+
 <h2>Here's a heading level two</h2>
- 
+
 <a href="JavascriptThing">English</a>
 ```
- 
+
 Boom. Suddenly, all these elements are now perfectly accessible, just by using native HTML. HTML the way it was meant to be used, in other words.
- 
+
 #### A foundation cannot stand without structure
 
 A bit earlier, I touched upon a screenreader's hotkeys to jump from heading to heading. There are in fact many hotkeys like this to quickly jump to the nearest table, form field, link etc.
@@ -107,40 +108,40 @@ Making sure these headings are actually in logical places is therefore a good pr
 
 Also remember that headings are hierarchical.  If you use an h2, make sure the h3's that follow it actually have something to do with that h2. Don't put an h3 for contact details under your h2 for recent blog posts.
 A good analogy here is a book with chapters, that have subsections. You wouldn't put a section on baking cookies in the middle of a chapter on preparing vegetables ...or ...you wouldn't... right?
- 
+
 #### What's the alternative?
-Images on a website are great. They add a new layer to your content, can really make the experience your site visitors have way more emersive and generally just look good among all that text. 
+Images on a website are great. They add a new layer to your content, can really make the experience your site visitors have way more emersive and generally just look good among all that text.
 A picture can say more than a thousand words, right?
 
 Certainly. That is, if you can see them. In the HTML5-specification, an img-attribute must always have an alt-attribute. This attribute is meant as an alternative to the image in case it can't be seen.
 This would be true for blind visitors to your website, but also when your image can't be loaded for some reason.
-Not adding an alt-tag to an img-attribute is therefore not only breaking accessibility, but going against the HTML5-spec. 
- 
+Not adding an alt-tag to an img-attribute is therefore not only breaking accessibility, but going against the HTML5-spec.
+
 I implore any web developer who catches themselves doing this to eat their programmer's hat and work on Windows 95 exclusively for a week. After the time is up, write an essay on what you have learnt from this ordeal so I can have a laugh during my afternoon coffee. :)
 
 Now, there is one caveat here. Alt-attributes are mandatory according to the HTML5-spec, but it's not mandatory to actually fill them in. `<img src="awesome-image.jpg", alt="">` is therefore legal HTML5 code.
- 
+
 Should you therefore fill in alt-tags for all images? It depends on the image, really. For background images, the answer is usually no, but you should use CSS for those anyway.
 
 For purely decorative images that have no information in them at all, you're basically free to choose. Either put in something useful and descriptive or nothing at all.
- 
+
 For images that contain information, like a brochure, a map, a chart etc., not adding alt text breaks WCAG unless you provide a textual alternative. This is usually an alt-attribute, but can also be a block of text right below or next to the image.
- 
+
 For images of text, the text can either be included in the alt-attribute or offered in some alternative manner. The problem is that adding the textual alternative on the same page would basically make the same content show twice for people who can see the image, which is why the alt-attribute is better in this case.
 
 
 #### I can't read your scrawl, son
- 
-Even people who don't wear glasses and have no problem with their eyesight at all benefit from an easy to read font and proper contrast. 
-I'm sure you would cringe if you had to fill in a form where light yellow, hopelessly loopy letters are placed on a white background. For people who's eyesight is not as good, like your grandma for example, this becomes hopelessly worse. 
+
+Even people who don't wear glasses and have no problem with their eyesight at all benefit from an easy to read font and proper contrast.
+I'm sure you would cringe if you had to fill in a form where light yellow, hopelessly loopy letters are placed on a white background. For people who's eyesight is not as good, like your grandma for example, this becomes hopelessly worse.
 
 The WCAG has contrast ratios for smaller and larger letters and there's plenty of tools out there to check if the contrast ratios are strong enough. The information and tooling is there, go use it :)
- 
+
 #### What does this button do?
 While we are at the topic of forms, let's quickly glance at the <label> tag. This little guy is kinda important.
  When you put some input fields on a web page, you can use labels to ...well ...label them. However, putting them next to each other is not quite enough. The attribute you want is the for-attribute, which takes the ID of a subsequent input field. This way, assistive technologies know what label to associate with what form field.
 I guess the best way to illustrate this is by giving an example:
- 
+
 ```html
 <label for='username'>
 
@@ -153,7 +154,7 @@ This will make for example a screenreader say "username, text edit field", inste
 #### That's a tall order
 Let's take a small break. I want you to go look at a really well-designed web page. It can be any page. Go on, I'll wait.
 
-Back? Ok, great. Now, look at the page again but disable all CSS. 
+Back? Ok, great. Now, look at the page again but disable all CSS.
 Does it still look good? Is the content on the page still in a logical order?If so, great. You found a page with decent HTML structure.
 
 If not, great. Now you get an impression on what I have to deal with on a daily basis when I come across a badly structured website.
@@ -176,21 +177,18 @@ So a final tip I want to give you all is to pay attention to the order of your H
 Oh ... it doesn't? In that case ..you might one day hear a muffled curse carried to you on a chilly breeze while walking outside. That will most likely be me, visiting your website. :)
 In that case I really only have two words for you. Often have I heard those same two words directed at me when I wrote some bad code and it is with great pleasure that I tell you:  "go fix!" :)
 
+## Conclusion
 
-
- 
-### Conclusion
- 
  I have told you about accessibility, what it is, what it's not and why it's important.
  I have also given you the basics, the very basics, of getting accessibility right. These basics are however very powerful and can make your life a lot easier when coding for accessibility.
  If we talk in FCC terms, you should keep these in mind while doing the HTML/CSS curriculum as well as the JavaScript curriculum.
  In subsequent articles, I will touch on a number of more nitch topics. A number of questions I will answer are:
- 
+
  - Adding structure headings sounds like a good idea, but they don't fit in my design. What do I do?
  - Is there a way for me to write content only screenreaders and other assistive technologies see?
  - How do I make custom JavaScript components accessible?
  - What is WAI-ARIA?
- 
+
  Do you yourself have a question? Please, let me know. I will either answer you personally or add it to an article if the question comes up often.
 For now, good luck and see you in the next one. Mischief managed :)
 For now, good luck and see you in the next one. *Mischief managed.* :)

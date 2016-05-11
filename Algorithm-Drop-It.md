@@ -1,6 +1,8 @@
+# Algorithm Drop It
+
 ![](http://i.imgur.com/goyTFy2.png)
 
-# Explanation:
+### Explanation:
 Basically while the second argument is not true, you will have to remove the first element from the left of the array that was passed as the first argument.
 
 ## Hint: 1

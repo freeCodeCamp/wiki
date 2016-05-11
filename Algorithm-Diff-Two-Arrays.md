@@ -1,8 +1,10 @@
+# Algorithm Diff Two Arrays
+
 ![](http://i.imgur.com/HkEgef5.gif)
 
 :triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](How-to-get-help-when-you-get-stuck) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :memo:
 
-# :checkered_flag: Problem Explanation:
+### :checkered_flag: Problem Explanation:
 
 Check two arrays and return a new array that contains only the items that are not in either of the original arrays.
 

@@ -1,6 +1,8 @@
+# Algorithm Check for Palindromes
+
 ![](http://i.imgur.com/ozDWKEi.jpg)
 
-# Explanation:
+### Explanation:
 Our goal for solving this problem is tidying up the string passed in, and checking whether it is in fact a palindrome.
 - If you are unsure of what a palindrome is, it is a word or phrase that when reversed spells the same thing forwards or backwards. A simple example is `mom`, when you reverse the letters, it spells the same thing! Another example of a palindrome is `race car`. When we take out anything that is not a character it becomes `racecar` which is the same spelled forwards or backwards!
 

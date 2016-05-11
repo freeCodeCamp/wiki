@@ -1,4 +1,6 @@
-# Problem Explanation:
+# Algorithm Inventory Update
+
+### Problem Explanation:
 - Look through an array of new products, in the format: `[quantity, name]`
 - Return an array containing updated quantities for each item that already existed, and any new products
 
@@ -168,7 +170,7 @@ function updateInventory(arr1, arr2) {
     if(flag===0) arr1.push(item);
   });
   //Return the sorted inventory in alphabetical order wrt product name
-    return arr1.sort(function(a, b) { 
+    return arr1.sort(function(a, b) {
     return a[1] > b[1] ? 1 : -1;
 });
 }
@@ -199,14 +201,14 @@ updateInventory(curInv, newInv);
 //jshint esversion: 6
 function updateInventory(curInv, newInv) {
   var inv = new Map();
-  
+
   [...curInv, ...newInv].forEach(item => {
      if(inv.has(item[1]))
        inv.set(item[1], inv.get(item[1]) + item[0]);
      else
        inv.set(item[1], item[0]);
   });
-  
+
   return [...inv]
     .map(item => [item[1], item[0]])
     .sort((a, b) => a[1] > b[1] ? 1 : -1);
@@ -264,4 +266,3 @@ updateInventory(curInv, newInv);
 If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @guyjoseph @Rafase282 @anuragaryan for your help with Algorithm: Inventory Update`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
-

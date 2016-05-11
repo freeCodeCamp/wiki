@@ -1,4 +1,6 @@
-# Explanation:
+# Algorithm Repeat a String Repeat a String
+
+### Explanation:
 The program is very simple, we have to take a variable and return that variable being repeated certain amount of times. No need to add space or anything, just keep repeating it into one single string.
 
 ## Hint: 1
@@ -49,7 +51,7 @@ repeatStringNumTimes("abc", 3);
 
 :rocket: [REPL It!](https://repl.it/CLjU/20)
 
-####Third Solution 
+####Third Solution
 (using Recursion)
 ```js
 function repeatStringNumTimes(str, num) {

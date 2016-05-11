@@ -1,4 +1,6 @@
-# Problem Explanation:
+# Algorithm Mutations
+
+### Problem Explanation:
 - Return true if the string in the first element of the array contains all of the letters of the string in the second element of the array..
 
 ## Hint: 1
@@ -58,7 +60,7 @@ If they are _all_ found, the loop will finish without returning anything and we 
 Grab the second string, lowercase and turn it into an array; then make sure *every* one of its *letters* is a part of the lowercased first string.
 
 `Every` will basically give you letter by letter to compare, which we do by using `indexOf` on the first string.
-`indexOf` will give you -1 if the current `letter` is missing. 
+`indexOf` will give you -1 if the current `letter` is missing.
 We check that not to be the case, for if this happens even once `every` will be false.
 
 # Credits:

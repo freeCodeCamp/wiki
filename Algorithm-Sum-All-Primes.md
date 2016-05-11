@@ -1,4 +1,6 @@
-# Explanation:
+# Algorithm Sum all Primes
+
+### Explanation:
 The explanation for this problem is very simple. You will generate a list of prime numbers up to the number you are given as a parameter. Then you need to add them all up and return that value. The tricky part is on generating the list of prime numbers. I suggest you find a code or a good math algorithm that you can turn into code.
 
 ## Hint: 1
@@ -69,7 +71,7 @@ function sumPrimes(num) {
   function isPrime(number){
       for (i = 2; i <= number; i++){
           if(number % i === 0 && number!= i){
-          // return true if it is divisable by any number that is not itself. 
+          // return true if it is divisable by any number that is not itself.
              return false;
           }
        }
@@ -85,7 +87,7 @@ function sumPrimes(num) {
   // for non primes check the next number down from your maximum number, do not add anything to your answer
     return sumPrimes(num - 1);
   }
-  
+
   // Check if your number is prime
   if(isPrime(num) === true){
   // for primes add that number to the next number in the sequence through a recursive call to our sumPrimes function.

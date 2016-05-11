@@ -1,4 +1,6 @@
-# Problem Explanation:
+# Algorithm Spinal Tap Case
+
+### Problem Explanation:
 - Convert the given string to an all lowercase sentence joined by dashes.
 
 ## Hint: 1

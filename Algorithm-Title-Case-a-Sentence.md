@@ -1,4 +1,6 @@
-# Explanation:
+# Algorithm Title Case a Sentence
+
+### Explanation:
 We have to return a sentence with camel case. This means that the first letter will always be in uppercase and the rest lowercase.
 
 ## Hint: 1
