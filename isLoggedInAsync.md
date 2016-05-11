@@ -13,4 +13,4 @@ $scope.isLoggedInAsync(callback(bool) {
 });
 ```
 
-[PREVIOUS](Restrict-a-page-to-authenticated-users) [NEXT](Bonus-SocketIO)
+[PREVIOUS](Page-Restriction) [NEXT](Bonus-SocketIO)

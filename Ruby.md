@@ -6,6 +6,8 @@
 
 [Ruby](https://www.ruby-lang.org/en/) is a dynamic, object-oriented, [reflective](https://en.wikipedia.org/wiki/Reflection_(computer_programming)) programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write. It also has a dynamic type system and automatic memory management.
 
+##  
+
 Known for its [syntactic sugar](https://en.wikipedia.org/wiki/Syntactic_sugar), Ruby is made for developer's happiness. It was created by a Japanese software engineer, [Yukihiro Matsumoto](https://en.wikipedia.org/wiki/Yukihiro_Matsumoto) in the early 1990s (also popularly known as Matz) as a simple general purpose scripting language for his day-to-day work. Combining elements of Perl, Smalltalk, and Scheme in a simple yet powerful syntax.
 
 Ruby was conceived on February 24, 1993. In a 1999 post to the ruby-talk mailing list, Ruby author Yukihiro Matsumoto describes some of his early ideas about the language:
