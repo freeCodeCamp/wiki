@@ -1,8 +1,10 @@
 # Object.keys()
+
 The `Object.keys()` method returns an array of a given object's own enumerable properties, in the same order as that provided by a `for...in` loop (the difference being that a `for-in` loop enumerates properties in the prototype chain as well).
 
 ## Syntax
-```js
+
+```javascript
 Object.keys(obj)
 ```
 
@@ -10,16 +12,17 @@ Object.keys(obj)
 
 **obj**
 
-The object whose enumerable own properties are to be returned. 
+The object whose enumerable own properties are to be returned.
 
 [MDN link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys) | [MSDN link](https://msdn.microsoft.com/en-us/LIBRary/ff688127%28v=vs.94%29.aspx)
 
-##Description
+## Description
+
 `Object.keys()` returns an array whose elements are strings corresponding to the enumerable properties found directly upon object. The ordering of the properties is the same as that given by looping over the properties of the object manually.
 
 ## Examples
 
-```js
+```javascript
 var arr = ['a', 'b', 'c'];
 console.log(Object.keys(arr)); // console: ['0', '1', '2']
 
@@ -38,7 +41,7 @@ my_obj.foo = 1;
 console.log(Object.keys(my_obj)); // console: ['foo']
 ```
 
-```js
+```javascript
 // Create a constructor function.
 function Pasta(grain, width, shape) {
     this.grain = grain;
