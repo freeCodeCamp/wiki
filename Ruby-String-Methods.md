@@ -2,7 +2,7 @@
 
 ## Length:
 
-*	The ```.length``` property returns the number of characters in a string including white-space.
+*	The `.length` property returns the number of characters in a string including white-space.
 
 ```ruby
 "Hello".length
@@ -15,7 +15,7 @@
 
 ## Count:
 
-*	The ```.count``` method counts how many times a specific character(s) is found in a string.
+*	The `.count` method counts how many times a specific character(s) is found in a string.
 *	This method is case-sensitive.
 
 ```ruby
@@ -29,7 +29,7 @@
 
 ## Insert:
 
-*	The ```.insert``` method inserts a string into another string before a given index.
+*	The `.insert` method inserts a string into another string before a given index.
 
 ```ruby
 "Hello".insert(3, "hi5")
@@ -40,7 +40,7 @@ Helhi5lo
 
 ## Upcase:
 
-*	The ```.upcase``` method transforms all letters in a string to uppercase.
+*	The `.upcase` method transforms all letters in a string to uppercase.
 
 ```ruby
 "Hello".upcase
@@ -50,7 +50,7 @@ HELLO
 
 ## Downcase:
 
-*	The ```.downcase``` method transforms all letters in a string to lowercase.
+*	The `.downcase` method transforms all letters in a string to lowercase.
 
 ```ruby
 "Hello".downcase
@@ -60,7 +60,7 @@ hello
 
 ## Capitilize:
 
-*	The ```.capitalize``` method make the first letter in a string uppercase and the rest of the string lowercase.
+*	The `.capitalize` method make the first letter in a string uppercase and the rest of the string lowercase.
 
 ```ruby
 "HELLO".capitalize
@@ -83,7 +83,7 @@ Hello, how are you?
 
 ## Reverse:
 
-*	The ```.reverse``` method reverses the order of the characters in a string.
+*	The `.reverse` method reverses the order of the characters in a string.
 
 ```ruby
 "Hello World!".reverse
@@ -93,7 +93,7 @@ Hello, how are you?
 
 ## Split:
 
-*	The ```.split``` takes a strings and *splits* it into an array, then returns the array.
+*	The `.split` takes a strings and *splits* it into an array, then returns the array.
 *	The default method splits the string based on whitespace, unless a different separator is provided (see second example).
 
 ```ruby
@@ -109,8 +109,8 @@ Hello, how are you?
 
 ## Chop:
 
-*	The ```.chop``` method removes the last character of the string.
-*	A new string is returned, unless you use the ```.chop!``` method which mutates the original string.
+*	The `.chop` method removes the last character of the string.
+*	A new string is returned, unless you use the `.chop!` method which mutates the original string.
 
 ```ruby
 "Name".chop
@@ -130,7 +130,7 @@ name == "Batma" # returns true
 
 ## Strip:
 
-*	The ```.strip``` method removes the leading and trailing whitespace on strings, including tabs, newlines, and carriage returns (```\t```, ```\n```, ```\r```).
+*	The `.strip` method removes the leading and trailing whitespace on strings, including tabs, newlines, and carriage returns (`\t`, `\n`, `\r`).
 
 ```ruby
 "  Hello  ".strip
@@ -142,4 +142,4 @@ Hello
 
 | Previous | Home |
 | :---         |     :---:      |
-| [Ruby String Operators](Ruby-Strings-Operators.md)   | [Table of Contents](Ruby-Strings.md)     |
+| [Ruby String Operators](Ruby-Strings-Operators)   | [Table of Contents](Ruby-Strings)     |

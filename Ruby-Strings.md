@@ -5,8 +5,8 @@
  * Strings are a series of characters 'strung' together between quotes.
  * Single or double quotes can be used to create strings in Ruby.
  * Ruby does some extra evaluation on strings that are created with double quotes, such as:
- 	*	Escaping characters: ```\n```, ```\t```, ```\s```
- 	*	Using variables and expressions inside: ```#{variable or expression}```
+ 	*	Escaping characters: `\n`, `\t`, `\s`
+ 	*	Using variables and expressions inside: `#{variable or expression}`
  * Strings with single quotes are rendered as they are, without any special considerations.
 
 **Examples:**
@@ -42,5 +42,5 @@ This is your name:\n#{name}
 
 ## Table of Contents
 
-1.  [Ruby String Operators](Ruby-Strings-Operators.md)
-2.  [Ruby String Methods](Ruby-String-Methods.md)
+1.  [Ruby String Operators](Ruby-Strings-Operators)
+2.  [Ruby String Methods](Ruby-String-Methods)
