@@ -1,39 +1,50 @@
 # JavaScript Array prototype every
+
 The `every()` method tests whether all elements in the array pass the test implemented by the provided function.
 
-## Syntax
-```js
+**Syntax**
+
+```javascript
 arr.every(callback[, thisArg])
 ```
 
-### Parameters
+## Parameters
 
-- **callback**
-    Function to test for each element, taking three arguments:
+- **callback** Function to test for each element, taking three arguments:
 
- - **currentValue** (required)
-        The current element being processed in the array.
- - **index** (optional)
-        The index of the current element being processed in the array.
- - **array** (optional)
-        The array every was called upon.
+  - **currentValue** (required)
 
-- **thisArg**
-    Optional. Value to use as this when executing callback. 
+    ```
+    The current element being processed in the array.
+    ```
+
+  - **index** (optional)
+
+    ```
+    The index of the current element being processed in the array.
+    ```
+
+  - **array** (optional)
+
+    ```
+    The array every was called upon.
+    ```
+
+- **thisArg** Optional. Value to use as this when executing callback.
 
 [MDN link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every) | [MSDN link](https://msdn.microsoft.com/en-us/LIBRary/ff679981%28v=vs.94%29.aspx)
 
-##Description
+## Description
+
 The `every` method calls the `callback` function one time for each array element, in ascending index order, until the `callback` function returns false. If an element that causes `callback` to return false is found, the every method immediately returns `false`. Otherwise, the every method returns `true`.
 
 The callback function is not called for missing elements of the array.
 
-In addition to array objects, the every method can be used by any object that has a length property and that has numerically indexed property names.
-`every` does not mutate the array on which it is called.
+In addition to array objects, the every method can be used by any object that has a length property and that has numerically indexed property names. `every` does not mutate the array on which it is called.
 
 ## Examples
 
-```js
+```javascript
 function isBigEnough(element, index, array) {
   return element >= 10;
 }
@@ -41,7 +52,7 @@ function isBigEnough(element, index, array) {
 [12, 54, 18, 130, 44].every(isBigEnough); // true
 ```
 
-```js
+```javascript
 // Define the callback function.
 function CheckIfEven(value, index, ar) {
     document.write(value + " ");

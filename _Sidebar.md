@@ -17,7 +17,7 @@ JS Concepts
 
 JS Language Reference
 
-- [arguments](js-arguments)
+- [arguments](JS-Arguments)
 - [Array.prototype.filter](js-array-prototype-filter)
 - [Array.prototype.indexOf](js-array-prototype-indexof)
 - [Array.prototype.map](js-array-prototype-map)

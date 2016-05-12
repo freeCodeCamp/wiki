@@ -1,35 +1,32 @@
 # JavaScript Array prototype forEach
+
 The `forEach()` method executes a provided function once per array element.
 
-## Syntax
-```js
+**Syntax**
+
+```javascript
 arr.forEach(callback[, thisArg])
 ```
 
-### Parameters
+## Parameters
 
+- **callback** Function to execute for each element, taking three arguments:
 
-- **callback**
-    Function to execute for each element, taking three arguments:
+  - **currentValue** The current element being processed in the array.
+  - **index** The index of the current element being processed in the array.
+  - **array** The array that forEach is being applied to.
 
- - **currentValue**
-        The current element being processed in the array.
- - **index**
-        The index of the current element being processed in the array.
- - **array**
-        The array that forEach is being applied to.
-
-- **thisArg**
-    Optional. Value to use as this when executing callback. 
+- **thisArg** Optional. Value to use as this when executing callback.
 
 [MDN link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach) | [MSDN link](https://msdn.microsoft.com/en-us/LIBRary/ff679980%28v=vs.94%29.aspx)
 
-##Description
-`forEach()` executes the provided callback once for each element present in the array in ascending order. It is not invoked for index properties that have been deleted or are uninitialised (i.e. on sparse arrays). Unlike `map()` or `reduce()` it always returns the value `undefined` and is not *chainable*. The typical use case is to execute side effects at the end of a chain.
+## Description
+
+`forEach()` executes the provided callback once for each element present in the array in ascending order. It is not invoked for index properties that have been deleted or are uninitialised (i.e. on sparse arrays). Unlike `map()` or `reduce()` it always returns the value `undefined` and is not _chainable_. The typical use case is to execute side effects at the end of a chain.
 
 ## Examples
 
-```js
+```javascript
 function logArrayElements(element, index, array) {
   console.log('a[' + index + '] = ' + element);
 }
@@ -42,7 +39,7 @@ function logArrayElements(element, index, array) {
 // a[3] = 9
 ```
 
-```js
+```javascript
 // Create an array.
 var numbers = [10, 11, 12];
 

@@ -1,6 +1,6 @@
 # Using `Array.prototype.reduce()` to Reduce Conceptual Boilerplate for Problems on Arrays
 
-That's quite a mouthful! It could have just been titled as **Use [`Array.prototype.reduce()`](js-Array-prototype-reduce) to Solve Array Problems Easily** or **`Array.prototype.reduce()` FTW!**. That would have been so much easier to read and parse.
+That's quite a mouthful! It could have just been titled as **Use [`Array.prototype.reduce()`](JS-Array-Prototype-Reduce) to Solve Array Problems Easily** or **`Array.prototype.reduce()` FTW!**. That would have been so much easier to read and parse.
 
 But It was not. Loops in JavaScript are just like that. They are not terse, they make you beat around the bush for a while. As the joke goes, two things are most difficult in computer science - [cache invalidation](https://en.wikipedia.org/wiki/Cache_invalidation), [naming things](https://www.quora.com/Why-is-naming-things-hard-in-computer-science-and-how-can-it-can-be-made-easier), and [off-by-one error](https://en.wikipedia.org/wiki/Off-by-one_error).
 
@@ -8,7 +8,7 @@ And then there is the danger of writing [asynchonous code inside a for loop with
 
 ##  
 
-This article would start with a claim - that you can avoid using a for-loop or while-loop to solve any `Array` related problems. Instead, you can solve all of them using `Array.prototype.reduce()`. If you wish to read forward; do make sure you know about recursive functions, and some of the cool functional tools like [`Array.prototype.map()`](js-Array-prototype-map) or [`Array.prototype.filter()`](js-Array-prototype-filter).
+This article would start with a claim - that you can avoid using a for-loop or while-loop to solve any `Array` related problems. Instead, you can solve all of them using `Array.prototype.reduce()`. If you wish to read forward; do make sure you know about recursive functions, and some of the cool functional tools like [`Array.prototype.map()`](JS-Array-Prototype-Map) or [`Array.prototype.filter()`](JS-Array-Prototype-Filter).
 
 Grand claims require grand evidence. So let's demonstrate how we can get accustomed with using `reduce()`.
 
@@ -266,7 +266,7 @@ The output should be `[1, 2, 3, 'cat', 'dog', 'fish', 'bird']`
 
 It's time to formulate a strategy. We clearly need to distinguish between an array and an element. Also, `acc` should be the array being formed throughout the iteration; meaning the initial value would be an empty array `[]`.
 
-Throughout the callback function code, we would simply extract the content from the `item`, which can be a deeply nested array; and we would [`Array.prototype.concat()`](js-Array-prototype-concat) it with the `acc` value. It's better to use `concat()` over [`Array.prototype.push()`](js-Array-prototype-push); because `push()` alters the original array; while `concat()` creates a new array and returns it.
+Throughout the callback function code, we would simply extract the content from the `item`, which can be a deeply nested array; and we would [`Array.prototype.concat()`](JS-Array-Prototype-Concat) it with the `acc` value. It's better to use `concat()` over [`Array.prototype.push()`](JS-Array-Prototype-Push); because `push()` alters the original array; while `concat()` creates a new array and returns it.
 
 And since we don't know the level of nesting at any given instant; we must go call our custom callback recursively. Meaning, we have to write it somewhere else and call it by name inside `reduce()`.
 

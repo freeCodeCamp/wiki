@@ -1,36 +1,40 @@
 # JavaScript Array prototype sort
-The `sort()` method sorts the elements of an array *in place* and returns the sorted array.
 
-## Syntax
-```js
+The `sort()` method sorts the elements of an array _in place_ and returns the sorted array.
+
+### Syntax
+
+```javascript
 arr.sort([compareFunction])
 ```
 
-### Parameters
+## Parameters
+
 | Parameter  |           Description                         |   Necessity   |
 |------------|-----------------------------------------------|---------------|
 |  compareFunction    | Optional. The name of the function used to determine the order of the elements. If omitted, the elements are sorted in ascending, Unicode character order.  |   Optional    |
 
 [MDN link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) | [MSDN link](https://msdn.microsoft.com/en-us/LIBRary/4b4fbfhk%28v=vs.94%29.aspx)
 
-##Returns
+## Returns
+
 The sorted array.
 
-##Remarks
+## Remarks
 
 The `sort` method sorts the `Array` object in place; no new `Array` object is created during execution.
 
 If you supply a function in the `compareFunction` argument, it must return one of the following values:
 
-* A negative value if the first argument passed is less than the second argument.
+- A negative value if the first argument passed is less than the second argument.
 
-* Zero if the two arguments are equivalent.
+- Zero if the two arguments are equivalent.
 
-* A positive value if the first argument is greater than the second argument. 
+- A positive value if the first argument is greater than the second argument.
 
 ## Examples
 
-```js
+```javascript
 var fruit = ['cherries', 'apples', 'bananas'];
 fruit.sort(); // ['apples', 'bananas', 'cherries']
 
@@ -45,7 +49,7 @@ things.sort(); // ['1 Word', '2 Words', 'Word', 'word']
 // which come before lower case letters.
 ```
 
-```js
+```javascript
 var a = new Array(4, 11, 2, 10, 3, 1);
 
 var b = a.sort();

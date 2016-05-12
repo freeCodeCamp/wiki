@@ -4,7 +4,7 @@ This method changes array's content by removing existing elements and/or adding 
 
 ## Syntax
 
-```js
+```javascript
 array.splice(start, deleteCount[, item1[, item2[, ...]]])
 ```
 
@@ -24,7 +24,7 @@ An array containing the deleted elements. If only one element is removed, an arr
 
 ## Examples
 
-```js
+```javascript
 var arr = new Array("4", "11", "2", "10", "3", "1");
 arr.splice(2, 2, "21", "31");
 document.write(arr);
@@ -32,7 +32,7 @@ document.write(arr);
 // Output: 4,11,21,31,3,1
 ```
 
-```js
+```javascript
 var myFish = ['angel', 'clown', 'mandarin', 'surgeon'];
 
 // removes 0 elements from index 2, and inserts 'drum'
