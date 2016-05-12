@@ -150,6 +150,7 @@ If your city isn't listed here, you should [create your own Campsite](How-to-cre
 - Brunei
   - [Bandar Seri Begawan](https://www.facebook.com/groups/free.code.camp.brunei.darussalam/)
 - Bulgaria
+  - [Burgas](https://www.facebook.com/groups/free.code.camp.Burgas/) 
   - [Sofia](https://www.facebook.com/groups/free.code.camp.sofia/)
   - [Varna](https://www.facebook.com/groups/free.code.camp.varna)
   - [Veliko Tarnovo](https://www.facebook.com/groups/free.code.camp.veliko.tarnovo/)
@@ -582,6 +583,7 @@ If your city isn't listed here, you should [create your own Campsite](How-to-cre
   - [Tabriz](https://www.facebook.com/groups/free.code.camp.tabriz/)
   - [Tehran](https://www.facebook.com/groups/free.code.camp.tehran/)
   - [Masshad](https://www.facebook.com/groups/free.code.camp.mashhad/)
+  - [Urmia](https://www.facebook.com/groups/free.code.camp.your.Urmia/)
 - Iraq
   - [Baghdad](https://www.facebook.com/groups/free.code.camp.baghdad/)
 - Ireland
@@ -919,6 +921,7 @@ If your city isn't listed here, you should [create your own Campsite](How-to-cre
 - Saint Lucia
   - [Castries](https://www.facebook.com/groups/free.code.camp.your.castries/)
 - Saudi Arabia
+  - [Abha](https://www.facebook.com/groups/free.code.camp.abha/)
   - [Damman](https://www.facebook.com/groups/free.code.camp.dammam/)
   - [Jeddah](https://www.facebook.com/groups/freecodecamp.jeddah/)
   - [Riyadh](https://www.facebook.com/groups/free.code.camp.Riyadh/)
@@ -1536,12 +1539,14 @@ If your city isn't listed here, you should [create your own Campsite](How-to-cre
   - Wisconsin
     - [Appleton](https://www.facebook.com/groups/free.code.camp.appleton/)
     - [Burlington](https://www.facebook.com/groups/free.code.camp.Racine.WI/)
+    - [Eau Claire](https://www.facebook.com/groups/free.code.camp.eau.claire/)
     - [Kenosha](https://www.facebook.com/groups/free.code.camp.kenosha/)
     - [La Crosse](https://www.facebook.com/groups/free.code.camp.la.crosse)
     - [Madison](https://www.facebook.com/groups/free.code.camp.madison.wisconsin/)
     - [Milwaukee](https://www.facebook.com/groups/free.code.camp.milwaukee/)
     - [Rice Lake](https://www.facebook.com/groups/free.code.camp.rice.lake.wi/)
   - Wyoming 
+    - [Cheyenne](https://www.facebook.com/groups/free.code.camp.cheyenne/)
     - [Sheridan](https://www.facebook.com/groups/free.code.camp.sheridan/)
 - Uruguay
   - [Montevideo](https://www.facebook.com/groups/free.code.camp.montevideo/)
@@ -1569,6 +1574,7 @@ If your city isn't listed here, you should [create your own Campsite](How-to-cre
 - Wales
   - [Bangor](https://www.facebook.com/groups/free.code.camp.wales.bangor/)
   - [Cardiff](https://www.facebook.com/groups/free.code.camp.cardiff/)
+  - [Swansea](https://www.facebook.com/groups/free.code.camp.swansea/)
 - Zambia
   - [Lukasa](https://www.facebook.com/groups/free.code.camp.lusaka/)
 - Zimbabwe
