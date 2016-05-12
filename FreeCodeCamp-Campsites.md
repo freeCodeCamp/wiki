@@ -431,6 +431,7 @@ If your city isn't listed here, you should [create your own Campsite](How-to-cre
   - [Patras](https://www.facebook.com/groups/free.code.camp.Patras/)
   - [Preveza](https://www.facebook.com/groups/free.code.camp.preveza/)
   - [Thessaloniki](https://www.facebook.com/groups/free.code.camp.thessaloniki/)
+  - [Xanthi](https://www.facebook.com/groups/free.code.camp.your.xanthi/)
 - Guinea
   - [Conakry](https://www.facebook.com/groups/free.code.camp.conakry/)
 - Guatemala
@@ -500,6 +501,7 @@ If your city isn't listed here, you should [create your own Campsite](How-to-cre
     - [Kannur](https://www.facebook.com/groups/free.code.camp.your.city.kannur/)
     - [Kochi](https://www.facebook.com/groups/1542888942704307)
     - [Kozhikode](https://www.facebook.com/groups/free.code.camp.kozhikode/)
+    - [Palakkad](https://www.facebook.com/groups/free.code.camp.palakkad/)
     - [Thrissur](https://www.facebook.com/groups/free.code.camp.thrissur/)
     - [Trivandrum](https://www.facebook.com/groups/freecodecamp.trivandrum/)
   - Maharashtra
@@ -617,6 +619,8 @@ If your city isn't listed here, you should [create your own Campsite](How-to-cre
   - [Siena](https://www.facebook.com/groups/free.code.camp.siena/)
   - [Torino](https://www.facebook.com/groups/free.code.camp.torino/)
   - [Venice](https://www.facebook.com/groups/free.code.camp.venice/)
+- Ivory Coast
+  - [Abidjan](https://www.facebook.com/groups/free.code.camp.babi/) 
 - Jamaica
   - [Kingston](https://www.facebook.com/groups/free.code.camp.kingston.jamaica/)
   - [Montego Bay](https://www.facebook.com/groups/free.code.camp.montego.bay/)
@@ -898,6 +902,7 @@ If your city isn't listed here, you should [create your own Campsite](How-to-cre
   - [Moscow](https://www.facebook.com/groups/free.code.camp.moscow/)
   - [Nizhnevartovsk](https://www.facebook.com/groups/free.code.camp.nizhnevartovsk/)
   - [Novorossiysk](https://www.facebook.com/groups/free.code.camp.novorossiysk/)
+  - [Novosibirsk](https://www.facebook.com/groups/free.code.camp.novosibirsk/)
   - [Omsk](https://www.facebook.com/groups/free.code.camp.omsk/)
   - [Orenburg](https://www.facebook.com/groups/free.code.camp.orenburg/)
   - [Pavlovo](https://www.facebook.com/groups/Free.Code.Camp.Pavlovo/)
@@ -1430,6 +1435,7 @@ If your city isn't listed here, you should [create your own Campsite](How-to-cre
     - [Redmond](https://www.facebook.com/groups/free.code.camp.remond.oregon/)
     - [Salem](https://www.facebook.com/groups/free.code.camp.salemor/)
   - Pennsylvania
+    - [Altoona](https://www.facebook.com/groups/free.code.camp.altoona.pa/)
     - [Bethlehem](https://www.facebook.com/groups/216683128680444/)
     - [Bushkill](https://www.facebook.com/groups/Free.Code.Camp.Bushkill.PA/)
     - [Erie](https://www.facebook.com/groups/free.code.camp.erie/)
