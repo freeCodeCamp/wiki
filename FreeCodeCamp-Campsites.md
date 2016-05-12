@@ -262,6 +262,7 @@ If your city isn't listed here, you should [create your own Campsite](How-to-cre
 - Croatia
   - [Dubrovnik](https://www.facebook.com/groups/free.code.camp.dubrovnik/)
   - [Karlovac](https://www.facebook.com/groups/free.code.camp.karlovac/)
+  - [Krk](https://www.facebook.com/groups/free.code.camp.krk/)
   - [Osijek](https://www.facebook.com/groups/free.code.camp.osijek/)
   - [Rijeka](https://www.facebook.com/groups/542662595902378/)
   - [Split](https://www.facebook.com/groups/free.code.camp.split/)
