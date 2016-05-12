@@ -1,6 +1,6 @@
 # Ruby Strings
 
-**Basics:**
+## Basics:
 
  * Strings are a series of characters 'strung' together between quotes.
  * Single or double quotes can be used to create strings in Ruby.
