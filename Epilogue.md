@@ -11,4 +11,4 @@ If you notice any inaccuracies or bad coding practices in this guide, please let
 
 I believe in you! -[clnhll](https://github.com/clnhll)
 
-[PREVIOUS](Bonus-SocketIO)
+[PREVIOUS](Angular-Angular-Bonus-SocketIO)
