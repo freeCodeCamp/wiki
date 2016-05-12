@@ -3,23 +3,24 @@
 The concat() method combines the text of two or more strings and returns a new string.
 
 **Syntax**
-```js
+
+```javascript
 str.concat(string2[,..., stringN]);
 ```
 
-### Parameters
+## Parameters
 
-**string2...string*N***
-The strings which are to be concatenated to this String.
+**string2...string_N_** The strings which are to be concatenated to this String.
 
-## Description 
+## Description
 
 The concat() method combines the text of two or more strings and returns the concatenated string. It does not modify the original strings.
 
 ## Examples
 
 **Concatenating strings**
-```js
+
+```javascript
 var str1 = "Hello";
 var str2 = "World";
 console.log(str1.concat(str2));
@@ -28,8 +29,6 @@ console.log(str1.concat(str2));
 var str2 = "Hello, ";
 console.log(str2.concat(" Welcome ", "to FCC."));
 // Console will output: Hello, Welcome to FCC.
-
 ```
-
 
 Source [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/concat)

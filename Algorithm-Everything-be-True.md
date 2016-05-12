@@ -1,7 +1,7 @@
 ![](http://i.imgur.com/oKEJJJI.jpg)
 
 # Explanation:
-The program needs to check if the second argument is a [truthy](js-truthy) element, and it must check this for each object in the first argument.
+The program needs to check if the second argument is a [truthy](JS-Truthy) element, and it must check this for each object in the first argument.
 
 ### Hint: 1
 Remember to iterate through the first argument to check each object.

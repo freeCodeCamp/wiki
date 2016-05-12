@@ -4,7 +4,7 @@ Gets a substring beginning at the specified location and having the specified le
 
 ## Syntax
 
-```js
+```javascript
 str.substr(start[, length])
 ```
 
@@ -16,7 +16,7 @@ Location at which to begin extracting characters. If a negative number is given,
 
 **length**
 
-Optional. The number of characters to extract. 
+Optional. The number of characters to extract.
 
 [MDN link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substr) | [MSDN link](https://msdn.microsoft.com/en-us/LIBRary/0esxc5wy%28v=vs.94%29.aspx)
 
@@ -36,7 +36,7 @@ If `length` is 0 or negative, `substr()` returns an empty string. If length is o
 
 ## Examples
 
-```js
+```javascript
 var str = 'abcdefghij';
 
 console.log('(1, 2): '   + str.substr(1, 2));   // '(1, 2): bc'
@@ -47,7 +47,7 @@ console.log('(-20, 2): ' + str.substr(-20, 2)); // '(-20, 2): ab'
 console.log('(20, 2): '  + str.substr(20, 2));  // '(20, 2): '
 ```
 
-```js
+```javascript
 var s = "The quick brown fox jumps over the lazy dog.";
 var ss = s.substr(10, 5);  
 document.write("[" + ss + "] <br>");

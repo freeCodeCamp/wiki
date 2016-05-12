@@ -16,9 +16,9 @@ Here is the **syntax** for `do...while` loop:
 
 **statement(s):** A statement that is executed **at least once** before the condition or Boolean expression is evaluated and is re-executed each time the condition evaluates to true.
 
-**condition:** Here, a condition is a [Boolean expression](js-Boolean). If Boolean expression evaluates to true, the statement is executed again. When Boolean expression evaluates to false, the loops ends.
+**condition:** Here, a condition is a [Boolean expression](JS-Boolean). If Boolean expression evaluates to true, the statement is executed again. When Boolean expression evaluates to false, the loops ends.
 
-### Example:
+## Example:
 
 ```javascript
 var i = 0;

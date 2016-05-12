@@ -1,12 +1,12 @@
 # The JavaScript Global Object
 
-The global object is an object that is initialised by the JavaScript interpreter before the code is executed. All variables that are declared on the global scope (see: [Scopes](js-Scopes)) are stored in the global object as properties.
+The global object is an object that is initialised by the JavaScript interpreter before the code is executed. All variables that are declared on the global scope (see: [Scopes](JS-Scopes)) are stored in the global object as properties.
 
 In a Node.js environment, the global object can be accessed by the `global` keyword, while in a browser window it can be accessed by the `window` keyword. The `this` keyword also refers to the global object when used in the global scope. Please note that using `this` in the global scope will return `undefined` if `strict mode` is enabled.
 
 For example:
 
-```js
+```javascript
 // global scope
 var foo = "bar";
 
@@ -15,6 +15,7 @@ console.log(window.foo); // bar (in a browser window)
 console.log(this.foo); // bar (if strict mode is disabled)
 ```
 
+##  
 
 The distinction between scopes local to functions and the global scope is important here: the global object only contains the variables that were declared on the global scope, not the local scopes of functions.
 

@@ -4,7 +4,7 @@ The `replace()` method returns a new string with some or all matches of a patter
 
 ## Syntax
 
-```js
+```javascript
 str.replace(regexp|substr, newSubStr|function[, flags])
 ```
 
@@ -20,7 +20,7 @@ A String that is to be replaced by newSubStr.
 
 **newSubStr (replacement)**
 
- The String that replaces the substring received from parameter #1. A number of special replacement patterns are supported; see the "Specifying a string as a parameter" section below.
+The String that replaces the substring received from parameter #1\. A number of special replacement patterns are supported; see the "Specifying a string as a parameter" section below.
 
 **function (replacement)**
 
@@ -40,13 +40,13 @@ To perform a global search and replace, either include the g switch in the regul
 
 ## Examples
 
-```js
+```javascript
 var str = 'Twas the night before Xmas...';
 var newstr = str.replace(/xmas/i, 'Christmas');
 console.log(newstr);  // Twas the night before Christmas...
 ```
 
-```js
+```javascript
 function f2c(s1) {
     // Initialize pattern.
     var test = /(\d+(\.\d*)?)F\b/g;

@@ -19,10 +19,10 @@
   - [Dynamic URLS using $routeParams](Angular-Dynamic-URLs-Using-routeParams)
   - [More Useful APIs](Angular-Make-Useful-APIs)
 
-- Part 5: Auth, JS-isLoggedInAsync
+- Part 5: Auth, JS-IsLoggedInAsync
   - [Get info about the current user](Get-info-about-the-current-user)
   - [Restrict a page to authenticated users](Page-Restriction)
-  - [JS-isLoggedInAsync](JS-isLoggedInAsync)
+  - [JS-IsLoggedInAsync](JS-IsLoggedInAsync)
 
 - [Bonus: SocketIO](Angular-Angular-Angular-Bonus-SocketIO)
 - [Epilogue](Epilogue)

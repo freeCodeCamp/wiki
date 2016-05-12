@@ -4,7 +4,7 @@ The `substring()` method returns a subset of a string between one index and anot
 
 ## Syntax
 
-```js
+```javascript
 str.substring(indexStart[, indexEnd])
 ```
 
@@ -16,7 +16,7 @@ An integer between 0 and the length of the string, specifying the offset into th
 
 **indexEnd**
 
-Optional. An integer between 0 and the length of the string, which specifies the offset into the string of the first character not to include in the returned substring. 
+Optional. An integer between 0 and the length of the string, which specifies the offset into the string of the first character not to include in the returned substring.
 
 [MDN link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substring) | [MSDN link](https://msdn.microsoft.com/en-us/LIBRary/3cz15ahb%28v=vs.94%29.aspx)
 
@@ -33,7 +33,7 @@ If `indexStart` is greater than `indexEnd`, then the effect of `substring()` is 
 
 ## Examples
 
-```js
+```javascript
 var anyString = 'Mozilla';
 
 // Displays 'Moz'
@@ -52,7 +52,7 @@ console.log(anyString.substring(0, 7));
 console.log(anyString.substring(0, 10));
 ```
 
-```js
+```javascript
 var s = "The quick brown fox jumps over the lazy dog.";
 var ss = s.substring(10, 15);
 document.write(ss);

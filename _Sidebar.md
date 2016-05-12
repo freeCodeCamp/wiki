@@ -6,14 +6,14 @@ New to Free Code Camp?
 
 JS Concepts
 
-- [Closures](js-closures)
-- [Falsy](js-falsy)
-- [Functions](js-functions)
-- [Immutable](js-immutable)
-- [Loops](js-loops)
+- [Closures](JS-Closures)
+- [Falsy](JS-Falsy)
+- [Functions](JS-Functions)
+- [Immutable](JS-Immutable)
+- [Loops](JS-Loops)
 - [Scope](js-scope)
-- [Ternary](js-ternary)
-- [Truthy](js-truthy)
+- [Ternary](JS-Ternary)
+- [Truthy](JS-Truthy)
 
 JS Language Reference
 
@@ -27,14 +27,14 @@ JS Language Reference
 - [Array.prototype.slice](js-array-prototype-slice)
 - [Array.prototype.some](js-array-prototype-some)
 - [Array.prototype.toString](js-array-prototype-tostring)
-- [Boolean](js-Boolean)
-- [for loop](js-for-loop)
-- [for..in loop](js-for-in-loop)
-- [for..of loop](js-for-of-loop)
-- [String.prototype.split](js-String-prototype-split)
-- [String.prototype.toLowerCase](js-String-prototype-toLowerCase)
-- [String.prototype.toUpperCase](js-String-prototype-toUpperCase)
-- [undefined](js-undefined)
+- [Boolean](JS-Boolean)
+- [for loop](JS-For-Loop)
+- [for..in loop](JS-For-In-Loop)
+- [for..of loop](JS-For-Of-Loop)
+- [String.prototype.split](JS-String-Prototype-Split)
+- [String.prototype.toLowerCase](JS-String-Prototype-ToLowerCase)
+- [String.prototype.toUpperCase](JS-String-Prototype-ToUpperCase)
+- [undefined](JS-Undefined)
 
 Other Links
 

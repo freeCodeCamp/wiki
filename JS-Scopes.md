@@ -4,23 +4,25 @@ If you've been programming in JavaScript for a while, you've undoubtedly run int
 
 In programmer speak, `scope` is the **current context of execution**. Confused? Let's take a look at the following piece of code:
 
-```js
-1.  var foo = 'Hi, I am foo!';
-2.  
-3.  var baz = function () {
-4.     var bar = 'Hi, I am bar too!';
-5.     console.log(foo);
-6.  }
-7.  
-8.  baz(); // Hi, I am foo!
-9.  console.log(bar); // ReferenceError...
+```javascript
+var foo = 'Hi, I am foo!';
+
+var baz = function () {
+  var bar = 'Hi, I am bar too!';
+    console.log(foo);
+}
+
+baz(); // Hi, I am foo!
+console.log(bar); // ReferenceError...
 ```
 
-This is a simple example, but it does a good job of illustrating what is known as *Lexical scope*. JavaScript, and almost every other programming language has a *Lexical scope*. There is another kind of scope known as *Dynamic scope*, but we won't be discussing that.
+##  
 
-Now, the term *Lexical scope* sounds fancy, but as you will see it's really simple in principle. In a Lexical Scope, there are two kinds of scopes: the *global scope* and a *local scope*.
+This is a simple example, but it does a good job of illustrating what is known as _Lexical scope_. JavaScript, and almost every other programming language has a _Lexical scope_. There is another kind of scope known as _Dynamic scope_, but we won't be discussing that.
 
-Before you type the first line of code in your program, a *global scope* is created for you. This contains all the variables that you declare in your program **outside any functions**.
+Now, the term _Lexical scope_ sounds fancy, but as you will see it's really simple in principle. In a Lexical Scope, there are two kinds of scopes: the _global scope_ and a _local scope_.
+
+Before you type the first line of code in your program, a _global scope_ is created for you. This contains all the variables that you declare in your program **outside any functions**.
 
 In the example above, the variable `foo` is in the global scope of the program, while the variable `bar` is declared inside a function and is therefore **in the local scope of that function**.
 
@@ -28,7 +30,7 @@ Lets break down the example line by line. While you might be confused at this po
 
 On line 1 we are declaring the variable `foo`. Nothing too fancy here. Lets call this a left-hand size (LHS) reference to `foo`, because we are assigning a value to `foo` and it's on the left-hand side of the `equal` sign.
 
-On line 3, we are declaring a function and assigning it to variable `baz`. This is another LHS reference to `baz`. We are assigning a value to it (remember, functions are values too!). This function is then called on line 8. This is a RHS, or a right-hand side reference to `baz`. We are retrieveing `baz`'s value, which in this case is a function and then invoking it. Another RHS reference to `baz` would be if we assigned its value to another variable, for example `foo = baz`. This would be a LHS reference to `foo` and a RHS reference to `baz`.
+On line 3, we are declaring a function and assigning it to variable `baz`. This is another LHS reference to `baz`. We are assigning a value to it (remember, functions are values too!). This function is then called on line 8\. This is a RHS, or a right-hand side reference to `baz`. We are retrieveing `baz`'s value, which in this case is a function and then invoking it. Another RHS reference to `baz` would be if we assigned its value to another variable, for example `foo = baz`. This would be a LHS reference to `foo` and a RHS reference to `baz`.
 
 The LHS and RHS references might sound confusing, but they are important for discussing scope. Think of it this way: a LHS reference is assigning a value to the variable, while a RHS reference is retrieving the value of the variable. They're just a shorter and more convenient way of saying 'retrieving the value' and 'assigning a value'.
 
@@ -44,13 +46,13 @@ At this point you're probably thinking that scope has something to do with varia
 
 So the compiler goes up to the global scope to find a LHS reference to the variable `foo`. It finds one on line 1, so it retrieves the value from the LHS reference, which is a string: `'Hi, I am foo!'`. This string is sent to the `console.log()` method, and outputted to the console.
 
-The compiler has finished executing the code inside the function, so we come back out to line 9. On line 9, we have a RHS reference for the variable `bar`.
+The compiler has finished executing the code inside the function, so we come back out to line 9\. On line 9, we have a RHS reference for the variable `bar`.
 
 Now, `bar` was declared in the local scope of `baz`, but there is a RHS reference for `bar` in the global scope. Since there is no LHS reference for `bar` in the global scope, the compiler can't find a value for `bar` and throws a ReferenceError.
 
 But, you might ask, if the function can look outside itself for variables, or a local scope can peek into the global scope to find LHS references, why can't the global scope peek into a local scope? Well that's how lexical scope works!
 
-```js
+```javascript
 ... // global scope
 var baz = function() {
   ... // baz's scope
@@ -60,15 +62,13 @@ var baz = function() {
 
 This is the same code from above which illustrates the scope. This forms a sort of hierarchy that goes up to the global scope:
 
-
-` baz -> global `.
-
+`baz -> global`.
 
 So, if there is a RHS reference for a variable inside `baz`'s scope, it can be fulfilled by a LHS reference for that variable in the global scope. But the opposite is **not true**.
 
 What if we had another function inside `baz`?
 
-```js
+```javascript
 ... // global scope
 var baz = function() {
   ... // baz's scope
@@ -83,13 +83,12 @@ var baz = function() {
 
 In this case, the hierarchy or the **scope chain** would look like this:
 
-
 `bar -> baz -> global`
-
 
 Any RHS references inside `bar`'s local scope can be fullfilled by LHS references in the global scope or `baz`'s scope, but a RHS reference in `baz`'s scope cannot be fullfilled by a LHS reference in `bar`'s scope.
 
 **You can only traverse down a scope chain, not up.**
 
 # References
+
 1. [Scopes and Closures](https://github.com/getify/You-Dont-Know-JS/tree/master/scope%20%26%20closures) by Kyle Simpson. It goes into more details of how the scope mechanism works, and also has a superficial description of how the JavaScript compiler works, so if you're interested in that, definitly give it a read! It's free on GitHub and can be bought from O'Reilly.

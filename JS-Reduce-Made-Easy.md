@@ -6,6 +6,8 @@ But It was not. Loops in JavaScript are just like that. They are not terse, they
 
 And then there is the danger of writing [asynchonous code inside a for loop without using closure from IIFE](http://stackoverflow.com/questions/11488014/asynchronous-process-inside-a-javascript-for-loop).
 
+##  
+
 This article would start with a claim - that you can avoid using a for-loop or while-loop to solve any `Array` related problems. Instead, you can solve all of them using `Array.prototype.reduce()`. If you wish to read forward; do make sure you know about recursive functions, and some of the cool functional tools like [`Array.prototype.map()`](js-Array-prototype-map) or [`Array.prototype.filter()`](js-Array-prototype-filter).
 
 Grand claims require grand evidence. So let's demonstrate how we can get accustomed with using `reduce()`.

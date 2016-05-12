@@ -4,7 +4,7 @@ The `match()` method retrieves the matches when matching a string against a regu
 
 ## Syntax
 
-```js
+```javascript
 str.match(regexp)
 ```
 
@@ -12,7 +12,7 @@ str.match(regexp)
 
 **regexp**
 
-A regular expression object. If a non-RegExp object obj is passed, it is implicitly converted to a RegExp by using `new RegExp(obj)`. 
+A regular expression object. If a non-RegExp object obj is passed, it is implicitly converted to a RegExp by using `new RegExp(obj)`.
 
 [MDN link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match) | [MSDN link](https://msdn.microsoft.com/en-us/LIBRary/7df7sf4x%28v=vs.94%29.aspx)
 
@@ -28,7 +28,7 @@ If the regular expression includes the `g` flag, the method returns an `Array` c
 
 ## Examples
 
-```js
+```javascript
 var str = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
 var regexp = /[A-E]/gi;
 var matches_array = str.match(regexp);
@@ -37,7 +37,7 @@ console.log(matches_array);
 // ['A', 'B', 'C', 'D', 'E', 'a', 'b', 'c', 'd', 'e']
 ```
 
-```js
+```javascript
 var str = 'For more information, see Chapter 3.4.5.1';
 var re = /(chapter \d+(\.\d)*)/i;
 var found = str.match(re);
