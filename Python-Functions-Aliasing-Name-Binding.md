@@ -16,6 +16,8 @@ A function definition introduces the function name in the current symbol table. 
 <type 'list'>
 ```
 
+##  
+
 This value can be assigned to another name which can then also be used as a function. This serves as a general renaming mechanism:
 
 ```python

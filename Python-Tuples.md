@@ -18,6 +18,8 @@ An empty `tuple` is created using a pair of round brackets, `()`:
 0
 ```
 
+##  
+
 A `tuple` with elements is created by separating the elements with commas (surrounding round brackets, `()`, are optional with exceptions):
 
 ```python

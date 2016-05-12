@@ -17,7 +17,7 @@ using escape sequences.
 Backslashes \ need to be escaped.
 ```
 
-## More
+##  
 
 A _raw_ string can be used by prefixing the string with `r` or `R` which allows for backslashes to be included without the need to escape them -
 

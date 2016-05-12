@@ -8,6 +8,8 @@ In other languages, _primitives_ are _values_ that have no _properties_ (attribu
 
 In Python, there are no primitives. `None`, _booleans_, _strings_, _numbers_, and even _functions_ are all _objects_ regardless how they are created.
 
+##  
+
 We can demonstrate this using some built-in functions:
 
 - [`id`](https://docs.python.org/3/library/functions.html#id)

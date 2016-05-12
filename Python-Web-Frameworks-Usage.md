@@ -4,6 +4,8 @@ We have used the word `framework` quite librarily in the earlier articles. You m
 
 Web Frameworks, to put it informally, does for you what would be doing _repeatedly_ if you were to build a lot of websites with different functionalities.
 
+##  
+
 Let's take an extremely crude example and attempt to make a simple analogy. Say, you go to dinner, and it's a fancy restaurant. It could be any type of restaurant - Italian, Mexican, Indian, Korean, Pan-Asian.
 
 Try to think of the common things that happen in a restaurant when a customer walks in. A valet might take your car and validate parking. You might be asked at the reception if you had booking; and how many of your friends are with you. You would probably be shown to your table, or asked to wait - depending on the crowd inside.
