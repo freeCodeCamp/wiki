@@ -9,7 +9,6 @@
  	*	Using variables and expressions inside: #{variable or expression}
  * Strings with single quotes are rendered as they are without any special considerations.
 
-
 **Examples:**
 
 ```
