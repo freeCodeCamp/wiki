@@ -4,7 +4,7 @@ If you deploy your applications to Heroku you only can upload 5 applications, if
 
 ![Heroku Error](http://i.imgur.com/fY2be3a.jpg)
 
-After some search at Google I found OpenShift. Then I went to Quincy Larson to know if was any problem to deploy to OpenShift instead of Heroku, he said it was Ok and ask me if I could document the process, and here it is...
+After some searching in Google I found OpenShift.
 
 ## Requirements
 - An account in [OpenShift](https://www.openshift.com/app/account/new)
@@ -53,4 +53,4 @@ If you are having trouble with setting up `rhc`, try [this](http://stackoverflow
 
 `rhc env set VARIABLE=value VARIABLE2=value2 -a App_Name`. You need to restart your app to load the variables.
 
-Maybe there is a better or easiest way to do this, but this was how I solved the problem of Heroku's limit of only 5 apps for unverified accounts. You can check the app working at http://voting-pitazo.rhcloud.com/#/polls
+Maybe there is a better or easier way to do this, but this was how I solved the problem of Heroku's limit of only 5 apps for unverified accounts. You can check the app working at http://voting-pitazo.rhcloud.com/#/polls
