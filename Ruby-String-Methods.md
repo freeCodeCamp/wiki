@@ -1,5 +1,7 @@
 # String Methods
 
+### Ruby has many built in methods to work with strings. Strings in Ruby by default are mutable and can be changed in place or a new string can be returned from a method.
+
 ## Length:
 
 *	The `.length` property returns the number of characters in a string including white-space.

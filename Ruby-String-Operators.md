@@ -1,5 +1,7 @@
 # String Operations
 
+### Both concatenation and multiplication can be performed on strings.
+
 ## Concatenation:
 
 *	Strings can be joined together using the `+` operator.
