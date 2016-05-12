@@ -6,7 +6,7 @@
   - [Grunt](Grunt)
 
 - Part 2: Backend
-  - [Backend file structure](Backend-file-structure)
+  - [Backend file structure](Angular-Backend-File-Structure)
   - [Creating a new API endpoint](Creating-a-new-API-endpoint)
   - [Fixing exports.update](Fixing-exports.update)
 
@@ -19,12 +19,12 @@
   - [Dynamic URLS using $routeParams](Angular-Dynamic-URLs-Using-routeParams)
   - [More Useful APIs](More-useful-APIs)
 
-- Part 5: Auth, isLoggedInAsync()
+- Part 5: Auth, JS-isLoggedInAsync
   - [Get info about the current user](Get-info-about-the-current-user)
   - [Restrict a page to authenticated users](Page-Restriction)
-  - [isLoggedInAsync()](isLoggedInAsync())
+  - [JS-isLoggedInAsync](JS-isLoggedInAsync)
 
-- [Bonus: SocketIO](Bonus-SocketIO)
+- [Bonus: SocketIO](Angular-Angular-Angular-Bonus-SocketIO)
 - [Epilogue](Epilogue)
 
 # Legend
