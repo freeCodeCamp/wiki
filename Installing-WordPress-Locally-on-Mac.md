@@ -1,7 +1,9 @@
-# Installing WordPress locally on Mac.
+# Installing WordPress locally on Mac
+
 Installing WordPress locally will allow you to build themes safely and will allow you to try out WordPress for free without paying for hosting.
 
 ## Required Downloads:
+
 - [MAMP](https://www.mamp.info/en/)
 - [WordPress](https://wordpress.org/about/)
 
@@ -10,19 +12,21 @@ The first step to installing WordPress locally is to download MAMP. MAMP stands 
 After MAMP is installed you will want to uninstall MAMP pro. To do this, just navigate to your applications folder and find the MAMP pro folder. There will be an uninstaller inside of this folder. I chose to click all of the check boxes, since it is a fresh install of MAMP.
 
 ## Configuring MAMP
+
 Open the MAMP application and you should be greeted with this screen:
 
 We have to set some preferences so click the preferences icon. On the preferences screen click `Ports`.
 
 Here you can leave the ports as is which will require you to include the port number in the URL `localhost:8888`.
 
-If you don't want to include the port number in the URL, you can change the Apache and MySQL ports to 80. The reason I chose not to do this is because you will always be asked for your password
+If you don't want to include the port number in the URL, you can change the Apache and MySQL ports to 80\. The reason I chose not to do this is because you will always be asked for your password
 
 Next you will click the Apache tab and set a document root. I chose to create a new folder called "Sites" in my user folder.
 
 Now that we are done editing all of the settings, hit OK to save.
 
 ## Starting MAMP
+
 To start MAMP click "Start Servers."
 
 This should open a new window with the address `http://localhost:8888/MAMP/?language=English` in your web browser.
@@ -38,6 +42,7 @@ Click new in the left navigation menu.
 Enter a name for the Database and then click create. I chose "WordPress."
 
 ## Installing WordPress
+
 Unzip the WordPress file that you downloaded and drag it's contents into the folder you created earlier as your document root.
 
 Once the files are copied, go to `localhost:8888`.
