@@ -1,15 +1,16 @@
-# String Methods
+# Ruby String Methods
 
-### Ruby has many built in methods to work with strings. Strings in Ruby by default are mutable and can be changed in place or a new string can be returned from a method.
+Ruby has many built in methods to work with strings. Strings in Ruby by default are mutable and can be changed in place or a new string can be returned from a method.
 
 ## Length:
 
-*	The `.length` property returns the number of characters in a string including white-space.
+- The `.length` property returns the number of characters in a string including white-space.
 
 ```ruby
 "Hello".length
 # returns: 5
 ```
+
 ```ruby
 "Hello World!".length
 # returns: 12
@@ -17,13 +18,14 @@
 
 ## Count:
 
-*	The `.count` method counts how many times a specific character(s) is found in a string.
-*	This method is case-sensitive.
+- The `.count` method counts how many times a specific character(s) is found in a string.
+- This method is case-sensitive.
 
 ```ruby
 "HELLO".count('L')  
 # returns: 2
 ```
+
 ```ruby
 "HELLO WORLD!".count('LO')  
 # returns: 1
@@ -31,7 +33,7 @@
 
 ## Insert:
 
-*	The `.insert` method inserts a string into another string before a given index.
+- The `.insert` method inserts a string into another string before a given index.
 
 ```ruby
 "Hello".insert(3, "hi5")
@@ -42,7 +44,7 @@ Helhi5lo
 
 ## Upcase:
 
-*	The `.upcase` method transforms all letters in a string to uppercase.
+- The `.upcase` method transforms all letters in a string to uppercase.
 
 ```ruby
 "Hello".upcase
@@ -52,7 +54,7 @@ HELLO
 
 ## Downcase:
 
-*	The `.downcase` method transforms all letters in a string to lowercase.
+- The `.downcase` method transforms all letters in a string to lowercase.
 
 ```ruby
 "Hello".downcase
@@ -62,19 +64,22 @@ hello
 
 ## Capitilize:
 
-*	The `.capitalize` method make the first letter in a string uppercase and the rest of the string lowercase.
+- The `.capitalize` method make the first letter in a string uppercase and the rest of the string lowercase.
 
 ```ruby
 "HELLO".capitalize
 # returns:
 Hello
 ```
+
 ```ruby
 "HELLO, HOW ARE YOU?".capitalize
 # returns:
 Hello, how are you?
 ```
-*Note that the first letter is only capitilized if it is at the beginning of the string.*
+
+_Note that the first letter is only capitilized if it is at the beginning of the string._
+
 ```ruby
 "-HELLO".capitalize
 "1HELLO".capitalize
@@ -85,7 +90,7 @@ Hello, how are you?
 
 ## Reverse:
 
-*	The `.reverse` method reverses the order of the characters in a string.
+- The `.reverse` method reverses the order of the characters in a string.
 
 ```ruby
 "Hello World!".reverse
@@ -95,14 +100,15 @@ Hello, how are you?
 
 ## Split:
 
-*	The `.split` takes a strings and *splits* it into an array, then returns the array.
-*	The default method splits the string based on whitespace, unless a different separator is provided (see second example).
+- The `.split` takes a strings and _splits_ it into an array, then returns the array.
+- The default method splits the string based on whitespace, unless a different separator is provided (see second example).
 
 ```ruby
 "Hello, how are you?".split
 # returns:
 ["Hello,", "how", "are", "you?"]
 ```
+
 ```ruby
 "H-e-l-l-o".split('-')
 # returns:
@@ -111,19 +117,21 @@ Hello, how are you?
 
 ## Chop:
 
-*	The `.chop` method removes the last character of the string.
-*	A new string is returned, unless you use the `.chop!` method which mutates the original string.
+- The `.chop` method removes the last character of the string.
+- A new string is returned, unless you use the `.chop!` method which mutates the original string.
 
 ```ruby
 "Name".chop
 # returns:
 Nam
 ```
+
 ```ruby
 name = "Batman"
 name.chop
 name == "Batma" # returns false
 ```
+
 ```ruby
 name = "Batman"
 name.chop!
@@ -132,15 +140,13 @@ name == "Batma" # returns true
 
 ## Strip:
 
-*	The `.strip` method removes the leading and trailing whitespace on strings, including tabs, newlines, and carriage returns (`\t`, `\n`, `\r`).
+- The `.strip` method removes the leading and trailing whitespace on strings, including tabs, newlines, and carriage returns (`\t`, `\n`, `\r`).
 
 ```ruby
 "  Hello  ".strip
 # returns:
 Hello
 ```
-
----
 
 | Previous | Home |
 | :---         |     :---:      |
