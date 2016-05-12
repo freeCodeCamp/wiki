@@ -4,7 +4,6 @@
 
 [Home](Python)
 
-
 In this article, we shall be discussing how to install [Django](https://www.djangoproject.com/) and [Flask](http://flask.pocoo.org/) - two popular web frameworks written in Python.
 
 Perhaps you are already familiar with the widespread usage and community support for Python; in web-development. You might as well be aware as to what a web framework is; and the options available for Python.
@@ -13,17 +12,18 @@ In case these assumptions are untrue, you might want to take a look at this [wik
 
 But it would be unfair if we completely ignore the [Python 2 vs Python 3](http://docs.python-guide.org/en/latest/starting/which-python/#the-state-of-python-2-vs-3) debate.
 
-### Python 2 vs. Python 3
+## Python 2 vs. Python 3
 
 No, we wouldn't be taking a side in the debate. If you are interested in knowing more about it for academic purposes, perhaps [this](https://wiki.python.org/moin/Python2orPython3) would intrigue you.
 
 But; we cannot also be ignorant of the fact that there are two major flavors of Python out there. Why do we care, you ask? Well, because code written adhering to one style; would simply result in syntax error in interpreter of other flavor of Python.
 
-The following is a valid `print` statement in Python 2, but would not work on Python 3 - 
+The following is a valid `print` statement in Python 2, but would not work on Python 3 -
 
 ```python
 print "Hello World"
 ```
+
 In Python 3, this would throw an error somewhat like this:
 
 ```python
@@ -40,23 +40,23 @@ Both Python 2 and Python 3 are cool. Most Linux and OSX distributions come pre-i
 
 So, the only question you need to concern yourself with right now; is which one you should pick. Yes, it takes time to even get familiar with most common aspects with either Python; and your time is important. So, invest your time and effort wisely!
 
-If you are new to Python; you should pick Python 3. While Python 2 is well-supported and popular; most common libraries and frameworks in Python prefer Python 3. Django officially [recommends](https://docs.djangoproject.com/en/1.9/faq/install/#faq-python-version-support) Python 3. Flask and all its dependencies are also [supported](http://flask.pocoo.org/docs/0.10/python3/#python3-support) on Python 3.
+If you are new to Python; you should pick Python 3\. While Python 2 is well-supported and popular; most common libraries and frameworks in Python prefer Python 3\. Django officially [recommends](https://docs.djangoproject.com/en/1.9/faq/install/#faq-python-version-support) Python 3\. Flask and all its dependencies are also [supported](http://flask.pocoo.org/docs/0.10/python3/#python3-support) on Python 3.
 
 This article would use Python 3 to set up the web-frameworks in your development environment. But before that, let's ensure we have Python 3 and we know how to use it!
 
-### Installing and Using Python 3
+## Installing and Using Python 3
 
 You can download Python from this official [link](https://www.python.org/downloads/). Based on your OS (Windows or Linux or OSX), you might want to install Python 3 following [these instructions](http://docs.python-guide.org/en/latest/starting/installation/).
 
 It is always a great idea to [sandbox](https://en.wikipedia.org/wiki/Sandbox_(computer_security)) your Python installation; and keeping it separate from your _System Python_. The _System Python_ is the path to Python interpreter, which is used by other modules installed along with your OS.
 
-It's **not safe** to install Python Web-frameworks or libraries directly using _System Python_. Instead, you can use [Virtualenv](https://virtualenv.readthedocs.org/en/latest/) to create and spawn a separate Python process when you are developing Python applications. 
+It's **not safe** to install Python Web-frameworks or libraries directly using _System Python_. Instead, you can use [Virtualenv](https://virtualenv.readthedocs.org/en/latest/) to create and spawn a separate Python process when you are developing Python applications.
 
 The [Virtualenvwrapper module](https://virtualenvwrapper.readthedocs.org/en/latest/) makes it easy for you to manage and sandbox multiple Python sandboxed environments in one machine; without corrupting any modules or services written in Python and used by your machine.
 
 Of course, most cloud hosted development environment such as [Nitrous](https://www.nitrous.io/) or [Cloud9](https://c9.io/) also comes with these pre-installed and ready for you to get coding! You can quickly pick a box from your dashboard, and start coding after activating a Python 3 environment.
 
-In [Cloud9](https://c9.io/), you need to select the Django box while creating a new development environment. 
+In [Cloud9](https://c9.io/), you need to select the Django box while creating a new development environment.
 
 A few shell command examples would follow. If you wish to copy-paste, do note that the `$` sign is a shorthand for the terminal prompt, it's not part of the command. My terminal prompt looks something like this:
 
@@ -70,7 +70,7 @@ And, an `ls` would look like
 alayek:~/workspace (master) $ ls
 ```
 
-But, while writing the same in this documentation, I would be writing it as 
+But, while writing the same in this documentation, I would be writing it as
 
 ```bash
 $ ls
@@ -84,7 +84,7 @@ $ mkvirtualenv py3 --python=/usr/bin/python3
 
 You have to run it only once after creating a new box for your project. Once executed, this command would create a new sandboxed virtualenv ready for you to use, named `py3`.
 
-To view available virtual environments, you can use 
+To view available virtual environments, you can use
 
 ```sh
 $ workon
@@ -108,7 +108,6 @@ For instance, when I am inside the `py3` environment; I would be seeing this as 
 
 Notice the `(py3)` in braces! If for some reason, you are not seeing this, even if you are inside a virtual env; you can try doing one of the things [mentioned here](http://stackoverflow.com/questions/1871549/python-determine-if-running-inside-virtualenv).
 
-
 To get out of a virtual environment; or to deactivate one - use the command
 
 ```bash
@@ -117,11 +116,11 @@ $ deactivate
 
 Again, this works only with virtualenvwrapper module.
 
-### Installing Django in Virtual Environment
+## Installing Django in Virtual Environment
 
 [Django](https://www.djangoproject.com) is an opinionated framework that helps you become productive. For instance, the file structure when you create a Django project. But, if you wish to explore the field of web development in Python in detail; perhaps [Flask](http://flask.pocoo.org/) is more up your alley. Feel free to skip this part of the article, and jump directly to the [Flask Installation help](#installing-flask-in-virtual-environment)
 
-As of this writing, current Django version was Django 1.9.2. But when you are reading this, right now, it could be higher.
+As of this writing, current Django version was Django 1.9.2\. But when you are reading this, right now, it could be higher.
 
 The official installation guide is available [here](https://docs.djangoproject.com/en/1.9/intro/install/#install-django). You should install the latest stable and official release; and **not** the latest development version (unless you know what you are doing and you like to live dangerously!)
 
@@ -150,7 +149,7 @@ You might be able to follow this [tutorial](https://docs.djangoproject.com/en/1.
 
 Or, you can use [Virtualbox](https://www.virtualbox.org/) with a [Vagrant](https://www.vagrantup.com/) box for Django development directly in your machine!
 
-### Installing Flask in Virtual Environment
+## Installing Flask in Virtual Environment
 
 If you wish to use Flask, you are in the right place! But install Flask, only because you want to explore web development in Flask. We would always recommend Django over Flask, because it gets difficult to build large web-applications in Flask; if you are new to web development in Python.
 
@@ -163,6 +162,7 @@ First make sure that you are not inside a virtual environment already. Then crea
 ```sh
 $ mkvirtualenv py3-flask --python=/usr/bin/python3
 ```
+
 Now, execute the `workon` command to see a list of virtual environments in your machine. This should list `py3-flask` in a line.
 
 After this, activate this environment:
@@ -171,7 +171,7 @@ After this, activate this environment:
 $ workon py3-flask
 ```
 
-Your virtual environment would be activated with a copy of Python interpreter, with Python 3 properties. You should run 
+Your virtual environment would be activated with a copy of Python interpreter, with Python 3 properties. You should run
 
 ```
 $ python --version
@@ -181,7 +181,7 @@ to ensure that you are indeed inside a Python 3 environment.
 
 Just to be clear, if you have already installed Django following the previous section - it should **not** be in this environment. We are using virtual environment; to keep our installation of different frameworks separated.
 
-To be sure, run 
+To be sure, run
 
 ```
 pip freeze
@@ -256,7 +256,7 @@ The above set of commands assume that you have a Linux machine or Mac OSX machin
 
 But, if you have to use a Windows machine, do consider using Windows Powershell, instead of Windows CMD. Most of the commands would be same. In case you need any assistance, you might want to check [this Stack Overflow discussion](http://stackoverflow.com/questions/17917254/how-to-install-flask-on-windows).
 
-### Wrapping Up
+## Wrapping Up
 
 We have successfully installed the web-framework of our need. However, it's not yet complete. Most web applications are content and data driven - so we need a data storage. Or, a Database, if you will.
 
