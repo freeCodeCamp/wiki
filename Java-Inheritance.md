@@ -2,32 +2,32 @@
 
 Java inheritance refers to the ability of a Java Class to `inherit` the properties from some other Class. Think of it like a child inheriting properties from its parents, the concept is very similar to that. In Java lingo, it is also called _extend_-ing a class. Some simple things to remember :
 
-* The Class that extends or inherits is called **subclass**
-* The Class that is being extended or inherited is called **superclass**
+- The Class that extends or inherits is called **subclass**
+- The Class that is being extended or inherited is called **superclass**
 
-Thus, inheritance gives Java the cool capability of _re-using_ code, or share code between classes! 
+Thus, inheritance gives Java the cool capability of _re-using_ code, or share code between classes!
 
-## 
+##  
 
 Let's describe it with the classic example of a `Vehicle` class and a `Car` class :
 
 ```java
 public class Vehicle {
-	public void start() {
-		// starting the engine
-	}
+    public void start() {
+        // starting the engine
+    }
 
-	public void stop() {
-		// stopping the engine
-	}
+    public void stop() {
+        // stopping the engine
+    }
 }
 
 public class Car extends Vehicle {
-	int numberOfSeats = 4;
+    int numberOfSeats = 4;
 
-	public int getNumberOfSeats() {
-		return numberOfSeats;
-	}
+    public int getNumberOfSeats() {
+        return numberOfSeats;
+    }
 }
 ```
 
@@ -47,20 +47,20 @@ But, does the parent Class has the methods of the child? No, it doesn't.
 
 Therefore, whenever you need to share some common bit of code to some more classes, it is always good to have a parent Class, and then extend that Class whenever needed! Saves a lot of lines of code, makes code modular and better testable.
 
-### What can be inherited ?
+## What can be inherited ?
 
-* All `protected` and `public` fields and methods from parent
+- All `protected` and `public` fields and methods from parent
 
-### What cannot be inherited ?
+## What cannot be inherited ?
 
-* `private` fields and methods
-* Constructors. Although, subclass constructor _has_ to call superclass constructor if its defined (More on that later!)
-* Multiple classes. Java supports only **single inheritance**, that is you can only inherit one class at a time.
-* Fields. Individual fields of a class cannot be overriden by the subclass.
+- `private` fields and methods
+- Constructors. Although, subclass constructor _has_ to call superclass constructor if its defined (More on that later!)
+- Multiple classes. Java supports only **single inheritance**, that is you can only inherit one class at a time.
+- Fields. Individual fields of a class cannot be overriden by the subclass.
 
 ## Type Casting & Reference
 
-In Java, it is possible to reference a subclass as an _instance_ of its superclass. It is called _Polymorphism_ in Object Oriented Programming, the ability of an object to take on many forms. For example, `Car` class object can be referenced as a `Vehicle` class instance like this : 
+In Java, it is possible to reference a subclass as an _instance_ of its superclass. It is called _Polymorphism_ in Object Oriented Programming, the ability of an object to take on many forms. For example, `Car` class object can be referenced as a `Vehicle` class instance like this :
 
 ```java
 Vehicle car = new Car();
@@ -96,14 +96,14 @@ Java lets you _override_ or redefine the methods defined in the superclass. For 
 
 ```java
 public class Vehicle {
-	public void start() {
-	  System.out.println("Vehicle start code");
-	}
+    public void start() {
+      System.out.println("Vehicle start code");
+    }
 }
 
 public class Car extends Vehicle {
-	public void start() {
-	  System.out.println("Car start code");
+    public void start() {
+      System.out.println("Car start code");
   }
 }
 
@@ -117,8 +117,8 @@ So, it's pretty simple to override methods in the subclass. Although, there is a
 
 **Notes** :
 
-* You cannot override private methods of the superclass. (Quite obvious, isn't it?)
-* What if the method of superclass which you are overriding in the subclass suddenly gets obliterated or methods changed? It would fail in runtime! So Java provides you a nifty annotation `@Override` which you can place over the subclass method, which will warn the compiler of those incidents! 
+- You cannot override private methods of the superclass. (Quite obvious, isn't it?)
+- What if the method of superclass which you are overriding in the subclass suddenly gets obliterated or methods changed? It would fail in runtime! So Java provides you a nifty annotation `@Override` which you can place over the subclass method, which will warn the compiler of those incidents!
 
 Annotations in Java is a good coding practice, but they are not a necessity. The compiler is smart enough to figure out overriding on its own though. Unlike other OOP languages, Annotations in Java it doesn't necessarily modify the method or add extra functionality. Read more about [Java Annotations](Java-Annotations) here.
 
@@ -128,14 +128,14 @@ Funny you ask about it! Just use the keyword `super` :
 
 ```java
 public class Vehicle() {
-	public void start() {
-	  System.out.println("Vehicle start code");
-	}
+    public void start() {
+      System.out.println("Vehicle start code");
+    }
 }
 
 public class Car extends Vehicle {
-	public void run() {
-	  super.start();
+    public void run() {
+      super.start();
   }
 }
 
@@ -163,20 +163,20 @@ As mentioned earlier, constructors cannot be directly inherited by a subclass. A
 
 ```java
 public class Vehicle {
-	public Vehicle() {
-		// constructor
-	}
-	public void start() {
-	  System.out.println("Vehicle start code");
-	}
+    public Vehicle() {
+        // constructor
+    }
+    public void start() {
+      System.out.println("Vehicle start code");
+    }
 }
 
 public class Car extends Vehicle {
-	public Car() {
-	  super();
-	}
-	public void run() {
-	  super.start();
+    public Car() {
+      super();
+    }
+    public void run() {
+      super.start();
   }
 }
 ```
@@ -185,6 +185,6 @@ public class Car extends Vehicle {
 
 Remember, if the superclass does not have any constructors defined, you dont have to call it explicitely in the subclass. Java handles that internally for you! Invocation to `super` constructor is done in the case when the super class is to be called with any other constructor other than the _default constructor_.
 
-If no other constructors are defined, then Java invokes the default super class constructor (*even if not defined explicitly*).
+If no other constructors are defined, then Java invokes the default super class constructor (_even if not defined explicitly_).
 
 Congrats, now you know all about Inheritance! Read more about advanced ways to inherit things in [Abstract Classes](Java-Abstract-Classes) and [Interfaces](Java-Interfaces)!

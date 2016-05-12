@@ -1,17 +1,23 @@
 # Math.sqrt() Function in Java
+
 **Description:** `Math.sqrt()` method returns the square root value of the primitive data type. If a number is less than zero, it will return `NaN`.
 
 ## Signature:
+
 ```java
 double sqrt(double d)
 ```
 
 ## Parameters:
-    Contains primitive data type.
+
+Contains primitive data type.
+
 ## Return Value:
-    Returns the square root of argument.
-    
+
+Returns the square root of argument.
+
 Example:
+
 ```java
 public class Math {
 
@@ -29,7 +35,9 @@ public class Math {
 
 }
 ```
+
 Output:
+
 ```
 Math Square root value: 3.0
 Math Square root value: 49.565108695532984

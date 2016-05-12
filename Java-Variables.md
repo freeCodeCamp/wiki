@@ -8,6 +8,8 @@ In [Java](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Java), variables are
 - Wrapper Type : `Integer`, `Short`, `Char`, `Long`, `Boolean`, `Byte`, `Float`, `Double`
 - Object Type: `String`, `StringBuilder`, `Calendar`, `ArrayList` etc.
 
+##  
+
 We made a distinction between **Wrapper Type** and general **Object Type** for a reason - wrapper types are closely linked with their primitive counterparts via [autoboxing and unboxing](https://docs.oracle.com/javase/tutorial/java/data/autoboxing.html); but more on that later.
 
 Typically you can declare variables using the following syntax :
