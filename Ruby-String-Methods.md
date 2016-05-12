@@ -1,0 +1,146 @@
+
+## String Methods:
+
+### length:
+
+*	The ```.length``` property returns the number of characters in a string including white-space.
+
+```ruby
+"Hello".length
+# returns: 5
+```
+```ruby
+"Hello World!".length
+# returns: 12
+```
+
+### count:
+
+*	The ```.count``` method counts how many times a specific character(s) is found in a string.
+*	This method is case-sensitive.
+
+```ruby
+"HELLO".count('L')  
+# returns: 2
+```
+```ruby
+"HELLO WORLD!".count('LO')  
+# returns: 1
+```
+
+### insert:
+
+*	The ```.insert``` method inserts a string into another string before a given index.
+
+```ruby
+"Hello".insert(3, "hi5")
+# returns:
+Helhi5lo
+# "hi5" is inserted into the string right before the second 'l' which is at index 3
+```
+
+### upcase:
+
+*	The ```.upcase``` method transforms all letters in a string to uppercase.
+
+```ruby
+"Hello".upcase
+# returns:
+HELLO
+```
+
+### downcase:
+
+*	The ```.downcase``` method transforms all letters in a string to lowercase.
+
+```ruby
+"Hello".downcase
+# returns:
+hello
+```
+
+### capitilize:
+
+*	The ```.capitalize``` method make the first letter in a string uppercase and the rest of the string lowercase.
+
+```ruby
+"HELLO".capitalize
+# returns:
+Hello
+```
+```ruby
+"HELLO, HOW ARE YOU?".capitalize
+# returns:
+Hello, how are you?
+```
+*Note that the first letter is only capitilized if it is at the beginning of the string.*
+```ruby
+"-HELLO".capitalize
+"1HELLO".capitalize
+# returns:
+-hello
+1hello
+```
+
+### reverse:
+
+*	The ```.reverse``` method reverses the order of the characters in a string.
+
+```ruby
+"Hello World!".reverse
+# returns:
+"!dlroW olleH"
+```
+
+### split:
+
+*	The ```.split``` takes a strings and *splits* it into an array, then returns the array.
+*	The default method splits the string based on whitespace, unless a different separator is provided (see second example).
+
+```ruby
+"Hello, how are you?".split
+# returns:
+["Hello,", "how", "are", "you?"]
+```
+```ruby
+"H-e-l-l-o".split('-')
+# returns:
+["H", "e", "l", "l", "o"]
+```
+
+### chop:
+
+*	The ```.chop``` method removes the last character of the string.
+*	A new string is returned, unless you use the ```.chop!``` method which mutates the original string.
+
+```ruby
+"Name".chop
+# returns:
+Nam
+```
+```ruby
+name = "Batman"
+name.chop
+name == "Batma" # returns false
+```
+```ruby
+name = "Batman"
+name.chop!
+name == "Batma" # returns true
+```
+
+### strip:
+
+*	The ```.strip``` method removes the leading and trailing whitespace on strings, including tabs, newlines, and carriage returns (```\t```, ```\n```, ```\r```).
+
+```ruby
+"  Hello  ".strip
+# returns:
+Hello
+```
+
+---
+
+| Previous | Home |
+| :---         |     :---:      |
+| [Ruby String Operators](Ruby-Strings-Operators.md)   | [Table of Contents](Ruby-Strings.md)     |
