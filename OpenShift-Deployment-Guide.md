@@ -1,4 +1,4 @@
-#Deploying to OpenShift
+# Deploying to OpenShift
 
 If you deploy your applications to Heroku you only can upload 5 applications, if you want to deploy a new one you need to verify you account with your credit card.
 
@@ -6,7 +6,7 @@ If you deploy your applications to Heroku you only can upload 5 applications, if
 
 After some search at Google I found OpenShift. Then I went to Quincy Larson to know if was any problem to deploy to OpenShift instead of Heroku, he said it was Ok and ask me if I could document the process, and here it is...
 
-# Requirements
+## Requirements
 - An account in [OpenShift](https://www.openshift.com/app/account/new)
 - Our app in a Git Repository
 
