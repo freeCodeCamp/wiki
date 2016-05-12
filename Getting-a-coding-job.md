@@ -11,6 +11,6 @@ Here are the facts:
 
 You'll still need to develop basic interviewing skills and soft skills (if you've been working a knowledge-worker type job for a few years, you probably already have these).
 
-You'll also need to work hard to network with coders in your city. You can do this by joining [your city's Campsite](https://github.com/FreeCodeCamp/freecodecamp/wiki/List-of-Free-Code-Camp-city-based-Campsites) and participating in as many events as possible.
+You'll also need to work hard to network with coders in your city. You can do this by joining [your city's Campsite](https://github.com/FreeCodeCamp/freecodecamp/wiki/FreeCodeCamp-Campsites) and participating in as many events as possible.
 
 I've found [this](https://github.com/cassidoo/getting-a-gig) link to be useful. It does a great job of explaining the process.

@@ -6,7 +6,7 @@ Whether you live in a major metropolitan area, or a small town, we encourage you
 
 Here are some helpful links:
 
-[Complete Alphabetical List of Campsites](List-of-Free-Code-Camp-city-based-Campsites)
+[Complete Alphabetical List of Campsites](FreeCodeCamp-Campsites)
 
 [How to Create a New Campsite for your City](How-to-create-a-Campsite-for-your-city)
 

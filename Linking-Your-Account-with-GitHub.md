@@ -1,3 +1,5 @@
+# Linking your Account With GitHub
+
 In August 2015, we pushed some changes that caused trouble for many of our campers.
 
 If you are unable to link your GitHub account to your current account, here is what we recommend doing: 
