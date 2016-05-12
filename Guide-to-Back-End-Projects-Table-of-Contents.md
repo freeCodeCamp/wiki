@@ -17,7 +17,7 @@
 
 - Part 4: Dynamic URLs using $routeParams, more useful APIs
   - [Dynamic URLS using $routeParams](Angular-Dynamic-URLs-Using-routeParams)
-  - [More Useful APIs](More-useful-APIs)
+  - [More Useful APIs](Angular-Make-Useful-APIs)
 
 - Part 5: Auth, JS-isLoggedInAsync
   - [Get info about the current user](Get-info-about-the-current-user)

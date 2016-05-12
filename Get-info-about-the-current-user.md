@@ -11,5 +11,5 @@ $scope.isLoggedIn = Auth.isLoggedIn;
 ~~~
 And then you can use *isLoggedIn()* or *getCurrentUser()* in the HTML view for your controller!  
 
-[PREVIOUS](More-useful-APIs)
+[PREVIOUS](Angular-Make-Useful-APIs)
 [NEXT](Page-Restriction)

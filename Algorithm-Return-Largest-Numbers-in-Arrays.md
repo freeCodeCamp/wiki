@@ -134,7 +134,7 @@ Here we're passing `null` as the _context_ of the `Function.prototype.apply` met
 
 **Reference:-**
 
-- [Math.max](Math.max)
+- [Math.max](JS-Math-Max)
 - [Array.prototype.map()](js-Array-prototype-map)
 - [Function.prototype.apply on DevDocs](http://devdocs.io/#q=js+Function+apply)
 - [Function.bind on DevDocs](http://devdocs.io/#q=js+Function+bind)
