@@ -532,6 +532,7 @@ If your city isn't listed here, you should [create your own Campsite](How-to-cre
   - Rajasthan
     - [Bikaner](https://www.facebook.com/groups/free.code.camp.bikaner/)
     - [Jaipur](https://www.facebook.com/groups/free.code.camp.jaipur/)
+    - [Pilani](https://www.facebook.com/groups/free.code.camp.pilani/)
     - [Udaipur](https://www.facebook.com/groups/free.code.camp.udaipur/)
   - Tamil Nadu
     - [Chennai](https://www.facebook.com/groups/free.code.camp.chennai/)
@@ -577,6 +578,7 @@ If your city isn't listed here, you should [create your own Campsite](How-to-cre
   - [Pontianak](https://www.facebook.com/groups/free.code.camp.pontianak/)
   - [Sidoarjo](https://www.facebook.com/groups/free.code.camp.sidoarjo/)
   - [Solo](https://www.facebook.com/groups/free.code.camp.solo/)
+  - [Sumba Tengah](https://www.facebook.com/groups/free.code.camp.sumba.tengah.nusa.tenggara.timur)
   - [Surabaya](https://www.facebook.com/groups/free.code.camp.surabaya.new/)
   - [Yogyakarta](https://www.facebook.com/groups/free.code.camp.yogyakarta/)
 - Iran
@@ -778,6 +780,7 @@ If your city isn't listed here, you should [create your own Campsite](How-to-cre
   - [Ondo](https://web.facebook.com/groups/free.code.camp.ondo/)
   - [Port Harcourt](https://www.facebook.com/groups/free.code.camp.port.harcourt/)
   - [Sokoto](https://www.facebook.com/groups/free.code.camp.sokoto/)
+  - [Uyo](https://www.facebook.com/groups/free.code.camp.Uyo)
   - [Zaki Biam](https://www.facebook.com/groups/free.code.camp.zakibiam/)
 - Northern Ireland
   - [Belfast](https://www.facebook.com/groups/free.code.camp.belfast.UK/)
