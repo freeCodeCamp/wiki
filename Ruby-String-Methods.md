@@ -1,5 +1,5 @@
 
-# String Methods:
+# String Methods
 
 ## length:
 

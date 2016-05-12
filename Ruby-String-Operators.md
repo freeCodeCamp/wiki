@@ -1,4 +1,4 @@
-# String Operations:
+# String Operations
 
 **Concatenation:**
 
