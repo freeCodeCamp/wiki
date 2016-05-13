@@ -1,4 +1,4 @@
-# Cloning all remote branches in Git :octocat:
+# Cloning all remote branches in Git
 
 To clone a remote git repository, enter the following into the terminal:
 
@@ -7,6 +7,8 @@ To clone a remote git repository, enter the following into the terminal:
 git clone <remote_repo>
 cd <remote_repo>
 ```
+
+##  
 
 List your branches using these commands:
 ```bash

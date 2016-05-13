@@ -13,4 +13,4 @@ Let's say you have a route that you want to restrict to logged-in users; maybe y
 
 This way, if the user isn't authenticated when they try to access the `/profile` page, they'll be redirected to your login screen to authenticate before continuing to their profile page.
 
-[PREVIOUS](Get-info-about-the-current-user) [NEXT](isLoggedInAsync)
+[PREVIOUS](Angular-Get-User-Info) [NEXT](isLoggedInAsync)

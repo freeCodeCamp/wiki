@@ -1,6 +1,8 @@
+# How to remove a submodule in git
+
 Removing a submodule is useful when it is no longer required. The steps below outline the removal of a submodule.
 
-# Remove Submodule
+## Remove Submodule
 
 - Delete the section referring to the submodule from the `.gitmodules` file
 - Stage the changes via `git add .gitmodules`
