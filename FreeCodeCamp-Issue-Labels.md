@@ -6,6 +6,8 @@ You can use labels to help you choose which issues to click on, rather than rand
 
 Thanks @bugron, @ahstro, @benschenker, for compiling this list of labels and descriptions.
 
+##  
+
 Note: The labels ***blocked***, ***confirmed***, and ***QA*** are also tied to [Waffle](https://waffle.io/freecodecamp/freecodecamp), a management system for FCC (GitHub) issues, and are automatically added and removed by it.
 
 | Label              | Description | 

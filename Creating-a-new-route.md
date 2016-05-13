@@ -6,5 +6,5 @@ angular.module('myApp')
   .controller('MainCtrl', function ($scope, $http) { ...
 ~~~
 
-[PREVIOUS](Frontend-file-structure)
+[PREVIOUS](Front-End-File-Structure)
 [NEXT](Creating-a-new-directive)

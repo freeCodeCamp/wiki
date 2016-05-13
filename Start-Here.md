@@ -8,8 +8,8 @@ If you're new to Free Code Camp, or just new to the wiki, start here:
 - [How long does Free Code Camp take?](FreeCodeCamp-Completion-Time)
 - [What are these brownie points?](Brownie-Points)
 - [The Front End Development Certificate](Free-Code-Camp-Front-End-Development-Certificate)
-- [The Data Visualization Certificate](Free-Code-Camp-Data-Visualization-Certification)
-- [The Back End Development Certificate](Free-Code-Camp-Back-End-Development-Certification)
+- [The Data Visualization Certificate](FreeCodeCamp-Data-Visualization-Certification)
+- [The Back End Development Certificate](FreeCodeCamp-Back-End-Development-Certification)
 - [The Full Stack Development Certificate](Free-Code-Camp-Full-Stack-Development-Certificate)
 - The Coding Interview Preparation
 - [Guide to Back End Projects](Back-End-Guides)
@@ -29,5 +29,5 @@ If you're new to Free Code Camp, or just new to the wiki, start here:
 ## Nonprofit
 
 - [How Nonprofit Projects Work](FreeCodeCamp-Nonprofits-Projects-How-They-Work)
-- [Natural Language Requirements](Free-Code-Camp-completion-language-requirements)
+- [Natural Language Requirements](FreeCodeCamp-Completion-Language-Requirements)
 - [Resources that Free Code Camp recommends to Nonprofits Who Don't Qualify](FreeCodeCamp-Recommended-Resources)

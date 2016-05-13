@@ -6,13 +6,13 @@ Whether you live in a major metropolitan area, or a small town, we encourage you
 
 Here are some helpful links:
 
-[Complete Alphabetical List of Campsites](FreeCodeCamp-Campsites)
+[Complete Alphabetical List of Campsites](LocalGroups-List)
 
-[How to Create a New Campsite for your City](FreeCodeCamp-Campsites-Create)
+[How to Create a New Campsite for your City](LocalGroups-Create)
 
 [Jumpstart Your Campsite with Coffee-and-Code](http://blog.freecodecamp.com/2015/09/jump-start-your-local-campsite-with-coffee-and-code.html)
 
-[5 Steps to a Successful Meetup](FreeCodeCamp-Organize-Campsite-Event)
+[5 Steps to a Successful Meetup](LocalGroups-Event-Organization)
 
 -------
 See also:
