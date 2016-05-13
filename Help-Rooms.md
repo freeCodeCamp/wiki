@@ -14,7 +14,7 @@ _Choose the right room for your questions!_
 
 See also: :earth_asia: [**Language Specific**](#language-specific-rooms-) **|** :satellite: [**Technology**](#technology-based-rooms-) **|** :crystal_ball: [Miscellaneous](#miscellaneous-rooms-)
 
-[**`back to top`⮭**](#freecodecamp-chat-rooms)
+[**`back to top`&#8593;*](#freecodecamp-chat-rooms)
 
 ## Language Specific Rooms [**⬆**](#help-rooms)
 
@@ -29,7 +29,7 @@ Ruby | [**`FreeCodeCamp/Ruby`**](https://gitter.im/FreeCodeCamp/ruby)
 
 _Choose the right room for your questions!_
 
-[**`back to top`⮭**](#freecodecamp-chat-rooms)
+[**`back to top`&#8593;*](#freecodecamp-chat-rooms)
 
 ## Technology Based Rooms [**⬆**](#language-specific-rooms-)
 
@@ -42,7 +42,7 @@ SQL and Relational Databases | [**`FreeCodeCamp/SQL`**](https://gitter.im/FreeCo
 
 _Choose the right room for your questions!_
 
-[**`back to top`⮭**](#freecodecamp-chat-rooms)
+[**`back to top`&#8593;*](#freecodecamp-chat-rooms)
 
 ## Miscellaneous Rooms [**⬆**](#technology-based-rooms-)
 
@@ -55,4 +55,4 @@ You Can Do This (Moral Support) |  [**`FreeCodeCamp/YouCanDoThis`**](https://git
 
 _Choose the right room for your questions!_
 
-[**`back to top`⮭**](#freecodecamp-chat-rooms)
+[**`back to top`&#8593;*](#freecodecamp-chat-rooms)
