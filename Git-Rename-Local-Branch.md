@@ -1,4 +1,4 @@
-# Rename local branches in Git :octocat:
+# Rename local branches in Git
 
 To rename a local branch, enter the following into the terminal:
 > `-m` stands for move, just like `mv` is used in linux to rename files.

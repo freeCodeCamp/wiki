@@ -2,14 +2,12 @@
 
 1. Create a new branch:
 
-   `git checkout -b feature_branch_name`
+  `git checkout -b feature_branch_name`
 
 2. Edit, add and commit your files.
 
 3. Push your branch to the remote repository:
 
-   `git push -u origin feature_branch_name`
+  `git push -u origin feature_branch_name`
 
-
-
-*It's as simple as that!*
+_It's as simple as that!_

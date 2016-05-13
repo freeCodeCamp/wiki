@@ -1,4 +1,4 @@
-# Cloning a specific branch in Git :octocat:
+# Cloning a specific branch in Git
 
 To clone a branch, enter the following into the terminal:
 ```bash

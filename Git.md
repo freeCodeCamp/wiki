@@ -6,18 +6,19 @@ Git is a free and open source distributed version control system designed to han
 
 ## Articles
 
-- [Amend Last](Git-Amend-Last)
 - [Aliases](Git-Aliases)
+- [Amend Last](Git-Amend-Last)
 - [Git Behind a Proxy](Git-Behind-Proxy)
 - [Blame](Git-Blame)
-- [Change the URL of a remote repository](Git-Change-the-URL-of-a-remote-repository)
+- [Change the URL of a remote repository](Git-Change-Remote-Repo-URL)
 - [Checkout a remote Branch](Git-Checkout-A-Remote-Branch)
 - [Clone all remote branches](Git-Clone-All-Remote-Branches)
 - [Clone a specific branch](Git-Clone-Specific-Branch)
-- [Delete a branch both locally and remotely](Git-Delete-a-Branch-both-locally-and-remotely)
+- [Writing Good Git Commit Messages](Git-Commit-Message)
+- [Delete a branch both locally and remotely](Git-Deleting-A-Branch)
 - [Discard unstaged changes](Git-Discard-Unstaged-Changes)
-- [Force git to overwrite local files on pull](Git-Pull-Overwrite-Local-Files) 
 - [Merge](Git-Merge)
+- [Overwrite local files on pull](Git-Pull-Overwrite-Local-Files) 
 - [Pull vs Fetch](Git-Pull-Vs-Git-Fetch)
 - [Push local to remote repository](Git-Push-Local-To-Remote-Repository)
 - [Rebase](Git-Rebase)

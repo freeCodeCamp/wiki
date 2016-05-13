@@ -1,3 +1,5 @@
+# Git Merge
+
 Let us say that you are working on an application that is similar to reddit, but specifically for code snippets. In such an application, you would likely have a `master` branch which contains all the released features, a `dev` branch which might contain features that have been coded, but not implemented yet. Every developer in the team will create his own branches off the `dev` branch for individual features. The repository structure would look something like this:
                                
 ```
@@ -5,6 +7,8 @@ Let us say that you are working on an application that is similar to reddit, but
                                 /
  --- Commit 1 ---- Commit 2 ---------------------------- master branch
 ```
+
+##  
 
 If you decided to merge the 3rd commit (`Commit 3`) into the `master` branch from the `dev` branch, then it would be as simple as running a `git merge` command because the `dev` branch is *up-to-date* with the `master` branch: all of the commits in the `master` branch exist in the `dev` branch. You can merge the branches by running the follow commands:
 ```

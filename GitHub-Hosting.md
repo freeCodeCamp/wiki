@@ -1,6 +1,6 @@
 # Use GitHub Static pages to host your Front-End Projects
 
-## Benefits
+**Benefits**
 
 I love Codepen.io, it's a wonderful, easy-to-use tool for simple front-end experimentation. But as the fcc projects got more complex, I realized coding locally was going to save me a bunch of headaches. My text-editor and [codekit](https://incident57.com/codekit/) combo are just waaay faster.
 

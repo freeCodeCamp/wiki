@@ -1,4 +1,9 @@
-# Table of contents
+# Guides to Back End Projects
+
+Here you will find articles that will help you learn more and complete your back end projects.
+
+## Table of contents
+
 - Part 1: Frontend
   - [Frontend file structure](Frontend-file-structure)
   - [Creating a new route](Creating-a-new-route)
@@ -20,7 +25,7 @@
   - [More Useful APIs](Angular-Make-Useful-APIs)
 
 - Part 5: Auth, JS-IsLoggedInAsync
-  - [Get info about the current user](Get-info-about-the-current-user)
+  - [Get info about the current user](Angular-Get-User-Info)
   - [Restrict a page to authenticated users](Page-Restriction)
   - [JS-IsLoggedInAsync](JS-IsLoggedInAsync)
 
