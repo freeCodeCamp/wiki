@@ -1,7 +1,7 @@
 # Design Resources for Front-End Developers
 
 Are you a freelance front-end web developer or are you thinking about becoming
-one? Maybe you’ve been to a coding bootcamp or graduated from an online
+one? Maybe you've been to a coding bootcamp or graduated from an online
 front-end development course. What happens next?
 
 You get your first customer. It might just be a friend who needs a personal website.
