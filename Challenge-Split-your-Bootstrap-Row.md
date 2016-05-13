@@ -1,7 +1,7 @@
 # Split your Bootstrap Row
 Create two `div` elements within your row, both with the class `col-xs-6`.
 
-```
+```html
 <div class="container-fluid">
   <h3 class="text-primary text-center">jQuery Playground</h3>
   <div class="row">

@@ -3,7 +3,7 @@ Objects are similar to arrays, except that instead of using indexes to access an
 
 Here's a sample object:
 
-```
+```javascript
 var cat = {
  "name": "Whiskers",
  "legs": 4,

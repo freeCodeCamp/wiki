@@ -1,6 +1,6 @@
 CSS allows you to control the padding of an element on all four sides with `padding-top`, `padding-right`, `padding-bottom`, and `padding-left` attributes.
 
-```
+```css
 .green-box {
   background-color: green;
   padding-top: 40px;

@@ -4,7 +4,7 @@ Unordered lists start with a `<ul>` element. Then they contain some number of `<
 
 For example:
 
-```
+```html
 <ul>
   <li>milk</li>
   <li>cheese</li>
