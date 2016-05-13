@@ -5,7 +5,7 @@ Here you will find articles that will help you learn more and complete your back
 ## Table of contents
 
 - Part 1: Frontend
-  - [Frontend file structure](Frontend-file-structure)
+  - [Frontend file structure](Front-End-File-Structure)
   - [Creating a new route](Creating-a-new-route)
   - [Creating a new directive](Creating-a-new-directive)
   - [Grunt](Grunt)
@@ -13,7 +13,7 @@ Here you will find articles that will help you learn more and complete your back
 - Part 2: Backend
   - [Backend file structure](Angular-Backend-File-Structure)
   - [Creating a new API endpoint](Creating-a-new-API-endpoint)
-  - [Fixing exports.update](Fixing-exports.update)
+  - [Fixing exports.update](Fixing-Exports-Update)
 
 - Part 3: Interfacing Between Frontend & Backend
   - [Accessing the database from your frontend](Accessing-the-database-from-your-frontend)
@@ -35,4 +35,4 @@ Here you will find articles that will help you learn more and complete your back
 # Legend
 **/bolded/names/with.extensions** are directories and files in the project file structure<br>[highlighted.items/are/hypothetical](#) URLs that allow access to different pages in your app<br>_italicizedItems_ are function and object names within your code
 
-[PREVIOUS](Intro-to-Yeoman-Angular-Fullstack-Back-End-Projects) [NEXT](Frontend-file-structure)
+[PREVIOUS](Intro-to-Yeoman-Angular-Fullstack-Back-End-Projects) [NEXT](Front-End-File-Structure)

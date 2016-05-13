@@ -65,7 +65,7 @@ _Figure 1f_ ![Delete Branch](http://i.imgur.com/vePGN3Y.png)
 
 ### 2. New Pull Request Button
 
-This is used to create [pull requests](FCC-Pull-Request) from files that are already in existing branches, not really for adding new files. So if you are looking to add new files then check the other options. It will look like this:
+This is used to create [pull requests](FreeCodeCamp-Guide-Pull-Request) from files that are already in existing branches, not really for adding new files. So if you are looking to add new files then check the other options. It will look like this:
 
 - _Figure 2a_ ![PR Button](http://i.imgur.com/WryvU3P.png)
 

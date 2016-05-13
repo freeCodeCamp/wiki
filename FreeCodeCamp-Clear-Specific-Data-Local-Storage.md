@@ -6,7 +6,7 @@ This solves, as example, a common problem with browser hanging out in a challeng
 
 When this happens, you must delete the value in `localStorage` storing that response.
 
-In Chrome:
+## In Chrome:
 
 - On **freecodecamp.com**, open your developer tools.
 
@@ -18,7 +18,7 @@ In Chrome:
 - Find the challenge you wish to delete data in the right pane ![Finding a key in localStorage Chrome Developer Tools](http://i.imgur.com/O57tcuN.png)
 - Right click the desired challenge and select `Delete`
 
-In Firefox:
+## In Firefox:
 
 - On **freecodecamp.com**, open your web console with
 

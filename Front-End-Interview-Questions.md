@@ -1,6 +1,10 @@
 # Interview questions for Junior Front-End Web Developers
 
-The purpose of this article is to familiarize fresh Front-End Web Developers with text book questions. If you are just getting into the developer world there is a good chance you will feel nervous when interviewing for a developer's positon. Because of this, some relatively basic questions could feel more difficult than how they actually are. A good counter for this scenario is to be properly prepared. Without further ado, here are a few questions that you could encounter:
+The purpose of this article is to familiarize fresh Front-End Web Developers with text book questions. If you are just getting into the developer world there is a good chance you will feel nervous when interviewing for a developer's positon. Because of this, some relatively basic questions could feel more difficult than how they actually are. A good counter for this scenario is to be properly prepared. 
+
+## Questions
+
+Without further ado, here are a few questions that you could encounter:
 
 1. In the context of CSS styling can you explain what does `display-style: inline-block` stand for?
 2. If you have a `<ul>` element with several `<li>` elements, how would you go about setting up these elements in a row by using HTML and CSS?

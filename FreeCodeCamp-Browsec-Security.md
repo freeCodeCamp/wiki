@@ -1,8 +1,10 @@
 # Using Browsec for Securing your Connection to FreeCodeCamp.com
 
-## Why do I need an plugin or add-on?
+### Why do I need an plugin or add-on?
 
 Lately some of the campers started facing strange problems, namely "Content Modification" by some Internet Service Providers (ISP), leading to the [FreeCodeCamp.com](http://freecodecamp.com) (FCC) website being broken sometimes.
+
+##  
 
 This came to light with some of the issues logged by campers :
 

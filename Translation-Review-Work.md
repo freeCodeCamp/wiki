@@ -1,6 +1,6 @@
 # Review the work of another translator
 
-When a translator completes or advances a translation he/she would create a pull request, that must be reviewed by another peer. A [Pull Request](FCC-Pull-Request) or PR is a method of submitting proposed changes to the code base.
+When a translator completes or advances a translation he/she would create a pull request, that must be reviewed by another peer. A [Pull Request](FreeCodeCamp-Guide-Pull-Request) or PR is a method of submitting proposed changes to the code base.
 
 ##  
 
