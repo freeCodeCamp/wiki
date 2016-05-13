@@ -10,8 +10,8 @@ want it to look professional.
 
 Here’s the thing…
 
-Good design can mean the difference between a website that looks ‘homemade’
-and one that looks professional. If you’re going to make money at freelance web
+Good design can mean the difference between a website that looks 'homemade'
+and one that looks professional. If you're going to make money at freelance web
 development you can’t afford to be making sites that don’t showcase good design
 principles.  Most people(ie potential clients) know what good design looks like even
 if they can’t tell you why it’s good design. Therefore, it pays to have an
