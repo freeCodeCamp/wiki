@@ -11,4 +11,4 @@ Existen dos maneras de ganar Puntos Brownie:
 
 > Los Puntos Brownie te ayudan a mostrarte como una persona que realiza mucho código, comparte enlaces relevantes y ayuda a otras personas.
 
-_Además son añadidos a tu [racha](Racha.md)._
+_Además son añadidos a tu [racha](Racha)._
