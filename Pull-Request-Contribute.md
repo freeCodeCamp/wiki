@@ -22,4 +22,4 @@ _Note: Not all pull requests are accepted. FCC project maintainers will explain 
 - [GitHub & Git Foundations Training](https://www.youtube.com/playlist?list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-) - How to use Git and GitHub
 - [FreeCodeCamp Contribution Guidelines](https://github.com/FreeCodeCamp/FreeCodeCamp#contributing)
 - [How to write Git commit messages](http://chris.beams.io/posts/git-commit/)
-- [How to Clone FCC to a Windows PC](How-to-clone-the-FreeCodeCamp-website-on-a-Windows-pc)
+- [How to Clone FCC to a Windows PC](FreeCodeCamp-Fork-Windows)

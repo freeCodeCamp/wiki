@@ -8,7 +8,7 @@ Here are some helpful links:
 
 [Complete Alphabetical List of Campsites](FreeCodeCamp-Campsites)
 
-[How to Create a New Campsite for your City](How-to-create-a-Campsite-for-your-city)
+[How to Create a New Campsite for your City](FreeCodeCamp-Campsites-Create)
 
 [Jumpstart Your Campsite with Coffee-and-Code](http://blog.freecodecamp.com/2015/09/jump-start-your-local-campsite-with-coffee-and-code.html)
 

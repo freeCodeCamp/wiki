@@ -17,7 +17,7 @@ Your function will be passed a par and strokes. Return strings according to this
 
 par and strokes will always be numeric and positive.
 
-Remember to use [ Read-Search-Ask](How-to-get-help-when-you-get-stuck) if you get stuck. Try to pair program. Write your own code.
+Remember to use [ Read-Search-Ask](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program. Write your own code.
 
 ## Useful Links
 - [Challenge: Chaining If Else Statements](http://www.freecodecamp.com/challenges/chaining-if-else-statements)
