@@ -5,4 +5,7 @@ For example, your jQuery Playground `h3` element has the parent element of`<div 
 
 jQuery has a function called `parent()` that allows you to access the parent of whichever element you've selected.
 
-Here's an example of how you would use the `parent()` function: `$("#left-well").parent().css("background-color", "blue")`
+Here's an example of how you would use the `parent()` function:
+```javascript
+$("#left-well").parent().css("background-color", "blue")
+```

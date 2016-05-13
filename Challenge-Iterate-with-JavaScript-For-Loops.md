@@ -1,7 +1,7 @@
 # Iterate with JavaScript For Loops
 The most common type of JavaScript loop is called a `for loop` because it runs `for` a specific number of times.
 
-```
+```javascript
 var ourArray = [];
 for(var i = 0; i < 5; i++) {
   ourArray.push(i);
@@ -11,7 +11,7 @@ for(var i = 0; i < 5; i++) {
 ourArray will now contain [0,1,2,3,4]
 
 ## More about for loops
-```
+```javascript
 for(var i = 0; i < 5; i++) {  // There are 3 parts here
 ```
 There are three parts to for loop.  They are separated by semicolons.  

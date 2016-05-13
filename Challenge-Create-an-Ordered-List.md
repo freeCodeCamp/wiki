@@ -4,7 +4,7 @@ Ordered lists start with a `<ol>` element. Then they contain some number of `<li
 
 For example:
 
-```
+```html
 <ol>
   <li>hydrogen</li>
   <li>helium</li>

@@ -3,7 +3,7 @@ When we start using jQuery, we will modify HTML elements without needing to actu
 
 This is a great way to make websites with a particular structure. Remember that you can start a comment with `<!-- and end a comment with -->`
 
-```
+```html
 <!--You shouldn't need to modify code below this line -->
 <div class="container-fluid">
  <h3 class="text-primary text-center">jQuery Playground</h3>

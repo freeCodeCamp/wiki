@@ -4,7 +4,7 @@ It is also a convenient way to make code inactive without having to delete it en
 
 You can start a comment with `<!-- and end a comment with -->`.
 
-```
+```html
 <!--
 <h1>Hello World</h1>
 

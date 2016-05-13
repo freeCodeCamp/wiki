@@ -1,6 +1,6 @@
 The `body` element can be styled just like any other.
 
-```
+```html
 <style>
   body {
     background-color: black;

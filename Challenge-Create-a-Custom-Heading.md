@@ -1,7 +1,7 @@
 # Create a Custom Heading
 Using `div` and the custom grid layout we can create our own heading.
 
-```
+```html
 <div class="row">
    <div class="col-xs-8">
      <h2 class="text-primary text-center">CatPhotoApp</h2>

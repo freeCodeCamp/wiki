@@ -7,7 +7,6 @@ Each `if` statement requires a `boolean` condition to evaluate. If the boolean e
 ##Example
 
 ```js
-
 function trueOrFalse(myVal) {
   if (myVal > 10) {
      return "Greater Than";
