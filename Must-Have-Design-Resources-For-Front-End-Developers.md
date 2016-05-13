@@ -86,7 +86,7 @@ kind to them. Learn something about user psychology.
 
 An attractive color palette alone can go a long way toward making a design look
 professional. So, if you’ve got through the basic design stuff I mentioned above but
-still aren’t sure about how to apply color theory bookmark this site now and start
+still aren’t sure about how to apply color theory, bookmark this site now and start
 using it. Just click on two colors and like magic a beautiful, full color palette appears.
 Other good sites for color palettes are [**flatuicolors**](http://www.flatuicolors.com)  and [**coolors**](http://www.coolors.co) . 
  
