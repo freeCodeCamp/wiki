@@ -10,6 +10,8 @@ Java supports the following operations on variables:
 - Assignment: `=`, `+=`, `-=`, `*=`, `/=`, `%=`, `<<=`, `>>=`, `&=`, `^=`, `|=`
 - Others: `Conditional/Ternary(?:)`, `instanceof`
 
+##  
+
 While most of the operations are self explanatory, the Conditional (Ternary) Operator works as follows:
 
 `expression that results in boolean output ? return this value if true : return this value if false`

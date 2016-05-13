@@ -87,8 +87,8 @@ function largestOfFour(arr) {
 
 **Reference:-**
 
-- [Array.prototype.map()](js-Array-prototype-map)
-- [Array.prototype.reduce()](js-Array-prototype-reduce)
+- [Array.prototype.map()](JS-Array-Prototype-Map)
+- [Array.prototype.reduce()](JS-Array-Prototype-Reduce)
 
 ## :rotating_light: Advanced Code Solution:
 
@@ -135,7 +135,7 @@ Here we're passing `null` as the _context_ of the `Function.prototype.apply` met
 **Reference:-**
 
 - [Math.max](JS-Math-Max)
-- [Array.prototype.map()](js-Array-prototype-map)
+- [Array.prototype.map()](JS-Array-Prototype-Map)
 - [Function.prototype.apply on DevDocs](http://devdocs.io/#q=js+Function+apply)
 - [Function.bind on DevDocs](http://devdocs.io/#q=js+Function+bind)
 

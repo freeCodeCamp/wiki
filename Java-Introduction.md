@@ -1,6 +1,6 @@
-# Introduction
+# Java Introduction
 
-## What is Java?
+**What is Java?**
 
 [Java](https://www.oracle.com/java/index.html) is a programming language developed by [Sun Microsystems](https://en.wikipedia.org/wiki/Sun_Microsystems) in 1995, which got later acquired by [Oracle](http://www.oracle.com/index.html). It's now a full platform with lots of standard APIs, open source APIs, tools, huge developer community and is used to build the most trusted enterprise solutions by big and small companies alike. [Android](https://www.android.com/) application development is done fully with Java and its ecosystem. To know more about Java, read [this](https://java.com/en/download/faq/whatis_java.xml) and [this](http://tutorials.jenkov.com/java/what-is-java.html).
 

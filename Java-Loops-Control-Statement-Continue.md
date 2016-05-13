@@ -19,6 +19,8 @@ The value of `j` will be printed for each iteration, except when it is equal to 
 0 1 2 3 4 6 7 8 9
 ```
 
+##  
+
 Say you want to count the number of `i`s in a the word `mississippi`. Here you could use a loop with the `continue` statement, as follows:
 
 ```java

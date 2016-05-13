@@ -10,6 +10,8 @@ public interface Vehicle {
 }
 ```
 
+##  
+
 The interface above contains one field and two methods. Alone, it is not of much use, but they are usually used along with Classes. How? Simple, you have to make sure some class `implements` it.
 
 ```java
