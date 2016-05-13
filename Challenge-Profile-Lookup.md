@@ -14,7 +14,7 @@ If **firstName** does not correspond to any contacts then return **"No such cont
 
 If **prop** does not correspond to any valid properties then return **"No such property"**
 
-Remember to use [ Read-Search-Ask](How-to-get-help-when-you-get-stuck) if you get stuck. Try to pair program. Write your own code.
+Remember to use [ Read-Search-Ask](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program. Write your own code.
 
 ## Useful Links
 - [Challenge: Accessing Objects Properties with Bracket Notation](http://www.freecodecamp.com/challenges/accessing-objects-properties-with-bracket-notation)

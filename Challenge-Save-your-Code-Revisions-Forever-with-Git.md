@@ -12,4 +12,4 @@ After you learn how to use git, here are other resources to help you learn more 
 - [Writing Great Git Commit Messages](Git-Commit-Message)
 - [Using GitHub Pages for your front end dev projects](GitHub-Hosting)
 - [Search your issue on GitHub](Search-Existing-Issue)
-- [How Issue Mods Work](How-GitHub-Issue-Moderators-AKA-Issue-Mods-Work)
+- [How Issue Mods Work](FreeCodeCamp-Issue-Mods)

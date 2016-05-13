@@ -21,7 +21,7 @@ You will write a card counting function. It will receive a **card** parameter an
 - -3 Hold
 - 5 Bet
 
-Remember to use [ Read-Search-Ask](How-to-get-help-when-you-get-stuck) if you get stuck. Try to pair program. Write your own code.
+Remember to use [ Read-Search-Ask](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program. Write your own code.
 
 ## Useful Links
 - [Challenge: Selecting from many options with Switch Statements](http://www.freecodecamp.com/challenges/selecting-from-many-options-with-switch-statements)

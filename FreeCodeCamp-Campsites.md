@@ -4,7 +4,7 @@
 
 (This map is very out of date and you should look for your city in the following list instead.  
 If you're up to it, please help us [edit the map](https://www.google.com/maps/d/edit?mid=zH0hxoM17_fk.kDBMlxfk0BZ8) and update the missing cities in there.)  
-If your city isn't listed here, you should [create your own Campsite](How-to-create-a-Campsite-for-your-city).
+If your city isn't listed here, you should [create your own Campsite](FreeCodeCamp-Campsites-Create).
 - Afghanistan
   - [Kabul](https://www.facebook.com/groups/free.code.camp.kabul/)
 - Albania

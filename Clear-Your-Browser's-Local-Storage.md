@@ -11,4 +11,4 @@ In Chrome:
 
 ![](https://cloud.githubusercontent.com/assets/6775919/9448820/911626ee-4a53-11e5-98c9-b2bf4ca50816.png)
 
-Alternatively, if you are having issues with a specific challenge freezing your browser, [find the name of that challenge in local storage and delete just that one](How-to-clear-specific-values-from-your-browser's-local-storage).
+Alternatively, if you are having issues with a specific challenge freezing your browser, [find the name of that challenge in local storage and delete just that one](FreeCodeCamp-Clear-Specific-Data-Local-Storage).

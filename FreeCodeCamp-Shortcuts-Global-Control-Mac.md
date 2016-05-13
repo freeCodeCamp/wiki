@@ -1,3 +1,5 @@
+# Global Control Shortcuts for Mac
+
 These Global Control Shortcuts for Mac will save you hours by speeding up your typing.
 
 https://player.vimeo.com/video/107073108
