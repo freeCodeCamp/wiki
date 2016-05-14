@@ -1,8 +1,13 @@
-# Manipulate JavaScript Objects
+# Challenge Manipulate JavaScript Objects
+
 We can add properties to objects like this:
 
-`myObject.myProperty = "myValue";`
+```javascript
+myObject.myProperty = "myValue";
+```
 
 We can also delete them like this:
 
-`delete(myObject.myProperty);`
+```javascript
+delete(myObject.myProperty);
+```

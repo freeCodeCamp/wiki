@@ -3,7 +3,7 @@
 Our open source community's Wiki focuses on answering your questions about learning to code and getting a coding job. We also cover in detail our:
 
 - Curriculum
-- Local Local Group Communities
+- Local Group Communities
 - Nonprofit Projects
 
 ![An illustration of CamperBot](http://i.imgur.com/gyJwzkx.png)
