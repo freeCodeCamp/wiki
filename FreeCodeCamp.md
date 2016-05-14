@@ -7,7 +7,8 @@ We leverage the power of these existing platforms to connect with one another an
 - [GitHub](https://github.com/freecodecamp/freecodecamp) - for collaborating on open source projects and improving
 - [FreeCodeCamp.com](http://www.freecodecamp.com)
 - [Gitter](https://gitter.im/freecodecamp/freecodecamp) - for real time chatting and getting immediate help on our challenges
-- [Reddit](https://www.reddit.com/r/freecodecamp) - for sharing coding resources [Facebook Campsites](https://www.facebook.com/groups/free.code.campers) - for meeting campers in your city and coordinating events
+- [Reddit](https://www.reddit.com/r/freecodecamp) - for sharing coding resources
+- [Facebook Campsites](https://www.facebook.com/groups/free.code.campers) - for meeting campers in your city and coordinating events
 - [Medium](https://medium.freecodecamp.com) - for publishing your long-form content
 - [Twitch](https://twitch.tv/freecodecamp) - for live-streaming coding
 - [YouTube](https://www.youtube.com/freecodecamp) - for publishing instructional videos
