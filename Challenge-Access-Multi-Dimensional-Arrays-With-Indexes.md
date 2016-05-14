@@ -1,9 +1,10 @@
-# Access Multi-Dimensional Arrays With Indexes
+# Challenge Access Multi-Dimensional Arrays With Indexes
+
 One way to think of a `multi-dimensional` array, is as an array of arrays. When you use brackets to access your array, the first set of bracket refers to the entries in the outer-most array, and each subsequent level of brackets refers to the next level of entries inside.
 
 ## Example
 
-```js
+```javascript
 var arr = [
     [1,2,3],
     [4,5,6],

@@ -1,7 +1,7 @@
 # Free Code Camp Wiki에 오신 것을 환영합니다! 
 오픈 소스 커뮤니티 위키는 코드를 학습하고 코딩관련 취업에 대한 질문에 대답하는 것에 중점을 두고 있습니다. 또한 아래 내용들을 자세히 다룹니다:
 - 커리큘럼(Curriculum)
-- 지역 캠프사이트 커뮤니티(Local Campsite Communities)
+- 지역 캠프사이트 커뮤니티(Local Local Group Communities)
 - 비영리 프로젝트(Nonprofit Projects)
 
 ![An illustration of CamperBot](http://i.imgur.com/gyJwzkx.png)

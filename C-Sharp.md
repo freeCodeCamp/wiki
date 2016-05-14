@@ -1,55 +1,62 @@
 # The C# Programming Language
 
-1. ### Basics
-  * Setup
-  * Your First C# Program
-  * Types and Variables
-  * Flow Control Statements
-  * Operators
-  * Strings
-  * Classes, Objects, Interface and Main Methods
-  * Fields and Properties
-  * Scope and Accessibility Modifiers
-  * Handling Exceptions
+## Basics
 
-2. ### Intermediate
-  * Generics
-  * Events, Delegates and Lambda Expressions
-  * Collection Framework
-  * LINQ
+- Setup
+- Your First C# Program
+- Types and Variables
+- Flow Control Statements
+- Operators
+- Strings
+- Classes, Objects, Interface and Main Methods
+- Fields and Properties
+- Scope and Accessibility Modifiers
+- Handling Exceptions
 
-3. ### Advanced
-  * Asynchronous Programming (Async and Await)  
-  * Task Parallel Library
+## Intermediate
 
-5. ### What's New in C# 6
-  * Null-Conditional Operator
-  * Auto-Property Initializers
-  * Nameof Expressions
-  * Expression Bodied Functions and Properties
-  * Other Features
+- Generics
+- Events, Delegates and Lambda Expressions
+- Collection Framework
+- LINQ
 
-4. ### Object-Oriented principles (OOP)
-   * Encapsulation
-   * Abstraction
-   * Inheritance
-   * Polymorphism
+## Advanced
 
-6. ### Solid principles
-  * Single Responsibility Principle
-  * Open Closed Principle
-  * Liskov Substitution Principle
-  * Interface Segregation Principle
-  * Dependency Inversion Principle
+- Asynchronous Programming (Async and Await)
+- Task Parallel Library
 
-7. ### C# Best practices, Design Patterns & Test Driven Development (TDD)
+## What's New in C# 6
 
-### Setup
-[LinqPad][linqpad] is an .NET scratchpad to quickly test your C# code snippets.The standard edition is free and a perfect tool for beginners to execute language statements, expressions and programs.
+- Null-Conditional Operator
+- Auto-Property Initializers
+- Nameof Expressions
+- Expression Bodied Functions and Properties
+- Other Features
 
-Alternatively, you could also download [Visual Studio Community 2015]  [visualstudio]  which is an extensible [IDE][ide] used by most professionals for creating enterprise applications.
+## Object-Oriented principles (OOP)
 
-### Your First C# Program
+- Encapsulation
+- Abstraction
+- Inheritance
+- Polymorphism
+
+## Solid principles
+
+- Single Responsibility Principle
+- Open Closed Principle
+- Liskov Substitution Principle
+- Interface Segregation Principle
+- Dependency Inversion Principle
+
+## C# Best practices, Design Patterns & Test Driven Development (TDD)
+
+## Setup
+
+[LinqPad] is an .NET scratchpad to quickly test your C# code snippets.The standard edition is free and a perfect tool for beginners to execute language statements, expressions and programs.
+
+Alternatively, you could also download [Visual Studio Community 2015][visualstudio] which is an extensible [IDE] used by most professionals for creating enterprise applications.
+
+## Your First C# Program
 
 ```csharp
 //this is the single line comment
@@ -77,21 +84,21 @@ namespace Learning.CSharp
   }
 }
 ```
+
 Every C# console application must have a [Main method][main] which is the entry point of the program.
 
-Edit [HelloWorld][HelloWorld] in .NET Fiddle, a tool inspired by [JSFiddle](http://jsfiddle.net) where you can alter the code snippets and check the output for yourself.
-Note, this is just to share and test the code snippets, not to be used for developing applications.
+Edit [HelloWorld] in .NET Fiddle, a tool inspired by [JSFiddle](http://jsfiddle.net) where you can alter the code snippets and check the output for yourself. Note, this is just to share and test the code snippets, not to be used for developing applications.
 
 If you are using visual Studio, follow this [tutorial](https://msdn.microsoft.com/en-us/library/k1sx6ed2.aspx) to create console application and understand your first C# program.
 
-### Types and Variables
-C# is a strongly typed language. Every variable has a type.
-Every expression or statement evaluates to a value.
-There are two kinds of types in C#
-  * Value types
-  * Reference types.
+## Types and Variables
 
-*_Value Types_* : Variables that are value types directly contain values. Assigning one value type variable to another copies the contained value.
+C# is a strongly typed language. Every variable has a type. Every expression or statement evaluates to a value. There are two kinds of types in C#
+
+- Value types
+- Reference types.
+
+**Value Types** : Variables that are value types directly contain values. Assigning one value type variable to another copies the contained value.
 
 [Edit in .NET Fiddle][valuetype]
 
@@ -103,37 +110,32 @@ Console.WriteLine(a); //prints 20
 Console.WriteLine(b); //prints 20
 ```
 
-Note that in other dynamic languages this could be different, but in C# this is always a value copy.
-When value type is created, a single space most likely in [stack][stack] is created, which is a "LIFO" (last in, first out) data structure. The stack has size limits and memory operations are efficient.
-Few examples of built-in data types are `int, float, double, decimal, char and string`.
+Note that in other dynamic languages this could be different, but in C# this is always a value copy. When value type is created, a single space most likely in [stack] is created, which is a "LIFO" (last in, first out) data structure. The stack has size limits and memory operations are efficient. Few examples of built-in data types are `int, float, double, decimal, char and string`.
 
-
-Type | Example | Description
---- | --- | ---
-*Integer* | `int fooInt = 7;` | **Signed 32-bit** Integer
-*Long* | `long fooLong = 3000L;` | **Signed 64-bit** integer.**L is used to specify that this variable value is of type long/ulong**
-*Double* | `double fooDouble = 20.99;` | Precision: **15-16 digits**
-*Float* | `float fooFloat = 314.5f;` | Precision: **7 digits**.**F is used to specify that this variable value is of type float**
-*Decimal* | `decimal fooDecimal = 23.3m;` | Precision: **28-29 digits**.Its more precision and smaller range makes it appropriate for **financial and monetary calculations**
-*Char* | `char fooChar = 'Z';` | A  single **16-bit Unicode character**
-*Boolean* | `bool fooBoolean = false;` | Boolean - **true & false**
-*String* |`string fooString = "\"escape\" quotes and add \n (new lines) and \t (tabs);`|**A string of Unicode characters.**
+Type      | Example                                                                       | Description
+--------- | ----------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------
+_Integer_ | `int fooInt = 7;`                                                             | **Signed 32-bit** Integer
+_Long_    | `long fooLong = 3000L;`                                                       | **Signed 64-bit** integer.**L is used to specify that this variable value is of type long/ulong**
+_Double_  | `double fooDouble = 20.99;`                                                   | Precision: **15-16 digits**
+_Float_   | `float fooFloat = 314.5f;`                                                    | Precision: **7 digits**.**F is used to specify that this variable value is of type float**
+_Decimal_ | `decimal fooDecimal = 23.3m;`                                                 | Precision: **28-29 digits**.Its more precision and smaller range makes it appropriate for **financial and monetary calculations**
+_Char_    | `char fooChar = 'Z';`                                                         | A single **16-bit Unicode character**
+_Boolean_ | `bool fooBoolean = false;`                                                    | Boolean - **true & false**
+_String_  | `string fooString = "\"escape\" quotes and add \n (new lines) and \t (tabs);` | **A string of Unicode characters.**
 
 For complete list of all built-in data types see [here](https://msdn.microsoft.com/en-us/library/ms228360)
 
+[**Reference types**](https://msdn.microsoft.com/en-us/library/490f96s2.aspx) : Variables of reference types store references to their objects, which means they store the address to the location of data on the [stack], also known as pointers. Actual data is stored on the [heap] memory. Assigning reference type to another doesn't copy the data, instead it creates the second copy of reference which points to the same location on the heap.
 
- [*_Reference types_*](https://msdn.microsoft.com/en-us/library/490f96s2.aspx) : Variables of reference types store references to their objects, which means they store the address to the location of data on the [stack][stack], also known as pointers. Actual data is stored on the [heap][heap] memory.
- Assigning reference type to another doesn't copy the data, instead it creates the second copy of reference which points to the same location on the heap.
+In heap, objects are allocated and deallocated in random order that is why this requires the overhead of memory management and [garbage collection][garbage].
 
- In heap, objects are allocated and deallocated in random order that is why this requires the overhead of memory management and [garbage collection][garbage].
+Unless you are writing [unsafe code][unsafe] or dealing with [unmanaged code][unmanaged], you don't need to worry about the lifetime of your memory locations. .NET compiler and CLR will take care of this, but it's still good to keep this mind in order to optimize performance of your applications.
 
- Unless you are writing [unsafe code][unsafe] or dealing with [unmanaged code][unmanaged], you don't need to worry about the lifetime of your memory locations. .NET compiler and CLR will take care of this, but it's still good to keep this mind in order to optimize performance of your applications.
+More information [here][heapvsstack]
 
-More information [here] [heapvsstack]
-### Flow Control Statements
+## Flow Control Statements
 
-* [If else][ifelse] statement :
-  [Edit in .NET Fiddle](https://dotnetfiddle.net/IFVB33)
+- [If else][ifelse] statement : [Edit in .NET Fiddle](https://dotnetfiddle.net/IFVB33)
 
 ```csharp
             int myScore = 700;
@@ -155,48 +157,47 @@ More information [here] [heapvsstack]
              <condition> ? <true> : <false> **/
             int myNumber = 10;
             string isTrue = myNumber == 10 ? "Yes" : "No";
-
 ```
-* [Switch][switch] statement :
-[Edit in .NET Fiddle](https://dotnetfiddle.net/lPZftO)
+
+- [Switch] statement : [Edit in .NET Fiddle](https://dotnetfiddle.net/lPZftO)
 
 ```csharp
 using System;
 
 public class Program
 {
-	public static void Main()
-	{
-		int myNumber = 0;
-		switch (myNumber)
-		{
-			// A switch section can have more than one case label.
-			case 0:
-			case 1:
-			{
-				Console.WriteLine("Case 0 or 1");
-				break;
-			}
+    public static void Main()
+    {
+        int myNumber = 0;
+        switch (myNumber)
+        {
+            // A switch section can have more than one case label.
+            case 0:
+            case 1:
+            {
+                Console.WriteLine("Case 0 or 1");
+                break;
+            }
 
-			// Most switch sections contain a jump statement, such as a break, goto, or return.;
-			case 2:
-				Console.WriteLine("Case 2");
-				break;
-			// 7 - 4 in the following line evaluates to 3.
-			case 7 - 4:
-				Console.WriteLine("Case 3");
-				break;
-			// If the value of myNumber is not 0, 1, 2, or 3 the
-			//default case is executed.*
-			default:
-				Console.WriteLine("Default case. This is also optional");
-				break; // could also throw new Exception() instead
-		}
-	}
+            // Most switch sections contain a jump statement, such as a break, goto, or return.;
+            case 2:
+                Console.WriteLine("Case 2");
+                break;
+            // 7 - 4 in the following line evaluates to 3.
+            case 7 - 4:
+                Console.WriteLine("Case 3");
+                break;
+            // If the value of myNumber is not 0, 1, 2, or 3 the
+            //default case is executed.*
+            default:
+                Console.WriteLine("Default case. This is also optional");
+                break; // could also throw new Exception() instead
+        }
+    }
 }
 ```
-* [For][for] & [Foreach][foreach] :
-[Edit in .NET Fiddle](https://dotnetfiddle.net/edxtvq)
+
+- [For] & [Foreach] : [Edit in .NET Fiddle](https://dotnetfiddle.net/edxtvq)
 
 ```csharp
 
@@ -222,47 +223,48 @@ Console.WriteLine(Environment.NewLine);
 {
 // All of the expressions are optional. This statement
 //creates an infinite loop.*
-//		
+//        
 }
 ```
-* [While][while] & [do-while][dowhile] :
-[Edit in .NET Fiddle](https://dotnetfiddle.net/O5hOF1)
+
+- [While] & [do-while][dowhile] : [Edit in .NET Fiddle](https://dotnetfiddle.net/O5hOF1)
 
 ```csharp
 
 // Continue the while-loop until index is equal to 10.
-	int i = 0;
-	while (i < 10)
-	{
-	    Console.Write("While statement ");
-	    Console.WriteLine(i);// Write the index to the screen.
-	    i++;// Increment the variable.
-	}
+    int i = 0;
+    while (i < 10)
+    {
+        Console.Write("While statement ");
+        Console.WriteLine(i);// Write the index to the screen.
+        i++;// Increment the variable.
+    }
 
 
   int number = 0;
-	// do work first, until condition is satisfied i.e Terminates when number equals 4.
-	do
-	{
-	    Console.WriteLine(number);//prints the value from 0-4
-	    number++; // Add one to number.
-	} while (number <= 4);
+    // do work first, until condition is satisfied i.e Terminates when number equals 4.
+    do
+    {
+        Console.WriteLine(number);//prints the value from 0-4
+        number++; // Add one to number.
+    } while (number <= 4);
 ```
-[dowhile]:https://msdn.microsoft.com/en-us/library/370s1zax.aspx
-[while]:https://msdn.microsoft.com/en-us/library/2aeyhxcd.aspx
-[foreach]:https://msdn.microsoft.com/en-gb/library/ttw7t8t6.aspx
-[for]:https://msdn.microsoft.com/en-us/library/ch45axte.aspx
-[ifelse]:https://msdn.microsoft.com/en-us/library/5011f09h.aspx
-[switch]:https://msdn.microsoft.com/en-GB/library/06tc147t.aspx
-[linqpad]:http://www.linqpad.net/
-[ide]:https://en.wikipedia.org/wiki/Integrated_development_environment
-[visualstudio]:https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx
-[heapvsstack]:http://www.c-sharpcorner.com/UploadFile/rmcochran/csharp_memory01122006130034PM/csharp_memory.aspx?ArticleID=9adb0e3c-b3f6-40b5-98b5-413b6d348b91
-[unsafe]:https://msdn.microsoft.com/en-us/library/t2yzs44b.aspx
-[unmanaged]:https://msdn.microsoft.com/en-us/library/sd10k43k(v=vs.100).aspx
-[garbage]:https://msdn.microsoft.com/en-us/library/hh156531(v=vs.110).aspx
-[HelloWorld]:https://dotnetfiddle.net/kY7QRm
-[valuetype]:https://dotnetfiddle.net/JCkTxb
-[stack]:http://gribblelab.org/CBootcamp/7_Memory_Stack_vs_Heap.html#orgheadline2
-[heap]:http://gribblelab.org/CBootcamp/7_Memory_Stack_vs_Heap.html#orgheadline3
-[main]:https://msdn.microsoft.com/en-gb/library/acy3edy3.aspx
+
+[dowhile]: https://msdn.microsoft.com/en-us/library/370s1zax.aspx
+[for]: https://msdn.microsoft.com/en-us/library/ch45axte.aspx
+[foreach]: https://msdn.microsoft.com/en-gb/library/ttw7t8t6.aspx
+[garbage]: https://msdn.microsoft.com/en-us/library/hh156531(v=vs.110).aspx
+[heap]: http://gribblelab.org/CBootcamp/7_Memory_Stack_vs_Heap.html#orgheadline3
+[heapvsstack]: http://www.c-sharpcorner.com/UploadFile/rmcochran/csharp_memory01122006130034PM/csharp_memory.aspx?ArticleID=9adb0e3c-b3f6-40b5-98b5-413b6d348b91
+[helloworld]: https://dotnetfiddle.net/kY7QRm
+[ide]: https://en.wikipedia.org/wiki/Integrated_development_environment
+[ifelse]: https://msdn.microsoft.com/en-us/library/5011f09h.aspx
+[linqpad]: http://www.linqpad.net/
+[main]: https://msdn.microsoft.com/en-gb/library/acy3edy3.aspx
+[stack]: http://gribblelab.org/CBootcamp/7_Memory_Stack_vs_Heap.html#orgheadline2
+[switch]: https://msdn.microsoft.com/en-GB/library/06tc147t.aspx
+[unmanaged]: https://msdn.microsoft.com/en-us/library/sd10k43k(v=vs.100).aspx
+[unsafe]: https://msdn.microsoft.com/en-us/library/t2yzs44b.aspx
+[valuetype]: https://dotnetfiddle.net/JCkTxb
+[visualstudio]: https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx
+[while]: https://msdn.microsoft.com/en-us/library/2aeyhxcd.aspx

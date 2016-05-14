@@ -3,12 +3,12 @@
 Our open source community's Wiki focuses on answering your questions about learning to code and getting a coding job. We also cover in detail our:
 
 - Curriculum
-- Local Campsite Communities
+- Local Local Group Communities
 - Nonprofit Projects
 
 ![An illustration of CamperBot](http://i.imgur.com/gyJwzkx.png)
 
-The best way to access this wiki is via [CamperBot](camperbot), located in our Gitter channels. CamperBot is a community designed tool useful for accessing our wiki content without ever leaving Gitter.
+The best way to access this wiki is via [CamperBot](CamperBot), located in our Gitter channels. CamperBot is a community designed tool useful for accessing our wiki content without ever leaving Gitter.
 
 ## Contributing to the Wiki
 

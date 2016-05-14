@@ -30,4 +30,4 @@ The following are our official chat rooms.
 
 By joining these chat rooms, you accept our [Code of Conduct](Code-of-Conduct).
 
-If you also want to hang out with other campers in person, be sure to join a [Campsite in your city](LocalGroups-List).
+If you also want to hang out with other campers in person, be sure to join a [Local Group in your city](LocalGroups-List).

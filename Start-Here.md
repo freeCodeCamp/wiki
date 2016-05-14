@@ -20,9 +20,9 @@ If you're new to Free Code Camp, or just new to the wiki, start here:
 
 - [Code of Conduct](Code-of-Conduct)
 - [Camper News](Camper-News)
-- [Campsites](Campsites)
+- [Local Groups](Local-Groups)
 - [Official Chat Rooms](Official-Free-Code-Camp-Chat-Rooms)
-- [How to use CamperBot](camperbot)
+- [How to use CamperBot](CamperBot)
 - [Join the LinkedIn Community and Find Alumni](FreeCodeCamp-LinkedIn-Add)
 - [Stream your Coding Session on our Twitch.tv page](How-you-can-stream-your-live-coding-sessions-on-the-Free-Code-Camp-Twitch.tv-channel)
 

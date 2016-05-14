@@ -6,7 +6,7 @@ Notre communauté open source Wiki permet de répondre a toutes vos questions co
 
 ![Une illustration de CamperBot](http://i.imgur.com/gyJwzkx.png)
 
-La meilleure façon d'accéder à ce wiki est via [CamperBot](camperbot), situé dans nos salons Gitter. CamperBot est un outil communautaire conçu pour accéder à notre contenu Wiki sans jamais quitter Gitter.
+La meilleure façon d'accéder à ce wiki est via [CamperBot](CamperBot), situé dans nos salons Gitter. CamperBot est un outil communautaire conçu pour accéder à notre contenu Wiki sans jamais quitter Gitter.
 
 ## Contribuer au Wiki
 Pour contribuer à un article Wiki sur l'un des algorithmes, veuillez utiliser ce [modèle](Algorithme-Wiki-Template). Cela est essentiel pour que [@CamperBot](https://github.com/camperbot) puisse récupérer l'article. Les articles sur les algorithmes qui n'utilisent pas ce modèle seront supprimés. Veuillez noter que, bien que nous publions des solutions qui peuvent aider les autres campers, seul un maximum de trois solutions seront acceptées dans les catégories suivantes:

@@ -35,7 +35,7 @@ Our open source community has been hard at work throughout September on some maj
 
 - Plug.dj shut down, and our plug.dj room with it. Some of our campers are working on building an open source music app to replace it.
 - We delisted several low-traffic casual Gitter rooms from our wiki and created a catch-all [Casual chat room](https://gitter.im/freecodecamp/casual) for non-coding-related chat.
-- We now recommend campers use their Campsite's Facebook group for chatting instead of their campsite's Gitter chatroom. Only a few of our Campsite Gitter chatroooms had active synchronous discussions, and about 1/3rd of all conversations consisted of someone saying "hello" and not getting a response. We've delisted all our Campsite Gitter rooms from our Campsite directory. Still, we will keep them open for archival purposes, and you can keep using it if you'd like. Here's a short [blog post](http://blog.freecodecamp.com/2015/09/jump-start-your-local-campsite-with-coffee-and-code.html) about how our Campsites are evolving and growing.
+- We now recommend campers use their Local Group's Facebook group for chatting instead of their campsite's Gitter chatroom. Only a few of our Local Group Gitter chatroooms had active synchronous discussions, and about 1/3rd of all conversations consisted of someone saying "hello" and not getting a response. We've delisted all our Local Group Gitter rooms from our Local Group directory. Still, we will keep them open for archival purposes, and you can keep using it if you'd like. Here's a short [blog post](http://blog.freecodecamp.com/2015/09/jump-start-your-local-campsite-with-coffee-and-code.html) about how our Local Groups are evolving and growing.
 
 ## Other exciting developments
 
