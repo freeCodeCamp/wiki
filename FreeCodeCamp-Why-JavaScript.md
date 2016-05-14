@@ -1,4 +1,4 @@
-# Why does Free Code Camp Uses Java?
+# Why does Free Code Camp Uses JavaScript instead of Ruby or Python?
 
 Like JavaScript, Ruby and Python are high-level scripting languages that can be used for full stack web development.
 
