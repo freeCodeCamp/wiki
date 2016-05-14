@@ -1,36 +1,40 @@
+# Algorithm Caesars Cipher
+
 :triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :memo:
 
-# :checkered_flag: Problem Explanation:
-- You need to write a function, which will take a string encoded with
-*Caesar cipher* as a parameter and decode it.
-- The one used here is ROT13 where the value of the letter is
-shifted by 13 places.
-e.g. 'A' ↔ 'N', 'T' ↔ 'G'.
+### :checkered_flag: Problem Explanation:
+
+- You need to write a function, which will take a string encoded with _Caesar cipher_ as a parameter and decode it.
+- The one used here is ROT13 where the value of the letter is shifted by 13 places. e.g. 'A' ↔ 'N', 'T' ↔ 'G'.
 - You have to shift it back 13 positions, such that 'N' ↔ 'A'.
 
 ## :speech_balloon: Hint: 1
-Use *String.charCodeAt()* to convert the English character to ASCII.
 
-> *try to solve the problem now*
+Use _String.charCodeAt()_ to convert the English character to ASCII.
+
+> _try to solve the problem now_
 
 ## :speech_balloon: Hint: 2
-Use *String.fromCharCode()* to convert ASCII to English character.
 
-> *try to solve the problem now*
+Use _String.fromCharCode()_ to convert ASCII to English character.
+
+> _try to solve the problem now_
 
 ## :speech_balloon: Hint: 3
+
 Leave anything that doesn't come between A-Z as it is.
 
-> *try to solve the problem now*
+> _try to solve the problem now_
 
 ## Spoiler Alert!
+
 [![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
 
 **Solution ahead!**
 
 ## :beginner: Basic Code Solution:
 
-```js
+```javascript
 function rot13(str) {
   // Split str into a character array
   return str.split('')
@@ -55,21 +59,16 @@ function rot13(str) {
 :rocket: [REPL It!](https://repl.it/CLjU/38)
 
 ### Code Explanation:
-- A string variable `nstr` is declared and initialized to store the
-decoded string.
-- The for loop is used to loop through each character of the input string.
-- If the character is not uppercase English alphabets(i.e. its ascii doesn't lie between 65 and 91 ), we'll leave it
-as it is and [continue](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/continue) with next iteration.
-- If it's the uppercase English alphabet, we'll subtract 13 from it's
-ascii code.
-- If the ascii code is less than 78, it'll get out of
-range when subtracted by 13 so we'll add 26 (number of letters in English alphabets) to it so that after A it'll go back to Z.
-e.g. M(77) ↔ 77-13 = 64(Not an English alphabet) +26 = 90 ↔ Z(90)
 
+- A string variable `nstr` is declared and initialized to store the decoded string.
+- The for loop is used to loop through each character of the input string.
+- If the character is not uppercase English alphabets(i.e. its ascii doesn't lie between 65 and 91 ), we'll leave it as it is and [continue](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/continue) with next iteration.
+- If it's the uppercase English alphabet, we'll subtract 13 from it's ascii code.
+- If the ascii code is less than 78, it'll get out of range when subtracted by 13 so we'll add 26 (number of letters in English alphabets) to it so that after A it'll go back to Z. e.g. M(77) ↔ 77-13 = 64(Not an English alphabet) +26 = 90 ↔ Z(90)
 
 ## :sunflower: Intermediate Code Solution:
 
-```js
+```javascript
 //Solution with Regular expression and Array of ASCII character codes
 function rot13(str) {
   //retCharArray is an Array of character codes for the solution
@@ -104,26 +103,30 @@ rot13("LBH QVQ VG!");
 
 ## :rotating_light: Advanced Code Solution:
 
-```js
+```javascript
 function rot13(str) { // LBH QVQ VG!
   return str.replace(/[A-Z]/g, (L) => String.fromCharCode(65 + (L.charCodeAt(0) - 65 + 13) % 26));
 }
 ```
+
 ### Code Explanation:
->- `String.prototype.replace` [function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace) lets you transform a `String` based on some pattern match (defined by a regular expression), and the [transformation function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace#Specifying_a_function_as_a_parameter) (which is applied to each of the pattern matches).
-- [Arrow function](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions/Arrow_functions) syntax is used to write the function parameter to `replace()`.
-- `L` represents a single unit, from every pattern match with `/[A-Z]/g` - which is every uppercase letter in the alphabet, from `A` to `Z`, present in the string.
-- The arrow function applies the `rot13` transform on every uppercase letter from English alphabet present in the given string.
+
+> - `String.prototype.replace` [function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace) lets you transform a `String` based on some pattern match (defined by a regular expression), and the [transformation function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace#Specifying_a_function_as_a_parameter) (which is applied to each of the pattern matches).
+> - [Arrow function](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions/Arrow_functions) syntax is used to write the function parameter to `replace()`.
+> - `L` represents a single unit, from every pattern match with `/[A-Z]/g` - which is every uppercase letter in the alphabet, from `A` to `Z`, present in the string.
+> - The arrow function applies the `rot13` transform on every uppercase letter from English alphabet present in the given string.
 
 ### :trophy: Credits:
+
 If you found this page useful, you may say thanks to the contributors by copying and pasting the following line in the main chat:
 
 **`thanks @anuragaryan @SaintPeter @vaskezu @abhisekp for your help with Algorithm: Caesar's Cipher`**
 
 ## :clipboard: NOTE TO CONTRIBUTORS:
-- :warning: **DO NOT** add solutions that are similar to any existing solutions. If you think it is ***similar but better***, then try to merge (or replace) the existing similar solution.
+
+- :warning: **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
 - Add an explanation of your solution.
-- Categorize the solution in one of the following categories &mdash; **Basic**, **Intermediate** and **Advanced**. :traffic_light:
-- Please add your username only if you have added any **relevant main contents**. (:warning: ***DO NOT*** *remove any existing usernames*)
+- Categorize the solution in one of the following categories -- **Basic**, **Intermediate** and **Advanced**. :traffic_light:
+- Please add your username only if you have added any **relevant main contents**. (:warning: **_DO NOT_** _remove any existing usernames_)
 
 > See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution) for reference.

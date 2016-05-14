@@ -1,26 +1,35 @@
-# Problem Explanation:
+# Algorithm Inventory Update
+
+### Problem Explanation:
+
 - Look through an array of new products, in the format: `[quantity, name]`
 - Return an array containing updated quantities for each item that already existed, and any new products
 
 ## Hint: 1
+
 - You need to work through each item of the new inventory to see if it exists in the current inventory or not.
 - Remember that the product name is stored as the second element of each sub-array: `arr2[0][1] = "Bowling Ball"`
 
 ## Hint: 2
+
 - If the item exists, you need to add the quantity from the new inventory
 - If the item doesn't exist, you need to add the entire item
 
 ## Hint: 3
+
 - Return the completed inventory in alphabetical order
 
 ## Spoiler Alert!
+
 [![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
 
 **Solution ahead!**
 
 ## Code Solution:
-#### First solution
-```js
+
+### First solution
+
+```javascript
 function updateInventory(arr1, arr2) {
 
     // Variable for location of product
@@ -85,10 +94,12 @@ var newInv = [
 
 updateInventory(curInv, newInv);
 ```
+
 :rocket: [REPL It!](https://repl.it/CLok/0)
 
-#### Second solution
-```js
+### Second solution
+
+```javascript
 function updateInventory(arr1, arr2) {
   // All inventory must be accounted for or you're fired!
 
@@ -151,11 +162,12 @@ var newInv = [
 
 updateInventory(curInv, newInv);
 ```
+
 :rocket: [REPL It!](https://repl.it/CLol/0)
 
+### Third solution
 
-#### Third solution
-```js
+```javascript
 function updateInventory(arr1, arr2) {
   var flag=0;
   arr2.forEach(function(item){
@@ -191,22 +203,23 @@ var newInv = [
 
 updateInventory(curInv, newInv);
 ```
+
 :rocket: [REPL It!](https://repl.it/CLom/0)
 
+### Fourth Solution
 
-#### Fourth Solution
-```js
+```javascript
 //jshint esversion: 6
 function updateInventory(curInv, newInv) {
   var inv = new Map();
-  
+
   [...curInv, ...newInv].forEach(item => {
      if(inv.has(item[1]))
        inv.set(item[1], inv.get(item[1]) + item[0]);
      else
        inv.set(item[1], item[0]);
   });
-  
+
   return [...inv]
     .map(item => [item[1], item[0]])
     .sort((a, b) => a[1] > b[1] ? 1 : -1);
@@ -230,12 +243,14 @@ var newInv = [
 
 updateInventory(curInv, newInv);
 ```
+
 :rocket: [REPL It!](https://repl.it/CLon/0)
 
+## Code Explanation:
 
-# Code Explanation:
-#### First solution
-- Start by creating a variable to store the index in.  Define variables outside of loops
+## First solution
+
+- Start by creating a variable to store the index in. Define variables outside of loops
 - Create a helper function to find the index of a product name
 - The helper function iterates through each element of the array that it is called on, until it can either find the name parameter, or if it cannot find it then returns undefined
 - Then, work through each item in the delivery, and set index to the result of invoking our helper function on the current inventory (IE: Search the new inventory for that product name, and return it's index)
@@ -245,10 +260,12 @@ updateInventory(curInv, newInv);
 - Return the sorted array
 - For Solution two, the explanation is on the code. Feel free to use different components on each solution to create your own if you like.
 
-#### Second and Third solutions
+## Second and Third solutions
+
 - Read comments in code.
 
-#### Fourth solution
+## Fourth solution
+
 - Start by creating the `inv` [map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map) to store the updated inventory
 - Combine both `curInv` and `newInv` and iterate through
 - Check if `inv` has the key, update it's value if `inv` has them. Otherwise store the new value
@@ -257,11 +274,12 @@ updateInventory(curInv, newInv);
 - Sort the array alphabetically
 
 ## Related links
+
 - [Function.prototype.call](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call)
 - [Array.prototype.sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
 
-# Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @guyjoseph @Rafase282 @anuragaryan for your help with Algorithm: Inventory Update`**
+## Credits:
+
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`thanks @guyjoseph @Rafase282 @anuragaryan for your help with Algorithm: Inventory Update`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
-

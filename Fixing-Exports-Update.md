@@ -12,4 +12,4 @@ exports.update = function(req, res) {
  };
 ```
 
-[PREVIOUS](Creating-a-new-API-endpoint) [NEXT](Accessing-the-database-from-your-frontend)
+[PREVIOUS](Creating-a-new-API-endpoint) [NEXT](Accessing-Database-Front-End)

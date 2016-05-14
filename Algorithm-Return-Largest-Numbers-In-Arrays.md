@@ -1,6 +1,8 @@
+# Algorithm Return largest Numbers in Arrays
+
 :triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :memo:
 
-# :checkered_flag: Problem Explanation:
+### :checkered_flag: Problem Explanation:
 
 You will get an array that contains sub arrays of numbers and you need to return an array with the largest number from each of the sub arrays.
 
@@ -8,19 +10,19 @@ You will get an array that contains sub arrays of numbers and you need to return
 
 You will need to keep track of the array with the answer and the largest number of each sub-array.
 
-> *try to solve the problem now*
+> _try to solve the problem now_
 
 ## :speech_balloon: Hint: 2
 
 You can work with multidimensional arrays by `Array[Index][SubIndex]`
 
-> *try to solve the problem now*
+> _try to solve the problem now_
 
 ## :speech_balloon: Hint: 3
 
 Pay close attention to the timing of the storing of variables when working with loops
 
-> *try to solve the problem now*
+> _try to solve the problem now_
 
 ## Spoiler Alert!
 
@@ -32,7 +34,7 @@ Pay close attention to the timing of the storing of variables when working with 
 
 **(Procedural approach)**
 
-```js
+```javascript
 function largestOfFour(arr) {
   var results = [];
   for (var n = 0; n < arr.length; n++) {
@@ -66,7 +68,7 @@ function largestOfFour(arr) {
 
 **(Declarative approach)**
 
-```js
+```javascript
 function largestOfFour(arr) {
   return arr.map(function(group){
     return group.reduce(function(prev, current) {
@@ -83,7 +85,7 @@ function largestOfFour(arr) {
 - we map all items within the main array to a new array using `Array.prototype.map()` and return this array as the final result
 - within each inner array, we reduce its contents down to a single value using `Array.prototype.reduce()`
 - the callback function passed to the reduce method takes the previous value (or 0) and the current value and compares the two values
-- if the current value is higher than the previous value we set it as the new previous value for comparison with the next item within the array or returns it to the map method callback if it's the last item  
+- if the current value is higher than the previous value we set it as the new previous value for comparison with the next item within the array or returns it to the map method callback if it's the last item
 
 **Reference:-**
 
@@ -94,7 +96,7 @@ function largestOfFour(arr) {
 
 **(Declarative approach)**
 
-```js
+```javascript
 function largestOfFour(arr) {
   return arr.map(Function.apply.bind(Math.max, null));
 }

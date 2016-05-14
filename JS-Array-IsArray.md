@@ -1,21 +1,22 @@
-# Array.isArray
+# JavaScript Array.isArray
+
 The `Array.isArray()` method returns `true` if an object is an array, `false` if it is not.
 
 ## Syntax
-```js
+
+```javascript
 Array.isArray(obj)
 ```
 
 ### Parameters
 
-**obj**
-The object to be checked. 
+**obj** The object to be checked.
 
 [MDN link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray) | [MSDN link](https://msdn.microsoft.com/en-us/LIBRary/ff848265%28v=vs.94%29.aspx)
 
 ## Examples
 
-```js
+```javascript
 // all following calls return true
 Array.isArray([]);
 Array.isArray([1]);

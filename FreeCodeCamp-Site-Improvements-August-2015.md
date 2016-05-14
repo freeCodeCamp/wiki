@@ -1,4 +1,6 @@
-# Site improvements for August 2015
+# Free Code Camp Site Improvement August 2015
+
+## Sunday's Improvements
 
 - replaced our getting-started videos with a simple 10-minute process (using GIFs instead of videos)
 - doubled the number of our HTML5 and Bootstrap challenges
@@ -13,16 +15,16 @@
 - added a Creative Commons license to literally all of our images and text
 - thanks to Loopback, everything is now an API, and we will soon publish cool ways to interact with Free Code Camp's (non-sensitive) data
 
-# FAQ
+## FAQ
 
-## The challenge I was most recently doing disappeared.
+### The challenge I was most recently doing disappeared.
 
 You can just keep going. If you have time to go back and try our new challenges, they should be a quick review for you. Otherwise, keep moving forward.
 
-## Why are you deploying all these improvements at once?
+### Why are you deploying all these improvements at once?
 
 We've been working on some of the features for months on our Staging branch. Most of them were held up by a single task: our transition to [Loopback](http://loopback.io/). @BerkeleyTrue started working on this back in March.
 
-## Was deploying everything at once necessary?
+### Was deploying everything at once necessary?
 
 Probably not. Going forward, we will deploy new code several times a day (as we did prior to the Loopback feature). We plan to start using a [continuous integration](https://en.wikipedia.org/wiki/Continuous_integration) and other agile best practices as we reduce our [technical debt](https://en.wikipedia.org/wiki/Technical_debt).

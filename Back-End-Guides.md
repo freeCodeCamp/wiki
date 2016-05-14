@@ -16,12 +16,12 @@ Here you will find articles that will help you learn more and complete your back
   - [Fixing exports.update](Fixing-Exports-Update)
 
 - Part 3: Interfacing Between Frontend & Backend
-  - [Accessing the database from your frontend](Accessing-the-database-from-your-frontend)
+  - [Accessing the database from your frontend](Accessing-Database-Front-End)
   - [Seed Data](Angular-Seed-Data)
   - [Quick tip: keep data in sync](Angular-Keep-Data-In-Sync)
 
 - Part 4: Dynamic URLs using $routeParams, more useful APIs
-  - [Dynamic URLS using $routeParams](Angular-Dynamic-URLs-Using-routeParams)
+  - [Dynamic URLS using $routeParams](Angular-Dynamic-URLs-Using-RouteParams)
   - [More Useful APIs](Angular-Make-Useful-APIs)
 
 - Part 5: Auth, JS-IsLoggedInAsync

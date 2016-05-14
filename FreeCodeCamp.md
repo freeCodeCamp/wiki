@@ -18,6 +18,7 @@ We leverage the power of these existing platforms to connect with one another an
 - [What we are](FreeCodeCamp-What)
 - [Why Free Code Camp](FreeCodeCamp-Why)
 - [How it works](FreeCodeCamp-How-It-Works)
+- [Honesty Policy](FreeCodeCamp-Academic-Honesty-Policy)
 - [Advantages](FreeCodeCamp-Advantages)
 - [Why JavaScript](FreeCodeCamp-Why-JavaScript)
 - [Language](FreeCodeCamp-Completion-Language-Requirements)
