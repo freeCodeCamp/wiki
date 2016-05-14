@@ -1,11 +1,12 @@
 # How to Create A Local Group for your City
 
-If you didn't see your city on [our list of Local Groups](LocalGroups-List), you should create your own Facebook group.  
+If you didn't see your city on [our list of groups](LocalGroups-List), you should create your own Facebook group.  
 We like keeping things as local as possible, so please create groups only for cities, or even smaller areas.
+The whole point is that your people shouldn't be more than 15-20 minutes away from each other.
 
 ##  
 
-**Please, do not create Local Groups for a whole State/province/department/county/etc. as they will not be added to the list.**
+**Please, do not create groups for a whole State/province/department/county/etc. as they will not be added to the list.**
 
 Now, to the fun part! It's easy, just follow these steps:
 
@@ -14,7 +15,7 @@ Now, to the fun part! It's easy, just follow these steps:
 
 ![A screenshot of Facebook showing the drop down menu that appears when you click the down arrow, with an arrow pointing to the "Create Group" option](https://www.evernote.com/shard/s116/sh/d01bb2bc-6260-4987-bedf-b2ce4c31972f/3eecbcff3109036cf90b69589360f407/deep/0/Facebook.png)
 
-1. Set the group name as "Free Code Camp" plus the proper name of your city.
+1. Set the group name as "Free Code Camp" + the name of your city.
 
   - Avoid using slang terms such as "Philly" for "Philadelphia".
   - If your city is not the biggest city that uses its name, also include the state or province. For example, the Free Code Camp group in Paris, France should be called "Free Code Camp Paris". The Free Code Camp group in Paris, Texas should be called "Free Code Camp Paris, Texas".
@@ -22,11 +23,11 @@ Now, to the fun part! It's easy, just follow these steps:
 
 2. Set your group to public.
 
-3. You'll need to add at least one person in order to create the group. Why not add [Justin](https://www.facebook.com/FCC.campsiteCounsellor)!? Furthermore, if you make him an admin, he'll be able to assist you in managing your members and events.
+3. You'll need to add at least one person in order to create the group. Why not add [Justin](https://www.facebook.com/FCC.GroupChancellor)!? Furthermore, if you make him an admin, he'll be able to assist you in managing your members and events.
 
   ![A screenshot of the Facebook group creation modal saying that your group name should be Free Code Camp plus your city name, that your group should be public, and that you need to invite at least one Facebook friend.](https://www.evernote.com/shard/s116/sh/4ed3197c-db1b-4103-a040-b42482ad232a/6c34948ebe12c57f0b7a54d7b2222ab3/deep/0/Facebook.png)
 
-4. Choose the graduation cap icon to indicate that this group is related to a school.
+4. Choose the graduation cap icon to indicate that this group is related to education.
 
   ![A screenshot telling you to choose the graduation icon, which is on the forth row of icons, seven icons from the left.](https://www.evernote.com/shard/s116/sh/00e461b3-e0a8-4ecd-9cbf-8b0ae9de75d1/59c4e9f25672b1b2ca2d7e6b06d55e0b/deep/0/Facebook.png)
 
@@ -40,14 +41,14 @@ Now, to the fun part! It's easy, just follow these steps:
 
 8. Click the "Customize Address" button.
 
-9. Enter "free.code.camp.your.city" with each word separated by periods. **Example: free.code.camp.london  
+9. Enter "free.code.camp.yourcitysname" with each word separated by periods. **Example: free.code.camp.london  
 (Not "your.london" or "your.city.london"!)**
 
-  ![a screenshot telling you to enter free.code.camp.your.city.name with each word seperated by periods.](https://www.evernote.com/shard/s116/sh/357b1bd9-7c40-4f72-8a9a-d918e632a5e8/c4714ca59360b2517dfffe90c60b1556/deep/0/Free-Code-Camp-Testland.png)
+  ![a screenshot telling you to enter free.code.camp.yourcitysname with each word seperated by periods.](https://www.evernote.com/shard/s116/sh/357b1bd9-7c40-4f72-8a9a-d918e632a5e8/c4714ca59360b2517dfffe90c60b1556/deep/0/Free-Code-Camp-Testland.png)
 
-10. Please feel free to personalize your city's group description, but be sure to include a link to Free Code Camp: `http://www.freecodecamp.com`. It makes it much easier for possible new members to find you if you mention the country your city is in (or its state/province if in North America).
+10. Please feel free to personalize your local group's description, but be sure to include a link to Free Code Camp: `http://www.freecodecamp.com`. It makes it much easier for possible new members to find you if you mention the country your city is in (or its state/province if in North America).
 
-  **Note: in this image, we also use "Testland" as an example, but you should use the name of your city instead.**
+  **Note: in this image, we also use "Testland" as an EXAMPLE, but you should use the name of your city instead.**
 
   ![A screen shot showing you the group description box on the Facebook page.](https://www.evernote.com/shard/s116/sh/e13808ea-f084-46f1-95bc-63db524383d5/0586484d44360e73e9acda956dad7f6a/deep/0/Free-Code-Camp-Testland.png)
 
@@ -55,10 +56,10 @@ Now, to the fun part! It's easy, just follow these steps:
 
   ![A screenshot showing the "Upload a photo" button.](https://www.evernote.com/shard/s116/sh/fabe226a-5a26-4508-b015-1dac35192a21/37f8119dc57845a31e972217714b038b/deep/0/Free-Code-Camp-Testland.png)
 
-12. And finally, [message Justin (@hallaathrad on Gitter)](https://gitter.im/hallaathrad) with a link to your city's group page. He'll include it in the list.
+12. And finally, [private-message Justin (@hallaathrad on Gitter)](https://gitter.im/hallaathrad) with a link to your city's group page. He'll include it in the list.
 
 **Additional tips:**
 
 - Join our [Local Leaders Facebook group](https://www.facebook.com/groups/freecodecampers/), where we share ideas about involving campers in your city.
-- Read [this article](https://medium.freecodecamp.com/jump-start-your-local-campsite-with-coffee-and-code-a8d1a57d30e#) and see if you can set up your Local Group's first Coffee and Code.
-- Some [ideas on getting more people](https://medium.freecodecamp.com/growth-hacking-your-free-code-camp-group-8cf76300a5d1#) involved with your Local Group:
+- Read [this article](https://medium.freecodecamp.com/jump-start-your-local-campsite-with-coffee-and-code-a8d1a57d30e#) and see if you can set up your groups's first Coffee and Code session.
+- Some [ideas on getting more people](https://medium.freecodecamp.com/growth-hacking-your-free-code-camp-group-8cf76300a5d1#) involved with your group.
