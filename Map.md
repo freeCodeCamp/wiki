@@ -278,21 +278,21 @@
 ## Basic Algorithm Scripting
 
 - [Algorithm: Get Set for our Algorithm Challenges](http://www.freecodecamp.com/challenges/get-set-for-our-algorithm-challenges)
-- [Algorithm: Reverse a String](Algorithm-Reverse-a-String)
-- [Algorithm: Factorialize a Number](Algorithm-Factorialize-a-Number)
-- [Algorithm: Check for Palindromes](Algorithm-Check-for-Palindromes)
-- [Algorithm: Find the Longest Word in a String](Algorithm-find-the-longest-word-in-a-string)
-- [Algorithm: Title Case a Sentence](Algorithm-title-case-a-sentence)
-- [Algorithm: Return Largest Numbers in Arrays](Algorithm-return-largest-numbers-in-arrays)
-- [Algorithm: Confirm the Ending](Algorithm-Confirm-the-Ending)
-- [Algorithm: Repeat a string repeat a string](Algorithm-repeat-a-string-repeat-a-string)
-- [Algorithm: Truncate a string](Algorithm-truncate-a-string)
+- [Algorithm: Reverse a String](Algorithm-Reverse-A-String)
+- [Algorithm: Factorialize a Number](Algorithm-Factorialize-A-Number)
+- [Algorithm: Check for Palindromes](Algorithm-Check-For-Palindromes)
+- [Algorithm: Find the Longest Word in a String](Algorithm-Find-The-Longest-Word-In-A-String)
+- [Algorithm: Title Case a Sentence](Algorithm-Title-Case-A-Sentence)
+- [Algorithm: Return Largest Numbers in Arrays](Algorithm-Return-Largest-Numbers-In-Arrays)
+- [Algorithm: Confirm the Ending](Algorithm-Confirm-The-Ending)
+- [Algorithm: Repeat a string repeat a string](Algorithm-Repeat-A-String-Repeat-A-String)
+- [Algorithm: Truncate a string](Algorithm-Truncate-A-String)
 - [Algorithm: Chunky Monkey](Algorithm-Chunky-Monkey)
 - [Algorithm: Slasher Flick](Algorithm-slasher-flick)
 - [Algorithm: Mutations](Algorithm-mutations)
 - [Algorithm: Falsy Bouncer](Algorithm-Falsy-Bouncer)
-- [Algorithm: Seek and Destroy](Algorithm-Seek-and-Destroy)
-- [Algorithm: Where do I belong](Algorithm-Where-do-I-belong)
+- [Algorithm: Seek and Destroy](Algorithm-Seek-And-Destroy)
+- [Algorithm: Where do I belong](Algorithm-Where-Do-I-Belong)
 - [Algorithm: Caesar's Cipher](Algorithm-Caesars-Cipher)
 
 ## JSON APIs and Ajax
@@ -314,15 +314,15 @@
 
 ## Intermediate Algorithm Scripting
 
-- [Algorithm: Sum All Numbers in a Range](Algorithm-Sum-All-Numbers-in-a-Range)
+- [Algorithm: Sum All Numbers in a Range](Algorithm-Sum-All-Numbers-In-A-Range)
 - [Algorithm: Diff Two Arrays](Algorithm-Diff-Two-Arrays)
 - [Algorithm: Roman Numeral Converter](Algorithm-roman-numeral-converter)
-- [Algorithm: Where art thou](Algorithm-Where-art-thou)
-- [Algorithm: Search and Replace](Algorithm-Search-and-Replace)
+- [Algorithm: Where art thou](Algorithm-Where-Art-Thou)
+- [Algorithm: Search and Replace](Algorithm-Search-And-Replace)
 - [Algorithm: Pig Latin](Algorithm-Pig-Latin)
 - [Algorithm: DNA Pairing](Algorithm-DNA-Pairing)
-- [Algorithm: Missing letters](Algorithm-Missing-letters)
-- [Algorithm: Boo who](Algorithm-Boo-who)
+- [Algorithm: Missing letters](Algorithm-Missing-Letters)
+- [Algorithm: Boo Who](Algorithm-Boo-Who)
 - [Algorithm: Sorted Union](Algorithm-Sorted-Union)
 - [Algorithm: Convert HTML Entities](Algorithm-convert-HTML-entities)
 - [Algorithm: Spinal Tap Case](Algorithm-Spinal-Tap-Case)
@@ -333,7 +333,7 @@
 - [Algorithm: Drop it](Algorithm-Drop-it)
 - [Algorithm: Steamroller](Algorithm-steamroller)
 - [Algorithm: Binary Agents](Algorithm-Binary-Agents)
-- [Algorithm: Everything Be True](Algorithm-Everything-be-True)
+- [Algorithm: Everything Be True](Algorithm-Everything-Be-True)
 - [Algorithm: Arguments Optional](Algorithm-Arguments-Optional)
 
 ## Advanced Algorithm Scripting
@@ -344,8 +344,8 @@
 - [Algorithm: Inventory Update](Algorithm-inventory-update)
 - [Algorithm: No repeats please](Algorithm-no-repeats-please)
 - [Algorithm: Friendly Date Ranges](Algorithm-Friendly-Date-Ranges)
-- [Algorithm: Make a Person](Algorithm-make-a-person)
-- [Algorithm: Map the Debris](Algorithm-map-the-debris)
+- [Algorithm: Make a Person](Algorithm-Make-A-Person)
+- [Algorithm: Map the Debris](Algorithm-Map-The-Debris)
 - [Algorithm: Pairwise](Algorithm-pairwise)
 
 ## Advanced Front End Development Projects

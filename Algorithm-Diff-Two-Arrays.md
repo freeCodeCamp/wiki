@@ -1,12 +1,14 @@
+# Algorithm Diff Two Arrays
+
 ![](http://i.imgur.com/HkEgef5.gif)
 
 :triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :memo:
 
-# :checkered_flag: Problem Explanation:
+### :checkered_flag: Problem Explanation:
 
 Check two arrays and return a new array that contains only the items that are not in either of the original arrays.
 
-#### Relevant Links
+## Relevant Links
 
 - [**`for Loop`** (Devdocs)](https://devdocs.io/javascript/statements/for)
 - [**`Array.prototype.includes`** (Devdocs)](https://devdocs.io/javascript/global_objects/array/includes)
@@ -39,7 +41,7 @@ The best way to go about the callback function is to check if the number from th
 
 ## :beginner: Basic Code Solution: (Imperative Solution)
 
-```js
+```javascript
 function diffArray(arr1, arr2) {
   var newArr = [];
   // Looping through arr1 to find elements that do not exist in arr2  
@@ -63,7 +65,7 @@ function diffArray(arr1, arr2) {
 diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5]);
 ```
 
-<a href="https://repl.it/CLme/0" target="_blank"><kbd><img src="https://i.imgur.com/80UCMbk.png"> <strong>REPL it!</strong> :rocket: </kbd></a>
+[<kbd><img src="https://i.imgur.com/80UCMbk.png"> <strong>REPL it!</strong> :rocket: </kbd>](https://repl.it/CLme/0)
 
 ### Code Explanation:
 
@@ -75,19 +77,19 @@ Read the comments in the code.
 
 ## :sunflower: Intermediate Code Solution: (Declarative Solution)
 
-```js
+```javascript
 function diffArray(arr1, arr2) {
   return arr1
     .concat(arr2)
     .filter(
-  	  item => !arr1.includes(item) || !arr2.includes(item)
+        item => !arr1.includes(item) || !arr2.includes(item)
     )
 }
 
 diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5]);
 ```
 
-<a href="https://repl.it/CNYb/0" target="_blank"><kbd><img src="https://i.imgur.com/80UCMbk.png"> <strong>REPL it!</strong> :rocket: </kbd></a>
+[<kbd><img src="https://i.imgur.com/80UCMbk.png"> <strong>REPL it!</strong> :rocket: </kbd>](https://repl.it/CNYb/0)
 
 ### Code Explanation:
 
@@ -101,7 +103,7 @@ Explain solution here and add any relevant links
 
 ## :rotating_light: Advanced Code Solution: (Declarative Solution)
 
-```js
+```javascript
 function diffArray(arr1, arr2) {
     return arr1
       .filter(el => !arr2.includes(el))
@@ -113,7 +115,7 @@ function diffArray(arr1, arr2) {
 diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5]);
 ```
 
-<a href="https://repl.it/CNYU/0" target="_blank"><kbd><img src="https://i.imgur.com/80UCMbk.png"> <strong>REPL it!</strong> :rocket: </kbd></a>
+[<kbd><img src="https://i.imgur.com/80UCMbk.png"> <strong>REPL it!</strong> :rocket: </kbd>](https://repl.it/CNYU/0)
 
 ### Code Explanation:
 
@@ -135,7 +137,7 @@ If you found this page useful, you may say thanks to the contributors by copying
 
 - :warning: **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
 - Add an explanation of your solution.
-- Categorize the solution in one of the following categories &mdash; **Basic**, **Intermediate** and **Advanced**. :traffic_light:
+- Categorize the solution in one of the following categories -- **Basic**, **Intermediate** and **Advanced**. :traffic_light:
 - Please add your username only if you have added any **relevant main contents**. (:warning: **_DO NOT_** _remove any existing usernames_)
 
 > See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution) for reference.

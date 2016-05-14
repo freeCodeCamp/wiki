@@ -5,7 +5,7 @@ Our open source community has been hard at work throughout September on some maj
 ## Certification
 
 - New challenges have appeared called "Claim your Front End Developer Certificate" and "Claim your Full Stack Developer Certificate".
-- We've built acceptance of our [Academic Honesty Policy](Academic-Honesty-Policy) into these certificate challenges.
+- We've built acceptance of our [Academic Honesty Policy](FreeCodeCamp-Academic-Honesty-Policy) into these certificate challenges.
 - Certificates are issued programmatically once you meet their requirements.
 - Certificates are available right from your Code Portfolio, and publicly viewable to all as long as you haven't hidden your solutions.
 - Each certificate has a unique verifiable URL that employers can check. This makes it is impossible to forge our certificates without access to our production servers.

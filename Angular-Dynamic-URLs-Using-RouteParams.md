@@ -1,8 +1,12 @@
+# Dynamic URLs using routeParams
+
 What if you have a lot of users posting _things_ to your website? Maybe your users want to have a profile, or a wall, of the _things_ they've posted, and they want to be able to share it with their friends with a url? You can do that, no biggie!
+
+##  
 
 Let's say you used
 
-```
+```bash
 >> yo angular-fullstack:route wall
 ```
 

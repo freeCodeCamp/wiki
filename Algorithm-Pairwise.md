@@ -1,25 +1,32 @@
-# Explanation:
+# Algorithm Pairwise
+
+### Explanation:
+
 The program should look for the numbers in the array which would add to make the number from the **arg.** Then instead of adding those numbers up, you will add their **indices** which is the reason why you get 11 on the example from detail.
 
-Remember that arrays start at index 0 and go from there so from [1,4,2,3,0,5] if we switch to their indices it would be [0,1,2,3,4,5] then we add indices 1 + 2 + 3 + 5 and we get 11. That is what we need to return.
+Remember that arrays start at index 0 and go from there so from [1,4,2,3,0,5] if we switch to their indices it would be [0,1,2,3,4,5] then we add indices 1 + 2 + 3 + 5 and we get 11\. That is what we need to return.
 
 ## Hint: 1
+
 Remember to return the smaller sum if multiple are possible. This means `[1,1,1],1 should use 0 + 1 instead of 0+1 & 1 +1 , etc`
 
 ## Hint: 2
+
 Try using an array of indices to track when an index has been used or not.
 
 ## Hint: 3
+
 It is easy to confuse indices as being numbers, but since you will be interacting with them, make sure to work with them as integers to prevent the code from behaving erratically.
 
 ## Spoiler Alert!
+
 [![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
 
 **Solution ahead!**
 
 ## First Solution:
 
-```js
+```javascript
 function pairwise(arr, arg) {
   // Create empty array to keep the arrays we will add.
   var index = [];
@@ -61,9 +68,11 @@ function pairwise(arr, arg) {
 // test here
 pairwise([1,4,2,3,0,5], 7);
 ```
+
 :rocket: [REPL It!](https://repl.it/CLpC/0)
 
-# Code Explanation:
+## Code Explanation:
+
 - First I create an empty array to store the indices that i will be adding.
 - Then I create an outer loop to get the first number.
 - Then get the second number from another inner loop.
@@ -73,7 +82,7 @@ pairwise([1,4,2,3,0,5], 7);
 
 ## Second Solution
 
-```js
+```javascript
 function pairwise(arr, arg) {
  //Set sum of indices to zero
  var sum = 0;
@@ -96,10 +105,13 @@ function pairwise(arr, arg) {
 // test here
 pairwise([1,4,2,3,0,5], 7);
 ```
+
 :rocket: [REPL It!](https://repl.it/CLpD/0)
 
 ## Code explanation in comments
-# Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @coded9 @SaintPeter for your help with Algorithm: Pairwise`**
+
+## Credits:
+
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`thanks @Rafase282 @coded9 @SaintPeter for your help with Algorithm: Pairwise`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

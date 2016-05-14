@@ -1,37 +1,30 @@
-# Problem Explanation:
+# Algorithm Everything Be True
 
-- You have to create a program that will handle when the register does not have
-  enough cash or will have no cash after the transaction. Other than that it
-  needs to return an array of the change in the form of an array, so that will
-  be a 2D array.
+### Problem Explanation:
+
+- You have to create a program that will handle when the register does not have enough cash or will have no cash after the transaction. Other than that it needs to return an array of the change in the form of an array, so that will be a 2D array.
 
 ## Hint: 1
 
-- It is easier to handle if you have to close the register, or if you know how
-  much money is in your register beforehand and you will not have enough money
-  to complete the transaction. For this it is recommended to have a function to
-  assign this information to a variable.
+- It is easier to handle if you have to close the register, or if you know how much money is in your register beforehand and you will not have enough money to complete the transaction. For this it is recommended to have a function to assign this information to a variable.
 
 ## Hint: 2
 
-- Life is easier when you get to know the value of each currency type in the
-  register instead of how much money is composed of that particular currency.
-  So be sure to watch out for that.
+- Life is easier when you get to know the value of each currency type in the register instead of how much money is composed of that particular currency. So be sure to watch out for that.
 
 ## Hint: 3
 
-- You will have to get as much change from one type before moving to the next
-  from greater value to lesser, and keep going until you have covered the whole
-  change.
+- You will have to get as much change from one type before moving to the next from greater value to lesser, and keep going until you have covered the whole change.
 
 ## Spoiler Alert!
+
 [![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
 
 **Solution ahead!**
 
 ## Code Solution:
 
-```js
+```javascript
 // Create an object which hold the denominations and their values
 var denom = [
   { name: 'ONE HUNDRED', val: 100.00},
@@ -98,15 +91,15 @@ function checkCashRegister(price, cash, cid) {
 // test here
 checkCashRegister(19.50, 20.00, [["PENNY", 1.01], ["NICKEL", 2.05], ["DIME", 3.10], ["QUARTER", 4.25], ["ONE", 90.00], ["FIVE", 55.00], ["TEN", 20.00], ["TWENTY", 60.00], ["ONE HUNDRED", 100.00]]);
 ```
+
 :rocket: [REPL It!](https://repl.it/CLoj/0)
 
-# Code Explanation:
+## Code Explanation:
+
 - Read comments in code.
 
-# Credits:
-If you found this page useful, you can give thanks by copying and pasting this
-on the main chat:  **`thanks @Rafase282 @SaintPeter @erictleung for your help
-with Algorithm: Exact Change`**
+## Credits:
 
-> **NOTE:** Please add your username only if you have added any **relevant main
-> contents** to the wiki page. (Please don't remove any existing usernames.)
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`thanks @Rafase282 @SaintPeter @erictleung for your help with Algorithm: Exact Change`**
+
+> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

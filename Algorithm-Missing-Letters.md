@@ -1,24 +1,32 @@
-# Problem Explanation:
+# Algorithm Missing Letters
+
+### Problem Explanation:
+
 - You will create a program that will find the missing letter from a string and add it. If there is not missing letter it will return undefined. There is currently no test case for it missing more than one letter, but if anything recursion can be implemented or a second or more calls to the same function as needed. Also the letters are always provided in order so there is no need to sort them.
 
 ## Hint: 1
+
 - You will need to convert from character to ASCII code using the two methods provided in the description.
 
 ## Hint: 2
+
 - You will have to check for the difference in ASCII code as they are in order. Using a chart would be very helpful.
 
 ## Hint: 3
+
 - You will need to figure out where to insert the letter and how to do it, along with handling the case that there is not missing letter as it needs an specific return value.
 
 ## Spoiler Alert!
+
 [![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
 
 **Solution ahead!**
 
 ## Code Solution:
+
 ### First solution:
 
-```js
+```javascript
 function fearNotLetter(str) {
   // Create our variables.
   var firstCharacter = str.charCodeAt(0);
@@ -58,11 +66,12 @@ function fearNotLetter(str) {
 // test here
 fearNotLetter("abce");
 ```
+
 :rocket: [REPL It!](https://repl.it/CLnC/0)
 
 ### Second solution:
 
-```js
+```javascript
 function fearNotLetter(str) {
 
   for(var i = 0; i < str.length; i++) {
@@ -83,11 +92,12 @@ function fearNotLetter(str) {
 // test here
 fearNotLetter("abce");
 ```
+
 :rocket: [REPL It!](https://repl.it/CLnD/0)
 
 ### Third solution (Declarative)
 
-```js
+```javascript
 // Adding this solution for the sake of avoiding using 'for' and 'while' loops.
 // See the explanation for reference as to why. It's worth the effort.
 
@@ -105,11 +115,12 @@ function fearNotLetter(str) {
 // test here
 fearNotLetter("abce");
 ```
+
 :rocket: [REPL It!](https://repl.it/CLnE/0)
 
 ### Fourth solution:
 
-```js
+```javascript
 function fearNotLetter(str) {
   var strArr = str.split('');
   var missingChars = [], i = 0;
@@ -129,11 +140,12 @@ function fearNotLetter(str) {
 // test here
 fearNotLetter("abce");
 ```
+
 :rocket: [REPL It!](https://repl.it/CLnF/0)
 
 ### Fifth solution:
 
-```js
+```javascript
 function fearNotLetter(str) {
   var allChars = '';
   var notChars = new RegExp('[^'+str+']','g');
@@ -145,30 +157,37 @@ function fearNotLetter(str) {
 // test here
 fearNotLetter("abce");
 ```
+
 :rocket: [REPL It!](https://repl.it/CLnG/0)
 
-# Code Explanation:
+## Code Explanation:
+
 ## First and second solutions:
+
 - Read comments in code.
 
 ## Third solution (Declarative):
+
 - First we define variables to store the character code for the first letter in the string, and to store whatever missing letters we may find.
 - We turn the string to an array in order to map through it instead of using those nasty `for` and `whiles` (See [this article](http://www.sitepoint.com/quick-tip-stop-writing-loops-start-thinking-with-maps/) for refence as to why. And give it a serious try. Really... you'll thank me for it.
-- (If you're not sure how to `map`, you can review [Challenge: Iterate over arrays with map] ](http://www.freecodecamp.com/challenges/iterate-over-arrays-with-map) and [MDN's reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)).
+- (If you're not sure how to `map`, you can review [Challenge: Iterate over arrays with map]](http://www.freecodecamp.com/challenges/iterate-over-arrays-with-map) and [MDN's reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)).
 - As we `map` through our letters' character codes, we go comparing with the one that should be in that position.
 - If the current letter matches, we move the comparison variable to its next position so we can compare on the next cycle.
 - if not, the missing letter will be assigned to the `missing` variable, which will be returned after the map is finished.
 
 ## Fourth solution:
+
 - Increase loop index only when you have found all the missing letters between current and next letter
 - Every time you find a missing letter push it to `missingchars`
 
 ## Fifth solution:
+
 - Create a new String that consists all the letters in the range
 - Create a Regular Expression for anything except `str`
 - Use `match()` to strip off the `str` letters from your newly created String
 
-# Credits:
-If you found this page useful, you can give thanks by copying and pasting this on the main chat:  **`thanks @Rafase282 @rohitnwn @sabahang @Hallaathrad for your help with Algorithm: Missing Letters`**
+## Credits:
+
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`thanks @Rafase282 @rohitnwn @sabahang @Hallaathrad for your help with Algorithm: Missing Letters`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
