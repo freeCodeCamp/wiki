@@ -788,6 +788,7 @@ If your city isn't listed here, you should [create your own Campsite](LocalGroup
   - [Aalesund](https://www.facebook.com/groups/free.code.camp.aalesund/)
   - [Bergen](https://www.facebook.com/groups/free.code.camp.Bergen/)
   - [Kristiansand](https://www.facebook.com/groups/free.code.camp.kristiansand/)
+  - [Mosjøen](https://www.facebook.com/groups/1566653710294242/)
   - [Oslo](https://www.facebook.com/groups/free.code.camp.oslo/)
   - [Sandefjord](https://www.facebook.com/groups/Free.Code.Camp.Sandefjord/)
   - [Stavanger](https://www.facebook.com/groups/free.code.camp.stavanger/)
@@ -796,6 +797,7 @@ If your city isn't listed here, you should [create your own Campsite](LocalGroup
   - [Muscat](https://www.facebook.com/groups/free.code.camp.muscat/)
   - [Sohar](https://www.facebook.com/groups/free.code.camp.sohar/)
 - Pakistan
+  - [Bahawlapur](https://www.facebook.com/groups/free.code.camp.bahawalpur)
   - [Bannu](https://www.facebook.com/groups/free.code.camp.bannu/)
   - [Gujranwala](https://www.facebook.com/groups/free.code.camp.grw/)
   - [Gujrat City](https://www.facebook.com/groups/free.code.camp.gujrat/)
