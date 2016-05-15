@@ -4,7 +4,7 @@ Our open source community's Wiki focuses on answering your questions about learn
 
 - Curriculum
 - Other Programming Languages
-- Local Campsite Communities
+- Local Group Communities
 - Nonprofit Projects and much more
 
 *Taste* the wiki at [**FreeCodeCamp/wiki**](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki) :yum:

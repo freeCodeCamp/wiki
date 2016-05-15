@@ -8,7 +8,7 @@ La wiki de nuestra comunidad hace foco en responder tus preguntas sobre aprender
 
 ![Una ilustración de CamperBot](http://i.imgur.com/gyJwzkx.png)
 
-La manera más simple de acceder a la wiki es vía [CamperBot](camperbot) en nuestros canales de Gitter. CamperBot es una útil herramienta diseñada por la comunidad para acceder al contenido de nuestra wiki sin necesidad de salir de Gitter.
+La manera más simple de acceder a la wiki es vía [CamperBot](CamperBot) en nuestros canales de Gitter. CamperBot es una útil herramienta diseñada por la comunidad para acceder al contenido de nuestra wiki sin necesidad de salir de Gitter.
 
 ## Contribuir con la Wiki
 

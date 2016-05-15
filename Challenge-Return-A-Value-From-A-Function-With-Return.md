@@ -1,10 +1,10 @@
-#Challenge: Return a Value from a Function with Return
+# Challenge Return a Value from a Function with Return
 
 We can pass values into a function with `arguments`. You can use a `return` statement to send a value back out of a function.
 
-##Example
+## Example
 
-```js
+```javascript
 function plusThree(num) {
   return num + 3;
 }

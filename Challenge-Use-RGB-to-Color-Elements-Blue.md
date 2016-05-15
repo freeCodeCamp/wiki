@@ -1,1 +1,0 @@
-The RGB value blue: `rgb(0, 0, 255)`

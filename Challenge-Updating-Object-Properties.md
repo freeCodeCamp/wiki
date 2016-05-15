@@ -1,10 +1,10 @@
-#Challenge: Updating Object Properties
+# Challenge Updating Object Properties
 
 After you've created a JavaScript object, you can update its properties at any time just like you would update any other variable. You can use either dot or bracket notation to update.
 
 For example, let's look at `ourDog`:
 
-```js
+```javascript
 var ourDog = {
   "name": "Camper",
   "legs": 4,
@@ -12,6 +12,8 @@ var ourDog = {
   "friends": ["everything!"]
 };
 ```
+
+##  
 
 Since he's a particularly happy dog, let's change his name to "Happy Camper". Here's how we update his object's name property:
 

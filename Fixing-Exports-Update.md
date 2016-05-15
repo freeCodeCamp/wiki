@@ -12,4 +12,4 @@ exports.update = function(req, res) {
  };
 ```
 
-[PREVIOUS](Creating-a-new-API-endpoint) [NEXT](Accessing-Database-Front-End)
+[PREVIOUS](Angular-Creating-A-New-API-Endpoint) [NEXT](Accessing-Database-Front-End)

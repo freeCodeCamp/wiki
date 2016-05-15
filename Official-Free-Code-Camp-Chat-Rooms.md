@@ -28,6 +28,6 @@ The following are our official chat rooms.
 | [CurriculumDevelopment](https://gitter.im/freecodecamp/CurriculumDevelopment) | help us improve our open source curriculum |
 | [DataScience](https://gitter.im/freecodecamp/DataScience) | help us understand our gigs and gigs of public data |
 
-By joining these chat rooms, you accept our [Code of Conduct](Code-of-Conduct).
+By joining these chat rooms, you accept our [Code of Conduct](FreeCodeCamp-Code-Of-Conduct).
 
-If you also want to hang out with other campers in person, be sure to join a [Campsite in your city](LocalGroups-List).
+If you also want to hang out with other campers in person, be sure to join a [Local Group in your city](LocalGroups-List).

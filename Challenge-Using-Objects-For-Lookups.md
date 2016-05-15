@@ -1,10 +1,10 @@
-#Challenge: Using Objects for Lookups
+# Challenge Using Objects for Lookups
 
 Objects can be thought of as a key/value storage, like a dictionary. If you have tabular data, you can use an object to "lookup" values rather than a `switch` statement or an `if/else` chain. This is most useful when you know that your input data is limited to a certain range.
 
 Here is an example of a simple reverse alphabet lookup:
 
-```js
+```javascript
 var alpha = {
   1:"Z",
   2:"Y",

@@ -1,11 +1,11 @@
-# How to Create A Campsite for your City
+# How to Create A Local Group for your City
 
-If you didn't see your city on [our list of Campsites](LocalGroups-List), you should create your own Facebook group.  
+If you didn't see your city on [our list of Local Groups](LocalGroups-List), you should create your own Facebook group.  
 We like keeping things as local as possible, so please create groups only for cities, or even smaller areas.
 
 ##  
 
-**Please, do not create campsites for a whole State/province/department/county/etc. as they will not be added to the list.**
+**Please, do not create Local Groups for a whole State/province/department/county/etc. as they will not be added to the list.**
 
 Now, to the fun part! It's easy, just follow these steps:
 
@@ -60,5 +60,5 @@ Now, to the fun part! It's easy, just follow these steps:
 **Additional tips:**
 
 - Join our [Local Leaders Facebook group](https://www.facebook.com/groups/freecodecampers/), where we share ideas about involving campers in your city.
-- Read [this article](https://medium.freecodecamp.com/jump-start-your-local-campsite-with-coffee-and-code-a8d1a57d30e#) and see if you can set up your Campsite's first Coffee and Code.
-- Some [ideas on getting more people](https://medium.freecodecamp.com/growth-hacking-your-free-code-camp-group-8cf76300a5d1#) involved with your Campsite:
+- Read [this article](https://medium.freecodecamp.com/jump-start-your-local-campsite-with-coffee-and-code-a8d1a57d30e#) and see if you can set up your Local Group's first Coffee and Code.
+- Some [ideas on getting more people](https://medium.freecodecamp.com/growth-hacking-your-free-code-camp-group-8cf76300a5d1#) involved with your Local Group:

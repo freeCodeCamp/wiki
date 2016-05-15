@@ -1,9 +1,10 @@
 # Currying
+
 It is the act of taking a function with more than one argument and converting it into an equivalent function that takes a single argument. This is based on returning partially applied functions.
 
 **Original**
 
-```js
+```javascript
 function add (verb, a, b) {
    return "The " + verb + " of " + a + ' and ' + b + ' is ' + (a + b)
  }
@@ -14,7 +15,7 @@ function add (verb, a, b) {
 
 **Curried Version**
 
-```js
+```javascript
 function addCurried (verb) {
     return function (a) {
       return function (b) {
@@ -31,7 +32,7 @@ Currying by hand would be an incredible effort, but its close relationship with 
 
 Here's a function that curries any function with two arguments:
 
-```js
+```javascript
   function curryTwo (fn) {
     return function (x) {
       return callFirst(fn, x)

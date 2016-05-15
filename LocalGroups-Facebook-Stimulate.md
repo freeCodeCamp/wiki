@@ -1,6 +1,6 @@
 # How to stimulate your Facebook campsite
 
-A great way to stimulate your Campsite is by asking questions.
+A great way to stimulate your Local Group is by asking questions.
 
 **You can ask questions like**
 

@@ -11,4 +11,4 @@ First things first: All your user-facing files and angular files are in **/clien
 
 Great! Now you know how to interact with the user! But what if you want your app to have another page that does something else? Maybe **main.html** shows the home page, but you want a page that shows a form to add a poll? maybe [http://yourapp.wherever.itis/newpage](#)? This is where the yeoman generator comes in handy.
 
-[PREVIOUS](Back-End-Guides) [NEXT](Creating-a-new-route)
+[PREVIOUS](Back-End-Guides) [NEXT](Angular-Creating-A-New-Route)

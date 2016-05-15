@@ -7,7 +7,7 @@ We leverage the power of these existing platforms to connect with one another an
 - [GitHub](https://github.com/freecodecamp/freecodecamp) - for collaborating on open source projects and improving
 - [Gitter](https://gitter.im/freecodecamp/freecodecamp) - for real time chatting and getting immediate help on our challenges
 - [Reddit](https://www.reddit.com/r/freecodecamp) - for sharing news links and helpful articles
-- [Facebook Campsites](https://www.facebook.com/groups/free.code.campers) - for meeting campers in your city and coordinating events
+- [Facebook Local Groups](https://www.facebook.com/groups/free.code.campers) - for meeting campers in your city and coordinating events
 - [Medium](https://medium.freecodecamp.com) - for publishing your long-form content
 - [Forum](http://forum.freecodecamp.com/) - for discussing programming resources and getting feedback on projects
 - [YouTube](https://www.youtube.com/freecodecamp) - for publishing instructional videos and live streaming our Summits
@@ -17,8 +17,9 @@ We leverage the power of these existing platforms to connect with one another an
 - [What we are](FreeCodeCamp-What)
 - [Why Free Code Camp](FreeCodeCamp-Why)
 - [How it works](FreeCodeCamp-How-It-Works)
-- [Honesty Policy](FreeCodeCamp-Academic-Honesty-Policy)
 - [Advantages](FreeCodeCamp-Advantages)
+- [Code of Conduct](FreeCodeCamp-Code-Of-Conduct)
+- [Honesty Policy](FreeCodeCamp-Academic-Honesty-Policy)
 - [Why JavaScript](FreeCodeCamp-Why-JavaScript)
 - [Language](FreeCodeCamp-Completion-Language-Requirements)
 - [Completion Time](FreeCodeCamp-Completion-Time)
