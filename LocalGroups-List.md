@@ -350,7 +350,7 @@ If your city isn't listed here, you should [create your own Local Group](LocalGr
   - [Warrington](https://www.facebook.com/groups/free.code.camp.warrington/)
   - [Wearside](https://www.facebook.com/groups/free.code.camp.sunderland.tyne.and.wear/)
   - [Welwyn + Hatfield](https://www.facebook.com/groups/free.code.camp.welwyn.hatfield/)
-  - [Worcester](https://www.facebook.com/groups/free.code.camp.worcester/)
+  - [Worcester](https://www.facebook.com/groups/free.code.camp.worcester.uk/)
   - [York](https://www.facebook.com/groups/free.code.camp.york/)
 - Estonia
   - [Tallinn](https://www.facebook.com/groups/free.code.camp.tallinn/)
@@ -777,6 +777,7 @@ If your city isn't listed here, you should [create your own Local Group](LocalGr
   - [Kaduna](https://www.facebook.com/groups/free.code.camp.kaduna/)
   - [Keffi](https://www.facebook.com/groups/free.code.camp.keffi/)
   - [Lagos](https://www.facebook.com/groups/free.code.camp.lagos/)
+  - [Lekki](https://www.facebook.com/groups/free.code.camp.lekki/)
   - [Ondo](https://web.facebook.com/groups/free.code.camp.ondo/)
   - [Port Harcourt](https://www.facebook.com/groups/free.code.camp.port.harcourt/)
   - [Sokoto](https://www.facebook.com/groups/free.code.camp.sokoto/)
@@ -989,6 +990,7 @@ If your city isn't listed here, you should [create your own Local Group](LocalGr
   - [Granada](https://www.facebook.com/groups/free.code.camp.spain.granada/)
   - [Fuengirola](https://www.facebook.com/groups/free.code.camp.fuengirola/)
   - [Jaén](https://www.facebook.com/groups/free.code.camp.jaen/)
+  - [Lanzarote](https://www.facebook.com/groups/free.code.camp.costa.teguise/)
   - [Madrid](https://www.facebook.com/groups/free.code.camp.madrid/)
   - [Málaga](https://www.facebook.com/groups/free.code.camp.malaga/)
   - [Murcia](https://www.facebook.com/groups/free.code.camp.murcia/)
@@ -1519,6 +1521,7 @@ If your city isn't listed here, you should [create your own Local Group](LocalGr
     - [Petersburg](https://www.facebook.com/groups/free.code.camp.petersburg.va/)
     - [Richmond](https://www.facebook.com/groups/free.code.camp.richmond.va/)
     - [Roanoke](https://www.facebook.com/groups/free.code.camp.roanoke.va/)
+    - [South Boston](https://www.facebook.com/groups/free.code.camp.south.boston.va/)
     - [Virginia Beach](https://www.facebook.com/groups/free.code.camp.virginia.beach/)
     - [Winchester](https://www.facebook.com/groups/free.code.camp.winchester/)
   - Washington
