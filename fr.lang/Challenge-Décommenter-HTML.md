@@ -1,3 +1,5 @@
+# Challenge Décommenter HTML
+
 Les commentaires permettent au code d'être ignoré. Dans le langage HTML, les commentaires sont faits en entourant le code que vous souhaitez ignorer avec `<!--` et `-->`.
 `<! - Ce texte n'apparaîtra pas puisqu'il est un commentaire ->`
 
