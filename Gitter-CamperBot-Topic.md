@@ -1,4 +1,4 @@
-# Gitter CamperBot `topic` Command
+# Gitter CamperBot topic Command
 
 This is an example. You should replace `topic` with the thing you want to find info on. For example:
 

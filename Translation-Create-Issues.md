@@ -1,4 +1,4 @@
-# Create `Translation` issues to track the progress.
+# Create Translation issues to track the progress.
 
 Before starting translations of challenges GitHub issues need to be created specific to the language of translation. Translators should create issues with the details of the challenges to be tracked in that particular issue.
 
