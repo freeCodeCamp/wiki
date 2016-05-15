@@ -1,1 +1,0 @@
-Every HTML page has the `body` element. and it is like the main page.

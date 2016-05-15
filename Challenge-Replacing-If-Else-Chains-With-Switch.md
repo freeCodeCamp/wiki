@@ -1,8 +1,8 @@
-#Challenge: Replacing If Else Chains with Switch
+# Challenge Replacing If Else Chains with Switch
 
 If you have many options to choose from, a `switch` statement can be easier to write than many chained `if/if` else statements. The following:
 
-```js
+```javascript
 if(val === 1) {
   answer = "a";
 } else if(val === 2) {
@@ -14,7 +14,7 @@ if(val === 1) {
 
 can be replaced with:
 
-```js
+```javascript
 switch (val) {
   case 1:
     answer = "a";

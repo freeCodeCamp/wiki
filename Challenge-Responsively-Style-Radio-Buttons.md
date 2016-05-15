@@ -1,4 +1,5 @@
-# Responsively Style Radio Buttons
+# Challenge Responsively Style Radio Buttons
+
 You can use Bootstrap's `col-xs-*` classes on `form` elements. That will make radio buttons evenly spread out across the page regardless of how wide the screen might be.
 
 Nest all of your radio buttons within a `<div class="row">` element. Then nest each of them within a `<div class="col-xs-6">` element.

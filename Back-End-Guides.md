@@ -6,13 +6,13 @@ Here you will find articles that will help you learn more and complete your back
 
 - Part 1: Frontend
   - [Frontend file structure](Front-End-File-Structure)
-  - [Creating a new route](Creating-a-new-route)
-  - [Creating a new directive](Creating-a-new-directive)
+  - [Creating a new route](Angular-Creating-A-New-Route)
+  - [Creating a new directive](Angular-Creating-A-New-Directive)
   - [Grunt](Grunt)
 
 - Part 2: Backend
   - [Backend file structure](Angular-Backend-File-Structure)
-  - [Creating a new API endpoint](Creating-a-new-API-endpoint)
+  - [Creating a new API endpoint](Angular-Creating-A-New-API-Endpoint)
   - [Fixing exports.update](Fixing-Exports-Update)
 
 - Part 3: Interfacing Between Frontend & Backend

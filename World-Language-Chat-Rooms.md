@@ -20,6 +20,6 @@ The following are our language-specific chat rooms.
 - [Thai](https://gitter.im/freecodecamp/Thai)
 - [Vietnamese](https://gitter.im/freecodecamp/Vietnamese)
 
-By joining these chat rooms, you accept our [Code of Conduct](Code-of-Conduct).
+By joining these chat rooms, you accept our [Code of Conduct](FreeCodeCamp-Code-Of-Conduct).
 
 [Official Free Code Camp chat rooms](Official-Free-Code-Camp-Chat-Rooms)

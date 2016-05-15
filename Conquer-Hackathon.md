@@ -1,4 +1,4 @@
-# 10 Step on how to Conquer a hackathon!
+# 10 Step on how to Conquer a hackathon
 
 1. **Apply early.** Sometimes, some of the hackathons send out acceptances in batches. If you apply just a few days before the hackathon, you may be left out.
 2. **Don't be afraid.** I recently competed in my first hackathon, and I was completely scared with a major case of imposter syndrome. The key for hackathons is to just got for it without any fear, you are indeed a great asset to a team.

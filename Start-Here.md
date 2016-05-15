@@ -18,7 +18,7 @@ If you're new to Free Code Camp, or just new to the wiki, start here:
 
 ## Community
 
-- [Code of Conduct](Code-of-Conduct)
+- [Code of Conduct](FreeCodeCamp-Code-Of-Conduct)
 - [Camper News](Camper-News)
 - [Local Groups](Local-Groups)
 - [Official Chat Rooms](Official-Free-Code-Camp-Chat-Rooms)
