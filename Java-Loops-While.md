@@ -1,4 +1,4 @@
-# Java `while` Loop
+# Java while Loop
 
 The `while` loop executes a group of statements / single statement till a condition evaluates to `true`. For instance:
 

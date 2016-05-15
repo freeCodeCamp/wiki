@@ -1,4 +1,4 @@
-# Python `return` Statement
+# Python return Statement
 
 [Python Docs](https://docs.python.org/3/reference/simple_stmts.html#the-return-statement)
 

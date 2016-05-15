@@ -1,4 +1,4 @@
-# Identify Basic Internet Problems with `ping`
+# Identify Basic Internet Problems with ping
 
 ![Sonar screen](https://i.imgur.com/YqbZcER.png)
 

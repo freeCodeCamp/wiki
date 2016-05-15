@@ -1,4 +1,4 @@
-# Using `Array.prototype.reduce()` to Reduce Conceptual Boilerplate for Problems on Arrays
+# Using Array.prototype.reduce() to Reduce Conceptual Boilerplate for Problems on Arrays
 
 That's quite a mouthful! It could have just been titled as **Use [`Array.prototype.reduce()`](JS-Array-Prototype-Reduce) to Solve Array Problems Easily** or **`Array.prototype.reduce()` FTW!**. That would have been so much easier to read and parse.
 
