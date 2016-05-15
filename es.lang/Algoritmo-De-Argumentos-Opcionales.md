@@ -23,7 +23,7 @@ Cuando se de el caso que sea necesario retornar la función es aconsejable compr
 
 En el caso de que se reciba sólo un argumento no te preocupes sobre como solicitar el segundo, simplemente haz la definición de la función apropiadamente y todo funcionará como debería.
 
-## ¡Alerta de Spoiler!und
+## ¡Alerta de Spoiler!
 
 [![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
 
