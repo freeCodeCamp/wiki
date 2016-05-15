@@ -1,4 +1,4 @@
-# CHallenge Responsively Style Checkboxes
+# Challenge Responsively Style Checkboxes
 
 You can use Bootstrap's `col-xs-*` classes on form elements, too! This way, our checkboxes will be evenly spread out across the page, regardless of how wide the screen resolution is.
 
