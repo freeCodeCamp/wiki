@@ -1,6 +1,6 @@
 # JavaScript Closures
 
-Closures are functions that refer to independent (free) variables. In other words, the function defined in the closure 'remembers' the environment in which it was created.
+Closures are functions that refer to independent (free) variables. Free variables are variables that are used locally, but defined in an enclosing scope. In other words, the function defined in the closure 'remembers' the environment in which it was created.
 
 ```javascript
 function makeFunc() {
