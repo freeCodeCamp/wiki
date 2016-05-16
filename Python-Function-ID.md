@@ -4,14 +4,9 @@
 
 ## Argument
 
-### object
+#### object
 
 The `object` argument can typically be a `int`,`float`, `str`,`list`, `dict`, `tuple` etc.
-
-## Return Value
-
-The return value would be a unique and constant `integer`.
-
 
 ## Code Sample
 
