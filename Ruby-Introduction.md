@@ -1,25 +1,21 @@
 # Ruby Introduction
 
-[Previous](Ruby)
-
-[Home](Ruby)
-
 ## What is Ruby?
 
-[Ruby](Ruby) is an interpreted scripting language for quick and easy object-oriented programming. Which means-
+[Ruby](Ruby) is an interpreted scripting language for quick and easy object-oriented programming. Which means:
 
-- ability to make operating system calls directly
-- powerful string operations and regular expressions
-- immediate feedback during development
-- variable declarations are unnecessary
-- variables are not typed
-- syntax is simple and consistent
-- memory management is automatic
-- everything is an object
-- classes, methods, inheritance, etc.
-- singleton methods
-- "mixin" functionality by module
-- iterators and closures
+- Ability to make operating system calls directly
+- Powerful string operations and regular expressions
+- Immediate feedback during development
+- Variable declarations are unnecessary
+- Variables are not typed
+- Syntax is simple and consistent
+- Memory management is automatic
+- Everything is an object
+- Classes, methods, inheritance, etc.
+- Singleton methods
+- Has "mixin" functionality by module
+- Iterators and closures
 
 If you are unfamiliar with some of the concepts above, read on, and don't worry. The mantra of the ruby language is quick and easy.
 
@@ -40,7 +36,7 @@ To know about how to install Ruby through package managers, installers and sourc
 
 ## IRB
 
-IRB stands for Interactive Ruby Shell. The abbreviation irb comes from the fact that the filename extension for Ruby is ".rb", although interactive Ruby files do not have an extension of ".irb". The program is launched from a command line and allows the execution of Ruby commands with immediate response, experimenting in real-time. It features command history, line editing capabilities, and job control, and is able to communicate directly as a shell script over the Internet and interact with a live server. It was developed by Keiju Ishitsuka.
+IRB stands for Interactive Ruby Shell. The abbreviation irb comes from the fact that the filename extension for Ruby is ".rb", although interactive Ruby files do not have an extension of ".irb". The program is launched from a command line and allows the execution of Ruby commands with an immediate response, experimenting in real-time. It features command history, line editing capabilities, and job control, and is able to communicate directly as a shell script over the Internet and interact with a live server. It was developed by Keiju Ishitsuka.
 
 ```ruby
 irb
@@ -75,8 +71,11 @@ Another important resouce for documentation is [Ruby Doc](http://ruby-doc.org/co
 
 Inline `print` statements can be used for simple debugging:
 
-> **... often the quickest way to debug a program is to add a few print statements to the source: the fast edit-test-debug cycle makes this simple approach very effective.**
+```ruby
+print some_variable # prints to console
+```
 
+> **... often the quickest way to debug a program is to add a few print statements to the source: the fast edit-test-debug cycle makes this simple approach very effective.**
 
 Ruby also includes more powerful tools for debugging, such as:
 * [*pry-debugger*](https://github.com/nixme/pry-debugger)
@@ -94,3 +93,13 @@ Prints each object to $stdout. Objects that aren’t strings will be converted b
 Hello World!
  => nil
 ```
+
+## Frameworks
+
+Ruby has several frameworks for quickly scaffolding applications. The most popular by far is [Rails](http://rubyonrails.org/) which was initially released in 2004. Other frameworks for Ruby include [Sinatra](http://www.sinatrarb.com/), [Lotus](http://lotusrb.org/), and [Volt](http://voltframework.com/). Each of these options has their pros and cons for development and cater to a variety needs.
+
+## Table of Contents
+
+| Previous | Home | Next |
+| :---         |     :---:      |          ---: |
+| [History of Ruby](Ruby-History)   | [Table of Contents](Ruby) |  [Ruby Strings](Ruby-Strings)  |

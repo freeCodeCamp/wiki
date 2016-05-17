@@ -148,6 +148,32 @@ name == "Batma" # returns true
 Hello
 ```
 
+## Chomp:
+
+- The `.chomp` method removes the last character in a string, only if it’s a carriage return or newline (`\r`, `\n`).
+- This method is commonly used with the `gets` command to remove returns from user input.
+
+```ruby
+"hello\r".chomp
+# returns:
+hello
+```
+```ruby
+"hello\t".chomp
+# returns:
+hello\t #because tabs and other whitespace remain intact when using `chomp`
+```
+
+## To Integer:
+
+- The `.to_i` method converts a string to an integer.
+
+```ruby
+"15".to_i
+# returns:
+15 #integer
+```
+
 | Previous | Home |
 | :---         |     :---:      |
 | [Ruby String Operators](Ruby-Strings-Operators)   | [Table of Contents](Ruby-Strings)     |
