@@ -1,4 +1,4 @@
-# CSS Franework Bootstrap
+# CSS Framework Bootstrap
 
 Bootstrap is the most popular CSS framework for developing responsive, mobile first projects for the web.
 
