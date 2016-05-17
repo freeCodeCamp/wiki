@@ -1,6 +1,6 @@
 # Python id(object)
 
-`id()` is a built-in function in Python 3, which returns the *identity* of an object. The *identity* is a unique integer for that object during its lifetime. In CPython implementation, this is the address of the object in memory which is not necessarily true for other python implementations.
+`id()` is a built-in function in Python 3, which returns the *identity* of an object. The *identity* is a unique integer for that object during its lifetime. This is also the address of the object in memory.
 
 ## Argument
 
