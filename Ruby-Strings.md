@@ -27,7 +27,7 @@ And this is line 2.
 ```
 
 ```ruby
-name = "Batman"
+name = "Deadpool"
 "Hello, my name is #{name}!"
 # returns:
 Hello, my name is Batman!
