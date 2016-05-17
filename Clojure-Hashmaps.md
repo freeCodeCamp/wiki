@@ -1,4 +1,4 @@
-# Clojure - Hashmaps
+# Clojure Hashmaps
 
 A hashmap is a collection that maps keys to values. They have various names in other languages; Python refers to them as dictionaries, and Javascript's objects essentially work like hashmaps.
 

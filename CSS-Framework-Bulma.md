@@ -1,4 +1,4 @@
-# Bulma
+# CSS Franework Bulma
 
 Bulma is a modern CSS framework based on [Flexbox](CSS-Flexbox) and highly customizable using [Sass](http://sass-lang.com/) (SCSS).
 

@@ -1,4 +1,4 @@
-# Clojure - Let
+# Clojure Let
 
 `let` is a fundamental part of Clojure. Whereas `def` creates a global variable, `let` creates a local variable.
 
@@ -17,6 +17,8 @@
 ```
 
 :rocket: [IDEOne it!](https://ideone.com/xcNth2)
+
+##  
 
 `x` in this example never actually gets changed. `x` just refers to something different inside of our `let` binding. This can be a useful way to avoid repetition inside a function.
 
