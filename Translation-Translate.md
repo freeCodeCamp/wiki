@@ -1,4 +1,4 @@
-# Do Translations.
+# Start Translating
 
 When you want to work on any of the translations, we encourage you to leave a comment like `"Working on it"` on the [open/ongoing translation issues](https://github.com/FreeCodeCamp/FreeCodeCamp/issues?q=is%3Aissue+is%3Aopen+label%3Atranslation). This will notify the contributors about your interest in doing the translation.
 

@@ -1,4 +1,4 @@
-# Operations and Operators
+# Python Operations and Operators
 
 [Previous](Python-Basics)
 

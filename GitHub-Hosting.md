@@ -1,4 +1,4 @@
-# Use GitHub Static pages to host your Front-End Projects
+# Use GitHub Static pages to host your Front End Projects
 
 **Benefits**
 

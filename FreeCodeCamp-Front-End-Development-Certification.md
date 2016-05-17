@@ -1,4 +1,4 @@
-# Here's how to earn our verified Front End Development Certification:
+# Here's how to earn our verified Front End Development Certification
 
 ![An image of a sample Front End Development Certificate](http://i.imgur.com/UrU2ki8.png)
 

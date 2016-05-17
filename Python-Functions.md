@@ -1,4 +1,4 @@
-# Functions
+# Python Functions
 
 [Previous](Python-Operators)
 
