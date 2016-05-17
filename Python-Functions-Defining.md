@@ -1,4 +1,4 @@
-# Defining Functions
+# Python Defining Functions
 
 [Python Docs](https://docs.python.org/3/tutorial/controlflow.html#defining-functions)
 

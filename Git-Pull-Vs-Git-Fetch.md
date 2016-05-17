@@ -1,4 +1,4 @@
-# Git Pull vs Git Fetch:
+# Git Pull vs Git Fetch
 
 These two commands are regularly used by git users. Let's see the difference between both commands.
 

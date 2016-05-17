@@ -1,4 +1,4 @@
-# Python Built-in Constants
+# Python Built in Constants
 
 [Constants](https://docs.python.org/3/library/constants.html)
 

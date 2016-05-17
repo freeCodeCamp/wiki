@@ -1,4 +1,4 @@
-# Setting Up Python Web-framework: Django and Flask
+# Setting Up Python Web-framework Django and Flask
 
 [Previous](Web-Development-in-Python)
 

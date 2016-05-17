@@ -1,4 +1,4 @@
-# Scopes
+# Python Scopes
 
 **TODO: NOTE**
 

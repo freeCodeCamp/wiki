@@ -1,4 +1,4 @@
-# More Built-in Types
+# Python More Built-in Types
 
 [Previous](Python-Operators)
 

@@ -1,4 +1,4 @@
-# Materialize
+# CSS Framework Materialize
 
 Materialize is a Responsive CSS framework based on Google's [Material Design](https://design.google.com/spec/) Language.
 

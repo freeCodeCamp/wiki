@@ -1,4 +1,4 @@
-# Here's how to earn our verified Back End Development Certification:
+# Here's how to earn our verified Back End Development Certification
 
 ![An image of a sample Back End Development Certification](http://i.imgur.com/oxFYeWd.png?1)
 

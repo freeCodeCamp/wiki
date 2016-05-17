@@ -1,4 +1,4 @@
-# Challenge Get Geo-location Data
+# Challenge Get Geo Location Data
 
 Every browser has a built in navigator that can give us this information.
 

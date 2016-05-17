@@ -1,4 +1,4 @@
-# Introduction
+# Python Introduction
 
 [Previous](Python)
 
@@ -149,6 +149,3 @@ The argument that we called the `print` function with is a `str` object or *stri
 The `objects` parameter is prefixed with a `*` which indicates that the function will take an arbitrary number of arguments for that parameter.
 
 We shall now continue with [Python Basics](Python-Basics)
-
-
-

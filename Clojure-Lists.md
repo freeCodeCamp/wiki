@@ -1,4 +1,4 @@
-# Clojure - Lists
+# Clojure Lists
 
 Lists are fundamental to Clojure. Clojure is a Lisp, and Lisps were originally used for list processing. Everything in a Lisp is a list!
 

@@ -1,4 +1,4 @@
-# Clojure - The Basics
+# Clojure The Basics
 
 ### Getting Started
 

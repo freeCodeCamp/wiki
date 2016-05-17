@@ -1,4 +1,4 @@
-# Foundation
+# CSS Framework Foundation
 
 [Foundation](http://foundation.zurb.com/) is the one of the most advanced responsive front-end frameworks.
 
