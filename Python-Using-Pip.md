@@ -1,4 +1,4 @@
-# Using `pip`
+# Python Using Pip
 
 We had seen about how to use `import` statements to `import` various modules and to use them in our programs. Python itself comes with several built-in modules. But python community has more to offer.
 > Its the modules that makes python so powerful!

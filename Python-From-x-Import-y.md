@@ -1,4 +1,4 @@
-# `from x import y`
+# Python From X Import Y
 
 If you have read the [`import statements`](#) wiki then you'd have seen me use this statement in one of the examples. Today, we'll try to understand what it does?
 
