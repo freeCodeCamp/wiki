@@ -1,67 +1,91 @@
 # Ruby Numbers Methods:
 
-In Ruby you can perform all standard math operations on numbers, including: addition `+`, subtraction `-`, multiplication `*`, division `/`, find remainders `%`, and work with exponents `**`.
+In Ruby there are a variety of build in methods you can perform on numbers.
 
-## Addition:
+## Even:
 
-- Numbers can be added together using the `+` operator.
+- Use `.even?` to check whether or not an integer is even.
 
 ```ruby
-15 + 25
+15.even?
+4.even?
 # returns:
-40
+false
+true
 ```
 
-## Subtraction:
+## Odd:
 
-- Numbers can be subtracted from one another using the `-` operator.
+- Use `.odd?` to check whether or not an integer is odd.
 
 ```ruby
-25 - 15
+15.odd?
+4.odd?
 # returns:
-10
+true
+false
 ```
 
-## Multiplication:
+## Ceil:
 
-- Numbers can be multiplied together using the `*` operator.
+- The `.ceil` method rounds up to the nearest integers.
 
 ```ruby
-10 * 5
+8.3.ceil
+6.7.ceil
 # returns:
-50
+9
+7
 ```
 
-## Division:
+## Floor:
 
-- Numbers can be divided by one another using the `/` operator.
+- The `.floor` method rounds down to the nearest integers.
 
 ```ruby
-10 / 5
+8.3.floor
+6.7.floor
 # returns:
-2
+8
+6
 ```
 
-## Remainders:
+## Next:
 
-- Remainders can be found using the modulus `%` operator.
+- Use `.next` to return the next consecutive integer.
 
 ```ruby
-10 % 3
+15.next
+2.next
+-4.next
 # returns:
-1 # because the remainder of 10/3 is 1
+16
+3
+-3
 ```
 
-## Exponents:
+## To String:
 
-- Remainders can be found using the modulus `%` operator.
+- The `.to_s` method changes an integer into a string.
 
 ```ruby
-10 % 3
+15.to_s
 # returns:
-1 # because the remainder of 10/3 is 1
+"15"
+```
+
+## Greatest Common Denominator:
+
+- The `.gcd` method returns the greatest common denominator of two numbers.
+
+```ruby
+15.gcd(5)
+9.gcd(4)
+# returns:
+5
+1
 ```
 
 | Home | Next |
 | :---          |          ---: |
-| [Ruby Numbers Basics](Ruby-Strings) | [Ruby Numbers Methods](Ruby-String-Methods)   |
+| [Ruby Numbers Basics](Ruby-Numbers) | [Ruby Numbers Operations](Ruby-Numbers-Operations)   |

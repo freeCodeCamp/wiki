@@ -54,14 +54,14 @@ In Ruby you can perform all standard math operations on numbers, including: addi
 
 ## Exponents:
 
-- Remainders can be found using the modulus `%` operator.
+- Exponents can be calculated using the `**` operator.
 
 ```ruby
-10 % 3
+2 ** 3
 # returns:
-1 # because the remainder of 10/3 is 1
+8 # because 2 to the third power, or 2 * 2 * 2 = 8
 ```
 
 | Home | Next |
 | :---          |          ---: |
-| [Ruby Numbers Basics](Ruby-Strings) | [Ruby Numbers Methods](Ruby-String-Methods)    |
+| [Ruby Numbers Basics](Ruby-Numbers) | [Ruby Numbers Methods](Ruby-Numbers-Methods)    |
