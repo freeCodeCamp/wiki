@@ -16,7 +16,7 @@ D3.js helps you attach your data to DOM (Document Object Model) elements. Then y
 
 ### Scenario : 
 There’s a class of Online students interacting with different topics of the subject and gives quiz on those topics. 
-There are 15 topics and on each topic, we have numbers of student who have taken quiz and have scored in three categories: Low, Mid and High
+There are 15 topics and on each topic, we have a numbers of student who have taken quiz and have scored in three categories: Low, Mid and High
 
 ### For example (Given data ) : 
 Topic:'1’, low:4, mid:13, high:18 
@@ -41,29 +41,30 @@ D3 Introduction: https://d3js.org where you can learn about Selections , Dynamic
 •	Create SVG for histogram ( Resource : http://codepen.io/SundeepB/pen/CxveH ) 
 •	Create function for x-axis mapping and add x-axis to histogram SVG
 •	Create function for y-axis mapping and Create bars for histogram to contain rectangles and topic labels.
-•	create the rectangles and topic labels 
-•	create function to update the bars. This will be used by pie-chart
+•	Create the rectangles and topic labels 
+•	Create function to update the bars. This will be used by pie-chart
 
-•	write a function to handle pieChart. – pie chart will have three slices – Low , Mid and High to represent scores 
+•	Write a function to handle pieChart. – pie chart will have three slices – Low , Mid and High to represent scores 
  (Tutorial - http://zeroviscosity.com/d3-js-step-by-step/step-1-a-basic-pie-chart where you can learn how to make a pie chart, then transitions between views and how to create a legend  )
-•	create svg for pie chart.
-•	create function to draw the arcs of the pie slices - pie slices will be Low , Mid and high 
-•	create a function to compute the pie slice angles.
+•	Create svg for pie chart.
+•	Create function to draw the arcs of the pie slices - pie slices will be Low , Mid and high 
+•	Create a function to compute the pie slice angles.
 •	Draw the pie slices.
-•	create function to update pie-chart. This will be used by histogram.
+•	Create function to update pie-chart. This will be used by histogram.
 
-•	calculate total frequency by segment for all topic.
-•	calculate total frequency by state for all segment.
+•	Calculate total frequency by segment for all topic.
+•	Calculate total frequency by state for all segment.
 
 
-## Result of Data Analysis and what can we infer from Visualization  :
+## Result of Data Analysis and what can we infer from Visualization:
 
 - Initial pie chart shows aggregate classification of all student score on all topic combined into three categories ‘low, mid ,high’ 
 
 - Initial bar chart showing number of students who have interacted on that particular topic 
 
 - Any Selected category from pie chart will update bar chart, showing number of students who have interacted on various topics having score belonging to that particular category .
-Screenshots below shows the mouse hover on 'Mid' slice and 'High' slice of the pie chart respectively and for that particular slice , topic-wise bar charts and number of students. 
+
+- Screenshots below shows the mouse hover on 'Mid' slice and 'High' slice of the pie chart respectively and for that particular slice , topic-wise bar charts and number of students. 
 
 ![screen shot 2016-05-17 at 5 13 53 pm](https://cloud.githubusercontent.com/assets/8707780/15343597/ecb77c60-1c52-11e6-85ef-8affa8fc37ce.png)
 
