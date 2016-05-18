@@ -1,4 +1,4 @@
-# `Import` statements
+# Python Import Statements
 While learning programming and while reading some resources you'd have come across this word 'abstraction' which simply put means to reduce and reuse the code as much as possible.
 
 Functions and Modules facilitate abstraction. You create functions when you'd want to do some thing repeatedly within a file.
