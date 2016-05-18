@@ -1,4 +1,4 @@
-# Ruby Numbers Operations:
+# Ruby Numbers Operations
 
 In Ruby you can perform all standard math operations on numbers, including: addition `+`, subtraction `-`, multiplication `*`, division `/`, find remainders `%`, and work with exponents `**`.
 
