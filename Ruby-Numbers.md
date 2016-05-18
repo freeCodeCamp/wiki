@@ -33,7 +33,7 @@ Bignum # basically, Bignum is a very large number
 
 ## Table of Contents
 
-1. [Ruby Numbers Operatorations](Ruby-Numbers-Operations)
+1. [Ruby Numbers Operations](Ruby-Numbers-Operations)
 2. [Ruby Numbers Methods](Ruby-Numbers-Methods)
 
 ## References:
