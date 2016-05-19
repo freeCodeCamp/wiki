@@ -1,4 +1,4 @@
-# Algorithm Where Are Thou
+# Algorithm Where Art Thou
 
 ![](http://i.imgur.com/IUY2p6Y.jpg)
 
