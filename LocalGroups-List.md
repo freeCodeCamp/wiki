@@ -482,7 +482,6 @@ If your city isn't listed here, you should [create your own Local Group](LocalGr
   - Haryana
     - [Faridabad](https://www.facebook.com/groups/free.code.camp.faridabad/)
     - [Gurgaon](https://www.facebook.com/groups/free.code.camp.gurgaon/)
-    - [Noida](https://www.facebook.com/groups/free.code.camp.noida/)
   - Himachal Pradesh
     - [Dharamshala](https://www.facebook.com/groups/free.code.camp.dharamshala/)
     - [Shimla](https://www.facebook.com/groups/free.code.camp.shimla/)
@@ -550,6 +549,7 @@ If your city isn't listed here, you should [create your own Local Group](LocalGr
     - [Greater Noida](https://www.facebook.com/groups/free.code.camp.greater.noida/)
     - [Jhansi](https://www.facebook.com/groups/free.code.camp.jhansi/)
     - [Lucknow](https://www.facebook.com/groups/1647602228815736/)
+    - [Noida](https://www.facebook.com/groups/free.code.camp.noida/)
     - [Meerut](https://www.facebook.com/groups/free.code.camp.meerut/)
     - [Varanasi](https://www.facebook.com/groups/free.code.camp.varanasi/)
   - Uttarakhand
@@ -1428,6 +1428,7 @@ If your city isn't listed here, you should [create your own Local Group](LocalGr
     - [Dayton](https://www.facebook.com/groups/free.code.camp.dayton.ohio/)
     - [Youngstown](https://www.facebook.com/groups/free.code.camp.youngstown/)
   - Oklahoma
+    - [Muskogee](https://www.facebook.com/groups/free.code.camp.muskogee/) 
     - [Oklahoma City](https://www.facebook.com/groups/free.code.camp.oklahoma.city/)
     - [Tahlequah](https://www.facebook.com/groups/free.code.camp.tahlequah.ok/)
     - [Tulsa](https://www.facebook.com/groups/free.code.camp.tulsa/)
@@ -1436,6 +1437,7 @@ If your city isn't listed here, you should [create your own Local Group](LocalGr
     - [Corvallis](https://www.facebook.com/groups/free.code.camp.corvallis/)
     - [Cottage Grove](https://www.facebook.com/groups/free.code.camp.cottagegrove/)
     - [Eugene](https://www.facebook.com/groups/free.code.camp.eugene/)
+    - [Lebanon](https://www.facebook.com/groups/free.code.camp.lebanon/)
     - [Medford](https://www.facebook.com/groups/free.code.camp.medford.oregon/)
     - [Newport](https://www.facebook.com/groups/free.code.camp.newport.or/)
     - [Portland](https://www.facebook.com/groups/free.code.camp.portland/)
