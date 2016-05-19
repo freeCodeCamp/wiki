@@ -1,16 +1,17 @@
 # Python Import Statements
+
 While learning programming and reading some resources you'd have come across this word 'abstraction' which simply means to reduce and reuse the code as much as possible.
 
 Functions and Modules facilitate abstraction. You create functions when you want to do something repeatedly within a file.
 
 Modules come into picture when you want to reuse a group of functions in different source files. Modules are also useful in structuring the program well.
 
-* Using Standard Libraries and other third party modules:
-* Structuring the program
+- Using Standard Libraries and other third party modules:
+- Structuring the program
 
 ## Using Standard Libraries
-Example:
-You can read about the methods/functions of all the standard libraries in the official Python Docs in detail.
+
+Example: You can read about the methods/functions of all the standard libraries in the official Python Docs in detail.
 
 ```python
 import time
@@ -18,6 +19,7 @@ for i in range(100):
     time.sleep(1)   # Waits for 1 second and then executes the next command
     print(str(i) + ' seconds have passed')  # prints the number of seconds passed after the program was started
 ```
+
 :rocket: [Run Code](https://repl.it/CS6C)
 
 ```python
@@ -28,6 +30,7 @@ start = time.time()
 end = time.time()
 print('Execution time:' , end-start)
 ```
+
 :rocket: [Run Code](https://repl.it/CS6C/1)
 
 ```python
@@ -37,7 +40,9 @@ print(math.sqrt(100))   # prints 10
 ```
 
 :rocket: [Run Code](https://repl.it/CS6C/2)
+
 ## Using third party Modules
+
 Third party modules don't come bundled with python , but we have to install it externally using package managers like [`pip`](https://bootstrap.pypa.io/get-pip.py) and [`easy install`](https://bootstrap.pypa.io/ez_setup.py)
 
 ```python
@@ -46,6 +51,7 @@ import requests
 rq = requests.get(target_url)
 print(rq.status_code)
 ```
+
 Find out more about python-requests module [here](http://docs.python-requests.org/en/master/)
 
 ## To structure programs
@@ -77,9 +83,10 @@ def print_n_primes(a):
         if i == a:
             break
 ```
+
 Now we want to use the functions that we just created in `prime_functions.py` so we create a new file `playground.py` to use those functions.
 
-> *Please note that this program is far too simple to make two separate files, it is just to demonstrate. But when there are large complex programs, making different files is really useful.*
+> _Please note that this program is far too simple to make two separate files, it is just to demonstrate. But when there are large complex programs, making different files is really useful._
 
 ```python
 # playground.py
