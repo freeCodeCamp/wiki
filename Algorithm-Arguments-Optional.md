@@ -79,7 +79,7 @@ function addTogether() {
 addTogether(2,3);
 ```
 
-:rocket: [REPL It!](https://repl.it/CLnz/0)
+:rocket: [Run Code](https://repl.it/CLnz/0)
 
 ### Code Explanation:
 
@@ -133,7 +133,7 @@ function addTogether() {
 addTogether(2,3);
 ```
 
-:rocket: [REPL It!](https://repl.it/CLoA/0)
+:rocket: [Run Code](https://repl.it/CLoA/0)
 
 ## Third Solution:
 
@@ -154,7 +154,7 @@ function addTogether() {
 addTogether(2,3);
 ```
 
-:rocket: [REPL It!](https://repl.it/CLoB/0)
+:rocket: [Run Code](https://repl.it/CLoB/0)
 
 ### Code Explanation:
 

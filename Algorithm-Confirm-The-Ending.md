@@ -32,7 +32,7 @@ function confirmEnding(str, target) {
 }
 ```
 
-:rocket: [REPL It!](https://repl.it/CLjU/18)
+:rocket: [Run Code](https://repl.it/CLjU/18)
 
 ## Code Explanation:
 

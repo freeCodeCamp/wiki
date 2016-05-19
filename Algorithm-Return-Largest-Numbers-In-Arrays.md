@@ -52,7 +52,7 @@ function largestOfFour(arr) {
 }
 ```
 
-:rocket: [REPL It!](https://repl.it/CLjU/15)
+:rocket: [Run Code](https://repl.it/CLjU/15)
 
 ### Code Explanation:
 
@@ -78,7 +78,7 @@ function largestOfFour(arr) {
 }
 ```
 
-:rocket: [REPL It!](https://repl.it/CLjU/16)
+:rocket: [Run Code](https://repl.it/CLjU/16)
 
 ### Code Explanation:
 
@@ -102,7 +102,7 @@ function largestOfFour(arr) {
 }
 ```
 
-:rocket: [REPL It!](https://repl.it/CLjU/17)
+:rocket: [Run Code](https://repl.it/CLjU/17)
 
 ### Code Explanation:
 

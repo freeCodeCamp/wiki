@@ -53,7 +53,7 @@ function translatePigLatin(str) {
 translatePigLatin("consonant");
 ```
 
-:rocket: [REPL It!](https://repl.it/CLmt/0)
+:rocket: [Run Code](https://repl.it/CLmt/0)
 
 ### Second solution
 
@@ -81,7 +81,7 @@ function translatePigLatin(str) {
 translatePigLatin("consonant");
 ```
 
-:rocket: [REPL It!](https://repl.it/CLmu/0)
+:rocket: [Run Code](https://repl.it/CLmu/0)
 
 ### Third solution
 
@@ -115,7 +115,7 @@ function translatePigLatin(str) {
 translatePigLatin("consonant");
 ```
 
-:rocket: [REPL It!](https://repl.it/CLmv/0)
+:rocket: [Run Code](https://repl.it/CLmv/0)
 
 ### Fourth Solution (recursive and declarative)
 
@@ -135,7 +135,7 @@ function translatePigLatin(str) {
 translatePigLatin("consonant");
 ```
 
-:rocket: [REPL It!](https://repl.it/CLmw/0)
+:rocket: [Run Code](https://repl.it/CLmw/0)
 
 ## Code Explanation:
 

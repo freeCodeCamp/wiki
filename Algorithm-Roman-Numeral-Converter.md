@@ -52,7 +52,7 @@ var convertToRoman = function(num) {
 convertToRoman(36);
 ```
 
-:rocket: [REPL It!](https://repl.it/CLmf/0)
+:rocket: [Run Code](https://repl.it/CLmf/0)
 
 ## Code Explanation:
 

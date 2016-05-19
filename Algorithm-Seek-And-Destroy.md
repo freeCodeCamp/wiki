@@ -34,7 +34,7 @@ function destroyer(arr) {
 }
 ```
 
-:rocket: [REPL It!](https://repl.it/CLjU/35)
+:rocket: [Run Code](https://repl.it/CLjU/35)
 
 ## Code Explanation:
 

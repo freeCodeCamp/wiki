@@ -62,7 +62,7 @@ function convertHTML(str) {
 convertHTML("Dolce & Gabbana");
 ```
 
-:rocket: [REPL It!](https://repl.it/CLnP/0)
+:rocket: [Run Code](https://repl.it/CLnP/0)
 
 ## Medium Solution
 
@@ -77,7 +77,7 @@ return str;
 convertHTML("Dolce & Gabbana");
 ```
 
-:rocket: [REPL It!](https://repl.it/CLnQ/0)
+:rocket: [Run Code](https://repl.it/CLnQ/0)
 
 ## Advanced Solution
 
@@ -101,7 +101,7 @@ function convertHTML(str) {
 convertHTML("Dolce & Gabbana");
 ```
 
-:rocket: [REPL It!](https://repl.it/CLnR/0)
+:rocket: [Run Code](https://repl.it/CLnR/0)
 
 ## Code Explanation (Advanced Solution):
 

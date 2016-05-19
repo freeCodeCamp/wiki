@@ -35,7 +35,7 @@ function bouncer(arr) {
 }
 ```
 
-:rocket: [REPL It!](https://repl.it/CLjU/32)
+:rocket: [Run Code](https://repl.it/CLjU/32)
 
 ```javascript
 function bouncer(arr) {
@@ -48,7 +48,7 @@ function bouncer(arr) {
 }
 ```
 
-:rocket: [REPL It!](https://repl.it/CLjU/33)
+:rocket: [Run Code](https://repl.it/CLjU/33)
 
 ```javascript
 function bouncer(arr) {
@@ -59,7 +59,7 @@ function bouncer(arr) {
 }
 ```
 
-:rocket: [REPL It!](https://repl.it/CLjU/34)
+:rocket: [Run Code](https://repl.it/CLjU/34)
 
 ## Code Explanation:
 

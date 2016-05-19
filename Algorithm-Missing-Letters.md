@@ -67,7 +67,7 @@ function fearNotLetter(str) {
 fearNotLetter("abce");
 ```
 
-:rocket: [REPL It!](https://repl.it/CLnC/0)
+:rocket: [Run Code](https://repl.it/CLnC/0)
 
 ### Second solution:
 
@@ -93,7 +93,7 @@ function fearNotLetter(str) {
 fearNotLetter("abce");
 ```
 
-:rocket: [REPL It!](https://repl.it/CLnD/0)
+:rocket: [Run Code](https://repl.it/CLnD/0)
 
 ### Third solution (Declarative)
 
@@ -116,7 +116,7 @@ function fearNotLetter(str) {
 fearNotLetter("abce");
 ```
 
-:rocket: [REPL It!](https://repl.it/CLnE/0)
+:rocket: [Run Code](https://repl.it/CLnE/0)
 
 ### Fourth solution:
 
@@ -141,7 +141,7 @@ function fearNotLetter(str) {
 fearNotLetter("abce");
 ```
 
-:rocket: [REPL It!](https://repl.it/CLnF/0)
+:rocket: [Run Code](https://repl.it/CLnF/0)
 
 ### Fifth solution:
 
@@ -158,7 +158,7 @@ function fearNotLetter(str) {
 fearNotLetter("abce");
 ```
 
-:rocket: [REPL It!](https://repl.it/CLnG/0)
+:rocket: [Run Code](https://repl.it/CLnG/0)
 
 ## Code Explanation:
 

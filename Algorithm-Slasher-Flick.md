@@ -36,7 +36,7 @@ function slasher(arr, howMany) {
 slasher([1, 2, 3], 2);
 ```
 
-:rocket: [REPL It!](https://repl.it/CLjU/28)
+:rocket: [Run Code](https://repl.it/CLjU/28)
 
 ## Code Solution 2:
 
@@ -49,7 +49,7 @@ function slasher(arr, howMany) {
 }
 ```
 
-:rocket: [REPL It!](https://repl.it/CLjU/29)
+:rocket: [Run Code](https://repl.it/CLjU/29)
 
 ## References
 

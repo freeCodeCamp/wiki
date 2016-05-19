@@ -44,6 +44,6 @@ Math Square root value: 49.565108695532984
 Math Square root value: NaN
 ```
 
-:rocket: [REPL It!](https://repl.it/CLjD/0)
+:rocket: [Run Code](https://repl.it/CLjD/0)
 
 Source: [Math.sqrt()](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html#sqrt-double-)

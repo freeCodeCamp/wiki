@@ -65,7 +65,7 @@ var bob = new Person('Bob Ross');
 bob.getFullName();
 ```
 
-:rocket: [REPL It!](https://repl.it/CLov/0)
+:rocket: [Run Code](https://repl.it/CLov/0)
 
 ## Code Explanation:
 

@@ -41,7 +41,7 @@ function findLongestWord(str) {
 }
 ```
 
-:rocket: [REPL It!](https://repl.it/CLjU/5)
+:rocket: [Run Code](https://repl.it/CLjU/5)
 
 ### Second solution
 
@@ -56,7 +56,7 @@ function findLongestWord(s) {
 }
 ```
 
-:rocket: [REPL It!](https://repl.it/CLjU/6)
+:rocket: [Run Code](https://repl.it/CLjU/6)
 
 ### Third solution
 
@@ -91,7 +91,7 @@ function findLongestWord(str) {
 }
 ```
 
-:rocket: [REPL It!](https://repl.it/CLjU/7)
+:rocket: [Run Code](https://repl.it/CLjU/7)
 
 ## Code Explanation:
 

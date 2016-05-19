@@ -37,6 +37,6 @@ print(all([9, 8, {}])) #=> False Because it has {}
 print(all([9, 8, {'engine': 'Gcloud'}])) #=> True
 ```
 
-:rocket: [REPL It!](https://repl.it/CL9U/0)
+:rocket: [Run Code](https://repl.it/CL9U/0)
 
 [Official Docs](https://docs.python.org/3/library/functions.html#all)

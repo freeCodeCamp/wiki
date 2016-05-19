@@ -65,7 +65,7 @@ function diffArray(arr1, arr2) {
 diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5]);
 ```
 
-[<kbd><img src="https://i.imgur.com/80UCMbk.png"> <strong>REPL it!</strong> :rocket: </kbd>](https://repl.it/CLme/0)
+[<kbd><img src="https://i.imgur.com/80UCMbk.png"> <strong>Run Code</strong> :rocket: </kbd>](https://repl.it/CLme/0)
 
 ### Code Explanation:
 
@@ -89,7 +89,7 @@ function diffArray(arr1, arr2) {
 diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5]);
 ```
 
-[<kbd><img src="https://i.imgur.com/80UCMbk.png"> <strong>REPL it!</strong> :rocket: </kbd>](https://repl.it/CNYb/0)
+[<kbd><img src="https://i.imgur.com/80UCMbk.png"> <strong>Run Code</strong> :rocket: </kbd>](https://repl.it/CNYb/0)
 
 ### Code Explanation:
 
@@ -115,7 +115,7 @@ function diffArray(arr1, arr2) {
 diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5]);
 ```
 
-[<kbd><img src="https://i.imgur.com/80UCMbk.png"> <strong>REPL it!</strong> :rocket: </kbd>](https://repl.it/CNYU/0)
+[<kbd><img src="https://i.imgur.com/80UCMbk.png"> <strong>Run Code</strong> :rocket: </kbd>](https://repl.it/CNYU/0)
 
 ### Code Explanation:
 

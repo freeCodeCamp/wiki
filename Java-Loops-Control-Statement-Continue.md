@@ -43,6 +43,6 @@ for (int i = 0; i < max; i++)
 System.out.println("numPs = " + numPs);
 ```
 
-:rocket: [REPL It!](https://repl.it/CJZH/0)
+:rocket: [Run Code](https://repl.it/CJZH/0)
 
 [Previous](Java-Loops)

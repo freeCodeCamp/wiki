@@ -44,7 +44,7 @@ function dropElements(arr, func) {
 dropElements([1, 2, 3, 4], function(n) {return n >= 3;})
 ```
 
-:rocket: [REPL It!](https://repl.it/CLna/0)
+:rocket: [Run Code](https://repl.it/CLna/0)
 
 ## Code Explanation:
 
@@ -63,7 +63,7 @@ function dropElements(arr, func) {
 dropElements([1, 2, 3, 4], function(n) {return n >= 3;});
 ```
 
-:rocket: [REPL It!](https://repl.it/CLnc/0)
+:rocket: [Run Code](https://repl.it/CLnc/0)
 
 ## Code Explanation:
 
@@ -85,7 +85,7 @@ function dropElements(arr, func) {
 dropElements([1, 2, 3, 4], function(n) {return n >= 3;});
 ```
 
-:rocket: [REPL It!](https://repl.it/CLnf/0)
+:rocket: [Run Code](https://repl.it/CLnf/0)
 
 ## Code Explanation
 

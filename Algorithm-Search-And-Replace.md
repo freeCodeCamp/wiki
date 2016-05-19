@@ -43,7 +43,7 @@ function myReplace(str, before, after) {
 myReplace("A quick brown fox jumped over the lazy dog", "jumped", "leaped");
 ```
 
-:rocket: [REPL It!](https://repl.it/CLmo/0)
+:rocket: [Run Code](https://repl.it/CLmo/0)
 
 ## Code Solution #2:
 
@@ -66,7 +66,7 @@ function myReplace(str, before, after) {
 myReplace("A quick brown fox jumped over the lazy dog", "jumped", "leaped");
 ```
 
-:rocket: [REPL It!](https://repl.it/CLmp/0)
+:rocket: [Run Code](https://repl.it/CLmp/0)
 
 ## Code Solution #3:
 
@@ -102,7 +102,7 @@ function myReplace(str, before, after) {
 myReplace("A quick brown fox jumped over the lazy dog", "jumped", "leaped");
 ```
 
-:rocket: [REPL It!](https://repl.it/CLmq/0)
+:rocket: [Run Code](https://repl.it/CLmq/0)
 
 ## Code Explanation:
 

@@ -45,7 +45,7 @@ function palindrome(str) {
 }
 ```
 
-:rocket: [REPL It!](https://repl.it/CLjU/2)
+:rocket: [Run Code](https://repl.it/CLjU/2)
 
 ## Second Solution
 
@@ -61,7 +61,7 @@ function palindrome(str) {
 }
 ```
 
-:rocket: [REPL It!](https://repl.it/CLjU/3)
+:rocket: [Run Code](https://repl.it/CLjU/3)
 
 ## Third Solution
 
@@ -88,7 +88,7 @@ function palindrome(str) {
 }
 ```
 
-:rocket: [REPL It!](https://repl.it/CLjU/4)
+:rocket: [Run Code](https://repl.it/CLjU/4)
 
 # Code Explanation:
 

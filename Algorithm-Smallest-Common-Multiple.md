@@ -69,7 +69,7 @@ function smallestCommons(arr) {
 smallestCommons([1,5]);
 ```
 
-:rocket: [REPL It!](https://repl.it/CLn2/0)
+:rocket: [Run Code](https://repl.it/CLn2/0)
 
 ## Code Explanation:
 
@@ -120,7 +120,7 @@ function smallestCommons(arr) {
 smallestCommons([1,5]);
 ```
 
-:rocket: [REPL It!](https://repl.it/CLn3/0)
+:rocket: [Run Code](https://repl.it/CLn3/0)
 
 If you have trouble understanding the `.reduce()` method, you can compare it to this code, which essentially does the same thing:
 
@@ -150,7 +150,7 @@ function smallestCommons(arr) {
 smallestCommons([1,5]);
 ```
 
-:rocket: [REPL It!](https://repl.it/CLn4/0)
+:rocket: [Run Code](https://repl.it/CLn4/0)
 
 This code is based on the [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm) for finding smallest common multiples.
 

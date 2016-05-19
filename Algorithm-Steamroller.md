@@ -49,7 +49,7 @@ function steamrollArray(arr) {
 steamrollArray([1, [2], [3, [[4]]]]);
 ```
 
-:rocket: [REPL It!](https://repl.it/CLnh/0)
+:rocket: [Run Code](https://repl.it/CLnh/0)
 
 ## Code Explanation:
 
@@ -72,7 +72,7 @@ function steamrollArray(arr) {
 steamrollArray([1, [2], [3, [[4]]]]);
 ```
 
-:rocket: [REPL It!](https://repl.it/CLni/0)
+:rocket: [Run Code](https://repl.it/CLni/0)
 
 ## Code Explanation:
 

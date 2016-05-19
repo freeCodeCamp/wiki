@@ -119,7 +119,7 @@ function permAlone(str) {
 permAlone('aab');
 ```
 
-:rocket: [REPL It!](https://repl.it/CLop/0)
+:rocket: [Run Code](https://repl.it/CLop/0)
 
 ## Code Explanation:
 

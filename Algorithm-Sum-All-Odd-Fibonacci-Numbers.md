@@ -45,7 +45,7 @@ function sumFibs(num) {
 sumFibs(4);
 ```
 
-:rocket: [REPL It!](https://repl.it/CLnV/0)
+:rocket: [Run Code](https://repl.it/CLnV/0)
 
 ## Code Explanation:
 
@@ -79,7 +79,7 @@ function sumFibs(num) {
 sumFibs(4);
 ```
 
-:rocket: [REPL It!](https://repl.it/CLnW/0)
+:rocket: [Run Code](https://repl.it/CLnW/0)
 
 ## Code Explanation:
 

@@ -42,7 +42,7 @@ function spinalCase(str) {
 spinalCase('This Is Spinal Tap');
 ```
 
-:rocket: [REPL It!](https://repl.it/CLnS/0)
+:rocket: [Run Code](https://repl.it/CLnS/0)
 
 ### Second solution
 
@@ -58,7 +58,7 @@ function spinalCase(str) {
 spinalCase('This Is Spinal Tap');
 ```
 
-:rocket: [REPL It!](https://repl.it/CLnT/0)
+:rocket: [Run Code](https://repl.it/CLnT/0)
 
 ## Code Explanation:
 

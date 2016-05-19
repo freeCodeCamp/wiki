@@ -69,7 +69,7 @@ function pairwise(arr, arg) {
 pairwise([1,4,2,3,0,5], 7);
 ```
 
-:rocket: [REPL It!](https://repl.it/CLpC/0)
+:rocket: [Run Code](https://repl.it/CLpC/0)
 
 ## Code Explanation:
 
@@ -106,7 +106,7 @@ function pairwise(arr, arg) {
 pairwise([1,4,2,3,0,5], 7);
 ```
 
-:rocket: [REPL It!](https://repl.it/CLpD/0)
+:rocket: [Run Code](https://repl.it/CLpD/0)
 
 ## Code explanation in comments
 

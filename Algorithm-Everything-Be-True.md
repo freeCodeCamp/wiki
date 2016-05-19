@@ -45,7 +45,7 @@ function truthCheck(collection, pre) {
 truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "male"}, {"user": "Laa-Laa", "sex": "female"}, {"user": "Po", "sex": "female"}], "sex");
 ```
 
-:rocket: [REPL It!](https://repl.it/CLnw/0)
+:rocket: [Run Code](https://repl.it/CLnw/0)
 
 ### Code Explanation:
 
@@ -66,7 +66,7 @@ function truthCheck(collection, pre) {
 truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "male"}, {"user": "Laa-Laa", "sex": "female"}, {"user": "Po", "sex": "female"}], "sex");
 ```
 
-:rocket: [REPL It!](https://repl.it/CLny/0)
+:rocket: [Run Code](https://repl.it/CLny/0)
 
 ### Code Explanation:
 
@@ -92,7 +92,7 @@ function truthCheck(collection, pre) {
 truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "male"}, {"user": "Laa-Laa", "sex": "female"}, {"user": "Po", "sex": "female"}], "sex");
 ```
 
-:rocket: [REPL It!](https://repl.it/CLnv/0)
+:rocket: [Run Code](https://repl.it/CLnv/0)
 
 ### Code Explanation:
 
