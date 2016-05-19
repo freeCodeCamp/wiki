@@ -1,4 +1,4 @@
-# Algorithm Comfirm the Ending
+# Algorithm Confirm the Ending
 
 ![](http://i.imgur.com/Z7vhddH.jpg)
 
