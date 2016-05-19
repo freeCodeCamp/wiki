@@ -1,6 +1,6 @@
 # Python From X Import Y
 
-If you have read the [`import statements`](#) wiki then you'd have seen me use this statement in one of the examples. Today, we'll try to understand what it does
+If you have read the [`import statements`](Python-Import-Statements) wiki then you'd have seen me use this statement in one of the examples. Today, we'll try to understand what it does
 
 So picking up the same example:
 
