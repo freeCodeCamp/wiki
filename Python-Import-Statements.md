@@ -18,7 +18,7 @@ for i in range(100):
     time.sleep(1)   # Waits for 1 second and then executes the next command
     print(str(i) + ' seconds have passed')  # prints the number of seconds passed after the program was started
 ```
-:rocket: [repl.it](https://repl.it/CS6C)
+:rocket: [Run Code](https://repl.it/CS6C)
 
 ```python
 # To calculate the execution time of a part of program
@@ -28,7 +28,7 @@ start = time.time()
 end = time.time()
 print('Execution time:' , end-start)
 ```
-:rocket: [repl.it](https://repl.it/CS6C/1)
+:rocket: [Run Code](https://repl.it/CS6C/1)
 
 ```python
 # Using math Module
@@ -36,7 +36,7 @@ import math
 print(math.sqrt(100))   # prints 10
 ```
 
-:rocket: [repl.it](https://repl.it/CS6C/2)
+:rocket: [Run Code](https://repl.it/CS6C/2)
 ## Using third party Modules
 Third party modules don't come bundled with python , but we have to install it externally using package managers like [`pip`](https://bootstrap.pypa.io/get-pip.py) and [`easy install`](https://bootstrap.pypa.io/ez_setup.py)
 
