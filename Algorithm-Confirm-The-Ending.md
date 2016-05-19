@@ -1,10 +1,10 @@
-# Algorithm Comfirm the Ending
+# Algorithm Confirm the Ending
 
 ![](http://i.imgur.com/Z7vhddH.jpg)
 
 ### Explanation:
 
-The function is a whole Boolean operation. You need to return true if the first argument ends with the second argument. This means that for the problem script, it should return true for the `confirmEnding('Bastian', 'n'); case.`
+The function is a whole Boolean operation. You need to return true if the first argument ends with the second argument. This means that for the problem script, it should return true for the `confirmEnding('Bastian', 'n');` case.
 
 ## Hint: 1
 
