@@ -43,7 +43,7 @@ function titleCase(str) {
 }
 ```
 
-:rocket: [REPL It!](https://repl.it/CLjU/8)
+:rocket: [Run Code](https://repl.it/CLjU/8)
 
 ### Code Explanation:
 
@@ -65,7 +65,7 @@ function titleCase(str) {
 titleCase("I'm a little tea pot");
 ```
 
-:rocket: [REPL It!](https://repl.it/CLjU/9)
+:rocket: [Run Code](https://repl.it/CLjU/9)
 
 ### Code Explanation:
 
@@ -90,7 +90,7 @@ function titleCase(str) {
 titleCase("hello world");
 ```
 
-:rocket: [REPL It!](https://repl.it/CLjU/11)
+:rocket: [Run Code](https://repl.it/CLjU/11)
 
 ## Fourth Solution:
 
@@ -106,7 +106,7 @@ function titleCase(str) {
 titleCase("I'm a little tea pot", "");
 ```
 
-:rocket: [REPL It!](https://repl.it/CLjU/12)
+:rocket: [Run Code](https://repl.it/CLjU/12)
 
 ## Fifth Solution:
 
@@ -119,7 +119,7 @@ function titleCase(str) {
 titleCase("I'm a little tea pot", "");
 ```
 
-:rocket: [REPL It!](https://repl.it/CLjU/13)
+:rocket: [Run Code](https://repl.it/CLjU/13)
 
 ## Sixth Solution:
 
@@ -129,7 +129,7 @@ function titleCase(str) {
 }
 ```
 
-:rocket: [REPL It!](https://repl.it/CLjU/14)
+:rocket: [Run Code](https://repl.it/CLjU/14)
 
 ### Code Explanation:
 

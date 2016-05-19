@@ -42,7 +42,7 @@ System.out.println(modelS.getManufacturerName());
 modelS.charge();
 ```
 
-:rocket: [REPL It!](https://repl.it/CJZY/0)
+:rocket: [Run Code](https://repl.it/CJZY/0)
 
 See here that the class `ElecticCar` inherits or `extends` the public methods from `Car` class, as well as has its own methods and properties. Cool way to pass on information!
 

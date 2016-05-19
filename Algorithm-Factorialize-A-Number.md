@@ -71,7 +71,7 @@ function factorialize(num) {
 factorialize(5);
 ```
 
-:rocket: [REPL It!](https://repl.it/CLjU/1)
+:rocket: [Run Code](https://repl.it/CLjU/1)
 
 ## References
 

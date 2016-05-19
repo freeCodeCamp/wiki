@@ -90,6 +90,6 @@ if(cash<25){
 }
 ```
 
-:rocket: [REPL It!](https://repl.it/CJZi/1)
+:rocket: [Run Code](https://repl.it/CJZi/1)
 
 [Previous](Java-Basics)

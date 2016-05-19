@@ -58,7 +58,7 @@ function whereAreYou(collection, source) {
 whereAreYou([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], { last: "Capulet" });
 ```
 
-:rocket: [REPL It!](https://repl.it/CLmh/0)
+:rocket: [Run Code](https://repl.it/CLmh/0)
 
 ### Second
 
@@ -83,7 +83,7 @@ function whereAreYou(collection, source) {
 whereAreYou([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], { last: "Capulet" });
 ```
 
-:rocket: [REPL It!](https://repl.it/CLmi/0)
+:rocket: [Run Code](https://repl.it/CLmi/0)
 
 ### Third
 
@@ -108,7 +108,7 @@ function whereAreYou(collection, source) {
 whereAreYou([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], { last: "Capulet" });
 ```
 
-:rocket: [REPL It!](https://repl.it/CLmj/0)
+:rocket: [Run Code](https://repl.it/CLmj/0)
 
 ### Fourth
 
@@ -139,7 +139,7 @@ function whereAreYou(collection, source) {
 whereAreYou([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], { last: "Capulet" });
 ```
 
-:rocket: [REPL It!](https://repl.it/CLml/0)
+:rocket: [Run Code](https://repl.it/CLml/0)
 
 ## Code Explanation:
 

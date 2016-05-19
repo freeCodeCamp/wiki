@@ -50,7 +50,7 @@ findElement([1, 2, 3, 4], function(num) {
 findElement([1, 2, 3, 4], function(num){ return num % 2 === 0; });
 ```
 
-:rocket: [REPL It!](https://repl.it/CLn6/0)
+:rocket: [Run Code](https://repl.it/CLn6/0)
 
 ## Another Code Solution:
 
@@ -65,7 +65,7 @@ function findElement(arr, func) {
 findElement([1, 2, 3, 4], function(num){ return num % 2 === 0; });
 ```
 
-:rocket: [REPL It!](https://repl.it/CLn7/0)
+:rocket: [Run Code](https://repl.it/CLn7/0)
 
 ## Code Explanation:
 

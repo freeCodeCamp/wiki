@@ -36,7 +36,7 @@ function truncateString(str, num) {
 }
 ```
 
-:rocket: [REPL It!](https://repl.it/CLjU/23)
+:rocket: [Run Code](https://repl.it/CLjU/23)
 
 ## Code Explanation:
 

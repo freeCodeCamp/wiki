@@ -35,7 +35,7 @@ function booWho(bool) {
 booWho(null);
 ```
 
-:rocket: [REPL It!](https://repl.it/CLnK/0)
+:rocket: [Run Code](https://repl.it/CLnK/0)
 
 # Code Explanation:
 

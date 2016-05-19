@@ -39,7 +39,7 @@ function repeatStringNumTimes(str, num) {
 }
 ```
 
-:rocket: [REPL It!](https://repl.it/CLjU/19)
+:rocket: [Run Code](https://repl.it/CLjU/19)
 
 ### Second Solution
 
@@ -55,7 +55,7 @@ function repeatStringNumTimes(str, num) {
 repeatStringNumTimes("abc", 3);
 ```
 
-:rocket: [REPL It!](https://repl.it/CLjU/20)
+:rocket: [Run Code](https://repl.it/CLjU/20)
 
 ### Third Solution
 
@@ -72,7 +72,7 @@ function repeatStringNumTimes(str, num) {
 }
 ```
 
-:rocket: [REPL It!](https://repl.it/CLjU/21)
+:rocket: [Run Code](https://repl.it/CLjU/21)
 
 ### Fourth Solution
 
@@ -86,7 +86,7 @@ function repeatStringNumTimes(str, num) {
 repeatStringNumTimes("abc", 3);
 ```
 
-:rocket: [REPL It!](https://repl.it/CLjU/22)
+:rocket: [Run Code](https://repl.it/CLjU/22)
 
 ## Code Explanation:
 

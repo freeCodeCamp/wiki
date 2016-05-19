@@ -39,7 +39,7 @@ function getIndexToIns(arr, num) {
 }
 ```
 
-:rocket: [REPL It!](https://repl.it/CLjU/36)
+:rocket: [Run Code](https://repl.it/CLjU/36)
 
 ## Code Explanation:
 
@@ -58,7 +58,7 @@ function getIndexToIns(arr, num) {
  }
 ```
 
-:rocket: [REPL It!](https://repl.it/CLjU/37)
+:rocket: [Run Code](https://repl.it/CLjU/37)
 
 ## Code Explanation:
 

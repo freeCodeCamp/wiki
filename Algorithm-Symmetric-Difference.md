@@ -92,7 +92,7 @@ function sym() {
 sym([1, 2, 3], [5, 2, 1, 4]);
 ```
 
-:rocket: [REPL It!](https://repl.it/CLoc/0)
+:rocket: [Run Code](https://repl.it/CLoc/0)
 
 ## Code Explanation 1:
 
@@ -129,7 +129,7 @@ function sym() {
 sym([1, 2, 3], [5, 2, 1, 4]);
 ```
 
-:rocket: [REPL It!](https://repl.it/CLod/0)
+:rocket: [Run Code](https://repl.it/CLod/0)
 
 ## Code Explaination 2:
 

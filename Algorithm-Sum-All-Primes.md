@@ -60,7 +60,7 @@ function sumPrimes(num) {
 sumPrimes(10);
 ```
 
-:rocket: [REPL It!](https://repl.it/CLnZ/0)
+:rocket: [Run Code](https://repl.it/CLnZ/0)
 
 ## Code Explanation:
 
@@ -106,7 +106,7 @@ function sumPrimes(num) {
 sumPrimes(10);
 ```
 
-:rocket: [REPL It!](https://repl.it/CLn0/0)
+:rocket: [Run Code](https://repl.it/CLn0/0)
 
 ## Credits:
 

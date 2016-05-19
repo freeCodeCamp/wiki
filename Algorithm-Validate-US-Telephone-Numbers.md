@@ -36,7 +36,7 @@ function telephoneCheck(str) {
 telephoneCheck("555-555-5555");
 ```
 
-:rocket: [REPL It!](https://repl.it/CLo9/0)
+:rocket: [Run Code](https://repl.it/CLo9/0)
 
 ## Code Explanation:
 
@@ -60,7 +60,7 @@ function telephoneCheck(str) {
 telephoneCheck("555-555-5555");
 ```
 
-:rocket: [REPL It!](https://repl.it/CLoa/0)
+:rocket: [Run Code](https://repl.it/CLoa/0)
 
 ## Code Explanation
 

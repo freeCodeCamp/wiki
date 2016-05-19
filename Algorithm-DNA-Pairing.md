@@ -63,7 +63,7 @@ function pairElement(str) {
 pairElement("GCG");
 ```
 
-:rocket: [REPL It!](https://repl.it/CLmz/0)
+:rocket: [Run Code](https://repl.it/CLmz/0)
 
 ## Code Explanation:
 
@@ -90,7 +90,7 @@ function pairElement(str) {
 pairElement("GCG");
 ```
 
-:rocket: [REPL It!](https://repl.it/CLnA/0)
+:rocket: [Run Code](https://repl.it/CLnA/0)
 
 ## Code Explanation:
 

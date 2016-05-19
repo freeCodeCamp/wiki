@@ -49,7 +49,7 @@ function convertHTML(str) {
         temp[i] = '"';
         break;
       case "'":
-        temp[i] = ''';
+        temp[i] = "'";
         break;
     }
   }
@@ -58,18 +58,18 @@ function convertHTML(str) {
   return temp;
 }
 
-// test here
+//test here
 convertHTML("Dolce & Gabbana");
 ```
 
-:rocket: [REPL It!](https://repl.it/CLnP/0)
+:rocket: [Run Code](https://repl.it/CLnP/0)
 
 ## Medium Solution
 
 ```javascript
 function convertHTML(str) {
 //Chaining of replace method with different arguments
-  str = str.replace(/&/g,'&').replace(/</g,'<').replace(/>/g,'>').replace(/"/g,'"').replace(/'/g,''');
+  str = str.replace(/&/g,'&').replace(/</g,'<').replace(/>/g,'>').replace(/"/g,'"').replace(/'/g,"'");
 return str;
 }
 
@@ -77,7 +77,7 @@ return str;
 convertHTML("Dolce & Gabbana");
 ```
 
-:rocket: [REPL It!](https://repl.it/CLnQ/0)
+:rocket: [Run Code](https://repl.it/CLnQ/0)
 
 ## Advanced Solution
 
@@ -89,7 +89,7 @@ function convertHTML(str) {
     '<':'<',
     '>':'>',
     '\"':'"',
-    '\'':'''
+    '\'':"'"
   };
   //Use map function to return a filtered str with all entities changed automatically.
   return str.split('').map(function(entity){
@@ -101,7 +101,7 @@ function convertHTML(str) {
 convertHTML("Dolce & Gabbana");
 ```
 
-:rocket: [REPL It!](https://repl.it/CLnR/0)
+:rocket: [Run Code](https://repl.it/CLnR/0)
 
 ## Code Explanation (Advanced Solution):
 

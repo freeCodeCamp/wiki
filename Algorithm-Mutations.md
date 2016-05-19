@@ -38,7 +38,7 @@ function mutation(arr) {
  }
 ```
 
-:rocket: [REPL It!](https://repl.it/CLjU/30)
+:rocket: [Run Code](https://repl.it/CLjU/30)
 
 ## Second Solution (Declarative):
 
@@ -53,7 +53,7 @@ function mutation(arr) {
 }
 ```
 
-:rocket: [REPL It!](https://repl.it/CLjU/31)
+:rocket: [Run Code](https://repl.it/CLjU/31)
 
 ## Code Explanations:
 

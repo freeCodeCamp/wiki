@@ -54,7 +54,7 @@ function orbitalPeriod(arr) {
 orbitalPeriod([{name : "sputnik", avgAlt : 35873.5553}]);
 ```
 
-:rocket: [REPL It!](https://repl.it/CLow/0)
+:rocket: [Run Code](https://repl.it/CLow/0)
 
 ### Second solution
 
@@ -80,7 +80,7 @@ function orbitalPeriod(arr) {
 orbitalPeriod([{name : "sputnik", avgAlt : 35873.5553}]);
 ```
 
-:rocket: [REPL It!](https://repl.it/CLoy/0)
+:rocket: [Run Code](https://repl.it/CLoy/0)
 
 ### Third solution
 
@@ -104,7 +104,7 @@ function orbitalPeriod(arr) {
 orbitalPeriod([{name : "sputnik", avgAlt : 35873.5553}]);
 ```
 
-:rocket: [REPL It!](https://repl.it/CLoz/0)
+:rocket: [Run Code](https://repl.it/CLoz/0)
 
 ## Code Explanation:
 

@@ -18,6 +18,6 @@ print(abs(-6)) # prints 6
 print(abs(3 + 4j)) # prints 5, because |3 + 4j| = 5
 ```
 
-:rocket: [REPL It!](https://repl.it/CL8k/0)
+:rocket: [Run Code](https://repl.it/CL8k/0)
 
 [Official Docs](https://docs.python.org/3/library/functions.html#abs)

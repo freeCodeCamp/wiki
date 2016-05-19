@@ -41,7 +41,7 @@ System.out.println("Full Car Name = " + modelS.getManufacturerName() + " " + mod
 // prints Tesla Model S
 ```
 
-:rocket: [REPL It!](https://repl.it/CJZP/0)
+:rocket: [Run Code](https://repl.it/CJZP/0)
 
 So, `Car` is a class, which has the fields or properties name and manufacturerName. `modelS` is an object of `Car` class. So `modelS` also has the same properties and methods.
 

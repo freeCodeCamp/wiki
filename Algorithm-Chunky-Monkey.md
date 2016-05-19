@@ -109,7 +109,7 @@ function chunkArrayInGroups(arr, size) {
 }
 ```
 
-:rocket: [REPL It!](https://repl.it/CLjU/24)
+:rocket: [Run Code](https://repl.it/CLjU/24)
 
 ### Solution 2:
 
@@ -127,7 +127,7 @@ function chunkArrayInGroups(arr, size) {
 }
 ```
 
-:rocket: [REPL It!](https://repl.it/CLjU/25)
+:rocket: [Run Code](https://repl.it/CLjU/25)
 
 ### Solution 3:
 
@@ -146,7 +146,7 @@ function chunkArrayInGroups(arr, size) {
 chunkArrayInGroups(["a", "b", "c", "d"], 2);
 ```
 
-:rocket: [REPL It!](https://repl.it/CLjU/26)
+:rocket: [Run Code](https://repl.it/CLjU/26)
 
 ### Solution 4:
 
@@ -162,7 +162,7 @@ function chunkArrayInGroups(arr, size) {
 }
 ```
 
-:rocket: [REPL It!](https://repl.it/CLjU/27)
+:rocket: [Run Code](https://repl.it/CLjU/27)
 
 ## Credits:
 

@@ -35,6 +35,6 @@ print(any([0, 6, 7])) #=> True
 print(any([9, 8, [1, 2]])) #=> True
 ```
 
-:rocket: [REPL It!](https://repl.it/CL9c/0)
+:rocket: [Run Code](https://repl.it/CL9c/0)
 
 [Official Docs](https://docs.python.org/3/library/functions.html#any)

@@ -95,7 +95,7 @@ var newInv = [
 updateInventory(curInv, newInv);
 ```
 
-:rocket: [REPL It!](https://repl.it/CLok/0)
+:rocket: [Run Code](https://repl.it/CLok/0)
 
 ### Second solution
 
@@ -163,7 +163,7 @@ var newInv = [
 updateInventory(curInv, newInv);
 ```
 
-:rocket: [REPL It!](https://repl.it/CLol/0)
+:rocket: [Run Code](https://repl.it/CLol/0)
 
 ### Third solution
 
@@ -204,7 +204,7 @@ var newInv = [
 updateInventory(curInv, newInv);
 ```
 
-:rocket: [REPL It!](https://repl.it/CLom/0)
+:rocket: [Run Code](https://repl.it/CLom/0)
 
 ### Fourth Solution
 
@@ -244,7 +244,7 @@ var newInv = [
 updateInventory(curInv, newInv);
 ```
 
-:rocket: [REPL It!](https://repl.it/CLon/0)
+:rocket: [Run Code](https://repl.it/CLon/0)
 
 ## Code Explanation:
 

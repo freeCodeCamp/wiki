@@ -54,7 +54,7 @@ function uniteUnique(arr1, arr2, arr3) {
 uniteUnique([1, 3, 2], [5, 2, 1, 4], [2, 1]);
 ```
 
-:rocket: [REPL It!](https://repl.it/CLnM/0)
+:rocket: [Run Code](https://repl.it/CLnM/0)
 
 ## Code Explanation:
 
@@ -79,7 +79,7 @@ function uniteUnique() {
 uniteUnique([1, 3, 2], [5, 2, 1, 4], [2, 1]);
 ```
 
-:rocket: [REPL It!](https://repl.it/CLnN/0)
+:rocket: [Run Code](https://repl.it/CLnN/0)
 
 ## Code Explanation:
 
@@ -110,7 +110,7 @@ function uniteUnique(arr1, arr2, arr3) {
 uniteUnique([1, 3, 2], [5, 2, 1, 4], [2, 1]);
 ```
 
-:rocket: [REPL It!](https://repl.it/CLnO/0)
+:rocket: [Run Code](https://repl.it/CLnO/0)
 
 ## Credits:
 

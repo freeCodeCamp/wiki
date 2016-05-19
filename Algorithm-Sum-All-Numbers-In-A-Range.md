@@ -38,7 +38,7 @@ function sumAll(arr) {
 sumAll([1, 4]);
 ```
 
-:rocket: [REPL It!](https://repl.it/CLm6/0)
+:rocket: [Run Code](https://repl.it/CLm6/0)
 
 ## Code Explanation:
 
@@ -65,7 +65,7 @@ function sumAll(arr) {
 }
 ```
 
-:rocket: [REPL It!](https://repl.it/CLm7/0)
+:rocket: [Run Code](https://repl.it/CLm7/0)
 
 ## Code Solution 3:
 
@@ -81,7 +81,7 @@ function sumAll(arr) {
 sumAll([1, 4]);
 ```
 
-:rocket: [REPL It!](https://repl.it/CLm8/0)
+:rocket: [Run Code](https://repl.it/CLm8/0)
 
 ## Code Explanation:
 
