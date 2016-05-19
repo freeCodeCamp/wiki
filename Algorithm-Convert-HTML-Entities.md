@@ -49,7 +49,7 @@ function convertHTML(str) {
         temp[i] = '"';
         break;
       case "'":
-        temp[i] = ''';
+        temp[i] = "'";
         break;
     }
   }
@@ -58,7 +58,7 @@ function convertHTML(str) {
   return temp;
 }
 
-// test here
+//test here
 convertHTML("Dolce & Gabbana");
 ```
 
@@ -69,7 +69,7 @@ convertHTML("Dolce & Gabbana");
 ```javascript
 function convertHTML(str) {
 //Chaining of replace method with different arguments
-  str = str.replace(/&/g,'&').replace(/</g,'<').replace(/>/g,'>').replace(/"/g,'"').replace(/'/g,''');
+  str = str.replace(/&/g,'&').replace(/</g,'<').replace(/>/g,'>').replace(/"/g,'"').replace(/'/g,"'");
 return str;
 }
 
@@ -89,7 +89,7 @@ function convertHTML(str) {
     '<':'<',
     '>':'>',
     '\"':'"',
-    '\'':'''
+    '\'':"'"
   };
   //Use map function to return a filtered str with all entities changed automatically.
   return str.split('').map(function(entity){
