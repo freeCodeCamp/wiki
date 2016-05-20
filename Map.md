@@ -383,11 +383,11 @@
 
 ## Data Visualization Projects
 
-- Visualize Data with a Bar Chart
+- [Visualize Data with a Bar Chart](D3-Bar-Chart)
 - Visualize Data with a Scatterplot Graph
 - Visualize Data with a Heat Map
 - Show Relationships with a Force Directed Graph
-- Map Data Across the Globe
+- [Map Data Across the Globe](D3-US-Map-Visualization)
 
 ## Claim Your Data Visualization Certificate
 
