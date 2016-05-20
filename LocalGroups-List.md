@@ -7,7 +7,7 @@ If you're up to it, please help us [edit the map](https://www.google.com/maps/d/
 
 If your city isn't listed here, you should [create your own Local Group](LocalGroups-Create).
 
-Please note that all local groups are unofficial, independently organized groups of Free Code Camp community members. They aren't aren't affiliated with the company that hosts freecodecamp.com, Free Code Camp, Inc., and the company doesn't control or endorse what local group members and organizers do on their own.
+Please note that all local groups are unofficial, independently organized groups by Free Code Camp community members. They are not affiliated with the company that hosts freecodecamp.com, Free Code Camp, Inc., and the company doesn't control or endorse what local group members and organizers do on their own.
 
 - Afghanistan
   - [Kabul](https://www.facebook.com/groups/free.code.camp.kabul/)
