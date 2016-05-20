@@ -22,6 +22,6 @@ print(pow(2,4))    # prints 16
 print(pow(10,-2))  # prints 0.01
 print(pow(4,3,5))  # prints 4
 ```
-:rocket: [REPL It!](https://repl.it/CTGi)
+:rocket: [Run Code](https://repl.it/CTGi)
 
 [Official Documentation](https://docs.python.org/3/library/functions.html#pow)
