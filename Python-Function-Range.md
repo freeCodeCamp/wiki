@@ -20,7 +20,9 @@ All three must be of integer type.
 ## Return
 
 If only `stop` is provided, it generates sequence of type range from `0` till `stop`.
+
 If both `start` and `stop` are provided, it generates sequence of type range from `start` till `stop`.
+
 If all three `start`, `stop` and `step` are provided, it generates sequence of type range from `start` till `stop` with increment of size `step`.
 
 
