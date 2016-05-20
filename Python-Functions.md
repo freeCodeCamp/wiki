@@ -26,6 +26,7 @@ Several built-in functions have been discussed and used previous examples. Just 
 - [Name binding and Aliasing Functions](Python-Functions-Aliasing-Name-Binding)
 - [Nested functions](Python-Functions-Nested)
 - [Pow](Python-Function-Pow)
+- [Range](Python-Function-Range)
 - [Resources](Python-Functions-Resources)
 - [`global`](Python-Functions-Statements-Global)
 - [`nonlocal`](Python-Functions-Statements-Nonlocal)
