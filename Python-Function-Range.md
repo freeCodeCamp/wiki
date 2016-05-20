@@ -8,14 +8,11 @@ Rather than being a function, range is actually an immutable sequence type and i
 This function takes one argument, `start` or two arguments `start` and `stop` or three arguments `start`, `stop` and `step`.
 
 
-start
-    The value of the `start` parameter (or 0 if not provided)
+The value of the `start` parameter (or 0 if not provided)
 
-stop
-    The value of the `stop` parameter (compulsory argument)
+The value of the `stop` parameter (compulsory argument)
 
-step
-    The value of the 'step' parameter (or 1 if not provided). It cannot be 0.
+The value of the 'step' parameter (or 1 if not provided). It cannot be 0.
 
 All three must be of integer type.
 
