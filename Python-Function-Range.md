@@ -1,4 +1,4 @@
-# Python pow(x,y)
+# Python range(start, stop)
 
 Rather than being a function, range is actually an immutable sequence type and is commonly used for looping a specific number of times in for loops.
 `range(start, stop[, step])` is used in Python 3 to generate a sequence of type range from `start` till `stop` with increment of size `step`.
