@@ -6,4 +6,4 @@
    - Crop, Resize and Optimize as many times or as required.
 4. Download animated GIF.
 5. Upload image to [imgur.com](http://imgur.com).
-6. Link image using `![image title](http://i.imgur.com/RqgGcf5.gif)`.
+6. Link image using `![image title](https://i.imgur.com/RqgGcf5.gif)`.

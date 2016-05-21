@@ -1,6 +1,6 @@
 # Algorithm Check for Palindromes
 
-![](http://i.imgur.com/ozDWKEi.jpg)
+![](https://i.imgur.com/ozDWKEi.jpg)
 
 ### Explanation:
 

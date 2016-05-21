@@ -1,6 +1,6 @@
 # Algoritmo Confirma la Terminación
 
-![](http://i.imgur.com/Z7vhddH.jpg)
+![](https://i.imgur.com/Z7vhddH.jpg)
 
 ### Explicación:
 

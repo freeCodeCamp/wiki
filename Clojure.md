@@ -1,6 +1,6 @@
 # Clojure
 
-![Clojure Logo](http://i.imgur.com/bxuV5nJ.png)
+![Clojure Logo](https://i.imgur.com/bxuV5nJ.png)
 
 [Clojure](https://clojure.org/) is a dialect of Lisp with a focus on functional programming. It was released in 2007 by Rich Hickey, and has since gained a lot of popularity among web developers.
 

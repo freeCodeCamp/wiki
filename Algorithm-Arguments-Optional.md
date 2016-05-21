@@ -1,6 +1,6 @@
 # Algorithm Arguments Optional
 
-![](http://i.imgur.com/63Iaec6.jpg)
+![](https://i.imgur.com/63Iaec6.jpg)
 
 ### Explanation:
 

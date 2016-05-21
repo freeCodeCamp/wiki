@@ -1,6 +1,6 @@
 # Algorithm Boo Who
 
-![](http://i.imgur.com/CgROCEF.jpg)
+![](https://i.imgur.com/CgROCEF.jpg)
 
 ### Problem Explanation:
 

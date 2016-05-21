@@ -1,6 +1,6 @@
 # Algoritmo Mensaje Secreto
 
-![](http://i.imgur.com/HSwaSFK.jpg)
+![](https://i.imgur.com/HSwaSFK.jpg)
 
 ### Explicación:
 

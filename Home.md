@@ -6,7 +6,7 @@ Our open source community's Wiki focuses on answering your questions about learn
 - Local Group Communities
 - Nonprofit Projects
 
-![An illustration of CamperBot](http://i.imgur.com/gyJwzkx.png)
+![An illustration of CamperBot](https://i.imgur.com/gyJwzkx.png)
 
 The best way to access this wiki is via [CamperBot](CamperBot), located in our Gitter channels. CamperBot is a community designed tool useful for accessing our wiki content without ever leaving Gitter.
 

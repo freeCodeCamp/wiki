@@ -14,6 +14,6 @@ Our wiki articles are written in [GitHub-flavored Markdown](https://github.com/a
 
 - [Algorithm Style Guide](Algorithm-Style-Guide)
 
-If you have any questions regarding contributing to the Free Code Camp Wiki, feel free to contact Wiki Moderators in  <kbd><a href="https://gitter.im/FreeCodeCamp/Wiki"><img src="http://i.imgur.com/ThSWa6Y.png?2"> <b>FreeCodeCamp/Wiki</b></a></kbd>
+If you have any questions regarding contributing to the Free Code Camp Wiki, feel free to contact Wiki Moderators in  <kbd><a href="https://gitter.im/FreeCodeCamp/Wiki"><img src="https://i.imgur.com/ThSWa6Y.png?2"> <b>FreeCodeCamp/Wiki</b></a></kbd>
 
 We look forward to wiki-ing with you!

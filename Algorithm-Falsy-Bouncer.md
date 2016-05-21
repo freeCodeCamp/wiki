@@ -1,6 +1,6 @@
 # Algorithm Factorialize A Number
 
-![](http://i.imgur.com/GluUbAz.jpg)
+![](https://i.imgur.com/GluUbAz.jpg)
 
 ### Problem Explanation:
 

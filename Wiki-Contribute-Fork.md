@@ -85,4 +85,4 @@ We also have guides in our Wiki to assist you in your contributions. You can fin
 
 _**Happy Contributing**_ :smiley:
 
-<p align="center">Need Help? Read <a href="https://github.com/FreeCodeCamp/wiki/blob/master/.github/CONTRIBUTING.md"><b>CONTRIBUTING</b></a> Guidelines<br>or Chat with us in <kbd><a href="https://gitter.im/FreeCodeCamp/Wiki"><img src="http://i.imgur.com/ThSWa6Y.png?2"> <b>FreeCodeCamp/Wiki</b></a></kbd></p>
+<p align="center">Need Help? Read <a href="https://github.com/FreeCodeCamp/wiki/blob/master/.github/CONTRIBUTING.md"><b>CONTRIBUTING</b></a> Guidelines<br>or Chat with us in <kbd><a href="https://gitter.im/FreeCodeCamp/Wiki"><img src="https://i.imgur.com/ThSWa6Y.png?2"> <b>FreeCodeCamp/Wiki</b></a></kbd></p>

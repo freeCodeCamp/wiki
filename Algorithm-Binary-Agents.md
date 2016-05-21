@@ -1,6 +1,6 @@
 # Algorithm Binary Agents
 
-![](http://i.imgur.com/HSwaSFK.jpg)
+![](https://i.imgur.com/HSwaSFK.jpg)
 
 ### Explanation:
 

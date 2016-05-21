@@ -1,6 +1,6 @@
 # Algorithm Map the Debris
 
-![](http://i.imgur.com/jSJ4E7L.jpg)
+![](https://i.imgur.com/jSJ4E7L.jpg)
 
 ### Problem Explanation:
 

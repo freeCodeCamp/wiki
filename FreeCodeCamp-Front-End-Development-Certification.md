@@ -1,6 +1,6 @@
 # Here's how to earn our verified Front End Development Certification
 
-![An image of a sample Front End Development Certificate](http://i.imgur.com/UrU2ki8.png)
+![An image of a sample Front End Development Certificate](https://i.imgur.com/UrU2ki8.png)
 
 1. Complete all of our current Basic Algorithms
 2. Complete all of our current Basic Front End Projects

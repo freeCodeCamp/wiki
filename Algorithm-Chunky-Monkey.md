@@ -1,6 +1,6 @@
 # Algorithm Chunky Monkey
 
-![](http://i.imgur.com/RdrnNvA.png)
+![](https://i.imgur.com/RdrnNvA.png)
 
 ### Explanation
 
