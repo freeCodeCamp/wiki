@@ -1178,6 +1178,7 @@ If your city isn't listed here, you should [create your own Local Group](LocalGr
     - [Temecula](https://www.facebook.com/groups/free.code.camp.temecula/)
     - [Turlock](https://www.facebook.com/groups/free.code.camp.turlock/)
     - [Tustin](https://www.facebook.com/groups/free.code.camp.tustin/)
+    - [Victorville](https://www.facebook.com/groups/free.code.camp.victorville/)
     - [Visalia](https://www.facebook.com/groups/free.code.camp.visalia/)
     - [Whittier](https://www.facebook.com/groups/free.code.camp.whittier/)
     - [Yreka](http://www.facebook.com/groups/Free.Code.Camp.Yreka)
