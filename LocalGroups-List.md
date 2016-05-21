@@ -127,6 +127,7 @@ If your city isn't listed here, you should [create your own Local Group](LocalGr
   - [Maceió](https://www.facebook.com/groups/free.code.camp.alagoas/)
   - [Maringa](https://www.facebook.com/groups/freecodecampmga/)
   - [Natal](https://www.facebook.com/groups/free.code.camp.natal)
+  - [Niterói](https://www.facebook.com/groups/free.code.camp.niteroi/)
   - [Olinda](https://www.facebook.com/groups/free.code.camp.olinda/)
   - [Ouro Fino](https://www.facebook.com/groups/free.code.camp.ouro.fino.mg/)
   - [Porto Alegre](https://www.facebook.com/groups/free.code.camp.porto.alegre.rs/)
@@ -272,6 +273,7 @@ If your city isn't listed here, you should [create your own Local Group](LocalGr
 - Cuba
   - [Guantánamo](https://www.facebook.com/groups/free.code.camp.gtmo/)
   - [La Habana](https://www.facebook.com/groups/free.code.camp.havana/)
+  - [Villa Clara](https://www.facebook.com/groups/free.code.camp.villa.clara/)
 - Cyprus
   - [Limassol](https://www.facebook.com/groups/free.code.camp.limassol/)
   - [Nicosia](https://www.facebook.com/groups/free.code.camp.nicosia/)
@@ -308,6 +310,7 @@ If your city isn't listed here, you should [create your own Local Group](LocalGr
   - [San Salvador](https://www.facebook.com/groups/free.code.camp.san.salvador/)
 - England
   - [Bedford](https://www.facebook.com/groups/free.code.camp.bedford/)
+  - [Bicester](https://www.facebook.com/groups/1011056575615730/)
   - [Birmingham](https://www.facebook.com/groups/free.code.camp.birmingham.uk/)
   - [Bournemouth](https://www.facebook.com/groups/free.code.camp.bournemouth.UK/)
   - [Brighton](https://www.facebook.com/groups/free.code.camp.brighton/)
@@ -601,6 +604,7 @@ If your city isn't listed here, you should [create your own Local Group](LocalGr
   - [Haifa](https://www.facebook.com/groups/free.code.camp.Haifa/)
   - [Jerusalem](https://www.facebook.com/groups/free.code.camp.jerusalem/)
   - [Nazareth](https://www.facebook.com/groups/Free.Code.Camp.Nazareth.Israel/)
+  - [Petah Tiqva](https://www.facebook.com/groups/free.code.camp.petah.tiqva/)
   - [Pnei Kedem](https://www.facebook.com/groups/free.code.camp.pneikedem/)
   - [Tel Aviv](https://www.facebook.com/groups/free.code.camp.Tel.Aviv/)
 - Italy
@@ -773,6 +777,7 @@ If your city isn't listed here, you should [create your own Local Group](LocalGr
   - [Calabar](https://www.facebook.com/groups/free.code.camp.calabar/)
   - [Dutse](https://www.facebook.com/groups/free.code.camp.dutse.jigawa/)
   - [Ibadan](https://www.facebook.com/groups/free.code.camp.Ibadan/)
+  - [Ikeja](https://www.facebook.com/groups/free.code.camp.ikeja/)
   - [Ilorin](https://www.facebook.com/groups/free.code.camp.ilorin.nigeria/)
   - [Kaduna](https://www.facebook.com/groups/free.code.camp.kaduna/)
   - [Keffi](https://www.facebook.com/groups/free.code.camp.keffi/)
@@ -964,6 +969,7 @@ If your city isn't listed here, you should [create your own Local Group](LocalGr
 - South Africa
   - [Cape Town](https://www.facebook.com/groups/free.code.camp.cape.town/)
   - [Durban](https://www.facebook.com/groups/free.code.camp.durban.kwazulu.natal/)
+  - [George](https://www.facebook.com/groups/free.code.camp.george/)
   - [Johannesburg](https://www.facebook.com/groups/free.code.camp.johannesburg/)
   - [Pretoria](https://www.facebook.com/groups/150891448624679/)
   - [Randfontein](https://www.facebook.com/groups/free.code.camp.your.randfontein/)
@@ -1224,6 +1230,7 @@ If your city isn't listed here, you should [create your own Local Group](LocalGr
     - [Macon](https://www.facebook.com/groups/703656036438040)
     - [Savannah](https://www.facebook.com/groups/free.code.camp.savannah/)
     - [South Atlanta suburbs](https://www.facebook.com/groups/free.code.camp.south.atlanta.suburbs/)
+    - [Statesboro](https://www.facebook.com/groups/free.code.camp.statesboro/)
     - [Valdosta](https://www.facebook.com/groups/free.code.camp.valdosta/)
     - [Winder](https://www.facebook.com/groups/fee.code.camp.winder.ga/)
   - Hawaii
@@ -1457,6 +1464,7 @@ If your city isn't listed here, you should [create your own Local Group](LocalGr
     - [State College](https://www.facebook.com/groups/free.code.camp.stcollege.pa/)
     - [Wilkes-Barre](https://www.facebook.com/groups/free.code.camp.wilkesbarre/)
     - [Williamsport](https://www.facebook.com/groups/free.code.camp.williamsport/)
+    - [York](https://www.facebook.com/groups/free.code.camp.york.pa/)
   - Rhode Island
     - [Providence](https://www.facebook.com/groups/free.code.camp.providence/)
   - South Carolina
