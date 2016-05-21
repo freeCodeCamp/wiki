@@ -12,7 +12,7 @@ In an effort to make contributing to the wiki and to [FreeCodeCamp](https://gith
 
 Navigate to the [Wiki.](https://github.com/FreeCodeCamp/wiki) You will encounter something similar to the image in _Figure 0a_ below. This will give you three options to add changes for your [pull requests.](https://help.github.com/articles/using-pull-requests/) They are by no means numbered in the way you should try them, I just went from left to right. Each one have their purpose.
 
-_Figure 0a_![Imgur](http://i.imgur.com/6MkwQCx.png)
+_Figure 0a_![Imgur](https://i.imgur.com/6MkwQCx.png)
 
 ### 1. Upload Files Button
 
@@ -26,7 +26,7 @@ After you select it, you will see something similar to _Figure 3a_ below. You ha
 - **Add Details:** Below the title you can add extra information using Github markdown. This means you can add links, images, videos, checklists, and everything else that is supported. Please see the link in the Requirements section.
 - **Select how to contribute:** If you have write access like me then you can commit directly which is strongly advised not to do even for the core team. However, regular users will be unable to select this option anyway. The best way is to create a new branch for the pull request as seen on _Figure 1b_. This allows you to write a name for the branch. It is suggested to use a descriptive name that will give a glimpse of what the branch is about, for example `wiki-guide` for this guide, or `Palindromes` for an article about palindromes. The name shown on the image is an example of a **bad name!**
 
-  - _Figure 1a_ ![Uploading Files](http://i.imgur.com/PJ2kp5k.png)
+  - _Figure 1a_ ![Uploading Files](https://i.imgur.com/PJ2kp5k.png)
 
 After you select your files, you will be presented with a screen like _Figure 1b & Figure 1c_ where you have the options to:
 
@@ -34,18 +34,18 @@ After you select your files, you will be presented with a screen like _Figure 1b
 - **Compare to branch:** This should be the branch you create for your pull request.
 - **Details:** As before, you will have a chance to change the title and details which will have the previous values.
 
-  - _Figure 1b_![Creating PR](http://i.imgur.com/rHfSVcX.png)
+  - _Figure 1b_![Creating PR](https://i.imgur.com/rHfSVcX.png)
 
 - **Files Preview:** You will have the chance to see what your files look like from _Figure 1c_. **Note** that here I changed the actual pull request for another one with a better branch name and a draft of this guide instead of just random images.
 
 - You can select to view the code with differences between the previous version and the new one if you are modifying an existing file.
 - The current view is the Rich difference that allows to view the changes on the same file, red for deletions, green for additions. Lastly you have the option to view the file as if it was live.
 
-  - _Figure 1c_![File Preview](http://i.imgur.com/oYS8ZNr.png)
+  - _Figure 1c_![File Preview](https://i.imgur.com/oYS8ZNr.png)
 
 Next is to click on `Create Pull Request`. it is the green button and it will take you to view your pull request. it will look similar to _Figure 1d_ bellow.
 
-- _Figure 1d_![Created PR](http://i.imgur.com/PSx5NPU.png)
+- _Figure 1d_![Created PR](https://i.imgur.com/PSx5NPU.png)
 
 The first thing you will notice is the title with the pull request number, in the example it is `#393`. Next, is the status of the pull request, it will either be `Open`, `Closed` or `Merged`.
 
@@ -57,27 +57,27 @@ If your pull request closes an issue then you can add `Closes #` followed by the
 
 The following is how it looks when you are able to edit your own pull request.
 
-_Figure 1e_ ![Edit PR](http://i.imgur.com/NPgXkiz.png)
+_Figure 1e_ ![Edit PR](https://i.imgur.com/NPgXkiz.png)
 
 Always delete the branch after the pull request has been merged or closed. There might be cases where this will be done automatically, but if for whatever reason you see something like in _Figure 1f_ then press delete.
 
-_Figure 1f_ ![Delete Branch](http://i.imgur.com/vePGN3Y.png)
+_Figure 1f_ ![Delete Branch](https://i.imgur.com/vePGN3Y.png)
 
 ### 2. New Pull Request Button
 
 This is used to create [pull requests](FreeCodeCamp-Guide-Pull-Request) from files that are already in existing branches, not really for adding new files. So if you are looking to add new files then check the other options. It will look like this:
 
-- _Figure 2a_ ![PR Button](http://i.imgur.com/WryvU3P.png)
+- _Figure 2a_ ![PR Button](https://i.imgur.com/WryvU3P.png)
 
 You will have to select the **base** branch which and then select the branch you want to submit a pull request against to. This means your changes are already on the branch and for some reason you did not submit the pull request before. Because of **write access** being required regular users should not be able to create new branches on the repository.
 
 Once you select the branches you will get something similar to _Figure 2b_ below.
 
-- _Figure 2b_ ![PR Details](http://i.imgur.com/omG75qe.png)
+- _Figure 2b_ ![PR Details](https://i.imgur.com/omG75qe.png)
 
 If you want to use a fork instead of a branch then you will click the link and get something that looks like the image from _Figure 2c_ bellow.
 
-- _Figure 2c_ ![Fork PR](http://i.imgur.com/0PmVLDL.png)
+- _Figure 2c_ ![Fork PR](https://i.imgur.com/0PmVLDL.png)
 
 Going back to _Figure 2b_ you will note that you get information like the base branch, the branch with your changes, and how many commits there are along with file changes. From there it's the same as the tutorial for uploading files, please see _Figures 1b_ and onwards with the details that come along with it. But basically you just fill out the details and submit the pull request.
 
@@ -87,7 +87,7 @@ However, something new is the fact that you can **Assign** people, usually contr
 
 This is the option to choose if you want to directly create your files and submit a pull request from the browser. Unlike the **New Pull Request** button, this option allows you to create new files.
 
-_Figure 3a_ ![Creating File](http://i.imgur.com/ZpREhd5.png)
+_Figure 3a_ ![Creating File](https://i.imgur.com/ZpREhd5.png)
 
 As you can see from _Figure 3a_ there are similar options when it comes to creating a new file for a pull request online. This is the way to directly contribute from the web, even from your smart phone!
 
@@ -102,18 +102,18 @@ As you can see from _Figure 3a_ there are similar options when it comes to creat
 
 ### Editing Existing Files
 
-Besides creating new files, you might also need to edit existing ones for which you will need to locate the file on the repository. Clicking it will give the following view: _Figure 4a_ ![Edit File](http://i.imgur.com/equ8XG7.png)
+Besides creating new files, you might also need to edit existing ones for which you will need to locate the file on the repository. Clicking it will give the following view: _Figure 4a_ ![Edit File](https://i.imgur.com/equ8XG7.png)
 
 1. Clicking the pencil will allow you to edit the file as a pull request.
 
   - The following is the view that a regular user would get as they do not have write access. Please note the message in blue. Everything else is pretty much standard now, if not see _Figure 1b_ and onwards. However, this is the most accurate view as it is from a non admin account.
 
-    - _Figure 4b_ ![Edit PR](http://i.imgur.com/tTF7oY2.png)
+    - _Figure 4b_ ![Edit PR](https://i.imgur.com/tTF7oY2.png)
 
 2. Clicking the trash bin will create a pull request to delete the file.
 
   - Deleting the file is very similar, just add the details for the pull request information.
 
-    - _Figure 4c_ ![Delete PR](http://i.imgur.com/WQCCsre.png)
+    - _Figure 4c_ ![Delete PR](https://i.imgur.com/WQCCsre.png)
 
 If you have any further questions feel free to come over the Gitter chat and ask for help, see the [list](Official-Free-Code-Camp-Chat-Rooms) or if you need help with the wiki the visit the [room.](https://gitter.im/FreeCodeCamp/Wiki)

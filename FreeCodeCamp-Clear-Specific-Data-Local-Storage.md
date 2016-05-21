@@ -15,7 +15,7 @@ When this happens, you must delete the value in `localStorage` storing that resp
 - Navigate to the `Resources` tab
 - Expand the `Local Storage` item in the left pane
 - Select `http://www.freecodecamp.com`
-- Find the challenge you wish to delete data in the right pane ![Finding a key in localStorage Chrome Developer Tools](http://i.imgur.com/O57tcuN.png)
+- Find the challenge you wish to delete data in the right pane ![Finding a key in localStorage Chrome Developer Tools](https://i.imgur.com/O57tcuN.png)
 - Right click the desired challenge and select `Delete`
 
 ## In Firefox:
@@ -27,10 +27,10 @@ When this happens, you must delete the value in `localStorage` storing that resp
 - From there, using directly the console:
 
   - Type `console.log(localStorage);` and hit `Enter`.
-  - Click in `Storage` link. ![Print the localStorage Object from web console and show the Storage](http://i.imgur.com/AsflWtv.png)
+  - Click in `Storage` link. ![Print the localStorage Object from web console and show the Storage](https://i.imgur.com/AsflWtv.png)
   - The **Storage** panel will appear at right.
   - Filter the results to find the Algorithm, Front End Project or Challenge causing the problem.
-  - When located, mouse over it and click the `x` at right. ![Click the x for deleting the value entry.](http://i.imgur.com/3URr4jQ.png)
+  - When located, mouse over it and click the `x` at right. ![Click the x for deleting the value entry.](https://i.imgur.com/3URr4jQ.png)
   - Once removed, check if the problem was solved. Refresh or close and open the browser if necessary.
 
 **Note:** This can also be done with the [Storage Inspector](https://developer.mozilla.org/en-US/docs/Tools/Storage_Inspector), but seems like Firefox hangs out when there are so many values.

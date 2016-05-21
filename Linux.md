@@ -11,4 +11,4 @@ Linux is a free, open-source, customizable operating system (OS) developed by th
 - [Why run Linux?](Linux-Advantages.md)
 - [How to get Linux](Linux-Install.md)
 
-[logo]: http://files.gamebanana.com/img/ico/sprays/tux1.png "Linux mascot - Tux"
+[logo]: https://files.gamebanana.com/img/ico/sprays/tux1.png "Linux mascot - Tux"

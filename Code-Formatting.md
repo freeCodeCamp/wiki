@@ -39,12 +39,12 @@ See also: â˜› [**How to type Backticks**](Code-Formatting#typing-backticks) | â˜
 
 ### QWERTY Estonian (Key's that have been marked with red border)
 
-![Estonian Keyboard layout](http://i.imgur.com/Ugcflkk.png)
+![Estonian Keyboard layout](https://i.imgur.com/Ugcflkk.png)
 
 [1]: http://en.wikipedia.org/wiki/Dead_key
-[2]: http://i.stack.imgur.com/TOn1U.png
-[3]: http://i.stack.imgur.com/TOn1U.png
-[4]: http://i.stack.imgur.com/BTBIE.png
-[5]: http://i.stack.imgur.com/BTBIE.png
-[6]: http://i.stack.imgur.com/9o9hM.png
-[7]: http://i.stack.imgur.com/9o9hM.png
+[2]: https://i.stack.imgur.com/TOn1U.png
+[3]: https://i.stack.imgur.com/TOn1U.png
+[4]: https://i.stack.imgur.com/BTBIE.png
+[5]: https://i.stack.imgur.com/BTBIE.png
+[6]: https://i.stack.imgur.com/9o9hM.png
+[7]: https://i.stack.imgur.com/9o9hM.png

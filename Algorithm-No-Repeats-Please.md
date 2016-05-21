@@ -29,7 +29,7 @@ This task can still be daunting even after watching a tutorial. You will want to
 
 Another way to think about this problem is to start from an empty space. Introduce the first letter to the space. This space will now contain the first sub-permutation. Here's a diagram illustrating the idea:
 
-![diagram](http://i.imgur.com/zFm5gRx.png)
+![diagram](https://i.imgur.com/zFm5gRx.png)
 
 ```javascript
 // An approach to introduce a new character to a permutation
@@ -48,7 +48,7 @@ for(var i = 0; i <= source.length; ++i) {
 
 Finding each permutation could then be done non-recursively by including the above in a function taking a source array and returning a destination array. For each letter of the input string, pass that character, as well as the array returned from the previous call of the function.
 
-A way to visualize this is by considering a tree that starts with the first character of your string: ![Permutation Tree](http://i.imgur.com/t8zNarc.png)
+A way to visualize this is by considering a tree that starts with the first character of your string: ![Permutation Tree](https://i.imgur.com/t8zNarc.png)
 
 ## Hint: 1
 

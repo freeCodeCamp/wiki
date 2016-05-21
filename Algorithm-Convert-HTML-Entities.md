@@ -1,6 +1,6 @@
 # Algorithm Convert HTML Entities
 
-![](http://i.imgur.com/g7sWL1I.jpg)
+![](https://i.imgur.com/g7sWL1I.jpg)
 
 ### Problem Explanation:
 

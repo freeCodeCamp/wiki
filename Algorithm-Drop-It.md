@@ -1,6 +1,6 @@
 # Algorithm Drop It
 
-![](http://i.imgur.com/goyTFy2.png)
+![](https://i.imgur.com/goyTFy2.png)
 
 ### Explanation:
 

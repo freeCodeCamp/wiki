@@ -6,7 +6,7 @@
 2. Open Varpanel.
 3. In PATH variable, add the relevant path (for example).
 
-![](http://i.imgur.com/RqgGcf5.gif)
+![](https://i.imgur.com/RqgGcf5.gif)
 
 ### Via Command Line
 

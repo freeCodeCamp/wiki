@@ -1,6 +1,6 @@
 # Algoritmo de Argumentos Opcionales.
 
-![](http://i.imgur.com/63Iaec6.jpg)
+![](https://i.imgur.com/63Iaec6.jpg)
 
 ### Explicación:
 

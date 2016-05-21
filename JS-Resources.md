@@ -61,7 +61,7 @@ See Also: :loop: [**Quick JS**](https://github.com/freecodecamp/freecodecamp/wik
 
 ## CoderPad Demo Access Forever
 
-[![](http://i.imgur.com/PQQjg9k.gif)](http://i.imgur.com/PQQjg9k.gif)
+[![](https://i.imgur.com/PQQjg9k.gif)](https://i.imgur.com/PQQjg9k.gif)
 
 - [Eloquent Javascript](http://www.eloquentjavascript.net)<br>
   Fantastic, thorough introduction to the basics and features of Javascript, complete with in-browser interactive code

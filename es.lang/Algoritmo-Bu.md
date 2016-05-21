@@ -1,6 +1,6 @@
 # Algoritmo ¡Bu!
 
-![](http://i.imgur.com/CgROCEF.jpg)
+![](https://i.imgur.com/CgROCEF.jpg)
 
 ### Explicación del problema:
 

@@ -1,6 +1,6 @@
 # Algorithm DNA Pairing
 
-![](http://i.imgur.com/usiNBDU.jpg)
+![](https://i.imgur.com/usiNBDU.jpg)
 
 ### Problem Explanation:
 

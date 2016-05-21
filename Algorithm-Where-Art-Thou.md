@@ -1,6 +1,6 @@
 # Algorithm Where Art Thou
 
-![](http://i.imgur.com/IUY2p6Y.jpg)
+![](https://i.imgur.com/IUY2p6Y.jpg)
 
 ### Problem Explanation
 
