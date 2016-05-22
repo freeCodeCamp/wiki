@@ -6,6 +6,6 @@ Shows what revision and author last modified each line of a file and blame them.
 
 ![](https://i.imgur.com/Ywpucz6.png)
 
-**Reference:** <https://git-scm.com/docs/git-blame>
+**Reference:** [https://git-scm.com/docs/git-blame](https://git-scm.com/docs/git-blame)
 
 ## [](https://i.imgur.com/xancoby.png)

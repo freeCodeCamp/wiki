@@ -2,7 +2,7 @@
 
 It's possible to build dynamic, mobile-responsive websites without writing any code at all, in just a few minutes.
 
-<https://player.vimeo.com/video/115194017>
+[https://player.vimeo.com/video/115194017](https://player.vimeo.com/video/115194017)
 
 Here are the technologies we used:
 

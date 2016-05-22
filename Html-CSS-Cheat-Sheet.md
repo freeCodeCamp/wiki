@@ -34,9 +34,9 @@ Try different values to see the how it affects the div and over in the html
 
 ## Center a horizontal list
 
-<http://csswizardry.com/2011/01/create-a-centred-horizontal-navigation/>
+[http://csswizardry.com/2011/01/create-a-centred-horizontal-navigation/](http://csswizardry.com/2011/01/create-a-centred-horizontal-navigation/)
 
 
 ## Sections and Outlines of an HTML Document
 
-<https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Sections_and_Outlines_of_an_HTML5_document>
+[https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Sections_and_Outlines_of_an_HTML5_document](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Sections_and_Outlines_of_an_HTML5_document)

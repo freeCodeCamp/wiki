@@ -1,6 +1,6 @@
 # Free Code Camp
 
-Free Code Camp is an open source community. We have a free, self-paced web development curriculum located at <http://freecodecamp.com>, but we are much larger than just that.
+Free Code Camp is an open source community. We have a free, self-paced web development curriculum located at [http://freecodecamp.com](http://freecodecamp.com), but we are much larger than just that.
 
 We leverage the power of these existing platforms to connect with one another and learn to code together:
 

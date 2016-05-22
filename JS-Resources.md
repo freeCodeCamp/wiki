@@ -13,7 +13,7 @@
 - [OverAPI JavaScript Cheat Sheet](http://overapi.com/javascript/)
 - [ECMA-262](http://www.ecma-international.org/publications/standards/Ecma-262.htm)
 
-Find javascript libraries at <http://jster.net>
+Find javascript libraries at [http://jster.net](http://jster.net)
 
 See Also: :loop: [**Quick JS**](https://github.com/freecodecamp/freecodecamp/wiki/js-resources#quick-js) | :watch: [**Challenges**](JS-Resources#challenges) | :wrench: [**Exercises**](JS-Resources#exercises) | :clipboard: [Editors](JS-Resources#editors) | :newspaper: [Blogs](JS-Resources#blogs) | :books: [Books](JS-Resources#books)
 
