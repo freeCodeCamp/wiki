@@ -36,7 +36,7 @@ namespace YourNamespace.Swagger.Extensions
 
             List<Tag> lst = new List<Tag>();
             var desc = apiExplorer.ApiDescriptions;
-            ILookup[HttpControllerDescriptor, ApiDescription> apiGroups = desc.ToLookup(api =](HttpControllerDescriptor, ApiDescription> apiGroups = desc.ToLookup(api =) api.ActionDescriptor.ControllerDescriptor);
+            ILookup<HttpControllerDescriptor, ApiDescription> apiGroups = desc.ToLookup(api => api.ActionDescriptor.ControllerDescriptor);
             foreach (var apiGroup in apiGroups)
             {
                 string tagName = apiGroup.Key.ControllerName;
