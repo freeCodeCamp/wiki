@@ -10,5 +10,5 @@ Free Code Camp learners are encouraged to use [Codepen.io](http://www.codepen.io
 6. **display images, add css/js files, hosted on Github:** You may want to include in your Codepen project stylesheet, image or js file hosted on a Github. If you add Github link of your file to your settings in Codepen, or to your html/css it will not work out of box. What you need to do is:
     1. Go to the "Raw" version of the file
     2. Copy the URL
-    3. Change *raw.githubusercontent.com* to *rawgit.com*
+    3. Change `raw.githubusercontent.com` to `rawgit.com`
     4. use that URL to link to a files hosted on a github
