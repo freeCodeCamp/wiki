@@ -32,6 +32,6 @@ If it doesn't exist, we recommend you to [create a chat room on Gitter](https://
 
 If you need help in creating a chat room or just getting started, we advice you visit the official translators chat room of FreeCodeCamp at [**`[FreeCodeCamp/Translators]`**](https://gitter.im/FreeCodeCamp/Translators). You can go there to recruit new translators for your language every once in a while. Its frequented by many campers and is a great place to connect with like minded translators.
 
-[![Joining Translators Chat Room](./images/Translation-Guide/Gitter_Chat.gif)](https://gitter.im/FreeCodeCamp/Translators)
+[![Joining Translators Chat Room](./images/Translations-Guide/Gitter_Chat.gif)](https://gitter.im/FreeCodeCamp/Translators)
 
 [**Back to Translations Guide**](Translation-Guide)

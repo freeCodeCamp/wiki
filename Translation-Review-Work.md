@@ -8,6 +8,6 @@ Translators would post a link to their pull request in the chat room of the lang
 
 If you want to suggest an improvement to the translation in one line (a.k.a inline commenting), click on the `+` (plus sign) that appears next to the line number when you move the cursor over, in the dialog that pops up you can write your suggestion.
 
-![Review Comment](./images/Translation-Guide/Review_Comment.gif)
+![Review Comment](./images/Translations-Guide/Review_Comment.gif)
 
 [**Back to Translations Guide**](Translation-Guide)
