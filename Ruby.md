@@ -1,8 +1,6 @@
 # Ruby
 
-![Ruby Logo][logo]
-
-[logo]: https://cloud.githubusercontent.com/assets/5607371/13464206/083f3f28-e0b6-11e5-9ecd-84d8e25d35d8.png
+![Ruby Logo](https://cloud.githubusercontent.com/assets/5607371/13464206/083f3f28-e0b6-11e5-9ecd-84d8e25d35d8.png)
 
 Ruby is a dynamic, object-oriented, general-purpose programming language. It was designed and developed in the mid-1990s by Yukihiro Matsumoto (aka "Matz") in Japan.
 

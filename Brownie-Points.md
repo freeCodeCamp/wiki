@@ -11,4 +11,4 @@ There are two ways you can get Brownie Points:
 
 > Brownie Points help you look like the kind of person who codes a lot, shares relevant links, and helps people.
 
-_They also add to your [Streak](Streaks.md)._
+_They also add to your [Streak](Streaks)._

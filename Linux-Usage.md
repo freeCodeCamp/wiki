@@ -9,7 +9,6 @@
 
 Other adoptions of Linux from around the world can be viewed [here](https://en.wikipedia.org/wiki/List_of_Linux_adopters) and [here](http://www.comparebusinessproducts.com/fyi/50-places-linux-running-you-might-not-expect)
 
-[Back to Linux Main](Linux.md)
+[Back to Linux Main](Linux)
 
 [1]: https://en.wikipedia.org/wiki/Android_(operating_system)
-
