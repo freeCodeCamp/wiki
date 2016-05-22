@@ -19,6 +19,7 @@ If your city isn't listed here, you should [create your own Local Group](LocalGr
   - [Bahía Blanca](https://www.facebook.com/groups/freecodecampbahiablanca/)
   - [Bariloche](https://www.facebook.com/groups/free.code.camp.bariloche/)
   - [Buenos Aires](https://www.facebook.com/groups/free.code.camp.buenos.aires/)
+  - [Coyhaique](https://www.facebook.com/groups/free.code.camp.coyhaique/)
   - [Concordia](https://www.facebook.com/groups/free.code.camp.concordia/)
   - [Cordoba](https://www.facebook.com/groups/fcccordoba/)
   - [La Plata](https://www.facebook.com/groups/free.code.camp.la.plata/)
@@ -197,6 +198,7 @@ If your city isn't listed here, you should [create your own Local Group](LocalGr
     - [Cambridge](https://www.facebook.com/groups/free.code.camp.Cambridge.ON.Canada/)
     - [Hamilton](https://www.facebook.com/groups/free.code.camp.hamilton/)
     - [Kingston](https://www.facebook.com/groups/free.code.camp.kingston.ontario/)
+    - [Kitchener](https://www.facebook.com/groups/free.code.camp.kitchener.waterloo.on/)
     - [London](https://www.facebook.com/groups/free.code.camp.london.on/)
     - [Markham](https://www.facebook.com/groups/free.code.camp.markham/)
     - [Mississauga](https://www.facebook.com/groups/free.code.camp.sauga)
@@ -208,6 +210,7 @@ If your city isn't listed here, you should [create your own Local Group](LocalGr
     - [Richmond Hill](https://www.facebook.com/groups/free.code.camp.richmond.hill/)
     - [Scarborough](https://www.facebook.com/groups/free.code.camp.scarborough/)
     - [Toronto](https://www.facebook.com/groups/free.code.camp.to/)
+    - [Waterloo](https://www.facebook.com/groups/free.code.camp.kitchener.waterloo.on/)
   - Saskatchewan
     - [Moose Jaw](https://www.facebook.com/groups/free.code.camp.moosejaw/)
     - [Regina](https://www.facebook.com/groups/free.code.camp.regina/)
@@ -381,6 +384,7 @@ If your city isn't listed here, you should [create your own Local Group](LocalGr
   - [Macon](https://www.facebook.com/groups/free.code.camp.macon/)
   - [Marseille](http://facebook.com/groups/free.code.camp.marseille)
   - [Montpellier](https://www.facebook.com/groups/free.code.camp.montpellier/)
+  - [Nancy](https://www.facebook.com/groups/free.code.camp.nancy/)
   - [Nantes](https://www.facebook.com/groups/free.code.camp.nantes/)
   - [Nice](https://www.facebook.com/groups/Free.Code.Camp.Nice/)
   - [Orleans](https://www.facebook.com/groups/free.code.Camp.Orleans)
@@ -455,6 +459,7 @@ If your city isn't listed here, you should [create your own Local Group](LocalGr
   - Andhra Pradesh
     - [Bapatla](https://www.facebook.com/groups/free.code.camp.bapatla/)
     - [Guntur](https://www.facebook.com/groups/free.code.camp.guntur/)
+    - [Kakinada](https://www.facebook.com/groups/free.code.camp.kakinada/)
     - [Narasaopet](https://www.facebook.com/groups/free.code.camp.Narasaraopet/)
     - [Nellore](https://www.facebook.com/groups/free.code.camp.your.city.nellore/)
     - [Tanuku](https://www.facebook.com/groups/Free.code.camp.Tanuku/)
@@ -1318,6 +1323,7 @@ If your city isn't listed here, you should [create your own Local Group](LocalGr
     - [Lexington](https://www.facebook.com/groups/free.code.camp.lexington.ma/)
     - [Northampton](https://www.facebook.com/groups/free.code.camp.northampton.mass/)
     - [Pepperell](https://www.facebook.com/groups/free.code.camp.pepperell.ma/)
+    - [Westwood](https://www.facebook.com/groups/free.code.camp.westwood/)
     - [Worcester](https://www.facebook.com/groups/free.code.camp.worcester.ma/)
   - Michigan
     - [Ann Arbor](https://www.facebook.com/groups/free.code.camp.ann.arbor/)
