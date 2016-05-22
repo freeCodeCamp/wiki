@@ -1,8 +1,6 @@
 # Go
 
-![Go Logo][logo]
-
-[logo]: https://golang.org/doc/gopher/frontpage.png
+![Go Logo](https://golang.org/doc/gopher/frontpage.png)
 
 [Go](https://golang.org/) is a statically typed, compiled language for systems programming; created by Google. Go was made [open source](https://github.com/golang/go) back in November 2009. First stable version of Go was published back in March 2012.
 

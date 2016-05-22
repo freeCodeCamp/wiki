@@ -1307,9 +1307,9 @@ Please note that all local groups are unofficial, independently organized groups
     - [Rockland](https://www.facebook.com/groups/435736603276121/)
   - Maryland
     - [Baltimore](https://www.facebook.com/groups/free.code.camp.baltimore/)
-    - [College Park](https://www.facebook.com/groups/free.code.camp.college.park.md)
+    - [College Park](https://www.facebook.com/groups/free.code.camp.college.park)
     - [Columbia](https://www.facebook.com/groups/190253084650546/)
-    - [Frederick](https://www.facebook.com/groups/free.code.camp.frederick.md)
+    - [Frederick](https://www.facebook.com/groups/free.code.camp.frederick)
     - [Germantown](https://www.facebook.com/groups/free.code.camp.germantown.maryland/)
     - [Hagerstown](https://www.facebook.com/groups/free.code.camp.hagerstown/)
     - [Salisbury](https://www.facebook.com/groups/free.code.camp.salisbury.maryland/)

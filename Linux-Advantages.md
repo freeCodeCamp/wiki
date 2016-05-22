@@ -51,7 +51,7 @@ As Linux was originally made for developers by developers, they have spent much 
 
 Hard to beat that!
 
-[Back to Linux Main](Linux.md)
+[Back to Linux Main](Linux)
 
 [1]: https://en.wikipedia.org/wiki/Info_(Unix)
 [2]: https://en.wikipedia.org/wiki/C_(programming_language)
