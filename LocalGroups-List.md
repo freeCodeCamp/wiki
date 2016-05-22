@@ -1,6 +1,6 @@
 # Free Code Camp City Based Local Groups
 
-![Google Map of Local Groups](https://raw.githubusercontent.com/FreeCodeCamp/wiki/master/Google-Local-Groups-Map.png)
+[![Google Map of Local Groups](https://raw.githubusercontent.com/FreeCodeCamp/wiki/master/Google-Local-Groups-Map.png)](https://www.google.com/maps/d/u/0/embed?mid=zH0hxoM17_fk.kDBMlxfk0BZ8)
 
 (This map is very out of date and you should look for your city in the following list instead.  
 If you're up to it, please help us [edit the map](https://www.google.com/maps/d/edit?mid=zH0hxoM17_fk.kDBMlxfk0BZ8) and update the missing cities in there.)  

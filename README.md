@@ -15,7 +15,7 @@ Our open source community's Wiki focuses on answering your questions about learn
 
 You can get your own fork/copy of [FreeCodeCamp wiki](https://github.com/FreeCodeCamp/wiki) by using the <a href="https://github.com/FreeCodeCamp/wiki/new/master?readme=1#fork-destination-box"><kbd><b>Fork</b></kbd></a> button or clicking [this](https://github.com/FreeCodeCamp/wiki/new/master?readme=1#fork-destination-box).
 
- ![Fork Button](https://help.github.com/assets/images/help/repository/fork_button.jpg)
+ [![Fork Button](https://help.github.com/assets/images/help/repository/fork_button.jpg)](https://github.com/FreeCodeCamp/wiki)
 
 ### 2. **Clone it** :busts_in_silhouette:
 
@@ -77,7 +77,7 @@ $ git push origin master
 
 ### 5. Ready Steady Go... :turtle: :rabbit2:
 
-Once you have completed these steps, you are ready to start contributing by checking our ![Help Wanted Issues](https://img.shields.io/badge/Wiki-Help_Wanted_Issues-159818.svg?style=flat-square&maxAge=2592000).
+Once you have completed these steps, you are ready to start contributing by checking our [![Help Wanted Issues](https://img.shields.io/badge/Wiki-Help_Wanted_Issues-159818.svg?style=flat-square&maxAge=2592000)](https://github.com/FreeCodeCamp/wiki/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22 "Help Wanted Issues") and creating *new shiny* :sparkles: [pull requests](https://github.com/FreeCodeCamp/wiki/pulls).
 
 ## Help Contributing Guides
 
