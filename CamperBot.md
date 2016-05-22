@@ -2,7 +2,7 @@
 
 Hi, I'm **[CamperBot](https://github.com/FreeCodeCamp/freecodecamp/wiki/camperbot)**! I can help you in this chatroom :smile:
 
-## Basic Commands:
+### Basic Commands:
 
 - `find TOPIC` find all entries about topic. e.g. `find js`
 - `wiki TOPIC` show contents of topic page
