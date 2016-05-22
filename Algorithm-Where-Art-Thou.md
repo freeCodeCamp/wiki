@@ -10,14 +10,14 @@ Write an algorithm that will take an `array` for the first argument and return a
 
 You may use `for` loop or the `Array.prototype.filter` method.
 
-- <http://devdocs.io/#q=js+for>
-- <http://devdocs.io/#q=js+Array+filter>
+- [http://devdocs.io/#q=js+for](http://devdocs.io/#q=js+for)
+- [http://devdocs.io/#q=js+Array+filter](http://devdocs.io/#q=js+Array+filter)
 
 ## Hint: 2
 
 Try to use `Object.prototype.hasOwnProperty` method to know if the property name exists in an object (as its own property).
 
-- <http://devdocs.io/#q=js+Object+hasOwnProperty>
+- [http://devdocs.io/#q=js+Object+hasOwnProperty](http://devdocs.io/#q=js+Object+hasOwnProperty)
 
 ## Hint: 3
 
@@ -145,7 +145,7 @@ whereAreYou([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: nu
 
 > Please read the comments in the source code.
 
-Check this <http://repl.it/BFZQ/19> for pretty debugging and code explanation
+Check this [http://repl.it/BFZQ/19](http://repl.it/BFZQ/19) for pretty debugging and code explanation
 
 ## Credits:
 

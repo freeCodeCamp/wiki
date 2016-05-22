@@ -14,7 +14,7 @@ A **flowchart** represents your program flow from top to bottom. Each command is
 
 ![](https://biancamihai.github.io/img/flowchart-theory.png)
 
-More information about this you can find here <https://en.wikipedia.org/wiki/Flowchart>.
+More information about this you can find here [https://en.wikipedia.org/wiki/Flowchart](https://en.wikipedia.org/wiki/Flowchart).
 
 **Pseudocode** is an informal language that helps developers write algorithms. It is a text-based design tool and it uses a human readable language. It's a structured english text that describes an algorithm.
 

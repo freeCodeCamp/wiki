@@ -86,4 +86,4 @@ With Interactive combination of bar chart and pie chart, where bar chart shows n
 
   ![screen shot 2016-05-17 at 5 13 26 pm](https://cloud.githubusercontent.com/assets/8707780/15343594/e666f16a-1c52-11e6-814f-6adac8345ddf.png)
 
-References : [1] Examples from <https://d3js.org> [2] D3.js Introduction - <https://www.dashingd3js.com/why-build-with-d3js>
+References : [1] Examples from [https://d3js.org](https://d3js.org) [2] D3.js Introduction - [https://www.dashingd3js.com/why-build-with-d3js](https://www.dashingd3js.com/why-build-with-d3js)

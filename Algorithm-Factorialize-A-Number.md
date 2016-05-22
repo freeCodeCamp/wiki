@@ -76,8 +76,8 @@ factorialize(5);
 ## References
 
 - **Recursion**: [https://www.codecademy.com/courses/javascript-lesson-205/0/1](https://www.codecademy.com/es/courses/javascript-lesson-205/0/1)
-- **Factorialization**: <https://en.wikipedia.org/wiki/Factorial>
-- **Arithmetic Operators** <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators>
+- **Factorialization**: [https://en.wikipedia.org/wiki/Factorial](https://en.wikipedia.org/wiki/Factorial)
+- **Arithmetic Operators** [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators)
 
 ## Credits:
 

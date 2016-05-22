@@ -14,21 +14,21 @@ Once we have determined whether it is a palindrome or not we want to return eith
 
 Regular expressions, `RegEx`, can be used to remove unwanted characters from the string.
 
-- <http://devdocs.io/#q=js+RegExp>
+- [http://devdocs.io/#q=js+RegExp](http://devdocs.io/#q=js+RegExp)
 
 ## Hint: 2
 
 The `Array.prototype.split` and `Array.prototype.join` methods can be of use here. `For` and `while` loops are another alternative, or why not even `map`!
 
-- <http://devdocs.io/#q=js+String+split>
-- <http://devdocs.io/#q=js+Array+join>
-- <http://devdocs.io/#q=js+for>
+- [http://devdocs.io/#q=js+String+split](http://devdocs.io/#q=js+String+split)
+- [http://devdocs.io/#q=js+Array+join](http://devdocs.io/#q=js+Array+join)
+- [http://devdocs.io/#q=js+for](http://devdocs.io/#q=js+for)
 
 ## Hint: 3
 
 `String.prototype.toLowerCase` can be used to make a string lowercase.
 
-- <http://devdocs.io/#q=js+String+toLowerCase>
+- [http://devdocs.io/#q=js+String+toLowerCase](http://devdocs.io/#q=js+String+toLowerCase)
 
 ## Spoiler Alert!
 

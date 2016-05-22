@@ -121,7 +121,7 @@ binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 0110
 - Primero utilizamos `split()` para poder trabajar cada carácter como un elemento de matriz.
 - Luego utilizamos `map()` para procesar cada elemento binario a decimal utilizando `pareseInt()`
 - Finalmente podemos utilizar `String.fromCharCode()` para convertir cada número ASCII a su correspondiente carácter.
-- Sin embargo `fromCharCode()` espera una serie de números en lugar de una matriz. Podemos utilizar ES6 Spread Operator para pasar una matriz de números como números individuales. Más información: <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator>
+- Sin embargo `fromCharCode()` espera una serie de números en lugar de una matriz. Podemos utilizar ES6 Spread Operator para pasar una matriz de números como números individuales. Más información: [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator)
 
 ## Cuarta solución:
 

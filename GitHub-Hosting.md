@@ -76,7 +76,7 @@ Push you project to github. Again, simple:
 
 `git push origin gh-pages`
 
-That command will make sure your latest commits get uploaded to github. Once you've done this at least once, your project should be available [http://_username_.github.io/_repository_](http://*username*.github.io/*repository*), so for me it's <http://gkobilansky.github.io/campNews>.
+That command will make sure your latest commits get uploaded to github. Once you've done this at least once, your project should be available [http://_username_.github.io/_repository_](http://*username*.github.io/*repository*), so for me it's [http://gkobilansky.github.io/campNews](http://gkobilansky.github.io/campNews).
 
 Once this is all done, the process just repeats itself:
 

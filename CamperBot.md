@@ -23,11 +23,11 @@ rollem    # secret sauce
 Algorithm roman   # any Algorithm with roman in name
 ```
 
-For playing with CamperBot please use the testing channel: <https://gitter.im/FreeCodeCamp/camperbotPlayground>
+For playing with CamperBot please use the testing channel: [https://gitter.im/FreeCodeCamp/camperbotPlayground](https://gitter.im/FreeCodeCamp/camperbotPlayground)
 
 ## Help on Algorithms
 
-Live currently on the HelpBonFires channel on Gitter <https://gitter.im/FreeCodeCamp/HelpBonfires>
+Live currently on the HelpBonFires channel on Gitter [https://gitter.im/FreeCodeCamp/HelpBonfires](https://gitter.im/FreeCodeCamp/HelpBonfires)
 
 We've added some Algorithm specific commands. If you type `Algorithm $BONFIRENAME` (where $BONFIRENAME is part of a Algorithm name) it will set the chat to be about that Algorithm. Then you can use some other Algorithm specific commands:
 
@@ -45,7 +45,7 @@ We've added some Algorithm specific commands. If you type `Algorithm $BONFIRENAM
 
 ## Content for the wiki
 
-Feel free to make new pages, an example entry is here: <https://github.com/FreeCodeCamp/freecodecamp/wiki/example>
+Feel free to make new pages, an example entry is here: [https://github.com/FreeCodeCamp/freecodecamp/wiki/example](https://github.com/FreeCodeCamp/freecodecamp/wiki/example)
 
 ## Source Repository
 

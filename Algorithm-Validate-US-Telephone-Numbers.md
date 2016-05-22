@@ -10,7 +10,7 @@
 
 ## Hint: 2
 
-- Try using a site like <http://regexpal.com/> to test the regex live while you create it.
+- Try using a site like [http://regexpal.com/](http://regexpal.com/) to test the regex live while you create it.
 
 ## Hint: 3
 

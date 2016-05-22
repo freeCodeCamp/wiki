@@ -6,7 +6,7 @@ This article is full of alternatives to popular software on Windows and Mac, whi
 
 > Feel free to add software to this list in the form of a Pull Request.
 
-<http://alternativeto.net/> is a very helpful site for finding alternatives to software.
+[http://alternativeto.net/](http://alternativeto.net/) is a very helpful site for finding alternatives to software.
 
 ### [Adobe Photoshop](http://www.adobe.com/products/photoshop)
 
