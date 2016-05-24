@@ -1,4 +1,4 @@
-# Logical Order in If Else Statements
+# Challenge Logical Order in If Else Statements
 
 Order is important in `if`, `else if` and `else` statements.
 
