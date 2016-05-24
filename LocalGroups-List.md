@@ -428,6 +428,7 @@ Please note that all local groups are unofficial, independently organized groups
   - [Leipzig](https://www.facebook.com/groups/free.code.camp.leipzig/)
   - [Lingen](https://www.facebook.com/groups/free.code.camp.lingen/)
   - [Mönchengladbach](https://www.facebook.com/groups/free.code.camp.moenchengladbach/)
+  - [Münster](https://www.facebook.com/groups/free.code.camp.muenster/)
   - [Munich](https://www.facebook.com/groups/free.code.camp.munich/)
   - [Offenburg](https://www.facebook.com/groups/free.code.camp.offenburg/)
   - [Stuttgart](https://www.facebook.com/groups/free.code.camp.stuttgart/)
