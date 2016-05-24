@@ -6,7 +6,7 @@ The loop is executed from top to bottom so you will want to be careful of what s
 
 Take these two functions as an example.
 
-Heres the first:
+##Examples
 
 ```javascript
 function foo(x) {
