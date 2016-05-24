@@ -1,4 +1,4 @@
-# Searching for Existign Issues
+# Searching for Existing Issues
 
 If you still see problems after [Getting Help on Gitter](FreeCodeCamp-Gitter-Help), you will want to try to see if anyone else has posted about a similar problem.
 
