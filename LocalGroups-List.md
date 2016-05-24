@@ -31,6 +31,7 @@ If your city isn't listed here, you should [create your own Local Group](LocalGr
   - [Yerevan](https://www.facebook.com/groups/free.code.camp.armenia/)
 - Australia
   - [Adelaide](https://www.facebook.com/groups/free.code.camp.adelaide/)
+  - [Bega](https://www.facebook.com/groups/free.code.camp.bega/)
   - [Bellingham](https://www.facebook.com/groups/free.code.camp.bellingham/)
   - [Brisbane](https://www.facebook.com/groups/free.code.camp.brisbane/)
   - [Canberra](https://www.facebook.com/groups/free.code.camp.canberra/)
@@ -272,6 +273,7 @@ If your city isn't listed here, you should [create your own Local Group](LocalGr
   - [Rijeka](https://www.facebook.com/groups/542662595902378/)
   - [Split](https://www.facebook.com/groups/free.code.camp.split/)
   - [Varazdin](https://www.facebook.com/groups/free.code.camp.varazdin)
+  - [Vinkovci](https://www.facebook.com/groups/free.code.camp.vinkovci/)
   - [Zagreb](https://www.facebook.com/groups/free.code.camp.zagreb/)
 - Cuba
   - [Guantánamo](https://www.facebook.com/groups/free.code.camp.gtmo/)
@@ -294,6 +296,7 @@ If your city isn't listed here, you should [create your own Local Group](LocalGr
   - [Odense](https://www.facebook.com/groups/free.code.camp.odense/)
   - [Roskilde](https://www.facebook.com/groups/free.code.camp.roskilde/)
 - Dominican Republic
+  - [Santiago](https://www.facebook.com/groups/free.code.camp.santiago.dr/)
   - [Santo Domingo](https://www.facebook.com/groups/free.code.camp.dr/)
 - Ecuador
   - [Cuenca](https://www.facebook.com/groups/free.code.camp.cuenca/)
@@ -1386,6 +1389,7 @@ If your city isn't listed here, you should [create your own Local Group](LocalGr
     - [Bordentown](https://www.facebook.com/groups/free.code.camp.bordentown/)
     - [Clifton](https://www.facebook.com/groups/free.code.camp.clifton.nj/)
     - [East Hanover](https://www.facebook.com/groups/free.code.camp.east.hanover/)
+    - [Flanders](https://www.facebook.com/groups/free.code.camp.flanders.nj/)
     - [Jersey City](https://www.facebook.com/groups/free.code.camp.jersey.city.new.jersey/)
     - [New Brunswick](https://www.facebook.com/groups/free.code.camp.new.brunswick.new.jersey/)
     - [Newark](https://www.facebook.com/groups/free.code.camp.newark/)
