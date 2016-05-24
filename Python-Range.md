@@ -2,7 +2,7 @@
 
 [Python Docs - Ranges](https://docs.python.org/3/library/stdtypes.html#ranges)
 
-Rather than being a function, range is actually an [immutable sequence type](https://docs.python.org/3/library/stdtypes.html#immutable-sequence-types) and is commonly used for looping a specific number of times in for loops.
+Rather than being a function, a range is actually an [immutable sequence type](https://docs.python.org/3/library/stdtypes.html#immutable-sequence-types) and is commonly used for looping a specific number of times in for loops.
 
 **Creation:**
 
