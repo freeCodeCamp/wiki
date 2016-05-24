@@ -40,7 +40,8 @@ function bar(x) {
 
 While these two functions look nearly identical if we pass a number to both we get different outputs.
 
-foo(0) // "Less than one"
+foo(0) // "Less than one" 
+
 bar(0) // "Less than two"
 
 So be careful while using the `if`, `else if` and `else` statements and always remember that these are executed from top to bottom so keep in mind to place your statements accordingly so that you get the desired output.
