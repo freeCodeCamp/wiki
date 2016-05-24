@@ -47,5 +47,3 @@ bar(0) // "Less than two"
 ```
 
 So be careful while using the `if`, `else if` and `else` statements and always remember that these are executed from top to bottom. Keep this in mind placing your statements accordingly so that you get the desired output.
-
-
