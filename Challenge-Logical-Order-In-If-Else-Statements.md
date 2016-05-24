@@ -2,7 +2,7 @@
 
 Order is important in `if`, `else if` and `else` statements.
 
-The loop is executed from top to bottom so you will want to be careful of what statement comes first.
+The loop is executed from top to bottom so you will want to be careful of which statement comes first.
 
 Take these two functions as an example.
 
@@ -38,7 +38,7 @@ function bar(x) {
 }
 ```
 
-While these two functions look nearly identical if we pass a number to both we get different outputs.
+While these two functions look nearly identical, if we pass a number to both we get different outputs.
 
 ```javascript
 foo(0) // "Less than one" 
@@ -46,6 +46,6 @@ foo(0) // "Less than one"
 bar(0) // "Less than two"
 ```
 
-So be careful while using the `if`, `else if` and `else` statements and always remember that these are executed from top to bottom so keep in mind to place your statements accordingly so that you get the desired output.
+So be careful while using the `if`, `else if` and `else` statements and always remember that these are executed from top to bottom. Keep this in mind placing your statements accordingly so that you get the desired output.
 
 
