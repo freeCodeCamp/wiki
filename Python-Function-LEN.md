@@ -4,7 +4,7 @@
 
 ## Arguments
 
-It takes one argument `x` - This argument may be a sequence (such as a string, bytes, tuple, list, or range) or a collection (such as a dictionary, set, or frozen set).
+It takes one argument, `x` - This argument may be a sequence (such as a string, bytes, tuple, list, or range) or a collection (such as a dictionary, set, or frozen set).
 
 ## Return Value
 
