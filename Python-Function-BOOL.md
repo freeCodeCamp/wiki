@@ -1,6 +1,6 @@
 # Python bool(x)
 
-`bool()` is a built-in function in Python 3. Return a Boolean value, i.e. one of True or False. It takes one argument `x`. 
+`bool()` is a built-in function in Python 3. This function returns a Boolean value, i.e. one of True or False. It takes one argument `x`. 
 
 ## Arguments
 
