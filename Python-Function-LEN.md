@@ -8,7 +8,7 @@ It takes one argument `x` - argument may be a sequence (such as a string, bytes,
 
 ## Return Value
 
-This function returns the number of elements in the list
+This function returns the number of elements in the argument which is passed to the `len()` function.
 
 ## Code Sample
 
