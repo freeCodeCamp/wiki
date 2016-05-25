@@ -27,7 +27,7 @@ Several built-in functions have been discussed and used previous examples. Just 
 - [Nested functions](Python-Functions-Nested)
 - [Pow](Python-Function-Pow)
 - [Resources](Python-Functions-Resources)
-- [Resources](Python-Functions-Slice)
+- [Slice](Python-Functions-Slice)
 - [`global`](Python-Functions-Statements-Global)
 - [`nonlocal`](Python-Functions-Statements-Nonlocal)
 - [`return` Statement](Python-Functions-Statements-Return)
