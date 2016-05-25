@@ -4,7 +4,7 @@
 
 ## Arguments
 
-It takes one argument, `x`. x is converted using the standard [truth testing procedure](https://docs.python.org/3/library/stdtypes.html#truth). 
+It takes one argument, `x`. x is converted using the standard [Truth Testing Procedure](https://docs.python.org/3/library/stdtypes.html#truth). 
 
 ## Return Value
 
