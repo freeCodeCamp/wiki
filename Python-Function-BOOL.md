@@ -23,8 +23,9 @@ print(bool(0)) #Returns False as it is a zero value
 print(bool('dskl')) #Returns True as the string is a non-zero value
 print(bool([1, 2, 3])) #Returns True as the list is a non-zero value
 print(bool((2,3,4))) #Returns True as tuple is a non-zero value
+print(bool([])) #Returns False as list is empty and equal to 0 according to truth value testing
 ```
 
-:rocket: [Run Code](https://repl.it/CVCS)
+:rocket: [Run Code](https://repl.it/CVCS/1)
 
 [Official Docs](https://docs.python.org/3/library/functions.html#bool)
