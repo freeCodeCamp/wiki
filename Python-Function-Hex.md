@@ -4,7 +4,7 @@
 
 ## Argument
 
-This function takes one argument `x` that should be of integer type.
+This function takes one argument, `x`, that should be of integer type.
 
 ## Return
 
