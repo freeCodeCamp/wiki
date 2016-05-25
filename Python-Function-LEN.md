@@ -26,6 +26,6 @@ dict1 = {'name': 'John', 'age': 4, 'score': 45} # dictionary
 print(len(dict1)) # prints 3 as there are 3 key and value pairs in the dict1
 ```
 
-:rocket: [Run Code](https://repl.it/CUmt)
+:rocket: [Run Code](https://repl.it/CUmt/15)
 
 [Official Docs](https://docs.python.org/3/library/functions.html#len)
