@@ -4,7 +4,7 @@
 
 ## Arguments
 
-It takes one argument `x` - argument may be a sequence (such as a string, bytes, tuple, list, or range) or a collection (such as a dictionary, set, or frozen set).
+It takes one argument `x` - This argument may be a sequence (such as a string, bytes, tuple, list, or range) or a collection (such as a dictionary, set, or frozen set).
 
 ## Return Value
 
@@ -13,10 +13,17 @@ This function returns the number of elements in the argument which is passed to 
 ## Code Sample
 
 ```python
-list1 = [123, 'xyz', 'zara'] 
-str1 = 'basketball'
-print(len(list1)) # prints 3
-print(len(str1)) # prints 10
+list1 = [123, 'xyz', 'zara'] # list
+print(len(list1)) # prints 3 as there are 3 elements in the list1
+
+str1 = 'basketball' # string
+print(len(str1)) # prints 10 as the str1 is made of 10 characters
+
+tuple1 = (2, 3, 4, 5) # tuple 
+print(len(tuple1)) # prints 4 as there are 4 elements in the tuple1
+
+dict1 = {'name': 'John', 'age': 4, 'score': 45} # dictionary
+print(len(dict1)) # prints 3 as there are 3 key and value pairs in the dict1
 ```
 
 :rocket: [Run Code](https://repl.it/CUmt)
