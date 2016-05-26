@@ -13,11 +13,11 @@ This function returns a lowercase hexadecimal string prefixed with "0x".
 ## Example
 
 ```python
-print hex(16)   # prints  0x10
-print hex(-298) # prints -0x12a
-print hex(543)  # prints  0x21f
+print(hex(16))    # prints  0x10
+print(hex(-298))  # prints -0x12a
+print(hex(543))   # prints  0x21f
 ```
 
-:rocket: [Run Code](https://repl.it/CVCR)
+:rocket: [Run Code](https://repl.it/CV0S)
 
 [Official Documentation](https://docs.python.org/3/library/functions.html#hex)
