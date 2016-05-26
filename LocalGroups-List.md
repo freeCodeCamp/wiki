@@ -1322,6 +1322,7 @@ Please note that all local groups are unofficial, independently organized groups
     - [Frederick](https://www.facebook.com/groups/free.code.camp.frederick)
     - [Germantown](https://www.facebook.com/groups/free.code.camp.germantown.maryland/)
     - [Hagerstown](https://www.facebook.com/groups/free.code.camp.hagerstown/)
+    - [National Harbor](https://www.facebook.com/groups/free.code.camp.national.harbor/)
     - [Salisbury](https://www.facebook.com/groups/free.code.camp.salisbury.maryland/)
     - [Silver Spring](https://www.facebook.com/groups/free.code.camp.silverspring/)
   - Massachusetts
@@ -1558,7 +1559,6 @@ Please note that all local groups are unofficial, independently organized groups
     - [Everett](https://www.facebook.com/groups/free.code.camp.everett/)
     - [Lake Stevens](https://www.facebook.com/groups/free.code.camp.Lake.Stevens.WA/)
     - [Lakewood](https://www.facebook.com/groups/free.code.camp.lakewood/)
-    - [National Harbor](https://www.facebook.com/groups/free.code.camp.national.harbor/)
     - [Oak Harbor](https://www.facebook.com/groups/free.code.camp.oak.harbor.wa/)
     - [Olympia](https://www.facebook.com/groups/free.code.camp.olympia/)
     - [Port Angeles](https://www.facebook.com/groups/free.code.camp.port.angeles/)
