@@ -1,6 +1,6 @@
 # Python Input() Function
 
-Many a times, in a program we need some input from the user. Taking inputs from the user makes the program feel a bit interactive. In Python 3, to take input from the user we have a function `input()`. Let's see some examples:
+Many a time, in a program we need some input from the user. Taking inputs from the user makes the program feel interactive. In Python 3, to take input from the user we have a function `input()`. Let's see some examples:
 
 1. When we just want to take the input:
 ```python
@@ -9,7 +9,7 @@ inp = input()
 ```
 [Run Code](https://repl.it/CUqX/0) :rocket:
 
-2. To give a prompt with message:
+2. To give a prompt with a message:
 ```Python
 prompt_with_message = input('<Your prompt message should appear here>')
 # <Your prompt message should appear here> _
