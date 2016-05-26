@@ -9,8 +9,8 @@ Before going in detail about decorators there are some concepts that should be c
 
     def greet(name):
       return "hello "+name
-      greet_someone = greet
-      print greet_someone("John")
+	greet_someone = greet
+	print greet_someone("John")
 
 > Outputs: hello John
 
@@ -52,7 +52,7 @@ Before going in detail about decorators there are some concepts that should be c
 > Outputs: Hello there!
 
 > ### Inner functions have access to the enclosing scope
-More commonly known as a [losure](http://www.shutupandship.com/2012/01/python-closures-explained.html). A very powerful pattern that we will come across while building decorators. Another thing to note, Python only allows [read access to the outer scope](http://www.tech-thoughts-blog.com/2013/07/writing-closure-in-python.html) and not assignment. Notice how we modified the example above to read a "name" argument from the enclosing scope of the inner function and return the new function.
+More commonly known as a [closure](http://www.shutupandship.com/2012/01/python-closures-explained.html). A very powerful pattern that we will come across while building decorators. Another thing to note, Python only allows [read access to the outer scope](http://www.tech-thoughts-blog.com/2013/07/writing-closure-in-python.html) and not assignment. Notice how we modified the example above to read a "name" argument from the enclosing scope of the inner function and return the new function.
 
 
 	def compose_greet_func(name):
@@ -69,7 +69,7 @@ More commonly known as a [losure](http://www.shutupandship.com/2012/01/python-cl
 ## Composition of Decorators
 Function decorators are simply wrappers to existing functions. Putting the ideas mentioned above together, we can build a decorator. In this example let's consider a function that wraps the string output of another function by p tags.
 
-
+```python
     def get_text(name):
        return "lorem ipsum, {0} dolor sit amet".format(name)
 
@@ -83,7 +83,7 @@ Function decorators are simply wrappers to existing functions. Putting the ideas
     print my_get_text("John")
 
 > <p>Outputs lorem ipsum, John dolor sit amet</p>
-
+```
 That was our first decorator. A function that takes another function as an argument, generates a new function, augmenting the work of the original function, and returning the generated function so we can use it anywhere. To have get_text itself be decorated by p_decorate, we just have to assign get_text to the result of p_decorate.
 
     get_text = p_decorate(get_text)
