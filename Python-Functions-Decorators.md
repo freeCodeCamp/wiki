@@ -1,7 +1,7 @@
 # Python Decorators
 
 
-Decorator essentially work as wrappers. They modify the behviour of the code before and after a target function execution, without the need to modify the function itself, augmenting the original functionality, thus decorating it.
+Decorator essentially work as wrappers. They modify the behaviour of the code before and after a target function execution, without the need to modify the function itself, augmenting the original functionality, thus decorating it.
 
 Before going in detail about decorators there are some concepts that should be clear. In Python, functions are objects and we can do a lot of useful stuff with them.
 
