@@ -1,14 +1,14 @@
 # Python bool(x)
 
-`bool()` is a built-in function in Python 3. This function returns a Boolean value, i.e. one of True or False. It takes one argument `x`. 
+`bool()` is a built-in function in Python 3. This function returns a Boolean value, i.e. True or False. It takes one argument, `x`. 
 
 ## Arguments
 
-It takes one argument, `x`. x is converted using the standard [Truth Testing Procedure](https://docs.python.org/3/library/stdtypes.html#truth). 
+It takes one argument, `x`. `x` is converted using the standard [Truth Testing Procedure](https://docs.python.org/3/library/stdtypes.html#truth). 
 
 ## Return Value
 
-If x is false or omitted, this returns False; otherwise it returns True. 
+If `x` is false or omitted, this returns `False`; otherwise it returns `True`. 
 
 ## Code Sample
 
