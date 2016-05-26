@@ -22,6 +22,7 @@ prompt_with_message = input('<Your prompt message should appear here>')
 number = int(input('Please enter a number: '))
 ```
 [Run Code](https://repl.it/CUqX/2) :rocket:
+
 If you enter a non integer value then Python will throw an error `ValueError`. **So whenever you use this, please make sure that you catch it too.** Otherwise, your program will stop unexpectedly after the prompt.
 ```Python
 number = int(input('Please enter a number: '))
