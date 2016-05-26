@@ -15,6 +15,7 @@ Several built-in functions have been discussed and used previous examples. Just 
 - [Anonymous functions](Python-Functions-Anonymous)
 - [Any](Python-Function-Any)
 - [Arbitrary Arguments](Python-Functions-Arguments-Arbitrary)
+- [bool](Python-Function-Bool)
 - [Calling Functions](Python-Functions-Calling)
 - [Coding Style](Python-Functions-Coding-Style)
 - [Decorators](Python-Functions-Decorators)
