@@ -7,10 +7,10 @@ Before going in detail about decorators there are some concepts that should be c
 
 > ### Assigning funtions to a variables:
 
-    def greet(name):
-      return "hello "+name
-	greet_someone = greet
-	print greet_someone("John")
+def greet(name):
+	return "hello "+name
+greet_someone = greet
+print greet_someone("John")
 
 > Outputs: hello John
 
