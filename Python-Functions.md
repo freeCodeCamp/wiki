@@ -20,6 +20,7 @@ Several built-in functions have been discussed and used previous examples. Just 
 - [Decorators](Python-Functions-Decorators)
 - [Default Argument Values](Python-Functions-Arguments-Values)
 - [Defining Functions](Python-Functions-Defining)
+- [Hex](Pyhton-Function-Hex)
 - [ID](Python-Function-ID)
 - [Keyword Arguments](Python-Functions-Arguments-Keyword)
 - [Lambda Expressions](Python-Functions-Expressions-Lambda)
