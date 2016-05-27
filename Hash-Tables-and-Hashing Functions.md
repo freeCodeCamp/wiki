@@ -4,7 +4,7 @@
 
 Hashing is designed to solve the problem of needing to efficiently find or store an item in a collection. 
 For example, if we have a list of 10,000 words of English and we want to check if a given word is in the list, it would be inefficient to successively compare the word with all 10,000 items until we find a match. Even if the list of words are lexographically sorted, like in a dictionary, you will still need some time to find the word you are looking for.
-Hashing is a technique to make things more efficient by effectively narrowing down the search at the outset.
+Hashing is a technique to make things more efficient by effectively narrowing down the search at the outset. 
 
 ## What is hashing?
 
@@ -157,7 +157,8 @@ Methods for Open Addressing
 
 ## Interesting Links
 
-- If what I've said doesn't make any sense to you, you may want to check out [this video](https://www.youtube.com/watch?v=x05KubVlh_M)
+- If what I've said doesn't make any sense to you, you may want to check out [this video](https://www.youtube.com/watch?v=x05KubVlh_M).
+- Here's another [link](http://geeksquiz.com/hashing-set-1-introduction/) which explains hashing using a different example.
 - [Cuckoo Hashing](https://www.youtube.com/watch?v=HRzg0SzFLQQ)
 - [Consisten Hashing](https://www.youtube.com/watch?v=jznJKL0CrxM)
 - [Bloom Filters](https://www.youtube.com/watch?v=-SuTGoFYjZs)
