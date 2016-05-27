@@ -3,7 +3,7 @@
 ## Introduction to hashing
 
 Hashing is designed to solve the problem of needing to efficiently find or store an item in a collection. 
-For example, if we have a list of 10,000 words of English and we want to check if a given word is in the list, it would be inefficient to successively compare the word with all 10,000 items until we find a match. 
+For example, if we have a list of 10,000 words of English and we want to check if a given word is in the list, it would be inefficient to successively compare the word with all 10,000 items until we find a match. Even if the list of words are lexographically sorted, like in a dictionary, you will still need some time to find the word you are looking for.
 Hashing is a technique to make things more efficient by effectively narrowing down the search at the outset.
 
 ## What is hashing?
@@ -106,6 +106,7 @@ Methods for Open Addressing
 ### Python
 
 ```python
+   # Few languages like Python, Ruby come with an in-built hashing support.
    # Declaration
     my_hash_table = {}
     my_hash_table = dict()
@@ -114,24 +115,27 @@ Methods for Open Addressing
     my_hash_table[key] = value
 
    # Look up
-    value = my_hash_table.get(key) // returns None if the key is not present
-    value = my_hash_table[key] // throws a ValueError exception if the key is not present
+    value = my_hash_table.get(key) # returns None if the key is not present || Deferred in python 3, available in python 2
+    value = my_hash_table[key] # throws a ValueError exception if the key is not present
 
     # Deletion
-    del my_hash_table[key] // throws a ValueError exception if the key is not present
+    del my_hash_table[key] # throws a ValueError exception if the key is not present
 
     # Getting all keys and values stored in the dictionary
-
     keys = my_hash_table.keys()
     values = my_hash_table.values()
 
 ```
+:rocket: [Run Code](https://repl.it/CVtK)
 
 ### Java
 
 ```java
-   // Declaration
+    // Java doesn't include hashing by default, you have to import it from java.util library
+    // Importing hashmaps
+    import java.util.HashMap;
 
+   // Declaration
     HashMap<Integer, Integer> myHashTable = new HashMap<Integer, Integer>(); // declares an empty map.
 
    // Insertion
@@ -148,3 +152,13 @@ Methods for Open Addressing
     myHashTable.size();
 
 ```
+:rocket: [Run Code](https://repl.it/CVt1)
+
+
+## Interesting Links
+
+- If what I've said doesn't make any sense to you, you may want to check out [this video](https://www.youtube.com/watch?v=x05KubVlh_M)
+- [Cuckoo Hashing](https://www.youtube.com/watch?v=HRzg0SzFLQQ)
+- [Consisten Hashing](https://www.youtube.com/watch?v=jznJKL0CrxM)
+- [Bloom Filters](https://www.youtube.com/watch?v=-SuTGoFYjZs)
+- [Hashing Strategies](https://www.youtube.com/watch?v=D65JQ0qQwZk)
