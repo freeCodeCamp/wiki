@@ -26,6 +26,8 @@ Several built-in functions have been discussed and used previous examples. Just 
 - [Keyword Arguments](Python-Functions-Arguments-Keyword)
 - [Lambda Expressions](Python-Functions-Expressions-Lambda)
 - [len](Python-Function-LEN)
+- [Max](Python-Function-MAX)
+- [Min](Python-Function-MIN)
 - [Name binding and Aliasing Functions](Python-Functions-Aliasing-Name-Binding)
 - [Nested functions](Python-Functions-Nested)
 - [Pow](Python-Function-Pow)
