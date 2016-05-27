@@ -1,0 +1,150 @@
+# Hash Tables and Hashing Functions
+
+## Introduction to hashing
+
+Hashing is designed to solve the problem of needing to efficiently find or store an item in a collection. 
+For example, if we have a list of 10,000 words of English and we want to check if a given word is in the list, it would be inefficient to successively compare the word with all 10,000 items until we find a match. 
+Hashing is a technique to make things more efficient by effectively narrowing down the search at the outset.
+
+## What is hashing?
+
+Hashing means using some function or algorithm to map object data to some representative integer value. 
+This so-called hash code (or simply hash) can then be used as a way to narrow down our search when looking for the item in the map. 
+Generally, these hash codes are used to generate an index, at which the value is stored.
+
+## How hashing works
+
+In hash tables, you store data in forms of key and value pairs. The key, which is used to identify the data, is given as an input to the hashing function. The hash code, which is an integer, is then mapped to the fixed size we have.
+
+Hash tables have to support 3 functions.
+- insert (key, value)
+- get (key)
+- delete (key)
+
+Purely as an example to help us grasp the concept, let us suppose that we want to map a list of string keys to string values (for example, map a list of countries to their capital cities). 
+So let’s say we want to store the data in Table in the map.
+
+Key             |    Value
+----------------|-------------
+Cuba            |    Havana
+England         |    London
+France          |    Paris
+Spain           |    Madrid
+Switzerland     |    Berne
+
+And let us suppose that our hash function is to simply take the length of the string.
+
+For simplicity, we will have two arrays: one for our keys and one for the values. 
+So to put an item in the hash table, we compute its hash code (in this case, simply count the number of characters), then put the key and value in the arrays at the corresponding index. 
+For example, Cuba has a hash code (length) of 4. 
+So we store Cuba in the 4th position in the keys array, and Havana in the 4th index of the values array etc. And we end up with the following:
+
+Position             |   Keys array     |  Values array
+---------------------|------------------|---------------
+   1                 |                  |
+   2                 |                  |
+   3                 |                  |
+   4                 |    Cuba          |    Havana
+   5                 |    Spain         |    Madrid
+   6                 |    France        |    Paris
+   7                 |    England       |    London
+   8                 |                  | 
+   9                 |                  |
+   10                |                  |
+   11                |  Switzerland     |    Berne
+
+
+Now, in this specific example things work quite well. 
+Our array needs to be big enough to accommodate the longest string, but in this case that’s only 11 slots. 
+And we do waste a bit of space because, for example, there are no 1-letter keys in our data, nor keys between 8 and 10 letters. But in this case, the waste isn’t so bad either. And taking the length of a string is nice and fast, so is the process of finding the value associated with a given key (certainly faster than doing up to five string comparisons).
+
+But, what do we do if our dataset has a string which has more than 11 characters? 
+What if we have one another word with 5 characters, "India", and try assigning it to an index using our hash function. Since the index 5 is already occupied, we have to make a call on what to do with it. This is called a collision. 
+If our dataset had a string with thousand characters, and you make an array of thousand indices to store the data, it would result in a wastage of space. If our keys were random words from English, where there are so many words with same length, using length as a hashing function would be fairly useless.
+
+
+## Collision Handling
+
+Two basic methods are used to handle collisions.
+   1. Separate Chaining
+   2. Open Addressing
+
+### Separate Chaining
+
+Hash collision handling by separate chaining, uses an additional data structure, preferrably linked list for dynamic allocation, into buckets. In our example, when we add India to the dataset, it is appended to the linked list stored at the index 5, then our table would look like this.
+
+Position             | Linked List Heads                  | 
+---------------------|------------------------------------|
+   1                 |                                    |
+   2                 |                                    |
+   3                 |                                    |
+   4                 |    [Cuba-Havana]                   |    
+   5                 |    [Spain-Madrid] -> [India-Delhi] |
+   6                 |    [France-Paris]                  |
+   7                 |    [England-London]                |
+   8                 |                                    | 
+   9                 |                                    |
+   10                |                                    |
+   11                |    [Switzerland-Berne]             |
+
+
+So to find an item we first go to the bucket then compare keys. This is a popular method, and if link list is used the hash never fills up. The cost for `get(k)` is on average `O(n)` where n is the number of keys in the bucket, total number of keys be N. 
+The problem with separate chaining is that the data structure can grow with out bounds. 
+
+### Open Addressing
+
+Open addressing does not introduce any new data structure.  If a collision occurs then we look for availability in the next spot generated by an algorithm. Open Addressing is generally used where storage space is a restricted, i.e. embedded processors. Open addressing not necessarily faster then separate chaining.
+
+Methods for Open Addressing
+   - [Linear Probing](https://en.wikipedia.org/wiki/Linear_probing)
+   - [Quadratic Probing](https://en.wikipedia.org/wiki/Quadratic_probing)
+   - [Double Hashing](https://en.wikipedia.org/wiki/Double_hashing)
+
+
+## How to use hashing in your code.
+
+### Python
+
+```python
+   # Declaration
+    my_hash_table = {}
+    my_hash_table = dict()
+
+   # Insertion
+    my_hash_table[key] = value
+
+   # Look up
+    value = my_hash_table.get(key) // returns None if the key is not present
+    value = my_hash_table[key] // throws a ValueError exception if the key is not present
+
+    # Deletion
+    del my_hash_table[key] // throws a ValueError exception if the key is not present
+
+    # Getting all keys and values stored in the dictionary
+
+    keys = my_hash_table.keys()
+    values = my_hash_table.values()
+
+```
+
+### Java
+
+```java
+   // Declaration
+
+    HashMap<Integer, Integer> myHashTable = new HashMap<Integer, Integer>(); // declares an empty map.
+
+   // Insertion
+    myHashTable.put(key, value);
+
+   // Deletion
+    A.remove(key);
+
+    // Look up
+    myHashTable.get(key); // returns null if the key K is not present
+    myHashTable.containsKey(key); // returns a boolean value, indicating the presence of a key
+    
+    // Number of key, value pairs in the hash table
+    myHashTable.size();
+
+```
