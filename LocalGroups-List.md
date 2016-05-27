@@ -120,6 +120,7 @@ Please note that all local groups are unofficial, independently organized groups
   - [Fortaleza](https://www.facebook.com/groups/free.code.group.fortaleza/)
   - [Franca](https://www.facebook.com/groups/free.code.camp.franca/)
   - [Goiania](https://www.facebook.com/groups/free.code.camp.goiania/)
+  - [Governador Valadares](https://www.facebook.com/groups/free.code.camp.governadorvaladares/)
   - [Guaratingueta](https://www.facebook.com/groups/free.code.camp.guaratingueta/)
   - [Guarapuava](https://www.facebook.com/groups/free.code.camp.guarapuava/)
   - [Itajuba](https://www.facebook.com/groups/free.code.camp.itajuba/)
@@ -206,6 +207,7 @@ Please note that all local groups are unofficial, independently organized groups
     - [Kitchener](https://www.facebook.com/groups/free.code.camp.kitchener.waterloo.on/)
     - [London](https://www.facebook.com/groups/free.code.camp.london.on/)
     - [Markham](https://www.facebook.com/groups/free.code.camp.markham/)
+    - [Milton](https://www.facebook.com/groups/free.code.camp.milton/)
     - [Mississauga](https://www.facebook.com/groups/free.code.camp.sauga)
     - [North Bay](https://www.facebook.com/groups/free.code.camp.north.bay/)
     - [North York](https://www.facebook.com/groups/free.code.camp.north.york/)
@@ -984,6 +986,7 @@ Please note that all local groups are unofficial, independently organized groups
   - [Durban](https://www.facebook.com/groups/free.code.camp.durban.kwazulu.natal/)
   - [George](https://www.facebook.com/groups/free.code.camp.george/)
   - [Johannesburg](https://www.facebook.com/groups/free.code.camp.johannesburg/)
+  - [Pietermaritzburg](https://www.facebook.com/groups/free.code.camp.pietermaritzburg/)
   - [Pretoria](https://www.facebook.com/groups/150891448624679/)
   - [Randfontein](https://www.facebook.com/groups/free.code.camp.your.randfontein/)
 - South Korea
@@ -1118,6 +1121,7 @@ Please note that all local groups are unofficial, independently organized groups
   - Arizona
     - [Flagstaff](https://www.facebook.com/groups/free.code.camp.northern.arizona/)
     - [Maricopa](https://www.facebook.com/groups/free.code.camp.maricopa.arizona/)
+    - [Mesa](https://www.facebook.com/groups/free.code.camp.mesa)
     - [Phoenix](https://www.facebook.com/groups/free.code.camp.tempe.phoenix.scottsdale/)
     - [Prescott](https://www.facebook.com/groups/free.code.camp.northern.arizona/)
     - [Scottsdale](https://www.facebook.com/groups/free.code.camp.tempe.phoenix.scottsdale/)
@@ -1204,6 +1208,7 @@ Please note that all local groups are unofficial, independently organized groups
     - [Pueblo](https://www.facebook.com/groups/free.code.camp.pueblo/)
   - Connecticut
     - [Bridgeport](https://www.facebook.com/groups/freecodecampbridgeport/)
+    - [Danbury](https://www.facebook.com/groups/free.code.camp.danbury/)
     - [Durango](https://www.facebook.com/groups/free.code.camp.durango.co/)
     - [Hartford](https://www.facebook.com/groups/free.code.camp.hartford.connecticut/)
     - [New Haven](https://www.facebook.com/groups/free.code.camp.new.haven/)
@@ -1336,6 +1341,7 @@ Please note that all local groups are unofficial, independently organized groups
     - [Worcester](https://www.facebook.com/groups/free.code.camp.worcester.ma/)
   - Michigan
     - [Ann Arbor](https://www.facebook.com/groups/free.code.camp.ann.arbor/)
+    - [Bad Axe](https://www.facebook.com/groups/free.code.camp.badaxe/)
     - [Big Rapids](https://www.facebook.com/groups/free.code.camp.bigrapids/)
     - [Detroit](https://www.facebook.com/groups/free.code.camp.detroit/)
     - [Fenton](https://www.facebook.com/groups/free.code.camp.fenton.mi/)
