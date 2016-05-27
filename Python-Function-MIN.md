@@ -38,12 +38,12 @@ print(min(list2)) # Returns 'a' as 'a' is the smallest in the list in alphabetic
 list3 = [1, 2, 'abc', 'xyz']
 print(min(list3)) # Gives TypeError as values in the list are of different type
 
-#Fix the TypeError mentioned above first
+#Fix the TypeError mentioned above first before moving on to next step
 
 list4 = []
 print(min(list4)) # Gives ValueError as the argument is empty  
 ```
 
-:rocket: [Run Code](https://repl.it/CVir/3)
+:rocket: [Run Code](https://repl.it/CVir/4)
 
 [Official Docs](https://docs.python.org/3/library/functions.html#min)
