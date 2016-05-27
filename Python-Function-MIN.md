@@ -44,6 +44,6 @@ list4 = []
 print(min(list4)) # Gives ValueError as the argument is empty  
 ```
 
-:rocket: [Run Code](https://repl.it/CVir)
+:rocket: [Run Code](https://repl.it/CVir/3)
 
 [Official Docs](https://docs.python.org/3/library/functions.html#min)
