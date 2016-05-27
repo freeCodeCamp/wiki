@@ -142,7 +142,7 @@ Methods for Open Addressing
     myHashTable.put(key, value);
 
    // Deletion
-    A.remove(key);
+    myHashtable.remove(key);
 
     // Look up
     myHashTable.get(key); // returns null if the key K is not present
