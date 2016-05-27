@@ -116,6 +116,7 @@ If your city isn't listed here, you should [create your own Local Group](LocalGr
   - [Fortaleza](https://www.facebook.com/groups/free.code.group.fortaleza/)
   - [Franca](https://www.facebook.com/groups/free.code.camp.franca/)
   - [Goiania](https://www.facebook.com/groups/free.code.camp.goiania/)
+  - [Governador Valadares](https://www.facebook.com/groups/free.code.camp.governadorvaladares/)
   - [Guaratingueta](https://www.facebook.com/groups/free.code.camp.guaratingueta/)
   - [Guarapuava](https://www.facebook.com/groups/free.code.camp.guarapuava/)
   - [Itajuba](https://www.facebook.com/groups/free.code.camp.itajuba/)
@@ -202,6 +203,7 @@ If your city isn't listed here, you should [create your own Local Group](LocalGr
     - [Kitchener](https://www.facebook.com/groups/free.code.camp.kitchener.waterloo.on/)
     - [London](https://www.facebook.com/groups/free.code.camp.london.on/)
     - [Markham](https://www.facebook.com/groups/free.code.camp.markham/)
+    - [Milton](https://www.facebook.com/groups/free.code.camp.milton/)
     - [Mississauga](https://www.facebook.com/groups/free.code.camp.sauga)
     - [North Bay](https://www.facebook.com/groups/free.code.camp.north.bay/)
     - [North York](https://www.facebook.com/groups/free.code.camp.north.york/)
@@ -979,6 +981,7 @@ If your city isn't listed here, you should [create your own Local Group](LocalGr
   - [Durban](https://www.facebook.com/groups/free.code.camp.durban.kwazulu.natal/)
   - [George](https://www.facebook.com/groups/free.code.camp.george/)
   - [Johannesburg](https://www.facebook.com/groups/free.code.camp.johannesburg/)
+  - [Pietermaritzburg](https://www.facebook.com/groups/free.code.camp.pietermaritzburg/)
   - [Pretoria](https://www.facebook.com/groups/150891448624679/)
   - [Randfontein](https://www.facebook.com/groups/free.code.camp.your.randfontein/)
 - South Korea
@@ -1113,6 +1116,7 @@ If your city isn't listed here, you should [create your own Local Group](LocalGr
   - Arizona
     - [Flagstaff](https://www.facebook.com/groups/free.code.camp.northern.arizona/)
     - [Maricopa](https://www.facebook.com/groups/free.code.camp.maricopa.arizona/)
+    - [Mesa](https://www.facebook.com/groups/free.code.camp.mesa)
     - [Phoenix](https://www.facebook.com/groups/free.code.camp.tempe.phoenix.scottsdale/)
     - [Prescott](https://www.facebook.com/groups/free.code.camp.northern.arizona/)
     - [Scottsdale](https://www.facebook.com/groups/free.code.camp.tempe.phoenix.scottsdale/)
@@ -1199,6 +1203,7 @@ If your city isn't listed here, you should [create your own Local Group](LocalGr
     - [Pueblo](https://www.facebook.com/groups/free.code.camp.pueblo/)
   - Connecticut
     - [Bridgeport](https://www.facebook.com/groups/freecodecampbridgeport/)
+    - [Danbury](https://www.facebook.com/groups/free.code.camp.danbury/)
     - [Durango](https://www.facebook.com/groups/free.code.camp.durango.co/)
     - [Hartford](https://www.facebook.com/groups/free.code.camp.hartford.connecticut/)
     - [New Haven](https://www.facebook.com/groups/free.code.camp.new.haven/)
@@ -1317,6 +1322,7 @@ If your city isn't listed here, you should [create your own Local Group](LocalGr
     - [Frederick](https://www.facebook.com/groups/free.code.camp.frederick.md)
     - [Germantown](https://www.facebook.com/groups/free.code.camp.germantown.maryland/)
     - [Hagerstown](https://www.facebook.com/groups/free.code.camp.hagerstown/)
+    - [National Harbor](https://www.facebook.com/groups/free.code.camp.national.harbor/)
     - [Salisbury](https://www.facebook.com/groups/free.code.camp.salisbury.maryland/)
     - [Silver Spring](https://www.facebook.com/groups/free.code.camp.silverspring/)
   - Massachusetts
@@ -1330,6 +1336,7 @@ If your city isn't listed here, you should [create your own Local Group](LocalGr
     - [Worcester](https://www.facebook.com/groups/free.code.camp.worcester.ma/)
   - Michigan
     - [Ann Arbor](https://www.facebook.com/groups/free.code.camp.ann.arbor/)
+    - [Bad Axe](https://www.facebook.com/groups/free.code.camp.badaxe/)
     - [Big Rapids](https://www.facebook.com/groups/free.code.camp.bigrapids/)
     - [Detroit](https://www.facebook.com/groups/free.code.camp.detroit/)
     - [Fenton](https://www.facebook.com/groups/free.code.camp.fenton.mi/)
@@ -1553,7 +1560,6 @@ If your city isn't listed here, you should [create your own Local Group](LocalGr
     - [Everett](https://www.facebook.com/groups/free.code.camp.everett/)
     - [Lake Stevens](https://www.facebook.com/groups/free.code.camp.Lake.Stevens.WA/)
     - [Lakewood](https://www.facebook.com/groups/free.code.camp.lakewood/)
-    - [National Harbor](https://www.facebook.com/groups/free.code.camp.national.harbor/)
     - [Oak Harbor](https://www.facebook.com/groups/free.code.camp.oak.harbor.wa/)
     - [Olympia](https://www.facebook.com/groups/free.code.camp.olympia/)
     - [Port Angeles](https://www.facebook.com/groups/free.code.camp.port.angeles/)
