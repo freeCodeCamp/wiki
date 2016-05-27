@@ -21,7 +21,7 @@ max([])
 ## Return Value
 
 The largest item in the iterable is returned. If two or more positional arguments are provided, the largest of the positional arguments 
-is returned. If the iterable is empty and default is not provided, a ValueError is raised.
+is returned. If the iterable is empty and default is not provided, a `ValueError` is raised.
 
 ## Code Sample
 
