@@ -155,11 +155,13 @@ Methods for Open Addressing
 :rocket: [Run Code](https://repl.it/CVt1)
 
 
-## Interesting Links
+## Resources
 
-- If what I've said doesn't make any sense to you, you may want to check out [this video](https://www.youtube.com/watch?v=x05KubVlh_M).
-- Here's another [link](http://geeksquiz.com/hashing-set-1-introduction/) which explains hashing using a different example.
+- For further reading, you many want to try this [link](http://geeksquiz.com/hashing-set-1-introduction/), which explains hashing using a different example.
+- [Hashing in 60 seconds](https://www.youtube.com/watch?v=x05KubVlh_M).
 - [Cuckoo Hashing](https://www.youtube.com/watch?v=HRzg0SzFLQQ)
 - [Consisten Hashing](https://www.youtube.com/watch?v=jznJKL0CrxM)
 - [Bloom Filters](https://www.youtube.com/watch?v=-SuTGoFYjZs)
 - [Hashing Strategies](https://www.youtube.com/watch?v=D65JQ0qQwZk)
+- [Password Hashing](https://crackstation.net/hashing-security.htm)
+- [Difference between Hashing and encrypting](http://stackoverflow.com/questions/326699/difference-between-hashing-a-password-and-encrypting-it)
