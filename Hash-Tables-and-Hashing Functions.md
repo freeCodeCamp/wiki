@@ -56,7 +56,7 @@ Position             |   Keys array     |  Values array
 
 Now, in this specific example things work quite well. 
 Our array needs to be big enough to accommodate the longest string, but in this case that’s only 11 slots. 
-And we do waste a bit of space because, for example, there are no 1-letter keys in our data, nor keys between 8 and 10 letters. But in this case, the waste isn’t so bad either. And taking the length of a string is nice and fast, so is the process of finding the value associated with a given key (certainly faster than doing up to five string comparisons).
+And we do waste a bit of space because, for example, there are no 1-letter keys in our data, nor keys between 8 and 10 letters. But in this case, the wasted space isn’t so bad either. Taking the length of a string is nice and fast, and so is the process of finding the value associated with a given key (certainly faster than doing up to five string comparisons).
 
 But, what do we do if our dataset has a string which has more than 11 characters? 
 What if we have one another word with 5 characters, "India", and try assigning it to an index using our hash function. Since the index 5 is already occupied, we have to make a call on what to do with it. This is called a collision. 
