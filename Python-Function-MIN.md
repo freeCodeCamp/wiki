@@ -3,9 +3,20 @@
 `min()` is a built-in function in Python 3. It returns the smallest item in an iterable or the smallest of two or more arguments.
 
 ## Arguments
-This function takes 2 or more numbers or any kind of iterable as an argument. While giving an iterable as an argument we must make sure 
-that all the elements in the iterable are of same type. This means that we cannot pass a list which has both string and integer values 
-stored in it.
+This function takes two or more numbers or any kind of iterable as an argument. While giving an iterable as an argument we must make sure that all the elements in the iterable are of same type. This means that we cannot pass a list which has both string and integer values stored in it.
+
+Valid Arguments:
+```python
+min(2, 3)
+min([1, 2, 3])
+min('a', 'b', 'c')
+```
+Invalid Arguments:
+```python
+min(2, 'a')
+min([1, 2, 3, 'a'])
+min([])
+```
 
 ## Return Value
 
