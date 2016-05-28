@@ -18,7 +18,7 @@ from array import array
 intarray = array('i') # Declares an array of integer type
 ```
 
-**Adding elements to `array`:**
+####Adding elements to `array`: 
 
 ```python
 intarray.append(1) # Adds an integer value of 1 to the array
