@@ -16,9 +16,9 @@ and an `array` in Python is that a `list` can have different types of values whe
 ```python
 from array import array
 intarray = array('i') # Declares an array of integer type
-```python
+```
 
-**Adding elements to an `array`:**
+**Adding elements to `array`:**
 
 ```python
 intarray.append(1) # Adds an integer value of 1 to the array
@@ -26,9 +26,9 @@ intarray.append(0) # Adds an integer value of 0 to the array
 intarray.append(-1) # Adds an integer value of -1 to the array
 
 intarray.append('d') # Would give a TypeError as the array is of integer type. Resolve this error and then move ahead.
-```python
+```
 
-**Printing an `array`**
+**Printing an `array`:**
 
 ```python
 print(intarray) # Returns array('i', [1, 4, -1])
@@ -38,4 +38,4 @@ print(intarray[3]) # Would give IndexError as there is no element at index 3 of 
 # To print all the elements of the array
 for i in intarray:
 	print(i)
-	```python
+```
