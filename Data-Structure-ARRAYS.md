@@ -8,7 +8,7 @@ element.
 
 ## Arrays in Python
 
-Python doesn't have a native `array` data structure. An `array` in Python should not be confused with list. The major difference between a `list`
+Python doesn't have a native `array` data structure. An `array` in Python should not be confused with `list`. The major difference between a `list`
 and an `array` in Python is that a `list` can have different types of values whereas an `array` should have all the values of same type.
 
 **Declaration of `array`:**
@@ -25,7 +25,9 @@ intarray.append(1) # Adds an integer value of 1 to the array
 intarray.append(0) # Adds an integer value of 0 to the array
 intarray.append(-1) # Adds an integer value of -1 to the array
 
-intarray.append('d') # Would give a TypeError as the array is of integer type. Resolve this error and then move ahead.
+intarray.append('d') # Would give a TypeError as the array is of integer type. 
+
+#Resolve the above error and then move ahead.
 ```
 
 **Printing an `array`:**
@@ -33,7 +35,9 @@ intarray.append('d') # Would give a TypeError as the array is of integer type. R
 ```python
 print(intarray) # Returns array('i', [1, 4, -1])
 print(intarray[0]) # Returns 1 which is the element at index 0 of the array
-print(intarray[3]) # Would give IndexError as there is no element at index 3 of array. Resolve this error and then move ahead
+print(intarray[3]) # Would give IndexError as there is no element at index 3 of array. 
+
+#Resolve the above error and then move ahead.
 
 # To print all the elements of the array
 for i in intarray:
