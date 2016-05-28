@@ -24,6 +24,7 @@ intarray = array('i') # Declares an array of integer type
 intarray.append(1) # Adds an integer value of 1 to the array
 intarray.append(0) # Adds an integer value of 0 to the array
 intarray.append(-1) # Adds an integer value of -1 to the array
+intarray.append(1) # Again adds an integer value of 1 to the array
 
 intarray.append('d') # Would give a TypeError as the array is of integer type. 
 
@@ -43,3 +44,19 @@ print(intarray[3]) # Would give IndexError as there is no element at index 3 of 
 for i in intarray:
 	print(i)
 ```
+
+**Basic operations on `array`:**
+
+```python
+len(intarray) # Returns the length of the array i.e. 3
+intarray.itemsize # Returns length in bytes of one array item i.e. 4 as it is an integer
+intarray.count(1) # Returns the number of occurrences of 1 in the array i.e. 2
+intarray.insert(1, 3) # Insert a new item with value x in the array before position i
+intarray.remove(1) # Remove the first occurrence of 1 from the array
+intarray.reverse() # Reverse the order of the items in the array
+intarray.pop(1) # Removes the item with the index 1 from the array and returns it 
+```
+
+:rocket: [Run Code](https://repl.it/CWJB)
+
+[Official Docs](https://docs.python.org/3.5/library/array.html)
