@@ -28,7 +28,7 @@ intarray = array('i') # Declares an array of integer type
 	
 	intarray.append('d') # Would give a TypeError as the array is of integer type. 
 
-#Resolve the above error and then move ahead.
+	#Resolve the above error and then move ahead.
 ```
 
 #### Printing an `array`: 
