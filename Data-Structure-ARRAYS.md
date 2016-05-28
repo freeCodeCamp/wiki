@@ -14,8 +14,8 @@ and an `array` in Python is that a `list` can have different types of values whe
 #### Declaration of `array`:
 
 ```python
-from array import array
-intarray = array('i') # Declares an array of integer type
+	from array import array
+	intarray = array('i') # Declares an array of integer type
 ```
 
 #### Adding elements to `array`: 
