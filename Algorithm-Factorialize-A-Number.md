@@ -56,7 +56,7 @@ Got it? ;)
 
 ## Spoiler Alert!
 
-![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
+[![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
 
 **Solution ahead!**
 
@@ -71,13 +71,13 @@ function factorialize(num) {
 factorialize(5);
 ```
 
-:rocket: [Run Code](https://repl.it/CLjU/1)
+:rocket: [REPL It!](https://repl.it/CLjU/1)
 
 ## References
 
 - **Recursion**: [https://www.codecademy.com/courses/javascript-lesson-205/0/1](https://www.codecademy.com/es/courses/javascript-lesson-205/0/1)
-- **Factorialization**: [https://en.wikipedia.org/wiki/Factorial](https://en.wikipedia.org/wiki/Factorial)
-- **Arithmetic Operators** [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators)
+- **Factorialization**: <https://en.wikipedia.org/wiki/Factorial>
+- **Arithmetic Operators** <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators>
 
 ## Credits:
 

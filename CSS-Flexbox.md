@@ -39,11 +39,11 @@ So now you have your toolkit but you ask "What do I do with my tools, how do I u
 
 This is what out container looks like without `display: flex;`
 
-![CSS playground no flex properties](https://i.imgur.com/m6rjD5n.png)
+![CSS playground no flex properties](http://i.imgur.com/m6rjD5n.png)
 
 After adding `display: flex;` we get the below, the default flex properties are applied causing it to show as such
 
-![CSS playground display flex default style](https://i.imgur.com/tjTiJtw.png)
+![CSS playground display flex default style](http://i.imgur.com/tjTiJtw.png)
 
 ### Flex Direction
 
@@ -53,19 +53,19 @@ Flexbox applies row as the default for the direction. Here is what they all look
 
 `flex-direction: row;`
 
-![flex-direction: row; example](https://i.imgur.com/Gv2PSmR.png)
+![flex-direction: row; example](http://i.imgur.com/Gv2PSmR.png)
 
 `flex-direction: row-reverse;`
 
-![flex-direction: row-reverse example](https://i.imgur.com/eOutooF.png)
+![flex-direction: row-reverse example](http://i.imgur.com/eOutooF.png)
 
 `flex-direction: column;`
 
-![flex-direction: column example](https://i.imgur.com/7ZtcqWh.png)
+![flex-direction: column example](http://i.imgur.com/7ZtcqWh.png)
 
 `flex-direction: column-reverse;`
 
-![flex-direction: column-reverse example](https://i.imgur.com/4cuV92k.png)
+![flex-direction: column-reverse example](http://i.imgur.com/4cuV92k.png)
 
 ### Flex Wrap
 

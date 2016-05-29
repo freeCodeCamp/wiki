@@ -20,7 +20,7 @@ If you want the **tail** of a snake remove the head first. The `.splice()` metho
 
 ## Spoiler Alert!
 
-![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
+[![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
 
 **Solution ahead!**
 
@@ -36,7 +36,7 @@ function slasher(arr, howMany) {
 slasher([1, 2, 3], 2);
 ```
 
-:rocket: [Run Code](https://repl.it/CLjU/28)
+:rocket: [REPL It!](https://repl.it/CLjU/28)
 
 ## Code Solution 2:
 
@@ -49,11 +49,11 @@ function slasher(arr, howMany) {
 }
 ```
 
-:rocket: [Run Code](https://repl.it/CLjU/29)
+:rocket: [REPL It!](https://repl.it/CLjU/29)
 
 ## References
 
-- [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
+- <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice>
 
 ## Credits:
 

@@ -20,7 +20,7 @@ If you're new to Free Code Camp, or just new to the wiki, start here:
 
 - [Code of Conduct](FreeCodeCamp-Code-Of-Conduct)
 - [Camper News](Camper-News)
-- [Local Groups](LocalGroups)
+- [Local Groups](Local-Groups)
 - [Official Chat Rooms](Official-Free-Code-Camp-Chat-Rooms)
 - [How to use CamperBot](CamperBot)
 - [Join the LinkedIn Community and Find Alumni](FreeCodeCamp-LinkedIn-Add)

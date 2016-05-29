@@ -18,7 +18,7 @@
 
 ## Spoiler Alert!
 
-![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
+[![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
 
 **Solution ahead!**
 
@@ -43,7 +43,7 @@ function myReplace(str, before, after) {
 myReplace("A quick brown fox jumped over the lazy dog", "jumped", "leaped");
 ```
 
-:rocket: [Run Code](https://repl.it/CLmo/0)
+:rocket: [REPL It!](https://repl.it/CLmo/0)
 
 ## Code Solution #2:
 
@@ -66,7 +66,7 @@ function myReplace(str, before, after) {
 myReplace("A quick brown fox jumped over the lazy dog", "jumped", "leaped");
 ```
 
-:rocket: [Run Code](https://repl.it/CLmp/0)
+:rocket: [REPL It!](https://repl.it/CLmp/0)
 
 ## Code Solution #3:
 
@@ -102,7 +102,7 @@ function myReplace(str, before, after) {
 myReplace("A quick brown fox jumped over the lazy dog", "jumped", "leaped");
 ```
 
-:rocket: [Run Code](https://repl.it/CLmq/0)
+:rocket: [REPL It!](https://repl.it/CLmq/0)
 
 ## Code Explanation:
 

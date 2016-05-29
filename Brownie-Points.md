@@ -2,7 +2,7 @@
 
 The number beside your picture on Free Code Camp tells you how many Brownie Points you have.
 
-![A user profile picture next to a with Brownie Points score](https://i.imgur.com/SsvbkDH.png)
+![A user profile picture next to a with Brownie Points score](http://i.imgur.com/SsvbkDH.png)
 
 There are two ways you can get Brownie Points:
 
@@ -11,4 +11,4 @@ There are two ways you can get Brownie Points:
 
 > Brownie Points help you look like the kind of person who codes a lot, shares relevant links, and helps people.
 
-_They also add to your [Streak](Streaks)._
+_They also add to your [Streak](Streaks.md)._

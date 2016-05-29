@@ -25,7 +25,7 @@ public class Car implements Vehicle {
 }
 ```
 
-:rocket: [Run Code](https://repl.it/CItd/0)
+:rocket: [REPL It!](https://repl.it/CItd/0)
 
 Now, there is a **ground rule** : The Class must implement **all** of the methods in the Interface. The methods must have _the exact same_ signature (name, parameters and exceptions) as described in the interface. The class _does not_ need to declare the fields though, only the methods.
 
@@ -72,7 +72,7 @@ Starter.startEngine(tata); // starting truck engine ...
 
 ```
 
-:rocket: [Run Code](https://repl.it/CItm/0)
+:rocket: [REPL It!](https://repl.it/CItm/0)
 
 ## But how about multiple interfaces?
 
@@ -101,7 +101,7 @@ public class Smartphone implements GPS,Radio {
 }
 ```
 
-:rocket: [Run Code](https://repl.it/CIto/0)
+:rocket: [REPL It!](https://repl.it/CIto/0)
 
 ## Some features of Interfaces
 
@@ -151,7 +151,7 @@ Smartphone motoG = new Smartphone();
 motog.getRoughCoordinates(); // Fetching rough coordinates...
 ```
 
-:rocket: [Run Code](https://repl.it/CItp/0)
+:rocket: [REPL It!](https://repl.it/CItp/0)
 
 ### But, what happens if two interfaces have the same method signature?
 
@@ -188,7 +188,7 @@ Smartphone motoG = new Smartphone();
 motoG.next(); // Next from MusicPlayer
 ```
 
-:rocket: [Run Code](https://repl.it/CIts/0)
+:rocket: [REPL It!](https://repl.it/CIts/0)
 
 ## Inheriting an Interface
 
@@ -225,7 +225,7 @@ public class SmartPhone implements MusicPlayer {
 }
 ```
 
-:rocket: [Run Code](https://repl.it/CIty/0)
+:rocket: [REPL It!](https://repl.it/CIty/0)
 
 Whoops, did I forget `next()` ? See, since it was a `default` method, I didn't had to provide an implementation at all. (Wont work for JDK < 8)
 

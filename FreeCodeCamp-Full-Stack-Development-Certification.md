@@ -2,7 +2,7 @@
 
 In order to participate in our nonprofit projects, you first need to earn our Full Stack Development Certification. This certification signifies that you've completed the first 800 hours of our curriculum.
 
-![An image of a sample Front End Development Certificate](https://i.imgur.com/Dlv4qSZ.png)
+![An image of a sample Front End Development Certificate](http://i.imgur.com/Dlv4qSZ.png)
 
 ## Here's how to earn our verified Full Stack Development Certification:
 

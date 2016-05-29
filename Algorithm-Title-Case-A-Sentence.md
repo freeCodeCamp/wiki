@@ -21,7 +21,7 @@ We have to return a sentence with camel case. This means that the first letter w
 
 ## Spoiler Alert!
 
-![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
+[![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
 
 **Solution ahead!**
 
@@ -43,7 +43,7 @@ function titleCase(str) {
 }
 ```
 
-:rocket: [Run Code](https://repl.it/CLjU/8)
+:rocket: [REPL It!](https://repl.it/CLjU/8)
 
 ### Code Explanation:
 
@@ -65,7 +65,7 @@ function titleCase(str) {
 titleCase("I'm a little tea pot");
 ```
 
-:rocket: [Run Code](https://repl.it/CLjU/9)
+:rocket: [REPL It!](https://repl.it/CLjU/9)
 
 ### Code Explanation:
 
@@ -90,7 +90,7 @@ function titleCase(str) {
 titleCase("hello world");
 ```
 
-:rocket: [Run Code](https://repl.it/CLjU/11)
+:rocket: [REPL It!](https://repl.it/CLjU/11)
 
 ## Fourth Solution:
 
@@ -106,7 +106,7 @@ function titleCase(str) {
 titleCase("I'm a little tea pot", "");
 ```
 
-:rocket: [Run Code](https://repl.it/CLjU/12)
+:rocket: [REPL It!](https://repl.it/CLjU/12)
 
 ## Fifth Solution:
 
@@ -119,7 +119,7 @@ function titleCase(str) {
 titleCase("I'm a little tea pot", "");
 ```
 
-:rocket: [Run Code](https://repl.it/CLjU/13)
+:rocket: [REPL It!](https://repl.it/CLjU/13)
 
 ## Sixth Solution:
 
@@ -129,7 +129,7 @@ function titleCase(str) {
 }
 ```
 
-:rocket: [Run Code](https://repl.it/CLjU/14)
+:rocket: [REPL It!](https://repl.it/CLjU/14)
 
 ### Code Explanation:
 

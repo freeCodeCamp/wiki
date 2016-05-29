@@ -2,7 +2,7 @@
 
 > These Gmail Shortcuts will save you hours and help you get to Inbox Zero.
 
-See [https://player.vimeo.com/video/115194016](https://player.vimeo.com/video/115194016)
+See <https://player.vimeo.com/video/115194016>
 
 ## Gmail Shortcuts
 

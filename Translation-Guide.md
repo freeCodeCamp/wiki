@@ -6,13 +6,19 @@ Thank you so much for your interest in translating FreeCodeCamp. Reading this do
 
 There are various ways in which you can contribute collaboratively to the translations. Every translation effort usually follows the workflow below.
 
-> _Pro tip: You can contribute to any or all of below phases in the work flow as per your interest._
+- [x] Discuss in language specific Translations Chat Rooms.
+- [x] Review the work of another translator.
+- [x] Create `Translation` issues to track the progress.
+- [x] Do Translations.
+- [x] Create Pull requests to add the Translations to code base.
 
-- [x] [Discuss in language specific Translations Chat Rooms](Translation-Chat-Rooms).
-- [x] [Review the work of another translator](Translation-Review-Work).
-- [x] [Create `Translation` issues to track the progress](Translation-Create-Issues).
-- [x] [Implement Translations](Translation-Translate).
-- [x] [Create Pull requests to add the Translations to code base](Translation-Create-PR)
+> _Pro tip: You can contribute to any or all of above phases in the work flow as per your interest._
+
+1. [Discuss in language specific Translations Chat Rooms](Translation-Chat-Rooms).
+2. [Review the work of another translator](Translation-Review-Work).
+3. [Create `Translation` issues to track the progress](Translation-Create-Issues).
+4. [Do Translations](Translation-Translate).
+5. [Create Pull requests to add the Translations to code base](Translation-Create-PR)
 
 ## Guidelines and Resources
 
@@ -35,7 +41,7 @@ Seeing the final product as you advance with the translation can help you to sta
 
 1. Verify with the other translators of the same language you're working on if a test instance has been created before
 2. Follow the instructions of [Contributing page](https://github.com/FreeCodeCamp/FreeCodeCamp/blob/staging/CONTRIBUTING.md) be sure you can see a running instance in English
-3. Follow the changes shown in [this commit](https://github.com/FreeCodeCamp/FreeCodeCamp/commit/d36e33f3938ddd079931a5fb2bc5dc6db37667e5) but instead of `descriptionEs` and `nameEs` use the keys of your language (e.g `descriptionFr` and `nameFr`)
+3. Follow the changes shown in [this commit](https://github.com/FreeCodeCamp/FreeCodeCamp/commit/d36e33f3938ddd079931a5fb2bc5dc6db37667e5) but instead of `descriptionEs` and `nameEs` use the keys of your language (e.g `descriptonFr` and `nameFr`)
 
 ### References
 

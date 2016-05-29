@@ -1,1 +1,1 @@
-![Know it all](https://i.imgur.com/cDz9HzV.jpg)
+![Know it all](http://i.imgur.com/cDz9HzV.jpg)

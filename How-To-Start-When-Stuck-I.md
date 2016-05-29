@@ -12,9 +12,9 @@ During my first semester in college, we had a course about introduction to algor
 
 A **flowchart** represents your program flow from top to bottom. Each command is represented on this. Depending on the nature of the command there are different shapes you can use. A few of them that I mostly use (you can google more on this, google is your friend when you know what to google for) are:
 
-![](https://biancamihai.github.io/img/flowchart-theory.png)
+![](http://biancamihai.github.io/img/flowchart-theory.png)
 
-More information about this you can find here [https://en.wikipedia.org/wiki/Flowchart](https://en.wikipedia.org/wiki/Flowchart).
+More information about this you can find here <https://en.wikipedia.org/wiki/Flowchart>.
 
 **Pseudocode** is an informal language that helps developers write algorithms. It is a text-based design tool and it uses a human readable language. It's a structured english text that describes an algorithm.
 

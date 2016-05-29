@@ -33,7 +33,7 @@ Now your DB is running at url something like this -
 
 where username and password are the details that you've given when you added a user.
 
-You can find your DB url at [https://mlab.com/databases/your_database_name](https://mlab.com/databases/your_database_name)
+You can find your DB url at <https://mlab.com/databases/your_database_name>
 
 ## Making a Connection with MongoDB in Node.js (While DB is running on your Local System):
 

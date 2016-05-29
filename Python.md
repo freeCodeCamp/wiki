@@ -1,6 +1,6 @@
 # Python
 
-![Python Logo](https://cloud.githubusercontent.com/assets/5607371/13463975/cc18b26e-e0b4-11e5-8a52-e1123a8871b6.png)
+![Python Logo][logo]
 
 [Python](https://www.python.org/) is a general purpose object oriented programming language; which is dynamically typed and interpreted using the Python interpreter.
 
@@ -25,9 +25,8 @@ If you are looking for something specific in Python, pick from this list of reso
 - [Operators](Python-Operators)
 - [More Built-in Types](Python-More-Builtin-Types)
 - [Functions](Python-Functions)
-- [Import Statement](Python-Import-Statements)
-  - [From x Import y](Python-From-X-Import-Y)
 - [Web-development in Python](Web-Development-in-Python)
 - [Installing Django and Flask](Install-Django-Flask)
-- [Using Pip](Python-Using-Pip)
 - [More Python Resources](Python-Resources)
+
+[logo]: https://cloud.githubusercontent.com/assets/5607371/13463975/cc18b26e-e0b4-11e5-8a52-e1123a8871b6.png

@@ -222,7 +222,7 @@
 66. [Challenge: Comparisons with the Logical Or Operator](Challenge-Comparisons-With-The-Logical-Or-Operator)
 67. [Challenge: Introducing Else Statements](Challenge-Introducing-Else-Statements)
 68. [Challenge: Introducing Else If Statements](Challenge-Introducing-Else-If-Statements)
-69. [Challenge: Logical Order in If Else Statements](Challenge-Logical-Order-In-If-Else-Statements)
+69. Challenge: Logical Order in If Else Statements
 70. [Challenge: Chaining If Else Statements](Challenge-Chaining-If-Else-Statements)
 71. [Challenge: Golf Code](Challenge-Golf-Code)
 72. [Challenge: Selecting from many options with Switch Statements](Challenge-Selecting-From-Many-Options-With-Switch-Statements)
@@ -383,11 +383,11 @@
 
 ## Data Visualization Projects
 
-- [Visualize Data with a Bar Chart](D3-Bar-Chart)
+- Visualize Data with a Bar Chart
 - Visualize Data with a Scatterplot Graph
 - Visualize Data with a Heat Map
 - Show Relationships with a Force Directed Graph
-- [Map Data Across the Globe](D3-US-Map-Visualization)
+- Map Data Across the Globe
 
 ## Claim Your Data Visualization Certificate
 

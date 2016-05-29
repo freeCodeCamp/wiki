@@ -30,6 +30,6 @@ Output:
 iter_For Value: 10
 ```
 
-:rocket: [Run Code](https://repl.it/CJYr/0)
+:rocket: [REPL It!](https://repl.it/CJYr/0)
 
 [Previous](Java-Loops)

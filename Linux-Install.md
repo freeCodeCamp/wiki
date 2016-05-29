@@ -10,4 +10,4 @@ Most versions of Linux have a feature that allows the user to test out the distr
 
 For users wishing to keep their current OS or not wishing to make a full transition, another option is to create a virtualized environment and install Linux in it using a tool such as [VirtualBox](https://www.virtualbox.org/wiki/Downloads). A user can run their current OS and have a VirtualBox window running with a Linux distribution in it. This would be an ideal situation for someone who wants to keep running Windows or OSX, but still have access to a Linux environment.
 
-[Back to Linux Main](Linux)
+[Back to Linux Main](Linux.md)

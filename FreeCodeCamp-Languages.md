@@ -10,4 +10,4 @@ the translation as the challenges are gradually updated (we use the
 github issue system to keep record).  
 
 If you're able to help us, please join the [gitter channel](https://gitter.im/FreeCodeCamp/Translators)
-and read the [Translation Guide](Translation-Guide)
+and read the [Translation Guide](Translation-Guide.md)

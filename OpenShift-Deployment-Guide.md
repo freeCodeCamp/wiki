@@ -2,7 +2,7 @@
 
 If you deploy your applications to Heroku you can only upload 5 applications, if you want to deploy a new one, you need to verify you account with your credit card.
 
-![Heroku Error](https://i.imgur.com/fY2be3a.jpg)
+![Heroku Error](http://i.imgur.com/fY2be3a.jpg)
 
 These are the steps you need to follow to deploy to [OpenShift](https://www.openshift.com/app/account/new).
 
@@ -20,25 +20,25 @@ These are the steps you need to follow to deploy to [OpenShift](https://www.open
 
 - [Add a new application](https://openshift.redhat.com/app/console/application_types)
 
-  ![Choose a web programming cartridge](https://i.imgur.com/9k9rj8l.jpg)
+  ![Choose a web programming cartridge](http://i.imgur.com/9k9rj8l.jpg)
 
 - Choose a name (second input will be same for all you apps)
 
-  ![Fill our name and our domain](https://i.imgur.com/gzMcQ3m.jpg)
+  ![Fill our name and our domain](http://i.imgur.com/gzMcQ3m.jpg)
 
 - Fill our Git URL and our branch name
 
-  ![Where you can find your Git URL and your branch name at Github](https://i.imgur.com/w4n0lNl.jpg)
+  ![Where you can find your Git URL and your branch name at Github](http://i.imgur.com/w4n0lNl.jpg)
   
-   ![Fill your Git URL and your branch name](https://i.imgur.com/Ec7lX3f.jpg)
+   ![Fill your Git URL and your branch name](http://i.imgur.com/Ec7lX3f.jpg)
 
 - "Create Application". It will take some time
 
-  ![You will be redirected here when you finish deployment](https://i.imgur.com/ddcWa4r.jpg)
+  ![You will be redirected here when you finish deployment](http://i.imgur.com/ddcWa4r.jpg)
 
 - Enter to "Application", then into your App and check it's started.
 
-  ![Your applications list](https://i.imgur.com/ALzAaXp.jpg) ![Details of your application](https://i.imgur.com/uTedlZP.jpg)
+  ![Your applications list](http://i.imgur.com/ALzAaXp.jpg) ![Details of your application](http://i.imgur.com/uTedlZP.jpg)
 
 ## Enviroment variables
 

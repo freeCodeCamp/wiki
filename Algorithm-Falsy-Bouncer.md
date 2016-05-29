@@ -1,6 +1,6 @@
 # Algorithm Factorialize A Number
 
-![](https://i.imgur.com/GluUbAz.jpg)
+![](http://i.imgur.com/GluUbAz.jpg)
 
 ### Problem Explanation:
 
@@ -20,7 +20,7 @@ Then we need to add a `filter()` with the falsy values function...
 
 ## Spoiler Alert!
 
-![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
+[![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
 
 **Solution ahead!**
 
@@ -35,7 +35,7 @@ function bouncer(arr) {
 }
 ```
 
-:rocket: [Run Code](https://repl.it/CLjU/32)
+:rocket: [REPL It!](https://repl.it/CLjU/32)
 
 ```javascript
 function bouncer(arr) {
@@ -48,7 +48,7 @@ function bouncer(arr) {
 }
 ```
 
-:rocket: [Run Code](https://repl.it/CLjU/33)
+:rocket: [REPL It!](https://repl.it/CLjU/33)
 
 ```javascript
 function bouncer(arr) {
@@ -59,7 +59,7 @@ function bouncer(arr) {
 }
 ```
 
-:rocket: [Run Code](https://repl.it/CLjU/34)
+:rocket: [REPL It!](https://repl.it/CLjU/34)
 
 ## Code Explanation:
 

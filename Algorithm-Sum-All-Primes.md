@@ -18,7 +18,7 @@ This problem is hard if you have to create your own code to check for primes, so
 
 ## Spoiler Alert!
 
-![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
+[![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
 
 **Solution ahead!**
 
@@ -60,7 +60,7 @@ function sumPrimes(num) {
 sumPrimes(10);
 ```
 
-:rocket: [Run Code](https://repl.it/CLnZ/0)
+:rocket: [REPL It!](https://repl.it/CLnZ/0)
 
 ## Code Explanation:
 
@@ -106,7 +106,7 @@ function sumPrimes(num) {
 sumPrimes(10);
 ```
 
-:rocket: [Run Code](https://repl.it/CLn0/0)
+:rocket: [REPL It!](https://repl.it/CLn0/0)
 
 ## Credits:
 

@@ -25,7 +25,7 @@ Here is a simple HTML template which includes the latest compiled and minified C
 ```
 
 <kbd>
-  <a href="http://jsbin.com/gebolikiru/edit?html,output"><img src="https://i.imgur.com/wBLOt8L.png"> <strong>JSBin Demo</strong></a>
+  <a href="http://jsbin.com/gebolikiru/edit?html,output"><img src="http://i.imgur.com/wBLOt8L.png"> <strong>JSBin Demo</strong></a>
 </kbd>
 
 We have used a CDN in this example, but you can checkout other ways of installing Foundation [here](http://foundation.zurb.com/sites/download/).

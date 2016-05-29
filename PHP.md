@@ -1,6 +1,8 @@
 # PHP
 
-![PHP Logo](https://cloud.githubusercontent.com/assets/5607371/13463476/62c293d6-e0b2-11e5-9b4c-6785a9c0126b.png)
+![PHP Logo][logo]
+
+[logo]: https://cloud.githubusercontent.com/assets/5607371/13463476/62c293d6-e0b2-11e5-9b4c-6785a9c0126b.png
 
 [PHP](http://php.net/) is a popular language for web design, that powers sites like [Facebook](https://www.facebook.com) and [Wikipedia](https://wikipedia.org). 
 

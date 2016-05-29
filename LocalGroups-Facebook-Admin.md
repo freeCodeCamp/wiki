@@ -6,14 +6,14 @@ How to find out who is an Admin for your Local Group:
 
 - First, click the Members tab below the cover photo. Then the click on the dropdown box that says "all members"**
 
-![](https://i.imgur.com/qLx6kVZ.png?1)
+![](http://i.imgur.com/qLx6kVZ.png?1)
 
 - Next, use the drop down box to select "Admins"**
 
-![](https://i.imgur.com/pfB2pDP.png?1)
+![](http://i.imgur.com/pfB2pDP.png?1)
 
 - You should now be able to see who is designated as an Admin for your Local Group.
 
-![](https://i.imgur.com/AwoYT01.png?1)
+![](http://i.imgur.com/AwoYT01.png?1)
 
 Message this person to introduce yourself and let them know you're interested in being an admin. After this, go schedule your first meetup.

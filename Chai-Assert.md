@@ -10,4 +10,4 @@ assert('foo' !== 'bar', 'foo is not bar');
 assert(Array.isArray([]), 'empty arrays are arrays');
 ```
 
-details: [http://chaijs.com/api/assert/](http://chaijs.com/api/assert/)
+details: <http://chaijs.com/api/assert/>

@@ -37,6 +37,6 @@ tup2 = (1,1)
 print(id(tup1) == id(tup2)) #=> False
 ```
 
-:rocket: [Run Code](https://repl.it/CQw7/1)
+:rocket: [REPL It!](https://repl.it/CQw7/1)
 
 [Official Docs](https://docs.python.org/3/library/functions.html#id)

@@ -1,6 +1,6 @@
 # Algorithm Convert HTML Entities
 
-![](https://i.imgur.com/g7sWL1I.jpg)
+![](http://i.imgur.com/g7sWL1I.jpg)
 
 ### Problem Explanation:
 
@@ -20,7 +20,7 @@
 
 ## Spoiler Alert!
 
-![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
+[![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
 
 **Solution ahead!**
 
@@ -49,7 +49,7 @@ function convertHTML(str) {
         temp[i] = '"';
         break;
       case "'":
-        temp[i] = "'";
+        temp[i] = ''';
         break;
     }
   }
@@ -58,18 +58,18 @@ function convertHTML(str) {
   return temp;
 }
 
-//test here
+// test here
 convertHTML("Dolce & Gabbana");
 ```
 
-:rocket: [Run Code](https://repl.it/CLnP/0)
+:rocket: [REPL It!](https://repl.it/CLnP/0)
 
 ## Medium Solution
 
 ```javascript
 function convertHTML(str) {
 //Chaining of replace method with different arguments
-  str = str.replace(/&/g,'&').replace(/</g,'<').replace(/>/g,'>').replace(/"/g,'"').replace(/'/g,"'");
+  str = str.replace(/&/g,'&').replace(/</g,'<').replace(/>/g,'>').replace(/"/g,'"').replace(/'/g,''');
 return str;
 }
 
@@ -77,7 +77,7 @@ return str;
 convertHTML("Dolce & Gabbana");
 ```
 
-:rocket: [Run Code](https://repl.it/CLnQ/0)
+:rocket: [REPL It!](https://repl.it/CLnQ/0)
 
 ## Advanced Solution
 
@@ -89,7 +89,7 @@ function convertHTML(str) {
     '<':'<',
     '>':'>',
     '\"':'"',
-    '\'':"'"
+    '\'':'''
   };
   //Use map function to return a filtered str with all entities changed automatically.
   return str.split('').map(function(entity){
@@ -101,7 +101,7 @@ function convertHTML(str) {
 convertHTML("Dolce & Gabbana");
 ```
 
-:rocket: [Run Code](https://repl.it/CLnR/0)
+:rocket: [REPL It!](https://repl.it/CLnR/0)
 
 ## Code Explanation (Advanced Solution):
 

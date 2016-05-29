@@ -113,6 +113,6 @@ It is also possible to bind functions to a name and called the bound function us
 
 Resources:
 
-- [https://www.jeffknupp.com/blog/2014/06/18/improve-your-python-python-classes-and-object-oriented-programming/](https://www.jeffknupp.com/blog/2014/06/18/improve-your-python-python-classes-and-object-oriented-programming/)
+- <https://www.jeffknupp.com/blog/2014/06/18/improve-your-python-python-classes-and-object-oriented-programming/>
 
 [Previous](Python-Basics)

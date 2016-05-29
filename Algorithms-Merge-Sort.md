@@ -13,7 +13,7 @@ To learn about Merge Sort, a basic knowledge about [Recursion](http://programmer
 The biggest advantage of using Merge sort is that the [time complexity](https://www.youtube.com/watch?v=V42FBiohc6c&list=PL2_aWCzGMAwI9HK8YPVBjElbLbI3ufctn) is only n*log(n) to sort an entire Array. It is a lot better than n^2 running time of bubble sort or insertion sort.
 Before we write the JavaScript code, let us understand how merge sort works with the help of a diagram.
 
-![alt tag] (https://i67.tinypic.com/2ahe49y.png)
+![alt tag] (http://i67.tinypic.com/2ahe49y.png)
 
 - Initially we have an array of 6 unsorted integers Arr(5, 8, 3, 9, 1, 2)
 - We split the array into two halves Arr1 = (5, 8, 3) and  Arr2 = (9, 1, 2).

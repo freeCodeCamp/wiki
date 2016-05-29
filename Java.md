@@ -1,6 +1,9 @@
 # Java
 
-![Elixir Logo](https://cloud.githubusercontent.com/assets/5607371/13461802/c24bc984-e0a9-11e5-90a2-8b4cc0c8eabe.png)
+![Elixir Logo][logo]
+
+[logo]: https://cloud.githubusercontent.com/assets/5607371/13461802/c24bc984-e0a9-11e5-90a2-8b4cc0c8eabe.png
+
 
 [Java](https://www.oracle.com/java/index.html) is a general purpose object-oriented programming language, owned and trademarked by [Oracle](http://www.oracle.com/index.html). It was originally created by [James Gosling](https://en.wikipedia.org/wiki/James_Gosling) at Sun Microsystems. 
 

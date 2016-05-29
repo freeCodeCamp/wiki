@@ -29,7 +29,7 @@ Output:
 0 1 2 3 4 5 6 7 8 9
 ```
 
-:rocket: [Run Code](https://repl.it/CJYs/0)
+:rocket: [REPL It!](https://repl.it/CJYs/0)
 
 In the above code snippet, `number_list` is an array. If you don't know what this is, don't worry about it. An array is a container object that holds a fixed number of values of a single type, but more on this later.
 

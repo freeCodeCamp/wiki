@@ -18,7 +18,7 @@
 
 ## Spoiler Alert!
 
-![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
+[![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
 
 **Solution ahead!**
 
@@ -67,7 +67,7 @@ function fearNotLetter(str) {
 fearNotLetter("abce");
 ```
 
-:rocket: [Run Code](https://repl.it/CLnC/0)
+:rocket: [REPL It!](https://repl.it/CLnC/0)
 
 ### Second solution:
 
@@ -93,7 +93,7 @@ function fearNotLetter(str) {
 fearNotLetter("abce");
 ```
 
-:rocket: [Run Code](https://repl.it/CLnD/0)
+:rocket: [REPL It!](https://repl.it/CLnD/0)
 
 ### Third solution (Declarative)
 
@@ -116,7 +116,7 @@ function fearNotLetter(str) {
 fearNotLetter("abce");
 ```
 
-:rocket: [Run Code](https://repl.it/CLnE/0)
+:rocket: [REPL It!](https://repl.it/CLnE/0)
 
 ### Fourth solution:
 
@@ -141,7 +141,7 @@ function fearNotLetter(str) {
 fearNotLetter("abce");
 ```
 
-:rocket: [Run Code](https://repl.it/CLnF/0)
+:rocket: [REPL It!](https://repl.it/CLnF/0)
 
 ### Fifth solution:
 
@@ -158,7 +158,7 @@ function fearNotLetter(str) {
 fearNotLetter("abce");
 ```
 
-:rocket: [Run Code](https://repl.it/CLnG/0)
+:rocket: [REPL It!](https://repl.it/CLnG/0)
 
 ## Code Explanation:
 

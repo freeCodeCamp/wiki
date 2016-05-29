@@ -1,6 +1,6 @@
 # Algorithm Caesars Cipher
 
-:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
+:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :memo:
 
 ### :checkered_flag: Problem Explanation:
 
@@ -28,7 +28,7 @@ Leave anything that doesn't come between A-Z as it is.
 
 ## Spoiler Alert!
 
-![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
+[![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
 
 **Solution ahead!**
 
@@ -56,7 +56,7 @@ function rot13(str) {
 }
 ```
 
-:rocket: [Run Code](https://repl.it/CLjU/38)
+:rocket: [REPL It!](https://repl.it/CLjU/38)
 
 ### Code Explanation:
 
@@ -99,7 +99,7 @@ function rot13(str) {
 rot13("LBH QVQ VG!");
 ```
 
-:rocket: [Run Code](https://repl.it/CLjU/39)
+:rocket: [REPL It!](https://repl.it/CLjU/39)
 
 ## :rotating_light: Advanced Code Solution:
 

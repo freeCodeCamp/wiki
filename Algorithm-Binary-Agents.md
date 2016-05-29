@@ -1,6 +1,6 @@
 # Algorithm Binary Agents
 
-![](https://i.imgur.com/HSwaSFK.jpg)
+![](http://i.imgur.com/HSwaSFK.jpg)
 
 ### Explanation:
 
@@ -20,7 +20,7 @@ Make sure that each time you transcode a character from binary to decimal, you r
 
 ## Spoiler Alert!
 
-![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
+[![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
 
 **Solution ahead!**
 
@@ -45,7 +45,7 @@ function binaryAgent(str) {
 binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 01100010 01101111 01101110 01100110 01101001 01110010 01100101 01110011 00100000 01100110 01110101 01101110 00100001 00111111");
 ```
 
-:rocket: [Run Code](https://repl.it/CLnm/0)
+:rocket: [REPL It!](https://repl.it/CLnm/0)
 
 # Code Explanation:
 
@@ -93,7 +93,7 @@ function binaryAgent(str) {
 binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 01100010 01101111 01101110 01100110 01101001 01110010 01100101 01110011 00100000 01100110 01110101 01101110 00100001 00111111");
 ```
 
-:rocket: [Run Code](https://repl.it/CLno/0)
+:rocket: [REPL It!](https://repl.it/CLno/0)
 
 # Code Explanation
 
@@ -114,14 +114,14 @@ function binaryAgent(str) {
 binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 01100010 01101111 01101110 01100110 01101001 01110010 01100101 01110011 00100000 01100110 01110101 01101110 00100001 00111111");
 ```
 
-:rocket: [Run Code](https://repl.it/CLnp/0)
+:rocket: [REPL It!](https://repl.it/CLnp/0)
 
 # Code Explanation
 
 - First we use `split()` to be able to work on each character as an Array element
 - Then use `map()` to process each element from binary to decimal using `pareseInt()`
 - Last we can use `String.fromCharCode()` to convert each ASCII number into the corresponding character
-- However `fromCharCode()` expects a series of numbers rather than an Array! We can use ES6 Spread Operator to pass in an Array of numbers as individual numbers. See here for more info; [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator)
+- However `fromCharCode()` expects a series of numbers rather than an Array! We can use ES6 Spread Operator to pass in an Array of numbers as individual numbers. See here for more info; <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator>
 
 ## Code Solution 4:
 
@@ -138,7 +138,7 @@ function binaryAgent(str) {
 binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 01100010 01101111 01101110 01100110 01101001 01110010 01100101 01110011 00100000 01100110 01110101 01101110 00100001 00111111");
 ```
 
-:rocket: [Run Code](https://repl.it/CLnr/0)
+:rocket: [REPL It!](https://repl.it/CLnr/0)
 
 # Code Explanation
 

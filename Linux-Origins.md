@@ -11,4 +11,4 @@ Stallman started the [Free Software Foundation](https://en.wikipedia.org/wiki/Fr
 
 Over time Linux began to gather strong traction within the free software movement. Thousands of developers around the world started experimenting and using it, making contributions where they saw fit. As it became more stable and feature-rich, businesses slowly started to adopt Linux as a solution for their needs and even started contributing to Linux themselves. Linux reaches many devices and environments to this day and continues to grow in popularity.
 
-[Back to Linux Main](Linux)
+[Back to Linux Main](Linux.md)

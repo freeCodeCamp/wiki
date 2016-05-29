@@ -1,6 +1,6 @@
 # Here's how to earn our verified Back End Development Certification
 
-![An image of a sample Back End Development Certification](https://i.imgur.com/oxFYeWd.png?1)
+![An image of a sample Back End Development Certification](http://i.imgur.com/oxFYeWd.png?1)
 
 1. API Projects
 2. Dynamic Web Application Projects

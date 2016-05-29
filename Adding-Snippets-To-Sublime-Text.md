@@ -4,13 +4,13 @@ If you are a user of sublime text (I hope you are, it kicks ass. You can get it 
 
 Here's an example, which activates after typing `div` and then tab:
 
-![alt text](https://i.imgur.com/J1Tj2B0.png)
+![alt text](http://i.imgur.com/J1Tj2B0.png)
 
 ## Step 1.
 
 Click `Tools > New Snippet...` in the navigation bar. This will open a snippet skeletton file which will look like this:
 
-![alt text](https://i.imgur.com/rjTmAuA.png)
+![alt text](http://i.imgur.com/rjTmAuA.png)
 
 ## Step 2.
 

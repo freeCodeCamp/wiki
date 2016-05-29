@@ -33,7 +33,7 @@ class ElectricCar implements Car {
 }
 ```
 
-:rocket: [Run Code](https://repl.it/CJZa/0)
+:rocket: [REPL It!](https://repl.it/CJZa/0)
 
 So interface basically binds you to a contract to follow, where you must _implement_ all the methods. If you don't, the compiler will complain! Know more about the [awesome power of Interfaces here](Java-Interfaces).
 

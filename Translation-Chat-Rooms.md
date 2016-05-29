@@ -4,7 +4,7 @@
 
 ##  
 
-Please join the gitter channel [**`[FreeCodeCamp/Translators]`**](https://gitter.im/FreeCodeCamp/Translators) and also join the channel for the translating of your specific language (if it exists):
+Please join the gitter channel [**`[FreeCodeCamp/Translators]`**](https://gitter.im/FreeCodeCamp/Translators) and also join the channel for translators of your specific language (if it exists):
 
 | Language | Chat Room |
 | -------- | --------- |
@@ -14,12 +14,9 @@ Please join the gitter channel [**`[FreeCodeCamp/Translators]`**](https://gitter
 | Bangla   | [FreeCodeCamp/TranslationBangla](https://gitter.im/FreeCodeCamp/TranslationBangla)|
 | Brazilian Portuguese | [FreeCodeCamp/BrazilianPortuguese](https://gitter.im/FreeCodeCamp/BrazilianPortuguese) |
 | Chinese (Simplified) | [FreeCodeCamp/TranslationChinese](https://gitter.im/FreeCodeCamp/TranslationChinese) |
-| Dutch | [FreeCodeCamp/TranslationDutch](https://gitter.im/FreeCodeCamp/TranslationDutch) |
 | French   | [FreeCodeCamp/TranslationFrench](https://gitter.im/FreeCodeCamp/TranslationFrench) |
 | German   | [FreeCodeCamp/TranslationDeutsch](https://gitter.im/FreeCodeCamp/TranslationDeutsch) |
 | Hindi    | [FreeCodeCamp/TranslateHindi](https://gitter.im/FreeCodeCamp/TranslateHindi) |
-| Italian    | [FreeCodeCamp/TranslationItaliana](https://gitter.im/FreeCodeCamp/TranslationItaliana) |
-| Kartuli   | [FreeCodeCamp/TranslationKartuli](https://gitter.im/FreeCodeCamp/TranslationKartuli) |
 | Korean   | [StephenMayeux/koreantranslations](https://gitter.im/StephenMayeux/koreantranslations) |
 | Russian  | [FreeCodeCamp/TranslationRussian](https://gitter.im/FreeCodeCamp/TranslationRussian) |
 | Serbian  | [FreeCodeCamp/TranslateSerbian](https://gitter.im/FreeCodeCamp/TranslateSerbian) |
@@ -30,8 +27,8 @@ If it doesn't exist, we recommend you to [create a chat room on Gitter](https://
 
 > _Pro tip: Share the Chat Room link at [**`[FreeCodeCamp/Translators]`**](https://gitter.im/FreeCodeCamp/Translators) and other places to invite more translators and reviewers._
 
-If you need help in creating a chat room or just getting started, we advice you visit the official translators chat room of FreeCodeCamp at [**`[FreeCodeCamp/Translators]`**](https://gitter.im/FreeCodeCamp/Translators). You can go there to recruit new translators for your language every once in a while. Its frequented by many campers and is a great place to connect with like minded translators.
+If you need help in creating a chat room or just getting started, we advice you visit the official translators chat room of FreeCodeCamp at [**`[FreeCodeCamp/Translators]`**](https://gitter.im/FreeCodeCamp/Translators). You could also go there to recruit new translators for your language every once in a while. Its frequented by many campers and is a great place to connect with like minded translators.
 
-[![Joining Translators Chat Room](./images/Translations-Guide/Gitter_Chat.gif)](https://gitter.im/FreeCodeCamp/Translators)
+[![Joining Translators Chat Room](./images/Translation-Guide/Gitter_Chat.gif)](https://gitter.im/FreeCodeCamp/Translators)
 
 [**Back to Translations Guide**](Translation-Guide)

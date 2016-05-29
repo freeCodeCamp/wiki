@@ -20,7 +20,7 @@ It is easy to confuse indices as being numbers, but since you will be interactin
 
 ## Spoiler Alert!
 
-![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
+[![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
 
 **Solution ahead!**
 
@@ -69,7 +69,7 @@ function pairwise(arr, arg) {
 pairwise([1,4,2,3,0,5], 7);
 ```
 
-:rocket: [Run Code](https://repl.it/CLpC/0)
+:rocket: [REPL It!](https://repl.it/CLpC/0)
 
 ## Code Explanation:
 
@@ -106,7 +106,7 @@ function pairwise(arr, arg) {
 pairwise([1,4,2,3,0,5], 7);
 ```
 
-:rocket: [Run Code](https://repl.it/CLpD/0)
+:rocket: [REPL It!](https://repl.it/CLpD/0)
 
 ## Code explanation in comments
 

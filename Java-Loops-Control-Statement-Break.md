@@ -35,7 +35,7 @@ for (int i = 0; i < 10; i++) // Loop 1
 }
 ```
 
-:rocket: [Run Code](https://repl.it/CJZA/0)
+:rocket: [REPL It!](https://repl.it/CJZA/0)
 
 `break` statements can be particulary useful while searching for an element in an array. Using `break` in the following code improves efficiency as the loop stops as soon as the element we are looking for (`searchFor`) is found, instead of going on till the end of `arrayInts` is reached.
 
@@ -54,6 +54,6 @@ for (int i : arrayOfInts)
 System.out.println("j = " + j);
 ```
 
-:rocket: [Run Code](https://repl.it/CJZC/0)
+:rocket: [REPL It!](https://repl.it/CJZC/0)
 
 [Previous](Java-Loops)

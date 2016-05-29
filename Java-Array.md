@@ -54,7 +54,7 @@ for (int i=0; i<a.length; i++) //loop goes through each index
 }
 ```
 
-:rocket: [Run Code](https://repl.it/CONn)
+:rocket: [REPL It!](https://repl.it/CONn)
 
 Output:
 

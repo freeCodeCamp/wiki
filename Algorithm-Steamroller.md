@@ -18,7 +18,7 @@ You will definitely need recursion or another way to go beyond two level arrays 
 
 ## Spoiler Alert!
 
-![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
+[![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
 
 **Solution ahead!**
 
@@ -49,7 +49,7 @@ function steamrollArray(arr) {
 steamrollArray([1, [2], [3, [[4]]]]);
 ```
 
-:rocket: [Run Code](https://repl.it/CLnh/0)
+:rocket: [REPL It!](https://repl.it/CLnh/0)
 
 ## Code Explanation:
 
@@ -72,14 +72,14 @@ function steamrollArray(arr) {
 steamrollArray([1, [2], [3, [[4]]]]);
 ```
 
-:rocket: [Run Code](https://repl.it/CLni/0)
+:rocket: [REPL It!](https://repl.it/CLni/0)
 
 ## Code Explanation:
 
 - Use reduce to concatenate each element into the last element
 - If the new element is an Array itself call the function recursively to flatten it before merging it with the rest of result
 - Pass an empty array to reduce as initial value to make sure even the first element will be processed
-- Credit goes to [http://stackoverflow.com/a/15030117/1075499](http://stackoverflow.com/a/15030117/1075499)
+- Credit goes to <http://stackoverflow.com/a/15030117/1075499>
 
 ## Credits:
 

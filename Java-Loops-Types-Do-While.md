@@ -34,6 +34,6 @@ Output:
 iter_DoWhile Value: 21
 ```
 
-:rocket: [Run Code](https://repl.it/CJYl/0)
+:rocket: [REPL It!](https://repl.it/CJYl/0)
 
 [Previous](Java-Loops)

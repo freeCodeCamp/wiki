@@ -1,6 +1,6 @@
-# Algorithm Where Art Thou
+# Algorithm Validate US Telephone Numbers
 
-![](https://i.imgur.com/IUY2p6Y.jpg)
+![](http://i.imgur.com/IUY2p6Y.jpg)
 
 ### Problem Explanation
 
@@ -10,14 +10,14 @@ Write an algorithm that will take an `array` for the first argument and return a
 
 You may use `for` loop or the `Array.prototype.filter` method.
 
-- [http://devdocs.io/#q=js+for](http://devdocs.io/#q=js+for)
-- [http://devdocs.io/#q=js+Array+filter](http://devdocs.io/#q=js+Array+filter)
+- <http://devdocs.io/#q=js+for>
+- <http://devdocs.io/#q=js+Array+filter>
 
 ## Hint: 2
 
 Try to use `Object.prototype.hasOwnProperty` method to know if the property name exists in an object (as its own property).
 
-- [http://devdocs.io/#q=js+Object+hasOwnProperty](http://devdocs.io/#q=js+Object+hasOwnProperty)
+- <http://devdocs.io/#q=js+Object+hasOwnProperty>
 
 ## Hint: 3
 
@@ -25,7 +25,7 @@ Check equivalence of `Object` in `collection` with `Object` passed as second par
 
 ## Spoiler Alert!
 
-![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
+[![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
 
 **Solution ahead!**
 
@@ -58,7 +58,7 @@ function whereAreYou(collection, source) {
 whereAreYou([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], { last: "Capulet" });
 ```
 
-:rocket: [Run Code](https://repl.it/CLmh/0)
+:rocket: [REPL It!](https://repl.it/CLmh/0)
 
 ### Second
 
@@ -83,7 +83,7 @@ function whereAreYou(collection, source) {
 whereAreYou([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], { last: "Capulet" });
 ```
 
-:rocket: [Run Code](https://repl.it/CLmi/0)
+:rocket: [REPL It!](https://repl.it/CLmi/0)
 
 ### Third
 
@@ -108,7 +108,7 @@ function whereAreYou(collection, source) {
 whereAreYou([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], { last: "Capulet" });
 ```
 
-:rocket: [Run Code](https://repl.it/CLmj/0)
+:rocket: [REPL It!](https://repl.it/CLmj/0)
 
 ### Fourth
 
@@ -139,13 +139,13 @@ function whereAreYou(collection, source) {
 whereAreYou([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], { last: "Capulet" });
 ```
 
-:rocket: [Run Code](https://repl.it/CLml/0)
+:rocket: [REPL It!](https://repl.it/CLml/0)
 
 ## Code Explanation:
 
 > Please read the comments in the source code.
 
-Check this [http://repl.it/BFZQ/19](http://repl.it/BFZQ/19) for pretty debugging and code explanation
+Check this <http://repl.it/BFZQ/19> for pretty debugging and code explanation
 
 ## Credits:
 

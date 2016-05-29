@@ -5,7 +5,7 @@
 - 지역 캠프사이트 커뮤니티(Local Group Communities)
 - 비영리 프로젝트(Nonprofit Projects)
 
-![An illustration of CamperBot](https://i.imgur.com/gyJwzkx.png)
+![An illustration of CamperBot](http://i.imgur.com/gyJwzkx.png)
 
 오픈 소스 커뮤니티 위키에 접속하는 가장 좋은 방법은 Gitter 채널에 있는 [CamperBot](https://github.com/FreeCodeCamp/wiki/blob/master/camperbot)을 이용하는 것입니다. CamperBot은 Gitter를 종료하지 않고도 위키 컨텐츠에 접속할 수 있는 유용한 커뮤니티 디자인 툴입니다.
 

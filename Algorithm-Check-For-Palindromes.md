@@ -1,6 +1,6 @@
 # Algorithm Check for Palindromes
 
-![](https://i.imgur.com/ozDWKEi.jpg)
+![](http://i.imgur.com/ozDWKEi.jpg)
 
 ### Explanation:
 
@@ -14,25 +14,25 @@ Once we have determined whether it is a palindrome or not we want to return eith
 
 Regular expressions, `RegEx`, can be used to remove unwanted characters from the string.
 
-- [http://devdocs.io/#q=js+RegExp](http://devdocs.io/#q=js+RegExp)
+- <http://devdocs.io/#q=js+RegExp>
 
 ## Hint: 2
 
 The `Array.prototype.split` and `Array.prototype.join` methods can be of use here. `For` and `while` loops are another alternative, or why not even `map`!
 
-- [http://devdocs.io/#q=js+String+split](http://devdocs.io/#q=js+String+split)
-- [http://devdocs.io/#q=js+Array+join](http://devdocs.io/#q=js+Array+join)
-- [http://devdocs.io/#q=js+for](http://devdocs.io/#q=js+for)
+- <http://devdocs.io/#q=js+String+split>
+- <http://devdocs.io/#q=js+Array+join>
+- <http://devdocs.io/#q=js+for>
 
 ## Hint: 3
 
 `String.prototype.toLowerCase` can be used to make a string lowercase.
 
-- [http://devdocs.io/#q=js+String+toLowerCase](http://devdocs.io/#q=js+String+toLowerCase)
+- <http://devdocs.io/#q=js+String+toLowerCase>
 
 ## Spoiler Alert!
 
-![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
+[![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
 
 **Solution ahead!**
 
@@ -45,7 +45,7 @@ function palindrome(str) {
 }
 ```
 
-:rocket: [Run Code](https://repl.it/CLjU/2)
+:rocket: [REPL It!](https://repl.it/CLjU/2)
 
 ## Second Solution
 
@@ -61,7 +61,7 @@ function palindrome(str) {
 }
 ```
 
-:rocket: [Run Code](https://repl.it/CLjU/3)
+:rocket: [REPL It!](https://repl.it/CLjU/3)
 
 ## Third Solution
 
@@ -88,7 +88,7 @@ function palindrome(str) {
 }
 ```
 
-:rocket: [Run Code](https://repl.it/CLjU/4)
+:rocket: [REPL It!](https://repl.it/CLjU/4)
 
 # Code Explanation:
 

@@ -1,6 +1,6 @@
 # Algorithm Return largest Numbers in Arrays
 
-:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
+:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :memo:
 
 ### :checkered_flag: Problem Explanation:
 
@@ -26,7 +26,7 @@ Pay close attention to the timing of the storing of variables when working with 
 
 ## Spoiler Alert!
 
-![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
+[![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
 
 **Solutions ahead!**
 
@@ -52,7 +52,7 @@ function largestOfFour(arr) {
 }
 ```
 
-:rocket: [Run Code](https://repl.it/CLjU/15)
+:rocket: [REPL It!](https://repl.it/CLjU/15)
 
 ### Code Explanation:
 
@@ -78,7 +78,7 @@ function largestOfFour(arr) {
 }
 ```
 
-:rocket: [Run Code](https://repl.it/CLjU/16)
+:rocket: [REPL It!](https://repl.it/CLjU/16)
 
 ### Code Explanation:
 
@@ -102,7 +102,7 @@ function largestOfFour(arr) {
 }
 ```
 
-:rocket: [Run Code](https://repl.it/CLjU/17)
+:rocket: [REPL It!](https://repl.it/CLjU/17)
 
 ### Code Explanation:
 

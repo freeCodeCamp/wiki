@@ -18,7 +18,7 @@
 
 ## Spoiler Alert!
 
-![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
+[![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
 
 **Solution ahead!**
 
@@ -38,7 +38,7 @@ function sumAll(arr) {
 sumAll([1, 4]);
 ```
 
-:rocket: [Run Code](https://repl.it/CLm6/0)
+:rocket: [REPL It!](https://repl.it/CLm6/0)
 
 ## Code Explanation:
 
@@ -65,7 +65,7 @@ function sumAll(arr) {
 }
 ```
 
-:rocket: [Run Code](https://repl.it/CLm7/0)
+:rocket: [REPL It!](https://repl.it/CLm7/0)
 
 ## Code Solution 3:
 
@@ -81,7 +81,7 @@ function sumAll(arr) {
 sumAll([1, 4]);
 ```
 
-:rocket: [Run Code](https://repl.it/CLm8/0)
+:rocket: [REPL It!](https://repl.it/CLm8/0)
 
 ## Code Explanation:
 

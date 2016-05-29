@@ -1,8 +1,8 @@
-# Searching for Existing Issues
+# Searching for Existign Issues
 
 If you still see problems after [Getting Help on Gitter](FreeCodeCamp-Gitter-Help), you will want to try to see if anyone else has posted about a similar problem.
 
-![gif walking through the subsequent steps to search GitHub for the issue](https://i.imgur.com/MdrSdQW.gif)
+![gif walking through the subsequent steps to search GitHub for the issue](http://i.imgur.com/MdrSdQW.gif)
 
 1. Go to FreeCodeCamp's [Github Issues](https://github.com/FreeCodeCamp/FreeCodeCamp/issues) page.
 

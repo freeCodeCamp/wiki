@@ -163,7 +163,7 @@ Now we can write our first test, and have Firefox open and close automatically f
         self.assertIn('Welcome to Django', self.browser.title)
 ```
 
-Our first test, how exciting! Let's walk through it. Every test we want to create must start with 'test'. For example, if I wanted to create a test for my css, I would call the method `test_h2_css`. So here, we named the test `test_home_title`. That's pretty self-explanatory, which is exactly what we want for our tests. The method first brings Firefox to the url `http://localhost:8000`, and then it checks if 'Welcome to Django' is in the html head tags title.
+Our first test, how exciting! Let's walk through it. Every test we want to create must start with 'test'. For example, if I wanted to create a test for my css, I would call the method `test_h2_css`. So here, we named the test `test_home_title`. That's pretty self-explanatory, which is exactly what we want for our tests. The method first brings Firefox to the url '<http://localhost:8000>', and then it checks if 'Welcome to Django' is in the html head tags title.
 
 Let's run this test now and see what happens:
 
@@ -191,7 +191,7 @@ Ran 1 test in 4.524s
 FAILED (failures=1)
 ```
 
-So it failed, but it gave us some handy advice. First, the AssertionError. 'Welcome to Django' not found in 'Problem loading page'. So that means the title of `http://localhost:8000` was 'Problem loading page'. If you navigate to the url, you will see that the web page was not available.
+So it failed, but it gave us some handy advice. First, the AssertionError. 'Welcome to Django' not found in 'Problem loading page'. So that means the title of '<http://localhost:8000>' was 'Problem loading page'. If you navigate to the url, you will see that the web page was not available.
 
 Let's try running our Django server to get the test to pass. Switch back to the terminal tab that is in the `taskplanner` virtual environment and run our server.
 
@@ -217,7 +217,7 @@ Quit the server with CONTROL-C.
 
 Don't worry about the unapplied migrations message yet.
 
-Now that we have a server running on `http://localhost:8000`, lets run our test again.
+Now that we have a server running on <http://localhost:8000>, lets run our test again.
 
 Go back to the other terminal tab that is in the `taskplanner_test` virtual environment and run the following once more:
 

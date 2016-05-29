@@ -41,7 +41,7 @@ tesla.start();
 tesla.stop();
 ```
 
-:rocket: [Run Code](https://repl.it/CJXz/0)
+:rocket: [REPL It!](https://repl.it/CJXz/0)
 
 But, does the parent Class has the methods of the child? No, it doesn't.
 
@@ -72,7 +72,7 @@ Although, the opposite is not possible :
 Car car = new Vehicle(); // ERROR
 ```
 
-:rocket: [Run Code](https://repl.it/CJYB/0)
+:rocket: [REPL It!](https://repl.it/CJYB/0)
 
 Since you can reference a Java subclass as a superclass instance, you can cast a subclass object easily to a superclass instance. It may be possible to cast a superclass object into a subclass type, but _only if the object is really an instance of subclass_. So keep this in mind :
 
@@ -86,7 +86,7 @@ Vehicle v = bike; // upcasting, no problem here.
 Car car3 = (Car)bike; // Compilation Error : as bike is NOT a instance of Car
 ```
 
-:rocket: [Run Code](https://repl.it/CJYM/0)
+:rocket: [REPL It!](https://repl.it/CJYM/0)
 
 Now you know how to share code through parent-child relationship. But, what if, you do not like the implementation of a particular method in the child class and want to write a new one for it? What to do then?
 
@@ -111,7 +111,7 @@ Car car = new Car();
 car.start(); // "Car start code"
 ```
 
-:rocket: [Run Code](https://repl.it/CJYZ/1)
+:rocket: [REPL It!](https://repl.it/CJYZ/1)
 
 So, it's pretty simple to override methods in the subclass. Although, there is a _catch_. Only that superclass method will be overriden which has the _exact same method signature_ as the subclass method. That means the subclass method definition must have the exact same name, same number and type of parameters, and in the exact same sequence. Thus, `public void start(String key)` would not override `public void start()`.
 
@@ -143,7 +143,7 @@ Car car = new Car();
 car.run(); // "Vehicle start code"
 ```
 
-:rocket: [Run Code](https://repl.it/CJY4/0)
+:rocket: [REPL It!](https://repl.it/CJY4/0)
 
 **N.B.** : Although you can call the parent method by `super` call, you cannot go up the inheritance with chained `super` calls.
 
@@ -181,7 +181,7 @@ public class Car extends Vehicle {
 }
 ```
 
-:rocket: [Run Code](https://repl.it/CJY8/0)
+:rocket: [REPL It!](https://repl.it/CJY8/0)
 
 Remember, if the superclass does not have any constructors defined, you dont have to call it explicitely in the subclass. Java handles that internally for you! Invocation to `super` constructor is done in the case when the super class is to be called with any other constructor other than the _default constructor_.
 

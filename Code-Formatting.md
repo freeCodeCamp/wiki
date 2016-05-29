@@ -19,16 +19,32 @@ See also: â˜› [**How to type Backticks**](Code-Formatting#typing-backticks) | â˜
 
 ### QWERTY and QWERTZ (Key that's been marked with red border)
 
-![QWERTY](https://i.stack.imgur.com/TOn1U.png)
+[![QWERTY][2]][2]
 
-### AZERTY France (<kbd>Alt Gr</kbd> + Key that's been marked with red border)
+### AZERTY France (
 
-![AZERTY](https://i.stack.imgur.com/BTBIE.png)
+<kbd>Alt Gr</kbd>
 
-### AZERTY Belgium (<kbd>Alt Gr</kbd> + Key that's been marked with red border)
+ + Key that's been marked with red border)
 
-![enter image description here](https://i.stack.imgur.com/9o9hM.png)
+[![AZERTY][4]][4]
+
+### AZERTY Belgium (
+
+<kbd>Alt Gr</kbd>
+
+ + Key that's been marked with red border)
+
+[![enter image description here][6]][6]
 
 ### QWERTY Estonian (Key's that have been marked with red border)
 
-![Estonian Keyboard layout](https://i.imgur.com/Ugcflkk.png)
+![Estonian Keyboard layout](http://i.imgur.com/Ugcflkk.png)
+
+[1]: http://en.wikipedia.org/wiki/Dead_key
+[2]: http://i.stack.imgur.com/TOn1U.png
+[3]: http://i.stack.imgur.com/TOn1U.png
+[4]: http://i.stack.imgur.com/BTBIE.png
+[5]: http://i.stack.imgur.com/BTBIE.png
+[6]: http://i.stack.imgur.com/9o9hM.png
+[7]: http://i.stack.imgur.com/9o9hM.png
