@@ -88,19 +88,19 @@ intarray[4] = "dd"; // Would give a TypeError as the array is of integer type.
 #### Printing an `array`:
 
 ```cpp
-cout << intarray[0]; // Returns 1 which is element at index of the array
-cout << intarray[11]; // Would give a random value as there is no element at index 11 of array.
+std::cout << intarray[0] << '\n'; // Returns 1 which is element at index of the array
+std::cout << intarray[11] << '\n'; // Would give a random value as there is no element at index 11 of array.
 
 // To print all the elements of the array
 for(int i = 0; i < n; i++)
-	cout << intarray[i];
+	std::cout << intarray[i] << '\n';
 ```
 
 #### Basic operations on `array`:
 
 ```cpp
-cout << sizeof(intarray)/sizeof(intarray[0]); // Returns the length of the array i.e. 10.
-cout << sizeof(intarray[0]); // Returns length in bytes of one array item i.e. 4 as it is an integer
+std::cout << sizeof(intarray)/sizeof(intarray[0]) << '\n'; // Returns the length of the array i.e. 10.
+std::cout << sizeof(intarray[0]) << '\n'; // Returns length in bytes of one array item i.e. 4 as it is an integer
 ```
 
-:rocket: [Run Code](https://repl.it/CWZE)
+:rocket: [Run Code](https://repl.it/CWZE/1)
