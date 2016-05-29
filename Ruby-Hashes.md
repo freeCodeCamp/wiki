@@ -5,10 +5,8 @@
 - Ruby hashes are comparable to Javascript objects or dictionaries in languages like Python.
 - Hashes contain items that are stored by `key: value` pairs.
 - Ruby hashes can be created using the following methods:
-
-  - my_hash = {}
-  - my_hash = Hash.new
-
+  - `my_hash = {}`
+  - `my_hash = Hash.new`
 - There are many methods built into Ruby to find information from and update hashes.
 
 ## Examples:
