@@ -14,3 +14,5 @@ Ruby is a dynamic, object-oriented, general-purpose programming language. It was
 4. [Ruby Numbers](Ruby-Numbers)
   - [Ruby Numbers Operations](Ruby-Numbers-Operations)
   - [Ruby Numbers Methods](Ruby-Numbers-Methods)
+5. [Ruby Arrays](Ruby-Arrays)
+6. [Ruby Hashes](Ruby-Hashes)
