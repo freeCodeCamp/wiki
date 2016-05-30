@@ -91,6 +91,8 @@ The `search_word` function will tell us if the word exists in the Trie or not. S
 			return self.edges[index].get_meaning(word[1:])
 ```
 
+:rocket: [Run Code](https://repl.it/CWaJ)
+
 ## Resources
 
 - For further reading, you can try this [topcoder](https://www.topcoder.com/community/data-science/data-science-tutorials/using-tries/) tutorial.
