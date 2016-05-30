@@ -4,15 +4,15 @@
 
 The word trie is an inflix of the word "re**trie**val", because the trie can find a single word in a dictionary with only a prefix of the word.
 Trie is an efficient data retrieval data structure, using trie, search complexities can be brought to an optimal limit, i.e. length of the string.
-It is a multi-way tree structure useful for storing strings over an alphabet.
-It has been used to store large dictionaries (do not confuse this with the dictionaries of python) of any language, say English, words in spell-checking programs.
+It is a multi-way tree structure useful for storing strings over an alphabet, when we are storing them.
+It has been used to store large dictionaries of English, say, words in spell-checking programs.
 However, the penalty on tries is the storage requirement.
 
 ## What is a trie?
 
 A trie is a tree like data structure which stores strings, and helps you find the data associated with that string using the prefix of the string. 
-For example, say you plan on building a dictionary to store strings along with their meanings. You must be wondering why can't I simply use a hash table, to get the information. Yes, you obviously can get information using a hash table, but the worst time complexity for fetching data from a hash table is `O(n)`, where `n` is the number of strings stored. 
-But when you use a trie for fetching data, the time complexity to get data is `O(w)`, where `w` is the length of the string.
+For example, say you plan on building a dictionary to store strings along with their meanings. You must be wondering why can't I simply use a hash table, to get the information. 
+Yes, you obviously can get information using a hash table, but, the hash tables can only find data where the string exactly matches the one we've added. But trie will give us the capability to find strings with common prefixes, a missing character etc in lesser time, in comparison to a hash table.
 
 ## How to implement a trie?
 
@@ -20,7 +20,7 @@ A trie typically, looks something like this,
 
 ![Trie](https://community.topcoder.com/i/education/alg_tries.png)
 
-The above image stores, assoc, algo, all, also, tree, trie.
+This is an image of a Trie, which stores the words {assoc, algo, all, also, tree, trie}.
 
 Let's implement a trie in python, for storing words with their meanings from english dictionary.
 
@@ -36,11 +36,11 @@ class TrieNode:
 As you can see, edges are 26 in length, each index referring to each character in the alphabet. 'A' corresponding to 0, 'B' to 1, 'C' to 2 ... 'Z' to 25th index. If the character you are looking for is pointing to `None`, that implies the word is not there in the trie.
 
 A typical Trie should implement at least these two functions:
-	- add_word(word,meaning)
-	- search_word(word)
+	- `add_word(word,meaning)`
+	- `search_word(word)`
 Additionally, one can also add something like
-	- get_all_words()
-	- get_all_words_with_prefix(prefix)
+	- `get_all_words()`
+	- `get_all_words_with_prefix(prefix)`
 
 #### Adding Word to the trie
 
