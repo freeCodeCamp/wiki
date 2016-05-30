@@ -121,7 +121,7 @@ By deleting data, you just need to change the variable `ends_here` to `False`. D
 			return self.edges[index].delete_word(word[1:])
 ```
 
-:rocket: [Run Code](https://repl.it/CWaJ)
+:rocket: [Run Code](https://repl.it/CWbr)
 
 ## Resources
 
