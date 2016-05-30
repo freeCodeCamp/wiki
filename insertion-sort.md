@@ -1,29 +1,40 @@
 # Insertion Sort
 
-Insertion sort is a comparision based sorting. In this sorting technique, we maintain a sub-list which is always sorted and then we take one element from the list and insert it at its correct place. We does so till all elements are inserted into sublist. For example, while playing cards we sort cards in our hand. Starting from left and moving to right,we keep on inserting the card at it's right place till end.
+Insertion sort is a [comparision based sorting](https://en.wikipedia.org/wiki/Comparison_sort). A sorting algorithm is comparison based, if it uses comparison operators (such as `less than` and `greated than`) to find the order between two numbers.
+
+In this sorting technique, we always maintain a sorted sublist in lower position of list and then we take one element from the rest of list and insert it at it's correct place. We does so till all elements are inserted into sublist. For example, while playing cards we sort cards in our hand. Starting from left and moving to right, we keep on inserting the card at it's right place till end.
 
 ## Example
 
-![alt tag](https://cloud.githubusercontent.com/assets/13117482/15633518/04ca4468-25cc-11e6-96af-feb395b456e0.png)
+![Insertion Sort](https://cloud.githubusercontent.com/assets/13117482/15633518/04ca4468-25cc-11e6-96af-feb395b456e0.png)
 
-In the above example, Grey Shaded sublist is always sorted and in each step we are inserting leftmost element of white sublist at it's correct position. Hence, we have sorted the complete list in this way.
+In the above example, `grey shaded` sublist is always sorted. Please note that in the beginning, sublist contains ony one element, and *trivially* sorted. Then at each step we are inserting leftmost element of `white shaded` sublist at it's correct position.
+
+Hence, we have sorted the complete list in this way.
 
 ## Algorithm
+
+```
 
 Loop for i=0 to N-1:
 * Pick element array[i] and insert it into sorted sublist array[0...i-1]
 
+```
+
 ## Complexity
 
 ```
+
 Space complexity: O(1)      // Auxillary/temporary space is used.
 
 Time complexity: O(n*n)     // Two nested for loops are used.
+
 ```
 
-## Cpp Implementation
+## C++ Implementation
 
 ```cpp
+
 // Function to sort an array using insertion sort
 void insertionSort(int arr[], int n)
 {
@@ -57,6 +68,7 @@ int main()
         std::cout << arr[i] << " ";
     return 0;
 }
+
 ```
 
 :rocket: [Run Code](https://repl.it/CWZq)
@@ -64,6 +76,7 @@ int main()
 ## Python Implementation
 
 ```python
+
 # Function to perform insertion sort
 def insertionSort(arr):
     # Traverse through array
@@ -84,6 +97,7 @@ insertionSort(arr)
 # prints sorted array i.e. 5 6 11 12 13
 for i in range(len(arr)):
     print(arr[i],end = ' ')
+
 ```
 
 :rocket: [Run Code](https://repl.it/CWZi)
@@ -96,5 +110,4 @@ for i in range(len(arr)):
 
 ## Disadvantages
 
-1. It's less efficient on large set of data.
-2. Less effecient than merge sort, heap sort and quick sort.
+1. It's less efficient on large set of data than merge sort, heap sort and quick sort.

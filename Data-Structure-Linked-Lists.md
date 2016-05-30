@@ -2,13 +2,14 @@
 
  Just like a garland is made with flowers, a linked list is made up of nodes. We call every flower on this particular garland to be a node. And each of the node points to the next node in this list as well as it has data (here it is type of flower).
 
-**Types:**
+## Types
 
 1. Singly Linked List
 
     Singly linked lists contain nodes which have a `data` field as well as a `next` field, which points to the next node in the sequence. Operations that can be performed on singly linked lists are insertion, deletion and traversal.
 
     ```
+
      Singly Link List
     --------------
 
@@ -21,11 +22,18 @@
 
     ```
 
+    Application
+
+    Internal implementation of CPython, the frames and evaluated variables are kept on a stack.
+
+    For this we need to iterate only forward aur get the head, therefore singly linked-list is used.
+
 2. Doubly Linked List
 
     Doubly linked lists contain node which have `data` field, `next` field and another link field `prev` pointing to the previous node in the sequence.
 
     ```
+
     Doubly Linked List
     ----------------
 
@@ -40,11 +48,16 @@
 
     ```
 
+    Application
+
+    The browser cache which allows you to hit the BACK and FORWARD button. Here we need to maintain a doubly linked list, with `URLs` as data field, to allow access in both direction. To go to previous URL we will use `prev` field and to go to next page we will use `next` field.
+
 3. Circular Linked List
 
     Circular linked lists is a singly linked list in which last node, `next` field points to first node in the sequence.
 
     ```
+
     Circular Linked List
      ------------------
 
@@ -56,15 +69,25 @@
   |    +-----+--+      +-----+--+      +-----+--+  |
   |                                                |
    ------------------------------------------------
+
     ```
 
-**Basic Operations**
+    Application
+
+    Timesharing problem solved by the operating system.
+
+    In a timesharing environment, the operating system must maintain a list of present users and must alternately allow each user to use a small portion of CPU time, one user at a time. The operating system will pick a user, let him/her use a small amount of CPU time and then move on to the next user.
+
+    For this application, there should be no NULL pointers unless there is absolutely no one requesting CPU time, i.e list is empty.
+
+## Basic Operations
 
 1. Insertion
 
     To add a new element to the list.
 
     ```
+
     Insertion at the beginning
     ------------------------
 
@@ -79,6 +102,7 @@
     * Create a new node with given data.
     * Point new node's `next` to old X's `next`.
     * Point X's `next` to this new node.
+
     ```
     Time Complexity: O(1)
 
@@ -87,6 +111,7 @@
     To delete existing element from the list.
 
     ```
+
     Deletion at the beginning
     -----------------------
 
@@ -101,6 +126,7 @@
     * Get the node pointed by `X` as Temp.
     * Point X's `next` to Temp's `next`.
     * Free memory used by Temp node.
+
     ```
     Time Complexity: O(1)
 
@@ -109,198 +135,238 @@
     To travel acroos the list.
 
     ```
+
     Traversal
     --------
 
     * Get the node pointed by `head` as Current.
     * Check if Current is not null and display it.
     * Point Current to Current's `next` and move to above step.
+
     ```
     Time Complexity: O(n) // Here n is size of link-list
 
-**Implementation:**
+## Implementation
 
-* C implementation of singly linked list
+### C++ implementation of singly linked list
 
-```c
+```cpp
 
-    // Header files
-    #include <stdio.h>
-    #include <stdlib.h>
+// Header files
+#include <iostream>
 
-    struct node
+struct node
+{
+    int data;
+    struct node *next;
+};
+
+// Head pointer always points to first element of the linked list
+struct node *head = NULL;
+
+```
+
+### Printing data in each node
+
+```cpp
+
+// Display the list
+void printList()
+{
+    struct node *ptr = head;
+
+    // Start from the beginning
+    while(ptr != NULL)
     {
-        int data;
-        struct node *next;
-    };
-
-    // Head pointer always points to first element of the linked list
-    struct node *head = NULL;
-
-    // Display the list
-    void printList()
-    {
-        struct node *ptr = head;
-
-        // Start from the beginning
-        while(ptr != NULL)
-        {
-            printf("%d ",ptr->data);
-            ptr = ptr->next;
-        }
-
-        printf("\n");
+        std::cout << ptr->data << " ";
+        ptr = ptr->next;
     }
 
-    // Insert link at the beginning
-    void insertFirst(int data)
+    std::cout << "\n";
+}
+
+```
+
+### Insertion at the beginning
+
+```cpp
+
+// Insert link at the beginning
+void insertFirst(int data)
+{
+    // Create a new node
+    struct node *new_node = new struct node;
+
+    new_node->data = data;
+
+    // Point it to old head
+    new_node->next = head;
+
+    // Point head to new node
+    head = new_node;
+
+    std::cout << "Inserted successfully\n";
+}
+
+```
+
+### Deletion at the beginning
+
+```cpp
+
+// Delete first item
+void deleteFirst()
+{
+    // Save reference to head
+    struct node *temp = head;
+
+    // Point head to head's next
+    head = head->next;
+
+    // Free memory used by temp
+    delete temp;
+
+    std::cout << "Deleted successfully\n";
+}
+
+```
+
+### Size
+
+```cpp
+
+// Find no. of nodes in link list
+void size()
+{
+    int length = 0;
+    struct node *current;
+
+    for(current = head; current != NULL; current = current->next)
     {
-        // Create a new node
-        struct node *new_node = (struct node*)malloc(sizeof(struct node));
-
-        new_node->data = data;
-
-        // Point it to old head
-        new_node->next = head;
-
-        // Point head to new node
-        head = new_node;
-
-        printf("Inserted successfully\n");
+        length++;
     }
 
-    // Delete first item
-    void deleteFirst()
+    std::cout << "Size of Linked List is " << length << "\n";
+}
+
+```
+
+### Searching
+
+```cpp
+
+// Find node with given data
+void find(int data){
+
+    // Start from the head
+    struct node* current = head;
+
+    // If list is empty
+    if(head == NULL)
     {
-        // Save reference to head
-        struct node *temp = head;
-
-        // Point head to head's next
-        head = head->next;
-
-        // Free memory used by temp
-        free(temp);
-
-        printf("Deleted successfully\n");
+        std::cout << "List is empty\n";
+        return;
     }
 
-    // Find no. of nodes in link list
-    void size()
-    {
-        int length = 0;
-        struct node *current;
+    // Traverse through list
+    while(current->data != data){
 
-        for(current = head; current != NULL; current = current->next)
-        {
-            length++;
-        }
-
-        printf("Size of Linked List is %d\n", length);
-    }
-
-    // Find node with given data
-    void find(int data){
-
-        // Start from the head
-        struct node* current = head;
-
-        // If list is empty
-        if(head == NULL)
-        {
-            printf("List is empty\n");
+        // If it is last node
+        if(current->next == NULL){
+            std::cout << "Not Found\n";
             return;
         }
-
-        // Traverse through list
-        while(current->data != data){
-
-            // If it is last node
-            if(current->next == NULL){
-                printf("Not Found\n");
-                return;
-            }
-            else{
-                // Go to next node
-                current = current->next;
-            }
+        else{
+            // Go to next node
+            current = current->next;
         }
-
-        // If data found
-        printf("Found\n");
     }
 
-    // Delete a node with given data
-    void delete(int data){
+    // If data found
+    std::cout << "Found\n";
+}
 
-        // Start from the first node
-        struct node* current = head;
-        struct node* previous = NULL;
+```
 
-        // If list is empty
-        if(head == NULL){
-            printf("List is empty\n");
+### Deletion after a node
+
+```cpp
+
+// Delete a node with given data
+void del(int data){
+
+    // Start from the first node
+    struct node* current = head;
+    struct node* previous = NULL;
+
+    // If list is empty
+    if(head == NULL){
+        std::cout << "List is empty\n";
+        return ;
+    }
+
+    // Navigate through list
+    while(current->data != data){
+
+        // If it is last node
+        if(current->next == NULL){
+            std::cout << "Element not found\n";
             return ;
         }
-
-        // Navigate through list
-        while(current->data != data){
-
-            // If it is last node
-            if(current->next == NULL){
-                printf("Element not found\n");
-                return ;
-            }
-            else {
-                // Store reference to current node
-                previous = current;
-                // Move to next node
-                current = current->next;
-            }
-
-        }
-
-        // Found a match, update the node
-        if(current == head) {
-            // Change head to point to next node
-            head = head->next;
-        }
         else {
-            // Skip the current node
-            previous->next = current->next;
+            // Store reference to current node
+            previous = current;
+            // Move to next node
+            current = current->next;
         }
 
-        // Free space used by deleted node
-        free(current);
-        printf("Deleted succesfully\n");
     }
 
-    int main() {
-        insertFirst(10); // prints Inserted successfully
-        insertFirst(20); // prints Inserted successfully
-        insertFirst(30); // prints Inserted successfully
-        insertFirst(1); // prints Inserted successfully
-        insertFirst(40); // prints Inserted successfully
-        insertFirst(56); // prints Inserted successfully
-
-        // print list
-        printList(); // prints 56 40 1 30 20 10
-
-        deleteFirst(); // prints Deleted successfully
-
-        printList(); // prints 40 1 30 20 10
-
-        find(4); // prints Not Found
-        find(1); // prints Found
-
-        delete(4); // prints Element not found
-        delete(1); // prints Deleted succesfully
-
-        printList(); // prints 40 30 20 10
-
-        return 0;
+    // Found a match, update the node
+    if(current == head) {
+        // Change head to point to next node
+        head = head->next;
     }
+    else {
+        // Skip the current node
+        previous->next = current->next;
+    }
+
+    // Free space used by deleted node
+    delete current;
+    std::cout << "Deleted succesfully\n";
+}
+
 ```
-:rocket: [Run Code](https://repl.it/CVwG)
+
+int main() {
+    insertFirst(10); // prints Inserted successfully
+    insertFirst(20); // prints Inserted successfully
+    insertFirst(30); // prints Inserted successfully
+    insertFirst(1); // prints Inserted successfully
+    insertFirst(40); // prints Inserted successfully
+    insertFirst(56); // prints Inserted successfully
+
+    // print list
+    printList(); // prints 56 40 1 30 20 10
+
+    deleteFirst(); // prints Deleted successfully
+
+    printList(); // prints 40 1 30 20 10
+
+    find(4); // prints Not Found
+    find(1); // prints Found
+
+    del(4); // prints Element not found
+    del(1); // prints Deleted succesfully
+
+    printList(); // prints 40 30 20 10
+
+    return 0;
+}
+
+```
+:rocket: [Run Code](https://repl.it/CXVt)
 
 * Python Implementation of Singly Linked List
 
@@ -392,6 +458,7 @@ SLL.search(4) # prints 'Node with data 4 is not present'
 SLL.search(5) # prints 'Node with data 5 is found'
 SLL.delete(4) # prints 'Node with data 4 is not in list'
 SLL.delete(5) # prints 'Node with data 5 is deleted successfully'
+
 ```
 :rocket: [Run Code](https://repl.it/CVq3/2)
 
@@ -409,4 +476,4 @@ SLL.delete(5) # prints 'Node with data 5 is deleted successfully'
 
 #### Note
 
-We have to use free() in c and cpp to free the space used by deleted node, whereas, in python java free space is collected automatically.
+We have to use free() in C and delete in C++ to free the space used by deleted node, whereas, in Python and Java free space is collected automatically by garbage collector.

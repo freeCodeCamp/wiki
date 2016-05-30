@@ -66,15 +66,18 @@ C++ provides a data structure, `array`, which stores a fixed-size sequential col
 #### Declaration of `array`
 
 ```cpp
+
 int intarray[10]; // Declares an array of integer type of size 10 with elements having random values. Index ranges from 0 to 9(i.e. size-1).
 int intarray[10] = { 0 }; // Declares an array of integer of size 10 with all elements having value 0
 
 // Choose one the two declarations and then move ahead.
+
 ```
 
 #### Adding elements to `array`:
 
 ```cpp
+
 intarray[0] = 1; // Adds an integer value of 1 at index 0
 intarray[1] = 0; // Adds an integer value of 0 at index 1
 intarray[2] = -1; // Adds an integer value of -1 at index 2
@@ -83,24 +86,29 @@ intarray[3] = 1; // Again adds an integer value of 1 at index 3
 intarray[4] = "dd"; // Would give a TypeError as the array is of integer type.
 
 // Resolve the above error and then move ahead.
+
 ```
 
 #### Printing an `array`:
 
 ```cpp
+
 std::cout << intarray[0] << '\n'; // Returns 1 which is element at index of the array
 std::cout << intarray[11] << '\n'; // Would give a random value as there is no element at index 11 of array.
 
 // To print all the elements of the array
 for(int i = 0; i < n; i++)
 	std::cout << intarray[i] << '\n';
+
 ```
 
 #### Basic operations on `array`:
 
 ```cpp
+
 std::cout << sizeof(intarray)/sizeof(intarray[0]) << '\n'; // Returns the length of the array i.e. 10.
 std::cout << sizeof(intarray[0]) << '\n'; // Returns length in bytes of one array item i.e. 4 as it is an integer
+
 ```
 
 :rocket: [Run Code](https://repl.it/CWZE/1)
