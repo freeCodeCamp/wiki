@@ -38,6 +38,7 @@ As you can see, edges are 26 in length, each index referring to each character i
 A typical Trie should implement at least these two functions:
 	- `add_word(word,meaning)`
 	- `search_word(word)`
+	- `delete_word(word)`
 Additionally, one can also add something like
 	- `get_all_words()`
 	- `get_all_words_with_prefix(prefix)`
@@ -66,8 +67,11 @@ Additionally, one can also add something like
 
 ```python
 	def search_word(self,word):
-		if len(word)==0 and self.ends_here:
-			return True
+		if len(word)==0:
+			if self.ends_here:
+				return True
+			else:
+				return "Word doesn't exist in the Trie"
 		ch = word[0]
 		index = ord(ch)-ord('a')
 		if self.edge[index]== None:
@@ -81,14 +85,38 @@ The `search_word` function will tell us if the word exists in the Trie or not. S
 
 ```python
 	def get_meaning(self,word):
-		if len(word)==0 and self.ends_here:
-			return self.meaning
+		if len(word)==0 :
+			if self.ends_here:
+				return self.meaning
+			else:
+				return "Word doesn't exist in the Trie"
 		ch = word[0]
 		index = ord(ch) - ord('a')
 		if self.edges[index] == None:
 			return "Word doesn't exist in the Trie"
 		else:
 			return self.edges[index].get_meaning(word[1:])
+```
+
+#### Deleting data
+
+By deleting data, you just need to change the variable `ends_here` to `False`. Doing that doesn't alter the prefixes, but stills deletes the meaning and the existence of the word from the trie.
+
+```python
+	def delete_word(self,word):
+		if len(word)==0:
+			if self.ends_here:
+				self.ends_here = False
+				self.meaning = None
+				return "Deleted"
+			else:
+				return "Word doesn't exist in the Trie"	
+		ch = word[0]
+		index = ord(ch) - ord('a')
+		if self.edges[index] == None:
+			return "Word doesn't exist in the Trie"
+		else:
+			return self.edges[index].delete_word(word[1:])
 ```
 
 :rocket: [Run Code](https://repl.it/CWaJ)
