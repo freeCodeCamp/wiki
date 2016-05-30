@@ -26,7 +26,7 @@ Java | [**`FreeCodeCamp/Java`**](https://gitter.im/FreeCodeCamp/java)
 PHP | [**`FreeCodeCamp/PHP`**](https://gitter.im/FreeCodeCamp/php)
 Python | [**`FreeCodeCamp/Python`**](https://gitter.im/FreeCodeCamp/python)
 Ruby | [**`FreeCodeCamp/Ruby`**](https://gitter.im/FreeCodeCamp/ruby)
-
+.Net | [**`FreeCodeCamp/DotNet`**](https://gitter.im/FreeCodeCamp/dotnet)
 _Choose the right room for your questions!_
 
 [**`back to top ↑`**](#freecodecamp-chat-rooms)
@@ -35,7 +35,7 @@ _Choose the right room for your questions!_
 
 Chat Room Description | Chat Room
 :---|---:
-.Net | [**`FreeCodeCamp/DotNet`**](https://gitter.im/FreeCodeCamp/dotnet)
+Vagrant | [**`FreeCodeCamp/vagrant`**](https://gitter.im/FreeCodeCamp/vagrant)
 Git | [**`FreeCodeCamp/Git`**](https://gitter.im/FreeCodeCamp/Git)
 Linux | [**`FreeCodeCamp/Linux`**](https://gitter.im/FreeCodeCamp/linux)
 SQL and Relational Databases | [**`FreeCodeCamp/SQL`**](https://gitter.im/FreeCodeCamp/SQL)
