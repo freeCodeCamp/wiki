@@ -14,14 +14,13 @@ print greet_someone("John")
 ```
 > Outputs: hello John
 
-> ### Defining funnctions inside other functions:
+> ### Defining functions inside other functions:
 ```python	
     def greet(name):
     def get_message():
         return "Hello "
-
-    result = get_message()+name
-    return result
+	result = get_message()+name
+	return result
 	print greet("John")
 ```
 > Outputs: Hello John
@@ -33,7 +32,6 @@ print greet_someone("John")
 	def call_func(func):
     	other_name = "John"
     return func(other_name)  
-
 	print call_func(greet)
 ```
 > Outputs: Hello John
@@ -44,8 +42,7 @@ print greet_someone("John")
     	def compose_greet_func():
     		def get_message():
         		return "Hello there!"
-
-    		return get_message
+        	return get_message
 		greet = compose_greet_func()
 		print greet()
 ```
@@ -81,9 +78,9 @@ Function decorators are simply wrappers to existing functions. Putting the ideas
     my_get_text = p_decorate(get_text)
 
     print my_get_text("John")
-
-> <p>Outputs lorem ipsum, John dolor sit amet</p>
 ```
+> <p>Outputs lorem ipsum, John dolor sit amet</p>
+
 That was our first decorator. A function that takes another function as an argument, generates a new function, augmenting the work of the original function, and returning the generated function so we can use it anywhere. To have get_text itself be decorated by p_decorate, we just have to assign get_text to the result of p_decorate.
 ```python
     get_text = p_decorate(get_text)
@@ -95,6 +92,7 @@ That was our first decorator. A function that takes another function as an argum
 Another thing to notice is that our decorated function takes a name argument. All what we had to do in the decorator is to let the wrapper of get_text pass that argument.
 
 > ### Python's Decorator Syntax
+
 Python makes creating and using decorators a bit cleaner and nicer for the programmer through some [syntactic sugar](http://en.wikipedia.org/wiki/Syntactic_sugar) To decorate get_text we don't have to get_text = p_decorator(get_text) There is a neat shortcut for that, which is to mention the name of the decorating function before the function to be decorated. The name of the decorator should be perpended with an @ symbol.
 
 ```python
@@ -226,6 +224,7 @@ The output was expected to be get_text yet, the attributes __name__, __doc__, an
 
 
 from functools import wraps
+
 ```python
       def tags(tag_name):
           def tags_decorator(func):
