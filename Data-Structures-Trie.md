@@ -13,7 +13,6 @@ However, the penalty on tries is the storage requirement.
 A trie is a tree like data structure which stores strings, and helps you find the data associated with that string using the prefix of the string. 
 For example, say you plan on building a dictionary to store strings along with their meanings. You must be wondering why can't I simply use a hash table, to get the information. 
 Yes, you obviously can get information using a hash table, but, the hash tables can only find data where the string exactly matches the one we've added. But trie will give us the capability to find strings with common prefixes, a missing character etc in lesser time, in comparison to a hash table.
-
 A trie typically, looks something like this,
 
 ![Trie](https://community.topcoder.com/i/education/alg_tries.png)
@@ -36,12 +35,15 @@ class TrieNode:
 As you can see, edges are 26 in length, each index referring to each character in the alphabet. 'A' corresponding to 0, 'B' to 1, 'C' to 2 ... 'Z' to 25th index. If the character you are looking for is pointing to `None`, that implies the word is not there in the trie.
 
 A typical Trie should implement at least these two functions:
-	- `add_word(word,meaning)`
-	- `search_word(word)`
-	- `delete_word(word)`
+
+- `add_word(word,meaning)`
+- `search_word(word)`
+- `delete_word(word)`
+
 Additionally, one can also add something like
-	- `get_all_words()`
-	- `get_all_words_with_prefix(prefix)`
+	
+- `get_all_words()`
+- `get_all_words_with_prefix(prefix)`
 
 #### Adding Word to the trie
 
