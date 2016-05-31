@@ -45,7 +45,7 @@ print(bubble_sort(arr)) # Prints [1, 2, 3, 5, 23, 43, 54]
 ```
 :rocket: [Run Code](https://repl.it/CW0M)
 
-#### [Complexity of Algorithm]((https://www.freecodecamp.com/videos/big-o-notation-what-it-is-and-why-you-should-care))
+#### [Complexity of Algorithm](https://www.freecodecamp.com/videos/big-o-notation-what-it-is-and-why-you-should-care)
 
 **Worst and Average Case Time Complexity:** O(n*n). Worst case occurs when array is reverse sorted i.e. the elements are in decreasing order
 
