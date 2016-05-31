@@ -4,7 +4,7 @@ Bubble sort is a simple sorting algorithm. This sorting algorithm is comparison 
 compared and elements are swapped if they are not in order. This algorithm does sorting in-place i.e. it does not creates a new array while
 carrying out the sorting process.
 
-####Example
+#### Example
 [Animation of BubbleSort](http://www.sorting-algorithms.com/bubble-sort)
 
 ```
@@ -34,16 +34,21 @@ Third Pass:
 #### Python Implementation
 ```python
 def bubble_sort(arr):
-    for i in range(len(arr)):
-        for j in range(i+1, len(arr)):
-            if arr[i] > arr[j]:
-                arr[i], arr[j] = arr[j], arr[i]
-    return arr
-
+    exchanges = True # A check to see if the array is already sorted so that no further steps gets executed
+    i = len(arr)-1
+    while i > 0 and exchanges:
+       exchanges = False
+       for j in range(i):
+           if arr[j]>arr[j+1]:
+               exchanges = True
+               arr[j], arr[j+1] = arr[j+1], arr[j]
+       i -= 1
+       
 arr = [5,3,23,1,43,2,54]
-print(bubble_sort(arr)) # Prints [1, 2, 3, 5, 23, 43, 54]
+bubble_sort(arr)
+print(arr) # Prints [1, 2, 3, 5, 23, 43, 54]
 ```
-:rocket: [Run Code](https://repl.it/CW0M)
+:rocket: [Run Code](https://repl.it/CW0M/1)
 
 #### [Complexity of Algorithm](https://www.freecodecamp.com/videos/big-o-notation-what-it-is-and-why-you-should-care)
 
