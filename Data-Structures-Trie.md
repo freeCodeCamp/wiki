@@ -12,7 +12,7 @@ However, the penalty on tries is the storage requirement.
 
 A trie is a tree like data structure which stores strings, and helps you find the data associated with that string using the prefix of the string.
 For example, say you plan on building a dictionary to store strings along with their meanings. You must be wondering why can't I simply use a hash table, to get the information.
-Yes, you obviously can get information using a hash table, but, the [hash tables](Hash-Tables-And-Hashing-Functions.md) can only find data where the string exactly matches the one we've added. But trie will give us the capability to find strings with common prefixes, a missing character etc in lesser time, in comparison to a hash table.
+Yes, you obviously can get information using a hash table, but, the [hash tables](Hash-Tables-And-Hashing-Functions) can only find data where the string exactly matches the one we've added. But trie will give us the capability to find strings with common prefixes, a missing character etc in lesser time, in comparison to a hash table.
 A trie typically, looks something like this,
 
 ![Trie](https://community.topcoder.com/i/education/alg_tries.png)
