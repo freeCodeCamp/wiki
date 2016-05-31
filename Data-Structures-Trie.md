@@ -1,4 +1,4 @@
-# Trie
+# Data Structure Trie
 
 ## Introduction to Trie
 
@@ -10,8 +10,8 @@ However, the penalty on tries is the storage requirement.
 
 ## What is a trie?
 
-A trie is a tree like data structure which stores strings, and helps you find the data associated with that string using the prefix of the string. 
-For example, say you plan on building a dictionary to store strings along with their meanings. You must be wondering why can't I simply use a hash table, to get the information. 
+A trie is a tree like data structure which stores strings, and helps you find the data associated with that string using the prefix of the string.
+For example, say you plan on building a dictionary to store strings along with their meanings. You must be wondering why can't I simply use a hash table, to get the information.
 Yes, you obviously can get information using a hash table, but, the hash tables can only find data where the string exactly matches the one we've added. But trie will give us the capability to find strings with common prefixes, a missing character etc in lesser time, in comparison to a hash table.
 A trie typically, looks something like this,
 
@@ -41,7 +41,7 @@ A typical Trie should implement at least these two functions:
 - `delete_word(word)`
 
 Additionally, one can also add something like
-	
+
 - `get_all_words()`
 - `get_all_words_with_prefix(prefix)`
 
@@ -52,7 +52,7 @@ Additionally, one can also add something like
 		if len(word)==0:
 			self.ends_here = True # Because we have reached the end of the word
 			self.meaning = meaning # Adding the meaning to that node
-			return 
+			return
 		ch = word[0] # First character
 		# ASCII value of the first character (minus) the ASCII value of 'a'-> the first character of our ALPHABET gives us the index of the edge we have to look up.
 		index = ord(ch) - ord('a')
@@ -112,7 +112,7 @@ By deleting data, you just need to change the variable `ends_here` to `False`. D
 				self.meaning = None
 				return "Deleted"
 			else:
-				return "Word doesn't exist in the Trie"	
+				return "Word doesn't exist in the Trie"
 		ch = word[0]
 		index = ord(ch) - ord('a')
 		if self.edges[index] == None:
