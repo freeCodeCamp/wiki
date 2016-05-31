@@ -31,7 +31,7 @@ Cuba            |    Havana
 England         |    London
 France          |    Paris
 Spain           |    Madrid
-Switzerland     |    Berne
+Switzerland     |    Bern
 
 And let us suppose that our hash function is to simply take the length of the string.
 
@@ -52,7 +52,7 @@ Position             |   Keys array     |  Values array
    8                 |                  |
    9                 |                  |
    10                |                  |
-   11                |  Switzerland     |    Berne
+   11                |  Switzerland     |    Bern
 
 
 Now, in this specific example things work quite well.
@@ -88,7 +88,7 @@ Position             | Linked List Heads                  |
    8                 |                                    |
    9                 |                                    |
    10                |                                    |
-   11                |    [Switzerland-Berne]             |
+   11                |    [Switzerland-Bern]             |
 
 
 To find an item we first go to the bucket and then compare keys. This is a popular method, and if a list of links is used the hash never fills up. The cost for `get(k)` is on average `O(n)` where n is the number of keys in the bucket, total number of keys be N.
