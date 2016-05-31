@@ -1,10 +1,11 @@
-#BubbleSort
+# BubbleSort
 
 Bubble sort is a simple sorting algorithm. This sorting algorithm is comparison based algorithm in which each pair of adjacent elements is
 compared and elements are swapped if they are not in order. This algorithm does sorting in-place i.e. it does not creates a new array while
 carrying out the sorting process.
 
 ####Example
+[Animation of BubbleSort](http://www.sorting-algorithms.com/bubble-sort)
 
 ```
 array = [5, 1, 4, 2, 8]
@@ -30,7 +31,7 @@ Third Pass:
 ( 1 2 4 5 8 ) –> ( 1 2 4 5 8 )
 ```
 
-####Python Implementation
+#### Python Implementation
 ```python
 def bubble_sort(arr):
     for i in range(len(arr)):
@@ -44,8 +45,8 @@ print(bubble_sort(arr)) # Prints [1, 2, 3, 5, 23, 43, 54]
 ```
 :rocket: [Run Code](https://repl.it/CW0M)
 
-####Complexity of BubbleSort Algorithm
+#### [Complexity of Algorithm]((https://www.freecodecamp.com/videos/big-o-notation-what-it-is-and-why-you-should-care))
 
-**Worst and Average Case Time Complexity:** O(n*n). Worst case occurs when array is reverse sorted. 
+**Worst and Average Case Time Complexity:** O(n*n). Worst case occurs when array is reverse sorted i.e. the elements are in decreasing order
 
-**Best Case Time Complexity:** O(n). Best case occurs when array is already sorted.
+**Best Case Time Complexity:** O(n). Best case occurs when array is already sorted. 
