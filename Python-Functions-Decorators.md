@@ -1,9 +1,9 @@
 # Python Decorators
 
 
-Decorator essentially work as wrappers. They modify the behaviour of the code before and after a target function execution, without the need to modify the function itself, augmenting the original functionality, thus decorating it.
+Decorators essentially work as wrappers. They modify the behaviour of the code before and after a target function execution, without the need to modify the function itself, augmenting the original functionality, thus decorating it.
 
-Before going in detail about decorators there are some concepts that should be clear. In Python, functions are objects and we can do a lot of useful stuff with them.
+Before going in detail about decorators, there are some concepts that should be clear. In Python, functions are objects and we can do a lot of useful stuff with them.
 
 > ### Assigning funtions to a variables:
 ```python
@@ -79,15 +79,15 @@ Function decorators are simply wrappers to existing functions. Putting the ideas
 
     print my_get_text("John")
 ```
-> <p>Outputs lorem ipsum, John dolor sit amet</p>
+> Outputs: <p>lorem ipsum, John dolor sit amet</p>
 
-That was our first decorator. A function that takes another function as an argument, generates a new function, augmenting the work of the original function, and returning the generated function so we can use it anywhere. To have get_text itself be decorated by p_decorate, we just have to assign get_text to the result of p_decorate.
+That was our first decorator. A function that takes another function as an argument, generates a new function, augmenting the work of the original function, and returning the generated function so we can use it anywhere. To have ```get_text``` itself be decorated by ```p_decorate```, we just have to assign get_text to the result of p_decorate.
 ```python
     get_text = p_decorate(get_text)
 
     print get_text("John")
 ```
-> Outputs lorem ipsum, John dolor sit amet
+> Outputs: lorem ipsum, John dolor sit amet
 
 Another thing to notice is that our decorated function takes a name argument. All what we had to do in the decorator is to let the wrapper of get_text pass that argument.
 
@@ -107,7 +107,7 @@ Python makes creating and using decorators a bit cleaner and nicer for the progr
 
     print get_text("John")
 ```
-> Outputs <p>lorem ipsum, John dolor sit amet</p>
+> Outputs: <p>lorem ipsum, John dolor sit amet</p>
 
 Now let's consider we wanted to decorate our get_text function by 2 other functions to wrap a div and strong tag around the string output.
 
@@ -143,7 +143,7 @@ With Python's decorator syntax, same thing can be achieved with much more expres
 
     print get_text("John")
 ```
-> Outputs <div><p><strong>lorem ipsum, John dolor sit amet</strong></p></div>
+> Outputs: <div><p><strong>lorem ipsum, John dolor sit amet</strong></p></div>
 
 One important thing to notice here is that the order of setting our decorators matters. If the order was different in the example above, the output would have been different.
 
@@ -206,7 +206,7 @@ Looking back at the example before the one above, you can notice how redundant t
 
     print get_text("John")
 ```
-> Outputs <p>Hello John</p>
+> Outputs: <p>Hello John</p>
 
 It took a bit more work in this case. Decorators expect to receive a function as an argument, that is why we will have to build a function that takes those extra arguments and generate our decorator on the fly. In the example above tags, is our decorator generator.
 
@@ -216,7 +216,7 @@ At the end of the day decorators are just wrapping our functions, in case of deb
 ```python
     print get_text.__name__
 ```
-> Outputs func_wrapper
+> Outputs: func_wrapper
 
 The output was expected to be get_text yet, the attributes __name__, __doc__, and __module__ of get_text got overridden by those of the wrapper(func_wrapper. Obviously we can re-set them within func_wrapper but Python provides a much nicer way.
 
@@ -244,11 +244,6 @@ from functools import wraps
       print get_text.__module__ # __main__
 ```
 You can notice from the output that the attributes of get_text are the correct ones now.
-
-## Where to use decorators
-The examples in this post are pretty simple relative to how much you can do with decorators. They can give so much power and elegance to your program. In general, decorators are ideal for extending the behavior of functions that we don't want to modify. For a great list of useful decorators I suggest you check out the [Python Decorator Library](https://wiki.python.org/moin/PythonDecoratorLibrary).
-
-
 
 That was an introduction to the concept of decorators in Python. I hope that you found it helpful. Happy coding!
 
