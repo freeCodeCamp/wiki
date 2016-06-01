@@ -21,6 +21,7 @@ The following are our official chat rooms.
 | [Elixir](https://gitter.im/FreeCodeCamp/elixir) | get help doing our back end projects in Elixir, from your fellow campers |
 | [.NET](https://gitter.im/FreeCodeCamp/dotnet) | get help doing our back end projects in Microsoft .NET framework, from your fellow campers |
 | [C++](https://gitter.im/FreeCodeCamp/cplusplus) | get help doing our back end projects in C++, from your fellow campers |
+| [Vagrant](https://gitter.im/FreeCodeCamp/vagrant) | get help doing our back end projects using our vagrant boxes |
 | [CodeReview](https://gitter.im/freecodecamp/CodeReview) | give and receive constructive feedback from your fellow campers on your projects |
 | [YouCanDoThis](https://gitter.im/freecodecamp/YouCanDoThis) | learning to code is hard - share your feelings and get moral support here |
 | [CodingJobs](https://gitter.im/freecodecamp/CodingJobs) | chat about the process of getting a coding job, such as portfolios, networking, and interviewing |
