@@ -57,6 +57,7 @@ Please note that all local groups are unofficial, independently organized groups
 - Bangladesh
   - [Chittagong](https://www.facebook.com/groups/free.code.camp.ctg/)
   - [Dhaka](https://www.facebook.com/groups/free.code.camp.dhaka/)
+  - [Feni](https://www.facebook.com/groups/free.code.camp.feni/)
   - [Rangpur](https://www.facebook.com/groups/free.code.camp.rangpur/)
   - [Sylhet](https://www.facebook.com/groups/free.code.camp.sylhet/)
 - Barbados
@@ -147,6 +148,7 @@ Please note that all local groups are unofficial, independently organized groups
   - [Salvador](https://www.facebook.com/groups/free.code.camp.salvador/)
   - [Santos](https://www.facebook.com/groups/free.code.camp.santos)
   - [Sao Carlos](https://www.facebook.com/groups/free.code.camp.sao.carlos)
+  - [São Lourenço](https://www.facebook.com/groups/free.code.camp.sao.lourenco/)
   - [Sao Joao da Boa Vista](https://www.facebook.com/groups/free.code.camp.sao.joao.da.boa.vista/)
   - [São José do Rio Preto](https://www.facebook.com/groups/free.code.camp.saojosedoriopreto/)
   - [Sao Jose dos Campos](https://www.facebook.com/groups/free.code.camp.sjc/)
@@ -155,6 +157,7 @@ Please note that all local groups are unofficial, independently organized groups
   - [Sobral](https://www.facebook.com/groups/free.code.camp.sobral/)
   - [Sorocaba](https://www.facebook.com/groups/free.code.camp.sorocaba.sp/)
   - [Teresina](https://www.facebook.com/groups/free.code.camp.teresina.piaui/)
+  - [Timbó](https://www.facebook.com/groups/free.code.camp.timbo/)
   - [Uberlandia](https://www.facebook.com/groups/free.code.camp.uberlandia/)
   - [Vitória](https://www.facebook.com/groups/free.code.camp.vitoria.e.regiao.metropolitana.es/)
 - Brunei
@@ -318,6 +321,7 @@ Please note that all local groups are unofficial, independently organized groups
   - [Asyut](https://www.facebook.com/groups/free.code.camp.assiut/)
   - [Cairo](https://www.facebook.com/groups/free.code.camp.cairo/)
   - [Damanhur](https://www.facebook.com/groups/free.code.camp.damanhur)
+  - [El Asher (10th of Ramadan)](https://www.facebook.com/groups/free.code.camp.10th.of.ramadan/)
   - [Portsaid](https://www.facebook.com/groups/free.code.camp.portsaid)
   - [Sharqiyah](https://www.facebook.com/groups/free.code.camp.sharkia/)
   - [Tanta](https://www.facebook.com/groups/free.code.camp.tanta/)
@@ -1013,6 +1017,7 @@ Please note that all local groups are unofficial, independently organized groups
   - [Barcelona](https://www.facebook.com/groups/free.code.camp.barcelona/)
   - [Cáceres](https://www.facebook.com/groups/free.code.camp.caceres/)
   - [Cádiz](https://www.facebook.com/groups/free.code.camp.cadiz/)
+  - [Castellón](https://www.facebook.com/groups/free.code.camp.castellon/)
   - [Ciudad Real](https://www.facebook.com/groups/free.code.camp.ciudad.real/)
   - [Córdoba](https://www.facebook.com/groups/free.code.camp.cordoba.spain/)
   - [Gijón](https://www.facebook.com/groups/free.code.camp.gijon/)
@@ -1076,6 +1081,7 @@ Please note that all local groups are unofficial, independently organized groups
 - Tunisia
   - [Tunis](https://www.facebook.com/groups/free.code.camp.tunis/)
 - Turkey
+  - [Adana](https://www.facebook.com/groups/free.code.camp.adana/)
   - [Ankara](https://www.facebook.com/groups/free.code.camp.ankara/)
   - [Antalya](https://www.facebook.com/groups/free.code.camp.antalya/)
   - [Isparta](https://www.facebook.com/groups/free.code.camp.isparta/)
@@ -1272,6 +1278,7 @@ Please note that all local groups are unofficial, independently organized groups
     - [Twin Falls](https://www.facebook.com/groups/free.code.camp.twin.falls/)
   - Illinois
     - [Bloomington-Normal](https://www.facebook.com/groups/free.code.camp.bloomington.normal/)
+    - [Carbondale](https://www.facebook.com/groups/free.code.camp.carbondale.ilinois/)
     - [Centralia](https://www.facebook.com/groups/free.code.camp.centralia/)
     - [Champaign-Urbana](https://www.facebook.com/groups/free.code.camp.champaign.urbana/)
     - [Chicago](https://www.facebook.com/groups/free.code.camp.chicago/)
@@ -1467,6 +1474,7 @@ Please note that all local groups are unofficial, independently organized groups
     - [Cleveland](https://www.facebook.com/groups/free.code.camp.cleveland/)
     - [Columbus](https://www.facebook.com/groups/free.code.camp.columbus/)
     - [Dayton](https://www.facebook.com/groups/free.code.camp.dayton.ohio/)
+    - [Toledo](https://www.facebook.com/groups/free.code.camp.toledo/)
     - [Youngstown](https://www.facebook.com/groups/free.code.camp.youngstown/)
   - Oklahoma
     - [Muskogee](https://www.facebook.com/groups/free.code.camp.muskogee/) 
