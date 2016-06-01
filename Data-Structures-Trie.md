@@ -21,9 +21,12 @@ This is an image of a Trie, which stores the words {assoc, algo, all, also, tree
 
 ## How to implement a trie?
 
+### Python Implementation
+
 Let's implement a trie in python, for storing words with their meanings from english dictionary.
 
 ```python
+
 ALPHABET_SIZE = 26 # For English
 
 class TrieNode:
@@ -31,6 +34,7 @@ class TrieNode:
 		self.edges = [None]*(ALPHABET_SIZE) # Each index respective to each character.
 		self.meaning = None # Meaning of the word.
 		self.ends_here = False # Tells us if the word ends here.
+
 ```
 As you can see, edges are 26 in length, each index referring to each character in the alphabet. 'A' corresponding to 0, 'B' to 1, 'C' to 2 ... 'Z' to 25th index. If the character you are looking for is pointing to `None`, that implies the word is not there in the trie.
 
@@ -48,6 +52,7 @@ Additionally, one can also add something like
 #### Adding Word to the trie
 
 ```python
+
 	def add_word(self,word,meaning):
 		if len(word)==0:
 			self.ends_here = True # Because we have reached the end of the word
@@ -68,6 +73,7 @@ Additionally, one can also add something like
 #### Retrieving data
 
 ```python
+
 	def search_word(self,word):
 		if len(word)==0:
 			if self.ends_here:
@@ -86,6 +92,7 @@ Additionally, one can also add something like
 The `search_word` function will tell us if the word exists in the Trie or not. Since ours is a dictionary, we need to fetch the meaning as well, now lets declare a function to do that.
 
 ```python
+
 	def get_meaning(self,word):
 		if len(word)==0 :
 			if self.ends_here:
@@ -98,6 +105,7 @@ The `search_word` function will tell us if the word exists in the Trie or not. S
 			return "Word doesn't exist in the Trie"
 		else:
 			return self.edges[index].get_meaning(word[1:])
+
 ```
 
 #### Deleting data
@@ -105,6 +113,7 @@ The `search_word` function will tell us if the word exists in the Trie or not. S
 By deleting data, you just need to change the variable `ends_here` to `False`. Doing that doesn't alter the prefixes, but stills deletes the meaning and the existence of the word from the trie.
 
 ```python
+
 	def delete_word(self,word):
 		if len(word)==0:
 			if self.ends_here:
@@ -119,6 +128,7 @@ By deleting data, you just need to change the variable `ends_here` to `False`. D
 			return "Word doesn't exist in the Trie"
 		else:
 			return self.edges[index].delete_word(word[1:])
+
 ```
 
 :rocket: [Run Code](https://repl.it/CWbr)
