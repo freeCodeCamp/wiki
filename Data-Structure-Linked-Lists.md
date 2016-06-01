@@ -80,6 +80,7 @@
 
     For this application, there should be no NULL pointers unless there is absolutely no one requesting CPU time, i.e list is empty.
 
+
 ## Basic Operations
 
 1. Insertion
@@ -166,7 +167,7 @@ struct node *head = NULL;
 
 ```
 
-### Printing data in each node
+#### Printing data in each node
 
 ```cpp
 
@@ -182,12 +183,12 @@ void printList()
         ptr = ptr->next;
     }
 
-    std::cout << "\n";
+    std::cout << std::endl;
 }
 
 ```
 
-### Insertion at the beginning
+#### Insertion at the beginning
 
 ```cpp
 
@@ -205,12 +206,12 @@ void insertFirst(int data)
     // Point head to new node
     head = new_node;
 
-    std::cout << "Inserted successfully\n";
+    std::cout << "Inserted successfully" << std::endl;
 }
 
 ```
 
-### Deletion at the beginning
+#### Deletion at the beginning
 
 ```cpp
 
@@ -224,14 +225,15 @@ void deleteFirst()
     head = head->next;
 
     // Free memory used by temp
+    temp = NULL:
     delete temp;
 
-    std::cout << "Deleted successfully\n";
+    std::cout << "Deleted successfully" << std::endl;
 }
 
 ```
 
-### Size
+#### Size
 
 ```cpp
 
@@ -246,12 +248,12 @@ void size()
         length++;
     }
 
-    std::cout << "Size of Linked List is " << length << "\n";
+    std::cout << "Size of Linked List is " << length << std::endl;
 }
 
 ```
 
-### Searching
+#### Searching
 
 ```cpp
 
@@ -264,7 +266,7 @@ void find(int data){
     // If list is empty
     if(head == NULL)
     {
-        std::cout << "List is empty\n";
+        std::cout << "List is empty" << std::endl;
         return;
     }
 
@@ -273,7 +275,7 @@ void find(int data){
 
         // If it is last node
         if(current->next == NULL){
-            std::cout << "Not Found\n";
+            std::cout << "Not Found" << std::endl;
             return;
         }
         else{
@@ -283,12 +285,12 @@ void find(int data){
     }
 
     // If data found
-    std::cout << "Found\n";
+    std::cout << "Found" << std::endl;
 }
 
 ```
 
-### Deletion after a node
+#### Deletion after a node
 
 ```cpp
 
@@ -301,7 +303,7 @@ void del(int data){
 
     // If list is empty
     if(head == NULL){
-        std::cout << "List is empty\n";
+        std::cout << "List is empty" << std::endl;
         return ;
     }
 
@@ -310,7 +312,7 @@ void del(int data){
 
         // If it is last node
         if(current->next == NULL){
-            std::cout << "Element not found\n";
+            std::cout << "Element not found" << std::endl;
             return ;
         }
         else {
@@ -333,42 +335,17 @@ void del(int data){
     }
 
     // Free space used by deleted node
+    current = NULL;
     delete current;
-    std::cout << "Deleted succesfully\n";
+    std::cout << "Deleted succesfully" << std::endl;
 }
 
 ```
 
-int main() {
-    insertFirst(10); // prints Inserted successfully
-    insertFirst(20); // prints Inserted successfully
-    insertFirst(30); // prints Inserted successfully
-    insertFirst(1); // prints Inserted successfully
-    insertFirst(40); // prints Inserted successfully
-    insertFirst(56); // prints Inserted successfully
+:rocket: [Run Code](https://repl.it/CXVt/1)
 
-    // print list
-    printList(); // prints 56 40 1 30 20 10
 
-    deleteFirst(); // prints Deleted successfully
-
-    printList(); // prints 40 1 30 20 10
-
-    find(4); // prints Not Found
-    find(1); // prints Found
-
-    del(4); // prints Element not found
-    del(1); // prints Deleted succesfully
-
-    printList(); // prints 40 30 20 10
-
-    return 0;
-}
-
-```
-:rocket: [Run Code](https://repl.it/CXVt)
-
-* Python Implementation of Singly Linked List
+### Python Implementation of Singly Linked List
 
 ```python
 
@@ -395,6 +372,12 @@ class LinkedList(object):
     def __init__(self, head=None):
         self.head = head
 
+```
+
+#### Insertion
+
+```python
+
     # Function to insert data
     def insert(self, data):
         # new_node is a object of class Node
@@ -402,6 +385,12 @@ class LinkedList(object):
         new_node.set_next(self.head)
         self.head = new_node
         print("Node with data " + str(data) + " is created succesfully")
+
+```
+
+#### Size
+
+```python
 
     # Function to get size
     def size(self):
@@ -411,6 +400,12 @@ class LinkedList(object):
             count += 1
             current = current.get_next()
         print("Size of link list is " + str(count))
+
+```
+
+#### Searching
+
+```python
 
     # Function to search a data
     def search(self, data):
@@ -426,6 +421,11 @@ class LinkedList(object):
         else:
         	print("Node with data " + str(data) + " is found")
 
+```
+
+#### Deletion after a node
+
+```python
 
     # Function to delete a node with data
     def delete(self, data):
@@ -447,19 +447,8 @@ class LinkedList(object):
             previous.set_next(current.get_next())
             print("Node with data " + str(data) + " is deleted successfully")
 
-SLL = LinkedList() # Creates an object of class LinkedList
-SLL.size() # prints 'Size of link list is 0'
-data_elements = [5, 10, 2, 6, 8, 20]
-# prints the entire list
-for element in data_elements:
-	SLL.insert(element)
-SLL.size() # prints 'Size of link list is 6'
-SLL.search(4) # prints 'Node with data 4 is not present'
-SLL.search(5) # prints 'Node with data 5 is found'
-SLL.delete(4) # prints 'Node with data 4 is not in list'
-SLL.delete(5) # prints 'Node with data 5 is deleted successfully'
-
 ```
+
 :rocket: [Run Code](https://repl.it/CVq3/2)
 
 
