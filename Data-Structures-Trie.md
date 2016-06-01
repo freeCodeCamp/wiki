@@ -133,8 +133,6 @@ By deleting data, you just need to change the variable `ends_here` to `False`. D
 
 :rocket: [Run Code](https://repl.it/CWbr)
 
-### C++ Implementation
-
 ## Resources
 
 - For further reading, you can try this [topcoder](https://www.topcoder.com/community/data-science/data-science-tutorials/using-tries/) tutorial.
