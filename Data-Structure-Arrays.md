@@ -31,7 +31,8 @@ intarray[3] = 1; // Inserts an integer value of 1 at index 3
 
 ```c++
 std::cout << intarray[0] << std::endl; // Returns 1 which is element at index of the array
-std::cout << intarray[11] << std::endl; // A random number is expected, while in reality this is `dangerous`, and is primary cause of crashes as it's accessing a memory location which does not exist.
+std::cout << intarray[11] << std::endl; // Would give a a "Garbage" value as there is no element at index 11 of array.
+// That memory location is beyond the range of the array.
 
 // To print all the elements of the array
 for(int i = 0; i < n; i++)
