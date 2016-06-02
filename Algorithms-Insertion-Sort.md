@@ -15,25 +15,21 @@ Hence, we have sorted the complete list in this way.
 ## Algorithm
 
 ```
-
 Loop for i=0 to N-1:
 * Pick element array[i] and insert it into sorted sublist array[0...i-1]
-
 ```
 
 ## Complexity
 
 ```
-
 Space complexity: O(1)      // Auxillary/temporary space is used.
 
 Time complexity: O(n*n)     // Two nested for loops are used.
-
 ```
 
 ## C++ Implementation
 
-```cpp
+```c++
 
 // Function to sort an array using insertion sort
 void insertionSort(int arr[], int n)
@@ -68,7 +64,6 @@ int main()
         std::cout << arr[i] << " ";
     return 0;
 }
-
 ```
 
 :rocket: [Run Code](https://repl.it/CWZq)
@@ -97,7 +92,6 @@ insertionSort(arr)
 # prints sorted array i.e. 5 6 11 12 13
 for i in range(len(arr)):
     print(arr[i],end = ' ')
-
 ```
 
 :rocket: [Run Code](https://repl.it/CWZi)
