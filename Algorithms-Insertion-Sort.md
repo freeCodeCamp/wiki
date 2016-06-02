@@ -1,14 +1,14 @@
 # Insertion Sort
 
-Insertion sort is a [comparision based sorting](https://en.wikipedia.org/wiki/Comparison_sort). A sorting algorithm is comparison based, if it uses comparison operators (such as `less than` and `greated than`) to find the order between two numbers.
+Insertion sort is a [*comparison* based sorting](https://en.wikipedia.org/wiki/Comparison_sort). A sorting algorithm is comparison based, if it uses comparison operators (such as `less than` and `greated than`) to find the order between two numbers.
 
-In this sorting technique, we always maintain a sorted sublist in lower position of list and then we take one element from the rest of list and insert it at it's correct place. We does so till all elements are inserted into sublist. For example, while playing cards we sort cards in our hand. Starting from left and moving to right, we keep on inserting the card at it's right place till end.
+In this sorting technique, we always maintain a sorted sublist in lower position of list and then we take one element from the rest of list and insert it at it's correct place. We does so untill all of the elements are inserted into sublist. For example, while playing cards we sort cards in our hand. Starting from left and moving to right, we keep on inserting the card at it's right place till end.
 
 ## Example
 
 ![Insertion Sort](https://cloud.githubusercontent.com/assets/13117482/15633518/04ca4468-25cc-11e6-96af-feb395b456e0.png)
 
-In the above example, `grey shaded` sublist is always sorted. Please note that in the beginning, sublist contains ony one element, and *trivially* sorted. Then at each step we are inserting leftmost element of `white shaded` sublist at it's correct position.
+In the above example, the `grey shaded` sublist is always sorted. Please note that in the beginning, sublist contains ony one element, and *trivially* sorted. Then at each step we are inserting the leftmost element of `white shaded` sublist at it's correct position.
 
 Hence, we have sorted the complete list in this way.
 
