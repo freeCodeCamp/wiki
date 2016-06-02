@@ -1,7 +1,11 @@
 # Big-O Notation
 
-In mathematics, Big-O notation is a symbolism used to describe and compare the limiting behavior of a function.
-In short Big-O notation is used to describe the growth or decline of a function, usually with respect to another function.
+In mathematics, Big-O notation is a symbolism used to describe and compare the *limiting behavior* of a function.
+A function's limiting behavior is how the function acts as it trends towards a particular value and in big-O notation it is usually as it trends towards infinity.
+In short, Big-O notation is used to describe the growth or decline of a function, usually with respect to another function.
+
+[NOTE: x^2 is equivalent to x * x or 'x-squared']
+
 For example we say that x = O(x^2) for all x > 1 or in other words, x^2 is an upper bound on x and therefore it grows faster.
 The symbol of a claim like x = O(x^2) for all x > *n* can be substituted with  x <= x^2 for all x > *n* where *n* is the minimum number that satisfies the claim, in this case 1.
 Effectively, we say that a function f(x) that is O(g(x)) grows slower than g(x) does.
