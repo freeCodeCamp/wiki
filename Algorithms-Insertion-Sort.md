@@ -30,7 +30,6 @@ Time complexity: O(n*n)     // Two nested for loops are used.
 ## C++ Implementation
 
 ```c++
-
 // Function to sort an array using insertion sort
 void insertionSort(int arr[], int n)
 {
@@ -71,7 +70,6 @@ int main()
 ## Python Implementation
 
 ```python
-
 # Function to perform insertion sort
 def insertionSort(arr):
     # Traverse through array
