@@ -1,8 +1,8 @@
 # Big-O Notation
 
-In mathematics, Big-O notation is a symbolism used to describe and compare the *limiting behavior* of a function.
+In mathematics, big-O notation is a symbolism used to describe and compare the *limiting behavior* of a function.
 A function's limiting behavior is how the function acts as it trends towards a particular value and in big-O notation it is usually as it trends towards infinity.
-In short, Big-O notation is used to describe the growth or decline of a function, usually with respect to another function.
+In short, big-O notation is used to describe the growth or decline of a function, usually with respect to another function.
 
 [NOTE: x^2 is equivalent to x * x or 'x-squared']
 
@@ -10,8 +10,8 @@ For example we say that x = O(x^2) for all x > 1 or in other words, x^2 is an up
 The symbol of a claim like x = O(x^2) for all x > *n* can be substituted with  x <= x^2 for all x > *n* where *n* is the minimum number that satisfies the claim, in this case 1.
 Effectively, we say that a function f(x) that is O(g(x)) grows slower than g(x) does.
 
-Comparitively, in computer science and software development we can use Big-O notation in order to describe the time complexity or efficiency of our algorithm.
-Specifically when using Big-O notation we are describing the efficiency of the algorithm with respect to an input: *n*, usually as *n* approaches infinity.
+Comparitively, in computer science and software development we can use big-O notation in order to describe the time complexity or efficiency of our algorithm.
+Specifically when using big-O notation we are describing the efficiency of the algorithm with respect to an input: *n*, usually as *n* approaches infinity.
 When examining algorithms, we generally want a lower time complexity, and ideally a time complexity of O(1) which is constant time.
 Through the comparison and analysis of algorithms we are able to create more efficient applications.
 
@@ -55,4 +55,4 @@ We can confirm this analysis using [this handy big-O cheat sheet](http://bigoche
 It is very apparent that while for small use cases this time complexity might be alright, at a large scale bubble sort is simply not a good solution for sorting.
 This is the power of big-O notation: it allows developers to easily see the potential bottlenecks of their application, and take steps to make these more scalable.
 
-For more information on why Big-O notation and algorithm analysis is important visit this [hike](https://www.freecodecamp.com/videos/big-o-notation-what-it-is-and-why-you-should-care)!
+For more information on why big-O notation and algorithm analysis is important visit this [hike](https://www.freecodecamp.com/videos/big-o-notation-what-it-is-and-why-you-should-care)!
