@@ -21,7 +21,7 @@ Second Pass:
 ( 1 4 2 5 8 ) –> ( 1 2 4 5 8 ), Swap since 4 > 2
 ( 1 2 4 5 8 ) –> ( 1 2 4 5 8 )
 ( 1 2 4 5 8 ) –>  ( 1 2 4 5 8 )
-Now, the array is already sorted, but our algorithm does not know if it is completed. The algorithm needs one whole pass without any 
+Now, the array is already sorted, but our algorithm does not know if it is completed. The algorithm needs one whole pass without any
 swap to know it is sorted.
 
 Third Pass:
@@ -31,7 +31,36 @@ Third Pass:
 ( 1 2 4 5 8 ) –> ( 1 2 4 5 8 )
 ```
 
+#### C++ Implementation
+
+```c++
+// Function to implement bubble sort
+void bubble_sort(int array[], int n)
+{
+    // Here n is the number of elements in array
+    int temp;
+
+    for(int i = 0; i < n-1; i++)
+    {
+        // Last i elements are already in place
+        for(int j = 0; j < n-i-1; j++)
+        {
+            if (array[j] > array[j+1])
+            {
+                // swap elements at index j and j+1
+                temp = array[j];
+                array[j] = array[j+1];
+                array[j+1] = temp;
+            }
+        }
+    }
+}
+```
+
+:rocket: [Run Code](https://repl.it/CXif)
+
 #### Python Implementation
+
 ```python
 def bubble_sort(arr):
     exchanges = True # A check to see if the array is already sorted so that no further steps gets executed
@@ -43,7 +72,7 @@ def bubble_sort(arr):
                exchanges = True
                arr[j], arr[j+1] = arr[j+1], arr[j]
        i -= 1
-       
+
 arr = [5,3,23,1,43,2,54]
 bubble_sort(arr)
 print(arr) # Prints [1, 2, 3, 5, 23, 43, 54]
@@ -54,4 +83,4 @@ print(arr) # Prints [1, 2, 3, 5, 23, 43, 54]
 
 **Worst and Average Case Time Complexity:** O(n*n). Worst case occurs when array is reverse sorted i.e. the elements are in decreasing order
 
-**Best Case Time Complexity:** O(n). Best case occurs when array is already sorted. 
+**Best Case Time Complexity:** O(n). Best case occurs when array is already sorted.
