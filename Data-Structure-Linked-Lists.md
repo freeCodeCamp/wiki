@@ -1,157 +1,153 @@
-# Linked list
+# Data Structure Linked list
 
- Just like a garland is made with flowers, a linked list is made up of nodes. We call every flower on this particular garland to be a node. And each of the node points to the next node in this list as well as it has data (here it is type of flower).
+Just like a garland is made with flowers, a linked list is made up of nodes. We call every flower on this particular garland to be a node. And each of the node points to the next node in this list as well as it has data (here it is type of flower).
 
 ## Types
 
 1. Singly Linked List
 
-    Singly linked lists contain nodes which have a `data` field as well as a `next` field, which points to the next node in the sequence. Operations that can be performed on singly linked lists are insertion, deletion and traversal.
+  Singly linked lists contain nodes which have a `data` field as well as a `next` field, which points to the next node in the sequence. Operations that can be performed on singly linked lists are insertion, deletion and traversal.
 
-    ```
+  ```
 
-     Singly Link List
-    --------------
+    Singly Link List
+   --------------
 
-        head
-         |
-         |
-       +-----+--+      +-----+--+      +-----+------+
-       |  1  |o----->  |  2  |o----->  |  3  | NULL |
-       +-----+--+      +-----+--+      +-----+------+
+       head
+        |
+        |
+      +-----+--+      +-----+--+      +-----+------+
+      |  1  |o----->  |  2  |o----->  |  3  | NULL |
+      +-----+--+      +-----+--+      +-----+------+
+  ```
 
-    ```
+  Application
 
-    Application
+  Internal implementation of CPython, the frames and evaluated variables are kept on a stack.
 
-    Internal implementation of CPython, the frames and evaluated variables are kept on a stack.
-
-    For this we need to iterate only forward aur get the head, therefore singly linked-list is used.
+  For this we need to iterate only forward aur get the head, therefore singly linked-list is used.
 
 2. Doubly Linked List
 
-    Doubly linked lists contain node which have `data` field, `next` field and another link field `prev` pointing to the previous node in the sequence.
+  Doubly linked lists contain node which have `data` field, `next` field and another link field `prev` pointing to the previous node in the sequence.
 
-    ```
+  ```
 
-    Doubly Linked List
-    ----------------
+   Doubly Linked List
+   ----------------
 
-               head
-                |
-                |
-       +------+-----+--+    +--+-----+--+       +-----+------+
-       |      |     |o------>  |     |o------>  |     |      |
-       | NULL |  1  |          |  2  |          |  3  | NULL |
-       |      |     |  <------o|     |  <------o|     |      |
-       +------+-----+--+    +--+-----+--+       +-----+------+
+              head
+               |
+               |
+      +------+-----+--+    +--+-----+--+       +-----+------+
+      |      |     |o------>  |     |o------>  |     |      |
+      | NULL |  1  |          |  2  |          |  3  | NULL |
+      |      |     |  <------o|     |  <------o|     |      |
+      +------+-----+--+    +--+-----+--+       +-----+------+
+  ```
 
-    ```
+  Application
 
-    Application
-
-    The browser cache which allows you to hit the BACK and FORWARD button. Here we need to maintain a doubly linked list, with `URLs` as data field, to allow access in both direction. To go to previous URL we will use `prev` field and to go to next page we will use `next` field.
+  The browser cache which allows you to hit the BACK and FORWARD button. Here we need to maintain a doubly linked list, with `URLs` as data field, to allow access in both direction. To go to previous URL we will use `prev` field and to go to next page we will use `next` field.
 
 3. Circular Linked List
 
-    Circular linked lists is a singly linked list in which last node, `next` field points to first node in the sequence.
+  Circular linked lists is a singly linked list in which last node, `next` field points to first node in the sequence.
 
-    ```
+  ```
 
-    Circular Linked List
-     ------------------
+   Circular Linked List
+    ------------------
 
-          head
-           |
-           |
-         +-----+--+      +-----+--+      +-----+--+
+         head
+          |
+          |
+        +-----+--+      +-----+--+      +-----+--+
   -->  |  1  |o----->  |  2  |o----->  |  3  |o----
   |    +-----+--+      +-----+--+      +-----+--+  |
   |                                                |
-   ------------------------------------------------
+  ------------------------------------------------
+  ```
 
-    ```
+  **Application**
 
-    Application
+  Timesharing problem solved by the operating system.
 
-    Timesharing problem solved by the operating system.
+  In a timesharing environment, the operating system must maintain a list of present users and must alternately allow each user to use a small portion of CPU time, one user at a time. The operating system will pick a user, let him/her use a small amount of CPU time and then move on to the next user.
 
-    In a timesharing environment, the operating system must maintain a list of present users and must alternately allow each user to use a small portion of CPU time, one user at a time. The operating system will pick a user, let him/her use a small amount of CPU time and then move on to the next user.
-
-    For this application, there should be no NULL pointers unless there is absolutely no one requesting CPU time, i.e list is empty.
-
+  For this application, there should be no NULL pointers unless there is absolutely no one requesting CPU time, i.e list is empty.
 
 ## Basic Operations
 
 1. Insertion
 
-    To add a new element to the list.
+  To add a new element to the list.
 
-    ```
+  ```
 
-    Insertion at the beginning
-    ------------------------
+   Insertion at the beginning
+   ------------------------
 
-    * Create a new node with given data.
-    * Point new node's `next` to old `head`.
-    * Point `head` to this new node.
+   * Create a new node with given data.
+   * Point new node's `next` to old `head`.
+   * Point `head` to this new node.
 
-    Insertion in the middle/end
-    --------------------------
-    Insertion after node X.
+   Insertion in the middle/end
+   --------------------------
+   Insertion after node X.
 
-    * Create a new node with given data.
-    * Point new node's `next` to old X's `next`.
-    * Point X's `next` to this new node.
+   * Create a new node with given data.
+   * Point new node's `next` to old X's `next`.
+   * Point X's `next` to this new node.
+  ```
 
-    ```
-    Time Complexity: O(1)
+  **Time Complexity: O(1)**
 
 2. Deletion
 
-    To delete existing element from the list.
+  To delete existing element from the list.
 
-    ```
+  ```
 
-    Deletion at the beginning
-    -----------------------
+   Deletion at the beginning
+   -----------------------
 
-    * Get the node pointed by `head` as Temp.
-    * Point `head` to Temp's `next`.
-    * Free memory used by Temp node.
+   * Get the node pointed by `head` as Temp.
+   * Point `head` to Temp's `next`.
+   * Free memory used by Temp node.
 
-    Deletion in the middle/end
-    -------------------------
-    Deletion after node X.
+   Deletion in the middle/end
+   -------------------------
+   Deletion after node X.
 
-    * Get the node pointed by `X` as Temp.
-    * Point X's `next` to Temp's `next`.
-    * Free memory used by Temp node.
+   * Get the node pointed by `X` as Temp.
+   * Point X's `next` to Temp's `next`.
+   * Free memory used by Temp node.
+  ```
 
-    ```
-    Time Complexity: O(1)
+  **Time Complexity: O(1)**
 
 3. Traversing
 
-    To travel acroos the list.
+  To travel across the list.
 
-    ```
+  ```
 
-    Traversal
-    --------
+   Traversal
+   --------
 
-    * Get the node pointed by `head` as Current.
-    * Check if Current is not null and display it.
-    * Point Current to Current's `next` and move to above step.
+   * Get the node pointed by `head` as Current.
+   * Check if Current is not null and display it.
+   * Point Current to Current's `next` and move to above step.
+  ```
 
-    ```
-    Time Complexity: O(n) // Here n is size of link-list
+  **Time Complexity: O(n) // Here n is size of link-list**
 
 ## Implementation
 
 ### C++ implementation of singly linked list
 
-```cpp
+```c++
 
 // Header files
 #include <iostream>
@@ -164,12 +160,11 @@ struct node
 
 // Head pointer always points to first element of the linked list
 struct node *head = NULL;
-
 ```
 
 #### Printing data in each node
 
-```cpp
+```c++
 
 // Display the list
 void printList()
@@ -185,12 +180,11 @@ void printList()
 
     std::cout << std::endl;
 }
-
 ```
 
 #### Insertion at the beginning
 
-```cpp
+```c++
 
 // Insert link at the beginning
 void insertFirst(int data)
@@ -208,12 +202,11 @@ void insertFirst(int data)
 
     std::cout << "Inserted successfully" << std::endl;
 }
-
 ```
 
 #### Deletion at the beginning
 
-```cpp
+```c++
 
 // Delete first item
 void deleteFirst()
@@ -230,12 +223,11 @@ void deleteFirst()
 
     std::cout << "Deleted successfully" << std::endl;
 }
-
 ```
 
 #### Size
 
-```cpp
+```c++
 
 // Find no. of nodes in link list
 void size()
@@ -250,12 +242,11 @@ void size()
 
     std::cout << "Size of Linked List is " << length << std::endl;
 }
-
 ```
 
 #### Searching
 
-```cpp
+```c++
 
 // Find node with given data
 void find(int data){
@@ -287,12 +278,11 @@ void find(int data){
     // If data found
     std::cout << "Found" << std::endl;
 }
-
 ```
 
 #### Deletion after a node
 
-```cpp
+```c++
 
 // Delete a node with given data
 void del(int data){
@@ -339,11 +329,9 @@ void del(int data){
     delete current;
     std::cout << "Deleted succesfully" << std::endl;
 }
-
 ```
 
 :rocket: [Run Code](https://repl.it/CXVt/1)
-
 
 ### Python Implementation of Singly Linked List
 
@@ -371,7 +359,6 @@ class Node(object):
 class LinkedList(object):
     def __init__(self, head=None):
         self.head = head
-
 ```
 
 #### Insertion
@@ -385,7 +372,6 @@ class LinkedList(object):
         new_node.set_next(self.head)
         self.head = new_node
         print("Node with data " + str(data) + " is created succesfully")
-
 ```
 
 #### Size
@@ -400,7 +386,6 @@ class LinkedList(object):
             count += 1
             current = current.get_next()
         print("Size of link list is " + str(count))
-
 ```
 
 #### Searching
@@ -419,8 +404,7 @@ class LinkedList(object):
         if current is None:
             print("Node with data " + str(data) + " is not present")
         else:
-        	print("Node with data " + str(data) + " is found")
-
+            print("Node with data " + str(data) + " is found")
 ```
 
 #### Deletion after a node
@@ -446,11 +430,9 @@ class LinkedList(object):
         else:
             previous.set_next(current.get_next())
             print("Node with data " + str(data) + " is deleted successfully")
-
 ```
 
 :rocket: [Run Code](https://repl.it/CVq3/2)
-
 
 **Advantages**
 
