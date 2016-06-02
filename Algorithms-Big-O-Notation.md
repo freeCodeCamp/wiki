@@ -10,7 +10,7 @@ For example we say that x = O(x^2) for all x > 1 or in other words, x^2 is an up
 The symbol of a claim like x = O(x^2) for all x > *n* can be substituted with  x <= x^2 for all x > *n* where *n* is the minimum number that satisfies the claim, in this case 1.
 Effectively, we say that a function f(x) that is O(g(x)) grows slower than g(x) does.
 
-Comparitively, in computer science and software development we can use big-O notation in order to describe the time complexity or efficiency of our algorithm.
+Comparitively, in computer science and software development we can use big-O notation in order to describe the time complexity or efficiency of algorithms
 Specifically when using big-O notation we are describing the efficiency of the algorithm with respect to an input: *n*, usually as *n* approaches infinity.
 When examining algorithms, we generally want a lower time complexity, and ideally a time complexity of O(1) which is constant time.
 Through the comparison and analysis of algorithms we are able to create more efficient applications.
