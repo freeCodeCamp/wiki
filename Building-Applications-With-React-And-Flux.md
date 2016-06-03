@@ -8,4 +8,4 @@ Your React development environment is now ready.
 
 The environment will compile React JSX, Lint JSX and JS with ESlint, Bundle your JS and CSS files, Migrate the built app to the dist folder, and run a dev web-server.
 
-[github repository]: https://github.com/anthonygallina1/Building_Apps_React_Flux
+[github repository](https://github.com/anthonygallina1/Building_Apps_React_Flux)
