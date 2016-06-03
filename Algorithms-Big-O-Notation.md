@@ -55,4 +55,4 @@ We can confirm this analysis using [this handy big-O cheat sheet](http://bigoche
 It is very apparent that while for small use cases this time complexity might be alright, at a large scale bubble sort is simply not a good solution for sorting.
 This is the power of big-O notation: it allows developers to easily see the potential bottlenecks of their application, and take steps to make these more scalable.
 
-For more information on why big-O notation and algorithm analysis is important visit this [hike](https://www.freecodecamp.com/videos/big-o-notation-what-it-is-and-why-you-should-care)!
+For more information on why big-O notation and algorithm analysis is important visit this [video challenge](https://www.freecodecamp.com/videos/big-o-notation-what-it-is-and-why-you-should-care)!
