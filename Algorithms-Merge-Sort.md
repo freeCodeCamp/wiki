@@ -105,7 +105,7 @@ void mergeSort(int array[], int left, int right)
 }
 ```
 
-:rocket: [Run Code](https://repl.it/CYVc)
+:rocket: [Run Code](https://repl.it/CYVc/1)
 
 ### Javascript Implementation
 
