@@ -1,4 +1,4 @@
-# Challenge Gold Code
+# Challenge Golf Code
 
 We will now use our knowledge about else if statements and comparison with equality, less and greater operators.
 
