@@ -11,9 +11,9 @@ To learn about Merge Sort, a basic knowledge about [Recursion](http://programmer
 - Merge the sorted halves.
 
 The biggest advantage of using Merge sort is that the [time complexity](https://www.youtube.com/watch?v=V42FBiohc6c&list=PL2_aWCzGMAwI9HK8YPVBjElbLbI3ufctn) is only n*log(n) to sort an entire Array. It is a lot better than n^2 running time of bubble sort or insertion sort.
-Before we write the JavaScript code, let us understand how merge sort works with the help of a diagram.
+Before we write code, let us understand how merge sort works with the help of a diagram.
 
-![Merge Sort](https://i67.tinypic.com/2ahe49y.png)
+![Merge Sort](https://i.imgur.com/ac98ccu.png)
 
 - Initially we have an array of 6 unsorted integers Arr(5, 8, 3, 9, 1, 2)
 - We split the array into two halves Arr1 = (5, 8, 3) and  Arr2 = (9, 1, 2).
@@ -120,6 +120,7 @@ function mergeSort (arr) {
   return merge(subLeft, subRight);
 }
 ```
+
 First we check the length of the array. If it is 1 then we simply return the array. This would be our base case. Else, we will find out the middle value and divide the array into two halves. We will now sort both of the halves with recursive calls to MergeSort function.
 
 ```javascript
