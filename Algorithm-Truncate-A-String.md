@@ -10,7 +10,7 @@ Strings are immutable in JavaScript so we will need a new variable to store the 
 
 ## Hint: 2
 
-You will need to use slice and specify where to start and where to stop.
+You will need to use slice() or substr() method and specify where to start and where to stop.
 
 ## Hint: 3
 
@@ -22,7 +22,7 @@ Do not forget that when we truncate the word, we also must count the length adde
 
 **Solution ahead!**
 
-## Code Solution:
+## Basic Solution:
 
 ```javascript
 function truncateString(str, num) {
@@ -60,8 +60,29 @@ Finally, we write the return for what happens when neither of the previous if-st
 return str.substr(0,num-3) + "...";
 ```
 
+## Advanced Solution:
+
+```javascript
+function truncateString(str, num) {
+  return str.length <= num ? str : (str.slice(0, (num <= 3) ? num : num-3) + "...");
+}
+```
+
+:rocket: [Run Code](https://repl.it/CLjU/53)
+
+## Code Explanation:
+
+- In order to understand this code, you first need to understand how a [Ternary Operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator) works. The Ternary Operator is frequently used as a shortcut for the ```if``` statement and follows this format: ```condition ? expr1 : expr2```. If the ```condition``` evaluates to true, the operator returns the value of ```expr1```. Otherwise, it returns the value of ```expr2```.
+- First we test ```(str.length <= num)```. If this evaluates to true, we simply return ```(str)``` and the function exits.
+- However, if ```(str.length <= num)``` evaluates to false, we run the second half of the code: ```(str.slice(0, (num <= 3) ? num : num-3) + "...")```
+- The slice method extracts a section of a string and returns a new string. Here we pass 0 as the starting point for our slice. To determine the endpoint, we use a nested ternary operator: ```(num <= 3) ? num : num-3```. If ```num``` is less than or equal to 3, our slice gets an end variable of ```num```. If ```num``` is larger than 3, we must factor in the three dots to our total length, and thus we end the slice at ```num-3```.
+
+**Reference:-**
+- [Conditional (ternary) Operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
+- [String.prototype.slice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice)
+
 ## Credits:
 
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 @richyvk @ltegman for your help with Algorithm: Truncate a String`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 @richyvk @ltegman @bmorelli25 for your help with Algorithm: Truncate a String`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
