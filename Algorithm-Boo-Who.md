@@ -2,21 +2,35 @@
 
 ![](https://i.imgur.com/CgROCEF.jpg)
 
+:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
+
 ### Problem Explanation:
 
-- This program is very simple, the trick is to understand what a boolean primitive is. The programs requires a true or false answer.
+This program is very simple, the trick is to understand what a boolean primitive is. The programs requires a true or false answer.
 
-## Hint: 1
+#### Relevant Links
+
+- [Link Title 1](http://example.com)
+- [Link Title 2](http://example.com)
+- [Link Title 3](http://example.com)
+
+## :speech_balloon: Hint: 1
 
 - You will need to check for the type of the parameter to see if it is a boolean.
 
-## Hint: 2
+> _try to solve the problem now_
 
-- To check for the type of a parameter, you can use `typeof`
+## :speech_balloon: Hint: 2
 
-## Hint: 3
+- To check for the type of a parameter, you can use `typeof`.
+
+> _try to solve the problem now_
+
+## :speech_balloon: Hint: 3
 
 - Since you must return true or false you can use if statements or just have it return the boolean used for the if statement.
+
+> _try to solve the problem now_
 
 ## Spoiler Alert!
 
@@ -24,7 +38,7 @@
 
 **Solution ahead!**
 
-## Code Solution:
+## :beginner: Basic Code Solution:
 
 ```javascript
 function booWho(bool) {
@@ -41,8 +55,23 @@ booWho(null);
 
 Uses the operator `typeof` to check if the variable is a boolean. If it is, it will return `true`. Otherwise, if it is any other type it will return `false`.
 
-# Credits:
+#### Relevant Links
 
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`thanks @Rafase282 for your help with Algorithm: Boo-who`**
+- [Link Title 1](http://example.com)
+- [Link Title 2](http://example.com)
+- [Link Title 3](http://example.com)
 
-> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
+### :trophy: Credits:
+
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:
+
+**`thanks @Rafase282 for your help with Algorithm: Boo-who`**
+
+## :clipboard: NOTES FOR CONTRIBUTIONS:
+
+- :warning: **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
+- Add an explanation of your solution.
+- Categorize the solution in one of the following categories &mdash; **Basic**, **Intermediate** and **Advanced**. :traffic_light:
+- Please add your username only if you have added any **relevant main contents**. (:warning: **_DO NOT_** _remove any existing usernames_)
+
+> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution) for reference.
