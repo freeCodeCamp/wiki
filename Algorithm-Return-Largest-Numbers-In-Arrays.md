@@ -114,12 +114,11 @@ function largestOfFour(arr) {
 - Create an Array to hold our results
 - Utilize a for loop to loop throug each subArray
 - For each subArray, push the maxium value to our result Array
-- The Math.max() function returns the largest of zero or more numbers. It expets multiple values, and one of the ways we can pass values to this function is through the 'Spread' operator
+- The Math.max() function returns the largest of zero or more numbers. It expects multiple values, and one of the ways we can pass values to this function is through the 'Spread' operator
 - The new ES6 spread operator '...' allows an expression to be expanded in places where multiple inputs are expected. '...arr[i]' inputs the entire subArray of values of 'arr' into the Math.max function.
 
 **Reference:-**
 - [Spread Operator]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator)
-
 
 ## :rotating_light: Advanced Code Solution:
 
