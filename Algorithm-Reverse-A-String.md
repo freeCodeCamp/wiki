@@ -5,6 +5,12 @@
 ### :checkered_flag: Problem Explanation:
 We need to take the string and reverse it, so if it originally reads 'hello', it will now read 'olleh'. We will need to split the string, and therefore we will be working with Arrays as well.
 
+#### Relevant Links
+
+- [Link Title 1](http://example.com)
+- [Link Title 2](http://example.com)
+- [Link Title 3](http://example.com)
+
 ## :speech_balloon: Hint: 1
 Start by splitting the string by characters.
 
@@ -44,12 +50,18 @@ function reverseString(str) {
 
 - Finally, we *chain* `join('')` to put our characters back together into a string. Notice once again that we left no spaces in the argument for join, this makes sure that the array of characters is joined back together by each character.
 
+#### Relevant Links
+
+- [Link Title 1](http://example.com)
+- [Link Title 2](http://example.com)
+- [Link Title 3](http://example.com)
+
 ### :trophy: Credits:
 If you found this page useful, you may say thanks to the contributors by copying and pasting the following line in the main chat:
 
 **`Thanks @Rafase282 for your help with Algorithm: Reverse a String`**
 
-## :clipboard: NOTE TO CONTRIBUTORS:
+## :clipboard: NOTES FOR CONTRIBUTIONS:
 - :warning: **DO NOT** add solutions that are similar to any existing solutions. If you think it is ***similar but better***, then try to merge (or replace) the existing similar solution.
 - Add an explanation of your solution.
 - Categorize the solution in one of the following categories &mdash; **Basic**, **Intermediate** and **Advanced**. :traffic_light:
