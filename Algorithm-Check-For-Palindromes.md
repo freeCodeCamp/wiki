@@ -2,6 +2,8 @@
 
 ![](https://i.imgur.com/ozDWKEi.jpg)  
 
+:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
+
 ### :checkered_flag: Problem Explanation:
 
 Our goal for solving this problem is tidying up the string passed in, and checking whether it is in fact a palindrome.
@@ -12,35 +14,26 @@ Once we have determined whether it is a palindrome or not we want to return eith
 
 #### Relevant Links
 
-- [Link Title 1](http://example.com)
-- [Link Title 2](http://example.com)
-- [Link Title 3](http://example.com)
+- [String.prototype.replace](JS-String-Prototype-Replace)
+- [String.prototype.toLowerCase](JS-String-Prototype-ToLowerCase)
 
 ## :speech_balloon: Hint: 1
 
 Regular expressions, `RegEx`, can be used to remove unwanted characters from the string.
 
-#### Relevant Links
-
-- [DevDoc - JS `RegExp`](http://devdocs.io/#q=js+RegExp)
+> _try to solve the problem now_
 
 ## :speech_balloon: Hint: 2
 
 The `Array.prototype.split` and `Array.prototype.join` methods can be of use here. `For` and `while` loops are another alternative, or why not even `map`!
 
-#### Relevant Links
-
-- [DevDoc - JS `Array.prototype.split`](http://devdocs.io/#q=js+String+split)
-- [DevDoc - JS `Array.prototype.join`](http://devdocs.io/#q=js+Array+join)
-- [DevDoc - JS `For Loop`](http://devdocs.io/#q=js+for)
+> _try to solve the problem now_
 
 ## :speech_balloon: Hint: 3
 
 `String.prototype.toLowerCase` can be used to make a string lowercase.
 
-#### Relevant Links
-
-- [DevDoc - JS `String.prototype.toLowerCase`](http://devdocs.io/#q=js+String+toLowerCase)
+> _try to solve the problem now_
 
 ## Spoiler Alert!
 
@@ -71,9 +64,9 @@ function palindrome(str) {
 
 #### Relevant Links
 
-- [Link Title 1](http://example.com)
-- [Link Title 2](http://example.com)
-- [Link Title 3](http://example.com)
+- [String.prototype.split](JS-String-Prototype-Split)
+- [Array.prototype.reverse](JS-Array-Prototype-Reverse)
+- [Array.prototype.join](JS-Array-Prototype-Join)
 
 ## :sunflower: Intermediate Code Solution:
 
@@ -101,9 +94,7 @@ function palindrome(str) {
 
 #### Relevant Links
 
-- [Link Title 1](http://example.com)
-- [Link Title 2](http://example.com)
-- [Link Title 3](http://example.com)
+- [Regex](JS-Regex-Resources)
 
 ## :rotating_light: Advanced Code Solution (using recursion):
 
@@ -139,6 +130,10 @@ function palindrome(str) {
 - Next we want to check that the first and last elements of the string are the same. If they are not the same, we return false which exits the function, and breaks out of the recursive loop.
 
 - If neither of the first two conditions are met, then we assume that the two characters are equal, and we return a recursive call to the function. The difference here is that we pass the current value of `str` and we slice the first and last elements off the string. This process continues until there are no characters left to check!
+
+#### Relevant Links
+
+- [String.prototype.slice](JS-String-Prototype-Slice)
 
 ### :trophy: Credits:
 
