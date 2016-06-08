@@ -114,15 +114,9 @@ function chunkArrayInGroups(arr, size) {
 
 :rocket: [Run Code](https://repl.it/CLjU/24)
 
-### Code Explanation:
-
-Explain solution here and add any relevant links
-
 #### Relevant Links
 
-- [Link Title 1](http://example.com)
-- [Link Title 2](http://example.com)
-- [Link Title 3](http://example.com)
+- [`Array.push()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
 
 ## :sunflower: Intermediate Code Solution:
 
@@ -142,15 +136,10 @@ function chunkArrayInGroups(arr, size) {
 
 :rocket: [Run Code](https://repl.it/CLjU/25)
 
-### Code Explanation:
-
-Explain solution here and add any relevant links
-
 #### Relevant Links
 
-- [Link Title 1](http://example.com)
-- [Link Title 2](http://example.com)
-- [Link Title 3](http://example.com)
+- [`Array.push()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
+- [`Array.slice()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)
 
 ## :rotating_light: Advanced Code Solution:
 
