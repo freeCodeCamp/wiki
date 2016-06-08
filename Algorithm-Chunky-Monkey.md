@@ -2,7 +2,7 @@
 
 ![](https://i.imgur.com/RdrnNvA.png)
 
-### Explanation
+### :checkered_flag: Problem Explanation:
 
 Our goal for this Algorithm is to split `arr` (first argument) into smaller chunks of arrays with the length provided by `size` (second argument). There are 4 green checks (objectives) our code needs to pass in order to complete this Algorithm:
 
@@ -13,9 +13,14 @@ Our goal for this Algorithm is to split `arr` (first argument) into smaller chun
 
 Click **More information** under the Algorithm title and read the helpful links if you haven't yet.
 
+#### Relevant Links
+
+- [`Array.push()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
+- [`Array.slice()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)
+
 ## How to approach the Algorithm
 
-The helpful links suggest to use `Array.push()` so let's start by first creating a new array to store the smaller arrays we will soon have like this:
+The links above suggest to use `Array.push()` so let's start by first creating a new array to store the smaller arrays we will soon have like this:
 
 ```javascript
 var newArray = [];
@@ -83,9 +88,7 @@ Now `arr.slice()` starts at the element 2 and stops at element 4 and in the next
 
 **Solution ahead!**
 
-## Code Solution:
-
-### Solution 1:
+## :beginner: Basic Code Solution:
 
 ```javascript
 function chunkArrayInGroups(arr, size) {
@@ -111,7 +114,17 @@ function chunkArrayInGroups(arr, size) {
 
 :rocket: [Run Code](https://repl.it/CLjU/24)
 
-### Solution 2:
+### Code Explanation:
+
+Explain solution here and add any relevant links
+
+#### Relevant Links
+
+- [Link Title 1](http://example.com)
+- [Link Title 2](http://example.com)
+- [Link Title 3](http://example.com)
+
+## :sunflower: Intermediate Code Solution:
 
 ```javascript
 function chunkArrayInGroups(arr, size) {
@@ -129,7 +142,17 @@ function chunkArrayInGroups(arr, size) {
 
 :rocket: [Run Code](https://repl.it/CLjU/25)
 
-### Solution 3:
+### Code Explanation:
+
+Explain solution here and add any relevant links
+
+#### Relevant Links
+
+- [Link Title 1](http://example.com)
+- [Link Title 2](http://example.com)
+- [Link Title 3](http://example.com)
+
+## :rotating_light: Advanced Code Solution:
 
 ```javascript
 function chunkArrayInGroups(arr, size) {
@@ -148,24 +171,17 @@ chunkArrayInGroups(["a", "b", "c", "d"], 2);
 
 :rocket: [Run Code](https://repl.it/CLjU/26)
 
-### Solution 4:
+### :trophy: Credits:
 
-```javascript
-// splice & slice, avoiding size counting
-function chunkArrayInGroups(arr, size) {
-  var ar = arr.slice();
-  var res = [];
-  do {
-    res.push(ar.splice(0, size));
-  } while (ar.length > 0);
-  return res;
-}
-```
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:
 
-:rocket: [Run Code](https://repl.it/CLjU/27)
+**`Thanks @kirah1314 @Rafase282 @jsommamtek @oshliaer for your help with Algorithm: Chunky Monkey`**
 
-## Credits:
+## :clipboard: NOTES FOR CONTRIBUTIONS:
 
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @kirah1314 @Rafase282 @jsommamtek @oshliaer for your help with Algorithm: Chunky Monkey`**
+- :warning: **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
+- Add an explanation of your solution.
+- Categorize the solution in one of the following categories &mdash; **Basic**, **Intermediate** and **Advanced**. :traffic_light:
+- Please add your username only if you have added any **relevant main contents**. (:warning: **_DO NOT_** _remove any existing usernames_)
 
-> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
+> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution) for reference.
