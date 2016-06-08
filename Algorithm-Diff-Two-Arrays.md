@@ -8,12 +8,12 @@
 
 Check two arrays and return a new array that contains only the items that are not in either of the original arrays.
 
-## Relevant Links
+#### Relevant Links
 
-- [**`for Loop`** (Devdocs)](https://devdocs.io/javascript/statements/for)
-- [**`Array.prototype.includes`** (Devdocs)](https://devdocs.io/javascript/global_objects/array/includes)
-- [**`Array.prototype.filter`** (Devdocs)](https://devdocs.io/javascript/global_objects/array/filter)
-- [**`Array.prototype.concat`** (Devdocs)](https://devdocs.io/javascript/global_objects/array/concat)
+- [for Loop (Devdocs)](https://devdocs.io/javascript/statements/for)
+- [Array.prototype.includes (Devdocs)](https://devdocs.io/javascript/global_objects/array/includes)
+- [Array.prototype.filter (Devdocs)](https://devdocs.io/javascript/global_objects/array/filter)
+- [Array.prototype.concat (Devdocs)](https://devdocs.io/javascript/global_objects/array/concat)
 
 ## :speech_balloon: Hint: 1
 
@@ -39,7 +39,7 @@ The best way to go about the callback function is to check if the number from th
 
 **Solution ahead!**
 
-## :beginner: Basic Code Solution: (Imperative Solution)
+## :beginner: Basic Code Solution (Imperative Solution):
 
 ```javascript
 function diffArray(arr1, arr2) {
@@ -73,9 +73,9 @@ Read the comments in the code.
 
 #### Relevant Links
 
-- [**`for Loop`** (Devdocs)](https://devdocs.io/javascript/statements/for)
+- [for Loop (Devdocs)](https://devdocs.io/javascript/statements/for)
 
-## :sunflower: Intermediate Code Solution: (Declarative Solution)
+## :sunflower: Intermediate Code Solution (Declarative Solution):
 
 ```javascript
 function diffArray(arr1, arr2) {
@@ -97,11 +97,11 @@ Explain solution here and add any relevant links
 
 #### Relevant Links
 
-- [**`Array.prototype.concat`** (Devdocs)](https://devdocs.io/javascript/global_objects/array/concat)
-- [**`Array.prototype.filter`** (Devdocs)](https://devdocs.io/javascript/global_objects/array/filter)
-- [**`Array.prototype.includes`** (Devdocs)](https://devdocs.io/javascript/global_objects/array/includes)
+- [Array.prototype.concat (Devdocs)](https://devdocs.io/javascript/global_objects/array/concat)
+- [Array.prototype.filter (Devdocs)](https://devdocs.io/javascript/global_objects/array/filter)
+- [Array.prototype.includes (Devdocs)](https://devdocs.io/javascript/global_objects/array/includes)
 
-## :rotating_light: Advanced Code Solution: (Declarative Solution)
+## :rotating_light: Advanced Code Solution (Declarative Solution):
 
 ```javascript
 function diffArray(arr1, arr2) {
@@ -123,9 +123,9 @@ Explain solution here and add any relevant links
 
 #### Relevant Links
 
-- [**`Array.prototype.includes`** (Devdocs)](https://devdocs.io/javascript/global_objects/array/includes)
-- [**`Array.prototype.filter`** (Devdocs)](https://devdocs.io/javascript/global_objects/array/filter)
-- [**`Array.prototype.concat`** (Devdocs)](https://devdocs.io/javascript/global_objects/array/concat)
+- [Array.prototype.includes (Devdocs)](https://devdocs.io/javascript/global_objects/array/includes)
+- [Array.prototype.filter (Devdocs)](https://devdocs.io/javascript/global_objects/array/filter)
+- [Array.prototype.concat (Devdocs)](https://devdocs.io/javascript/global_objects/array/concat)
 
 ### :trophy: Credits:
 
@@ -133,7 +133,7 @@ If you found this page useful, you may say thanks to the contributors by copying
 
 **`thanks @Rafase282 @aganita @abhisekp for your help with Challenge: Diff Two Arrays`**
 
-## :clipboard: NOTE TO CONTRIBUTORS:
+## :clipboard: NOTES FOR CONTRIBUTIONS:
 
 - :warning: **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
 - Add an explanation of your solution.
