@@ -10,9 +10,8 @@
 
 #### Relevant Links
 
-- [Link Title 1](http://example.com)
-- [Link Title 2](http://example.com)
-- [Link Title 3](http://example.com)
+- [String.prototype.charCodeAt](JS-String-Prototype-CharCodeAt)
+- [String.fromCharCode](String.fromCharCode)
 
 ## :speech_balloon: Hint: 1
 
@@ -74,9 +73,9 @@ function rot13(str) {
 
 #### Relevant Links
 
-- [Link Title 1](http://example.com)
-- [Link Title 2](http://example.com)
-- [Link Title 3](http://example.com)
+- [Array.prototype.map](JS-Array-Prototype-Map)
+- [String.prototype.split](JS-String-Prototype-Split)
+- [Array.prototype.join](JS-Array-Prototype-Join)
 
 ## :sunflower: Intermediate Code Solution:
 
@@ -116,9 +115,9 @@ NEEDED
 
 #### Relevant Links
 
-- [Link Title 1](http://example.com)
-- [Link Title 2](http://example.com)
-- [Link Title 3](http://example.com)
+- [Function.apply](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply)
+- [Regex](JS-Regex-Resources)
+- [Regex.test](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/test)
 
 :rocket: [Run Code](https://repl.it/CLjU/39)
 
@@ -139,9 +138,7 @@ function rot13(str) { // LBH QVQ VG!
 
 #### Relevant Links
 
-- [Link Title 1](http://example.com)
-- [Link Title 2](http://example.com)
-- [Link Title 3](http://example.com)
+- [String.prototype.replace](JS-String-Prototype-Replace)
 
 ### :trophy: Credits:
 
