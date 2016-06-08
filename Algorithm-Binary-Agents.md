@@ -4,15 +4,14 @@
 
 :triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
 
-### Problem Explanation:
+## Problem Explanation:
 
 This problem is very straight forward, you will get a string that will represent a sentence in binary code, and you need to translate that into words. There is not direct way to do this so you will have to translate twice.
 
-#### Relevant Links
+### Relevant Links
 
-- [Link Title 1](http://example.com)
-- [Link Title 2](http://example.com)
-- [Link Title 3](http://example.com)
+- [String.prototype.charCodeAt](JS-String-Prototype-CharCodeAt)
+- [String.fromCharCode](String.fromCharCode)
 
 ## :speech_balloon: Hint: 1
 
@@ -69,11 +68,10 @@ binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 0110
 - Convert to decimal by using parseInt(_binary_, 2) (with the second parameter we tell in which base our numbers currently are)
 - At the end, we return out converted message.
 
-#### Relevant Links
+## Relevant Links
 
-- [Link Title 1](http://example.com)
-- [Link Title 2](http://example.com)
-- [Link Title 3](http://example.com)
+- [String.prototype.split](JS-String-Prototype-Split)
+- [parseInt](JS-ParseInt)
 
 ## :sunflower: Intermediate Code Solution:
 
@@ -123,10 +121,10 @@ binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 0110
 - Convert the final decimal outside of the inner loop and then convert it to ASCII and saving it to **sentence** along with any other text string already converted and stored.
 - Reset the variable **decValue** to avoid getting wrong decimals before continuing to the outer loop.
 
-#### Relevant Links
+## Relevant Links
 
-- [Link Title 1](http://example.com)
-- [Link Title 2](http://example.com)
+- [Math.pow](JS-Math-Pow)
+- [String.length](String.length)
 - [Link Title 3](http://example.com)
 
 ## :rotating_light: Advanced Code Solution:
@@ -147,13 +145,11 @@ binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 0110
 - First we use `split()` to be able to work on each character as an Array element
 - Then use `map()` to process each element from binary to decimal using `pareseInt()`
 - Last we can use `String.fromCharCode()` to convert each ASCII number into the corresponding character
-- However `fromCharCode()` expects a series of numbers rather than an Array! We can use ES6 Spread Operator to pass in an Array of numbers as individual numbers. See here for more info; [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator)
+- However `fromCharCode()` expects a series of numbers rather than an Array! We can use ES6 Spread Operator to pass in an Array of numbers as individual numbers. See here for more info; [Spread Operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator)
 
-#### Relevant Links
+## Relevant Links
 
-- [Link Title 1](http://example.com)
-- [Link Title 2](http://example.com)
-- [Link Title 3](http://example.com)
+- [Array.prototype.map](JS-Array-Prototype-Map)
 
 ### :trophy: Credits:
 
