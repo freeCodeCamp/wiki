@@ -2,21 +2,34 @@
 
 ![](https://i.imgur.com/HSwaSFK.jpg)
 
-### Explanation:
+:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
+
+## Problem Explanation:
 
 This problem is very straight forward, you will get a string that will represent a sentence in binary code, and you need to translate that into words. There is not direct way to do this so you will have to translate twice.
 
-## Hint: 1
+### Relevant Links
 
-You should first convert from **binary** to **decimal** before translating those values into characters
+- [String.prototype.charCodeAt](JS-String-Prototype-CharCodeAt)
+- [String.fromCharCode](String.fromCharCode)
 
-## Hint: 2
+## :speech_balloon: Hint: 1
+
+You should first convert from **binary** to **decimal** before translating those values into characters.
+
+> _try to solve the problem now_
+
+## :speech_balloon: Hint: 2
 
 Things are easier when focusing on smaller parts, divide the input to focus on one letter at the time.
 
-## Hint: 3
+> _try to solve the problem now_
+
+## :speech_balloon: Hint: 3
 
 Make sure that each time you transcode a character from binary to decimal, you reset whatever variable you used to keep track of the ones. Also do not forget to turn everything back into one string.
+
+> _try to solve the problem now_
 
 ## Spoiler Alert!
 
@@ -24,18 +37,18 @@ Make sure that each time you transcode a character from binary to decimal, you r
 
 **Solution ahead!**
 
-## Code Solution 1:
+## :beginner: Basic Code Solution:
 
 ```javascript
 function binaryAgent(str) {
   biString = str.split(' ');
   uniString = [];
 
-/*using the radix (or base) parameter in parseInt, we can convert the binary 
+/*using the radix (or base) parameter in parseInt, we can convert the binary
   number to a decimal number while simultaneously converting to a char*/
 
    for(i=0;i < biString.length;i++){
-   uniString.push(String.fromCharCode(parseInt(biString[i], 2))); 
+   uniString.push(String.fromCharCode(parseInt(biString[i], 2)));
   }
 //we then simply join the string
   return uniString.join('');
@@ -55,7 +68,12 @@ binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 0110
 - Convert to decimal by using parseInt(_binary_, 2) (with the second parameter we tell in which base our numbers currently are)
 - At the end, we return out converted message.
 
-## Code Solution 2:
+## Relevant Links
+
+- [String.prototype.split](JS-String-Prototype-Split)
+- [parseInt](JS-ParseInt)
+
+## :sunflower: Intermediate Code Solution:
 
 ```javascript
 function binaryAgent(str) {
@@ -103,7 +121,13 @@ binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 0110
 - Convert the final decimal outside of the inner loop and then convert it to ASCII and saving it to **sentence** along with any other text string already converted and stored.
 - Reset the variable **decValue** to avoid getting wrong decimals before continuing to the outer loop.
 
-## Code Solution 3:
+## Relevant Links
+
+- [Math.pow](JS-Math-Pow)
+- [String.length](String.length)
+- [Link Title 3](http://example.com)
+
+## :rotating_light: Advanced Code Solution:
 
 ```javascript
 function binaryAgent(str) {
@@ -121,34 +145,23 @@ binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 0110
 - First we use `split()` to be able to work on each character as an Array element
 - Then use `map()` to process each element from binary to decimal using `pareseInt()`
 - Last we can use `String.fromCharCode()` to convert each ASCII number into the corresponding character
-- However `fromCharCode()` expects a series of numbers rather than an Array! We can use ES6 Spread Operator to pass in an Array of numbers as individual numbers. See here for more info; [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator)
+- However `fromCharCode()` expects a series of numbers rather than an Array! We can use ES6 Spread Operator to pass in an Array of numbers as individual numbers. See here for more info; [Spread Operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator)
 
-## Code Solution 4:
+## Relevant Links
 
-```javascript
-function binaryAgent(str) {
-  var re = /(\d+)(\s?)/g;
-  function convertToChar(match,p1,p2){
-    return String.fromCharCode(parseInt(p1, 2));
-  }
-  return str.replace(re, convertToChar);
-}
+- [Array.prototype.map](JS-Array-Prototype-Map)
 
-// test here
-binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 01100010 01101111 01101110 01100110 01101001 01110010 01100101 01110011 00100000 01100110 01110101 01101110 00100001 00111111");
-```
+### :trophy: Credits:
 
-:rocket: [Run Code](https://repl.it/CLnr/0)
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:
 
-# Code Explanation
+**`thanks @Rafase282 @JamesKee @sabahang @crisvdkooij for your help with Algorithm: Binary Agents`**
 
-- In this solution we use `String.replace()` to find all the binary numbers and convert them to characters
-- First we use a regular expression to find all the binary numbers and optional trailing spaces
-- Then we define a function that converts the first parenthesized submatch into a number `parseInt()` and then into a character`String.fromCharCode()`. By not using the second parenthisized submatch we leave out all the spaces that where in between the binary numbers.
-- Lastly we use our defined regex and function in the `String.replace()` function.
+## :clipboard: NOTES FOR CONTRIBUTIONS:
 
-# Credits:
+- :warning: **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
+- Add an explanation of your solution.
+- Categorize the solution in one of the following categories &mdash; **Basic**, **Intermediate** and **Advanced**. :traffic_light:
+- Please add your username only if you have added any **relevant main contents**. (:warning: **_DO NOT_** _remove any existing usernames_)
 
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`thanks @Rafase282 @JamesKee @sabahang @crisvdkooij for your help with Algorithm: Binary Agents`**
-
-> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
+> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution) for reference.
