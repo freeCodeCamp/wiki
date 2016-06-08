@@ -7,9 +7,9 @@ We need to take the string and reverse it, so if it originally reads 'hello', it
 
 #### Relevant Links
 
-- [Link Title 1](http://example.com)
-- [Link Title 2](http://example.com)
-- [Link Title 3](http://example.com)
+- [`str.split()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)
+- [`arr.reverse()`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse)
+- [`arr.join()`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
 
 ## :speech_balloon: Hint: 1
 Start by splitting the string by characters.
@@ -49,12 +49,6 @@ function reverseString(str) {
 - Next we *chain* the `reverse()` function, which takes our array of characters and reverses them.
 
 - Finally, we *chain* `join('')` to put our characters back together into a string. Notice once again that we left no spaces in the argument for join, this makes sure that the array of characters is joined back together by each character.
-
-#### Relevant Links
-
-- [Link Title 1](http://example.com)
-- [Link Title 2](http://example.com)
-- [Link Title 3](http://example.com)
 
 ### :trophy: Credits:
 If you found this page useful, you may say thanks to the contributors by copying and pasting the following line in the main chat:
