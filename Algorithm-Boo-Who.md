@@ -10,9 +10,7 @@ This program is very simple, the trick is to understand what a boolean primitive
 
 #### Relevant Links
 
-- [Link Title 1](http://example.com)
-- [Link Title 2](http://example.com)
-- [Link Title 3](http://example.com)
+- [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
 
 ## :speech_balloon: Hint: 1
 
@@ -57,9 +55,8 @@ Uses the operator `typeof` to check if the variable is a boolean. If it is, it w
 
 #### Relevant Links
 
-- [Link Title 1](http://example.com)
-- [Link Title 2](http://example.com)
-- [Link Title 3](http://example.com)
+- [Using typeof](Challenge-Using-Typeof)
+- [typeof](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof)
 
 ### :trophy: Credits:
 
