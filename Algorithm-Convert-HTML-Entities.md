@@ -2,21 +2,30 @@
 
 ![](https://i.imgur.com/g7sWL1I.jpg)
 
-### Problem Explanation:
+:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
+
+### :checkered_flag: Problem Explanation:
 
 - You have to create a program that will convert HTML entities from string to their corresponding HTML entities. There are only a few so you can use different methods.
 
-## Hint: 1
+## :speech_balloon: Hint: 1
 
 - You can use regular Expressions however I didn't in this case.
 
-## Hint: 2
+> _try to solve the problem now_
 
-- You will benefit form a chart with all the html entities so you know which ones are the right ones to put.
+## :speech_balloon: Hint: 2
 
-## Hint: 3
+- You will benefit from a chart with all the html entities so you know which ones are the right ones to put.
+
+> _try to solve the problem now_
+
+
+## :speech_balloon: Hint: 3
 
 - You should separate the string and work with each character to convert the right ones and then join everything back up.
+
+> _try to solve the problem now_
 
 ## Spoiler Alert!
 
@@ -24,7 +33,7 @@
 
 **Solution ahead!**
 
-## Basic Solution:
+## :beginner: Basic Code Solution:
 
 ```javascript
 function convertHTML(str) {
@@ -62,9 +71,19 @@ function convertHTML(str) {
 convertHTML("Dolce & Gabbana");
 ```
 
+### Code Explanation:
+
+Explain solution here and add any relevant links
+
+#### Relevant Links
+
+- [str.split()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)
+- [arr.join()](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
+- [switch statement](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/switch)
+
 :rocket: [Run Code](https://repl.it/CLnP/0)
 
-## Medium Solution
+## :sunflower: Intermediate Code Solution:
 
 ```javascript
 function convertHTML(str) {
@@ -79,7 +98,16 @@ convertHTML("Dolce & Gabbana");
 
 :rocket: [Run Code](https://repl.it/CLnQ/0)
 
-## Advanced Solution
+### Code Explanation:
+
+Explain solution here and add any relevant links
+
+#### Relevant Links
+
+- [str.replace()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace)
+- [Regular Expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp)
+
+## :rotating_light: Advanced Code Solution:
 
 ```javascript
 function convertHTML(str) {
@@ -103,7 +131,7 @@ convertHTML("Dolce & Gabbana");
 
 :rocket: [Run Code](https://repl.it/CLnR/0)
 
-## Code Explanation (Advanced Solution):
+### Code Explanation:
 
 - Create a object to use the Lookup functionality to easily find the characters.
 - Split the original string by characters and use map to check for the changed html entity or use the same one. Alternatively you could use Regex `str.replace(/&|<|>|"|'/gi`.
@@ -112,8 +140,23 @@ convertHTML("Dolce & Gabbana");
 
 **Note** that if you went the regex route then you don't need to join anything, just make sure you return the whole operation or save it to a variable and then return it.
 
-## Credits:
+#### Relevant Links
 
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`thanks @Rafase282 @jodekirk for your help with Algorithm: Convert HTML Entities`**
+- [str.split()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)
+- [arr.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+- [arr.join()](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
 
-> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
+### :trophy: Credits:
+
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:
+
+**`thanks @Rafase282 @jodekirk for your help with Algorithm: Convert HTML Entities`**
+
+## :clipboard: NOTES FOR CONTRIBUTIONS:
+
+- :warning: **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
+- Add an explanation of your solution.
+- Categorize the solution in one of the following categories &mdash; **Basic**, **Intermediate** and **Advanced**. :traffic_light:
+- Please add your username only if you have added any **relevant main contents**. (:warning: **_DO NOT_** _remove any existing usernames_)
+
+> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution) for reference.
