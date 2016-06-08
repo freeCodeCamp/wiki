@@ -1,20 +1,32 @@
 # Algorithm Truncate a String
 
-### Explanation:
+:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
+
+### :checkered_flag: Problem Explanation:
 
 We need to reduce the length of the string or **truncate** it if it is longer than the given maximum lengths specified and add `...` to the end. If it is not that long then we keep it as is.
 
-## Hint: 1
+#### Relevant Links
+
+- [String.prototype.slice()](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-array-prototype-slice)
+
+## :speech_balloon: Hint: 1
 
 Strings are immutable in JavaScript so we will need a new variable to store the truncated string.
 
-## Hint: 2
+> _try to solve the problem now_
 
-You will need to use the [slice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice) method and specify where to start and where to stop.
+## :speech_balloon: Hint: 2
 
-## Hint: 3
+You will need to use the slice() method and specify where to start and where to stop.
+
+> _try to solve the problem now_
+
+## :speech_balloon: Hint: 3
 
 Do not forget that when we truncate the word, we also must count the length added by `...`
+
+> _try to solve the problem now_
 
 ## Spoiler Alert!
 
@@ -22,7 +34,32 @@ Do not forget that when we truncate the word, we also must count the length adde
 
 **Solution ahead!**
 
-## Code Solution:
+## :beginner: Basic Code Solution:
+
+```javascript
+function truncateString(str, num) {
+  // Clear out that junk in your trunk
+  if (str.length > num && num > 3) {
+    return str.slice(0, (num - 3)) + '...';
+  } else if (str.length > num && num <= 3) {
+    return str.slice(0, num) + '...';
+  } else {
+    return str;
+  }
+
+}
+```
+
+:rocket: [Run Code](https://repl.it/CLjU/55)
+
+### Code Explanation:
+
+- First we start off with a simple ```if``` statement to determine one of three outcomes...
+1. If our string length is greater than the ```num``` we want to truncate at, and our truncate point is at least three characters or more into the string, we return a slice of our string starting at character 0, and ending at ```num - 3```. We then append our ```'...'``` to the end of the string.
+2. However, if our string length is greater than the ```num``` but ```num``` is within the first three characters, we don't have to count our dots as characters. Therefore, we return the same string as above, with one difference: The endpoint of our slice is now just ```num```.
+3. Finally, if none of the above situations are true, it means our string length is less than our truncation ```num```. Therefore, we can just return the string. 
+
+## :rotating_light: Advanced Code Solution:
 
 ```javascript
 function truncateString(str, num) {
@@ -36,7 +73,7 @@ function truncateString(str, num) {
 
 :rocket: [Run Code](https://repl.it/CLjU/54)
 
-## Code Explanation:
+### Code Explanation:
 
 - First we need an if-statement to test if the length of the full string passed in as the first argument already fits within the size limit passed in as the second argument. If so we can just return the string that was passed in.
 
@@ -53,14 +90,24 @@ if (str.length <= num)
   }
 ```
 
-- **NOTE** In order to understand the above code, you need to understand how a [Ternary Operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator) works. The Ternary Operator is frequently used as a shortcut for the ```if``` statement and follows this format: ```condition ? expr1 : expr2```. If the ```condition``` evaluates to true, the operator returns the value of ```expr1```. Otherwise, it returns the value of ```expr2```.
+- **NOTE** In order to understand the above code, you need to understand how a Ternary Operator works. The Ternary Operator is frequently used as a shortcut for the ```if``` statement and follows this format: ```condition ? expr1 : expr2```. If the ```condition``` evaluates to true, the operator returns the value of ```expr1```. Otherwise, it returns the value of ```expr2```.
 
-**Reference:-**
+#### Relevant Links
+
 - [Conditional (ternary) Operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
-- [String.prototype.slice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice)
+- [String.prototype.slice()](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-array-prototype-slice)
 
-## Credits:
+### :trophy: Credits:
 
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 @richyvk @ltegman @bmorelli25 for your help with Algorithm: Truncate a String`**
+If you found this page useful, you may say thanks to the contributors by copying and pasting the following line in the main chat:
 
-> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
+**`Thanks @Rafase282 @bmorelli25 for your help with Algorithm: Truncate a String`**
+
+## :clipboard: NOTES FOR CONTRIBUTIONS:
+
+- :warning: **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
+- Add an explanation of your solution.
+- Categorize the solution in one of the following categories &mdash; **Basic**, **Intermediate** and **Advanced**. :traffic_light:
+- Please add your username only if you have added any **relevant main contents**. (:warning: **_DO NOT_** _remove any existing usernames_)
+
+> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution) for reference.
