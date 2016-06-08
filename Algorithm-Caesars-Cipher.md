@@ -80,17 +80,12 @@ function rot13(str) {
 ## :sunflower: Intermediate Code Solution:
 
 ```javascript
-//Solution with Regular expression and Array of ASCII character codes
+// Solution with Regular expression and Array of ASCII character codes
 function rot13(str) {
-  //retCharArray is an Array of character codes for the solution
   var rotCharArray = [];
-  //regular expression for all upper case letter from A to Z
   var regEx = /[A-Z]/ ;
-  //split str into a character array
   str = str.split("");
-  //iterate over each character in the array
   for (var x in str) {
-    //regEx.test(str[x]) will return (true or false) if it maches the regEx or not
     if (regEx.test(str[x])) {
       // A more general approach
       // possible because of modular arithmetic
@@ -100,7 +95,6 @@ function rot13(str) {
       rotCharArray.push(str[x].charCodeAt());
     }
   }
-  //make a string with character codes from an array of character codes
   str = String.fromCharCode.apply(String, rotCharArray);
   return str;
 }
@@ -111,7 +105,12 @@ rot13("LBH QVQ VG!");
 
 ### Code Explanation:
 
-NEEDED
+- An empty array is created in a variable called `rotCharArray` to store the character codes.
+- The `regEx` variable stores a regular expression for all uppercase letters from A to Z.
+- We split `str` into a character array and then use a for loop to loop through each character in the array.
+- Using an if statement, we test to see if the string only contains uppercase letters from A to Z.
+- If it returns true, we use the `charCodeAt()` function and rot13 transformation to return the correct value, otherwise we return the initial value.
+- We then return the string with the character codes from the `rotCharArray` variable.
 
 #### Relevant Links
 
