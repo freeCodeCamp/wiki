@@ -5,6 +5,12 @@
 ### :checkered_flag: Problem Explanation:
 We need to take the string and reverse it, so if it originally reads 'hello', it will now read 'olleh'. We will need to split the string, and therefore we will be working with Arrays as well.
 
+#### Relevant Links
+
+- [str.split()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)
+- [arr.reverse()](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse)
+- [arr.join()](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
+
 ## :speech_balloon: Hint: 1
 Start by splitting the string by characters.
 
@@ -49,7 +55,7 @@ If you found this page useful, you may say thanks to the contributors by copying
 
 **`Thanks @Rafase282 for your help with Algorithm: Reverse a String`**
 
-## :clipboard: NOTE TO CONTRIBUTORS:
+## :clipboard: NOTES FOR CONTRIBUTIONS:
 - :warning: **DO NOT** add solutions that are similar to any existing solutions. If you think it is ***similar but better***, then try to merge (or replace) the existing similar solution.
 - Add an explanation of your solution.
 - Categorize the solution in one of the following categories &mdash; **Basic**, **Intermediate** and **Advanced**. :traffic_light:
