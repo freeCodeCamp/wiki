@@ -7,9 +7,9 @@ We need to take the string and reverse it, so if it originally reads 'hello', it
 
 #### Relevant Links
 
-- [`str.split()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)
-- [`arr.reverse()`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse)
-- [`arr.join()`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
+- [str.split()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)
+- [arr.reverse()](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse)
+- [arr.join()](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
 
 ## :speech_balloon: Hint: 1
 Start by splitting the string by characters.
