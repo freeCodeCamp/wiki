@@ -2,21 +2,31 @@
 
 ![](https://i.imgur.com/Z7vhddH.jpg)
 
-### Explanation:
+### :checkered_flag: Problem Explanation:
 
 The function is a whole Boolean operation. You need to return true if the first argument ends with the second argument. This means that for the problem script, it should return true for the `confirmEnding('Bastian', 'n');` case.
 
-## Hint: 1
+#### Relevant Links
+
+- [str.substr()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substr)
+
+## :speech_balloon: Hint: 1
 
 Take a look at how substr() works. You will be trying to get the last Nth characters.
 
-## Hint: 2
+> _try to solve the problem now_
+
+## :speech_balloon: Hint: 2
 
 To get the Nth-to-Last character you will use length() and turn it into a negative number.
 
-## Hint: 3
+> _try to solve the problem now_
+
+## :speech_balloon: Hint: 3
 
 Check that you have the proper syntax and that you use `===` to compare.
+
+> _try to solve the problem now_
 
 ## Spoiler Alert!
 
@@ -24,7 +34,7 @@ Check that you have the proper syntax and that you use `===` to compare.
 
 **Solution ahead!**
 
-## Code Solution:
+## :beginner: Basic Code Solution:
 
 ```javascript
 function confirmEnding(str, target) {
@@ -34,12 +44,21 @@ function confirmEnding(str, target) {
 
 :rocket: [Run Code](https://repl.it/CLjU/18)
 
-## Code Explanation:
+### Code Explanation:
 
 We use the subtring() with the negative value of the lengths of target. We could use -1 to get the last element but if the target is actually longer than one letter then the program will provide the wrong information. Then we return the value of this boolean expression.
 
-## Credits:
+### :trophy: Credits:
 
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 for your help with Algorithm: Confirm the Ending`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:
 
-> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
+**`Thanks @Rafase282 for your help with Algorithm: Confirm the Ending`**
+
+## :clipboard: NOTES FOR CONTRIBUTIONS:
+
+- :warning: **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
+- Add an explanation of your solution.
+- Categorize the solution in one of the following categories &mdash; **Basic**, **Intermediate** and **Advanced**. :traffic_light:
+- Please add your username only if you have added any **relevant main contents**. (:warning: **_DO NOT_** _remove any existing usernames_)
+
+> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution) for reference.
