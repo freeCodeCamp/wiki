@@ -127,6 +127,7 @@ Please note that all local groups are unofficial, independently organized groups
   - [Governador Valadares](https://www.facebook.com/groups/free.code.camp.governadorvaladares/)
   - [Guaratingueta](https://www.facebook.com/groups/free.code.camp.guaratingueta/)
   - [Guarapuava](https://www.facebook.com/groups/free.code.camp.guarapuava/)
+  - [Ibirama](https://www.facebook.com/groups/free.code.camp.ibirama.sc/)
   - [Itajuba](https://www.facebook.com/groups/free.code.camp.itajuba/)
   - [Jacarei](https://www.facebook.com/groups/free.code.camp.sao.paulo.jacarei/)
   - [Joao Pessoa](https://www.facebook.com/groups/free.code.camp.joao.pessoa/)
@@ -263,6 +264,7 @@ Please note that all local groups are unofficial, independently organized groups
   - [Xiamen](https://www.facebook.com/groups/free.code.camp.xiamen/)
   - [Zhengzhou](https://www.facebook.com/groups/free.code.camp.zhengzhou/)
 - Colombia
+  - [Barrancabermeja](https://www.facebook.com/groups/free.code.camp.barrancabermeja/)
   - [Barranquilla](https://www.facebook.com/groups/free.code.camp.barranquilla.co/)
   - [Bogota](https://www.facebook.com/groups/free.code.camp.bogota/)
   - [Bucaramanga](https://www.facebook.com/groups/free.code.camp.bucaramanga/)
@@ -413,6 +415,7 @@ Please note that all local groups are unofficial, independently organized groups
   - [Rennes](https://www.facebook.com/groups/free.code.camp.rennes/)
   - [Strasbourg](https://www.facebook.com/groups/free.code.camp.strasbourg/)
   - [Toulouse](https://www.facebook.com/groups/free.code.camp.toulouse/)
+  - [Vannes](https://www.facebook.com/groups/free.code.camp.vannes/)
 - Georgia
   - [Tbilisi](https://www.facebook.com/groups/free.code.camp.tbilisi/)
 - Germany
@@ -446,6 +449,7 @@ Please note that all local groups are unofficial, independently organized groups
   - [Munich](https://www.facebook.com/groups/free.code.camp.munich/)
   - [Nürnberg](https://www.facebook.com/groups/free.code.camp.nuernberg/)
   - [Offenburg](https://www.facebook.com/groups/free.code.camp.offenburg/)
+  - [Passau](https://www.facebook.com/groups/free.code.camp.passau/)
   - [Stuttgart](https://www.facebook.com/groups/free.code.camp.stuttgart/)
   - [Wuerzburg](https://www.facebook.com/groups/free.code.camp.wuerzburg/)
   - [Wuppertal](https://www.facebook.com/groups/free.code.camp.wuppertal/)
@@ -878,6 +882,7 @@ Please note that all local groups are unofficial, independently organized groups
   - [Mati](https://www.facebook.com/groups/free.code.camp.mati/)
   - [Quezon City](https://www.facebook.com/groups/free.code.camp.quezon.city/)
   - [San Juan](https://www.facebook.com/groups/free.code.camp.san.juan.philippines/)
+  - [Santiago](https://www.facebook.com/groups/free.code.camp.santiagocity/)
   - [Surigao](https://www.facebook.com/groups/free.code.camp.surigao/)
   - [Zamboanga City](https://www.facebook.com/groups/free.code.camp.zamboanga.city/)
 - Poland
@@ -1022,6 +1027,7 @@ Please note that all local groups are unofficial, independently organized groups
   - [Alicante](https://www.facebook.com/groups/free.code.camp.alicante/)
   - [Almería](https://www.facebook.com/groups/free.code.camp.almeria/)
   - [Barcelona](https://www.facebook.com/groups/free.code.camp.barcelona/)
+  - [Burgos](https://www.facebook.com/groups/free.code.camp.burgos/)
   - [Cáceres](https://www.facebook.com/groups/free.code.camp.caceres/)
   - [Cádiz](https://www.facebook.com/groups/free.code.camp.cadiz/)
   - [Castellón](https://www.facebook.com/groups/free.code.camp.castellon/)
@@ -1053,6 +1059,8 @@ Please note that all local groups are unofficial, independently organized groups
   - [Jaffna](https://www.facebook.com/groups/free.code.camp.jaffna/)
 - Sudan 
   - [Khartoum](https://www.facebook.com/groups/Free.Code.Camp.Khartoum/)
+- St. Kitts & Nevis 
+  - [Basterre](https://www.facebook.com/groups/free.code.camp.basseterre.stkitts/)
 - Sweden
   - [Göteborg](https://www.facebook.com/groups/free.code.camp.goteborg/)
   - [Lund](https://www.facebook.com/groups/free.code.camp.lund/)
@@ -1264,6 +1272,7 @@ Please note that all local groups are unofficial, independently organized groups
   - Georgia
     - [Acworth](https://www.facebook.com/groups/free.code.camp.acworth.ga/)
     - [Albany](https://www.facebook.com/groups/1672818199656454/)
+    - [Alpharetta](https://www.facebook.com/groups/free.code.camp.alpharetta/)
     - [Atlanta](https://www.facebook.com/groups/free.code.camp.atlanta/)
     - [Augusta](https://www.facebook.com/groups/free.code.camp.augusta.ga/)
     - [Cochran](https://www.facebook.com/groups/free.code.camp.cochran.ga/)
@@ -1543,6 +1552,7 @@ Please note that all local groups are unofficial, independently organized groups
     - [Arlington](https://www.facebook.com/groups/free.code.camp.arlington.texas/)
     - [Austin](https://www.facebook.com/groups/free.code.camp.austin/)
     - [Bryan / College Station](https://www.facebook.com/groups/free.code.camp.bryan.college.station/)
+    - [Corpus Christi](https://www.facebook.com/groups/free.code.camp.corpus.christi/)
     - [Dallas](https://www.facebook.com/groups/free.code.camp.dallas/)
     - [El Paso](https://www.facebook.com/groups/free.code.camp.el.paso)
     - [Fort Worth](https://www.facebook.com/groups/freecodecampfortworth/)
@@ -1589,6 +1599,7 @@ Please note that all local groups are unofficial, independently organized groups
     - [Virginia Beach](https://www.facebook.com/groups/free.code.camp.virginia.beach/)
     - [Winchester](https://www.facebook.com/groups/free.code.camp.winchester/)
   - Washington
+    - [Aberdeen](https://www.facebook.com/groups/free.code.camp.aberdeen/) 
     - [Anacortes](https://www.facebook.com/groups/free.code.camp.anacortes/)
     - [Bainbridge Island](https://www.facebook.com/groups/free.code.camp.bainbridge.island)
     - [Bellevue](https://www.facebook.com/groups/free.code.camp.bellevue/)
