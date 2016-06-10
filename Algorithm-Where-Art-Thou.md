@@ -2,26 +2,35 @@
 
 ![](https://i.imgur.com/IUY2p6Y.jpg)
 
-### Problem Explanation
+:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
+
+### :checkered_flag: Problem Explanation:
 
 Write an algorithm that will take an `array` for the first argument and return an `array` with all the `object`s that matches all the properties and values in the `Object` passed as second parameter.
 
-## Hint: 1
+#### Relevant Links
+- [Array filter](JS-Array-Prototype-Filter)
+- [JS `for` loop]()
 
-You may use `for` loop or the `Array.prototype.filter` method.
+## :speech_balloon: Hint: 1
 
-- [http://devdocs.io/#q=js+for](http://devdocs.io/#q=js+for)
-- [http://devdocs.io/#q=js+Array+filter](http://devdocs.io/#q=js+Array+filter)
+You might want to use `for` loop or the `Array.prototype.filter` method.
 
-## Hint: 2
+> _try to solve the problem now_
+
+## :speech_balloon: Hint: 2
 
 Try to use `Object.prototype.hasOwnProperty` method to know if the property name exists in an object (as its own property).
 
-- [http://devdocs.io/#q=js+Object+hasOwnProperty](http://devdocs.io/#q=js+Object+hasOwnProperty)
+- [JS Object hasOwnProperty](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty)
 
-## Hint: 3
+> _try to solve the problem now_
+
+## :speech_balloon: Hint: 3
 
 Check equivalence of `Object` in `collection` with `Object` passed as second parameter to `whereAreYou` function.
+
+> _try to solve the problem now_
 
 ## Spoiler Alert!
 
@@ -31,7 +40,7 @@ Check equivalence of `Object` in `collection` with `Object` passed as second par
 
 ## Code Solution:
 
-### First
+### :beginner: Basic Code Solution:
 
 ```javascript
 function whereAreYou(collection, source) {
@@ -60,7 +69,7 @@ whereAreYou([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: nu
 
 :rocket: [Run Code](https://repl.it/CLmh/0)
 
-### Second
+### :sunflower: Intermediate Code Solution:
 
 ```javascript
 function whereAreYou(collection, source) {
@@ -85,7 +94,7 @@ whereAreYou([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: nu
 
 :rocket: [Run Code](https://repl.it/CLmi/0)
 
-### Third
+### :rotating_light: Advanced Code Solution:
 
 ```javascript
 function whereAreYou(collection, source) {
@@ -110,45 +119,20 @@ whereAreYou([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: nu
 
 :rocket: [Run Code](https://repl.it/CLmj/0)
 
-### Fourth
-
-```javascript
-function whereAreYou(collection, source) {
-//Array for storing the matched objects
-  var arr = [];
-  //For maintaining the number of key-value matches
-  var count ;
-  collection.forEach(function(collObj) { 
-  //Initialize to zero for each object in collection
-     count = 0 ; 
-     for(var prop in source){
-     //Check whether the key exists and the key-value is matched
-        if( collObj.hasOwnProperty(prop) && collObj[prop] === source[prop])
-        //Increase the count if matched
-        count++; 
-       }
-     //Check whether all key-value pairs in source are matched
-     if(count>=Object.keys(source).length){ 
-        arr.push(collObj);
-      }
-
-    });
-    return arr;
-}
-// test here
-whereAreYou([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], { last: "Capulet" });
-```
-
-:rocket: [Run Code](https://repl.it/CLml/0)
-
-## Code Explanation:
+#### Code Explanation:
 
 > Please read the comments in the source code.
 
-Check this [http://repl.it/BFZQ/19](http://repl.it/BFZQ/19) for pretty debugging and code explanation
+Check [this](http://repl.it/BFZQ/19) for pretty debugging and code explanation
 
-## Credits:
+## :trophy: Credits:
 
 If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @abhisekp @dting @coded9 for your help with Algorithm: Where art Thou`**
 
-> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
+## :clipboard: NOTES FOR CONTRIBUTIONS:
+- :warning: **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
+- Add an explanation of your solution.
+- Categorize the solution in one of the following categories &mdash; **Basic**, **Intermediate** and **Advanced**. :traffic_light:
+- Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
+
+> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution) for reference.
