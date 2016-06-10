@@ -37,7 +37,9 @@ You could use loops or callbacks functions, there are multiple ways to solve thi
 
 **Solutions ahead!**
 
-## :beginner: Beginner Code Solution (using for-in loop & hasOwnProperty):
+## :beginner: Basic Code Solution:
+
+**Using for-in loop & hasOwnProperty**
 
 ```javascript
 function truthCheck(collection, pre) {
@@ -71,7 +73,8 @@ truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "ma
 - [JS Loops](JS-Loops)
 - [Object.prototype.hasOwnProperty()](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty)
 
-## :sunflower: Intermediate : Code Solution using Array.every():
+## :sunflower: Intermediate Code Solution:
+**Using Array.every()**
 
 ```javascript
 function truthCheck(collection, pre) {
@@ -96,7 +99,9 @@ truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "ma
 - [JS Array.prototype.every()](JS-Array-Prototype-Every)
 - [MDN Array.prototype.every()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every)
 
-## :rotating_light: Advanced : Code solution using Array.reduce:
+## :rotating_light: Advanced Code Solution:
+
+**Using Array.reduce**
 
 ```javascript
 function truthCheck(collection, pre) {
