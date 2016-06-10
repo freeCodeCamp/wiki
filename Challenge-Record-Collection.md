@@ -10,7 +10,7 @@ For the given **id** in **collection**:
 
 If **value** is non-blank (**value !== ""**), then update or set the **value** for the **prop**.
 
-If the **prop** is **"tracks"** and **value** is non-blank, push the **value** onto the end of the **tracks** array.
+If the **prop** is **"tracks"** and **value** is non-blank, check to see if the given element in the array has the property of "tracks". If the element has the property of "tracks", push the **value** onto the end of the "tracks" array. If the element does not have the **property**, create the property and value pair.
 
 If **value** is blank, delete that **prop**.
 
@@ -60,7 +60,12 @@ Remember to use [Read-Search-Ask](FreeCodeCamp-Get-Help) if you get stuck. Try t
 ```
 function updateRecords(id, prop, value) {
   if (prop === "tracks" && value !== "") {
+   if(collection[id][prop]){
     collection[id][prop].push(value);
+   }
+   else{
+    collection[id][prop]=[value];
+   }
   } else if (value !== ""){
     collection[id][prop] = value;
   } else {
