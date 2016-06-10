@@ -1,8 +1,8 @@
 # Algorithm Factorialize A Number
 
-:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
-
 ![Recursion](http://i61.tinypic.com/28auvsw.jpg)
+
+:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
 
 ## :checkered_flag: Problem Explanation:
 
@@ -12,7 +12,7 @@ Factorials are often represented with the shorthand notation n!
 
 For example: `5! = 1 * 2 * 3 * 4 * 5 = 120`
 
-## Hints
+## :speech_balloon: Hint: 1
 
 This one starts easily since `0! = 1`, so you can go ahead and simply `return 1` there.
 
@@ -83,7 +83,7 @@ factorialize(5);
 
 :rocket: [Run Code](https://repl.it/CLjU/1)
 
-## Code Explanation
+## Code Explanation:
 
 Notice at the first line we have the terminal condition, i.e a condition to check the end of the recursion. If `num == 0`, then we return 1, i.e. effectively ending the recursion and informing the stack to propagate this value to the upper levels. If we do not have this condition, the recursion would go on until the stack space gets consumed, thereby resulting in a [Stack Overflow](https://en.wikipedia.org/wiki/Stack_overflow).
 
