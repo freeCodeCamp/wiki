@@ -131,8 +131,6 @@ truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "ma
 
 If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`thanks @Rafase282 @estevanmaito @HermanFassett for your help with Algorithm: Everything Be True`**
 
-> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
-
 :clipboard: NOTES FOR CONTRIBUTIONS:
 
 - :warning: **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
