@@ -1,20 +1,32 @@
 # Algorithm Find the Longest Word in a String
 
-### Explanation:
+:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
+
+### :checkered_flag: Problem Explanation:
 
 You have to go through each word and figure out which one is the longest and return not the word, but how many characters it has.
 
-## Hint: 1
+#### Relevant Links
+
+- [JS String Length](String.length)
+
+## :speech_balloon: Hint: 1
 
 You should split the string into an array of words.
 
-## Hint: 2
+> _try to solve the problem now_
+
+## :speech_balloon: Hint: 2
 
 You will need to figure out a way to keep track globally of the greatest current length.
 
-## Hint: 3
+> _try to solve the problem now_
 
-Remember how to get the length of elements on the array? `Array[index].length`
+## :speech_balloon: Hint: 3
+
+Remember how to get the length of elements on the array? `Array[index].length`.
+
+> _try to solve the problem now_
 
 ## Spoiler Alert!
 
@@ -22,9 +34,7 @@ Remember how to get the length of elements on the array? `Array[index].length`
 
 **Solution ahead!**
 
-## Code Solution:
-
-### First solution
+## :beginner: Basic Code Solution:
 
 ```javascript
 function findLongestWord(str) {
@@ -43,24 +53,46 @@ function findLongestWord(str) {
 
 :rocket: [Run Code](https://repl.it/CLjU/5)
 
-### Second solution
+### Code Explanation:
 
-(Using `.reduce()`)
+Take the string and convert it into an array of words. Declare a variable to keep track of the maximum length and loop from 0 to the length of the array of words.
+
+Then check for the longest word by comparing the current word to the previous one and storing the new longest word. At the end of the loop just return the number value of the variable maxLength.
+
+#### Relevant Links
+
+- [JS String Length](String.length)
+- [JS Array.length](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/length)
+
+## :sunflower: Intermediate Code Solution:
+
+**Using `.reduce()`**
 
 ```javascript
 function findLongestWord(s) {
   return s.split(' ')
-          .reduce(function(x,y) {
-                    return Math.max(x, y.length)
-                  }, 0);
+    .reduce(function(x, y) {
+      return Math.max(x, y.length)
+    }, 0);
 }
 ```
 
 :rocket: [Run Code](https://repl.it/CLjU/6)
 
-### Third solution
+### Code Explanation:
 
-(Using recursiveness)
+For more information on `reduce` [click here.](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)<br>
+In case you're wondering about that `0` after the callback function, it is used to give an initial value to the `x`, so that `Math.max` will know where to start.
+
+#### Relevant Links
+
+- [JS Reduce](JS-Array-Prototype-Reduce)
+- [JS Reduce Made Easy](JS-Reduce-Made-Easy)
+- [JS Math Max](JS-Math-Max.md)
+
+## :rotating_light: Advanced Code Solution:
+
+**Using recursiveness**
 
 ```javascript
 function findLongestWord(str) {
@@ -93,25 +125,26 @@ function findLongestWord(str) {
 
 :rocket: [Run Code](https://repl.it/CLjU/7)
 
-## Code Explanation:
+### Code Explanation:
 
-## First solution
+The first line splits the string into individual words. Then we check if `str` only has 1 element left then that is the longest element and we return it. If the first element's length is greater than the second element's (or equal), we remove the second element and recursively call the function `findLongestWord`. However, if the second element's length is greater thant the first element's start, then we call the function past the first element.
 
-Take the string and convert it into an array of words. Declare a variable to keep track of the maximum length and loop from 0 to the length of the array of words.
+#### Relevant Links
 
-Then check for the longest word by comparing the current word to the previous one and storing the new longest word. At the end of the loop just return the number value of the variable maxLength.
+- [JS Functions](JS-Functions.md)
+- [Recursion Basics](https://www.youtube.com/watch?v=k7-N8R0-KY4)
 
-## Second solution
+### :trophy: Credits:
 
-For more information on `reduce` [click here.](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)<br>
-In case you're wondering about that `0` after the callback function, it is used to give an initial value to the `x`, so that `Math.max` will know where to start.
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: 
 
-## Third solution
+**`Thanks @Rafase282 @shadowfool @Hallaathrad for your help with Algorithm: Find the Longest Word in a String`**
 
-See the code's inline comments.
+## :clipboard: NOTES FOR CONTRIBUTIONS:
 
-## Credits:
+- :warning: **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
+- Add an explanation of your solution.
+- Categorize the solution in one of the following categories &mdash; **Basic**, **Intermediate** and **Advanced**. :traffic_light:
+- Please add your username only if you have added any **relevant main contents**. (:warning: **_DO NOT_** _remove any existing usernames_)
 
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 @shadowfool @Hallaathrad for your help with Algorithm: Find the Longest Word in a String`**
-
-> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
+> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution) for reference.
