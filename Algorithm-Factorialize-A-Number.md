@@ -83,6 +83,10 @@ factorialize(5);
 
 :rocket: [Run Code](https://repl.it/CLjU/1)
 
+## Code Explanation
+
+Notice at the first line we have the terminal condition, i.e a condition to check the end of the recursion. If `num == 0`, then we return 1, i.e. effectively ending the recursion and informing the stack to propagate this value to the upper levels. If we do not have this condition, the recursion would go on until the stack space gets consumed, thereby resulting in a [Stack Overflow](https://en.wikipedia.org/wiki/Stack_overflow).
+
 ### Relevant Links
 
 - **Recursion**: [https://www.codecademy.com/courses/javascript-lesson-205/0/1](https://www.codecademy.com/es/courses/javascript-lesson-205/0/1)
@@ -91,7 +95,9 @@ factorialize(5);
 
 ## :trophy: Credits:
 
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @luishendrix92 @Rafase282 @hallaathrad for your help with Algorithm: Factorialize a Number`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: 
+
+**`Thanks @luishendrix92 @Rafase282 @hallaathrad for your help with Algorithm: Factorialize a Number`**
 
 ## :clipboard: NOTES FOR CONTRIBUTIONS:
 
