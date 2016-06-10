@@ -1,22 +1,34 @@
 # Algorithm Factorialize A Number
 
+:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
+
 ![](https://i.imgur.com/GluUbAz.jpg)
 
-### Problem Explanation:
+### :checkered_flag: Problem Explanation:
 
 Remove all [falsy](JS-Falsy) values from an array.
 
-## Hint: 1
+#### Relevant Links
+
+- [JS Falsy](JS-Falsy)
+
+## :speech_balloon: Hint: 1
 
 Falsy is something which evaluates to FALSE. There are only six falsy values in JavaScript: undefined, null, NaN, 0, "" (empty string), and false of course.
 
-## Hint: 2
+> _try to solve the problem now_
+
+## :speech_balloon: Hint: 2
 
 We need to make sure we have all the falsy values to compare, we can know it, maybe with a function with all the falsy values...
 
-## Hint: 3
+> _try to solve the problem now_
+
+## :speech_balloon: Hint: 3
 
 Then we need to add a `filter()` with the falsy values function...
+
+> _try to solve the problem now_
 
 ## Spoiler Alert!
 
@@ -24,7 +36,7 @@ Then we need to add a `filter()` with the falsy values function...
 
 **Solution ahead!**
 
-## Solution Code:
+## :beginner: Beginner Solution Code:
 
 ```javascript
 function bouncer(arr) {
@@ -36,6 +48,8 @@ function bouncer(arr) {
 ```
 
 :rocket: [Run Code](https://repl.it/CLjU/32)
+
+## :sunflower: Intermediate Code Solution:
 
 ```javascript
 function bouncer(arr) {
@@ -49,6 +63,8 @@ function bouncer(arr) {
 ```
 
 :rocket: [Run Code](https://repl.it/CLjU/33)
+
+## :rotating_light: Advanced Code Solution:
 
 ```javascript
 function bouncer(arr) {
@@ -65,8 +81,22 @@ function bouncer(arr) {
 
 The `Array.prototype.filter` method expects a function that returns a `Boolean` value which takes a single argument and returns `true` for [truthy](JS-Truthy) value or `false` for [falsy](JS-Falsy) value. Hence we pass the built-in `Boolean` function. The second solution replaces the array in-place, and utilises an anonymous function as the callback for the `filter` method. This avoids polluting the global scope with a single-use function, and makes our code more concise.
 
-## Credits:
+#### Relevant Links
+
+- [Array.prototype.filter()](JS-Array-Prototype-Filter)
+- [JS Truthy](JS-Truthy)
+- [JS Falsy](JS-Falsy)
+
+
+## :trophy: Credits:
 
 If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @renelis @abhisekp @Rafase282 for your help with Algorithm: Falsy Bouncer`**
 
-> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
+## :clipboard: NOTES FOR CONTRIBUTIONS:
+
+- :warning: **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
+- Add an explanation of your solution.
+- Categorize the solution in one of the following categories &mdash; **Basic**, **Intermediate** and **Advanced**. :traffic_light:
+- Please add your username only if you have added any **relevant main contents**. (:warning: **_DO NOT_** _remove any existing usernames_)
+
+> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution) for reference.
