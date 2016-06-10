@@ -24,7 +24,7 @@ You will need to figure out a way to keep track globally of the greatest current
 
 ## :speech_balloon: Hint: 3
 
-Remember how to get the length of elements on the array? `Array[index].length`
+Remember how to get the length of elements on the array? `Array[index].length`.
 
 > _try to solve the problem now_
 
@@ -127,7 +127,7 @@ function findLongestWord(str) {
 
 ### Code Explanation:
 
-See the code's inline comments.
+The first line splits the string into individual words. Then we check if `str` only has 1 element left then that is the longest element and we return it. If the first element's length is greater than the second element's (or equal), we remove the second element and recursively call the function `findLongestWord`. However, if the second element's length is greater thant the first element's start, then we call the function past the first element.
 
 #### Relevant Links
 
@@ -136,7 +136,9 @@ See the code's inline comments.
 
 ### :trophy: Credits:
 
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 @shadowfool @Hallaathrad for your help with Algorithm: Find the Longest Word in a String`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: 
+
+**`Thanks @Rafase282 @shadowfool @Hallaathrad for your help with Algorithm: Find the Longest Word in a String`**
 
 ## :clipboard: NOTES FOR CONTRIBUTIONS:
 
