@@ -1,8 +1,8 @@
 # Algorithm Factorialize A Number
 
-:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
-
 ![](https://i.imgur.com/GluUbAz.jpg)
+
+:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
 
 ### :checkered_flag: Problem Explanation:
 
@@ -90,7 +90,9 @@ The `Array.prototype.filter` method expects a function that returns a `Boolean` 
 
 ## :trophy: Credits:
 
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @renelis @abhisekp @Rafase282 for your help with Algorithm: Falsy Bouncer`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: 
+
+**`Thanks @renelis @abhisekp @Rafase282 for your help with Algorithm: Falsy Bouncer`**
 
 ## :clipboard: NOTES FOR CONTRIBUTIONS:
 
