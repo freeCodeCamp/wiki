@@ -34,7 +34,7 @@
 
 **Solution ahead!**
 
-## :beginner: Code Solution:
+## :beginner: Beginner Code Solution:
 
 ```javascript
 // Create an object which hold the denominations and their values
@@ -119,7 +119,9 @@ checkCashRegister(19.50, 20.00, [["PENNY", 1.01], ["NICKEL", 2.05], ["DIME", 3.1
 
 ## :trophy: Credits:
 
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`thanks @Rafase282 @SaintPeter @erictleung for your help with Algorithm: Exact Change`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: 
+
+**`thanks @Rafase282 @SaintPeter @erictleung for your help with Algorithm: Exact Change`**
 
 ## :clipboard: NOTES FOR CONTRIBUTIONS:
 
