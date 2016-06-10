@@ -2,19 +2,32 @@
 
 ![](https://i.imgur.com/oKEJJJI.jpg)
 
-### Explanation:
+:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
+
+### :checkered_flag: Problem Explanation:
 
 The program needs to check if the second argument is a [truthy](JS-Truthy) element, and it must check this for each object in the first argument.
 
-## Hint: 1
+#### Relevant Links
+
+- [JavaScript Truthy](JS-Truthy)
+- [JavaScript Arguments](JS-Arguments.md)
+
+## :speech_balloon: Hint: 1
 
 Remember to iterate through the first argument to check each object.
 
-## Hint: 2
+> _try to solve the problem now_
+
+## :speech_balloon: Hint: 2
 
 Only if all of them are truth will we return true, so make sure all of them check.
 
-## Hint: 3
+> _try to solve the problem now_
+
+## :speech_balloon: Hint: 3
+
+> _try to solve the problem now_
 
 You could use loops or callbacks functions, there are multiple ways to solve this problem.
 
@@ -24,7 +37,7 @@ You could use loops or callbacks functions, there are multiple ways to solve thi
 
 **Solutions ahead!**
 
-## Code Solution using for-in loop & hasOwnProperty:
+## :beginner: Beginner : Code Solution using for-in loop & hasOwnProperty:
 
 ```javascript
 function truthCheck(collection, pre) {
@@ -53,7 +66,12 @@ truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "ma
 - Then check for each object if the value is truthy
 - Outside the loop, I check to see if the counter variable has the same value as the length of **collection**, if true then return **true**, otherwise, return **false**
 
-## Code Solution using Array.every():
+#### Relevant Links
+
+- [JS Loops](JS-Loops)
+- [Object.prototype.hasOwnProperty()](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty)
+
+## :sunflower: Intermediate : Code Solution using Array.every():
 
 ```javascript
 function truthCheck(collection, pre) {
@@ -73,7 +91,12 @@ truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "ma
 - Uses the native "every" method to test whether all elements in the array pass the test.
 - This link will help [Array.prototype.every()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every)
 
-## Code solution using Array.reduce:
+#### Relevant Links
+
+- [JS Array.prototype.every()](JS-Array-Prototype-Every)
+- [MDN Array.prototype.every()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every)
+
+## :rotating_light: Advanced : Code solution using Array.reduce:
 
 ```javascript
 function truthCheck(collection, pre) {
@@ -99,8 +122,22 @@ truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "ma
 - Set initial reduce value to true.
 - Change it to false only when there is no key of a given name or it's falsy. Otherwise stick to the initial truthy value.
 
-## Credits:
+#### Relevant Links
+
+- [JS Reduce Made Easy](JS-Reduce-Made-Easy)
+- [JS Array Reduce](JS-Array-Prototype-Reduce)
+
+## :trophy: Credits:
 
 If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`thanks @Rafase282 @estevanmaito @HermanFassett for your help with Algorithm: Everything Be True`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
+
+:clipboard: NOTES FOR CONTRIBUTIONS:
+
+- :warning: **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
+- Add an explanation of your solution.
+- Categorize the solution in one of the following categories &mdash; **Basic**, **Intermediate** and **Advanced**. :traffic_light:
+- Please add your username only if you have added any **relevant main contents**. (:warning: **_DO NOT_** _remove any existing usernames_)
+
+> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution) for reference.
