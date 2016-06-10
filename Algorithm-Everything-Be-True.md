@@ -37,7 +37,7 @@ You could use loops or callbacks functions, there are multiple ways to solve thi
 
 **Solutions ahead!**
 
-## :beginner: Beginner : Code Solution using for-in loop & hasOwnProperty:
+## :beginner: Beginner Code Solution (using for-in loop & hasOwnProperty):
 
 ```javascript
 function truthCheck(collection, pre) {
@@ -129,9 +129,11 @@ truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "ma
 
 ## :trophy: Credits:
 
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`thanks @Rafase282 @estevanmaito @HermanFassett for your help with Algorithm: Everything Be True`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: 
 
-:clipboard: NOTES FOR CONTRIBUTIONS:
+**`thanks @Rafase282 @estevanmaito @HermanFassett for your help with Algorithm: Everything Be True`**
+
+## :clipboard: NOTES FOR CONTRIBUTIONS:
 
 - :warning: **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
 - Add an explanation of your solution.
