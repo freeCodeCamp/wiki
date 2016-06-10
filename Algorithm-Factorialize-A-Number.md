@@ -2,6 +2,8 @@
 
 :triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
 
+![Recursion](http://i61.tinypic.com/28auvsw.jpg)
+
 ## :checkered_flag: Problem Explanation:
 
 Return the factorial of the provided integer. If the integer is represented with the letter n, a factorial is the product of all positive integers less than or equal to n.
@@ -10,7 +12,7 @@ Factorials are often represented with the shorthand notation n!
 
 For example: `5! = 1 * 2 * 3 * 4 * 5 = 120`
 
-## Outline
+## Hints
 
 This one starts easily since `0! = 1`, so you can go ahead and simply `return 1` there.
 
@@ -54,8 +56,6 @@ What it returns can be viewed as `(5*(4*(3*(2*1))))` or just `5 * 4 * 3 * 2 * 1`
 
 Got it? ;)
 
-![Recursion](http://i61.tinypic.com/28auvsw.jpg)
-
 > _try to solve the problem now_
 
 #### Relevant Links
@@ -89,9 +89,9 @@ Notice at the first line we have the terminal condition, i.e a condition to chec
 
 ### Relevant Links
 
-- **Recursion**: [https://www.codecademy.com/courses/javascript-lesson-205/0/1](https://www.codecademy.com/es/courses/javascript-lesson-205/0/1)
-- **Factorialization**: [https://en.wikipedia.org/wiki/Factorial](https://en.wikipedia.org/wiki/Factorial)
-- **Arithmetic Operators** [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators)
+- [Recursion](https://www.codecademy.com/es/courses/javascript-lesson-205/0/1)
+- [Factorialization](https://en.wikipedia.org/wiki/Factorial)
+- [Arithmetic Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators)
 
 ## :trophy: Credits:
 
