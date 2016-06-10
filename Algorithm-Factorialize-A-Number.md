@@ -1,6 +1,8 @@
 # Algorithm Factorialize A Number
 
-## Problem Explanation:
+:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
+
+## :checkered_flag: Problem Explanation:
 
 Return the factorial of the provided integer. If the integer is represented with the letter n, a factorial is the product of all positive integers less than or equal to n.
 
@@ -54,13 +56,21 @@ Got it? ;)
 
 ![Recursion](http://i61.tinypic.com/28auvsw.jpg)
 
+> _try to solve the problem now_
+
+#### Relevant Links
+
+- [JS Functions](JS-Functions)
+- [Recursion in JS](https://www.youtube.com/watch?v=k7-N8R0-KY4)
+
+
 ## Spoiler Alert!
 
 ![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
 
 **Solution ahead!**
 
-## Code Solution:
+## :beginner: Code Solution:
 
 ```javascript
 function factorialize(num) {
@@ -73,29 +83,21 @@ factorialize(5);
 
 :rocket: [Run Code](https://repl.it/CLjU/1)
 
-## References
+### Relevant Links
 
 - **Recursion**: [https://www.codecademy.com/courses/javascript-lesson-205/0/1](https://www.codecademy.com/es/courses/javascript-lesson-205/0/1)
 - **Factorialization**: [https://en.wikipedia.org/wiki/Factorial](https://en.wikipedia.org/wiki/Factorial)
 - **Arithmetic Operators** [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators)
 
-## Credits:
+## :trophy: Credits:
 
 If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @luishendrix92 @Rafase282 @hallaathrad for your help with Algorithm: Factorialize a Number`**
 
-> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
+## :clipboard: NOTES FOR CONTRIBUTIONS:
 
-```
-           ,,,         ,,,
-          ;"   ^;     ;'   ",
-          ;    s$$$$$$$s     ;
-          ,  ss$$$$$$$$$$s  ,'
-          ;s$$$$$$$$$$$$$$$
-          $$$$$$$$$$$$$$$$$$
-         $$$$P""Y$$$Y""W$$$$$      -{ Happy Camping! }
-         $$$$  p"$$$"q  $$$$$
-         $$$$  .$$$$$.  $$$$
-          $$DcaU$$$$$$$$$$
-            "Y$$$"*"$$$Y"    
-                "$b.$$"
-```
+- :warning: **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
+- Add an explanation of your solution.
+- Categorize the solution in one of the following categories &mdash; **Basic**, **Intermediate** and **Advanced**. :traffic_light:
+- Please add your username only if you have added any **relevant main contents**. (:warning: **_DO NOT_** _remove any existing usernames_)
+
+> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution) for reference.
