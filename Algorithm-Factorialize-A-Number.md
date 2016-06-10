@@ -1,6 +1,10 @@
 # Algorithm Factorialize A Number
 
-## Problem Explanation:
+![Recursion](http://i61.tinypic.com/28auvsw.jpg)
+
+:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
+
+## :checkered_flag: Problem Explanation:
 
 Return the factorial of the provided integer. If the integer is represented with the letter n, a factorial is the product of all positive integers less than or equal to n.
 
@@ -8,7 +12,7 @@ Factorials are often represented with the shorthand notation n!
 
 For example: `5! = 1 * 2 * 3 * 4 * 5 = 120`
 
-## Outline
+## :speech_balloon: Hint: 1
 
 This one starts easily since `0! = 1`, so you can go ahead and simply `return 1` there.
 
@@ -16,15 +20,23 @@ We can use that as an `if` in order to break the loop we're going to create usin
 
 This is also why **instead** of having _"finished"_, a function is always said to _"have returned"_. And now this...
 
-## Understanding recursion
+> _try to solve the problem now_
+
+## :speech_balloon: Hint: 2
+
+**Understanding recursion**
 
 Recursion refers to a function repeating (calling) itself. In this case we are basically returning the given number (i.e. 5), multiplied by the function itself but this time the value passed to the _num_ parameter is `num-1` (which initially translates to 4). The very function is going to **run inside itself** interesting, eh?
 
-## Understanding the flow
+> _try to solve the problem now_
+
+## :speech_balloon: Hint: 3
+
+**Understanding the flow**
 
 The first **returned** value can be visualized better if you think about those parenthesis operations you did in secondary school where you do the math inside every parenthesis from inside out, bracket and square bracket until you get a final result (a total). This time it's the same thing, look at the program flow:
 
-## During the first execution of the function:
+### During the first execution of the function:
 
 [**num** = 5]
 
@@ -36,7 +48,7 @@ Is 5 _equal_ to 1 or 0? **No** ---> Oki doki, let's continue...
 
 What it returns can be viewed as `(5*(4*(3*(2*1))))` or just `5 * 4 * 3 * 2 * 1`, and the function will return the result of that operation: `120`. Now, let's check what the rest of the executions do:
 
-## During the rest of the executions:
+### During the rest of the executions:
 
 **Second Execution**: _num_ = 5-1 = **4** -> is _num_ 0 or 1? No<br>
 --> return the multiplication between 4 and the next result when _num_ is now 4-1.
@@ -52,7 +64,13 @@ What it returns can be viewed as `(5*(4*(3*(2*1))))` or just `5 * 4 * 3 * 2 * 1`
 
 Got it? ;)
 
-![Recursion](http://i61.tinypic.com/28auvsw.jpg)
+> _try to solve the problem now_
+
+#### Relevant Links
+
+- [JS Functions](JS-Functions)
+- [Recursion in JS](https://www.youtube.com/watch?v=k7-N8R0-KY4)
+
 
 ## Spoiler Alert!
 
@@ -60,7 +78,7 @@ Got it? ;)
 
 **Solution ahead!**
 
-## Code Solution:
+## :beginner: Code Solution:
 
 ```javascript
 function factorialize(num) {
@@ -73,29 +91,27 @@ factorialize(5);
 
 :rocket: [Run Code](https://repl.it/CLjU/1)
 
-## References
+## Code Explanation:
 
-- **Recursion**: [https://www.codecademy.com/courses/javascript-lesson-205/0/1](https://www.codecademy.com/es/courses/javascript-lesson-205/0/1)
-- **Factorialization**: [https://en.wikipedia.org/wiki/Factorial](https://en.wikipedia.org/wiki/Factorial)
-- **Arithmetic Operators** [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators)
+Notice at the first line we have the terminal condition, i.e a condition to check the end of the recursion. If `num == 0`, then we return 1, i.e. effectively ending the recursion and informing the stack to propagate this value to the upper levels. If we do not have this condition, the recursion would go on until the stack space gets consumed, thereby resulting in a [Stack Overflow](https://en.wikipedia.org/wiki/Stack_overflow).
 
-## Credits:
+### Relevant Links
 
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @luishendrix92 @Rafase282 @hallaathrad for your help with Algorithm: Factorialize a Number`**
+- [Recursion](https://www.codecademy.com/es/courses/javascript-lesson-205/0/1)
+- [Factorialization](https://en.wikipedia.org/wiki/Factorial)
+- [Arithmetic Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators)
 
-> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
+## :trophy: Credits:
 
-```
-           ,,,         ,,,
-          ;"   ^;     ;'   ",
-          ;    s$$$$$$$s     ;
-          ,  ss$$$$$$$$$$s  ,'
-          ;s$$$$$$$$$$$$$$$
-          $$$$$$$$$$$$$$$$$$
-         $$$$P""Y$$$Y""W$$$$$      -{ Happy Camping! }
-         $$$$  p"$$$"q  $$$$$
-         $$$$  .$$$$$.  $$$$
-          $$DcaU$$$$$$$$$$
-            "Y$$$"*"$$$Y"    
-                "$b.$$"
-```
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: 
+
+**`Thanks @luishendrix92 @Rafase282 @hallaathrad for your help with Algorithm: Factorialize a Number`**
+
+## :clipboard: NOTES FOR CONTRIBUTIONS:
+
+- :warning: **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
+- Add an explanation of your solution.
+- Categorize the solution in one of the following categories &mdash; **Basic**, **Intermediate** and **Advanced**. :traffic_light:
+- Please add your username only if you have added any **relevant main contents**. (:warning: **_DO NOT_** _remove any existing usernames_)
+
+> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution) for reference.
