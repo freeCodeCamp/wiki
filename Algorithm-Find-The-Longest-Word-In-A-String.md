@@ -66,14 +66,14 @@ Then check for the longest word by comparing the current word to the previous on
 
 ## :sunflower: Intermediate Code Solution:
 
-(Using `.reduce()`)
+**Using `.reduce()`**
 
 ```javascript
 function findLongestWord(s) {
   return s.split(' ')
-          .reduce(function(x,y) {
-                    return Math.max(x, y.length)
-                  }, 0);
+    .reduce(function(x, y) {
+      return Math.max(x, y.length)
+    }, 0);
 }
 ```
 
@@ -92,7 +92,7 @@ In case you're wondering about that `0` after the callback function, it is used 
 
 ## :rotating_light: Advanced Code Solution:
 
-(Using recursiveness)
+**Using recursiveness**
 
 ```javascript
 function findLongestWord(str) {
