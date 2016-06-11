@@ -233,6 +233,7 @@ Please note that all local groups are unofficial, independently organized groups
     - [Sherbrooke](https://www.facebook.com/groups/free.code.camp.sherbrooke/)
     - [Québec](https://www.facebook.com/groups/free.code.camp.quebec.city/)
 - Chile
+  - [Concepción](https://www.facebook.com/groups/free.code.camp.concepcion)
   - [Santiago](https://www.facebook.com/groups/free.code.camp.santiago/)
   - [Valdivia](https://www.facebook.com/groups/free.code.camp.valdivia/)
   - [Valparaiso](https://www.facebook.com/groups/free.code.camp.valparaiso/)
