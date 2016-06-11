@@ -46,19 +46,19 @@ function convertHTML(str) {
   for (var i = 0; i < temp.length; i++) {
     switch (temp[i]) {
       case '<':
-        temp[i] = '<';
+        temp[i] = '&lt;';
         break;
       case '&':
-        temp[i] = '&';
+        temp[i] = '&amp;';
         break;
       case '>':
-        temp[i] = '>';
+        temp[i] = '&gt;';
         break;
       case '"':
-        temp[i] = '"';
+        temp[i] = '&quot;';
         break;
       case "'":
-        temp[i] = "'";
+        temp[i] = "&apos;";
         break;
     }
   }
@@ -88,7 +88,7 @@ Explain solution here and add any relevant links
 ```javascript
 function convertHTML(str) {
 //Chaining of replace method with different arguments
-  str = str.replace(/&/g,'&').replace(/</g,'<').replace(/>/g,'>').replace(/"/g,'"').replace(/'/g,"'");
+  str = str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,"&apos;");
 return str;
 }
 
@@ -113,11 +113,11 @@ Explain solution here and add any relevant links
 function convertHTML(str) {
   // Use Object Lookup to declare as many HTML entities as needed.
   htmlEntities={
-    '&':'&',
-    '<':'<',
-    '>':'>',
-    '\"':'"',
-    '\'':"'"
+    '&':'&amp;',
+    '<':'&lt;',
+    '>':'&gt;',
+    '\"':'&quot;',
+    '\'':"&apos;"
   };
   //Use map function to return a filtered str with all entities changed automatically.
   return str.split('').map(function(entity){
