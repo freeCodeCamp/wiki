@@ -576,6 +576,8 @@ Please note that all local groups are unofficial, independently organized groups
     - [Tirupur](https://www.facebook.com/groups/free.code.camp.tirupur/)
   - Telengana
     - [Hyderabad](https://www.facebook.com/groups/free.code.camp.hyderabad/)
+  - Tripura
+    - [Agartala](https://www.facebook.com/groups/free.code.camp.agartala/)
   - Uttar Pradesh
     - [Aligarh](https://www.facebook.com/groups/1622011571406263/)
     - [Allahabad](https://www.facebook.com/groups/free.code.camp.allahabad/)
@@ -736,6 +738,7 @@ Please note that all local groups are unofficial, independently organized groups
   - [Hermosillo](https://www.facebook.com/groups/free.code.camp.Hermosillo/)
   - [La Paz](https://www.facebook.com/groups/free.code.camp.lapaz.mx/)
   - [León](https://www.facebook.com/groups/free.code.camp.leon.gt/)
+  - [Mérida](https://www.facebook.com/groups/free.code.camp.merida.mexico/)
   - [Mexico City](https://www.facebook.com/groups/free.code.camp.mexico.df/)
   - [Monterrey](https://www.facebook.com/groups/free.code.camp.monterrey/)
   - [Morelos](https://www.facebook.com/groups/free.code.camp.morelos.mx/)
@@ -786,6 +789,7 @@ Please note that all local groups are unofficial, independently organized groups
   - [Amsterdam](https://www.facebook.com/groups/free.code.camp.amsterdam/)
   - [Arnhem](https://www.facebook.com/groups/free.code.camp.arnhem/)
   - [Breda](https://www.facebook.com/groups/free.code.camp.breda/)
+  - [Eindhoven](https://www.facebook.com/groups/free.code.camp.lightcity/)
   - [Enschede](https://www.facebook.com/groups/free.code.camp.enschede)
   - [Gouda](https://www.facebook.com/groups/free.code.camp.gouda/)
   - [Groningen](https://www.facebook.com/groups/free.code.camp.groningen/)
@@ -878,6 +882,7 @@ Please note that all local groups are unofficial, independently organized groups
   - [Cebu](https://www.facebook.com/groups/free.code.camp.cebu/)
   - [Davao](https://www.facebook.com/groups/free.code.camp.davao/)
   - [Makati](https://www.facebook.com/groups/free.code.camp.makati/)
+  - [Malang](https://www.facebook.com/groups/free.code.camp.malang/)
   - [Manila](https://www.facebook.com/groups/free.code.camp.manila/)
   - [Mati](https://www.facebook.com/groups/free.code.camp.mati/)
   - [Quezon City](https://www.facebook.com/groups/free.code.camp.quezon.city/)
@@ -1024,6 +1029,7 @@ Please note that all local groups are unofficial, independently organized groups
   - [Suwon](https://www.facebook.com/groups/free.code.camp.suwon/)
 - Spain
   - [A Coruña](https://www.facebook.com/groups/free.code.camp.a.coruna/)
+  - [Albacete](https://www.facebook.com/groups/free.code.camp.albacete/)
   - [Alicante](https://www.facebook.com/groups/free.code.camp.alicante/)
   - [Almería](https://www.facebook.com/groups/free.code.camp.almeria/)
   - [Barcelona](https://www.facebook.com/groups/free.code.camp.barcelona/)
@@ -1069,6 +1075,7 @@ Please note that all local groups are unofficial, independently organized groups
   - [Stockholm](https://www.facebook.com/groups/free.code.camp.stockholm.sweden/)
   - [Sundsvall](https://www.facebook.com/groups/free.code.camp.sundsvall/)
 - Switzerland
+  - [Aarau](https://www.facebook.com/groups/free.code.camp.aarau/)
   - [Basel](https://www.facebook.com/groups/free.code.camp.basel/)
   - [Geneva](https://www.facebook.com/groups/free.code.camp.geneva/)
   - [Morges](https://www.facebook.com/groups/free.code.camp.morges/)
@@ -1143,6 +1150,7 @@ Please note that all local groups are unofficial, independently organized groups
     - [Birmingham](https://www.facebook.com/groups/free.code.camp.oxford.al/)
     - [Enterprise](https://www.facebook.com/groups/free.code.camp.enterprise.alabama/)
     - [Huntsville](https://www.facebook.com/groups/free.code.camp.huntsville.al/)
+    - [Mobile](https://www.facebook.com/groups/free.code.camp.mobile/)
     - [Montgomery](https://www.facebook.com/groups/free.code.camp.montgomery.alabama/)
   - Alaska
     - [Anchorage](https://www.facebook.com/groups/free.code.camp.anchorage/)
@@ -1162,6 +1170,7 @@ Please note that all local groups are unofficial, independently organized groups
     - [Queen Creek](https://www.facebook.com/groups/free.code.camp.queen.creek/)
   - Arkansas
     - [Fayetteville](https://www.facebook.com/groups/free.code.camp.fayetteville.arkansas/)
+    - [Forth Smith](https://www.facebook.com/groups/free.code.camp.fort.smith/)
     - [Little Rock](https://www.facebook.com/groups/free.code.camp.little.rock/)
   - California
     - [Alameda](https://www.facebook.com/groups/free.code.camp.berkeley/)
@@ -1193,6 +1202,7 @@ Please note that all local groups are unofficial, independently organized groups
     - [Los Gatos](https://www.facebook.com/groups/free.code.camp.Los.Gatos.CA/)
     - [Modesto](https://www.facebook.com/groups/free.code.camp.modesto/)
     - [Moraga](https://www.facebook.com/groups/free.code.camp.moraga.ca/)
+    - [Morgan Hill](https://www.facebook.com/groups/free.code.camp.morgan.hill/)
     - [Mountain View](https://www.facebook.com/groups/free.code.camp.mountain.view/)
     - [Napa](https://www.facebook.com/groups/free.code.camp.napa/)
     - [Nevada County](https://www.facebook.com/groups/free.code.camp.nevada.county/)
