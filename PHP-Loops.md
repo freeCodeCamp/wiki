@@ -1,6 +1,6 @@
 # PHP Loops
 
-Loops are blocks of code that execute a specified number of times. Using loops reduces the number of lines in a code.
+Loops are blocks of code that execute a specified number of times. Using loops reduces the number of lines of code.
 
 
 PHP works with 4 different types of loops:
@@ -44,7 +44,7 @@ Output:
 
 ## Do...while loop
 
-In `do...while` loop the block of code is executed before the condition is checked.
+In the `do...while` loop the block of code is executed before the condition is checked.
 
 
   ```php
