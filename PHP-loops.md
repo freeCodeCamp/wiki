@@ -11,9 +11,9 @@ PHP works with 4 different types of loops:
 * Foreach loop
 
 
-### While loop
+## While loop
 
- The ```while ``` loop continues to excecute as long as the specified condition is true.
+ The `while ` loop continues to excecute as long as the specified condition is true.
  
   ```php
 <?php
@@ -42,9 +42,9 @@ Output:
   
 ```
 
-### Do...while loop
+## Do...while loop
 
-In ```do...while``` loop the block of code is executed befoe the condition is checked.
+In `do...while` loop the block of code is executed before the condition is checked.
 
 
   ```php
@@ -71,9 +71,9 @@ Output:
  x=1 x=2 x=3 x=4
 ```
 
-### For loop
+## For loop
 
-The ```for``` loop is used when the number of times the block is to be executed is known in advance.
+The `for` loop is used when the number of times the block is to be executed is known in advance.
 
 
   ```php
@@ -100,9 +100,9 @@ Output:
  x=1 x=2 x=3 x=4
 ```
 
-### Foreach loop
+## Foreach loop
 
-The ```foreach``` loop helps in traversing through arrays. 
+The `foreach` loop helps in traversing through arrays. 
 
 
   ```php
