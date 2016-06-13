@@ -36,7 +36,7 @@ Then we need to add a `filter()` with the falsy values function...
 
 **Solution ahead!**
 
-## :beginner: Beginner Solution Code:
+## :rotating_light: Advanced Code Solution:
 
 ```javascript
 function bouncer(arr) {
@@ -53,49 +53,7 @@ The `Array.prototype.filter` method expects a function that returns a `Boolean` 
 #### Relevant Links
 
 - [Boolean](JS-Boolean)
-
-## :sunflower: Intermediate Code Solution:
-
-```javascript
-function bouncer(arr) {
-  function isTruthy(arg) {
-    return Boolean(arg);
-  }
-
-  var filteredArray = arr.filter(isTruthy);
-  return filteredArray;
-}
-```
-
-:rocket: [Run Code](https://repl.it/CLjU/33)
-
-### Code Explanation:
-
-The second solution replaces the array in-place, and passes a function within the filter method which checks whether the element is Truthy or Not.
-
-#### Relevant Links
-
 - [Truthy](JS-Truthy)
-
-## :rotating_light: Advanced Code Solution:
-
-```javascript
-function bouncer(arr) {
-    arr = arr.filter(function(element){
-        return Boolean(element);
-    });
-  return arr;
-}
-```
-
-:rocket: [Run Code](https://repl.it/CLjU/34)
-
-### Code Explanation:
-
-The solution utilises an anonymous function as the callback for the `filter` method. This avoids polluting the global scope with a single-use function, and makes our code more concise.
-
-## Relevant Links
-
 - [Array.prototype.filter()](JS-Array-Prototype-Filter)
 
 ## :trophy: Credits:
