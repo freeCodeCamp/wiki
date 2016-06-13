@@ -2,7 +2,9 @@
 
 ![](https://i.imgur.com/RdrnNvA.png)
 
-### Explanation
+:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
+
+### :checkered_flag: Problem Explanation:
 
 Our goal for this Algorithm is to split `arr` (first argument) into smaller chunks of arrays with the length provided by `size` (second argument). There are 4 green checks (objectives) our code needs to pass in order to complete this Algorithm:
 
@@ -11,71 +13,32 @@ Our goal for this Algorithm is to split `arr` (first argument) into smaller chun
 3. `([0, 1, 2, 3, 4, 5], 2)` is expected to be `[[0, 1], [2, 3], [4, 5]]`
 4. `([0, 1, 2, 3, 4, 5], 4)` is expected to be `[[0, 1, 2, 3], [4, 5]]`
 
-Click **More information** under the Algorithm title and read the helpful links if you haven't yet.
+#### Relevant Links
 
-## How to approach the Algorithm
+- [Array.push()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
+- [Array.slice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)
 
-The helpful links suggest to use `Array.push()` so let's start by first creating a new array to store the smaller arrays we will soon have like this:
+## :speech_balloon: Hint: 1
+
+The links above suggest to use `Array.push()`, so let's start by first creating a new array to store the smaller arrays we will soon have like this:
 
 ```javascript
 var newArray = [];
 ```
 
-Next we'll need a `for loop` to loop through `arr` then finally we need a method to do the actual splitting and we can use `Array.slice()` to do that. The key to this Algorithm is understanding how a `for loop`, `size`, `Array.slice()` and `Array.push()` all work together.
+> _try to solve the problem now_
 
-## How does a for loop and Array.slice() work
+## :speech_balloon: Hint: 2
 
-**For Loop**
+Next we'll need a `for loop` to loop through `arr`.
 
-A `for loop` keeps looping until a condition evaluates to false for example if we had:
+> _try to solve the problem now_
 
-```javascript
-for (var i = 0; i < arr.length; i++)
-```
+## :speech_balloon: Hint: 3
 
-`i` starts with a value of 0, `i` loops until `i` is no longer less than the length of `arr` and during each repeat loop, the value of `i` increases by 1 (one). If `arr.length` happens to be 4 then the `for loop` stops right before `i` reaches 4\.
+Finally, we need a method to do the actual splitting and we can use `Array.slice()` to do that. The key to this Algorithm is understanding how a `for loop`, `size`, `Array.slice()` and `Array.push()` all work together.
 
-**Array.slice() Method**
-
-`Array.slice()` method extracts a portion of an array and returns a copy into a new array. We can declare which element to start and which element to stop. For example, if `arr` is `['a', 'b', 'c', 'd']` and we used `arr.slice(1, 3);`, the `Array.slice()` method starts at element 1 and stops at element 3 then returns:
-
-```javascript
-["b","c"]
-```
-
-_Notice how it captures the start element but doesn't capture the stop element._
-
-## Using a for loop and Array.slice() together
-
-If we use the following `for loop` while `size` is 2 (note: `size` = 2):
-
-```javascript
-(var i = 0; i < arr.length; i += size)
-```
-
-The loop starts at element 0, loops once then `i += 2` which is another way of stating `i = i + 2` so now the new value of `i` becomes 2\. What happens if we combine the following `arr.slice()` with the `for loop`?
-
-```javascript
-arr.slice(i, i + size)
-```
-
-## Push the arrays out
-
-We can combine the `Array.slice()` method with the `Array.push()` method inside the `for loop` like this:
-
-```javascript
-for (var i = 0; i < arr.length; i += size) {
-newArray.push(arr.slice(i, i + size));
-}
-```
-
-`arr.slice()` will start at element 0 and stop at element 2\. Here's the fun part: once the `for loop`, loops again then the value of `i` becomes 2 while the `i` in the `arr.slice()` will also have a value of 2\. The new `arr.slice()` becomes:
-
-```javascript
-arr.slice(2, 2 + 2)
-```
-
-Now `arr.slice()` starts at the element 2 and stops at element 4 and in the next loop, `arr.slice()` will start at element 4 and stop at element 6\. `newArray.push()` will push all the elements out into chunks of smaller arrays with the length of `size`.
+> _try to solve the problem now_
 
 ## Spoiler Alert!
 
@@ -83,9 +46,7 @@ Now `arr.slice()` starts at the element 2 and stops at element 4 and in the next
 
 **Solution ahead!**
 
-## Code Solution:
-
-### Solution 1:
+## :beginner: Basic Code Solution:
 
 ```javascript
 function chunkArrayInGroups(arr, size) {
@@ -111,7 +72,21 @@ function chunkArrayInGroups(arr, size) {
 
 :rocket: [Run Code](https://repl.it/CLjU/24)
 
-### Solution 2:
+### Code Explanation:
+
+- Firstly, we create two empty arrays called `temp` and `result`, which we will eventually return.
+- Our **for loop** loops until `a` is equal to or more than the length of the array in our test.
+- Inside our loop, we push to `temp` using `temp.push(arr[a]);` if the remainder of `a / size` is not equal to `size - 1`.
+- Otherwise, we push to `temp`, push `temp` to the `result` variable and reset `temp` to an empty array.
+- Next, if `temp` isn't an empty array, we push it to `result`.
+- Finally, we return the value of `result`.
+
+#### Relevant Links
+
+- [Array.push()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
+- [For Loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
+
+## :sunflower: Intermediate Code Solution:
 
 ```javascript
 function chunkArrayInGroups(arr, size) {
@@ -129,7 +104,21 @@ function chunkArrayInGroups(arr, size) {
 
 :rocket: [Run Code](https://repl.it/CLjU/25)
 
-### Solution 3:
+### Code Explanation:
+
+- Firstly, we slice `arr` using `arr.slice()` and create an empty array called `arr2`.
+- Our for loop loops until `i` is equal to or more than the length of the array in our test. We also add `size` onto `i` each time we loop.
+- Inside our loop, we push to `arr2` using `arr.slice(0, size)`.
+- After pushing to `arr2`, we let `arr` equal to `arr.slice(size)`.
+- Finally, we return the value of `arr2`.
+
+#### Relevant Links
+
+- [Array.push()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
+- [Array.slice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)
+- [For Loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
+
+## :rotating_light: Advanced Code Solution:
 
 ```javascript
 function chunkArrayInGroups(arr, size) {
@@ -148,24 +137,34 @@ chunkArrayInGroups(["a", "b", "c", "d"], 2);
 
 :rocket: [Run Code](https://repl.it/CLjU/26)
 
-### Solution 4:
+### Code Explanation:
 
+- Firstly, we create two variables. `newArr` is an empty array which we will push to. We also have the `i` variable set to zero, for use in our while loop.
+- Our while loop loops until `i` is equal to or more than the length of the array in our test.
+- Inside our loop, we push to the `newArr` array using `arr.slice(i, i+size)`. For the first time it loops, it will look something like:
 ```javascript
-// splice & slice, avoiding size counting
-function chunkArrayInGroups(arr, size) {
-  var ar = arr.slice();
-  var res = [];
-  do {
-    res.push(ar.splice(0, size));
-  } while (ar.length > 0);
-  return res;
-}
+newArr.push(arr.slice(1, 1+2))
 ```
+- After we push to `newArr`, we add the variable of `size` onto `i`.
+- Finally, we return the value of `newArr`.
 
-:rocket: [Run Code](https://repl.it/CLjU/27)
+#### Relevant Links
 
-## Credits:
+- [Array.push()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
+- [Array.slice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)
+- [While Loops](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/while)
 
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @kirah1314 @Rafase282 @jsommamtek @oshliaer for your help with Algorithm: Chunky Monkey`**
+### :trophy: Credits:
 
-> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:
+
+**`Thanks @kirah1314 @Rafase282 @jsommamtek @oshliaer for your help with Algorithm: Chunky Monkey`**
+
+## :clipboard: NOTES FOR CONTRIBUTIONS:
+
+- :warning: **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
+- Add an explanation of your solution.
+- Categorize the solution in one of the following categories &mdash; **Basic**, **Intermediate** and **Advanced**. :traffic_light:
+- Please add your username only if you have added any **relevant main contents**. (:warning: **_DO NOT_** _remove any existing usernames_)
+
+> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution) for reference.
