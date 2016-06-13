@@ -48,6 +48,8 @@ Add hint 3 here.
 // write solution code here
 ```
 
+:rocket: [Run Code](https://repl.it/URL-HERE)
+
 ### Code Explanation:
 
 Explain solution here and add any relevant links
@@ -64,6 +66,8 @@ Explain solution here and add any relevant links
 // write solution code here
 ```
 
+:rocket: [Run Code](https://repl.it/URL-HERE)
+
 ### Code Explanation:
 
 Explain solution here and add any relevant links
@@ -79,6 +83,9 @@ Explain solution here and add any relevant links
 ```javascript
 // write solution code here
 ```
+
+:rocket: [Run Code](https://repl.it/URL-HERE)
+
 
 ### Code Explanation:
 
