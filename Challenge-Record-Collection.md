@@ -1,6 +1,8 @@
 # Challenge Record Collection
 
-**_Instructions_**
+:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
+
+### :checkered_flag: Problem Explanation:
 
 You are given a JSON object representing (a small part of) your record collection. Each album is identified by a unique id number and has several properties. Not all albums have complete information.
 
@@ -16,17 +18,6 @@ If **value** is blank, delete that **prop**.
 
 Always return the entire collection object.
 
-Remember to use [Read-Search-Ask](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program. Write your own code.
-
-## Useful Links
-
-- [Challenge: Accessing Objects Properties with Bracket Notation](http://www.freecodecamp.com/challenges/accessing-objects-properties-with-bracket-notation)
-- [Challenge: Add New Properties to a JavaScript Object](http://www.freecodecamp.com/challenges/add-new-properties-to-a-javascript-object)
-- [Challenge: Delete Properties from a JavaScript Object](http://www.freecodecamp.com/challenges/delete-properties-from-a-javascript-object)
-- [Challenge: Accessing Nested Objects in JSON](http://www.freecodecamp.com/challenges/accessing-nested-objects-in-json)
-
-## Problem Explanation:
-
 - Change the code below `// Only change code below this line` and up to `// Alter values below to test your code`
 - Take note that you are editing the inside of the `updateRecords` function
 - For the given `id` parameter, which is associated to the `collection` object:
@@ -37,17 +28,32 @@ Remember to use [Read-Search-Ask](FreeCodeCamp-Get-Help) if you get stuck. Try t
 
 - Finally, return the `collection` object
 
-## Hint: 1
+
+
+#### Relevant Links
+
+- [Challenge: Accessing Objects Properties with Bracket Notation](http://www.freecodecamp.com/challenges/accessing-objects-properties-with-bracket-notation)
+- [Challenge: Add New Properties to a JavaScript Object](http://www.freecodecamp.com/challenges/add-new-properties-to-a-javascript-object)
+- [Challenge: Delete Properties from a JavaScript Object](http://www.freecodecamp.com/challenges/delete-properties-from-a-javascript-object)
+- [Challenge: Accessing Nested Objects in JSON](http://www.freecodecamp.com/challenges/accessing-nested-objects-in-json)
+
+## :speech_balloon: Hint: 1
 
 - Use an `else if` statement to check the needed steps.
 
-## Hint: 2
+> _try to solve the problem now_
+
+## :speech_balloon: Hint: 2
 
 - The second step listed in the instructions should be first in your `else if` statement.
 
-## Hint: 3
+> _try to solve the problem now_
+
+## :speech_balloon: Hint: 3
 
 - To access the value of a key in this object, you will use `collection[id][prop]`
+
+> _try to solve the problem now_
 
 ## Spoiler Alert!
 
@@ -55,7 +61,7 @@ Remember to use [Read-Search-Ask](FreeCodeCamp-Get-Help) if you get stuck. Try t
 
 **Solution ahead!**
 
-## Code Solution:
+## :beginner: Basic Code Solution:
 
 ```
 function updateRecords(id, prop, value) {
@@ -75,22 +81,32 @@ function updateRecords(id, prop, value) {
   return collection;
 }
 ```
+:rocket: [Run Code](https://repl.it/C2AZ/0)
 
-## Code Explanation:
+### Code Explanation:
 
 - First checks if `prop` is equal to `tracks` AND if `value` isn't a blank string. If both tests pass, `value` is pushed into the `tracks` array.
 - If that first check doesn't pass, it next checks only if `value` isn't a blank string. If that test passes, either a new key (`prop`) and value (`value`) are added to the object, or an existing key is updated if the `prop` already exists.
 - If both these checks fail (meaning `value` must be an empty string), then the key (`prop`) is removed from the object.
 
-**_Example Run_**
+### _Example Run_
 
 - `updateRecords(5439, "artist", "ABBA");` runs
 - `prop` is equal to "artist", not "tracks", so the first part of the `else if` statement fails
 - `value` is not a blank string, so the second part of the else if statement passes
 - `artist: "ABBA"` is added to the `5439` `id`
 
-### Credits:
+### :trophy: Credits:
 
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @leftynaut for your help with Checkpoint: Record Collection`**
+If you found this page useful, you may say thanks to the contributors by copying and pasting the following line in the main chat:
 
-> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
+**`Thanks @leftynaut @DarrenJansen for your help with Checkpoint: Record Collection`**
+
+## :clipboard: NOTES FOR CONTRIBUTIONS:
+
+- :warning: **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
+- Add an explanation of your solution.
+- Categorize the solution in one of the following categories &mdash; **Basic**, **Intermediate** and **Advanced**. :traffic_light:
+- Please add your username only if you have added any **relevant main contents**. (:warning: **_DO NOT_** _remove any existing usernames_)
+
+> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution) for reference.
