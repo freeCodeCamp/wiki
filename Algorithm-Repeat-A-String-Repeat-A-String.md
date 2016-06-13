@@ -1,20 +1,32 @@
 # Algorithm Repeat a String
 
-### Explanation:
+:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
+
+### :checkered_flag: Problem Explanation:
 
 The program is very simple, we have to take a variable and return that variable being repeated certain amount of times. No need to add space or anything, just keep repeating it into one single string.
 
-## Hint: 1
+#### Relevant Links
+
+- [Global String Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
+
+## :speech_balloon: Hint: 1
 
 You can't edit strings, you will need to create a variable to store the new string.
 
-## Hint: 2
+> _try to solve the problem now_
+
+## :speech_balloon: Hint: 2
 
 Create a loop to repeat the code as many times as needed.
 
-## Hint: 3
+> _try to solve the problem now_
+
+## :speech_balloon: Hint: 3
 
 Make the variable created store the current value and append the word to it.
+
+> _try to solve the problem now_
 
 ## Spoiler Alert!
 
@@ -22,9 +34,7 @@ Make the variable created store the current value and append the word to it.
 
 **Solution ahead!**
 
-## Code Solution:
-
-### First Solution
+## :beginner: Basic Code Solution:
 
 ```javascript
 function repeatStringNumTimes(str, num) {
@@ -41,25 +51,18 @@ function repeatStringNumTimes(str, num) {
 
 :rocket: [Run Code](https://repl.it/CLjU/19)
 
-### Second Solution
+### Code Explanation:
+- Create an empty string variable to store the repeated word.
+- Use a while loop or for loop to repeat code as many times as needed according to `num`
+- Then we just have to add the string to the variable created on step one, and increase or decrease `num` depending on how you set the loop.
+- At the end of the loop, return the variable for the repeated word.
 
-```javascript
-function repeatStringNumTimes(str, num) {
-  var newstr = [];
-  for (var i = 0; i < num; i++) {
-    newstr.push(str);
-  }
-  return newstr.join('');
-}
+#### Relevant Links
 
-repeatStringNumTimes("abc", 3);
-```
+- [JS while Loop](JS-while-Loop)
+- [JS For Loops Explained](JS-For-Loops-Explained)
 
-:rocket: [Run Code](https://repl.it/CLjU/20)
-
-### Third Solution
-
-(using Recursion)
+## :sunflower: Intermediate Code Solution:
 
 ```javascript
 function repeatStringNumTimes(str, num) {
@@ -74,9 +77,17 @@ function repeatStringNumTimes(str, num) {
 
 :rocket: [Run Code](https://repl.it/CLjU/21)
 
-### Fourth Solution
+### Code Explanation:
+- This solution uses recursion.
+- We check if `num` is negative and return an empty string if true.
+- Then we check if it's equal to 1 and in that case we return the string itself.
+- If not, we add the string to a call of our function with `num` being decreased by 1, which will add another `str` and another.. until eventually `num` is 1. And return that whole process.
 
-(Declarative approach)
+#### Relevant Links
+
+- [Functions - Recursion](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#Recursion)
+
+## :rotating_light: Advanced Code Solution:
 
 ```javascript
 function repeatStringNumTimes(str, num) {
@@ -88,35 +99,25 @@ repeatStringNumTimes("abc", 3);
 
 :rocket: [Run Code](https://repl.it/CLjU/22)
 
-## Code Explanation:
+### Code Explanation:
+- This solution takes a declarative approach.
+- It is similar to the third solution, except it uses the ternary operator form of the `if` statement.
 
-## First and Second solutions
+#### Relevant Links
 
-- Create a variable to store the repeated word.
-- Use a while loop or for loop to repeat code as many times as needed according to `num`
-- Then we just have to add the string to the variable created on step one. and increase or decrease num depending on how you set the loop.
-- At the end of the loop, return the variable for the repeated word.
+- [JS Ternary](JS-Ternary)
 
-## Third solution
+### :trophy: Credits:
 
-(using recursiveness)
+If you found this page useful, you may say thanks to the contributors by copying and pasting the following line in the main chat:
 
-- We check if `num` is a negative and return an empty string if true.
-- Then we check if it's equal to 1 and in that case we return the string itself.
-- If not, we add the string to a call of our function with `num` being decreased by 1, which will add another `str` and another until eventually `num` is 1\. And return that whole process.
+**`Thanks @Rafase282 @shadowfool @Hallaathrad @sgalizia for your help with Algorithm: Repeat a String Repeat a String`**
 
-## Fourth solution
+## :clipboard: NOTES FOR CONTRIBUTIONS:
 
-(Declarative approach)
+- :warning: **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
+- Add an explanation of your solution.
+- Categorize the solution in one of the following categories &mdash; **Basic**, **Intermediate** and **Advanced**. :traffic_light:
+- Please add your username only if you have added any **relevant main contents**. (:warning: **_DO NOT_** _remove any existing usernames_)
 
-- This solution is somewhat similar to the third solution, except it uses the ternary operator form of the `if` statement.
-- The conditional's first statement (in this case our checking whether `num` is a negative number) is followed by `?`.
-- The next statement is what to execute, or in our case return, when the condition evaluates to true.
-- The final statement is what to execute, or again in our case return, if the initial statement evaluates to false.
-- In between the two statements for true and false, you use a colon `:` to indicate the separation.
-
-## Credits:
-
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 @shadowfool @Hallaathrad @sgalizia for your help with Algorithm: Repeat a String Repeat a String`**
-
-> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
+> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution) for reference.
