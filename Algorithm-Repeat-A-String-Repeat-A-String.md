@@ -59,8 +59,8 @@ function repeatStringNumTimes(str, num) {
 
 #### Relevant Links
 
-- [JS while Loop](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/JS-while-Loop)
-- [JS For Loops Explained](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/JS-For-Loops-Explained)
+- [JS while Loop](JS-while-Loop)
+- [JS For Loops Explained](JS-For-Loops-Explained)
 
 ## :sunflower: Intermediate Code Solution:
 
@@ -105,7 +105,7 @@ repeatStringNumTimes("abc", 3);
 
 #### Relevant Links
 
-- [JS Ternary](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/JS-Ternary)
+- [JS Ternary](JS-Ternary)
 
 ### :trophy: Credits:
 
