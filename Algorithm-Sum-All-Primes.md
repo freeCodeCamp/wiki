@@ -1,20 +1,32 @@
 # Algorithm Sum All Primes
 
-### Explanation:
+:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
+
+### :checkered_flag: Problem Explanation:
 
 The explanation for this problem is very simple. You will generate a list of prime numbers up to the number you are given as a parameter. Then you need to add them all up and return that value. The tricky part is on generating the list of prime numbers. I suggest you find a code or a good math algorithm that you can turn into code.
 
-## Hint: 1
+#### Relevant Links
+
+- [Prime Numbers](https://en.wikipedia.org/wiki/Prime_number)
+
+## :speech_balloon: Hint: 1
 
 Generate a list of all the numbers up to and including the one you got as a parameter. This will be needed to determine which numbers are prime or not.
 
-## Hint: 2
+> _try to solve the problem now_
+
+## :speech_balloon: Hint: 2
 
 Check this [link](http://stackoverflow.com/questions/11966520/how-to-find-prime-numbers-between-0-100) if you prefer to find a solution for finding primes, or try learning and implementing your own [Sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes)
 
-## Hint: 3
+> _try to solve the problem now_
+
+## :speech_balloon: Hint: 3
 
 This problem is hard if you have to create your own code to check for primes, so don't feel bad if you had to use someone's code for that bit. Either way, you are most likely using array, so once you generate an array of primes, then just add them all up and return the number you get.
+
+> _try to solve the problem now_
 
 ## Spoiler Alert!
 
@@ -22,13 +34,13 @@ This problem is hard if you have to create your own code to check for primes, so
 
 **Solution ahead!**
 
-## Code Solution:
+## :beginner: Basic Code Solution:
 
 ```javascript
 function sumPrimes(num) {
   var res = 0;
 
-  // FUnction to get the primes up to max in an array
+  // Function to get the primes up to max in an array
   function getPrimes(max) {
     var sieve = [];
     var i;
@@ -62,7 +74,7 @@ sumPrimes(10);
 
 :rocket: [Run Code](https://repl.it/CLnZ/0)
 
-## Code Explanation:
+### Code Explanation:
 
 - Create a function that generates the numbers from 1 to **num** and check if they are prime along the way.
 - Declare the variables that will be needed.
@@ -71,7 +83,11 @@ sumPrimes(10);
 - Return the primes
 - Loop through the returned array and add all the elements to then return the final value.
 
-## Recursive Solution:
+#### Relevant Links
+
+- [JS For Loops Explained](JS-For-Loops-Explained)
+
+## :sunflower: Intermediate Code Solution:
 
 ```javascript
 function sumPrimes(num) {
@@ -79,14 +95,14 @@ function sumPrimes(num) {
   function isPrime(number){
       for (i = 2; i <= number; i++){
           if(number % i === 0 && number!= i){
-          // return true if it is divisable by any number that is not itself. 
+          // return true if it is divisible by any number that is not itself.
              return false;
           }
        }
        // if it passes the for loops conditions it is a prime
       return true;
   }
-  // 1 is not a prime, so return nothing, also stops the recusrive calls.
+  // 1 is not a prime, so return nothing, also stops the recursive calls.
   if (num === 1){
     return 0;
   }
@@ -108,8 +124,28 @@ sumPrimes(10);
 
 :rocket: [Run Code](https://repl.it/CLn0/0)
 
-## Credits:
+### Code Explanation:
 
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`thanks @Rafase282 @shadowfool for your help with Algorithm: Sum All Primes`**
+- The function `isPrime` checks if a particular number is prime or not.
+- If `num` is 1, return 0 since 1 is not a prime number.
+- If **num** is not prime, check next number down from maximum number.
+- If **num** is prime, add it to next number in the sequence through recursion to `sumPrimes` function.
 
-> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
+#### Relevant Links
+
+- [Functions - Recursion](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#Recursion)
+
+### :trophy: Credits:
+
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:
+
+**`Thanks @Rafase282 @shadowfool for your help with Algorithm: Sum All Primes`**
+
+## :clipboard: NOTES FOR CONTRIBUTIONS:
+
+- :warning: **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
+- Add an explanation of your solution.
+- Categorize the solution in one of the following categories &mdash; **Basic**, **Intermediate** and **Advanced**. :traffic_light:
+- Please add your username only if you have added any **relevant main contents**. (:warning: **_DO NOT_** _remove any existing usernames_)
+
+> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution) for reference.
