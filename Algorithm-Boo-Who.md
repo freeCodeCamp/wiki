@@ -62,7 +62,7 @@ Uses the operator `typeof` to check if the variable is a boolean. If it is, it w
 
 If you found this page useful, you can give thanks by copying and pasting this on the main chat:
 
-**`thanks @Rafase282 for your help with Algorithm: Boo-who`**
+**`Thanks @Rafase282 for your help with Algorithm: Boo-who`**
 
 ## :clipboard: NOTES FOR CONTRIBUTIONS:
 

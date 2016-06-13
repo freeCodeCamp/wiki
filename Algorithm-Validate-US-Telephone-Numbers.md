@@ -68,6 +68,6 @@ telephoneCheck("555-555-5555");
 
 ## Credits:
 
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`thanks @Rafase282 @guyjoseph @dting @jhalls @crisvdkooij for your help with Algorithm: Validate US Telephone Numbers`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 @guyjoseph @dting @jhalls @crisvdkooij for your help with Algorithm: Validate US Telephone Numbers`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

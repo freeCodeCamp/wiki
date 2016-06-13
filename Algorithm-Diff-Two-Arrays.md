@@ -131,7 +131,7 @@ Explain solution here and add any relevant links
 
 If you found this page useful, you may say thanks to the contributors by copying and pasting the following line in the main chat:
 
-**`thanks @Rafase282 @aganita @abhisekp for your help with Challenge: Diff Two Arrays`**
+**`Thanks @Rafase282 @aganita @abhisekp for your help with Challenge: Diff Two Arrays`**
 
 ## :clipboard: NOTES FOR CONTRIBUTIONS:
 

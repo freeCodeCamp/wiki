@@ -121,7 +121,7 @@ First, the CID array is transformed into a drawer object. Then we handle the con
 
 If you found this page useful, you can give thanks by copying and pasting this on the main chat: 
 
-**`thanks @Rafase282 @SaintPeter @erictleung for your help with Algorithm: Exact Change`**
+**`Thanks @Rafase282 @SaintPeter @erictleung for your help with Algorithm: Exact Change`**
 
 ## :clipboard: NOTES FOR CONTRIBUTIONS:
 

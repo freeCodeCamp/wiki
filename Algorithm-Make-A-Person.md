@@ -95,7 +95,7 @@ bob.getFullName();
 
 If you found this page useful, you may say thanks to the contributors by copying and pasting the following line in the main chat:
 
-**`thanks @Rafase282 @ltegman for your help with Algorithm: Make a Person`**
+**`Thanks @Rafase282 @ltegman for your help with Algorithm: Make a Person`**
 
 ## :clipboard: NOTES FOR CONTRIBUTIONS:
 

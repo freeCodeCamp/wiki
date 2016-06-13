@@ -143,7 +143,7 @@ function rot13(str) { // LBH QVQ VG!
 
 If you found this page useful, you may say thanks to the contributors by copying and pasting the following line in the main chat:
 
-**`thanks @anuragaryan @SaintPeter @vaskezu @abhisekp for your help with Algorithm: Caesar's Cipher`**
+**`Thanks @anuragaryan @SaintPeter @vaskezu @abhisekp for your help with Algorithm: Caesar's Cipher`**
 
 ## :clipboard: NOTE TO CONTRIBUTORS:
 

@@ -151,6 +151,6 @@ Then we'll grab our string, remove the letters up until that index, concatenate 
 
 ## Credits:
 
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`thanks @Rafase282 @sabahang @aganita @Hallaathrad for your help with Algorithm: Pig Latin`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 @sabahang @aganita @Hallaathrad for your help with Algorithm: Pig Latin`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
