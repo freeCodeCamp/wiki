@@ -106,9 +106,9 @@ checkCashRegister(19.50, 20.00, [["PENNY", 1.01], ["NICKEL", 2.05], ["DIME", 3.1
 
 :rocket: [Run Code](https://repl.it/CLoj/0)
 
-## Code Explanation:
+### Code Explanation:
 
-- Read comments in code.
+First, the CID array is transformed into a drawer object. Then we handle the conditions of exact change and insufficient funds. Then we loop through the denomination array and update the change and values while there is still money of this type in the drawer and while the denomination is larger than the change reminaing. Then we add this denomination to the output only if any was used. Finally, if there are no elements in `change_arr` or we have leftover change, return the string "Insufficient Funds".
 
 #### Relevant Links
 
