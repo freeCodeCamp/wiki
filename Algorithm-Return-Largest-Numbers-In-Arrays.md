@@ -64,6 +64,10 @@ function largestOfFour(arr) {
 - After the inner loop, save the largest number in the corresponding position inside of the `results` array.
 - And finally return said array.
 
+#### Relevant Links
+
+- [For loops](JS-For-Loops-Explained)
+
 ## :sunflower: Intermediate Code Solution:
 
 **(Declarative approach)**
@@ -87,10 +91,11 @@ function largestOfFour(arr) {
 - the callback function passed to the reduce method takes the previous value (or 0) and the current value and compares the two values
 - if the current value is higher than the previous value we set it as the new previous value for comparison with the next item within the array or returns it to the map method callback if it's the last item
 
-**Reference:-**
+#### Relevant Links
 
 - [Array.prototype.map()](JS-Array-Prototype-Map)
 - [Array.prototype.reduce()](JS-Array-Prototype-Reduce)
+- [Ternary Operators](JS-Ternary)
 
 ## :rotating_light: Advanced Code Solution:
 
@@ -134,22 +139,23 @@ Here we're passing `null` as the _context_ of the `Function.prototype.apply` met
   - Since, `Math.max` is independent of any _context_, hence, it ignores the bogus _context_ given by `Function.prototype.apply` method call.
   - Thus, our `Function.prototype.apply.bind(Math.max, null)` makes a new function accepting the `arr.map` values i.e. the inner arrays.
 
-**Reference:-**
+#### Relevant Links
 
 - [Math.max](JS-Math-Max)
-- [Array.prototype.map()](JS-Array-Prototype-Map)
 - [Function.prototype.apply on DevDocs](http://devdocs.io/#q=js+Function+apply)
 - [Function.bind on DevDocs](http://devdocs.io/#q=js+Function+bind)
 
 ### :trophy: Credits:
 
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 @abhisekp @Hallaathrad @cloudb for your help with Algorithm: Return Largest Numbers in Arrays`**
+If you found this page useful, you may say thanks to the contributors by copying and pasting the following line in the main chat:
 
-## :clipboard: NOTE TO CONTRIBUTORS:
+**`Thanks @Rafase282 @abhisekp @Hallaathrad @cloudb for your help with Algorithm: Return Largest Numbers in Arrays`**
+
+## :clipboard: NOTES FOR CONTRIBUTIONS:
 
 - :warning: **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
 - Add an explanation of your solution.
-- Categorize the solution in one of the following categories -- **Basic**, **Intermediate** and **Advanced**. :traffic_light:
+- Categorize the solution in one of the following categories &mdash; **Basic**, **Intermediate** and **Advanced**. :traffic_light:
 - Please add your username only if you have added any **relevant main contents**. (:warning: **_DO NOT_** _remove any existing usernames_)
 
 > See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution) for reference.
