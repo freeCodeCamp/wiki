@@ -164,6 +164,6 @@ addTogether(2,3);
 
 # Créditos:
 
-Si encuentras útil este artículo puedes dar las gracias copiando y pegando este mensaje en el chat principal: **`thanks @Rafase282 @coded9 for your help with Algorithm: Arguments Optional`**
+Si encuentras útil este artículo puedes dar las gracias copiando y pegando este mensaje en el chat principal: **`Thanks @Rafase282 @coded9 for your help with Algorithm: Arguments Optional`**
 
 > **NOTA:** Por favor añade tu nombre de usuario solamente si has añadido **contenido relevante** al artículo. (Por favor no remuevas ningún nombre existente.)

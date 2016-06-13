@@ -70,6 +70,6 @@ wordBlanks("dog", "big", "ran", "quickly");
 
 ### Credits:
 
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`thanks @Rafase282 for your help with Checkpoint: Word Blanks`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 for your help with Checkpoint: Word Blanks`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

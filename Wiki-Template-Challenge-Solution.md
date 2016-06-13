@@ -101,7 +101,7 @@ Explain solution here and add any relevant links
 
 If you found this page useful, you may say thanks to the contributors by copying and pasting the following line in the main chat:
 
-**`thanks @username for your help with Challenge: name of the challenge`**
+**`Thanks @username for your help with Challenge: name of the challenge`**
 
 ## :clipboard: NOTES FOR CONTRIBUTIONS:
 

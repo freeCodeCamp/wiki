@@ -51,6 +51,6 @@ var myList = [["Canned Beans", 3],["Milk Galon", 1],["Cereal", 2],["Toilet Paper
 
 ### Credits:
 
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`thanks @Rafase282 for your help with Checkpoint: Shopping List`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 for your help with Checkpoint: Shopping List`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
