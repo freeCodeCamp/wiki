@@ -24,9 +24,28 @@ Install the 4 downloaded prerequsites. When installing Python and Node it is imp
   npm install babel -g`
   ```
 
-5. If you want to spare the time in explorer finding Mongo when it has to be started create a `.cmd` file on your desktop and write the path to Mongo. Probably `%programfiles%\MongoDB\Server\3.0\bin\mongod.exe`.
+5. Private Environment Variables (API Keys)
 
-6. Create the default folder for mongo to store databases: `C:\data\db`
+    ```bash
+    Create a copy of the "sample.env" and name it as ".env".
+    Populate it with the necessary API keys and secrets.
+    ```
+
+    Edit your .env file and modify the API keys only for services that you will use.
+    Note : Not all keys are required, to run the app locally, however MONGOHQ_URL is the most important one.
+
+    If you only use email login, in addition to MONGOHQ_URL, SESSION_SECRET, add the MANDRILL_USER and
+    MANDRILL_PASSWORD API Keys. Not setting these keys will throw an exception when you sign up which you can
+    ignore, you will still be able to login, however you may get these keys [here](https://www.mandrill.com/signup/). Sign up and create a new pair
+    of keys.
+
+    You can leave the other keys as they are. Keep in mind if you want to use more services you'll have to get 
+    your own API keys for those services and edit those entries accordingly in the .env file.
+
+
+6.  If you want to spare the time in explorer finding Mongo when it has to be started create a `.cmd` file on your desktop and write the path to Mongo. Probably `%programfiles%\MongoDB\Server\3.0\bin\mongod.exe`.
+
+7. Create the default folder for mongo to store databases: `C:\data\db`
 
 **Every command from now on has to be executed from Git Bash. npm install and bower install is downloading components from Git repos and MUST have access to the Git commands**
 
