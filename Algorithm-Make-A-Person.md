@@ -1,6 +1,8 @@
 # Algorithm Make a Person
 
-### Explanation:
+:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
+
+### :checkered_flag: Problem Explanation:
 
 When I started the program I figured I just had to create the six functions mentioned in the details. However, it was not that simple. Creating them as a function was not the right way, I had to create them in a different way to make them a key.
 
@@ -10,17 +12,28 @@ As for the usage of array, that is optional, you could also create new variable 
 
 Read the instructions carefully, it is always a good hint in itself to run the code and check what the test results were so you know what to expect but do not fixate yourself on that. Once you understand what you need to do, this problem is very easy and straightforward.
 
-## Hint: 1
+#### Relevant Links
+
+- [Closures](JS-Closures)
+- [Details of the Object Model](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Details_of_the_Object_Model)
+
+## :speech_balloon: Hint: 1
 
 Use the **this** notation to create the keys instead of regular functions: This means instead of `var varName = function() {/*...*/}` you should use `this.varName = function() {/*...*/}`
 
-## Hint: 2
+> _try to solve the problem now_
+
+## :speech_balloon: Hint: 2
 
 The program has a test that checks for how many keys you used, they have to be exactly six, the six mentioned in the details section. This means if you need to work with variables, make them local and not a key: `this.fullName = firstAndLast;`
 
-## Hint: 3
+> _try to solve the problem now_
+
+## :speech_balloon: Hint: 3
 
 Often the code would not work the way you expect it due to wrong variable names, make sure to check that you spell them the right way. This happens to all of us at some point.
+
+> _try to solve the problem now_
 
 ## Spoiler Alert!
 
@@ -28,9 +41,7 @@ Often the code would not work the way you expect it due to wrong variable names,
 
 **Solution ahead!**
 
-## Code Solution:
-
-Please try hard before you check this solution.
+## :beginner: Basic Code Solution:
 
 ```javascript
 var Person = function(firstAndLast) {
@@ -67,14 +78,30 @@ bob.getFullName();
 
 :rocket: [Run Code](https://repl.it/CLov/0)
 
-## Code Explanation:
+### Code Explanation:
 
 - Create a variable that will make a copy of the full name that was passed as a parameter.
 - Then we can proceed to create the six methods needed and return what is asked for.
 - For the individual setters, we can use the split to turn the fullname into an array of first and last names and concatenate the unchanged portion of the name with what was passed as a parameter.
 
-## Credits:
+#### Relevant Links
 
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`thanks @Rafase282 @ltegman for your help with Algorithm: Make a Person`**
+- [How to build objects](Challenge-Build-JavaScript-Objects)
+- [Construct objects with functions](Challenge-Construct-JavaScript-Objects-With-Functions)
+- [Declare objects as variables](Challenge-Declare-JavaScript-Objects-As-Variables)
 
-> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
+
+### :trophy: Credits:
+
+If you found this page useful, you may say thanks to the contributors by copying and pasting the following line in the main chat:
+
+**`thanks @Rafase282 @ltegman for your help with Algorithm: Make a Person`**
+
+## :clipboard: NOTES FOR CONTRIBUTIONS:
+
+- :warning: **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
+- Add an explanation of your solution.
+- Categorize the solution in one of the following categories &mdash; **Basic**, **Intermediate** and **Advanced**. :traffic_light:
+- Please add your username only if you have added any **relevant main contents**. (:warning: **_DO NOT_** _remove any existing usernames_)
+
+> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution) for reference.
