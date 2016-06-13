@@ -10,7 +10,7 @@ Remove all [falsy](JS-Falsy) values from an array.
 
 #### Relevant Links
 
-- [JS Falsy](JS-Falsy)
+- [Falsy Values](JS-Falsy)
 
 ## :speech_balloon: Hint: 1
 
@@ -40,9 +40,6 @@ Then we need to add a `filter()` with the falsy values function...
 
 ```javascript
 function bouncer(arr) {
-  // Don't show a false ID to this bouncer.
-  // I've a hammer fist.
-
   return arr.filter(Boolean);
 }
 ```
@@ -52,6 +49,10 @@ function bouncer(arr) {
 ### Code Explanation:
 
 The `Array.prototype.filter` method expects a function that returns a `Boolean` value which takes a single argument and returns `true` for [truthy](JS-Truthy) value or `false` for [falsy](JS-Falsy) value. Hence we pass the built-in `Boolean` function.
+
+#### Relevant Links
+
+- [Boolean](JS-Boolean)
 
 ## :sunflower: Intermediate Code Solution:
 
@@ -71,6 +72,10 @@ function bouncer(arr) {
 ### Code Explanation:
 
 The second solution replaces the array in-place, and passes a function within the filter method which checks whether the element is Truthy or Not.
+
+#### Relevant Links
+
+- [Truthy](JS-Truthy)
 
 ## :rotating_light: Advanced Code Solution:
 
@@ -92,9 +97,6 @@ The solution utilises an anonymous function as the callback for the `filter` met
 ## Relevant Links
 
 - [Array.prototype.filter()](JS-Array-Prototype-Filter)
-- [JS Truthy](JS-Truthy)
-- [JS Falsy](JS-Falsy)
-
 
 ## :trophy: Credits:
 
