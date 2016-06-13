@@ -68,6 +68,10 @@ findElement([1, 2, 3, 4], function(num){ return num % 2 === 0; });
 - If true, then store the array element, and return it. This will stop the loop. No else needed.
 - If the loop was not broken and it has ended, then return **num** which by default is undefined. This means that none of the elements from the array satisfied the function.
 
+#### Relevant Links
+
+- [JS For Loops Explained](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/JS-For-Loops-Explained)
+
 ## :sunflower: Intermediate Code Solution:
 
 ```javascript
