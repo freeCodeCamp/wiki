@@ -1,20 +1,28 @@
 # Algorithm Roman Numeral Converter
 
-### Problem Explanation:
+:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
 
-- You will create a program that converts an integer to a Roman Numeral.
+### :checkered_flag: Problem Explanation:
 
-## Hint: 1
+You will create a program that converts an integer to a Roman Numeral.
 
-- Creating two arrays, one with the Roman Numerals and one with the decimal equivalent for the new forms will be very helpful.
+## :speech_balloon: Hint: 1
 
-## Hint: 2
+Creating two arrays, one with the Roman Numerals and one with the decimal equivalent for the new forms will be very helpful.
 
-- If you add the numbers to the arrays that go before the new letter is introduced, like values for 4, 9, and 40, it will save you plenty of code.
+> _try to solve the problem now_
 
-## Hint: 3
+## :speech_balloon: Hint: 2
 
-- You can't have more than three consecutive Roman numerals together.
+If you add the numbers to the arrays that go before the new letter is introduced, like values for 4, 9, and 40, it will save you plenty of code.
+
+> _try to solve the problem now_
+
+## :speech_balloon: Hint: 3
+
+You can't have more than three consecutive Roman numerals together.
+
+> _try to solve the problem now_
 
 ## Spoiler Alert!
 
@@ -22,24 +30,18 @@
 
 **Solution ahead!**
 
-## Code Solution:
+## :beginner: Basic Code Solution:
 
 ```javascript
 var convertToRoman = function(num) {
 
-  // Create arrays with default conversion with matching indices.
   var decimalValue = [ 1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1 ];
   var romanNumeral = [ 'M', 'CM', 'D', 'CD', 'C', 'XC', 'L', 'XL', 'X', 'IX', 'V', 'IV', 'I' ];
 
-  //empty string variable for the final roman number
-
   var romanized = '';
 
-  // Loop through the indices of the decimalValue array.
   for (var index = 0; index < decimalValue.length; index++) {
-    // Continue to loop while the value at the current index will fit into numCopy
     while (decimalValue[index] <= num) {
-      // Add the Roman numeral & decrease numCopy by the decimal equivalent.
       romanized += romanNumeral[index];
       num -= decimalValue[index];
     }
@@ -54,12 +56,29 @@ convertToRoman(36);
 
 :rocket: [Run Code](https://repl.it/CLmf/0)
 
-## Code Explanation:
+### Code Explanation:
 
-- Read comments on code.
+- We start off by creating two arrays with default conversion with matching indices. These are called `decimalValue` and `romanNumeral`. We also create an empty string variable, `romanized`, which will house the final roman number.
+- Using a for loop, we loop through the indicies of the `decimalValue` array. We continue to loop until while the value at the current `index` will fit into `num`.
+- Next, we add the roman numeral and decrease `num` by the decimal equivalent.
+- Finally, we return the value of `romanized`.
 
-## Credits:
+#### Relevant Links
 
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 @SaintPeter @benschac for your help with Algorithm: Roman Numeral Converter`**
+- [For Loops](JS-For-Loop)
+- [While Loops](JS-while-Loop)
 
-> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
+### :trophy: Credits:
+
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:
+
+**`Thanks @Rafase282 @SaintPeter @benschac for your help with Algorithm: Roman Numeral Converter`**
+
+## :clipboard: NOTES FOR CONTRIBUTIONS:
+
+- :warning: **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
+- Add an explanation of your solution.
+- Categorize the solution in one of the following categories &mdash; **Basic**, **Intermediate** and **Advanced**. :traffic_light:
+- Please add your username only if you have added any **relevant main contents**. (:warning: **_DO NOT_** _remove any existing usernames_)
+
+> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution) for reference.
