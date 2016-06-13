@@ -70,7 +70,7 @@ findElement([1, 2, 3, 4], function(num){ return num % 2 === 0; });
 
 #### Relevant Links
 
-- [JS For Loops Explained](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/JS-For-Loops-Explained)
+- [JS For Loops Explained](JS-For-Loops-Explained)
 
 ## :sunflower: Intermediate Code Solution:
 
@@ -89,7 +89,7 @@ findElement([1, 2, 3, 4], function(num){ return num % 2 === 0; });
 
 #### Relevant Links
 
-- [JS Array Prototype Filter](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/JS-Array-Prototype-Filter)
+- [JS Array Prototype Filter](JS-Array-Prototype-Filter)
 
 ### :trophy: Credits:
 
