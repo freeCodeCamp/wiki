@@ -1,23 +1,38 @@
 # Algorithm Title Case a Sentence
 
-### Explanation:
+:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
 
-We have to return a sentence with camel case. This means that the first letter will always be in uppercase and the rest lowercase.
+### :checkered_flag: Problem Explanation:
 
-## Hint: 1
+We have to return a sentence with title case. This means that the first letter will always be in uppercase and the rest will be in lowercase.
+
+#### Relevant Links
+
+- [Global String Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
+- [JS String Prototype ToLowerCase](JS-String-Prototype-ToLowerCase)
+- [JS String Prototype ToUpperCase](JS-String-Prototype-ToUpperCase)
+- [JS String Prototype Replace](JS-String-Prototype-Replace)
+
+## :speech_balloon: Hint: 1
 
 - You should start by splitting the string into an array of words.
 - Split the sentence.
 
-## Hint: 2
+> _try to solve the problem now_
+
+## :speech_balloon: Hint: 2
 
 - You should make the word lowercase before making the first letter uppercase.
 - Use replace method on each word to capitalize the first letter of each word.
 
-## Hint: 3
+> _try to solve the problem now_
+
+## :speech_balloon: Hint: 3
 
 - You will need to create a new string with pieces of the previous one and at the end merge everything into a single string again.
-- In replace method , give first argument as the position of the first letter using charAt. For second argument write a function to return the capitalized letter as the replacement.
+- In replace method, give first argument as the position of the first letter using charAt. For second argument write a function to return the capitalized letter as the replacement.
+
+> _try to solve the problem now_
 
 ## Spoiler Alert!
 
@@ -25,7 +40,7 @@ We have to return a sentence with camel case. This means that the first letter w
 
 **Solution ahead!**
 
-## Code Solution:
+## :beginner: Basic Code Solution:
 
 ```javascript
 String.prototype.replaceAt = function(index, character) {
@@ -49,9 +64,16 @@ function titleCase(str) {
 
 We are modifying the `replaceAt` function using prototype to facilitate the use of the program.
 
-Split the string by whitespaces, and create a variable to track the updated title. Then we use a loop to turn turn the first character of the word to uppercase and the rest to lowercase. by creating concatenated string composed of the whole word in lowercase with the first character replaced by it's uppercase.
+Split the string by white spaces, and create a variable to track the updated title. Then we use a loop to turn turn the first character of the word to uppercase and the rest to lowercase. by creating concatenated string composed of the whole word in lowercase with the first character replaced by it's uppercase.
 
-## Second Solution:
+#### Relevant Links
+
+- [JS For Loops Explained](JS-For-Loops-Explained)
+- [JS String Prototype Split](JS-String-Prototype-Split)
+- [JS String Prototype Substr](JS-String-Prototype-Substr)
+- [JS Array Prototype Join](JS-Array-Prototype-Join)
+
+## :sunflower: Intermediate Code Solution:
 
 ```javascript
 function titleCase(str) {
@@ -71,57 +93,11 @@ titleCase("I'm a little tea pot");
 
 We are making entire string lowercase and then converting it into array. Then we are using map function to replace the lowercase character with uppercase. Finally, we are returning the string using `join` method.
 
-## Third Solution:
+#### Relevant Links
 
-```javascript
-function titleCase(str) {
-  var newstr=str.toLowerCase().split(" ");
-  for(var i=0;i<newstr.length;i++){
-  var f=newstr[i].charAt(0);
- newstr[i]=newstr[i].replace(newstr[i].charAt(0),function replace(f){
-   return f.toUpperCase();
- });
+- [JS Array Prototype Map](JS-Array-Prototype-Map)
 
-  }
-  console.log(newstr);
-  return newstr.join(" ");
-}
-
-titleCase("hello world");
-```
-
-:rocket: [Run Code](https://repl.it/CLjU/11)
-
-## Fourth Solution:
-
-```javascript
-function titleCase(str) {
-  str = str.toLowerCase().split(' ');
-  for (var i in str) {
-    str[i] = str[i].replace(str[i].charAt(0), str[i].charAt(0).toUpperCase());
-  };
-  return str.join(' ');
-}
-
-titleCase("I'm a little tea pot", "");
-```
-
-:rocket: [Run Code](https://repl.it/CLjU/12)
-
-## Fifth Solution:
-
-```javascript
-function titleCase(str) {
-  return str.replace(/\w\S*/g, function(word){
-    return word.charAt(0).toUpperCase()+word.substr(1).toLowerCase();});
-}
-
-titleCase("I'm a little tea pot", "");
-```
-
-:rocket: [Run Code](https://repl.it/CLjU/13)
-
-## Sixth Solution:
+## :rotating_light: Advanced Code Solution:
 
 ```javascript
 function titleCase(str) {
@@ -133,23 +109,32 @@ function titleCase(str) {
 
 ### Code Explanation:
 
-**Brief**: The solution works by first lowercasing all the characters in the string and then only uppercasing the first character of each word.
-
-**Detail**:
-
-- Lowercase the whole string using `str.toLowerCase()`. See [**`String.prototype.toLowerCase`**](http://devdocs.io#q=js+String+toLowe
-  rCase)
-- Replace every word' first character to uppercase using `.replace`. See [**`String.prototype.replace`**](http://devdocs.io#q=js+String+replace)
+The solution works by first lowercasing all the characters in the string and then only uppercasing the first character of each word.
+- Lowercase the whole string using `str.toLowerCase()`.
+- Replace every word' first character to uppercase using `.replace`.
 - Search for words and a lowercase character at the beginning of each word i.e. matching any lowercase character following a `space` or matching the first character of the whole string, by using the following pattern.
-- Regex explanation: See [**`Regex Pattern`**](http://regex101.com/)
+- Regex explanation:
 
   - `( |^)` matches a `space` character or beginning of the whole string (`^`).
   - `[a-z]` matches a single character in the range between a to z (case sensitive i.e. lowercase).
 
 - The `g` modifier searches for other such word pattern in the whole string and replaces them.
 
-### Credits:
+#### Relevant Links
 
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 @PoojaKumar @Hallaathrad @abhisekp @ksharifbd for your help with Algorithm: Title Case a Sentence`**
+- [JS Regex Resources](JS-Regex-Resources)
 
-> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
+### :trophy: Credits:
+
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:
+
+**`Thanks @Rafase282 @PoojaKumar @Hallaathrad @abhisekp @ksharifbd for your help with Algorithm: Title Case a Sentence`**
+
+## :clipboard: NOTES FOR CONTRIBUTIONS:
+
+- :warning: **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
+- Add an explanation of your solution.
+- Categorize the solution in one of the following categories &mdash; **Basic**, **Intermediate** and **Advanced**. :traffic_light:
+- Please add your username only if you have added any **relevant main contents**. (:warning: **_DO NOT_** _remove any existing usernames_)
+
+> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution) for reference.
