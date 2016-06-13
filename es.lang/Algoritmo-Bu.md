@@ -43,6 +43,6 @@ Utilizamos el operador `typeof` para comprobar si una variable es boolanea. Si l
 
 # Créditos:
 
-Si encuentras útil este artículo puedes dar las gracias copiando y pegando este mensaje en el chat principal: **`thanks @Rafase282 for your help with Algorithm: Boo-who`**
+Si encuentras útil este artículo puedes dar las gracias copiando y pegando este mensaje en el chat principal: **`Thanks @Rafase282 for your help with Algorithm: Boo-who`**
 
 > **NOTA:** Por favor añade tu nombre de usuario solamente si has añadido **contenido relevante** al artículo. (Por favor no remuevas ningún nombre existente.)

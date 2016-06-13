@@ -142,6 +142,6 @@ sym([1, 2, 3], [5, 2, 1, 4]);
 
 ## Credits:
 
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`thanks @Rafase282 @guyjoseph @jjmax75 @benschac for your help with Algorithm: Symmetric Difference`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 @guyjoseph @jjmax75 @benschac for your help with Algorithm: Symmetric Difference`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

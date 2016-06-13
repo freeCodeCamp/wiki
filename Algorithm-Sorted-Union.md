@@ -114,6 +114,6 @@ uniteUnique([1, 3, 2], [5, 2, 1, 4], [2, 1]);
 
 ## Credits:
 
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`thanks @Rafase282 @sabahang @coded9 for your help with Algorithm: Sorted Union`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 @sabahang @coded9 for your help with Algorithm: Sorted Union`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

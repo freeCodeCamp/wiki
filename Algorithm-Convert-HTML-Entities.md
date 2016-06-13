@@ -150,7 +150,7 @@ convertHTML("Dolce & Gabbana");
 
 If you found this page useful, you can give thanks by copying and pasting this on the main chat:
 
-**`thanks @Rafase282 @jodekirk for your help with Algorithm: Convert HTML Entities`**
+**`Thanks @Rafase282 @jodekirk for your help with Algorithm: Convert HTML Entities`**
 
 ## :clipboard: NOTES FOR CONTRIBUTIONS:
 

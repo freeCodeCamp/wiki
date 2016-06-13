@@ -83,6 +83,6 @@ function nextInLine(arr, item) {
 
 ### Credits:
 
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`thanks @CaroleAnneHannon for your help with Checkpoint: Stand in Line`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @CaroleAnneHannon for your help with Checkpoint: Stand in Line`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

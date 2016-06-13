@@ -121,7 +121,7 @@ pairElement("GCG");
 
 If you found this page useful, you may say thanks to the contributors by copying and pasting the following line in the main chat:
 
-**`thanks @Rafase282 @sabahang for your help with Algorithm: DNA Pairing`**
+**`Thanks @Rafase282 @sabahang for your help with Algorithm: DNA Pairing`**
 
 ## :clipboard: NOTES FOR CONTRIBUTIONS:
 

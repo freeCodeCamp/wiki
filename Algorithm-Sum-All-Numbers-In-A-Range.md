@@ -100,6 +100,6 @@ The line `var sortedArr = arr.sort((a,b) => a-b);` is probably what will have yo
 
 ## Credits:
 
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`thanks @Rafase282 @abhisekp for your help with Algorithm: Sum All Numbers in a Range`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 @abhisekp for your help with Algorithm: Sum All Numbers in a Range`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

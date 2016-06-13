@@ -112,6 +112,6 @@ pairwise([1,4,2,3,0,5], 7);
 
 ## Credits:
 
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`thanks @Rafase282 @coded9 @SaintPeter for your help with Algorithm: Pairwise`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 @coded9 @SaintPeter for your help with Algorithm: Pairwise`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

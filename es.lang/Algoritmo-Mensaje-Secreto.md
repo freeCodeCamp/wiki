@@ -149,6 +149,6 @@ binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 0110
 
 # Créditos:
 
-Si encuentras útil este artículo puedes dar las gracias copiando y pegando este mensaje en el chat principal: **`thanks @Rafase282 @JamesKee @sabahang @crisvdkooij for your help with Algorithm: Binary Agents`**
+Si encuentras útil este artículo puedes dar las gracias copiando y pegando este mensaje en el chat principal: **`Thanks @Rafase282 @JamesKee @sabahang @crisvdkooij for your help with Algorithm: Binary Agents`**
 
 > **NOTA:** Por favor añade tu nombre de usuario solamente si has añadido **contenido relevante** al artículo. (Por favor no remuevas ningún nombre existente.)

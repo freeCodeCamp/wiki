@@ -205,7 +205,7 @@ addTogether(2,3);
 
 If you found this page useful, you may say thanks to the contributors by copying and pasting the following line in the main chat:
 
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`thanks @Rafase282 @coded9 for your help with Algorithm: Arguments Optional`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 @coded9 for your help with Algorithm: Arguments Optional`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
 

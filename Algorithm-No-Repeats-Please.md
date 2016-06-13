@@ -131,6 +131,6 @@ permAlone('aab');
 
 ## Credits:
 
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`thanks @Philosophist @Rafase282 for your help with Algorithm: No Repeats Please`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Philosophist @Rafase282 for your help with Algorithm: No Repeats Please`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)

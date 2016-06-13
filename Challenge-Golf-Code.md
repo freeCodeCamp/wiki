@@ -84,6 +84,6 @@ golfScore(5, 4);
 
 ### Credits:
 
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`thanks @osterbergmarcus for your help with Checkpoint: Golf Code`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @osterbergmarcus for your help with Checkpoint: Golf Code`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
