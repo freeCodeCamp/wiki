@@ -80,7 +80,8 @@ This is an example of a very comprehensive and robust solution to validating US 
 
 #### Relevant Links
 
-- [Regex Resources](JS-Regex-Resources)
+- [Regex.test()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/test)
+- [libphonenumber](https://github.com/googlei18n/libphonenumber)
 
 ## Credits:
 
