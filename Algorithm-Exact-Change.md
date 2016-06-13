@@ -1,20 +1,32 @@
 # Algorithm Everything Be True
 
-### Problem Explanation:
+:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
+
+### :checkered_flag: Problem Explanation:
 
 - You have to create a program that will handle when the register does not have enough cash or will have no cash after the transaction. Other than that it needs to return an array of the change in the form of an array, so that will be a 2D array.
 
-## Hint: 1
+#### Relevant Links
+
+- [Data Structure Arrays](Data-Structure-Arrays)
+
+## :speech_balloon: Hint: 1
 
 - It is easier to handle if you have to close the register, or if you know how much money is in your register beforehand and you will not have enough money to complete the transaction. For this it is recommended to have a function to assign this information to a variable.
 
-## Hint: 2
+> _try to solve the problem now_
+
+## :speech_balloon: Hint: 2
 
 - Life is easier when you get to know the value of each currency type in the register instead of how much money is composed of that particular currency. So be sure to watch out for that.
 
-## Hint: 3
+> _try to solve the problem now_
+
+## :speech_balloon: Hint: 3
 
 - You will have to get as much change from one type before moving to the next from greater value to lesser, and keep going until you have covered the whole change.
+
+> _try to solve the problem now_
 
 ## Spoiler Alert!
 
@@ -22,7 +34,7 @@
 
 **Solution ahead!**
 
-## Code Solution:
+## :beginner: Beginner Code Solution:
 
 ```javascript
 // Create an object which hold the denominations and their values
@@ -94,12 +106,28 @@ checkCashRegister(19.50, 20.00, [["PENNY", 1.01], ["NICKEL", 2.05], ["DIME", 3.1
 
 :rocket: [Run Code](https://repl.it/CLoj/0)
 
-## Code Explanation:
+### Code Explanation:
 
-- Read comments in code.
+First, the CID array is transformed into a drawer object. Then we handle the conditions of exact change and insufficient funds. Then we loop through the denomination array and update the change and values while there is still money of this type in the drawer and while the denomination is larger than the change reminaing. Then we add this denomination to the output only if any was used. Finally, if there are no elements in `change_arr` or we have leftover change, return the string "Insufficient Funds".
 
-## Credits:
+#### Relevant Links
 
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`thanks @Rafase282 @SaintPeter @erictleung for your help with Algorithm: Exact Change`**
+- [JS Array Reduce](JS-Array-Prototype-Reduce)
+- [JS Reduce Made Easy](JS-Reduce-Made-Easy)
+- [JS Loops](JS-Loops)
+- [JS Array Push](JS-Array-Prototype-Push)
 
-> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
+## :trophy: Credits:
+
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: 
+
+**`thanks @Rafase282 @SaintPeter @erictleung for your help with Algorithm: Exact Change`**
+
+## :clipboard: NOTES FOR CONTRIBUTIONS:
+
+- :warning: **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
+- Add an explanation of your solution.
+- Categorize the solution in one of the following categories &mdash; **Basic**, **Intermediate** and **Advanced**. :traffic_light:
+- Please add your username only if you have added any **relevant main contents**. (:warning: **_DO NOT_** _remove any existing usernames_)
+
+> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution) for reference.
