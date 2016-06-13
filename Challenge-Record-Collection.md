@@ -1,6 +1,8 @@
 # Challenge Record Collection
 
-**_Instructions_**
+:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
+
+### :checkered_flag: Problem Explanation:
 
 You are given a JSON object representing (a small part of) your record collection. Each album is identified by a unique id number and has several properties. Not all albums have complete information.
 
@@ -16,17 +18,6 @@ If **value** is blank, delete that **prop**.
 
 Always return the entire collection object.
 
-Remember to use [Read-Search-Ask](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program. Write your own code.
-
-## Useful Links
-
-- [Challenge: Accessing Objects Properties with Bracket Notation](http://www.freecodecamp.com/challenges/accessing-objects-properties-with-bracket-notation)
-- [Challenge: Add New Properties to a JavaScript Object](http://www.freecodecamp.com/challenges/add-new-properties-to-a-javascript-object)
-- [Challenge: Delete Properties from a JavaScript Object](http://www.freecodecamp.com/challenges/delete-properties-from-a-javascript-object)
-- [Challenge: Accessing Nested Objects in JSON](http://www.freecodecamp.com/challenges/accessing-nested-objects-in-json)
-
-## Problem Explanation:
-
 - Change the code below `// Only change code below this line` and up to `// Alter values below to test your code`
 - Take note that you are editing the inside of the `updateRecords` function
 - For the given `id` parameter, which is associated to the `collection` object:
@@ -37,17 +28,32 @@ Remember to use [Read-Search-Ask](FreeCodeCamp-Get-Help) if you get stuck. Try t
 
 - Finally, return the `collection` object
 
-## Hint: 1
+
+
+#### Relevant Links
+
+- [Challenge: Accessing Objects Properties with Bracket Notation](http://www.freecodecamp.com/challenges/accessing-objects-properties-with-bracket-notation)
+- [Challenge: Add New Properties to a JavaScript Object](http://www.freecodecamp.com/challenges/add-new-properties-to-a-javascript-object)
+- [Challenge: Delete Properties from a JavaScript Object](http://www.freecodecamp.com/challenges/delete-properties-from-a-javascript-object)
+- [Challenge: Accessing Nested Objects in JSON](http://www.freecodecamp.com/challenges/accessing-nested-objects-in-json)
+
+## :speech_balloon: Hint: 1
 
 - Use an `else if` statement to check the needed steps.
 
-## Hint: 2
+> _try to solve the problem now_
+
+## :speech_balloon: Hint: 2
 
 - The second step listed in the instructions should be first in your `else if` statement.
 
-## Hint: 3
+> _try to solve the problem now_
+
+## :speech_balloon: Hint: 3
 
 - To access the value of a key in this object, you will use `collection[id][prop]`
+
+> _try to solve the problem now_
 
 ## Spoiler Alert!
 
@@ -55,7 +61,7 @@ Remember to use [Read-Search-Ask](FreeCodeCamp-Get-Help) if you get stuck. Try t
 
 **Solution ahead!**
 
-## Code Solution:
+## :beginner: Basic Code Solution:
 
 ```
 function updateRecords(id, prop, value) {
@@ -76,7 +82,7 @@ function updateRecords(id, prop, value) {
 }
 ```
 
-## Code Explanation:
+### Code Explanation:
 
 - First checks if `prop` is equal to `tracks` AND if `value` isn't a blank string. If both tests pass, `value` is pushed into the `tracks` array.
 - If that first check doesn't pass, it next checks only if `value` isn't a blank string. If that test passes, either a new key (`prop`) and value (`value`) are added to the object, or an existing key is updated if the `prop` already exists.
@@ -89,8 +95,8 @@ function updateRecords(id, prop, value) {
 - `value` is not a blank string, so the second part of the else if statement passes
 - `artist: "ABBA"` is added to the `5439` `id`
 
-### Credits:
+### :trophy: Credits:
 
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`thanks @leftynaut for your help with Checkpoint: Record Collection`**
+If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`thanks @leftynaut @DarrenJansen for your help with Checkpoint: Record Collection`**
 
 > **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
