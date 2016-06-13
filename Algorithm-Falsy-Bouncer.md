@@ -49,6 +49,10 @@ function bouncer(arr) {
 
 :rocket: [Run Code](https://repl.it/CLjU/32)
 
+### Code Explanation:
+
+The `Array.prototype.filter` method expects a function that returns a `Boolean` value which takes a single argument and returns `true` for [truthy](JS-Truthy) value or `false` for [falsy](JS-Falsy) value. Hence we pass the built-in `Boolean` function.
+
 ## :sunflower: Intermediate Code Solution:
 
 ```javascript
@@ -64,6 +68,10 @@ function bouncer(arr) {
 
 :rocket: [Run Code](https://repl.it/CLjU/33)
 
+### Code Explanation:
+
+The second solution replaces the array in-place, and passes a function within the filter method which checks whether the element is Truthy or Not.
+
 ## :rotating_light: Advanced Code Solution:
 
 ```javascript
@@ -77,11 +85,11 @@ function bouncer(arr) {
 
 :rocket: [Run Code](https://repl.it/CLjU/34)
 
-## Code Explanation:
+### Code Explanation:
 
-The `Array.prototype.filter` method expects a function that returns a `Boolean` value which takes a single argument and returns `true` for [truthy](JS-Truthy) value or `false` for [falsy](JS-Falsy) value. Hence we pass the built-in `Boolean` function. The second solution replaces the array in-place, and utilises an anonymous function as the callback for the `filter` method. This avoids polluting the global scope with a single-use function, and makes our code more concise.
+The solution utilises an anonymous function as the callback for the `filter` method. This avoids polluting the global scope with a single-use function, and makes our code more concise.
 
-#### Relevant Links
+## Relevant Links
 
 - [Array.prototype.filter()](JS-Array-Prototype-Filter)
 - [JS Truthy](JS-Truthy)
