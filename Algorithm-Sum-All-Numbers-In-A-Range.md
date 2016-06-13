@@ -1,20 +1,28 @@
 # Algorithm Sum All Numbers in a Range
 
-### Problem Explanation:
+:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
 
-- You need to create a program that will take an array of two numbers who are not necessarily in order, and then add not just those numbers but any numbers in between. For example, [3,1] will be the same as `1+2+3` and not just `3+1`
+### :checkered_flag: Problem Explanation:
 
-## Hint: 1
+You need to create a program that will take an array of two numbers who are not necessarily in order, and then add not just those numbers but any numbers in between. For example, [3,1] will be the same as `1+2+3` and not just `3+1`
 
-- Use `Math.max()` to find the maximum value of two numbers.
+## :speech_balloon: Hint: 1
 
-## Hint: 2
+Use `Math.max()` to find the maximum value of two numbers.
 
-- Use `Math.min()` to find the minimum value of two numbers.
+> _try to solve the problem now_
 
-## Hint: 3
+## :speech_balloon: Hint: 2
 
-- Remember to that you must add all the numbers in between so this would require a way to get those numbers.
+Use `Math.min()` to find the minimum value of two numbers.
+
+> _try to solve the problem now_
+
+## :speech_balloon: Hint: 3
+
+Remember to that you must add all the numbers in between so this would require a way to get those numbers.
+
+> _try to solve the problem now_
 
 ## Spoiler Alert!
 
@@ -22,7 +30,7 @@
 
 **Solution ahead!**
 
-## Code Solution 1:
+## :beginner: Basic Code Solution:
 
 ```javascript
 function sumAll(arr) {
@@ -40,7 +48,7 @@ sumAll([1, 4]);
 
 :rocket: [Run Code](https://repl.it/CLm6/0)
 
-## Code Explanation:
+### Code Explanation:
 
 - First create a variable to store the max number between two.
 - The same as before for the Smallest number.
@@ -48,7 +56,13 @@ sumAll([1, 4]);
 
 Since the numbers might not be always in order, using `max()` and `min()` will help organize.
 
-## Code Solution 2:
+#### Relevant Links
+
+- [Math.max()](JS-Math-Max)
+- [Math.min()](JS-Math-Min)
+- [For Loops](JS-For-Loop)
+
+## :sunflower: Intermediate Code Solution:
 
 ```javascript
 function sumAll(arr) {
@@ -67,7 +81,22 @@ function sumAll(arr) {
 
 :rocket: [Run Code](https://repl.it/CLm7/0)
 
-## Code Solution 3:
+### Code Explanation:
+
+- Firstly, we create a variable called `sortedArr` which sorts it from the lowest to the highest value.
+- `firstNum` is equal to the first number and `lastNum` is equal to the second number.
+- Next, using the Arithmetic Progression summing formula we let `sum` equal `(lastNum - firstNum + 1) * (firstNum + lastNum) / 2`.
+- Finally, we return `sum`.
+
+The line `var sortedArr = arr.sort((a,b) => a-b);` is probably what will have you more confused. This would be the same as creating a function that returns `a-b` for the `sort()` which is the standard way to sort numbers from smallest to largest. Instead using arrow or fat arrow function, we are able to do all that in one single line thus allowing us to write less.
+
+#### Relevant Links
+
+- [Array.sort()](JS-Array-Prototype-Sort)
+- [Arithmetic Progression summing formula](https://en.wikipedia.org/wiki/Arithmetic_progression#Sum)
+- [ES6 arrow function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+
+## :rotating_light: Advanced Code Solution:
 
 ```javascript
 function sumAll(arr) {
@@ -83,23 +112,28 @@ sumAll([1, 4]);
 
 :rocket: [Run Code](https://repl.it/CLm8/0)
 
-## Code Explanation:
+### Code Explanation:
 
 - Creating a variable sum to store the sum of the elements.
 - Starting iteration of the loop from min element of given array and stopping when it reaches the max element.
 - Using a spread operator (...arr) allows passing the actual array to the function instead of one-by-one elements.
 
-## References & Details:
+#### Relevant Links
 
-- [Arithmetic Progression summing formula](https://en.wikipedia.org/wiki/Arithmetic_progression#Sum)
-- [ES6 arrow function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 - [Spread Operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator)
 - [Using Spread Operator in Math.max()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/max)
 
-The line `var sortedArr = arr.sort((a,b) => a-b);` is probably what will have you more confused. This would be the same as creating a function that returns `a-b` for the `sort()` which is the standard way to sort numbers from smallest to largest. Instead using arrow or fat arrow function, we are able to do all that in one single line thus allowing us to write less.
+### :trophy: Credits:
 
-## Credits:
+If you found this page useful, you can give thanks by copying and pasting this on the main chat:
 
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 @abhisekp for your help with Algorithm: Sum All Numbers in a Range`**
+**`Thanks @Rafase282 @abhisekp for your help with Algorithm: Sum All Numbers in a Range`**
 
-> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
+## :clipboard: NOTES FOR CONTRIBUTIONS:
+
+- :warning: **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
+- Add an explanation of your solution.
+- Categorize the solution in one of the following categories &mdash; **Basic**, **Intermediate** and **Advanced**. :traffic_light:
+- Please add your username only if you have added any **relevant main contents**. (:warning: **_DO NOT_** _remove any existing usernames_)
+
+> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution) for reference.
