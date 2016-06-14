@@ -6,6 +6,12 @@
 
 The task is not that hard to understand, implementing it is the hardest part. You have a to validate an US phone number. This means there is a certain amount of numbers required, while you don't need to put the country code, you will still need the area code and use one of the few formats allowed.
 
+#### Relevant Links
+
+- [RegExp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp)
+- [regexpal.com](http://regexpal.com/)
+- [regex101.com/](https://regex101.com/#javascript)
+
 ## :speech_balloon: Hint: 1
 
 There is no way around it, you will need to brush up your regular expressions skills.
@@ -14,7 +20,7 @@ There is no way around it, you will need to brush up your regular expressions sk
 
 ## :speech_balloon: Hint: 2
 
-Try using a site like [http://regexpal.com/](http://regexpal.com/) to test the regex live while you create it.
+Try using a site from the previous list to test the regex live while you create it.
 
 > _try to solve the problem now_
 
@@ -34,13 +40,9 @@ Start by trying to get it to validate each format from the example, each one sho
 
 ```javascript
 function telephoneCheck(str) {
-
    var regex = /^(1\s?)?(\(\d{3}\)|\d{3})[\s\-]?\d{3}[\s\-]?\d{4}$/;
-
    return regex.test(str);
 }
-
-// test here
 telephoneCheck("555-555-5555");
 ```
 
@@ -62,13 +64,9 @@ telephoneCheck("555-555-5555");
 
 ```javascript
 function telephoneCheck(str) {
-  // Comprehensive regex from @dting
   var re = /^(?:(?:\+?1\s*(?:[.-]\s*)?)?(?:\(\s*([2-9]1[02-9]|[2-9][02-8]1|[2-9][02-8][02-9])\s*\)|([2-9]1[02-9]|[2-9][02-8]1|[2-9][02-8][02-9]))\s*(?:[.-]\s*)?)?([2-9]1[02-9]|[2-9][02-9]1|[2-9][02-9]{2})\s*(?:[.-]\s*)?([0-9]{4})$/;
-
   return re.test(str);
 }
-
-// test here
 telephoneCheck("555-555-5555");
 ```
 
@@ -83,8 +81,17 @@ This is an example of a very comprehensive and robust solution to validating US 
 - [Regex.test()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/test)
 - [libphonenumber](https://github.com/googlei18n/libphonenumber)
 
-## Credits:
+### :trophy: Credits:
 
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`thanks @Rafase282 @guyjoseph @dting @jhalls @crisvdkooij for your help with Algorithm: Validate US Telephone Numbers`**
+If you found this page useful, you may say thanks to the contributors by copying and pasting the following line in the main chat:
 
-> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
+**`Thanks @Rafase282 @guyjoseph @dting @jhalls @crisvdkooij for your help with Algorithm: Validate US Telephone Numbers`**
+
+## :clipboard: NOTES FOR CONTRIBUTIONS:
+
+- :warning: **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
+- Add an explanation of your solution.
+- Categorize the solution in one of the following categories &mdash; **Basic**, **Intermediate** and **Advanced**. :traffic_light:
+- Please add your username only if you have added any **relevant main contents**. (:warning: **_DO NOT_** _remove any existing usernames_)
+
+> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution) for reference.
