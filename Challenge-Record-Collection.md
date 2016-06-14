@@ -81,6 +81,7 @@ function updateRecords(id, prop, value) {
   return collection;
 }
 ```
+:rocket: [Run Code](https://repl.it/C2AZ/0)
 
 ### Code Explanation:
 
