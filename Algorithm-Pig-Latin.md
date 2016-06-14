@@ -1,20 +1,33 @@
 # Algorithm Pig Latin
 
-### Problem Explanation:
+:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
 
-- You need to create a program that will translate from English to Pig Latin. Check the instructions for converting to Pig Latin from the initial description or the wiki page. It might not be obvious but you need to remove all the consonants up to the first vowel in the case there letter does not start with a vowel.
+### :checkered_flag: Problem Explanation:
 
-## Hint: 1
+You need to create a program that will translate from English to Pig Latin. Pig Latin takes the first consonant (or consonant cluster) of an English word, moves it to the end of the word and suffixes an "ay". If a word begins with a vowel you just add "way" to the end. It might not be obvious but you need to remove all the consonants up to the first vowel in case the word does not start with a vowel.
 
-- You will probably want to use regular expressions. This will allow you to convert the words easily.
+#### Relevant Links
 
-## Hint: 2
+- [Pig Latin](http://en.wikipedia.org/wiki/Pig_Latin)
+- [JS String Prototype Match](JS-String-Prototype-Match)
 
-- If the first character is a vowel, then take that whole word and add 'way' at the end. Otherwise comes the tricky part, take the consonant(s) before the first vowel and move it to the end and add 'ay'. This is where I had trouble since it was not clear that it was not just the first consonant but all of them before the first vowel.
+## :speech_balloon: Hint: 1
 
-## Hint: 3
+You will probably want to use regular expressions. This will allow you to convert the words easily.
 
-- You will need to use everything you know about string manipulation to get the last part right. However, it can be done with `substr` alone.
+> _try to solve the problem now_
+
+## :speech_balloon: Hint: 2
+
+If the first character is a vowel, then take that whole word and add 'way' at the end. Otherwise comes the tricky part, take the consonant(s) before the first vowel and move it to the end and add 'ay'. This might be confusing but, it is not just the first consonant but all of them before the first vowel.
+
+> _try to solve the problem now_
+
+## :speech_balloon: Hint: 3
+
+You will need to use everything you know about string manipulation to get the last part right. However, it can be done with `substr` alone.
+
+> _try to solve the problem now_
 
 ## Spoiler Alert!
 
@@ -22,9 +35,7 @@
 
 **Solution ahead!**
 
-## Code Solution:
-
-### First solution
+## :beginner: Basic Code Solution:
 
 ```javascript
 function translatePigLatin(str) {
@@ -55,35 +66,55 @@ translatePigLatin("consonant");
 
 :rocket: [Run Code](https://repl.it/CLmt/0)
 
-### Second solution
+### Code Explanation:
+
+- Make an empty string to hold your Pig Latin word.
+- Assign your appropriate regular expression to a variable.
+- If the first character is a vowel, just add **way** to end of string and return it.
+- If the first character is not a vowel:
+  - Find number of consonants before first vowel with help of `indexOf()`, `match()` and regex.
+  - Start Pig Latin string with first vowel till the end.
+  - Add letters before first vowel to end of string.
+  - `substr()` is used for string manipulation here.
+  - Add **ay** to end of string and return it.
+
+#### Relevant Links
+
+- [JS Regex Resources](JS-Regex-Resources)
+- [JS String Prototype IndexOf](JS-String-Prototype-IndexOf)
+- [JS String Prototype Substr](JS-String-Prototype-Substr)
+
+## :sunflower: Intermediate Code Solution:
 
 ```javascript
 function translatePigLatin(str) {
-  //finding all the consonants in the beginning of the str. 
-  //by using && below I'm achiving a concept called Intersection of Regular Expressions
-  //where your pattern finds the union of two or more RegEx rules. 
-  //In Java you can achive this with RegEx special character '&&' 
-  //but in Javascript you can use the following instead. 
-  //Credit goes to http://stackoverflow.com/q/6595477
-  var consChars = str.match(/^[a-z]/) && str.match(/[^aeiou]*/).join('');
-
-  //if no consonants found (i.e. str starts with vowels)
-  //use replace to remove consonants and construct newStr else add 'way' in the end
-  if (consChars !== ''){
-    newStr = str.replace(consChars, '') + consChars + "ay";
-  } else {
-    newStr = str + "way";
+  function check(obj) {
+      return ['a','i','u','e','o'].indexOf(str.charAt(obj)) == -1 ? check(obj + 1) : obj;
   }
-  return newStr;
+
+  return str.substr(check(0)).concat((check(0) === 0 ? 'w' : str.substr(0, check(0))) + 'ay');
 }
 
 // test here
 translatePigLatin("consonant");
 ```
 
-:rocket: [Run Code](https://repl.it/CLmu/0)
+:rocket: [Run Code](https://repl.it/CLmw/0)
 
-### Third solution
+### Code Explanation:
+
+- This is a declarative as well as recursive approach to this problem.
+- `check()` is a function which checks for first letter of string to be in the array of vowels, `['a','i','u','e','o']`.
+- In case of consonants, `check()` calls itself on the next characters until finding the first vowel.
+- It'll return the index of whatever it finds to be the last initial consonant i.e., Schmidtsville's would be 3.
+- Then, letters up until that index are removed from the string and concatenated with either that same chunk of removed string or **w** accordingly, and then **ay** regardless.
+
+#### Relevant Links
+
+- [JS String Prototype CharAt](JS-String-Prototype-CharAt)
+- [JS String Prototype Concat](JS-String-Prototype-Concat)
+
+## :rotating_light: Advanced Code Solution:
 
 ```javascript
 function translatePigLatin(str) {
@@ -95,11 +126,11 @@ function translatePigLatin(str) {
         return !/[aeiou]/.test(char);
     }
 
-    // return initial str + "way" if it starts with vowel 
+    // return initial str + "way" if it starts with vowel
     // if not - convert str to array
     if (!isConsonant(str.charAt(0)))
         return str + "way";
-    else 
+    else
         strArr = str.split("");
 
     // push all consonats to the end of the array
@@ -117,40 +148,33 @@ translatePigLatin("consonant");
 
 :rocket: [Run Code](https://repl.it/CLmv/0)
 
-### Fourth Solution (recursive and declarative)
+### Code Explanation:
 
-```javascript
-function translatePigLatin(str) {
-  function check(obj) {
-      return ['a','i','u','e','o'].indexOf(str.charAt(obj)) == -1 ?
-                                                check(obj+1) : obj;}
+- `isConsonant()` is used to check if a character is a consonant.
+- If first character is vowel, add **way** to end of string and return it.
+- If first character is not a vowel:
+  - Split string into array using `split()`.
+  - Push all consonants to end of array with help of `shift()` and `push()`.
+  - Convert array to string using `join()` and add **ay** to end of string. Return it.
 
-  return str.substr(check(0))
-            .concat((check(0) === 0 ? 
-                        'w' : str.substr(0, check(0))) 
-                        + 'ay');
-}
+#### Relevant Links
 
-// test here
-translatePigLatin("consonant");
-```
+- [JS String Prototype Split](JS-String-Prototype-Split)
+- [JS Array Prototype Shift](JS-Array-Prototype-Shift)
+- [JS Array Prototype Push](JS-Array-Prototype-Push)
+- [JS Array Prototype Join](JS-Array-Prototype-Join)
 
-:rocket: [Run Code](https://repl.it/CLmw/0)
+### :trophy: Credits:
 
-## Code Explanation:
+If you found this page useful, you may say thanks to the contributors by copying and pasting the following line in the main chat:
 
-## First-Third solution:
+**`Thanks @Rafase282 @sabahang @aganita @Hallaathrad for your help with Algorithm: Pig Latin`**
 
-- Read comments on code.
+## :clipboard: NOTES FOR CONTRIBUTIONS:
 
-## Fourth solution (recursive and declarative)
+- :warning: **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
+- Add an explanation of your solution.
+- Categorize the solution in one of the following categories &mdash; **Basic**, **Intermediate** and **Advanced**. :traffic_light:
+- Please add your username only if you have added any **relevant main contents**. (:warning: **_DO NOT_** _remove any existing usernames_)
 
-Let's start with a recursive function that will go checking for the first letter of the string to be in an _array of vowels_. In case of consonants, call itself on the next characters until finding the first vowel. It'll return the index of whatever it finds to be the last initial consonant. (i.e. Schmidtsville's would be 3).
-
-Then we'll grab our string, remove the letters up until that index, concatenate either that same chunk of removed string or `w` accordingly, and then `ay` regardless.
-
-## Credits:
-
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 @sabahang @aganita @Hallaathrad for your help with Algorithm: Pig Latin`**
-
-> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
+> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution) for reference.
