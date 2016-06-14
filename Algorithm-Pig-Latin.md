@@ -9,7 +9,6 @@ You need to create a program that will translate from English to Pig Latin. Pig 
 #### Relevant Links
 
 - [Pig Latin](http://en.wikipedia.org/wiki/Pig_Latin)
-- [JS Regex Resources](JS-Regex-Resources)
 - [JS String Prototype Match](JS-String-Prototype-Match)
 
 ## :speech_balloon: Hint: 1
@@ -81,6 +80,7 @@ translatePigLatin("consonant");
 
 #### Relevant Links
 
+- [JS Regex Resources](JS-Regex-Resources)
 - [JS String Prototype IndexOf](JS-String-Prototype-IndexOf)
 - [JS String Prototype Substr](JS-String-Prototype-Substr)
 
@@ -88,40 +88,31 @@ translatePigLatin("consonant");
 
 ```javascript
 function translatePigLatin(str) {
-  // finding all the consonants in the beginning of the str.
-  // by using && below I'm achieving a concept called Intersection of Regular Expressions
-  // where your pattern finds the union of two or more RegEx rules.
-  // In Java you can achieve this with RegEx special character '&&'
-  // but in Javascript you can use the following instead.
-  // Credit goes to http://stackoverflow.com/q/6595477
-  var consChars = str.match(/^[a-z]/) && str.match(/[^aeiou]*/).join('');
-
-  //if no consonants found (i.e. str starts with vowels)
-  //use replace to remove consonants and construct newStr else add 'way' in the end
-  if (consChars !== ''){
-    newStr = str.replace(consChars, '') + consChars + "ay";
-  } else {
-    newStr = str + "way";
+  function check(obj) {
+      return ['a','i','u','e','o'].indexOf(str.charAt(obj)) == -1 ? check(obj + 1) : obj;
   }
-  return newStr;
+
+  return str.substr(check(0)).concat((check(0) === 0 ? 'w' : str.substr(0, check(0))) + 'ay');
 }
 
 // test here
 translatePigLatin("consonant");
 ```
 
-:rocket: [Run Code](https://repl.it/CLmu/0)
+:rocket: [Run Code](https://repl.it/CLmw/0)
 
 ### Code Explanation:
 
-- By using intersection of regular expressions, find all consonants in beginning of given string.
-- If string starts with vowel, add **way** to the end.
-- If string starts with consonant(s), use `replace()` to remove consonants and construct Pig Latin string.
+- This is a declarative as well as recursive approach to this problem.
+- `check()` is a function which checks for first letter of string to be in the array of vowels, `['a','i','u','e','o']`.
+- In case of consonants, `check()` calls itself on the next characters until finding the first vowel.
+- It'll return the index of whatever it finds to be the last initial consonant i.e., Schmidtsville's would be 3.
+- Then, letters up until that index are removed from the string and concatenated with either that same chunk of removed string or **w** accordingly, and then **ay** regardless.
 
 #### Relevant Links
 
-- [JS Array Prototype Join](JS-Array-Prototype-Join)
-- [JS String Prototype Replace](JS-String-Prototype-Replace)
+- [JS String Prototype CharAt](JS-String-Prototype-CharAt)
+- [JS String Prototype Concat](JS-String-Prototype-Concat)
 
 ## :rotating_light: Advanced Code Solution:
 
@@ -168,10 +159,10 @@ translatePigLatin("consonant");
 
 #### Relevant Links
 
-- [JS String Prototype CharAt](JS-String-Prototype-CharAt)
 - [JS String Prototype Split](JS-String-Prototype-Split)
 - [JS Array Prototype Shift](JS-Array-Prototype-Shift)
 - [JS Array Prototype Push](JS-Array-Prototype-Push)
+- [JS Array Prototype Join](JS-Array-Prototype-Join)
 
 ### :trophy: Credits:
 
