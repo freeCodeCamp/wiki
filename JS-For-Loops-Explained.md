@@ -35,4 +35,8 @@ From the example above, you can read:
 
 ## Why we need "for loops"?
 
-For loops is used to loop through a block of code a known number of times. Sometimes it is the computer that knows how many times, not you, but it is still known. Also, check out other loops (While and Do While).
+For loops are used to loop through a block of code a known number of times. Sometimes it is the computer that knows how many times, not you, but it is still known.
+
+Checkout some of our other articles on loops:
+- [While Loop](JS-While-Loop)
+- [For In Loop](JS-For-In-Loop)

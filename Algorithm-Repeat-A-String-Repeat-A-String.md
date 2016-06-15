@@ -59,7 +59,7 @@ function repeatStringNumTimes(str, num) {
 
 #### Relevant Links
 
-- [JS while Loop](JS-while-Loop)
+- [JS while Loop](JS-While-Loop)
 - [JS For Loops Explained](JS-For-Loops-Explained)
 
 ## :sunflower: Intermediate Code Solution:

@@ -118,7 +118,7 @@ dropElements([1, 2, 3, 4], function(n) {return n >= 3;});
 
 #### Relevant Links
 
-- [While loops](JS-while-Loop)
+- [While loops](JS-While-Loop)
 
 ### :trophy: Credits:
 
