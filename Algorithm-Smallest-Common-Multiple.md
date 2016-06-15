@@ -110,6 +110,8 @@ Note: If the array only has two elements, then the `for` loop never gets used an
 - [JS Do While Loop](JS-Do-While-Loop)
 - [String.length](String.length)
 
+## :sunflower: Intermediate Code Solution:
+
 ```javascript
 function smallestCommons(arr) {
     var range = [];
