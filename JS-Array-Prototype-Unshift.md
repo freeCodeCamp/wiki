@@ -16,10 +16,6 @@ The elements to add to the front of the array.
 
 The new `length` of the array upon which the method was called.
 
-## Description
-
-The `.unshift()` method inserts the given values to the beginning of an array.
-
 ## Examples
 
 ```javascript
@@ -32,5 +28,6 @@ array.unshift(0);
 array.unshift([-1]);
 // array is now [[-1], 0, 1, 2, 3, 4, 5];
 ```
+:rocket: [Run code](https://repl.it/C2V3)
 
 Source [MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift)
