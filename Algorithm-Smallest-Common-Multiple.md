@@ -1,6 +1,8 @@
 # Algorithm Smallest Common Multiple
 
-### Explanation:
+:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
+
+### :checkered_flag: Problem Explanation:
 
 The smallest common multiple between two numbers is the smallest number that both numbers can divide into. This concept can be extended to more than two numbers as well.
 
@@ -10,17 +12,27 @@ An example would be the numbers `3` and `4`. The multiples of `3` are `3, 6, 9, 
 
 This problem can be confusing because most people look for the smallest common multiple of just the two numbers but forget the keyword **range**. However, this means that if you are given `[1,5]`, then you have to check for the smallest common multiple for all the numbers `[1,2,3,4,5]` that is evenly divisible by all of them.
 
-## Hint: 1
+#### Relevant Links
+
+- [Least (Smallest) Common Multiple](https://en.wikipedia.org/wiki/Least_common_multiple)
+
+## :speech_balloon: Hint: 1
 
 Create an array with all the numbers that are missing from the original array to make it easier to check when having to check for even division.
 
-## Hint: 2
+> _try to solve the problem now_
+
+## :speech_balloon: Hint: 2
 
 You can use remainder operator (`%`) to check if the reminder of a division is 0, which means it is evenly divisible.
 
-## Hint: 3
+> _try to solve the problem now_
+
+## :speech_balloon: Hint: 3
 
 If you sort the array from greatest to smallest, then you can use the first two numbers as a first check for the smallest common multiple. This is because they are more likely to be the smallest common multiple than the lower numbers.
+
+> _try to solve the problem now_
 
 ## Spoiler Alert!
 
@@ -28,7 +40,7 @@ If you sort the array from greatest to smallest, then you can use the first two 
 
 **Solution ahead!**
 
-## Code Solution:
+## :beginner: Basic Code Solution:
 
 ```javascript
 function smallestCommons(arr) {
@@ -71,17 +83,15 @@ smallestCommons([1,5]);
 
 :rocket: [Run Code](https://repl.it/CLn2/0)
 
-## Code Explanation:
+### Code Explanation:
 
 - Because of the possibility of the smallest common denominator being among the two biggest numbers, it makes sense to check those first, so sort the array.
 - Create a new array to sort all the numbers, `newArr`.
 - Use a descending `for` loop (`var i = arr[0]; i >= arr[1]; i--`) to add the numbers from the biggest to the smallest in the new array.
 - Declare the variables for the quotient so we can access them outside the loop:
-
   - the quotient that'll be our smallest common multiple (`quot`)
   - the loop number we're checking (`loop`)
   - the index of the array of numbers (`n`)
-
 - Use a `do` `while` loop to check what we need while `n` is not the same length as the new array.
 - In the `do` part, we are going to multiply the very first number, times the number of loops, times the second number (`quot = newArr[0] * loop * newArr[1];`).
 - The `loop` part will allows us to increase the number we're checking beyond the greatest number we have without having to change the algorithm.
@@ -92,9 +102,57 @@ smallestCommons([1,5]);
 
 Note: If the array only has two elements, then the `for` loop never gets used and the return value is the product of said numbers.
 
-## Alternate solution:
+#### Relevant Links
 
-Note: The solution above requires over 2,000 loops to calculate the test case `smallestCommons([1,13])`, and over 4 million loops to calculate `smallestCommons([1,25])`. The alternate code below evaluates `smallestCommons([1,13])` in around 20 loops and `smallestCommons([1,25])` in 40, by using a more efficient algorithm.
+- [JS Array Prototype Sort](JS-Array-Prototype-Sort)
+- [JS For Loops Explained](JS-For-Loops-Explained)
+- [JS Array Prototype Push](JS-Array-Prototype-Push)
+- [JS Do While Loop](JS-Do-While-Loop)
+- [String.length](String.length)
+
+```javascript
+function smallestCommons(arr) {
+    var range = [];
+    for (var i = Math.max(arr[0], arr[1]); i >= Math.min(arr[0], arr[1]); i--) {
+    range.push(i);
+    }
+
+    // can use reduce() in place of this block
+    var lcm = range[0];
+    for (i = 1; i < range.length; i++) {
+    var GCD = gcd(lcm, range[i]);
+    lcm = (lcm * range[i]) / GCD;
+    }
+    return lcm;
+
+    function gcd(x, y) {    // Implements the Euclidean Algorithm
+    if (y === 0)
+        return x;
+    else
+        return gcd(y, x%y);
+    }
+}
+
+// test here
+smallestCommons([1,5]);
+```
+
+:rocket: [Run Code](https://repl.it/CLn4/0)
+
+### Code Explanation:
+
+- The first, basic solution requires over 2,000 loops to calculate the test case `smallestCommons([1,13])`, and over 4 million loops to calculate `smallestCommons([1,25])`. This solution evaluates `smallestCommons([1,13])` in around 20 loops and `smallestCommons([1,25])` in 40, by using a more efficient algorithm.
+- Make an empty array **range**.
+- All numbers between the given range are pushed to **range** using a `for` loop.
+- The next block of code implements the Euclidean algorithm, which is used for finding smallest common multiples.
+
+#### Relevant Links
+
+- [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm)
+- [JS Math Max](JS-Math-Max)
+- [JS Math Min](JS-Math-Min)
+
+## :rotating_light: Advanced Code Solution:
 
 ```javascript
 function smallestCommons(arr) {
@@ -122,40 +180,28 @@ smallestCommons([1,5]);
 
 :rocket: [Run Code](https://repl.it/CLn3/0)
 
-If you have trouble understanding the `.reduce()` method, you can compare it to this code, which essentially does the same thing:
+### Code Explanation:
 
-```javascript
-function smallestCommons(arr) {
-    var range = [];
-    for (var i = Math.max(arr[0], arr[1]); i >= Math.min(arr[0], arr[1]); i--) {
-    range.push(i);
-    }
+- Make an empty array **range**.
+- All numbers between the given range are pushed to **range** using a `for` loop.
+- Unlike the intermediate solution, the `.reduce()` method is used for the implementation of Euclidean algorithm here. There's no other difference between the intermediate and advanced solutions.
 
-    var lcm = range[0];
-    for (i = 1; i < range.length; i++) {
-    var GCD = gcd(lcm, range[i]);
-    lcm = (lcm * range[i]) / GCD;
-    }
-    return lcm;
+#### Relevant Links
 
-    function gcd(x, y) {    // Implements the Euclidean Algorithm
-    if (y === 0)
-        return x;
-    else
-        return gcd(y, x%y);
-    }
-}
+- [JS Array Prototype Reduce](JS-Array-Prototype-Reduce)
+- [JS Reduce Made Easy](JS-Reduce-Made-Easy)
 
-// test here
-smallestCommons([1,5]);
-```
+### :trophy: Credits:
 
-:rocket: [Run Code](https://repl.it/CLn4/0)
+If you found this page useful, you may say thanks to the contributors by copying and pasting the following line in the main chat:
 
-This code is based on the [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm) for finding smallest common multiples.
+**`Thanks @Rafase282 @Adoyle2014 @erictleung for your help with Algorithm: Smallest Common Multiple`**
 
-## Credits:
+## :clipboard: NOTES FOR CONTRIBUTIONS:
 
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 @Adoyle2014 @erictleung for your help with Algorithm: Smallest Common Multiple`**
+- :warning: **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
+- Add an explanation of your solution.
+- Categorize the solution in one of the following categories &mdash; **Basic**, **Intermediate** and **Advanced**. :traffic_light:
+- Please add your username only if you have added any **relevant main contents**. (:warning: **_DO NOT_** _remove any existing usernames_)
 
-> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
+> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution) for reference.
