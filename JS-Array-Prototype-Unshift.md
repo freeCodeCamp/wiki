@@ -31,7 +31,6 @@ array.unshift(0);
 
 array.unshift([-1]);
 // array is now [[-1], 0, 1, 2, 3, 4, 5];
-
 ```
 
 Source [MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift)
