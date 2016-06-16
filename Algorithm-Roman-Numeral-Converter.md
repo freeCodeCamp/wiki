@@ -136,7 +136,7 @@ convertToRoman(97);
 
 If you found this page useful, you can give thanks by copying and pasting this on the main chat:
 
-**`Thanks @Rafase282 @SaintPeter @benschac @mrthnmn for your help with Algorithm: Roman Numeral Converter`**
+**`Thanks @Rafase282 @SaintPeter @benschac for your help with Algorithm: Roman Numeral Converter`**
 
 ## :clipboard: NOTES FOR CONTRIBUTIONS:
 
