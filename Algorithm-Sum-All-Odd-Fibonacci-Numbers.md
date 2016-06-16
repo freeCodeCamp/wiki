@@ -69,7 +69,7 @@ sumFibs(4);
 
 #### Relevant Links
 
-- [JS while Loop](JS-while-Loop)
+- [JS while Loop](JS-While-Loop)
 
 ## :sunflower: Intermediate Code Solution:
 

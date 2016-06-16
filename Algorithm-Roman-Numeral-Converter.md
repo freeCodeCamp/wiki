@@ -66,7 +66,7 @@ convertToRoman(36);
 #### Relevant Links
 
 - [For Loops](JS-For-Loop)
-- [While Loops](JS-while-Loop)
+- [While Loops](JS-While-Loop)
 
 ### :trophy: Credits:
 
