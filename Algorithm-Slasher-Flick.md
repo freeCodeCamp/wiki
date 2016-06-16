@@ -6,6 +6,11 @@
 
 For example: `slasher([1, 2, 3], 2);` must return [3].
 
+#### Relevant Links
+
+- [JS Array Prototype Splice](JS-Array-Prototype-Splice)
+- [JS Array Prototype Slice](JS-Array-Prototype-Slice)
+
 ## :speech_balloon: Hint: 1
 
 - We need only the remaining part of an array, so we can just remove what we don't.
@@ -51,10 +56,6 @@ slasher([1, 2, 3], 2);
 - Second argument, **howMany** is the number of elements to be removed starting with **arr[0]**.
 - Modify the array with `splice()` and return it.
 
-#### Relevant Links
-
-- [JS Array Prototype Splice](JS-Array-Prototype-Splice)
-
 ## :sunflower: Intermediate Code Solution:
 
 ```javascript
@@ -73,10 +74,6 @@ function slasher(arr, howMany) {
 - This solution uses the `slice()` function.
 - The argument **howMany** is the number of elements to be removed starting with **arr[0]**.
 - Modify the array with `slice()` and return it.
-
-#### Relevant Links
-
-- [JS Array Prototype Slice](JS-Array-Prototype-Slice)
 
 ### :trophy: Credits:
 
