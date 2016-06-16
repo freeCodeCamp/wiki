@@ -1,22 +1,28 @@
 # Algorithm Slasher Flick
 
-### Problem Explanation:
+:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
 
-Return the remaining elements of an array after chopping off n elements from the head.
+### :checkered_flag: Problem Explanation:
 
-For example: `slasher([1, 2, 3], 2);` must return [3]
+For example: `slasher([1, 2, 3], 2);` must return [3].
 
-## Analysis:
+## :speech_balloon: Hint: 1
 
-We need only the remaining part of an array, so we can just remove what we don't.
+- We need only the remaining part of an array, so we can just remove what we don't.
 
-## Understanding slicing:
+> _try to solve the problem now_
 
-`.slice()` allows to get only what you want from an array.
+## :speech_balloon: Hint: 2
 
-## Understanding the splice:
+- `splice()` function can be used.
 
-If you want the **tail** of a snake remove the head first. The `.splice()` method changes the content of an array by removing existing elements and/or adding new elements. This can be handy. Get an array, remove the first part and return the remaining.
+> _try to solve the problem now_
+
+## :speech_balloon: Hint: 3
+
+- `slice()` function can be used.
+
+> _try to solve the problem now_
 
 ## Spoiler Alert!
 
@@ -24,13 +30,13 @@ If you want the **tail** of a snake remove the head first. The `.splice()` metho
 
 **Solution ahead!**
 
-## Code Solution:
+## :beginner: Basic Code Solution:
 
 ```javascript
 function slasher(arr, howMany) {
   // remove the head
-  arr.splice(0,howMany);
-  //return the remaining or the tail  \__/(**)-<
+  arr.splice(0, howMany);
+  // return the remaining or the tail
   return arr;
 }
 slasher([1, 2, 3], 2);
@@ -38,12 +44,23 @@ slasher([1, 2, 3], 2);
 
 :rocket: [Run Code](https://repl.it/CLjU/28)
 
-## Code Solution 2:
+### Code Explanation:
+
+- This solution uses the `splice()` function.
+- First argument, **arr** is the array to be modified.
+- Second argument, **howMany** is the number of elements to be removed starting with **arr[0]**.
+- Modify the array with `splice()` and return it.
+
+#### Relevant Links
+
+- [JS Array Prototype Splice](JS-Array-Prototype-Splice)
+
+## :sunflower: Intermediate Code Solution:
 
 ```javascript
 function slasher(arr, howMany) {
 
-  //Return string after the amount chopped off.
+  // Return string after the amount chopped off.
   return arr.slice(howMany);
 
 }
@@ -51,27 +68,27 @@ function slasher(arr, howMany) {
 
 :rocket: [Run Code](https://repl.it/CLjU/29)
 
-## References
+### Code Explanation:
 
-- [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
+- This solution uses the `slice()` function.
+- The argument **howMany** is the number of elements to be removed starting with **arr[0]**.
+- Modify the array with `slice()` and return it.
 
-## Credits:
+#### Relevant Links
 
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @clint74 @Rafase282 @M-Bowe for your help with Algorithm: Slasher Flick`**
+- [JS Array Prototype Slice](JS-Array-Prototype-Slice)
 
-> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
+### :trophy: Credits:
 
-```
-           ,,,         ,,,
-          ;"   ^;     ;'   ",
-          ;    s$$$$$$$s     ;
-          ,  ss$$$$$$$$$$s  ,'
-          ;s$$$$$$$$$$$$$$$
-          $$$$$$$$$$$$$$$$$$
-         $$$$P""Y$$$Y""W$$$$$      -{ Happy Camping! }
-         $$$$  p"$$$"q  $$$$$
-         $$$$  .$$$$$.  $$$$
-          $$DcaU$$$$$$$$$$
-            "Y$$$"*"$$$Y"
-                "$b.$$"
-```
+If you found this page useful, you may say thanks to the contributors by copying and pasting the following line in the main chat:
+
+**`Thanks @clint74 @Rafase282 @M-Bowe @dakshshah96 for your help with Algorithm: Slasher Flick`**
+
+## :clipboard: NOTES FOR CONTRIBUTIONS:
+
+- :warning: **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
+- Add an explanation of your solution.
+- Categorize the solution in one of the following categories &mdash; **Basic**, **Intermediate** and **Advanced**. :traffic_light:
+- Please add your username only if you have added any **relevant main contents**. (:warning: **_DO NOT_** _remove any existing usernames_)
+
+> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution) for reference.
