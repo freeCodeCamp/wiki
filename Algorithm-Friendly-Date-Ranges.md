@@ -1,20 +1,32 @@
 # Algorithm Friendly Date Ranges
 
-### Problem Explanation:
+:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
 
-- Create a program that will take two dates and convert them into a more easy to understand date such as `January 1st, 2017`. It will also check the difference between them, and handles cases with no difference, more than a day, more than a month, more than a year, and more than a month and less than a year respectively.
+### :checkered_flag: Problem Explanation:
 
-## Hint: 1
+Create a program that will take two dates and convert them into a more easy to understand date such as `January 1st, 2017`. It will also check the difference between them, and handles cases with no difference, more than a day, more than a month, more than a year, and more than a month and less than a year respectively.
 
-- Split the string into an array where you get the "YYYY", "MM", "DD"
+#### Relevant Links
 
-## Hint: 2
+- [Global Object Date](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
 
-- You need to handle the case for "st", "nd", and "th". Note that 13 is "th" not "rd".
+## :speech_balloon: Hint: 1
 
-## Hint: 3
+Split the string into an array where you get "YYYY", "MM", "DD".
 
-- If you are using `Date()` to create instances of dates to work with, then use UTC time to avoid errors due to time zone difference between servers.
+> _try to solve the problem now_
+
+## :speech_balloon: Hint: 2
+
+You need to handle the case for "st", "nd", and "th". Note that 13 is "th" not "rd".
+
+> _try to solve the problem now_
+
+## :speech_balloon: Hint: 3
+
+If you are using `Date()` to create instances of dates to work with, then use UTC time to avoid errors due to time zone difference between servers.
+
+> _try to solve the problem now_
 
 ## Spoiler Alert!
 
@@ -22,7 +34,7 @@
 
 **Solution ahead!**
 
-## Code Solution:
+## :beginner: Basic Code Solution:
 
 ```javascript
 function makeFriendlyDates(str) {
@@ -104,7 +116,7 @@ function makeFriendlyDates(str) {
       return [getMonth(date1) + ' ' + dateEnding(date1.getUTCDate())+', '+date1.getUTCFullYear(), getMonth(date2) + ' ' + dateEnding(date2.getUTCDate())];
     }
 
-    // Handles cases with more than 12 months apaprt.
+    // Handles cases with more than 12 months apart.
     return [getMonth(date1) + ' ' + dateEnding(date1.getUTCDate()) + ', ' + date1.getUTCFullYear(), getMonth(date2) + ' ' + dateEnding(date2.getUTCDate()) + ', ' + date2.getUTCFullYear()];
   }
 
@@ -121,12 +133,43 @@ makeFriendlyDates(['2016-07-01', '2016-07-04']);
 
 :rocket: [Run Code](https://repl.it/CLos/0)
 
-## Code Explanation:
+### Code Explanation:
 
-- Read comments in code
+- The function `convertDate()` converts a string in the format YYYY-MM-DD to a date object.
+  - `split()` the dates on **-** to work independently.
+  - Force the dates into universal time to avoid timezone issues.
+- The function `dateEnding()` handles day's ending i.e., appending **st**, **nd**, **rd** or **th**.
+- The function `monthDiff()` checks the real difference in month to avoid errors.
+- The function `dayDiff()` checks the real difference in day to avoid errors.
+- The function `getMonth()` returns month string for particular date.
+- The function `displayDate()` displays the date correctly. Following provisions are made:
+  - Handles same day.
+  - Handles same month.
+  - Handles more than a month of difference, but less than 12 months and different year.
+  - Handles same month but different year.
+  - Handles more than a month of difference, but less than 12 months and same year.
+  - Handles cases with more than 12 months apart.
 
-## Credits:
+#### Relevant Links
 
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 @guyjoseph for your help with Algorithm: Friendly Date Ranges`**
+- [JS String Prototype Split](JS-String-Prototype-Split)
+- [Date.UTC()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/UTC)
+- [Date.prototype.getUTCFullYear()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getUTCFullYear)
+- [Date.prototype.getUTCMonth()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getUTCMonth)
+- [Date.prototype.getUTCDate()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getUTCDate)
+- [Date.prototype.getTime()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getTime)
 
-> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
+### :trophy: Credits:
+
+If you found this page useful, you may say thanks to the contributors by copying and pasting the following line in the main chat:
+
+**`Thanks @Rafase282 @guyjoseph @dakshshah96 for your help with Algorithm: Friendly Date Ranges`**
+
+## :clipboard: NOTES FOR CONTRIBUTIONS:
+
+- :warning: **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
+- Add an explanation of your solution.
+- Categorize the solution in one of the following categories &mdash; **Basic**, **Intermediate** and **Advanced**. :traffic_light:
+- Please add your username only if you have added any **relevant main contents**. (:warning: **_DO NOT_** _remove any existing usernames_)
+
+> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution) for reference.
