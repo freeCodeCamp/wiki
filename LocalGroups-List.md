@@ -50,6 +50,7 @@ Please note that all local groups are unofficial, independently organized groups
   - [Sydney](https://www.facebook.com/groups/free.code.camp.sydney.au/)
   - [Townsville](https://www.facebook.com/groups/free.code.camp.townsville/)
   - [Wagga Wagga](https://www.facebook.com/groups/free.code.camp.wagga/)
+  - [Wollongong](https://www.facebook.com/groups/free.code.camp.wollongong/)
 - Austria
   - [Graz](https://www.facebook.com/groups/free.code.camp.graz/)
   - [Innsbruck](https://www.facebook.com/groups/free.code.camp.innsbruck/)
@@ -92,6 +93,7 @@ Please note that all local groups are unofficial, independently organized groups
   - [Mostar](https://www.facebook.com/groups/free.code.camp.mostar/)
   - [Sarajevo](https://www.facebook.com/groups/free.code.camp.sarajevo)
   - [Srebrenica](https://www.facebook.com/groups/free.code.camp.srebrenica/)
+  - [Travnik](https://www.facebook.com/groups/free.code.camp.travnik/)
   - [Tuzla](https://www.facebook.com/groups/free.code.camp.tuzla/)
   - [Zenica](https://www.facebook.com/groups/free.code.camp.bih.zenica/)
 - Botswana
@@ -134,6 +136,7 @@ Please note that all local groups are unofficial, independently organized groups
   - [Joao Pessoa](https://www.facebook.com/groups/free.code.camp.joao.pessoa/)
   - [Joinville](https://www.facebook.com/groups/free.code.camp.joinville/)
   - [Juiz de Fora](https://www.facebook.com/groups/free.code.camp.juiz.de.fora/)
+  - [Lajeado](https://www.facebook.com/groups/free.code.camp.lajeado/)
   - [Londrina](https://www.facebook.com/groups/free.code.camp.londrina/)
   - [Lucas do Rio Verde](https://www.facebook.com/groups/1683221241966841/)
   - [Manaus](https://www.facebook.com/groups/free.code.camp.manaus/)
@@ -144,6 +147,7 @@ Please note that all local groups are unofficial, independently organized groups
   - [Olinda](https://www.facebook.com/groups/free.code.camp.olinda/)
   - [Ouro Fino](https://www.facebook.com/groups/free.code.camp.ouro.fino.mg/)
   - [Porto Alegre](https://www.facebook.com/groups/free.code.camp.porto.alegre.rs/)
+  - [Porto Velho](https://www.facebook.com/groups/free.code.camp.porto.velho/)
   - [Recife](https://www.facebook.com/groups/free.code.camp.recife)
   - [Riberão Preto](https://www.facebook.com/groups/fcc.ribeiraopreto/)
   - [Rio das Ostras](https://www.facebook.com/groups/free.code.camp.rio.das.ostras/)
@@ -173,6 +177,7 @@ Please note that all local groups are unofficial, independently organized groups
 - Cambodia
   - [Phnom Penh](https://www.facebook.com/groups/free.code.camp.phnompenh.cambodia/)
 - Cameroon
+  - [Bamenda](https://www.facebook.com/groups/free.code.camp.your.Bamenda/) 
   - [Buea](https://www.facebook.com/groups/free.code.camp.buea/)
   - [Yaounde](https://www.facebook.com/groups/free.code.camp.yaounde)
   - [Douala](https://www.facebook.com/groups/free.code.camp.douala/)
@@ -465,6 +470,7 @@ Please note that all local groups are unofficial, independently organized groups
   - [Alexandroupolis](https://www.facebook.com/groups/free.code.camp.alexandroupolis)
   - [Athens](https://www.facebook.com/groups/free.code.camp.athens.greece/)
   - [Heraklion](https://www.facebook.com/groups/free.code.camp.heraklion/)
+  - [Ioannina](https://www.facebook.com/groups/free.code.camp.ioannina/)
   - [Katerini](https://www.facebook.com/groups/free.code.camp.katerini/)
   - [Naxos](https://www.facebook.com/groups/free.code.camp.naxos.gr)
   - [Patras](https://www.facebook.com/groups/free.code.camp.Patras/)
@@ -591,6 +597,7 @@ Please note that all local groups are unofficial, independently organized groups
     - [Gorakhpur](https://www.facebook.com/groups/free.code.camp.gorakhpur/)
     - [Greater Noida](https://www.facebook.com/groups/free.code.camp.greater.noida/)
     - [Jhansi](https://www.facebook.com/groups/free.code.camp.jhansi/)
+    - [Kanpur](https://www.facebook.com/groups/free.code.camp.knp/)
     - [Lucknow](https://www.facebook.com/groups/1647602228815736/)
     - [Noida](https://www.facebook.com/groups/free.code.camp.noida/)
     - [Meerut](https://www.facebook.com/groups/free.code.camp.meerut/)
@@ -641,6 +648,7 @@ Please note that all local groups are unofficial, independently organized groups
   - [Cork](https://www.facebook.com/groups/free.code.camp.cork.ireland/)
   - [Dublin](https://www.facebook.com/groups/free.code.camp.dublin/)
   - [Galway](https://www.facebook.com/groups/free.code.camp.galway/)
+  - [Limerick](https://www.facebook.com/groups/free.code.camp.limerick/)
   - [Sligo](https://www.facebook.com/groups/free.code.camp.sligo/)
   - [Waterford](https://www.facebook.com/groups/free.code.camp.waterford/)
 - Isle of Man
@@ -887,6 +895,7 @@ Please note that all local groups are unofficial, independently organized groups
   - [Aichi](https://www.facebook.com/groups/free.code.camp.aichi/)
   - [Huancayo](https://www.facebook.com/groups/free.code.camp.huancayo)
   - [Lima](https://www.facebook.com/groups/Free.Code.Camp.Lima/)
+  - [Moquegua](https://www.facebook.com/groups/free.code.camp.moquegua/)
   - [Trujillo](https://www.facebook.com/groups/free.code.camp.trujillo)
 - Philippines
   - [Batangas](https://www.facebook.com/groups/free.code.camp.batangas/)
@@ -1465,6 +1474,7 @@ Please note that all local groups are unofficial, independently organized groups
     - [East Hanover](https://www.facebook.com/groups/free.code.camp.east.hanover/)
     - [Flanders](https://www.facebook.com/groups/free.code.camp.flanders.nj/)
     - [Jersey City](https://www.facebook.com/groups/free.code.camp.jersey.city.new.jersey/)
+    - [McAfee](https://www.facebook.com/groups/free.code.camp.mcafee/)
     - [Medford](https://www.facebook.com/groups/free.code.camp.medford.nj/)
     - [New Brunswick](https://www.facebook.com/groups/free.code.camp.new.brunswick.new.jersey/)
     - [Newark](https://www.facebook.com/groups/free.code.camp.newark/)
