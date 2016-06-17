@@ -6,6 +6,13 @@
 
 You will create a program that converts an integer to a Roman Numeral.
 
+#### Relevant Links
+
+- [Roman Numerals](http://www.mathsisfun.com/roman-numerals.html)
+- [Array.splice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
+- Array.indexOf()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf)
+- [Array.join()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
+
 ## :speech_balloon: Hint: 1
 
 Creating two arrays, one with the Roman Numerals and one with the decimal equivalent for the new forms will be very helpful.
@@ -65,10 +72,10 @@ convertToRoman(36);
 
 #### Relevant Links
 
-- [For Loops](JS-For-Loop)
-- [While Loops](JS-while-Loop)
+- [For Loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
+- [While Loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while)
 
-## :intermediate: Intermediate Code Solution:
+## :sunflower: Intermediate Code Solution:
 
 ```javascript
 function convertToRoman(num) {
@@ -89,7 +96,7 @@ function convertToRoman(num) {
       case 1:
         romanNumber.push(numeral);
         break;
-        case 2:
+      case 2:
         romanNumber.push(numeral.concat(numeral));
         break;
       case 3:
@@ -112,7 +119,6 @@ function convertToRoman(num) {
         break;
       case 9:
         romanNumber.push(romans[i*2].concat(romans[(i*2)+2]));
-        break;
       }
     }
   return romanNumber.reverse().join("").toString();
@@ -124,19 +130,25 @@ convertToRoman(97);
 
 :rocket: [Run Code](https://repl.it/C1YV)
 
-## Code Explanation:
+### Code Explanation:
 
-- Create an array of Roman Numerals.
-- Push each digit of the argument onto an array (ints).
-- Loop through the array of digits (base 10) and as you do, increment the Roman Numeral (base 5) index by 2.
+- Create an array of Roman Numerals (`romans`).
+- Use a for loop to create an array of the digits (`ints`) in the number.
+- Loop through the array of digits (base 10) and as you do, increment the Roman Numeral (base 5) index by 2 (`numeral = romans[i*2]`).
 - Within the loop, use Switch Case to push the proper Roman Numerals (backwards) onto that array.
 - Reverse the Roman Numerals array and turn it into a string.
+
+#### Relevant Links
+
+- [For Loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
+- [While Loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while)
+- [Math](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
 
 ### :trophy: Credits:
 
 If you found this page useful, you can give thanks by copying and pasting this on the main chat:
 
-**`Thanks @Rafase282 @SaintPeter @benschac for your help with Algorithm: Roman Numeral Converter`**
+**`Thanks @Rafase282 @SaintPeter @benschac @mrthnmn for your help with Algorithm: Roman Numeral Converter`**
 
 ## :clipboard: NOTES FOR CONTRIBUTIONS:
 
