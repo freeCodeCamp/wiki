@@ -9,9 +9,9 @@ You will create a program that converts an integer to a Roman Numeral.
 #### Relevant Links
 
 - [Roman Numerals](http://www.mathsisfun.com/roman-numerals.html)
-- [Array.splice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
+- [Array.splice()](https://github.com/FreeCodeCamp/wiki/blob/master/JS-Array-Prototype-Splice.md)
 - Array.indexOf()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf)
-- [Array.join()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
+- [Array.join()](https://github.com/FreeCodeCamp/wiki/blob/master/JS-Array-Prototype-Join.md)
 
 ## :speech_balloon: Hint: 1
 
@@ -72,8 +72,8 @@ convertToRoman(36);
 
 #### Relevant Links
 
-- [For Loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
-- [While Loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while)
+- [For Loops](https://github.com/FreeCodeCamp/wiki/blob/master/JS-For-Loop.md)
+- [While Loops](https://github.com/FreeCodeCamp/wiki/blob/master/JS-While-Loop.md)
 
 ## :sunflower: Intermediate Code Solution:
 
@@ -140,8 +140,8 @@ convertToRoman(97);
 
 #### Relevant Links
 
-- [For Loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
-- [While Loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while)
+- [For Loops](https://github.com/FreeCodeCamp/wiki/blob/master/JS-For-Loop.md)
+- [While Loops](https://github.com/FreeCodeCamp/wiki/blob/master/JS-While-Loop.md)
 - [Math](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
 
 ### :trophy: Credits:
