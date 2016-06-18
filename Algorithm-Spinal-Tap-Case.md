@@ -4,7 +4,7 @@
 
 ### :checkered_flag: Problem Explanation:
 
-Convert the given string to an all lowercase sentence with words joined by dashes.
+Convert the given string to a lowercase sentence with words joined by dashes.
 
 #### Relevant Links
 
