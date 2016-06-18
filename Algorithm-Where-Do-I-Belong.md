@@ -1,20 +1,31 @@
 # Algorithm Where do I Belong
 
-### Explanation:
+:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
+
+### :checkered_flag: Problem Explanation:
 
 This can be a tricky problem to understand. You need to find where in the array a number should be inserted by order, and return the index where it should go.
 
-## Hint: 1
+#### Relevant Links
+- [JS Array Sort](JS-Array-Prototype-Sort)
+
+## :speech_balloon: Hint: 1
 
 The first thing to do is sort the array from lower to bigger, just to make the code easier. This is where sort comes in, it needs a callback function so you have to create it.
 
-## Hint: 2
+> _try to solve the problem now_
+
+## :speech_balloon: Hint: 2
 
 Once the array is sorted, then just check for the first number that is bigger and return the index.
 
-## Hint: 3
+> _try to solve the problem now_
+
+## :speech_balloon: Hint: 3
 
 If there is no index for that number then you will have to deal with that case too.
+
+> _try to solve the problem now_
 
 ## Spoiler Alert!
 
@@ -22,7 +33,7 @@ If there is no index for that number then you will have to deal with that case t
 
 **Solution ahead!**
 
-## Code Solution:
+## :beginner: Basic Code Solution:
 
 ```javascript
 function getIndexToIns(arr, num) {
@@ -46,7 +57,9 @@ function getIndexToIns(arr, num) {
 - First I sort the array using `.sort(callbackFuntion)` to sort it by lowest to highest, from left to right.
 - Then I use a for loop to compare the items in the array starting from the smallest one. When an item on the array is greater than the number we are comparing against, then we return the index as an integer.
 
-## Code Solution 2:
+## :sunflower: Intermediate Code Solution:
+
+**Using `.indexOf()`**
 
 ```javascript
 function getIndexToIns(arr, num) {
@@ -65,8 +78,14 @@ function getIndexToIns(arr, num) {
 - First insert the number into the array using the `Array.push()` method.
 - Then use the numerical sort method to sort the elements of the array. in the end just return the index value of the number that was push earlier using the `Array.indexOf()` method.
 
-## Credits:
+### :trophy: Credits:
 
 If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 and @rahul1992 for your help with Algorithm: Where do I belong`**
 
-> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
+## :clipboard: NOTES FOR CONTRIBUTIONS:
+- :warning: **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
+- Add an explanation of your solution.
+- Categorize the solution in one of the following categories &mdash; **Basic**, **Intermediate** and **Advanced**. :traffic_light:
+- Please add your username only if you have added any **relevant main contents**. (:warning: **_DO NOT_** _remove any existing usernames_)
+
+> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution) for reference.
