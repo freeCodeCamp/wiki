@@ -15,7 +15,7 @@ Convert the given string to a lowercase sentence with words joined by dashes.
 
 ## :speech_balloon: Hint: 1
 
-Create a regex for all white spaces and underscores.
+Create a regular expression for all white spaces and underscores.
 
 > _try to solve the problem now_
 
@@ -27,7 +27,7 @@ You will also have to make everything lowercase.
 
 ## :speech_balloon: Hint: 3
 
-The tricky part is getting the regex part to work, once you do that then just turn the uppercase to lowercase and replace spaces with underscores using `replace()`.
+The tricky part is getting the regular expression part to work, once you do that then just turn the uppercase to lowercase and replace spaces with underscores using `replace()`.
 
 > _try to solve the problem now_
 
@@ -82,7 +82,7 @@ spinalCase('This Is Spinal Tap');
 ### Code Explanation:
 
 - Similar to the first solution, the first `replace()` puts a space before any encountered uppercase characters in the string **str** so that the spaces can be replaced by dashes later on.
-- Instead of using `replace()` here to replace whitespace and underscores with dashes, the string is `split()` on regex `/(?:_| )+/` and `join()`-ed on `-`.
+- Instead of using `replace()` here to replace whitespace and underscores with dashes, the string is `split()` on the regular expression `/(?:_| )+/` and `join()`-ed on `-`.
 
 #### Relevant Links
 
