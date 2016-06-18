@@ -1,20 +1,35 @@
 # Algorithm Spinal Tap Case
 
-### Problem Explanation:
+:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
 
-- Convert the given string to an all lowercase sentence joined by dashes.
+### :checkered_flag: Problem Explanation:
 
-## Hint: 1
+Convert the given string to an all lowercase sentence with words joined by dashes.
 
-- Create a regex to for all white spaces and underscores.
+#### Relevant Links
 
-## Hint: 2
+- [String global object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
+- [JS Regex Resources](JS-Regex-Resources)
+- [JS String Prototype Replace](JS-String-Prototype-Replace)
+- [JS String Prototype ToLowerCase](JS-String-Prototype-ToLowerCase)
 
-- You will also have to make everything lowercase.
+## :speech_balloon: Hint: 1
 
-## Hint: 3
+Create a regex for all white spaces and underscores.
 
-- The tricky part is getting the regex part to work, once you do that then just turn the uppercase to lowercase and replace spaces with underscores using `replace()`
+> _try to solve the problem now_
+
+## :speech_balloon: Hint: 2
+
+You will also have to make everything lowercase.
+
+> _try to solve the problem now_
+
+## :speech_balloon: Hint: 3
+
+The tricky part is getting the regex part to work, once you do that then just turn the uppercase to lowercase and replace spaces with underscores using `replace()`.
+
+> _try to solve the problem now_
 
 ## Spoiler Alert!
 
@@ -22,9 +37,7 @@
 
 **Solution ahead!**
 
-## Code Solution:
-
-### First solution
+## :beginner: Basic Code Solution:
 
 ```javascript
 function spinalCase(str) {
@@ -44,7 +57,13 @@ spinalCase('This Is Spinal Tap');
 
 :rocket: [Run Code](https://repl.it/CLnS/0)
 
-### Second solution
+### Code Explanation:
+
+- **regex** contains the regular expression `/\s+|_+/g`, which will select all white spaces and underscores.
+- The first `replace()` puts a space before any encountered uppercase characters in the string **str** so that the spaces can be replaced by dashes later on.
+- While returning the string, another `replace()` replaces spaces and underscores with dashes using **regex**.
+
+## :sunflower: Intermediate Code Solution:
 
 ```javascript
 function spinalCase(str) {
@@ -60,14 +79,27 @@ spinalCase('This Is Spinal Tap');
 
 :rocket: [Run Code](https://repl.it/CLnT/0)
 
-## Code Explanation:
+### Code Explanation:
 
-## First and Second solutions
+- Similar to the first solution, the first `replace()` puts a space before any encountered uppercase characters in the string **str** so that the spaces can be replaced by dashes later on.
+- Instead of using `replace()` here to replace whitespace and underscores with dashes, the string is `split()` on regex `/(?:_| )+/` and `join()`-ed on `-`.
 
-- Read comments in code.
+#### Relevant Links
 
-## Credits:
+- [JS String Prototype Split](JS-String-Prototype-Split)
+- [JS Array Prototype Join](JS-Array-Prototype-Join)
 
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 @anuragaryan for your help with Algorithm: Spinal Tap Case`**
+### :trophy: Credits:
 
-> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
+If you found this page useful, you may say thanks to the contributors by copying and pasting the following line in the main chat:
+
+**`Thanks @Rafase282 @anuragaryan @dakshshah96 for your help with Algorithm: Spinal Tap Case`**
+
+## :clipboard: NOTES FOR CONTRIBUTIONS:
+
+- :warning: **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
+- Add an explanation of your solution.
+- Categorize the solution in one of the following categories &mdash; **Basic**, **Intermediate** and **Advanced**. :traffic_light:
+- Please add your username only if you have added any **relevant main contents**. (:warning: **_DO NOT_** _remove any existing usernames_)
+
+> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution) for reference.
