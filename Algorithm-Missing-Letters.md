@@ -1,20 +1,34 @@
 # Algorithm Missing Letters
 
-### Problem Explanation:
+:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
 
-- You will create a program that will find the missing letter from a string and add it. If there is not missing letter it will return undefined. There is currently no test case for it missing more than one letter, but if anything recursion can be implemented or a second or more calls to the same function as needed. Also the letters are always provided in order so there is no need to sort them.
+### :checkered_flag: Problem Explanation:
 
-## Hint: 1
+You will create a program that will find the missing letter from a string and add it. If there is no missing letter, the program should return undefined. There is currently no test case for the string missing more than one letter, but if there was one, recursion would be used. Also, the letters are always provided in order so there is no need to sort them.
 
-- You will need to convert from character to ASCII code using the two methods provided in the description.
+#### Relevant Links
 
-## Hint: 2
+- [String global object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
+- [JS String Prototype CharCodeAt](JS-String-Prototype-CharCodeAt)
+- [String.fromCharCode](String.fromCharCode)
 
-- You will have to check for the difference in ASCII code as they are in order. Using a chart would be very helpful.
+## :speech_balloon: Hint: 1
 
-## Hint: 3
+You will need to convert from character to ASCII code using the two methods provided in the description.
 
-- You will need to figure out where to insert the letter and how to do it, along with handling the case that there is not missing letter as it needs an specific return value.
+> _try to solve the problem now_
+
+## :speech_balloon: Hint: 2
+
+You will have to check for the difference in ASCII code as they are in order. Using a chart would be very helpful.
+
+> _try to solve the problem now_
+
+## :speech_balloon: Hint: 3
+
+You will need to figure out where to insert the letter and how to do it, along with handling the case that there is not missing letter as it needs an specific return value.
+
+> _try to solve the problem now_
 
 ## Spoiler Alert!
 
@@ -22,54 +36,7 @@
 
 **Solution ahead!**
 
-## Code Solution:
-
-### First solution:
-
-```javascript
-function fearNotLetter(str) {
-  // Create our variables.
-  var firstCharacter = str.charCodeAt(0);
-  var valueToReturn = '';
-  var secondCharacter = '';
-
-  // Function to find the missing letters
-  var addCharacters = function(a, b) {
-    while (a - 1 > b) {
-      b++;
-      valueToReturn += String.fromCharCode(b);
-    }
-    return valueToReturn;
-  };
-
-  // Check if letters are missing in between.
-  for (var index = 1; index < str.length; index++) {
-    secondCharacter = str.charCodeAt(index);
-
-    // Check if the diference in code is greater than one.
-    if (secondCharacter - firstCharacter > 1) {
-      // Call function to missing letters
-      addCharacters(secondCharacter, firstCharacter);
-    }
-
-    // Switch positions
-    firstCharacter = str.charCodeAt(index);
-  }
-
-  // Check whether to return undefined or the missing letters.
-  if (valueToReturn === '')
-    return undefined;
-  else
-    return valueToReturn;
-}
-
-// test here
-fearNotLetter("abce");
-```
-
-:rocket: [Run Code](https://repl.it/CLnC/0)
-
-### Second solution:
+## :beginner: Basic Code Solution:
 
 ```javascript
 function fearNotLetter(str) {
@@ -78,12 +45,12 @@ function fearNotLetter(str) {
     /* code of current character */
     var code = str.charCodeAt(i);
 
-    /* if code of current character is not equal to first charcter + no of iteration
-    hence character has been escaped*/
-    if ( code !== str.charCodeAt(0) + i) {
+    /* if code of current character is not equal to first character + no of iteration
+    hence character has been escaped */
+    if (code !== str.charCodeAt(0) + i) {
 
-      /* if current character has escaped one character find previous char and return*/
-      return String.fromCharCode(code-1);
+      /* if current character has escaped one character find previous char and return */
+      return String.fromCharCode(code - 1);
     }  
   }
   return undefined;
@@ -95,7 +62,20 @@ fearNotLetter("abce");
 
 :rocket: [Run Code](https://repl.it/CLnD/0)
 
-### Third solution (Declarative)
+### Code Explanation:
+
+- This solutions makes use of a `for` loop.
+- Code of encountered character is stored in **code**.
+- It is checked if code of current character is the expected one (no characters are skipped) by using the logic - `code of current character = code of first character + number of iterations`.
+- If a character is missing, the missing character is found and the final string is returned.
+- `undefined` is returned if there is no missing character in the string.
+
+#### Relevant Links
+
+- [JS For Loops Explained](JS-For-Loops-Explained)
+- [String.length](String.length)
+
+## :sunflower: Intermediate Code Solution:
 
 ```javascript
 // Adding this solution for the sake of avoiding using 'for' and 'while' loops.
@@ -104,9 +84,12 @@ fearNotLetter("abce");
 function fearNotLetter(str) {
   var compare = str.charCodeAt(0), missing;
 
-  str.split('').map(function(letter,index){
-    if (str.charCodeAt(index) == compare) { ++compare; }
-    else { missing = String.fromCharCode(compare); }
+  str.split('').map(function(letter,index) {
+    if (str.charCodeAt(index) == compare) {
+      ++compare;
+    } else {
+      missing = String.fromCharCode(compare);
+    }
   });
 
   return missing;
@@ -118,39 +101,30 @@ fearNotLetter("abce");
 
 :rocket: [Run Code](https://repl.it/CLnE/0)
 
-### Fourth solution:
+### Code Explanation:
 
-```javascript
-function fearNotLetter(str) {
-  var strArr = str.split('');
-  var missingChars = [], i = 0;
-  var nextChar = String.fromCharCode(strArr[i].charCodeAt(0)+1);
-  while (i<strArr.length - 1) {
-    if (nextChar !== strArr[i+1]){
-      missingChars.push(nextChar);
-      nextChar = String.fromCharCode(nextChar.charCodeAt(0)+1);
-    } else {
-      i++;
-      nextChar = String.fromCharCode(strArr[i].charCodeAt(0)+1);
-    }
-  }
-  return missingChars.join('') === '' ? undefined : missingChars.join('') ;
-}
+- First we define variables to store the character code for the first letter in the string, and to store whatever missing letters we may find.
+- We turn the string to an array in order to map through it instead of using `for` and `while` loops.
+- As we `map` through our letters' character codes, we go comparing with the one that should be in that position.
+- If the current letter matches, we move the comparison variable to its next position so we can compare on the next cycle.
+- If not, the missing letter will be assigned to the `missing` variable, which will be returned after the map is finished.
+- If there are no missing characters, return `undefined`.
 
-// test here
-fearNotLetter("abce");
-```
+#### Relevant Links
 
-:rocket: [Run Code](https://repl.it/CLnF/0)
+- [JS String Prototype Split](JS-String-Prototype-Split)
+- [JS Array Prototype Map](JS-Array-Prototype-Map)
 
-### Fifth solution:
+## :rotating_light: Advanced Code Solution:
 
 ```javascript
 function fearNotLetter(str) {
   var allChars = '';
   var notChars = new RegExp('[^'+str+']','g');
-  for (var i=0;allChars[allChars.length-1] !== str[str.length-1] ;i++)
-    allChars += String.fromCharCode(str[0].charCodeAt(0)+i);
+
+  for (var i = 0; allChars[allChars.length-1] !== str[str.length-1] ; i++)
+    allChars += String.fromCharCode(str[0].charCodeAt(0) + i);
+
   return allChars.match(notChars) ? allChars.match(notChars).join('') : undefined;
 }
 
@@ -160,34 +134,32 @@ fearNotLetter("abce");
 
 :rocket: [Run Code](https://repl.it/CLnG/0)
 
-## Code Explanation:
+### Code Explanation:
 
-## First and second solutions:
+- A new string **allChars** is created.
+- Create a regular expression **notChars** which selects everything except **str**.
+- The `for` loop is used to add all the letters in the range to **allChars**.
+- `match()` is used to strip off the **str** letters from the newly created string and it is returned.
+- If there are no missing characters, return `undefined`.
 
-- Read comments in code.
+#### Relevant Links
 
-## Third solution (Declarative):
+- [JS Regex Resources](JS-Regex-Resources)
+- [JS Ternary](JS-Ternary)
+- [JS String Prototype Match](JS-String-Prototype-Match)
+- [JS Array Prototype Join](JS-Array-Prototype-Join)
 
-- First we define variables to store the character code for the first letter in the string, and to store whatever missing letters we may find.
-- We turn the string to an array in order to map through it instead of using those nasty `for` and `whiles` (See [this article](http://www.sitepoint.com/quick-tip-stop-writing-loops-start-thinking-with-maps/) for refence as to why. And give it a serious try. Really... you'll thank me for it.
-- (If you're not sure how to `map`, you can review [Challenge: Iterate over arrays with map]](http://www.freecodecamp.com/challenges/iterate-over-arrays-with-map) and [MDN's reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)).
-- As we `map` through our letters' character codes, we go comparing with the one that should be in that position.
-- If the current letter matches, we move the comparison variable to its next position so we can compare on the next cycle.
-- if not, the missing letter will be assigned to the `missing` variable, which will be returned after the map is finished.
+### :trophy: Credits:
 
-## Fourth solution:
+If you found this page useful, you may say thanks to the contributors by copying and pasting the following line in the main chat:
 
-- Increase loop index only when you have found all the missing letters between current and next letter
-- Every time you find a missing letter push it to `missingchars`
+**`Thanks @Rafase282 @rohitnwn @sabahang @Hallaathrad @dakshshah96 for your help with Algorithm: Missing Letters`**
 
-## Fifth solution:
+## :clipboard: NOTES FOR CONTRIBUTIONS:
 
-- Create a new String that consists all the letters in the range
-- Create a Regular Expression for anything except `str`
-- Use `match()` to strip off the `str` letters from your newly created String
+- :warning: **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
+- Add an explanation of your solution.
+- Categorize the solution in one of the following categories &mdash; **Basic**, **Intermediate** and **Advanced**. :traffic_light:
+- Please add your username only if you have added any **relevant main contents**. (:warning: **_DO NOT_** _remove any existing usernames_)
 
-## Credits:
-
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 @rohitnwn @sabahang @Hallaathrad for your help with Algorithm: Missing Letters`**
-
-> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
+> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution) for reference.
