@@ -101,7 +101,7 @@ function palindrome(str) {
 ```javascript
 function palindrome(str) {
 // make all letters lowercase and remove non-alphanumeric characters
-  str = str.toLowerCase().replace(/[^a-z|1-9]/g, "");
+  str = str.toLowerCase().replace(/[^a-z|0-9]/g, "");
 
   // if the length of the string is 0 then it is a palindrome
   if (str.length === 0){
