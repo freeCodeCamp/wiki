@@ -92,6 +92,36 @@ function palindrome(str) {
 
 - Inside of each loop we want to check that the letter in element `[i]` is equal to the letter in the length of the string minus i, `[str.length - i]`. Each loop, the element that is checked on both sides of the string moves closer to the center until we have checked all of the letters. If at any point the letters do not match, we return `false`. If the loop completes successfully, it means we have a palindrome and therefore we return `true`!
 
+## :sunflower: Intermediate Code Solution (using a while loop):
+
+```javascript
+function palindrome(str) {
+  str = str.replace(/[_\W+\s+]/gi,"").toLowerCase();
+
+  var i = 0;
+  var lastChar = str.length - 1;
+
+  while (i < str.length/2) {
+      if (str.charAt(i) !== str.charAt(lastChar)) {
+        return false;
+      }
+      i++;
+      lastChar--;
+    }
+    return true;
+}
+
+```
+:rocket: [Run Code](https://repl.it/C4Hc)
+
+### Code Explanation:
+
+- First we remove all non-alphanumerical characters and turn the strings into lower case
+
+- Next we declare variables that will help us run the while loop. Index 'i' starts at the beginning of the string, 'lastChar' is the last character of the string.
+
+- Finally we set our while loop:  While 'i' is less than half of the length of the string, compare 'i' to 'lastChar'. If they are not equal, return false (not a palindrome). Increase 'i' by one (next character to be compared is [1]) and decrease 'lastChar' by 1 (next character to be compared will be str.length - 2). If matched, 'i' will again increase by one and 'lastChar' will decrease by one. The while loop will continue to run until eventually 'i' and 'lastChar' meet in the middle.
+
 #### Relevant Links
 
 - [Regex](JS-Regex-Resources)
