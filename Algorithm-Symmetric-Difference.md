@@ -1,44 +1,41 @@
 # Algorithm Symmetric Difference
 
-### Problem Explanation:
+:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
 
-Symmetric Difference is the difference between **two** sets.
+### :checkered_flag: Problem Explanation:
 
-So in the Symmetric Difference Algorithm you would work through the arrays of numbers something like this -
+Symmetric difference is the difference between two sets i.e., the collection of elements which are members of either set but not both.
 
-`sym(A, B, C)` Translates to `sym(sym(A,B),C)`
+In the symmetric difference algorithm, you would work through the arrays of numbers in this manner: `sym(A, B, C)` translates to `sym(sym(A, B), C)` i.e., the symmetric difference of set A and set B is found first and then, the symmetric difference of the resultant set and set C is found.
 
-Or in plain English - First find the Symmetric Difference of Set A and Set B. Then find the Symmetric Difference of this new set and Set C.
+Example: `sym([1, 2, 5], [2, 3, 5], [3, 4, 5])` equals `[1, 4, 5]`.
 
-So -
+#### Relevant Links
 
-`sym([1, 2, 5], [2, 3, 5], [3, 4, 5])`
+- [YouTube - Symmetric difference](https://www.youtube.com/watch?v=PxffSUQRkG4)
+- [Symmetric difference](https://en.wikipedia.org/wiki/Symmetric_difference)
+- [JS Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
+- [JS Arguments](JS-Arguments)
+- [JS Array Prototype Reduce](JS-Array-Prototype-Reduce)
+- [JS Reduce Made Easy](JS-Reduce-Made-Easy)
 
-would equal
+## :speech_balloon: Hint: 1
 
-`[1,4,5]`
+The **arguments** object is not an array. It is similar to an array, but does not have any array properties except length. For example, it does not have the `pop` method. However, it can be converted to a real array: `var args = Array.prototype.slice.call(arguments);`
 
-Here's a nice video tutorial (with an awful fake British accent!) -
+> _try to solve the problem now_
 
-[YouTube - Symmetric Difference](https://www.youtube.com/watch?v=PxffSUQRkG4)
+## :speech_balloon: Hint: 1
 
-## Hint: 1
+Write a function that returns the symmetric difference of the two arrays: `yourFunction([1, 2, 3], [2, 4, 6])` must return `[1, 3, 4, 6]`
 
-The arguments object is not an Array. It is similar to an Array, but does not have any Array properties except length. For example, it does not have the pop method. However it can be converted to a real Array:
+> _try to solve the problem now_
 
-`var args = Array.prototype.slice.call(arguments);`
+## :speech_balloon: Hint: 1
 
-## Hint: 2
+Use `Array.prototype.reduce` along with `yourFunction` to repeat the process on multiple arguments
 
-Write a function that returns the symmetric difference of array1 and array2.
-
-`yourFunction([1, 2, 3], [2, 4, 6])` must return `[1, 3, 4, 6]`
-
-## Hint: 3
-
-Use `Array.prototype.reduce` along with yourFunction to repeat the process on multiple arguments
-
-Something a bit strange about the definition of symmetric difference is that if one identical item occurs in three different sets, it is a member of the symmetric difference. An example is easier to explain:
+Something strange about the definition of symmetric difference is that if one identical item occurs in three different sets, it is a member of the symmetric difference. For example:
 
 ```
 a = [1, 2, 5]
@@ -49,13 +46,64 @@ sym(a, b) = [1, 3]
 sym([1, 3], c) = [1, 4, 5]
 ```
 
+> _try to solve the problem now_
+
 ## Spoiler Alert!
 
 ![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
 
 **Solution ahead!**
 
-## Code Solution 1:
+## :beginner: Basic Code Solution:
+
+```javascript
+function sym() {
+    var args = [];
+    for (var i = 0; i < arguments.length; i++) {
+        args.push(arguments[i]);
+    }
+
+    function symDiff(arrayOne, arrayTwo) {
+        var result = [];
+
+        arrayOne.forEach(function(item) {
+            if (arrayTwo.indexOf(item) < 0 && result.indexOf(item) < 0) {
+                result.push(item);
+            }
+        });
+
+        arrayTwo.forEach(function(item) {
+            if (arrayOne.indexOf(item) < 0 && result.indexOf(item) < 0) {
+                result.push(item);
+            }
+        });
+
+        return result;
+    }
+
+    // Apply reduce method to args array, using the symDiff function
+    return args.reduce(symDiff);
+}
+```
+:rocket: [Run Code](https://repl.it/C4II/0)
+
+### Code Explanation:
+
+- `push()` is used to break down the **arguments** object to an array, **args**.
+- The `symDiff` function finds the symmetric difference between two sets. It is used as a callback function for the `reduce()` method called on **args**.
+- `arrayOne.forEach()` pushes the elements to **result** which are present only in **arrayOne** as well as not already a part of **result**.
+- `arrayTwo.forEach()` pushes the elements to **result** which are present only in **arrayTwo** as well as not already a part of **result**.
+- The **result**, which is the symmetric difference is returned. This solution works for any number of sets.
+
+#### Relevant Links
+
+- [JS For Loops Explained](JS-For-Loops-Explained)
+- [array.length](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/length)
+- [JS Array Prototype Push](JS-Array-Prototype-Push)
+- [JS Array Prototype ForEach](JS-Array-Prototype-ForEach)
+- [JS Array Prototype IndexOf](JS-Array-Prototype-IndexOf)
+
+## :sunflower: Intermediate Code Solution:
 
 ```javascript
 function sym() {
@@ -94,54 +142,32 @@ sym([1, 2, 3], [5, 2, 1, 4]);
 
 :rocket: [Run Code](https://repl.it/CLoc/0)
 
-## Code Explanation 1:
+### Code Explanation:
 
-- 1. The reason you want to break down the arguments object to a array is if you want to use functional methods like reduce and
+- The `slice()` method is used to break down the **arguments** object to an array, **args**.
+- The `getDiff` function finds the symmetric difference between two sets, **arr1** and **arr2**. It is used as a callback function for the `reduce()` method called on **args**.
+- The first `filterFunction()` returns elements in **arr1** that don't exist in **arr2**.
+- The next `filterFunction()` is run on each array against the other to check the inverse of the first check for uniqueness and concatenate it.
+- **symarray** consists of the reduced arguments.
+- `filter()` is used on **symarray** to keep only the unique values and **unique** is returned.
 
-- filter, the data needs to be in array form.
-- 1. getDiff is first checking arr2 if it doesn't have any element(item) in arr1\. (A unique number) with filterFunction.
+#### Relevant Links
 
-- next getDiff will check the inverse of the first check for uniqueness and concatinate it to the array.
-- 1. symarray uses getDiff. It's used as the callback function here and starts the reduce function with an empty array. Why do this? The reduce function is calling our filter function everytime (and runs the cross check needed from filterFunction). The function will essentially return an array with all symmetric differences (but with double values at this point).
+- [JS Array Prototype Slice](JS-Array-Prototype-Slice)
+- [JS Array Prototype Filter](JS-Array-Prototype-Filter)
+- [JS Array Prototype Concat](JS-Array-Prototype-Concat)
 
-- 1. unique uses the filter method and creates a new array from the reduced and filtered array of symarray and getDiff. This filter checks if the index the filter is currently at its equal to the index of the element in the orginal array. The reason this is done is to filter out double values in the symmetric difference symarray. You can only have one index per unique number which is why it'll return false for any double value.
+### :trophy: Credits:
 
-## Code Solution 2:
+If you found this page useful, you may say thanks to the contributors by copying and pasting the following line in the main chat:
 
-```javascript
-//jshint esversion: 6
-function sym() {
-  // difference between set A and set B
-  const diff = (A, B) => new Set([...A].filter(n => !B.has(n)));
-  // spread operator to convert array like object to array
-  const result = [...arguments]
-    // map elements in arguments (array) to Set
-    .map(arr => new Set(arr))
-    // using the formula in https://en.wikipedia.org/wiki/Symmetric_difference
-    // i reduce it by uniting the diff(A, B) and diff(B, A)
-    .reduce((acc, set) => new Set([...diff(acc, set), ...diff(set, acc)])); 
+**`Thanks @Rafase282 @guyjoseph @jjmax75 @benschac @dakshshah96 for your help with Algorithm: Symmetric Difference`**
 
-  // convert the set to array by using spread operator again
-  return [...result];
-}
+## :clipboard: NOTES FOR CONTRIBUTIONS:
 
-// test here
-sym([1, 2, 3], [5, 2, 1, 4]);
-```
+- :warning: **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
+- Add an explanation of your solution.
+- Categorize the solution in one of the following categories &mdash; **Basic**, **Intermediate** and **Advanced**. :traffic_light:
+- Please add your username only if you have added any **relevant main contents**. (:warning: **_DO NOT_** _remove any existing usernames_)
 
-:rocket: [Run Code](https://repl.it/CLod/0)
-
-## Code Explaination 2:
-
-- Read comments in code
-
-## Related Links
-
-- [Symmetric Difference](https://en.wikipedia.org/wiki/Symmetric_difference)
-- [Array.reduce()](http://devdocs.io/javascript/global_objects/array/reduce)
-
-## Credits:
-
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 @guyjoseph @jjmax75 @benschac for your help with Algorithm: Symmetric Difference`**
-
-> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
+> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution) for reference.
