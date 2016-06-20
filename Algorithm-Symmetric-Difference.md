@@ -157,11 +157,50 @@ sym([1, 2, 3], [5, 2, 1, 4]);
 - [JS Array Prototype Filter](JS-Array-Prototype-Filter)
 - [JS Array Prototype Concat](JS-Array-Prototype-Concat)
 
+## :rotating_light: Advanced Code Solution:
+
+```javascript
+function sym() {
+  // difference between set A and set B
+  const diff = (A, B) => new Set([...A].filter(n => !B.has(n)));
+  // spread operator to convert array like object to array
+  const result = [...arguments]
+    // map elements in arguments (array) to Set
+    .map(arr => new Set(arr))
+    // using the formula in https://en.wikipedia.org/wiki/Symmetric_difference
+    // i reduce it by uniting the diff(A, B) and diff(B, A)
+    .reduce((acc, set) => new Set([...diff(acc, set), ...diff(set, acc)]));
+
+  // convert the set to array by using spread operator again
+  return [...result];
+}
+
+// test here
+sym([1, 2, 3], [5, 2, 1, 4]);
+```
+
+:rocket: [Run Code](https://repl.it/CLod/0)
+
+### Code Explanation:
+
+- **diff** consists of the difference between set A and set B.
+- **result** holds the object which has been converted to an array using the spread operator.
+- `map()` is used to populate the new set object with elements from **arr** using the symmetric difference formula.
+- Before returning, the set is converted to an array using the spread operator.
+
+#### Relevant Links
+
+- [Set object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
+- [Set.prototype.has()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/has)
+- [Spread operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator)
+- [JS Array Prototype Map](JS-Array-Prototype-Map)
+- [Map.prototype.has()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/has)
+
 ### :trophy: Credits:
 
 If you found this page useful, you may say thanks to the contributors by copying and pasting the following line in the main chat:
 
-**`Thanks @Rafase282 @guyjoseph @jjmax75 @benschac @dakshshah96 for your help with Algorithm: Symmetric Difference`**
+**`Thanks @Rafase282 @imranismail @dakshshah96 for your help with Algorithm: Symmetric Difference`**
 
 ## :clipboard: NOTES FOR CONTRIBUTIONS:
 
