@@ -1,16 +1,22 @@
 # Algorithm No Repeats Please
 
-### Problem Explanation:
+:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
 
-This task requires us to look at each possible permutation of a string. This can be done using a recursion function, but it is not the only way. A common interview question is building a function which collects all permutations of a string. So there is no shortage of tutorials out there on how to do this, in many different code languages.
+### :checkered_flag: Problem Explanation:
 
-## Potential Methods Used As Solution
+This task requires us to return the number of total permutations of the provided string that don't have repeated consecutive letters. It is to be assumed that all characters in the provided string are each unique. For example, `aab` should return 2 because it has 6 total permutations (`aab`, `aab`, `aba`, `aba`, `baa`, `baa`), but only 2 of them (`aba` and `aba`) don't have the same letter (in this case `a`) repeating.
 
-This task can still be daunting even after watching a tutorial. To write a recursive solution, you will want to send each new use of the function three inputs:
+To achieve that, we'll have to look at each possible permutation of a string. There are several ways to do that. A common interview question is building a function that collects all permutations of a string. There are several tutorials available on the internet on how to do that.
 
-1. a new string (or character array) that is being built,
-2. a position in your new string that's going to be filled next, and
-3. an idea of what characters (more specifically positions) from the original string have yet to be used.
+#### Potential Methods Used As Solution
+
+##### Recursive Method
+
+This task can be daunting even after watching a tutorial. To write a recursive solution, you will want to send each new use of the function three inputs:
+
+1. A new string (or character array) that is being built.
+2. A position in your new string that's going to be filled next.
+3. An idea of what characters (more specifically positions) from the original string have yet to be used.
 
 The pseudo code will look something like this:
 
@@ -37,6 +43,8 @@ Another way to think about this problem is to start from an empty space. Introdu
 
 ![diagram](https://i.imgur.com/zFm5gRx.png)
 
+##### Non-Recursive Method
+
 ```javascript
 // An approach to introduce a new character to a permutation
 var ch = '?';
@@ -54,17 +62,30 @@ Finding each permutation could then be done non-recursively by including the abo
 
 A way to visualize this is by considering a tree that starts with the first character of your string: ![Permutation Tree](https://i.imgur.com/t8zNarc.png)
 
-## Hint: 1
+#### Relevant Links
+
+- [Permutations](https://www.mathsisfun.com/combinatorics/combinations-permutations.html)
+- [Heap's algorithm](https://en.wikipedia.org/wiki/Heap%27s_algorithm)
+- [JS Regex Resources](JS-Regex-Resources)
+- [JS String object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
+
+## :speech_balloon: Hint: 1
 
 - The easiest way is to use Heap's algorithm to recursively get a list of all the permutations.
 
-## Hint: 2
+> _try to solve the problem now_
+
+## :speech_balloon: Hint: 2
 
 - Once you have the list then just create a regular expression to catch the repeating characters.
 
-## Hint: 3
+> _try to solve the problem now_
+
+## :speech_balloon: Hint: 3
 
 - You will want to have the permutations as an array of joined strings instead of separated characters.
+
+> _try to solve the problem now_
 
 ## Spoiler Alert!
 
@@ -72,7 +93,7 @@ A way to visualize this is by considering a tree that starts with the first char
 
 **Solution ahead!**
 
-## Code Solution:
+## :beginner: Basic Code Solution:
 
 ```javascript
 function permAlone(str) {
@@ -125,12 +146,37 @@ permAlone('aab');
 
 :rocket: [Run Code](https://repl.it/CLop/0)
 
-## Code Explanation:
+### Code Explanation:
 
-- Read comments in code
+- **regex** contains the regular expression to match repeated consecutive characters.
+- The string **str** is split into an array of characters, **arr**.
+- 0 is returned if **str** contains same characters.
+- The function `swap()` is used for the purpose of swapping the contents of two variable's contents.
+- The next block of code uses Heap's algorithm to generate arrays of permutations in **permutations**.
+- The **filtered** variable filters **permutations** to include only non-repeated permutations.
+- `filtered.length` returns the number of total permutations of the provided string that don't have repeated consecutive letters.
 
-## Credits:
+#### Relevant Links
 
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Philosophist @Rafase282 for your help with Algorithm: No Repeats Please`**
+- [JS String Prototype Split](JS-String-Prototype-Split)
+- [JS String Prototype Match](JS-String-Prototype-Match)
+- [JS Array Prototype Push](JS-Array-Prototype-Push)
+- [JS Array Prototype Join](JS-Array-Prototype-Join)
+- [JS For Loops Explained](JS-For-Loops-Explained)
+- [array.length](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/length)
+- [JS Array Prototype Filter](JS-Array-Prototype-Filter)
 
-> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
+### :trophy: Credits:
+
+If you found this page useful, you may say thanks to the contributors by copying and pasting the following line in the main chat:
+
+**`Thanks @Philosophist @Rafase282 @dakshshah96 for your help with Algorithm: No Repeats Please`**
+
+## :clipboard: NOTES FOR CONTRIBUTIONS:
+
+- :warning: **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
+- Add an explanation of your solution.
+- Categorize the solution in one of the following categories &mdash; **Basic**, **Intermediate** and **Advanced**. :traffic_light:
+- Please add your username only if you have added any **relevant main contents**. (:warning: **_DO NOT_** _remove any existing usernames_)
+
+> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution) for reference.
