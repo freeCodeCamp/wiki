@@ -93,7 +93,7 @@ spinalCase('This Is Spinal Tap');
 
 If you found this page useful, you may say thanks to the contributors by copying and pasting the following line in the main chat:
 
-**`Thanks @Rafase282 @anuragaryan @dakshshah96 for your help with Algorithm: Spinal Tap Case`**
+**`Thanks @Rafase282 @anuragaryan for your help with Algorithm: Spinal Tap Case`**
 
 ## :clipboard: NOTES FOR CONTRIBUTIONS:
 
