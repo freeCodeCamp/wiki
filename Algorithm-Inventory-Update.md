@@ -1,23 +1,34 @@
 # Algorithm Inventory Update
 
-### Problem Explanation:
+:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
 
-- Look through an array of new products, in the format: `[quantity, name]`
-- Return an array containing updated quantities for each item that already existed, and any new products
+### :checkered_flag: Problem Explanation:
 
-## Hint: 1
+In this problem, you've to compare and update the inventory stored in a 2D array against a second 2D array of a fresh delivery. Update the current existing inventory item quantities (in `arr1`). If an item cannot be found, add the new item and quantity into the inventory array. The returned inventory array should be in alphabetical order by item.
 
-- You need to work through each item of the new inventory to see if it exists in the current inventory or not.
-- Remember that the product name is stored as the second element of each sub-array: `arr2[0][1] = "Bowling Ball"`
+The current as well as new inventory will be in this format: `var newInv = [[2, "Item1 Name"], [3, "Item2 Name"], [67, "Item3 Name"], [7, "Item4 Name"]];`.
 
-## Hint: 2
+#### Relevant Links
 
-- If the item exists, you need to add the quantity from the new inventory
-- If the item doesn't exist, you need to add the entire item
+- [Global Array object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
-## Hint: 3
+## :speech_balloon: Hint: 1
 
-- Return the completed inventory in alphabetical order
+You need to work through each item of the new inventory to see if it exists in the current inventory or not. Remember that the product name is stored as the second element of each sub-array: `arr2[0][1] = "Bowling Ball"`.
+
+> _try to solve the problem now_
+
+## :speech_balloon: Hint: 2
+
+If the item exists, you need to add the quantity from the new inventory. If the item doesn't exist, you need to add the entire item.
+
+> _try to solve the problem now_
+
+## :speech_balloon: Hint: 3
+
+Return the completed inventory in alphabetical order.
+
+> _try to solve the problem now_
 
 ## Spoiler Alert!
 
@@ -25,9 +36,7 @@
 
 **Solution ahead!**
 
-## Code Solution:
-
-### First solution
+## :beginner: Basic Code Solution:
 
 ```javascript
 function updateInventory(arr1, arr2) {
@@ -97,7 +106,26 @@ updateInventory(curInv, newInv);
 
 :rocket: [Run Code](https://repl.it/CLok/0)
 
-### Second solution
+### Code Explanation:
+
+- The variable **index** stores the location (index) of a product.
+- The helper function `getProductIndex()` returns the index of a specified product. It iterates through each element of the array that it is called on until it can find the name parameter. If the product is not found in the inventory, `undefined` is returned.
+- Then, each item in the new inventory (delivery) is worked through:
+  - **index** is set to the result of invoking the helper function i.e., search the new inventory for that product name and return it's index.
+  - If the item is found, quantity of the product is added to the quantity of the same product in current inventory.
+  - If the item is not found, the entire product (name and quantity) is added to the current inventory.
+- The updated inventory, **arr1**, is then sorted by product name (held in `arr1[x][1]`).
+- The final - updated as well as sorted array is then returned.
+
+#### Relevant Links
+
+- [JS For Loops Explained](JS-For-Loops-Explained)
+- [this keyword](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/this)
+- [array.length](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/length)
+- [JS Array Prototype Push](JS-Array-Prototype-Push)
+- [JS Array Prototype Sort](JS-Array-Prototype-Sort)
+
+## :sunflower: Intermediate Code Solution:
 
 ```javascript
 function updateInventory(arr1, arr2) {
@@ -165,24 +193,45 @@ updateInventory(curInv, newInv);
 
 :rocket: [Run Code](https://repl.it/CLol/0)
 
-### Third solution
+### Code Explanation:
+
+- The variable **index** stores the location (index) of a product.
+- **arrCurInvName** has the names of **arr1**'s items.
+- **arrNeInvName** has the names of **arr2**'s items.
+- `arr1.map(function(item1))` takes care of items already existing in inventory i.e., it increases the quantity in the inventory.
+- Next, `arr2.map(function(item))` and `arr1.map(function(item))` get the names of items for the new and current inventory respectively.
+- `arrNeInvName.map(function(item))` handles items which don't already exist in inventory i.e., it adds new items to the inventory.
+- The updated array **arr1** is then sorted alphabetically by product name (held in `arr1[x][1]`) and returned.
+
+#### Relevant Links
+
+- [JS Array Prototype Map](JS-Array-Prototype-Map)
+- [JS Array Prototype IndexOf](JS-Array-Prototype-IndexOf)
+- [JS Ternary](JS-Ternary)
+
+## :rotating_light: Advanced Code Solution:
 
 ```javascript
 function updateInventory(arr1, arr2) {
-  var flag=0;
-  arr2.forEach(function(item){
-    flag=0;
-    arr1.forEach(function(list){
-        //If the product is already present, increase the quantity
-      if(item[1]===list[1]){ list[0]+=item[0]; flag=1;}
+  var flag = 0;
+  arr2.forEach(function(item) {
+    flag = 0;
+    arr1.forEach(function(list) {
+      // If the product is already present, increase the quantity
+      if(item[1] === list[1]) {
+        list[0] += item[0];
+        flag = 1;
+      }
     });
     //If not already present, add the product
-    if(flag===0) arr1.push(item);
+    if(flag === 0)
+      arr1.push(item);
   });
-  //Return the sorted inventory in alphabetical order wrt product name
-    return arr1.sort(function(a, b) { 
+
+  //Return the sorted inventory in alphabetical order by product name
+  return arr1.sort(function(a, b) {
     return a[1] > b[1] ? 1 : -1;
-});
+  });
 }
 
 // test here
@@ -206,80 +255,29 @@ updateInventory(curInv, newInv);
 
 :rocket: [Run Code](https://repl.it/CLom/0)
 
-### Fourth Solution
+### Code Explanation:
 
-```javascript
-//jshint esversion: 6
-function updateInventory(curInv, newInv) {
-  var inv = new Map();
+- The variable **flag** is a flag variable which checks whether a product exists in the inventory. A flag variable, in its simplest form, is a variable you define to have one value until some condition is true, in which case you change the variable's value.
+- `arr2.forEach(function(item))` iterates through each item in the new delivery:
+  - If the product is already present, it's quantity is simply updated and **flag** is made 1.
+  - If the product is new i.e., **flag** is 0, it is added to the inventory using the `push()` method.
+- The updated array **arr1** is then sorted alphabetically by product name.
 
-  [...curInv, ...newInv].forEach(item => {
-     if(inv.has(item[1]))
-       inv.set(item[1], inv.get(item[1]) + item[0]);
-     else
-       inv.set(item[1], item[0]);
-  });
+#### Relevant Links
 
-  return [...inv]
-    .map(item => [item[1], item[0]])
-    .sort((a, b) => a[1] > b[1] ? 1 : -1);
-}
+- [JS Array Prototype ForEach](JS-Array-Prototype-ForEach)
 
-// test here
-// Example inventory lists
-var curInv = [
-    [21, "Bowling Ball"],
-    [2, "Dirty Sock"],
-    [1, "Hair Pin"],
-    [5, "Microphone"]
-];
+### :trophy: Credits:
 
-var newInv = [
-    [2, "Hair Pin"],
-    [3, "Half-Eaten Apple"],
-    [67, "Bowling Ball"],
-    [7, "Toothpaste"]
-];
+If you found this page useful, you may say thanks to the contributors by copying and pasting the following line in the main chat:
 
-updateInventory(curInv, newInv);
-```
+**`Thanks @guyjoseph @Rafase282 @anuragaryan @dakshshah96 for your help with Algorithm: Inventory Update`**
 
-:rocket: [Run Code](https://repl.it/CLon/0)
+## :clipboard: NOTES FOR CONTRIBUTIONS:
 
-## Code Explanation:
+- :warning: **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
+- Add an explanation of your solution.
+- Categorize the solution in one of the following categories &mdash; **Basic**, **Intermediate** and **Advanced**. :traffic_light:
+- Please add your username only if you have added any **relevant main contents**. (:warning: **_DO NOT_** _remove any existing usernames_)
 
-## First solution
-
-- Start by creating a variable to store the index in. Define variables outside of loops
-- Create a helper function to find the index of a product name
-- The helper function iterates through each element of the array that it is called on, until it can either find the name parameter, or if it cannot find it then returns undefined
-- Then, work through each item in the delivery, and set index to the result of invoking our helper function on the current inventory (IE: Search the new inventory for that product name, and return it's index)
-- If we can't find that product, then we can add the entire product (Name and quantity) to the current inventory
-- Otherwise, then we can add the quantity from the new inventory
-- Then we sort the array by the product name (`arr1[x][1]` holds the name)
-- Return the sorted array
-- For Solution two, the explanation is on the code. Feel free to use different components on each solution to create your own if you like.
-
-## Second and Third solutions
-
-- Read comments in code.
-
-## Fourth solution
-
-- Start by creating the `inv` [map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map) to store the updated inventory
-- Combine both `curInv` and `newInv` and iterate through
-- Check if `inv` has the key, update it's value if `inv` has them. Otherwise store the new value
-- Use ES6 spread operator to convert `inv` map to a 2d array
-- Map through the array to change it's location to be [value, key] as needed by the challenge
-- Sort the array alphabetically
-
-## Related links
-
-- [Function.prototype.call](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call)
-- [Array.prototype.sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
-
-## Credits:
-
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @guyjoseph @Rafase282 @anuragaryan for your help with Algorithm: Inventory Update`**
-
-> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
+> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution) for reference.
