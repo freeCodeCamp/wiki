@@ -514,6 +514,7 @@ Please note that all local groups are unofficial, independently organized groups
     - [Siwan](https://www.facebook.com/groups/free.code.camp.Siwan/)
   - Chattisgarh
     - [Bilaspur](https://www.facebook.com/groups/free.code.camp.bilaspur/)
+    - [Korba](https://www.facebook.com/groups/free.code.camp.korba/)
     - [Raipur](https://www.facebook.com/groups/free.code.camp.raipur/)
     - [Rajnandgaon](https://www.facebook.com/groups/free.code.camp.rajnandgaon/)
   - [Delhi](https://www.facebook.com/groups/free.code.camp.delhi/)
@@ -685,6 +686,7 @@ Please note that all local groups are unofficial, independently organized groups
   - [Kingston](https://www.facebook.com/groups/free.code.camp.kingston.jamaica/)
   - [Montego Bay](https://www.facebook.com/groups/free.code.camp.montego.bay/)
 - Japan
+  - [Kobe](https://www.facebook.com/groups/free.code.camp.kobe/)
   - [Nagoya](https://www.facebook.com/groups/free.code.camp.nagoya/)
   - [Osaka](https://www.facebook.com/groups/free.code.camp.osaka/)
   - [Sasebo](https://www.facebook.com/groups/free.code.camp.sasebo/)
@@ -787,6 +789,7 @@ Please note that all local groups are unofficial, independently organized groups
 - Morocco
   - [Agadir](https://www.facebook.com/groups/free.code.camp.agadir/)
   - [Casablanca](https://www.facebook.com/groups/free.code.camp.casablanca/)
+  - [Fez](https://www.facebook.com/groups/free.code.camp.fes/)
   - [Marrakesh](https://www.facebook.com/groups/free.code.camp.marrakesh/)
   - [Rabat](https://www.facebook.com/groups/965419830196366/)
   - [Sefrou](https://www.facebook.com/groups/free.code.camp.sefrou/)
@@ -831,6 +834,7 @@ Please note that all local groups are unofficial, independently organized groups
   - [Granada](https://www.facebook.com/groups/free.code.camp.granada/)
   - [Managua](https://www.facebook.com/groups/free.code.camp.managua/)
 - Nigeria
+  - [Abeokuta](https://www.facebook.com/groups/free.code.camp.abeokuta/)
   - [Abuja](https://www.facebook.com/groups/abuja.free.code.camp/)
   - [Ado Ekiti](https://www.facebook.com/groups/free.code.camp.ado.ekiti)
   - [Benin City](https://www.facebook.com/groups/free.code.camp.benincity/)
@@ -898,12 +902,14 @@ Please note that all local groups are unofficial, independently organized groups
   - [Moquegua](https://www.facebook.com/groups/free.code.camp.moquegua/)
   - [Trujillo](https://www.facebook.com/groups/free.code.camp.trujillo)
 - Philippines
+  - [Angeles](https://www.facebook.com/groups/free.code.camp.angelescity.pampanga.philippines/) 
   - [Batangas](https://www.facebook.com/groups/free.code.camp.batangas/)
   - [Bicol](https://www.facebook.com/groups/free.code.camp.Bicol/)
   - [Cagayan de Oro](https://www.facebook.com/groups/free.code.camp.cagayandeoro.city/)
   - [Cavite City](https://www.facebook.com/groups/free.code.camp.cavite.city/)
   - [Cebu](https://www.facebook.com/groups/free.code.camp.cebu/)
   - [Davao](https://www.facebook.com/groups/free.code.camp.davao/)
+  - [Iloilo](https://www.facebook.com/groups/free.code.camp.iloilo.city/)
   - [Makati](https://www.facebook.com/groups/free.code.camp.makati/)
   - [Manila](https://www.facebook.com/groups/free.code.camp.manila/)
   - [Mati](https://www.facebook.com/groups/free.code.camp.mati/)
@@ -983,6 +989,7 @@ Please note that all local groups are unofficial, independently organized groups
   - [Omsk](https://www.facebook.com/groups/free.code.camp.omsk/)
   - [Orenburg](https://www.facebook.com/groups/free.code.camp.orenburg/)
   - [Pavlovo](https://www.facebook.com/groups/Free.Code.Camp.Pavlovo/)
+  - [Penza](https://www.facebook.com/groups/free.code.camp.penza/)
   - [Perm](https://www.facebook.com/groups/free.code.camp.your.city.perm/)
   - [Pskov](https://www.facebook.com/groups/free.code.camp.pskov/)
   - [Rostovondon](https://www.facebook.com/groups/free.code.camp.rostovondon/)
@@ -1025,6 +1032,8 @@ Please note that all local groups are unofficial, independently organized groups
   - [Šabac](https://www.facebook.com/groups/free.code.camp.sabac/)
   - [Subotica](https://www.facebook.com/groups/free.code.camp.subotica/)
   - [Vrsac](https://www.facebook.com/groups/free.code.camp.vrsac/)
+- Sierra Leone 
+  - [Freetown](https://www.facebook.com/groups/free.code.camp.salone/)
 - Singapore
   - [Singapore](https://www.facebook.com/groups/free.code.camp.singapore/)
 - Slovakia
@@ -1129,6 +1138,7 @@ Please note that all local groups are unofficial, independently organized groups
   - [Adana](https://www.facebook.com/groups/free.code.camp.adana/)
   - [Ankara](https://www.facebook.com/groups/free.code.camp.ankara/)
   - [Antalya](https://www.facebook.com/groups/free.code.camp.antalya/)
+  - [Bursa](https://www.facebook.com/groups/free.code.camp.bursa/)
   - [Isparta](https://www.facebook.com/groups/free.code.camp.isparta/)
   - [Istanbul](https://www.facebook.com/groups/free.code.camp.istanbul/)
   - [Izmir](https://www.facebook.com/groups/free.code.camp.izmir)
@@ -1235,6 +1245,7 @@ Please note that all local groups are unofficial, independently organized groups
     - [Orange County](https://www.facebook.com/groups/free.code.camp.orange.county/)
     - [Pasadena](https://www.facebook.com/groups/free.code.camp.pasadena.ca/)
     - [Palo Alto](https://www.facebook.com/groups/free.code.camp.palo.alto/)
+    - [Placerville](https://www.facebook.com/groups/free.code.camp.placerville/)
     - [Pleasant Hill](https://www.facebook.com/groups/free.code.camp.pleasantHill/)
     - [Redwood city](https://www.facebook.com/groups/free.code.camp.redwood.city/)
     - [Riverside](https://www.facebook.com/groups/free.code.camp.riverside.ca/)
@@ -1375,6 +1386,7 @@ Please note that all local groups are unofficial, independently organized groups
     - [Paducah](https://www.facebook.com/groups/free.code.camp.paducah/)
     - [Tollesboro](https://www.facebook.com/groups/847024098734877)
   - Louisiana
+    - [Alexandria](https://www.facebook.com/groups/free.code.camp.alexandria.la/)
     - [Baton Rouge](https://www.facebook.com/groups/free.code.camp.baton.rouge.louisiana/)
     - [Lafayette](https://www.facebook.com/groups/free.code.camp.lafayette/)
     - [Leesville](https://www.facebook.com/groups/free.code.camp.leesville.la/)
@@ -1429,6 +1441,7 @@ Please note that all local groups are unofficial, independently organized groups
     - [University Center](https://www.facebook.com/groups/free.code.camp.university.center/)
   - Minnesota
     - [Duluth](https://www.facebook.com/groups/free.code.camp.duluth/)
+    - [Fergus Falls](https://www.facebook.com/groups/free.code.camp.fergusfalls/)
     - [Minneapolis](https://www.facebook.com/groups/free.code.camp.minneapolis/)
     - [Owatonna](https://www.facebook.com/groups/free.code.camp.owatonna/)
     - [Rochester](https://www.facebook.com/groups/250314195300021/)
@@ -1473,11 +1486,14 @@ Please note that all local groups are unofficial, independently organized groups
     - [Clifton](https://www.facebook.com/groups/free.code.camp.clifton.nj/)
     - [East Hanover](https://www.facebook.com/groups/free.code.camp.east.hanover/)
     - [Flanders](https://www.facebook.com/groups/free.code.camp.flanders.nj/)
+    - [Hoboken](https://www.facebook.com/groups/free.code.camp.hoboken/)
     - [Jersey City](https://www.facebook.com/groups/free.code.camp.jersey.city.new.jersey/)
     - [McAfee](https://www.facebook.com/groups/free.code.camp.mcafee/)
     - [Medford](https://www.facebook.com/groups/free.code.camp.medford.nj/)
+    - [Morristown](https://www.facebook.com/groups/free.code.camp.morristown/)
     - [New Brunswick](https://www.facebook.com/groups/free.code.camp.new.brunswick.new.jersey/)
     - [Newark](https://www.facebook.com/groups/free.code.camp.newark/)
+    - [Old Bridge](https://www.facebook.com/groups/free.code.camp.old.bridge.new.jersey/)
     - [Oradell](https://www.facebook.com/groups/free.code.camp.oradell/)
     - [Palisades Park](https://www.facebook.com/groups/free.code.camp.palisadespark/)
     - [Toms River](https://www.facebook.com/groups/free.code.camp.toms.river/)
@@ -1597,6 +1613,7 @@ Please note that all local groups are unofficial, independently organized groups
     - [Killeen](https://www.facebook.com/groups/free.code.camp.killeen.texas/)
     - [Longview](https://www.facebook.com/groups/free.code.camp.tyler.longview.texas/)
     - [Lubbock](https://www.facebook.com/groups/free.code.camp.lubbock/)
+    - [Midland](https://www.facebook.com/groups/free.code.camp.midland/)
     - [Mission](https://www.facebook.com/groups/free.code.camp.mission.texas/)
     - [Plano](https://www.facebook.com/groups/free.code.camp.plano/)
     - [San Antonio](https://www.facebook.com/groups/free.code.camp.san.antonio)
