@@ -163,7 +163,7 @@ makeFriendlyDates(['2016-07-01', '2016-07-04']);
 
 If you found this page useful, you may say thanks to the contributors by copying and pasting the following line in the main chat:
 
-**`Thanks @Rafase282 @guyjoseph @dakshshah96 for your help with Algorithm: Friendly Date Ranges`**
+**`Thanks @Rafase282 @guyjoseph  for your help with Algorithm: Friendly Date Ranges`**
 
 ## :clipboard: NOTES FOR CONTRIBUTIONS:
 

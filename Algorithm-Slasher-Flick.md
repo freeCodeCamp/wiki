@@ -79,7 +79,7 @@ function slasher(arr, howMany) {
 
 If you found this page useful, you may say thanks to the contributors by copying and pasting the following line in the main chat:
 
-**`Thanks @clint74 @Rafase282 @M-Bowe @dakshshah96 for your help with Algorithm: Slasher Flick`**
+**`Thanks @clint74 @Rafase282 @M-Bowe  for your help with Algorithm: Slasher Flick`**
 
 ## :clipboard: NOTES FOR CONTRIBUTIONS:
 
