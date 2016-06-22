@@ -170,7 +170,7 @@ permAlone('aab');
 
 If you found this page useful, you may say thanks to the contributors by copying and pasting the following line in the main chat:
 
-**`Thanks @Philosophist @Rafase282 @dakshshah96 for your help with Algorithm: No Repeats Please`**
+**`Thanks @Philosophist @Rafase282 for your help with Algorithm: No Repeats Please`**
 
 ## :clipboard: NOTES FOR CONTRIBUTIONS:
 
