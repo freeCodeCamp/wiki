@@ -35,15 +35,10 @@ BinarySearch(A[0..N-1], value) {
 
 ## Complexity
 
-```
-Worst case performance: O(log n)
-
-Best case performance: O(1)
-
-Average case performance: O(log n)
-
-Worst case space complexity: O(1) for iterative; O(log n) for recursive.
-```
+- Worst case performance: **O(log n)**
+- Best case performance: **O(1)**
+- Average case performance: **O(log n)**
+- Worst case space complexity: **O(1)** for iterative; **O(log n)** for recursive.
 
 ## C++ Implementation
 
