@@ -271,7 +271,7 @@ updateInventory(curInv, newInv);
 
 If you found this page useful, you may say thanks to the contributors by copying and pasting the following line in the main chat:
 
-**`Thanks @guyjoseph @Rafase282 @anuragaryan @dakshshah96 for your help with Algorithm: Inventory Update`**
+**`Thanks @guyjoseph @Rafase282 @anuragaryan for your help with Algorithm: Inventory Update`**
 
 ## :clipboard: NOTES FOR CONTRIBUTIONS:
 
