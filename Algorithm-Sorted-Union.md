@@ -154,7 +154,7 @@ uniteUnique([1, 3, 2], [5, 2, 1, 4], [2, 1]);
 
 If you found this page useful, you may say thanks to the contributors by copying and pasting the following line in the main chat:
 
-**`Thanks @Rafase282 @sabahang @coded9 @dakshshah96 for your help with Algorithm: Sorted Union`**
+**`Thanks @Rafase282 @sabahang @coded9  for your help with Algorithm: Sorted Union`**
 
 ## :clipboard: NOTES FOR CONTRIBUTIONS:
 

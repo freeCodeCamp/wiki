@@ -161,7 +161,7 @@ orbitalPeriod([{name : "sputnik", avgAlt : 35873.5553}]);
 
 If you found this page useful, you may say thanks to the contributors by copying and pasting the following line in the main chat:
 
-**`Thanks @Rafase282 @coded9 @anuragaryan @dakshshah96 for your help with Algorithm: Map the Debris`**
+**`Thanks @Rafase282 @coded9 @anuragaryan  for your help with Algorithm: Map the Debris`**
 
 ## :clipboard: NOTES FOR CONTRIBUTIONS:
 

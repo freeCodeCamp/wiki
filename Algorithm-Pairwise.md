@@ -152,7 +152,7 @@ pairwise([1,4,2,3,0,5], 7);
 
 If you found this page useful, you may say thanks to the contributors by copying and pasting the following line in the main chat:
 
-**`Thanks @Rafase282 @coded9 @SaintPeter @dakshshah96 for your help with Algorithm: Pairwise`**
+**`Thanks @Rafase282 @coded9 @SaintPeter  for your help with Algorithm: Pairwise`**
 
 ## :clipboard: NOTES FOR CONTRIBUTIONS:
 
