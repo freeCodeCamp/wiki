@@ -91,7 +91,7 @@ golfScore(5, 4);
 
 If you found this page useful, you may say thanks to the contributors by copying and pasting the following line in the main chat:
 
-**`Thanks @osterbergmarcus @dakshshah96 for your help with Checkpoint: Golf Code`**
+**`Thanks @osterbergmarcus for your help with Checkpoint: Golf Code`**
 
 ## :clipboard: NOTES FOR CONTRIBUTIONS:
 
