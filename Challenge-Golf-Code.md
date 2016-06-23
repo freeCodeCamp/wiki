@@ -1,10 +1,12 @@
 # Challenge Golf Code
 
-We will now use our knowledge about else if statements and comparison with equality, less and greater operators.
+:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
 
-In the game of golf each hole has a par for the average number of strokes needed to sink the ball. Depending on how far above or below par your strokes are, there is a different nickname.
+### :checkered_flag: Problem Explanation:
 
-Your function will be passed a par and strokes. Return strings according to this table (based on order of priority - top (highest) to bottom (lowest)):
+In the game of golf each hole has a **par** meaning the average number of **strokes** a golfer is expected to make in order to sink the ball in a hole to complete the play. Depending on how far above or below **par** your **strokes** are, there is a different nickname.
+
+Your function will be passed **par** and **strokes** arguments. You've to return the correct string according to this table which lists the strokes in order of priority; top (highest) to bottom (lowest):
 
 Strokes    | Return
 :--------- | :-------------
@@ -16,33 +18,36 @@ par + 1    | "Bogey"
 par + 2    | "Double Bogey"
 >= par + 3 | "Go Home!"
 
-par and strokes will always be numeric and positive.
+**par** and **strokes** will always be numeric and positive.
 
-Remember to use [Read-Search-Ask](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program. Write your own code.
+- Change the code below `// Only change code below this line` and above `// Only change code above this line`.
+- Ensure that you're editing the inside of the `golfScore` function.
+- You will have to make the function return exactly the same string as shown shown in the table, depending on the value of the parameters **par** and **strokes** that are passed to your function.
 
-## Useful Links
+#### Relevant Links
 
+- [Golf](https://en.wikipedia.org/wiki/Golf)
 - [Challenge: Chaining If Else Statements](http://www.freecodecamp.com/challenges/chaining-if-else-statements)
 - [Challenge: Comparison with the Greater Than Equal To Operator](http://www.freecodecamp.com/challenges/comparison-with-the-greater-than-equal-to-operator)
 - [Challenge: Comparison with the Less Than Equal To Operator](http://www.freecodecamp.com/challenges/comparison-with-the-less-than-equal-to-operator)
 
-## Problem Explanation:
+## :speech_balloon: Hint: 1
 
-- Change the code below `// Only change code below this line` and above `// Only change code above this line`
-- Take note that you are editing the inside of the `golfScore` function.
-- You will have to make the function return exactly the same string as shown shown on table, depending on the value of the parameters `par` and `strokes` that are passed in to your function.
+`+number -number` can be used to increase or decrease a parameter in your condition.
 
-## Hint: 1
+> _try to solve the problem now_
 
-- `+number -number` can be used to increase or decrease a parameter in your condition.
+## :speech_balloon: Hint: 2
 
-## Hint: 2
+You use `if / else if` chains to return different values in different scenarios.
 
-- You can chain else if statements to return different values in different scenarios.
+> _try to solve the problem now_
 
-## Hint: 3
+## :speech_balloon: Hint: 3
 
-- Control the flow of your function based on the tables order of priority - top (highest) to bottom (lowest) to return matching string values.
+Control the flow of your function based on the tables order of priority - top (highest) to bottom (lowest) to return matching string values.
+
+> _try to solve the problem now_
 
 ## Spoiler Alert!
 
@@ -50,7 +55,7 @@ Remember to use [Read-Search-Ask](FreeCodeCamp-Get-Help) if you get stuck. Try t
 
 **Solution ahead!**
 
-## Code Solution:
+## :beginner: Basic Code Solution:
 
 ```javascript
 function golfScore(par, strokes) {
@@ -78,12 +83,21 @@ golfScore(5, 4);
 
 ### Code Explanation:
 
-- Comparing the `parameters` stroke and par value to return appropriated string value.
-- Using else if statement for flow control
-- else will return string "Go home!" to every condition where strokes are equal to par +3 or higher
+- Compare the parameters **par** and **strokes** to return appropriate string values.
+- `if / else if` chain is used for flow control.
+- String "Go Home!" is returned for every condition where **strokes** is greater than or equal to **par + 3**.
 
-### Credits:
+### :trophy: Credits:
 
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @osterbergmarcus for your help with Checkpoint: Golf Code`**
+If you found this page useful, you may say thanks to the contributors by copying and pasting the following line in the main chat:
 
-> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
+**`Thanks @osterbergmarcus for your help with Checkpoint: Golf Code`**
+
+## :clipboard: NOTES FOR CONTRIBUTIONS:
+
+- :warning: **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
+- Add an explanation of your solution.
+- Categorize the solution in one of the following categories &mdash; **Basic**, **Intermediate** and **Advanced**. :traffic_light:
+- Please add your username only if you have added any **relevant main contents**. (:warning: **_DO NOT_** _remove any existing usernames_)
+
+> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution) for reference.
