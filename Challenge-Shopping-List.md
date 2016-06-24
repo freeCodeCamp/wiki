@@ -1,37 +1,41 @@
 # Challenge Shopping List
 
-Create a shopping list in the variable `myList`. The list should be a multi-dimensional array containing several sub-arrays.
+:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
 
-The first element in each sub-array should contain a string with the name of the item. The second element should be a number representing the quantity.
+### :checkered_flag: Problem Explanation:
 
-`["Chocolate Bar", 15]`
+Create a shopping list in the variable **myList**. The list should be a multi-dimensional array containing several sub-arrays.
+
+The first element in each sub-array should contain a string with the name of the item. The second element should be a number representing the quantity i.e. `["Chocolate Bar", 15]`.
 
 There should be at least 5 sub-arrays in the list.
 
-Remember to use [Read-Search-Ask](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program. Write your own code.
-
-## Useful Link
-
-- [Challenge: Nest one Array within Another Array](http://www.freecodecamp.com/challenges/nest-one-array-within-another-array)
-
-## Problem Explanation:
-
-- `myList` should be an array.
+- **myList** should be an array.
 - The first elements in each of your sub-arrays must all be strings.
 - The second elements in each of your sub-arrays must all be numbers.
 - You must have at least 5 items in your list.
 
-## Hint: 1
+#### Relevant Links
 
-- A multi-dimensional array would have the following outline `[[]]`
+- [Challenge: Nest one Array within Another Array](http://www.freecodecamp.com/challenges/nest-one-array-within-another-array)
 
-## Hint: 2
+## :speech_balloon: Hint: 1
 
-- Each sub-array should be separated by `,` as would any item in an array.
+A multi-dimensional array would have the following outline `[[]]`.
 
-## Hint: 3
+> _try to solve the problem now_
 
-- Don't forget the `;` at the end of your declaration.
+## :speech_balloon: Hint: 2
+
+Each sub-array should be separated by `,` as would any item in an array.
+
+> _try to solve the problem now_
+
+## :speech_balloon: Hint: 3
+
+Don't forget the `;` at the end of your declaration.
+
+> _try to solve the problem now_
 
 ## Spoiler Alert!
 
@@ -39,18 +43,28 @@ Remember to use [Read-Search-Ask](FreeCodeCamp-Get-Help) if you get stuck. Try t
 
 **Solution ahead!**
 
-## Code Solution:
+## :beginner: Basic Code Solution:
 
 ```javascript
 var myList = [["Canned Beans", 3],["Milk Galon", 1],["Cereal", 2],["Toilet Paper", 12],["Sack of Rice", 1]];
 ```
 
-## Code Explanation:
+### Code Explanation:
 
-- Created an array that has five arrays inside composed of a string and an integer in that order.
+- A multi-dimensional array is created.
+- The array consists five arrays inside, each composed of a string and an integer, in the same order.
 
-### Credits:
+### :trophy: Credits:
 
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 for your help with Checkpoint: Shopping List`**
+If you found this page useful, you may say thanks to the contributors by copying and pasting the following line in the main chat:
 
-> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
+**`Thanks @Rafase282 for your help with Checkpoint: Shopping List`**
+
+## :clipboard: NOTES FOR CONTRIBUTIONS:
+
+- :warning: **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
+- Add an explanation of your solution.
+- Categorize the solution in one of the following categories &mdash; **Basic**, **Intermediate** and **Advanced**. :traffic_light:
+- Please add your username only if you have added any **relevant main contents**. (:warning: **_DO NOT_** _remove any existing usernames_)
+
+> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution) for reference.
