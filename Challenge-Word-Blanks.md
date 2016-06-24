@@ -1,39 +1,45 @@
 # Challenge Word Blanks
 
-We will now use our knowledge of strings to build a "Mad Libs" style word game we're calling "Word Blanks". You will create an (optionally humorous) "Fill in the Blanks" style sentence.
+:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
 
-## Instructions
+### :checkered_flag: Problem Explanation:
 
-You will need to use string operators to build a new string, result, using the provided variables: `myNoun`, `myAdjective`, `myVerb`, and `myAdverb`.
+We will now use our knowledge of strings to build a **Mad Libs** style word game we're calling "Word Blanks". You will create an (optionally humorous) "Fill in the Blanks" style sentence.
 
-You will also need to provide additional strings, which will not change, in between the provided words.
+You will need to use string operators to build a new string, **result**, using the provided variables: **myNoun**, **myAdjective**, **myVerb**, and **myAdverb**.
 
-Remember to use [Read-Search-Ask](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program. Write your own code.
+You will also need to use additional strings, which will not change, and must be in between all of the provided words. The output should be a complete sentence.
 
-## Useful Links
+We have provided a framework for testing your results with different words. The tests will run your function with several different inputs to make sure all of the provided words appear in the output, as well as your extra strings.
+
+- Change the code below `//Your Code here` and up to `//Change this line`.
+- Take note that you are editing the inside of the `wordBlanks()` function.
+- You will have basically created a sentence with the provided string variables.
+
+#### Relevant Links
 
 - [Mad Libs](https://en.wikipedia.org/wiki/Mad_Libs)
 - [Challenge: Constructing Strings with Variables](http://www.freecodecamp.com/challenges/constructing-strings-with-variables)
 - [Challenge: Concatenating Strings with Plus Operator](http://www.freecodecamp.com/challenges/concatenating-strings-with-plus-operator)
 - [Challenge: Concatenating Strings with the Plus Equals Operator](http://www.freecodecamp.com/challenges/concatenating-strings-with-the-plus-equals-operator)
 
-## Problem Explanation:
+## :speech_balloon: Hint: 1
 
-- Change the code below `//Your Code here` and up to `//Change this line`.
-- Take note that you are editing the inside of the `wordBlanks` function.
-- You will have basically create a sentence with the provided variables and strings you will make.
+`+` can be used for _concatenating_ strings.
 
-## Hint: 1
+> _try to solve the problem now_
 
-- `+` can be used for _concatenating_ with strings.
+## :speech_balloon: Hint: 2
 
-## Hint: 2
+Just as you can chain strings by concatenating, you can assign them to an existing variable instead of a new one.
 
-- Just as you can chain strings by concatenating, you can asign them to an existing variable instead of a new one.
+> _try to solve the problem now_
 
-## Hint: 3
+## :speech_balloon: Hint: 3
 
-- `+=` will allow you use an existing variable, a string in this case. Remember to add your own **non-letters** in between each variable.
+`+=` will allow you to use an existing variable, a string type in this case. Remember to add your own **non-letters** in between each variable.
+
+> _try to solve the problem now_
 
 ## Spoiler Alert!
 
@@ -41,7 +47,7 @@ Remember to use [Read-Search-Ask](FreeCodeCamp-Get-Help) if you get stuck. Try t
 
 **Solution ahead!**
 
-## Code Solution:
+## :beginner: Basic Code Solution:
 
 ```javascript
 function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
@@ -60,16 +66,26 @@ wordBlanks("dog", "big", "ran", "quickly");
 **Example Run**
 
 - Test `wordBlanks("dog", "big", "ran", "quickly");` runs.
-- Variable `result` is declared with an empty string `""`.
-- `result` will be changed with a new string composed of the concatenated strings "dog", "big", "ran", "quickly" through the variables `myNoun`, `myAdjective`, `myVerb`, `myAdverb` respectively; the order is changed and whitespace added.
-- `result` is returned.
+- Variable **result** is declared with an empty string `""`.
+- **result** will be changed with a new string composed of the concatenated strings "dog", "big", "ran", "quickly" through the variables **myNoun**, **myAdjective**, **myVerb**, **myAdverb** respectively; the order is changed and whitespace added.
+- **result** is returned.
 
-## Code Explanation:
+### Code Explanation:
 
-- Use `result` to concatenate the given variables separated by whitespace and added strings to forma full sentence.
+- Use **result** to concatenate the given variables.
+- Separate words with whitespace and appropriate words to form the full sentence.
 
-### Credits:
+### :trophy: Credits:
 
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 for your help with Checkpoint: Word Blanks`**
+If you found this page useful, you may say thanks to the contributors by copying and pasting the following line in the main chat:
 
-> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
+**`Thanks @Rafase282 for your help with Checkpoint: Word Blanks`**
+
+## :clipboard: NOTES FOR CONTRIBUTIONS:
+
+- :warning: **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
+- Add an explanation of your solution.
+- Categorize the solution in one of the following categories &mdash; **Basic**, **Intermediate** and **Advanced**. :traffic_light:
+- Please add your username only if you have added any **relevant main contents**. (:warning: **_DO NOT_** _remove any existing usernames_)
+
+> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution) for reference.
