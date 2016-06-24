@@ -23,7 +23,7 @@ Please join the gitter channel [**`[FreeCodeCamp/Translators]`**](https://gitter
 | Korean   | [StephenMayeux/koreantranslations](https://gitter.im/StephenMayeux/koreantranslations) |
 | Russian  | [FreeCodeCamp/TranslationRussian](https://gitter.im/FreeCodeCamp/TranslationRussian) |
 | Serbian  | [FreeCodeCamp/TranslateSerbian](https://gitter.im/FreeCodeCamp/TranslateSerbian) |
-| Spanish  | [AlexTrapp/FreeCodeCampEspañol](https://gitter.im/AlexTrapp/FreeCodeCampEspa%C3%B1ol) |
+| Spanish  | [FreeCodeCamp/Espanol](https://gitter.im/FreeCodeCamp/Espanol) |
 | Turkish  | [FreeCodeCamp/TranslateTurkish](https://gitter.im/FreeCodeCamp/TranslateTurkish) |
 
 If it doesn't exist, we recommend you to [create a chat room on Gitter](https://gitter.im/home/#createroom) exclusive for the language that you're working on, where you can communicate and discuss the status of translations and coordinate efforts. Help regarding the technical processes should also be provided in the chat room.
