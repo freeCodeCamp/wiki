@@ -1,27 +1,29 @@
 # Challenge Convert Celsius to Fahrenheit
 
-The algorithm to convert from Celsius to Fahrenheit is the temperature in Celsius times 9/5, plus 32.
+:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
 
-You are given a variable `celsius` representing a temperature in Celsius. Create a variable `fahrenheit` and apply the algorithm to assign it the corresponding temperature in Fahrenheit.
+### :checkered_flag: Problem Explanation:
 
-Remember to use [Read-Search-Ask](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program. Write your own code.
+The algorithm to convert from Celsius to Fahrenheit is the temperature in Celsius times `9/5`, plus `32`.
 
-## Useful Links
+You are given a variable **celsius** representing a temperature in Celsius. Use the variable **fahrenheit** already defined and apply the algorithm to assign it the corresponding temperature in Fahrenheit.
+
+#### Relevant Links
 
 - [The Order of Operations: PEMDAS](http://www.purplemath.com/modules/orderops.htm)
 - [Order of Operation: Video](https://www.khanacademy.org/math/pre-algebra/order-of-operations/order_of_operations/v/order-of-operations)
 
-## Problem Explanation:
+## :speech_balloon: Hint: 1
 
-- Explain what is asked in an easy to understand way.
+Take a look at the code. There is an area that you're not supposed to edit. From there, ask yourself - what is used there that I haven't seen before?
 
-## Hint: 1
+> _try to solve the problem now_
 
-- Take a look at the code, there is an area that you're not supposed to edit, from there ask yourself, what is used there that I don't see before?
+## :speech_balloon: Hint: 2
 
-## Hint: 2
+Keep in mind the **order of operation** check the link in the _links_ section for more information.
 
-- Keep in mind the `order of operation` check the link in the _link_ section for more information.
+> _try to solve the problem now_
 
 ## Spoiler Alert!
 
@@ -29,7 +31,7 @@ Remember to use [Read-Search-Ask](FreeCodeCamp-Get-Help) if you get stuck. Try t
 
 **Solution ahead!**
 
-## Code Solution:
+## :beginner: Basic Code Solution:
 
 ```javascript
 function convertToF(celsius) {
@@ -50,11 +52,20 @@ convertToF(30);
 
 ### Code Explanation:
 
-- Make sure the proper order is followed with arithmetic using `()` when needed.
-- Declare the `fahrenheit` variable.
+- Declare the **fahrenheit** variable.
+- Make sure the proper order of arithmetic operations is followed by using parenthesis (`()`) when needed.
 
-### Credits:
+### :trophy: Credits:
 
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @Rafase282 for your help with Checkpoint: Convert Celsius to Fahrenheit`**
+If you found this page useful, you may say thanks to the contributors by copying and pasting the following line in the main chat:
 
-> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
+**`Thanks @Rafase282 for your help with Checkpoint: Convert Celsius to Fahrenheit`**
+
+## :clipboard: NOTES FOR CONTRIBUTIONS:
+
+- :warning: **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
+- Add an explanation of your solution.
+- Categorize the solution in one of the following categories &mdash; **Basic**, **Intermediate** and **Advanced**. :traffic_light:
+- Please add your username only if you have added any **relevant main contents**. (:warning: **_DO NOT_** _remove any existing usernames_)
+
+> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution) for reference.
