@@ -107,7 +107,7 @@ function cc(card) {
 - After the `switch` statement, the `if` statement checks `count`, which is now 0.
 - This then drops down to the `else` statement, which will return **0 Hold**.
 
-**_Note_** As mentioned earlier, the `switch` statement could have also been an `else if` statement.
+**_Note_**: As mentioned earlier, the `switch` statement could have also been an `else if` statement.
 
 ### :trophy: Credits:
 
