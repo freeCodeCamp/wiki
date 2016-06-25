@@ -97,11 +97,6 @@ Explain solution here and add any relevant links
 - [Link Title 2](http://example.com)
 - [Link Title 3](http://example.com)
 
-### :trophy: Credits:
-
-If you found this page useful, you may say thanks to the contributors by copying and pasting the following line in the main chat:
-
-**`Thanks @username for your help with Challenge: name of the challenge`**
 
 ## :clipboard: NOTES FOR CONTRIBUTIONS:
 
@@ -110,4 +105,4 @@ If you found this page useful, you may say thanks to the contributors by copying
 - Categorize the solution in one of the following categories &mdash; **Basic**, **Intermediate** and **Advanced**. :traffic_light:
 - Please add your username only if you have added any **relevant main contents**. (:warning: **_DO NOT_** _remove any existing usernames_)
 
-> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution) for reference.
+> See :point_right: [**`Wiki Challenge Solution Template`**](http://forum.freecodecamp.com/t/algorithm-article-template/14272) for reference.

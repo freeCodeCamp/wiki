@@ -9,15 +9,15 @@ JS Concepts
 - [Closures](JS-Closures)
 - [Falsy](JS-Falsy)
 - [Functions](JS-Functions)
-- [Immutable](JS-Immutable)
-- [Loops](JS-Loops)
+- [Immutable](http://forum.freecodecamp.com/t/javascript-immutable-types/14679)
+- [Loops](http://forum.freecodecamp.com/t/javascript-loops/14681)
 - [Scope](js-scope)
-- [Ternary](JS-Ternary)
-- [Truthy](JS-Truthy)
+- [Ternary](http://forum.freecodecamp.com/t/javascript-ternary-operator/15973)
+- [Truthy](http://forum.freecodecamp.com/t/javascript-truthy-value/15975)
 
 JS Language Reference
 
-- [arguments](JS-Arguments)
+- [arguments](http://forum.freecodecamp.com/t/javascript-arguments/14283)
 - [Array.prototype.filter](js-array-prototype-filter)
 - [Array.prototype.indexOf](js-array-prototype-indexof)
 - [Array.prototype.map](js-array-prototype-map)
@@ -27,14 +27,14 @@ JS Language Reference
 - [Array.prototype.slice](js-array-prototype-slice)
 - [Array.prototype.some](js-array-prototype-some)
 - [Array.prototype.toString](js-array-prototype-tostring)
-- [Boolean](JS-Boolean)
-- [for loop](JS-For-Loop)
-- [for..in loop](JS-For-In-Loop)
-- [for..of loop](JS-For-Of-Loop)
-- [String.prototype.split](JS-String-Prototype-Split)
-- [String.prototype.toLowerCase](JS-String-Prototype-ToLowerCase)
-- [String.prototype.toUpperCase](JS-String-Prototype-ToUpperCase)
-- [undefined](JS-Undefined)
+- [Boolean](http://forum.freecodecamp.com/t/javascript-boolean/14311)
+- [for loop](http://forum.freecodecamp.com/t/javascript-for-loop/14666)
+- [for..in loop](http://forum.freecodecamp.com/t/javascript-for-in-loop/14665)
+- [for..of loop](http://forum.freecodecamp.com/t/javascript-for-of-loop/14671)
+- [String.prototype.split](http://forum.freecodecamp.com/t/javascript-string-prototype-split/15944)
+- [String.prototype.toLowerCase](http://forum.freecodecamp.com/t/javascript-string-prototype-tolowercase/15948)
+- [String.prototype.toUpperCase](http://forum.freecodecamp.com/t/javascript-string-prototype-touppercase/15950)
+- [undefined](http://forum.freecodecamp.com/t/the-javascript-undefined-primitive-value/15976)
 
 Other Links
 

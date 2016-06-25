@@ -11,4 +11,4 @@ angular.module('myApp')
   .controller('MainCtrl', function ($scope, $http) { ...
 ```
 
-[PREVIOUS](Front-End-File-Structure) [NEXT](Angular-Creating-A-New-Directive)
+[PREVIOUS](http://forum.freecodecamp.com/t/front-end-file-structure/14266) [NEXT](Angular-Creating-A-New-Directive)

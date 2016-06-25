@@ -46,7 +46,7 @@ We currently have a couple of guides to help you contribute, via the browser, co
 - [How to Contribute to the Wiki Locally](Wiki-Contribute-Local-GUI): This guide shows you how to make changes to the wiki from a local copy on your computer; it also works for contributing to the main repository.
 - [Pull Request Guidelines](PULL_REQUEST_TEMPLATE)
 - [More on How to Make a Pull Request from a Fork](Pull-Request-Contribute)
-- [How to Squash Commits](Git-Squash): We require only one commit per pull request, unless otherwise specified by a moderator.
+- [How to Squash Commits](http://forum.freecodecamp.com/t/how-to-squash-multiple-commits-into-one-with-git/13231): We require only one commit per pull request, unless otherwise specified by a moderator.
 - [Create markdown articles using atom](Wiki-Create-Articles-With-Atom): this guide will help you write articles with atoma nd its markdown previwer.
 
 ### Labels
@@ -83,7 +83,7 @@ We have a few templates for different aspects of the wiki, such as different art
 These templates guide the creation of new articles such as algorithm challenges and informational articles.
 
 - [JavaScript Articles](Wiki-Template-JavaScript)
-- [Challenge Solutions](Wiki-Template-Challenge-Solution)
+- [Challenge Solutions](http://forum.freecodecamp.com/t/algorithm-article-template/14272)
 
 ### Contribution Templates
 

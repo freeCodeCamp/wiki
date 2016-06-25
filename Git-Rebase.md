@@ -18,7 +18,7 @@ Let us say that you have a repository such as this:
 
 If you wanted to merge the `auth` branch with the `dev` branch, git will throw an error at you because your `auth` branch is out-of-date: it doesn't account for Commit 4\. You'll have to bring your branch up-to-date.
 
-Git provides you with two methods to do this: the `merge` command and the `rebase` command. For an exploration of the `merge` command, visit the relevant wiki article: [Git Merge](Git-Merge)
+Git provides you with two methods to do this: the `merge` command and the `rebase` command. For an exploration of the `merge` command, visit the relevant wiki article: [Git Merge](http://forum.freecodecamp.com/t/understand-how-to-use-git-merge/13215)
 
 Let's run `rebase` now:
 
@@ -53,4 +53,4 @@ This will pull the latest changes from the FCC staging branch and rebase them wi
 
 ### Squashing
 
-If you have multiple commits that you want to squash into one then follow the instructions for **[Squashing](Git-Squash)**.
+If you have multiple commits that you want to squash into one then follow the instructions for **[Squashing](http://forum.freecodecamp.com/t/how-to-squash-multiple-commits-into-one-with-git/13231)**.

@@ -7,11 +7,11 @@ For that you will need `git-it` to go to the challenges, and `git-it verify` to 
 After you learn how to use git, here are other resources to help you learn more about git:
 
 - [Creating a New Github Issue](Creating-A-New-Github-Issue)
-- [Git Blame](Git-Blame)
-- [Git Merge](Git-Merge)
-- [Git Rebase](Git-Rebase)
+- [Git Blame](http://forum.freecodecamp.com/t/find-the-culprit-with-git-blame/13194)
+- [Git Merge](http://forum.freecodecamp.com/t/understand-how-to-use-git-merge/13215)
+- [Git Rebase](http://forum.freecodecamp.com/t/how-to-use-git-rebase/13226)
 - [Other Git Resources](Git-Resources)
-- [Writing Great Git Commit Messages](Git-Commit-Message)
+- [Writing Great Git Commit Messages](http://forum.freecodecamp.com/t/writing-good-git-commit-messages/13210)
 - [Using GitHub Pages for your front end dev projects](GitHub-Hosting)
 - [Search your issue on GitHub](Search-Existing-Issue)
 - [How Issue Mods Work](FreeCodeCamp-Issue-Mods)

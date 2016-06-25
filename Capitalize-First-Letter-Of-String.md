@@ -9,7 +9,7 @@ To capitalize the first letter of a random string, you should follow these steps
 
 ## 1. Get the First Letter of the String
 
-You should use [charAt()](JS-String-Prototype-CharAt) method, at _index 0_, to select the first character of the string.
+You should use [charAt()](http://forum.freecodecamp.com/t/javascript-string-prototype-charat/15932) method, at _index 0_, to select the first character of the string.
 
 ```javascript
 var string = "freeCodecamp";
@@ -21,7 +21,7 @@ string.charAt(0); // Returns "f"
 
 ## 2. Convert the First Letter to uppercase
 
-You may use [toUpperCase()](JS-String-Prototype-ToUpperCase) method and convert the calling string to upper case.
+You may use [toUpperCase()](http://forum.freecodecamp.com/t/javascript-string-prototype-touppercase/15950) method and convert the calling string to upper case.
 
 ```javascript
 var string = "freeCodecamp";

@@ -9,7 +9,7 @@ These are the steps you need to follow to deploy to [OpenShift](https://www.open
 ## Requirements
 
 - An account in [OpenShift](https://www.openshift.com/app/account/new)
-- Our app in a [Git](Git) Repository
+- Our app in a [Git](http://forum.freecodecamp.com/t/wiki-git-resources/13136) Repository
 
 ## Changes in your code
 

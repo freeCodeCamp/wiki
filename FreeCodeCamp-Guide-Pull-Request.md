@@ -40,7 +40,7 @@ This is the recommended method. Read about [How to Setup and Maintain a Local In
 6. Check your `git status` to see unstaged files.
 7. Add your edited files: `git add path/to/filename.ext` You can also do: `git add .` to add all unstaged files. Take care, though, because you can accidentially add files you don't want added. Review your `git status` first.
 8. Commit your edits: `git commit -m "Brief Description of Commit"`
-9. [Squash your commits](Git-Squash), if there are more than one.
+9. [Squash your commits](http://forum.freecodecamp.com/t/how-to-squash-multiple-commits-into-one-with-git/13231), if there are more than one.
 10. Push your commits to your GitHub Fork: `git push -u origin branch/name-here`
 11. Go to [Common Steps](FreeCodeCamp-Guide-Pull-Request#common-steps)
 
