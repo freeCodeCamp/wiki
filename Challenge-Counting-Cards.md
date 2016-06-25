@@ -1,8 +1,10 @@
 # Challenge Counting Cards
 
-**_About Blackjack_**
+:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
 
-In the casino game Blackjack, a player can gain an advantage over the house by keeping track of the relative number of high and low cards remaining in the deck. This is called [Card Counting](https://en.wikipedia.org/wiki/Card_counting "Wikipedia entry on Card Counting").
+### :checkered_flag: Problem Explanation:
+
+In the casino game **Blackjack**, a player can gain an advantage over the house by keeping track of the relative number of high and low cards remaining in the deck. This is called card counting.
 
 Having more high cards remaining in the deck favors the player. Each card is assigned a value according to the table below. When the count is positive, the player should bet high. When the count is zero or negative, the player should bet low.
 
@@ -12,43 +14,44 @@ Value |         Cards
 0     |        7, 8, 9
 -1    | 10, 'J', 'Q', 'K','A'
 
-**_Instructions_**
+You will write a card counting function. It will receive a **card** parameter and increment or decrement the global **count** variable according to the card's value (see table). The function will then return a string with the current count and the string `Bet` if the count is positive, or `Hold` if the count is zero or negative. The current count and the player's decision (`Bet` or `Hold`) should be separated by a single space.
 
-You will write a card counting function. It will receive a **card** parameter and increment or decrement the global **count** variable according to the card's value (see table). The function will then return the current count and the string **"Bet"** if the count is positive, or **"Hold"** if the count is zero or negative.
+- Change the code below `// Only change code below this line` and up to `// Only change code above this line`
+- Ensure that you are editing the inside of the `cc` function.
+- Use what you've learned to check the value of each **card** parameter passed into the function.
+- Keep a running count of that number.
+- If the final count is 1 or greater, return **# Hold**.
+- If the final count is 0 or less, return **# Bet**.
 
 **Example Output:**
 
 - -3 Hold
 - 5 Bet
 
-Remember to use [Read-Search-Ask](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program. Write your own code.
+#### Relevant Links
 
-## Useful Links
-
+- [Card counting](https://en.wikipedia.org/wiki/Card_counting)
 - [Challenge: Selecting from many options with Switch Statements](http://www.freecodecamp.com/challenges/selecting-from-many-options-with-switch-statements)
 - [Challenge: Chaining If Else Statements](http://www.freecodecamp.com/challenges/chaining-if-else-statements)
 - [Challenge: Increment a Number with Javascript](http://www.freecodecamp.com/challenges/increment-a-number-with-javascript)
 
-## Problem Explanation:
+## :speech_balloon: Hint: 1
 
-- Change the code below `// Only change code below this line` and up to `// Only change code above this line`
-- Take note that you are editing the inside of the `cc` function
-- Use what you've learned to check the value of each `card` parameter passed into the function
-- Keep a running count of that number
-- If the final count is 1 or greater, return **# Hold**
-- If the final count is 0 or less, return **# Bet**
+Use a `switch` (or `else if`) statement to count the value of each card.
 
-## Hint: 1
+> _try to solve the problem now_
 
-- Use a `switch` (or `else if`) statement to count the value of each card.
+## :speech_balloon: Hint: 2
 
-## Hint: 2
+Add/subtract the value of each card to variable **count**. If the card is worth 0, don't do anything.
 
-- Add/subtract the value of each card to variable `count`. If the card is worth 0, don't do anything!
+> _try to solve the problem now_
 
-## Hint: 3
+## :speech_balloon: Hint: 3
 
-- After you've counted the cards, use an `if` statement to check the value of `count`. Also, make sure your return has a space between the number and the string.
+After you've counted the cards, use an `if` statement to check the value of **count**. Also, make sure your `return` has a space between the number and the string.
+
+> _try to solve the problem now_
 
 ## Spoiler Alert!
 
@@ -56,9 +59,9 @@ Remember to use [Read-Search-Ask](FreeCodeCamp-Get-Help) if you get stuck. Try t
 
 **Solution ahead!**
 
-## Code Solution:
+## :beginner: Basic Code Solution:
 
-```
+```javascript
 function cc(card) {
   // Only change code below this line
   switch(card){
@@ -88,28 +91,35 @@ function cc(card) {
 
 ### Code Explanation:
 
-- Checks the value of each card via a `switch` statement
-- The variable `count`:
-
-  - Increases by 1 if the card is a 2, 3, 4, 5, or 6
+- Check the value of each card via a `switch` statement.
+- The variable **count**:
+  - Increases by 1 if the card is a 2, 3, 4, 5, or 6.
   - Since 7, 8, and 9 aren't worth anything, we ignore those cards in our `switch` statement.
-  - Decreases by 1 if the card is a 10, 'J', 'Q', 'K', or 'A'
+  - Decreases by 1 if the card is a 10, 'J', 'Q', 'K', or 'A'.
+- Check the value of **count** and return the appropriate response.
 
-- Checks the value of `count` and returns the appropriate response
+**Example Run**
 
-**_Example Run_**
+- `cc(2);` runs.
+- The `switch` statement hits `case 2`, jumps down and adds 1 to the variable `count`.
+- The `switch` statement then hits the `break` and `cc(3);` runs.
+- This cycle continues until the final call is made, `cc('A');`.
+- After the `switch` statement, the `if` statement checks `count`, which is now 0.
+- This then drops down to the `else` statement, which will return **0 Hold**.
 
-- `cc(2);` runs
-- The `switch` statement hits `case 2`, jumps down and adds 1 to the variable `count`
-- The `switch` statement then hits the `break` and `cc(3);` runs
-- This cycle continues until the final call is made, `cc('A');`
-- After the `switch` statement, the `if` statement checks `count`, which is now 0
-- This then drops down to the `else` statement, which will return **0 Hold**
+**_Note_**: As mentioned earlier, the `switch` statement could have also been an `else if` statement.
 
-**_Note_** As mentioned earlier, the `switch` statement could have also been an `else if` statement
+### :trophy: Credits:
 
-### Credits:
+If you found this page useful, you may say thanks to the contributors by copying and pasting the following line in the main chat:
 
-If you found this page useful, you can give thanks by copying and pasting this on the main chat: **`Thanks @leftynaut for your help with Checkpoint: Counting Cards`**
+**`Thanks @leftynaut for your help with Checkpoint: Counting Cards`**
 
-> **NOTE:** Please add your username only if you have added any **relevant main contents** to the wiki page. (Please don't remove any existing usernames.)
+## :clipboard: NOTES FOR CONTRIBUTIONS:
+
+- :warning: **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
+- Add an explanation of your solution.
+- Categorize the solution in one of the following categories &mdash; **Basic**, **Intermediate** and **Advanced**. :traffic_light:
+- Please add your username only if you have added any **relevant main contents**. (:warning: **_DO NOT_** _remove any existing usernames_)
+
+> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution) for reference.
