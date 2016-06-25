@@ -1,6 +1,6 @@
 # Free Code Camp Issue labels
 
-In this article you can find labels (see the table below) used to categorize the variety of issues submitted to FCC, along with descriptions (work in progress). The labels range from **bugs** to **questions** to **curriculum requests**. For example, if an issue has a ***Wiki*** label, you can create a wiki article about that issue—after reading the [Wiki Style Guide](Wiki-Style-Guide). 
+In this article you can find labels (see the table below) used to categorize the variety of issues submitted to FCC, along with descriptions (work in progress). The labels range from **bugs** to **questions** to **curriculum requests**. For example, if an issue has a ***Wiki*** label, you can create a wiki article about that issue—after reading the [Wiki Style Guide](Wiki-Style-Guide).
 
 You can use labels to help you choose which issues to click on, rather than randomly clicking to find one of interest to you. Of course, you can work on and submit PRs for issues without labels. However you choose an issue, please be sure to read the [Guidelines for Contributing](https://github.com/FreeCodeCamp/FreeCodeCamp/blob/staging/CONTRIBUTING.md) before submitting any pull requests.
 
@@ -24,7 +24,7 @@ Note: The labels ***blocked***, ***confirmed***, and ***QA*** are also tied to [
 | device specific    | The issue presents only for a particular device (smartphone, tablet, desktop, etc.).|
 | Discussing         | This issue is currently at the discussion stage. |
 | duplicate          | This issue duplicates another issue and most likely will be closed.|
-| easy               | This issue is not critical but should be easy for a camper to fix within their first couple of PRs. Think of these as the camper's gateway to becoming a contributor. |
+| first-timers-only  | This issue is not critical but should be easy for a camper to fix within their first couple of PRs. Think of these as the camper's gateway to becoming a contributor. |
 | enhancement        | Similar to a Feature Request, but more related to improving existing features rather than adding new ones.|
 | feature request    | A request to add a feature to FCC. For example, a request to add the ability to edit or remove Algorithms from a camper's profile page.|
 | firefox            | The issue can be reproduced only in Mozilla Firefox.|
