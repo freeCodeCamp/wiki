@@ -20,11 +20,11 @@ Always return the entire collection object.
 
 - Change the code below `// Only change code below this line` and up to `// Alter values below to test your code`.
 - Take note that you are editing the inside of the `updateRecords` function.
-- For the given `id` parameter, which is associated to the `collection` object:
-  - If the `value` parameter isn't an empty string, update (or set) the `value` parameter for the `prop` parameter.
-  - If the `prop` parameter is equal to `"tracks"` and the `value` isn't an empty string, push the `value` onto the end of the `tracks` array.
-  - If `value` is an empty string, delete that `prop` from the object.
-- Finally, return the `collection` object.
+- For the given **id** parameter, which is associated to the **collection** object:
+  - If the **value** parameter isn't an empty string, update (or set) the **value** parameter for the **prop** parameter.
+  - If the **prop** parameter is equal to `"tracks"` and the **value** isn't an empty string, push the **value** onto the end of the **tracks** array.
+  - If **value** is an empty string, delete that **prop** from the object.
+- Finally, return the **collection** object.
 
 #### Relevant Links
 
