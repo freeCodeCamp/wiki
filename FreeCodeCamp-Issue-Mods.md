@@ -33,7 +33,7 @@ There are several general classes of Issues:
 1. **Code Help Requests** Help Requests are not appropriate for Issues. Do not provide code support in your response, gently point the user to the appropriate Help Chat, and close the issue.
 2. **Bug or Clarification issues** Confirm or validate the bug if possible. Seek additional clarification or details if needed. Once the issue has been reproduced or at least deemed legitimate, label it `confirmed`.
 
-  - If it's a simple change to an existing challenge, flag as `help wanted` and, optionally, as `easy`. Use other tags as appropriate.
+  - If it's a simple change to an existing challenge, flag as `help wanted` and, optionally, as `first-timers-only`. Use other tags as appropriate.
   - If the issue is more significant, flag as `bug`
   - [Label Usage Guide](FreeCodeCamp-Issue-Labels)
 
@@ -77,6 +77,8 @@ PRs which change the underlying function of the site or make non-trivial changes
 ## Take Care
 
 Though you will have write access to Free Code Camp's repository, **you should never write directly to the Free Code Camp repository**. All code should enter Free Code Camp's codebase in the form of a pull request.
+
+**Note**: although you will have write access to the main repository, you should not accept your own PRs should you make one. They will still need to be QA-ed by another issue mod just like any other PR.
 
 ## Becoming an Issue Mod
 
