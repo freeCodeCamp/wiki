@@ -69,7 +69,7 @@ function nextInLine(arr, item) {
 - `var removed = arr.shift();` removes the first element. So **arr** is now [1]. 2 has been removed and is stored in **removed**.
 - `return removed;` 2 is returned.
 
-**_Note_** You don't actually need the variable **removed**. The element removed can be returned directly using `return arr.shift();`.
+**_Note_**: You don't actually need the variable **removed**. The element removed can be returned directly using `return arr.shift();`.
 
 ### :trophy: Credits:
 
