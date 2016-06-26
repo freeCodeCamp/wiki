@@ -18,17 +18,13 @@ If **value** is blank, delete that **prop**.
 
 Always return the entire collection object.
 
-- Change the code below `// Only change code below this line` and up to `// Alter values below to test your code`
-- Take note that you are editing the inside of the `updateRecords` function
-- For the given `id` parameter, which is associated to the `collection` object:
-
-  - If the `value` parameter isn't an empty string, update (or set) the `value` parameter for the `prop` parameter
-  - If the `prop` parameter is equal to `"tracks"` and the `value` isn't an empty string, push the `value` onto the end of the `tracks` array
-  - If `value` is an empty string, delete that `prop` from the object
-
-- Finally, return the `collection` object
-
-
+- Change the code below `// Only change code below this line` and up to `// Alter values below to test your code`.
+- Take note that you are editing the inside of the `updateRecords` function.
+- For the given **id** parameter, which is associated to the **collection** object:
+  - If the **value** parameter isn't an empty string, update (or set) the **value** parameter for the **prop** parameter.
+  - If the **prop** parameter is equal to `"tracks"` and the **value** isn't an empty string, push the **value** onto the end of the **tracks** array.
+  - If **value** is an empty string, delete that **prop** from the object.
+- Finally, return the **collection** object.
 
 #### Relevant Links
 
@@ -39,19 +35,19 @@ Always return the entire collection object.
 
 ## :speech_balloon: Hint: 1
 
-- Use an `else if` statement to check the needed steps.
+Use an `else if` statement to check the needed steps.
 
 > _try to solve the problem now_
 
 ## :speech_balloon: Hint: 2
 
-- The second step listed in the instructions should be first in your `else if` statement.
+The second step listed in the instructions should be first in your `else if` statement.
 
 > _try to solve the problem now_
 
 ## :speech_balloon: Hint: 3
 
-- To access the value of a key in this object, you will use `collection[id][prop]`
+To access the value of a key in this object, you will use `collection[id][prop]`.
 
 > _try to solve the problem now_
 
@@ -63,16 +59,16 @@ Always return the entire collection object.
 
 ## :beginner: Basic Code Solution:
 
-```
+```javascript
 function updateRecords(id, prop, value) {
   if (prop === "tracks" && value !== "") {
-   if(collection[id][prop]){
+   if(collection[id][prop]) {
     collection[id][prop].push(value);
    }
-   else{
+   else {
     collection[id][prop]=[value];
    }
-  } else if (value !== ""){
+  } else if (value !== "") {
     collection[id][prop] = value;
   } else {
     delete collection[id][prop];
@@ -85,16 +81,16 @@ function updateRecords(id, prop, value) {
 
 ### Code Explanation:
 
-- First checks if `prop` is equal to `tracks` AND if `value` isn't a blank string. If both tests pass, `value` is pushed into the `tracks` array.
-- If that first check doesn't pass, it next checks only if `value` isn't a blank string. If that test passes, either a new key (`prop`) and value (`value`) are added to the object, or an existing key is updated if the `prop` already exists.
-- If both these checks fail (meaning `value` must be an empty string), then the key (`prop`) is removed from the object.
+- First checks if **prop** is equal to **tracks** AND if **value** isn't a blank string. If both tests pass, **value** is pushed into the **tracks** array.
+- If that first check doesn't pass, it next checks only if **value** isn't a blank string. If that test passes, either a new key (**prop**) and value (**value**) are added to the object, or an existing key is updated if the **prop** already exists.
+- If both these checks fail (meaning **value** must be an empty string), then the key (**prop**) is removed from the object.
 
-### _Example Run_
+**Example Run**
 
-- `updateRecords(5439, "artist", "ABBA");` runs
-- `prop` is equal to "artist", not "tracks", so the first part of the `else if` statement fails
-- `value` is not a blank string, so the second part of the else if statement passes
-- `artist: "ABBA"` is added to the `5439` `id`
+- `updateRecords(5439, "artist", "ABBA");` runs.
+- **prop** is equal to "artist", not "tracks", so the first part of the `else if` statement fails.
+- **value** is not a blank string, so the second part of the else if statement passes.
+- `artist: "ABBA"` is added to the `5439` `id`.
 
 ### :trophy: Credits:
 
