@@ -2,9 +2,9 @@
 
 ## Introduction
 
-The `if` statement executes a statement if a specified condition is **true**. If the condition is **false**, another statement can be executed.
+The `if` statement executes a statement if a specified condition is **true**. If the condition is **false**, another statement can be executed using the `else` statement..
 
-_Note_: The `else` part is optional.
+_**Note:**_ The `else` statement is optional.
 
 ```javascript
 if (condition)
@@ -33,7 +33,7 @@ _**Note:**_ If you want to execute more than one statement in the `if`, `else` o
 
 ## Examples
 
-**Using** `if...else`
+**Using** `if...else`:
 
 ```javascript
 if (x == 5) {
@@ -44,7 +44,7 @@ else
   z = 19;
 ```
 
-**Using** `else if`
+**Using** `else if`:
 
 ```javascript
 if (x < 10)
