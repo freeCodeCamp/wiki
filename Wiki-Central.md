@@ -41,26 +41,26 @@ You can also access wiki pages from Gitter using Camperbot:
 
 We currently have a couple of guides to help you contribute, via the browser, command line, or desktop application.
 
-- [How to Contribute from Your Browser](Wiki-Contribute-Online): This is currently the easiest way we have to contribute. A simplified version can also be found in the Medium post "[How to land your first open source contribution, from your browser, in 15 minutes](https://medium.freecodecamp.com/how-to-land-your-first-open-source-contribution-from-your-browser-in-15-minutes-756d9bbf81ad)."
-- [How to Fork Our wiki](Wiki-Contribute-Fork): This shows you how to fork our wiki and keep your fork synchronized.
-- [How to Contribute to the Wiki Locally](Wiki-Contribute-Local-GUI): This guide shows you how to make changes to the wiki from a local copy on your computer; it also works for contributing to the main repository.
+- [How to Contribute from Your Browser](Wiki-Contribute-Online.md): This is currently the easiest way we have to contribute. A simplified version can also be found in the Medium post "[How to land your first open source contribution, from your browser, in 15 minutes](https://medium.freecodecamp.com/how-to-land-your-first-open-source-contribution-from-your-browser-in-15-minutes-756d9bbf81ad)."
+- [How to Fork Our wiki](Wiki-Contribute-Fork.md): This shows you how to fork our wiki and keep your fork synchronized.
+- [How to Contribute to the Wiki Locally](Wiki-Contribute-Local-GUI.md): This guide shows you how to make changes to the wiki from a local copy on your computer; it also works for contributing to the main repository.
 - [Pull Request Guidelines](PULL_REQUEST_TEMPLATE)
-- [More on How to Make a Pull Request from a Fork](Pull-Request-Contribute)
-- [How to Squash Commits](Git-Squash): We require only one commit per pull request, unless otherwise specified by a moderator.
-- [Create markdown articles using atom](Wiki-Create-Articles-With-Atom): this guide will help you write articles with atoma nd its markdown previwer.
+- [More on How to Make a Pull Request from a Fork](Pull-Request-Contribute.md)
+- [How to Squash Commits](Git-Squash.md): We require only one commit per pull request, unless otherwise specified by a moderator.
+- [Create markdown articles using atom](Wiki-Create-Articles-With-Atom.md): this guide will help you write articles with atoma nd its markdown previwer.
 
 ### Labels
 
-Before creating your first pull request or starting your work as an issue moderator, it is strongly suggested that you get familiar with the [labels guide](Wiki-Labels-Guide). This will provide you with a through understanding on our labeling system so you can use it properly and maintain a stable workflow.
+Before creating your first pull request or starting your work as an issue moderator, it is strongly suggested that you get familiar with the [labels guide](Wiki-Labels-Guide.md). This will provide you with a through understanding on our labeling system so you can use it properly and maintain a stable workflow.
 
-For a list of labels used globally throughout FreeCodeCamp’s repositories, consult the guide "[Select Issues for Contributing Using Labels](FreeCodeCamp-Issue-Labels)."
+For a list of labels used globally throughout FreeCodeCamp’s repositories, consult the guide "[Select Issues for Contributing Using Labels](FreeCodeCamp-Issue-Labels.md)."
 
 ### Issues
 
 Creating issues in general is simpler than creating a pull request.
 
-- [Creating a New Github Issue](Creating-A-New-Github-Issue)
-- [Searching for Your Issue on Github](Search-Existing-Issue)
+- [Creating a New Github Issue](Creating-A-New-Github-Issue.md)
+- [Searching for Your Issue on Github](Search-Existing-Issue.md)
 
 ### Moderators
 
@@ -72,7 +72,7 @@ If you are really committed to contributing to the wiki and  would like to join 
 
 We aim to translate all our articles into as many languages as we can support. For this, we need people willing to collaborate and translate articles. We have a series of articles that will help you get started and solve any issues:
 
-- [**Translation Guides**](Translation-Guide)
+- [**Translation Guides**](Translation-Guide.md)
 
 ## Templates
 
@@ -82,8 +82,8 @@ We have a few templates for different aspects of the wiki, such as different art
 
 These templates guide the creation of new articles such as algorithm challenges and informational articles.
 
-- [JavaScript Articles](Wiki-Template-JavaScript)
-- [Challenge Solutions](Wiki-Template-Challenge-Solution)
+- [JavaScript Articles](Wiki-Template-JavaScript.md)
+- [Challenge Solutions](Wiki-Template-Challenge-Solution.md)
 
 ### Contribution Templates
 

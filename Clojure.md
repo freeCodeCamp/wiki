@@ -8,8 +8,8 @@ To learn about some of the language's core functions, you can consult the [docum
 
 You could also consult any of these articles:
 
-- [Summary](Clojure-Summary) - Why use Clojure?
-- [Basics](Clojure-Basics) - Defining some variables and functions.
-- [Conditionals](Clojure-Conditionals) - Using logic to add complex control flow to your programs.
-- [Let Bindings](Clojure-Let-Bindings) - Using local variables.
-- [Loop and Recur](Clojure-Loop-Recur) - Using recursion to create loops in Clojure.
+- [Summary](Clojure-Summary.md) - Why use Clojure?
+- [Basics](Clojure-Basics.md) - Defining some variables and functions.
+- [Conditionals](Clojure-Conditionals.md) - Using logic to add complex control flow to your programs.
+- [Let Bindings](Clojure-Let-Bindings.md) - Using local variables.
+- [Loop and Recur](Clojure-Loop-Recur.md) - Using recursion to create loops in Clojure.
