@@ -4,7 +4,7 @@
 
 The `if` statement executes a statement if a specified condition is **true**. If the condition is **false**, another statement can be executed using the `else` statement..
 
-_**Note:**_ The `else` statement is optional.
+> **Note:** The `else` statement is optional.`
 
 ```javascript
 if (condition)
