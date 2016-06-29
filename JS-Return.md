@@ -20,6 +20,8 @@ function square(x) {
 }
 ```
 
+:rocket: [Run Code](https://repl.it/C7VT/0)
+
 The following function returns the product of its arguments, **arg1** and **arg2**.
 
 ```javascript
@@ -29,3 +31,5 @@ function myfunction(arg1, arg2){
    return(r);
 }
 ```
+
+:rocket: [Run Code](https://repl.it/C7VU/0)
