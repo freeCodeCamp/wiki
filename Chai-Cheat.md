@@ -1,4 +1,4 @@
-# Chai.js
+# Chai.js CheatSheet
 
 ## Assert
 

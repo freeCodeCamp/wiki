@@ -1,4 +1,4 @@
-# Algorithm Factorialize A Number
+# Algorithm Falsy Bouncer
 
 ![](https://i.imgur.com/GluUbAz.jpg)
 
