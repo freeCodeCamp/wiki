@@ -1,4 +1,4 @@
-# Java Interfaces
+# Java Interfaces Basics
 
 But wait, my manager has given me a set of strict specifications every class to create, but has told me you can implement it in whichever way you want. Incidentally, Java has a nifty feature of Interfaces which does exactly that!
 

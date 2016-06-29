@@ -1,4 +1,4 @@
-# Algorithm Everything Be True
+# Algorithm Exact Change
 
 :triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
 
