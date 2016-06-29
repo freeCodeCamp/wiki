@@ -2,7 +2,7 @@
 
 ![](https://i.imgur.com/usiNBDU.jpg)
 
-:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
+:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help.md) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
 
 ### :checkered_flag: Problem Explanation:
 
@@ -10,8 +10,8 @@
 
 #### Relevant Links
 
-- [Array.push()](JS-Array-Prototype-Push)
-- [String.split()](JS-String-Prototype-Split)
+- [Array.push()](JS-Array-Prototype-Push.md)
+- [String.split()](JS-String-Prototype-Split.md)
 
 ## :speech_balloon: Hint: 1
 
@@ -90,7 +90,7 @@ pairElement("GCG");
 
 ```javascript
 function pairElement(str) {
-  //define a map object with all pair possibilities 
+  //define a map object with all pair possibilities
   var map = {T:'A', A:'T', G:'C', C:'G'};
   //split str into a char Array
   strArr = str.split('');
@@ -130,4 +130,4 @@ If you found this page useful, you may say thanks to the contributors by copying
 - Categorize the solution in one of the following categories &mdash; **Basic**, **Intermediate** and **Advanced**. :traffic_light:
 - Please add your username only if you have added any **relevant main contents**. (:warning: **_DO NOT_** _remove any existing usernames_)
 
-> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution) for reference.
+> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution.md) for reference.

@@ -110,4 +110,4 @@ If you found this page useful, you may say thanks to the contributors by copying
 - Categorize the solution in one of the following categories &mdash; **Basic**, **Intermediate** and **Advanced**. :traffic_light:
 - Please add your username only if you have added any **relevant main contents**. (:warning: **_DO NOT_** _remove any existing usernames_)
 
-> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution) for reference.
+> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution.md) for reference.

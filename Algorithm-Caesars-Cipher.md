@@ -1,6 +1,6 @@
 # Algorithm Caesars Cipher
 
-:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
+:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help.md) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
 
 ### :checkered_flag: Problem Explanation:
 
@@ -10,8 +10,8 @@
 
 #### Relevant Links
 
-- [String.prototype.charCodeAt](JS-String-Prototype-CharCodeAt)
-- [String.fromCharCode](String.fromCharCode)
+- [String.prototype.charCodeAt](JS-String-Prototype-CharCodeAt.md)
+- [String.fromCharCode](String.fromCharCode.md)
 
 ## :speech_balloon: Hint: 1
 
@@ -73,9 +73,9 @@ function rot13(str) {
 
 #### Relevant Links
 
-- [Array.prototype.map](JS-Array-Prototype-Map)
-- [String.prototype.split](JS-String-Prototype-Split)
-- [Array.prototype.join](JS-Array-Prototype-Join)
+- [Array.prototype.map](JS-Array-Prototype-Map.md)
+- [String.prototype.split](JS-String-Prototype-Split.md)
+- [Array.prototype.join](JS-Array-Prototype-Join.md)
 
 ## :sunflower: Intermediate Code Solution:
 
@@ -115,7 +115,7 @@ rot13("LBH QVQ VG!");
 #### Relevant Links
 
 - [Function.apply](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply)
-- [Regex](JS-Regex-Resources)
+- [Regex](JS-Regex-Resources.md)
 - [Regex.test](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/test)
 
 :rocket: [Run Code](https://repl.it/CLjU/39)
@@ -137,7 +137,7 @@ function rot13(str) { // LBH QVQ VG!
 
 #### Relevant Links
 
-- [String.prototype.replace](JS-String-Prototype-Replace)
+- [String.prototype.replace](JS-String-Prototype-Replace.md)
 
 ### :trophy: Credits:
 
@@ -152,4 +152,4 @@ If you found this page useful, you may say thanks to the contributors by copying
 - Categorize the solution in one of the following categories -- **Basic**, **Intermediate** and **Advanced**. :traffic_light:
 - Please add your username only if you have added any **relevant main contents**. (:warning: **_DO NOT_** _remove any existing usernames_)
 
-> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution) for reference.
+> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution.md) for reference.

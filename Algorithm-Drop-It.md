@@ -2,7 +2,7 @@
 
 ![](https://i.imgur.com/goyTFy2.png)
 
-:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
+:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help.md) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
 
 ### :checkered_flag: Problem Explanation:
 
@@ -10,9 +10,9 @@ Basically while the second argument is not true, you will have to remove the fir
 
 #### Relevant Links
 
-- [Arguments object](JS-Arguments)
-- [Array.shift()](JS-Array-Prototype-Shift)
-- [Array.slice()](JS-Array-Prototype-Slice)
+- [Arguments object](JS-Arguments.md)
+- [Array.shift()](JS-Array-Prototype-Shift.md)
+- [Array.slice()](JS-Array-Prototype-Slice.md)
 
 ## :speech_balloon: Hint: 1
 
@@ -68,8 +68,8 @@ dropElements([1, 2, 3, 4], function(n) {return n >= 3;})
 
 #### Relevant Links
 
-- [For Loops](JS-For-Loop)
-- [More about for loops](JS-For-Loops-Explained)
+- [For Loops](JS-For-Loop.md)
+- [More about for loops](JS-For-Loops-Explained.md)
 
 ## :sunflower: Intermediate Code Solution:
 
@@ -118,7 +118,7 @@ dropElements([1, 2, 3, 4], function(n) {return n >= 3;});
 
 #### Relevant Links
 
-- [While loops](JS-While-Loop)
+- [While loops](JS-While-Loop.md)
 
 ### :trophy: Credits:
 
@@ -133,4 +133,4 @@ If you found this page useful, you may say thanks to the contributors by copying
 - Categorize the solution in one of the following categories &mdash; **Basic**, **Intermediate** and **Advanced**. :traffic_light:
 - Please add your username only if you have added any **relevant main contents**. (:warning: **_DO NOT_** _remove any existing usernames_)
 
-> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution) for reference.
+> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution.md) for reference.

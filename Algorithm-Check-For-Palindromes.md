@@ -2,7 +2,7 @@
 
 ![](https://i.imgur.com/ozDWKEi.jpg)  
 
-:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
+:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help.md) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
 
 ### :checkered_flag: Problem Explanation:
 
@@ -14,8 +14,8 @@ Once we have determined whether it is a palindrome or not we want to return eith
 
 #### Relevant Links
 
-- [String.prototype.replace](JS-String-Prototype-Replace)
-- [String.prototype.toLowerCase](JS-String-Prototype-ToLowerCase)
+- [String.prototype.replace](JS-String-Prototype-Replace.md)
+- [String.prototype.toLowerCase](JS-String-Prototype-ToLowerCase.md)
 
 ## :speech_balloon: Hint: 1
 
@@ -64,9 +64,9 @@ function palindrome(str) {
 
 #### Relevant Links
 
-- [String.prototype.split](JS-String-Prototype-Split)
-- [Array.prototype.reverse](JS-Array-Prototype-Reverse)
-- [Array.prototype.join](JS-Array-Prototype-Join)
+- [String.prototype.split](JS-String-Prototype-Split.md)
+- [Array.prototype.reverse](JS-Array-Prototype-Reverse.md)
+- [Array.prototype.join](JS-Array-Prototype-Join.md)
 
 ## :sunflower: Intermediate Code Solution:
 
@@ -94,7 +94,7 @@ function palindrome(str) {
 
 #### Relevant Links
 
-- [Regex](JS-Regex-Resources)
+- [Regex](JS-Regex-Resources.md)
 
 ## :rotating_light: Advanced Code Solution (using recursion):
 
@@ -133,7 +133,7 @@ function palindrome(str) {
 
 #### Relevant Links
 
-- [String.prototype.slice](JS-String-Prototype-Slice)
+- [String.prototype.slice](JS-String-Prototype-Slice.md)
 
 ### :trophy: Credits:
 
@@ -148,4 +148,4 @@ If you found this page useful, you can give thanks by copying and pasting this o
 - Categorize the solution in one of the following categories &mdash; **Basic**, **Intermediate** and **Advanced**. :traffic_light:
 - Please add your username only if you have added any **relevant main contents**. (:warning: **_DO NOT_** _remove any existing usernames_)
 
-> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution) for reference.
+> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution.md) for reference.

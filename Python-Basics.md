@@ -1,10 +1,10 @@
 # Python Basics
 
-[Previous](Python-Introduction)
+[Previous](Python-Introduction.md)
 
-[Home](Python)
+[Home](Python.md)
 
-[Next](Python-Operators)
+[Next](Python-Operators.md)
 
 You will get familiar with the basics, learn about variables, how the behave, their type, objects and much more.
 

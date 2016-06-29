@@ -11,7 +11,7 @@ s[1] = "x";
 console.log(s) //→ "red"
 ```
 
-the `s` didn't change! [WAT](WAT)!
+the `s` didn't change! [WAT](WAT.md)!
 
 ## Details
 

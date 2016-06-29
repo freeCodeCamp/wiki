@@ -8,11 +8,11 @@ There are various ways in which you can contribute collaboratively to the transl
 
 > _Pro tip: You can contribute to any or all of below phases in the work flow as per your interest._
 
-- [x] [Discuss in language specific Translations Chat Rooms](Translation-Chat-Rooms).
-- [x] [Review the work of another translator](Translation-Review-Work).
-- [x] [Create `Translation` issues to track the progress](Translation-Create-Issues).
-- [x] [Implement Translations](Translation-Translate).
-- [x] [Create Pull requests to add the Translations to code base](Translation-Create-PR)
+- [x] [Discuss in language specific Translations Chat Rooms](Translation-Chat-Rooms.md).
+- [x] [Review the work of another translator](Translation-Review-Work.md).
+- [x] [Create `Translation` issues to track the progress](Translation-Create-Issues.md).
+- [x] [Implement Translations](Translation-Translate.md).
+- [x] [Create Pull requests to add the Translations to code base](Translation-Create-PR.md)
 
 ## Guidelines and Resources
 

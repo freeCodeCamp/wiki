@@ -2,8 +2,8 @@
 
 Javascript has a few different ways to control flow, otherwise known as loops
 
-- [for](JS-For-Loop)
-- [while](JS-While-Loop)
+- [for](JS-For-Loop.md)
+- [while](JS-While-Loop.md)
 
 You can type `js for` or `js while` to get more info on any of these.
 
