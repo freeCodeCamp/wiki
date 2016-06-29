@@ -35,6 +35,8 @@ function testBreak(x) {
 }
 ```
 
+:rocket: [Run Code](https://repl.it/C7VM/0)
+
 In the following example, the counter is set up to count from 1 to 99; however, the **break** statement terminates the loop after 14 counts.
 
 ```javascript
@@ -44,3 +46,5 @@ for (var i = 1; i < 100; i++) {
   }
 }
 ```
+
+:rocket: [Run Code](https://repl.it/C7VO/0)
