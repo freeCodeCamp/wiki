@@ -2,7 +2,7 @@
 
 ![](https://i.imgur.com/HSwaSFK.jpg)
 
-:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
+:triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help.md) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
 
 ## Problem Explanation:
 
@@ -10,8 +10,8 @@ This problem is very straight forward, you will get a string that will represent
 
 ### Relevant Links
 
-- [String.prototype.charCodeAt](JS-String-Prototype-CharCodeAt)
-- [String.fromCharCode](String.fromCharCode)
+- [String.prototype.charCodeAt](JS-String-Prototype-CharCodeAt.md)
+- [String.fromCharCode](String.fromCharCode.md)
 
 ## :speech_balloon: Hint: 1
 
@@ -70,8 +70,8 @@ binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 0110
 
 ## Relevant Links
 
-- [String.prototype.split](JS-String-Prototype-Split)
-- [parseInt](JS-ParseInt)
+- [String.prototype.split](JS-String-Prototype-Split.md)
+- [parseInt](JS-ParseInt.md)
 
 ## :sunflower: Intermediate Code Solution:
 
@@ -123,8 +123,8 @@ binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 0110
 
 ## Relevant Links
 
-- [Math.pow](JS-Math-Pow)
-- [String.length](String.length)
+- [Math.pow](JS-Math-Pow.md)
+- [String.length](String.length.md)
 - [Link Title 3](http://example.com)
 
 ## :rotating_light: Advanced Code Solution:
@@ -149,7 +149,7 @@ binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 0110
 
 ## Relevant Links
 
-- [Array.prototype.map](JS-Array-Prototype-Map)
+- [Array.prototype.map](JS-Array-Prototype-Map.md)
 
 ### :trophy: Credits:
 
@@ -164,4 +164,4 @@ If you found this page useful, you can give thanks by copying and pasting this o
 - Categorize the solution in one of the following categories &mdash; **Basic**, **Intermediate** and **Advanced**. :traffic_light:
 - Please add your username only if you have added any **relevant main contents**. (:warning: **_DO NOT_** _remove any existing usernames_)
 
-> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution) for reference.
+> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution.md) for reference.

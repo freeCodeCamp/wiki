@@ -6,7 +6,7 @@ Linux is a free, open-source, customizable operating system (OS) developed by th
 
 ## Table of Contents
 
-- [Origins of Linux and the Free Software Movement](Linux-Origins)
-- [Who runs Linux?](Linux-Usage)
-- [Why run Linux?](Linux-Advantages)
-- [How to get Linux](Linux-Install)
+- [Origins of Linux and the Free Software Movement](Linux-Origins.md)
+- [Who runs Linux?](Linux-Usage.md)
+- [Why run Linux?](Linux-Advantages.md)
+- [How to get Linux](Linux-Install.md)

@@ -130,14 +130,14 @@ function addTogether() {
  //When only one argument is provided
  if(args.length == 1){
      a= args[0];
-     //Check the  argument using typeof 
+     //Check the  argument using typeof
     if(typeof a!=='number'){
         return undefined;
       }
     else{
-       //Making use of closures 
+       //Making use of closures
        return function(b){
-       //Checking the second argument 
+       //Checking the second argument
          if(typeof b !=='number'){
            return undefined;
            }
@@ -174,11 +174,11 @@ addTogether(2,3);
 //jshint esversion: 6
 function addTogether() {
   var args = Array.from(arguments);
-  return args.some(n => typeof n !== 'number') ? 
-    undefined: 
+  return args.some(n => typeof n !== 'number') ?
+    undefined:
     args.length > 1 ?
       args.reduce((acc, n) => acc += n, 0):
-      (n) => typeof n === "number" ? 
+      (n) => typeof n === "number" ?
         n + args[0]:
         undefined;
 }
@@ -197,8 +197,8 @@ addTogether(2,3);
 
 #### Relevant Links
 
-- [Array.prototype.reduce](JS-Array-Prototype-Reduce)
-- [Array.prototype.some](JS-Array-Prototype-Some)
+- [Array.prototype.reduce](JS-Array-Prototype-Reduce.md)
+- [Array.prototype.some](JS-Array-Prototype-Some.md)
 - [Array.from](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from)
 
 ### :trophy: Credits:
@@ -216,4 +216,4 @@ If you found this page useful, you can give thanks by copying and pasting this o
 - Categorize the solution in one of the following categories -- **Basic**, **Intermediate** and **Advanced**. :traffic_light:
 - Please add your username only if you have added any **relevant main contents**. (:warning: **_DO NOT_** _remove any existing usernames_)
 
-> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution) for reference.
+> See :point_right: [**`Wiki Challenge Solution Template`**](Wiki-Template-Challenge-Solution.md) for reference.

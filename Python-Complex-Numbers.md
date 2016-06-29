@@ -60,4 +60,4 @@ A `string` can also be used as the argument. No second argument is allowed if a 
 (1.1+3.5j)
 ```
 
-[Previous](Python-Basics)
+[Previous](Python-Basics.md)

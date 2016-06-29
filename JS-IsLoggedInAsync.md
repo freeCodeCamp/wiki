@@ -15,4 +15,4 @@ $scope.isLoggedInAsync(callback(bool) {
 });
 ```
 
-[PREVIOUS](Page-Restriction) [NEXT](Angular-Angular-Angular-Bonus-SocketIO)
+[PREVIOUS](Page-Restriction.md) [NEXT](Angular-Angular-Angular-Bonus-SocketIO.md)
