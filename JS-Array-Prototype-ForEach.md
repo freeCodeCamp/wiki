@@ -52,3 +52,18 @@ numbers.forEach(
 document.write(sum);
 // Output: 33
 ```
+
+## How to create your own forEach for learning purposes
+```javascript
+function forEach(array, callback){
+  for(let i = 0; i < array.length; i++){
+    //apply the passed in callback on each element in the array
+    callback(array[i]);
+  }
+}
+function logValue(value, index){
+  console.log(`Element is: ${value}` )
+}
+forEach([1,2,3], logValue); //'logs Element is: 1' .... 'Element is: 2 ......'Element is: 3'
+
+```
