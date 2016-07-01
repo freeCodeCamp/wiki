@@ -45,8 +45,9 @@ function confirmEnding(str, target) {
 :rocket: [Run Code](https://repl.it/CLjU/18)
 
 ### Code Explanation:
+The `substr()` method returns the characters in a string beginning at the specified location through the optional specified number of characters. `substr` operates through the end of the string if the second optional parameter is not specified. `substr()` calculates the index of first matching character from the string's end if the specified location is negative. Using the `-` operator in front of `target.length` makes it negative.
 
-We use the subtring() with the negative value of the lengths of target. We could use -1 to get the last element but if the target is actually longer than one letter then the program will provide the wrong information. Then we return the value of this boolean expression.
+We use the method `substr()` with the negative value of `target`'s length to extract the ending segment of `str` of the same size as `target`, compare it to `target`, and then return the value of this boolean expression.
 
 ### :trophy: Credits:
 
