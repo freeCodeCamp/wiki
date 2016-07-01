@@ -22,7 +22,7 @@ If you fall outside these rather broad categories, please let me know. I always 
 
 Accessibility in itself is a bit of a misleading term sometimes, especially if English is your second language.
 
-If your site is on the internet, reachable by anyone with a web browser, in one sense that website is accessible to everyone with a web browser.
+If your site is on the Internet, reachable by anyone with a web browser, in one sense that website is accessible to everyone with a web browser.
 
 But, is all content on your website actually readable, usable and understandable for everyone? Are there no thresholds that bar certain people from ' accessing' all the information you are exposing?
 
@@ -45,7 +45,7 @@ However, doing this research is key in actually defending such a statement. Did 
 
 If you did, good for you. If not, I guess this drives my point home all the more. :)
 
-The picture gets even more complicated when we look at legislation that actually forces you to make certain websites and web apps accessible. A prime example is the US-based [section 508](http://jimthatcher.com/webcourse1.htm). Right now, this law mainly refers to government organisations, public sector websites etc. However, laws change.
+The picture gets even more complicated when we look at legislation that actually forces you to make certain websites and web apps accessible. A prime example is the US-based [section 508](http://jimthatcher.com/webcourse1.htm). Right now, this law mainly refers to government organizations, public sector websites etc. However, laws change.
 
 Last year, airline websites were included in this list which meant that even here in Europe, airline website devs scrambled to make their content accessible. Not doing so can get your company a fine of literally tens of thousands of dollars for each day the problem isn't fixed.
 
@@ -61,7 +61,7 @@ To bring a bit of a method to the madness, the Web Content Accessibility Guideli
 
 ### Talk like the natives
 
-The HTML specification is a document that describes how the language should be used to build websites. Assistive technologies, like screenreaders, speech recognition programs etc. are aware of this document. Web developers however, often are not, or at least not enough, and think something like this is ok:
+The HTML specification is a document that describes how the language should be used to build websites. Assistive technologies, like screen-readers, speech recognition programs etc. are aware of this document. Web developers however, often are not, or at least not enough, and think something like this is ok:
 
 ```html
 <div class="awesome-button"></div>
@@ -73,9 +73,9 @@ The HTML specification is a document that describes how the language should be u
 
 Guess what? All three of these elements break several criteria of WCAG and therefore are not accessible at all.
 
-The first element breaks the so-called 'name, role, value'-criterium, which states that all elements on a web page should expose their name, their role (like button) and their value (like the contents of an edit field) to assistive technologies. This div actually doesn't provide any of the three, rendering it invisible to screenreaders.
+The first element breaks the so-called 'name, role, value'-criterium, which states that all elements on a web page should expose their name, their role (like button) and their value (like the contents of an edit field) to assistive technologies. This div actually doesn't provide any of the three, rendering it invisible to screen-readers.
 
-The second element looks like a heading visually after styling it with CSS, but semantically is a span. Therefore, assistive technologies won't know its a heading. A screenreader will read this as regular text, instead of a heading. Screenreaders often have a hotkey to quickly jump to the nearest heading, this heading will not be included in that scope.
+The second element looks like a heading visually after styling it with CSS, but semantically is a span. Therefore, assistive technologies won't know its a heading. A screen-reader will read this as regular text, instead of a heading. Screen-readers often have a hotkey to quickly jump to the nearest heading, this heading will not be included in that scope.
 
 The third element could for example be an element a user can click to change the language of the website. Maybe a fancy animated menu of languages will expand when it is clicked. However, this is also a span and does not expose its role (link, or button), making assistive technologies think this is just the word English with some styling.
 
@@ -96,7 +96,7 @@ Boom. Suddenly, all these elements are now perfectly accessible, just by using n
 
 ### A foundation cannot stand without structure
 
-A bit earlier, I touched upon a screenreader's hotkeys to jump from heading to heading. There are in fact many hotkeys like this to quickly jump to the nearest table, form field, link etc. Making sure these headings are actually in logical places is therefore a good practice and really decreases your assistive technology users' stress levels, which is good if you want visitors to keep coming back to your website.
+A bit earlier, I touched upon a screen-reader's hotkeys to jump from heading to heading. There are in fact many hotkeys like this to quickly jump to the nearest table, form field, link etc. Making sure these headings are actually in logical places is therefore a good practice and really decreases your assistive technology users' stress levels, which is good if you want visitors to keep coming back to your website.
 
 Also remember that headings are hierarchical. If you use an h2, make sure the h3's that follow it actually have something to do with that h2\. Don't put an h3 for contact details under your h2 for recent blog posts. A good analogy here is a book with chapters, that have subsections. You wouldn't put a section on baking cookies in the middle of a chapter on preparing vegetables ...or ...you wouldn't... right?
 
@@ -106,7 +106,7 @@ Images on a website are great. They add a new layer to your content, can really 
 
 Certainly. That is, if you can see them. In the HTML5-specification, an img-attribute must always have an alt-attribute. This attribute is meant as an alternative to the image in case it can't be seen. This would be true for blind visitors to your website, but also when your image can't be loaded for some reason. Not adding an alt-tag to an img-attribute is therefore not only breaking accessibility, but going against the HTML5-spec.
 
-I implore any web developer who catches themselves doing this to eat their programmer's hat and work on Windows 95 exclusively for a week. After the time is up, write an essay on what you have learnt from this ordeal so I can have a laugh during my afternoon coffee. :)
+I implore any web developer who catches themselves doing this to eat their programmer's hat and work on Windows 95 exclusively for a week. After the time is up, write an essay on what you have learn from this ordeal so I can have a laugh during my afternoon coffee. :)
 
 Now, there is one caveat here. Alt-attributes are mandatory according to the HTML5-spec, but it's not mandatory to actually fill them in. `<img src="awesome-image.jpg", alt="">` is therefore legal HTML5 code.
 
@@ -138,7 +138,7 @@ I guess the best way to illustrate this is by giving an example:</label>
 <input type='text' id='username'>
 ```
 
-This will make for example a screenreader say "username, text edit field", instead of just reporting' text edit field' and requiring the user to go look for a label. This also really helps people who use speech recognition.
+This will make for example a screen-reader say "username, text edit field", instead of just reporting' text edit field' and requiring the user to go look for a label. This also really helps people who use speech recognition.
 
 ### That's a tall order
 
@@ -154,22 +154,26 @@ Why is this such a big deal? I'll explain.
 
 _spoiler alert!_ To those who have only covered the HTML/CSS curriculum so far, we're going to skip ahead a little.
 
-Screenreaders and other assistive technologies render a top-to-bottom representation of a web page based on your website's DOM. All positional CSS is ignored in this version of the web page.
+Screen-readers and other assistive technologies render a top-to-bottom representation of a web page based on your website's DOM. All positional CSS is ignored in this version of the web page.
 
-DOM stands for Document Object Model and is a tree-like structure of your website's HTML elements. All your HTML elements are nodes that hierarchically interlink based on the HTML tags you use and Javascript, as well as screenreaders, use this DOM tree to work with your HTML code.
+DOM stands for Document Object Model and is a tree-like structure of your website's HTML elements. All your HTML elements are nodes that hierarchically interlink based on the HTML tags you use and JavaScript, as well as screen-readers, use this DOM tree to work with your HTML code.
 
-If you put your
+If you put your element at the top of your  element, it will show up at the top of your DOM tree as well. therefore, the screen-reader will put it at the top as well, even if you move it to the bottom of the page using CSS.  
+So a final tip I want to give you all is to pay attention to the order of your HTML, not just your finished website with CSS added in. Does it still make sense without CSS? Great!  
+Oh ... it doesn't? In that case ..you might one day hear a muffled curse carried to you on a chilly breeze while walking outside. That will most likely be me, visiting your website. :)  
+In that case I really only have two words for you. Often have I heard those same two words directed at me when I wrote some bad code and it is with great pleasure that I tell you:  "go fix!" :)
 
-<footer> element at the top of your  element, it will show up at the top of your dom tree as well. therefore, the screenreader will put it at the top as well, even if you move it to the bottom of the page using CSS.<p>
-</p><p>So a final tip I want to give you all is to pay attention to the order of your HTML, not just your finished website with CSS added in. Does it still make sense without CSS? Great!</p><p>Oh ... it doesn't? In that case ..you might one day hear a muffled curse carried to you on a chilly breeze while walking outside. That will most likely be me, visiting your website. :)
-In that case I really only have two words for you. Often have I heard those same two words directed at me when I wrote some bad code and it is with great pleasure that I tell you:  "go fix!" :)</p><h3 id="conclusion">Conclusion</h3><p> I have told you about accessibility, what it is, what it's not and why it's important.
- I have also given you the basics, the very basics, of getting accessibility right. These basics are however very powerful and can make your life a lot easier when coding for accessibility.
- If we talk in FCC terms, you should keep these in mind while doing the HTML/CSS curriculum as well as the JavaScript curriculum.
- In subsequent articles, I will touch on a number of more nitch topics. A number of questions I will answer are:</p><ul>
-  <li>Adding structure headings sounds like a good idea, but they don't fit in my design. What do I do?</li>
-  <li>Is there a way for me to write content only screenreaders and other assistive technologies see?</li>
-  <li>How do I make custom JavaScript components accessible?</li>
-  <li><p>What is WAI-ARIA?</p><p>Do you yourself have a question? Please, let me know. I will either answer you personally or add it to an article if the question comes up often.
+## Conclusion
+
+I have told you about accessibility, what it is, what it's not and why it's important.  
+I have also given you the basics, the very basics, of getting accessibility right. These basics are however very powerful and can make your life a lot easier when coding for accessibility.  
+If we talk in FCC terms, you should keep these in mind while doing the HTML/CSS curriculum as well as the JavaScript curriculum.  
+In subsequent articles, I will touch on a number of more notch topics. A number of questions I will answer are:
+ 
+- Adding structure headings sounds like a good idea, but they don't fit in my design. What do I do?
+- Is there a way for me to write content only screen-readers and other assistive technologies see?
+- How do I make custom JavaScript components accessible?
+
+What is WAI-ARIA? Do you yourself have a question? Please, let me know. I will either answer you personally or add it to an article if the question comes up often.
 For now, good luck and see you in the next one. Mischief managed :)
-For now, good luck and see you in the next one. <em>Mischief managed.</em> :)</p></li>
-</ul></footer>
+For now, good luck and see you in the next one. _Mischief managed._ :)
