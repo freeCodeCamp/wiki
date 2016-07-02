@@ -1,6 +1,6 @@
 # CSS Framework Bulma
 
-Bulma is a modern CSS framework based on [Flexbox](CSS-Flexbox) and highly customizable using [Sass](http://sass-lang.com/) (SCSS).
+Bulma is a modern CSS framework based on [Flexbox](http://forum.freecodecamp.com/t/css-flexbox-tips-and-tricks) and highly customizable using [Sass](http://sass-lang.com/) (SCSS).
 
 ## Getting Started
 
