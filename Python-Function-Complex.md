@@ -6,7 +6,7 @@
 
 Two types of arguments can be passed.
 
-####Numeric Arguments
+#### Numeric Arguments
 
 When called with two arguments, both being numbers of any numeric type (including complex), this function returns a complex number using both arguments.
 `complex(x, y)` function returns a complex number with the value `x + y*1j`
@@ -29,7 +29,7 @@ If called with no arguments, it returns a complex zero.
 >>> complex()
 0j
 ```
-####String Argument
+#### String Argument
 
 If the first argument is a string, it will be interpreted as a *complex number* and the function must be called without a second parameter. It will return the interpreted  complex number.
 
