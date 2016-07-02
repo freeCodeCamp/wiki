@@ -49,7 +49,7 @@ Next is to click on `Create Pull Request`. it is the green button and it will ta
 
 The first thing you will notice is the title with the pull request number, in the example it is `#393`. Next, is the status of the pull request, it will either be `Open`, `Closed` or `Merged`.
 
-You can click on the tabs to view the commits. Always try to have everything in one commit, or as few as possible if you have a good reason to have more than one commit. If you have multiple commits and need to **squash** them then follow these [instructions](Git-Squash).
+You can click on the tabs to view the commits. Always try to have everything in one commit, or as few as possible if you have a good reason to have more than one commit. If you have multiple commits and need to **squash** them then follow these [instructions](http://forum.freecodecamp.com/t/how-to-squash-multiple-commits-into-one-with-git/13231).
 
 That's it, you can reference people by adding `@` before their name. You can reference other issues or pull requests by adding their id, which would be `#393` from the example in _Figure 1d_.
 

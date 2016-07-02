@@ -12,7 +12,7 @@ If you're new to Free Code Camp, or just new to the wiki, start here:
 - [The Back End Development Certificate](FreeCodeCamp-Back-End-Development-Certification)
 - [The Full Stack Development Certificate](Free-Code-Camp-Full-Stack-Development-Certificate)
 - The Coding Interview Preparation
-- [Guide to Back End Projects](Back-End-Guides)
+- [Guide to Back End Projects](http://forum.freecodecamp.com/t/guides-to-back-end-projects/14265)
 - [Back End Project Resources](Back-End-Project-Resources)
 - [Why JavaScript?](FreeCodeCamp-Why-JavaScript)
 

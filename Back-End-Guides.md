@@ -5,7 +5,7 @@ Here you will find articles that will help you learn more and complete your back
 ## Table of contents
 
 - Part 1: Frontend
-  - [Frontend file structure](Front-End-File-Structure)
+  - [Frontend file structure](http://forum.freecodecamp.com/t/front-end-file-structure/14266)
   - [Creating a new route](Angular-Creating-A-New-Route)
   - [Creating a new directive](Angular-Creating-A-New-Directive)
   - [Grunt](Grunt)
@@ -35,4 +35,4 @@ Here you will find articles that will help you learn more and complete your back
 # Legend
 **/bolded/names/with.extensions** are directories and files in the project file structure<br>[highlighted.items/are/hypothetical](#) URLs that allow access to different pages in your app<br>_italicizedItems_ are function and object names within your code
 
-[PREVIOUS](Intro-to-Yeoman-Angular-Fullstack-Back-End-Projects) [NEXT](Front-End-File-Structure)
+[PREVIOUS](Intro-to-Yeoman-Angular-Fullstack-Back-End-Projects) [NEXT](http://forum.freecodecamp.com/t/front-end-file-structure/14266)
