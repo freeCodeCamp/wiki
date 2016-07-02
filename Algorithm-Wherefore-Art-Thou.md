@@ -1,4 +1,4 @@
-# Algorithm Where Art Thou
+# Algorithm Wherefore Art Thou
 
 :triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
 
@@ -26,7 +26,7 @@ Try to use the `Object.prototype.hasOwnProperty` method to know if the property 
 
 ## :speech_balloon: Hint: 3
 
-Check equivalence of `Object` in `collection` with `Object` passed as second parameter to `whereAreYou` function.
+Check equivalence of `Object` in `collection` with `Object` passed as second parameter to `whatIsInAName` function.
 
 > _try to solve the problem now_
 
@@ -39,7 +39,7 @@ Check equivalence of `Object` in `collection` with `Object` passed as second par
 ## :beginner: Basic Code Solution:
 
 ```javascript
-function whereAreYou(collection, source) {
+function whatIsInAName(collection, source) {
   // "What's in a name? that which we call a rose
   // By any other name would smell as sweet.”
   // -- by William Shakespeare, Romeo and Juliet
@@ -57,7 +57,7 @@ function whereAreYou(collection, source) {
 }
 
 // test here
-whereAreYou([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], { last: "Capulet" });
+whatIsInAName([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], { last: "Capulet" });
 ```
 
 :rocket: [Run Code](https://repl.it/CLmh/0)
@@ -78,7 +78,7 @@ whereAreYou([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: nu
 ## :sunflower: Intermediate Code Solution:
 
 ```javascript
-function whereAreYou(collection, source) {
+function whatIsInAName(collection, source) {
   // "What's in a name? that which we call a rose
   // By any other name would smell as sweet.”
   // -- by William Shakespeare, Romeo and Juliet
@@ -92,7 +92,7 @@ function whereAreYou(collection, source) {
 }
 
 // test here
-whereAreYou([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], { last: "Capulet" });
+whatIsInAName([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], { last: "Capulet" });
 ```
 
 :rocket: [Run Code](https://repl.it/CLmi/0)
@@ -112,7 +112,7 @@ whereAreYou([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: nu
 ## :rotating_light: Advanced Code Solution:
 
 ```javascript
-function whereAreYou(collection, source) {
+function whatIsInAName(collection, source) {
   // "What's in a name? that which we call a rose
   // By any other name would smell as sweet.”
   // -- by William Shakespeare, Romeo and Juliet
@@ -127,7 +127,7 @@ function whereAreYou(collection, source) {
 }
 
 // test here
-whereAreYou([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], { last: "Capulet" });
+whatIsInAName([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], { last: "Capulet" });
 ```
 
 :rocket: [Run Code](https://repl.it/CLmj/0)
@@ -148,7 +148,7 @@ whereAreYou([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: nu
 
 If you found this page useful, you can give thanks by copying and pasting this on the main chat:
 
-**`Thanks @abhisekp @dting @coded9 for your help with Algorithm: Where art Thou`**
+**`Thanks @abhisekp @dting @coded9 for your help with Algorithm: Wherefore Art Thou`**
 
 ## :clipboard: NOTES FOR CONTRIBUTIONS:
 
