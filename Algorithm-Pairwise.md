@@ -152,7 +152,7 @@ pairwise([1,4,2,3,0,5], 7);
 
 ## :rotating_light: Advanced Code Solution:
 
-````
+````javascript
 function pairwise(arr, arg) {
   // search array for elements that when paired, equal the second argument, then sum their indices
   // make a local copy of the arguments object so we don't modify it directly
@@ -176,7 +176,7 @@ function pairwise(arr, arg) {
 pairwise([1,4,2,3,0,5], 7);
 ````
 
-:rocket: [Run Code](https://repl.it/CLpC/1)
+:rocket: [Run Code](https://repl.it/CLpC/2)
 
 ### Code Explanation:
 See comments in code
