@@ -189,8 +189,6 @@ This code takes advantage of the fact that the native Array.prototype.indexOf() 
 - [Global NaN property](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/NaN)
 - [JS Reduce Made Easy](JS-Reduce-Made-Easy)
 
-:rocket: [Run Code](https://repl.it/CLpC/1)
-
 ### :trophy: Credits:
 
 If you found this page useful, you may say thanks to the contributors by copying and pasting the following line in the main chat:
