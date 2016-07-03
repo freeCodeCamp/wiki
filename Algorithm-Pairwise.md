@@ -44,16 +44,18 @@ It is easy to confuse indices as being numbers, but since you will be interactin
 function pairwise(arr, arg) {
  // Set sum of indices to zero
  var sum = 0;
+ // make a local copy of the arguments object so we don't modify it directly
+ var pairArr = arr;
  // looping from first element
- for(i = 0; i < arr.length; i++) {
+ for(i = 0; i < pairArr.length; i++) {
    //Looping from second element by setting first element  constant
-   for(j = i + 1; j < arr.length; j++) {
+   for(j = i + 1; j < pairArr.length; j++) {
      // Check whether the sum is equal to arg
-     if(arr[i] + arr[j] == arg) {
+     if(pairArr[i] + pairArr[j] == arg) {
        //Add the indices
        sum += i + j;
        //Set the indices to NaN so that they can't be used in next iteration
-       arr[i] = arr[j] = NaN;
+       pairArr[i] = pairArr[j] = NaN;
      }
    }
  }
@@ -153,15 +155,16 @@ pairwise([1,4,2,3,0,5], 7);
 ````
 function pairwise(arr, arg) {
   // search array for elements that when paired, equal the second argument, then sum their indices
-  
-  return arr.reduce( function (a,b,index){ // use native reduce to collect running total of summed indices
+  // make a local copy of the arguments object so we don't modify it directly
+  var pairArr = arr;
+  return pairArr.reduce( function (a,b,index){ // use native reduce to collect running total of summed indices
       var search = arg - b; // get difference of current item so we know what value will sum to arg
 
       // check if search value in rest of the array, but also make sure it doesn't match current search index
-      if ( arr.indexOf(search) != -1 && arr.indexOf(search) != index ){ 
-         var total = index + arr.indexOf(search);  // if found, add to the runnning total
-         arr.splice(index,1,NaN); // remove current index from the array
-         arr.splice(arr.indexOf(search),1,NaN); // remove the other matched element from the array
+      if ( pairArr.indexOf(search) != -1 && pairArr.indexOf(search) != index ){ 
+         var total = index + pairArr.indexOf(search);  // if found, add to the runnning total
+         pairArr.splice(index,1,NaN); // remove current index from the array
+         pairArr.splice(pairArr.indexOf(search),1,NaN); // remove the other matched element from the array
          return a + total; //return the running total back to reduce for next item
       }
       return a; // simply return previous total if no operations needed
