@@ -1,10 +1,10 @@
 # Python Complex()
 
-`complex()` is a built-in function in Python 3 that hanldles the creation of a complex number according to the arguments passed. It returns a complex number with the value `real + imag*1j` when called in form of `complex(real, imag)` or converts a string or number to a complex number.
+`complex()` is a built-in function in Python 3 that hanldles the creation of a [complex number](https://www.mathsisfun.com/numbers/complex-numbers.html) according to the arguments passed. It returns a complex number with the value `real + imag*1j` when called in form of `complex(real, imag)` or converts a string or number to a complex number.
 
 ## Arguments and Return Values
 
-Two types of arguments can be passed.
+This function takes two types of arguments which are discussed below :
 
 #### Numeric Arguments
 
@@ -37,7 +37,7 @@ If the first argument is a string, it will be interpreted as a *complex number* 
 >>> complex('3+4j')
 (3+4j)
 ```
-The string must be in the form of a valid complex number, otherwise the function will raise a *ValueError* exception and it must not contain whitespace around the central + or - operator. For example, `complex('1+2j')` is fine, but `complex('1 + 2j')` raises *ValueError*.
+The string must be in the form of a valid complex number, otherwise the function will raise a `ValueError` exception and it must not contain whitespace around the central + or - operator. For example, `complex('1+2j')` is fine, but `complex('1 + 2j')` raises `ValueError`.
 
 ## Examples
 
