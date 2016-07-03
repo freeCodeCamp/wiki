@@ -45,7 +45,7 @@ function pairwise(arr, arg) {
  // Set sum of indices to zero
  var sum = 0;
  // make a local copy of the arguments object so we don't modify it directly
- var pairArr = arr;
+ var pairArr = arr.slice();
  // looping from first element
  for(i = 0; i < pairArr.length; i++) {
    //Looping from second element by setting first element  constant
@@ -156,7 +156,7 @@ pairwise([1,4,2,3,0,5], 7);
 function pairwise(arr, arg) {
   // search array for elements that when paired, equal the second argument, then sum their indices
   // make a local copy of the arguments object so we don't modify it directly
-  var pairArr = arr;
+  var pairArr = arr.slice();
   return pairArr.reduce( function (a,b,index){ // use native reduce to collect running total of summed indices
       var search = arg - b; // get difference of current item so we know what value will sum to arg
 
