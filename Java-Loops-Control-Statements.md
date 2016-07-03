@@ -5,4 +5,4 @@ Loop control statements change execution from its normal sequence. When executio
 Java supports the following control statements:
 
 - [break](http://forum.freecodecamp.com/t/java-loops-break-control-statement)
-- [continue](Java-Loops-Control-Statement-Continue)
+- [continue](http://forum.freecodecamp.com/t/java-loops-continue-control-statement)
