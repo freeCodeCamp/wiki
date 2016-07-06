@@ -15,7 +15,7 @@ There are many ways to contribute to the [wiki](Wiki-Central) without being part
 
 - **Know your domain:** You must have a decent knowledge of the [Git](Git) command line and desktop app, along with enough experience submitting pull request that are fully compliant with our [guidelines](PULL_REQUEST_TEMPLATE). This means you also need to be familiar with [contributing from a browser](Wiki-Contribute-Online). This will show that you can handle your own and help other with any issues they might have with their pull request and using Git/github.
 
-- **Reach out:** Once you have completed the requirements from steps one and two, feel free to contact [Rafase282](https://gitter.im/Rafase282) and kindly ask to join. Chances are that you are already well known whiting the wiki community and he has approached you first. If that is not the case then don't hesitate to show what you can bring to the team.
+- **Reach out:** Once you have completed the requirements from steps one and two, feel free to contact [Rafase282](https://gitter.im/Rafase282) and kindly ask to join. Chances are that you are already well known within the wiki community and he has approached you first. If that is not the case then don't hesitate to show what you can bring to the team.
 
   **Note** If you contact any of the _senior moderators_ prior to achieving the requirements or directly send a request to join via github, it will be immediately rejected without previous communication.
 
