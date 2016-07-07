@@ -1,4 +1,4 @@
-# Challenge Add a Submmit Button to a Form
+# Challenge Add a Submit Button to a Form
 
 You will need to create a `button` element. Here's an example submit button:
 
