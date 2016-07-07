@@ -2,7 +2,7 @@
 
 [AND Gate - Wikipedia](https://en.wikipedia.org/wiki/AND_gate)
 
-`A.B`  or `A&B`
+`A.B`, `A&B`
 
 The AND gate with inputs A and B and output C implements the logical expression
 
