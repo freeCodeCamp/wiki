@@ -8,11 +8,12 @@ Our open source community's Wiki focuses on answering your questions about learn
 
 ![An illustration of CamperBot](https://i.imgur.com/gyJwzkx.png)
 
-The best way to access this wiki is via [CamperBot](CamperBot), located in our Gitter channels. CamperBot is a community designed tool useful for accessing our wiki content without ever leaving Gitter.
+The best way to access this wiki is via [CamperBot](https://freecodecamp.github.io/wiki/en/camperbot/), located in our Gitter channels. CamperBot is a community designed tool useful for accessing our wiki content without ever leaving Gitter.
 
 ## Contributing to the Wiki
 
-To contribute a wiki article for any of the Algorithms, please use this [template](Algorithm-Wiki-Template). This is essential for [@CamperBot](https://github.com/camperbot) to retrieve the article. Algorithm articles that do not use this template will be removed. Please note that while we will publish solutions that can help others, we don't need many of them and a maximum of three solutions will be accepted in the following categories:
+To contribute a wiki article for any of the Algorithms, please use this
+[template]( https://freecodecamp.github.io/wiki/en/wiki-template-challenge-solution/). This is essential for [@CamperBot](https://github.com/camperbot) to retrieve the article. Algorithm articles that do not use this template will be removed. Please note that while we will publish solutions that can help others, we don't need many of them and a maximum of three solutions will be accepted in the following categories:
 
 - Basic
 - Intermediate
@@ -28,7 +29,7 @@ If we merge your pull request, your name will be automatically added to the docu
 
 ### Guides on how to Contribute
 
-They are all located on our [Wiki Central](Wiki-Central) Page. Please take a look before anything else.
+They are all located on our [Wiki Central](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki) Page. Please take a look before anything else.
 
 If you have questions about contributing to the Free Code Camp Wiki message [@Rafase282 in Gitter](https://gitter.im/Rafase282) or come the [Gitter Wiki Room.](https://gitter.im/FreeCodeCamp/Wiki)
 
