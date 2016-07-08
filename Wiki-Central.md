@@ -59,8 +59,8 @@ For a list of labels used globally throughout FreeCodeCamp’s repositories, con
 
 Creating issues in general is simpler than creating a pull request.
 
-- [Creating a New Github Issue](Creating-A-New-Github-Issue)
-- [Searching for Your Issue on Github](Search-Existing-Issue)
+- [Creating a New Github Issue](http://forum.freecodecamp.com/t/creating-a-new-github-issue/18392)
+- [Searching for Your Issue on Github](http://forum.freecodecamp.com/t/searching-for-existing-issues-in-github/18390)
 
 ### Moderators
 
