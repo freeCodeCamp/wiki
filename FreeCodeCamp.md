@@ -51,7 +51,7 @@ We leverage the power of these existing platforms to connect with one another an
 - [How to clone and setup the Free Code Camp website on a Windows pc](FreeCodeCamp-Fork-Windows)
 - [Pull Request Guidelines](FreeCodeCamp-Guide-Pull-Request)
 - [Issue Labels](FreeCodeCamp-Issue-Labels)
-- [How to become an issue Mod](FreeCodeCamp-Issue-Mods)
+- [How to become an issue Mod](http://forum.freecodecamp.com/t/issue-moderators/18295)
 - [What to do if you speak a language not yet supported by Free Code Camp?](FreeCodeCamp-Languages)
 - [How to log in to a local instance](FreeCodeCamp-Log-In-To-Local-Instance)
 - [Free Code Camp Logo](FreeCodeCamp-Logo)

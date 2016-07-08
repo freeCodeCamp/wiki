@@ -8,7 +8,7 @@ Our open source community's Wiki focuses on answering your questions about learn
 
 ![An illustration of CamperBot](https://i.imgur.com/gyJwzkx.png)
 
-The best way to access this wiki is via [CamperBot](CamperBot), located in our Gitter channels. CamperBot is a community designed tool useful for accessing our wiki content without ever leaving Gitter.
+The best way to access this wiki is via [CamperBot]http://forum.freecodecamp.com/t/free-code-camps-camperbot/18399, located in our Gitter channels. CamperBot is a community designed tool useful for accessing our wiki content without ever leaving Gitter.
 
 ## Contributing to the Wiki
 
