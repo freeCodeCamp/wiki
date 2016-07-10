@@ -3,7 +3,7 @@
 `Stack` is a linear data structure which follows a particular order in which the operations are performed. The order may be 
 LIFO(Last In First Out) or FILO(First In Last Out).
 
-The basic three operations which can be performed on a `Stack`
+The basic three operations which can be performed on a `Stack`:
 
 1. `Push`: Adds an item in the `Stack`. If the stack is full, then it is said to be an Overflow condition. 
 2. `Pop`: Removes an item from the `Stack`. The items are popped in the reversed order in which they are pushed. If the `Stack` is empty, 
