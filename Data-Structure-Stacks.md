@@ -8,13 +8,16 @@ The basic three operations which can be performed on a `Stack`
 1. `Push`: Adds an item in the `Stack`. If the stack is full, then it is said to be an Overflow condition. 
 2. `Pop`: Removes an item from the `Stack`. The items are popped in the reversed order in which they are pushed. If the `Stack` is empty, 
            then it is said to be an Underflow condition. 
-3. `Peek`: Gets the topmost item of the `Stack`.
+3. `Peek`: Gets the topmost item of the `Stack`. It does not removes the item from the stack.
 
 ## Real life example of a `Stack`
 
 Consider a number of plates kept one upon the one another on a dining table. Now the first plate which we have kept would be the last plate
 to be picked up which explains the First In Last Out. In a similar way the plate which was last to go on the top of the collection 
 of plates would be the first one to be picked up which explains the Last In First Out concept
+
+![Stack](http://www.binarycoder.org/wp-content/uploads/2016/05/stack.png)
+Picture Credits: [BinaryCoder](http://www.binarycoder.org/)
 
 #### Creating a `Stack` class
 
