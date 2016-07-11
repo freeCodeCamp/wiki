@@ -45,7 +45,7 @@ We currently have a couple of guides to help you contribute, via the browser, co
 - [How to Fork Our wiki](Wiki-Contribute-Fork): This shows you how to fork our wiki and keep your fork synchronized.
 - [How to Contribute to the Wiki Locally](Wiki-Contribute-Local-GUI): This guide shows you how to make changes to the wiki from a local copy on your computer; it also works for contributing to the main repository.
 - [Pull Request Guidelines](PULL_REQUEST_TEMPLATE)
-- [More on How to Make a Pull Request from a Fork](Pull-Request-Contribute)
+- [More on How to Make a Pull Request from a Fork](http://forum.freecodecamp.com/t/how-to-contribute-via-a-pull-request/19368)
 - [How to Squash Commits](http://forum.freecodecamp.com/t/how-to-squash-multiple-commits-into-one-with-git/13231): We require only one commit per pull request, unless otherwise specified by a moderator.
 - [Create markdown articles using atom](Wiki-Create-Articles-With-Atom): this guide will help you write articles with atoma nd its markdown previwer.
 
