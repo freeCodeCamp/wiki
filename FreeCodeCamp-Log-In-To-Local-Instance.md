@@ -14,7 +14,7 @@ This guide will help you log in to your local FCC site using your GitHub account
 
 If you need help getting FCC setup on your local machine, here are a few useful links to help you get started:
 
-- [How To Fork And Maintain a Local Instance of Free Code Camp](FreeCodeCamp-Fork-Local)
+- [How To Fork And Maintain a Local Instance of Free Code Camp](http://forum.freecodecamp.com/t/how-to-fork-and-maintain-a-local-instance-of-free-code-camp/19116)
 - [How To Create a Pull Request for Free Code Camp](FreeCodeCamp-Guide-Pull-Request)
 - [Open Issues Labeled as Help Wanted](https://github.com/FreeCodeCamp/FreeCodeCamp/labels/help%20wanted)
 

@@ -23,7 +23,7 @@ If you're new to Free Code Camp, or just new to the wiki, start here:
 - [Local Groups](LocalGroups)
 - [Official Chat Rooms](Official-Free-Code-Camp-Chat-Rooms)
 - [How to use CamperBot]http://forum.freecodecamp.com/t/free-code-camps-camperbot/18399
-- [Join the LinkedIn Community and Find Alumni](FreeCodeCamp-LinkedIn-Add)
+- [Join the LinkedIn Community and Find Alumni](http://forum.freecodecamp.com/t/add-free-code-camp-in-linkedin/19119)
 - [Stream your Coding Session on our Twitch.tv page](How-you-can-stream-your-live-coding-sessions-on-the-Free-Code-Camp-Twitch.tv-channel)
 
 ## Nonprofit
