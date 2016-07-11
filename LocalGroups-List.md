@@ -854,6 +854,7 @@ Please note that all local groups are unofficial, independently organized groups
   - [Dunedin](https://www.facebook.com/groups/free.code.camp.dunedin/)
   - [Hamilton](https://www.facebook.com/groups/free.code.camp.hamilton.nz/)
   - [Masterton](https://www.facebook.com/groups/free.code.camp.masterton/)
+  - [New Plymouth](https://www.facebook.com/groups/1573131852980570/)
   - [Palmerston North](https://www.facebook.com/groups/free.code.camp.palmerston.north/)
   - [Richmond](https://www.facebook.com/groups/free.code.camp.richmond/)
   - [Wellington](https://www.facebook.com/groups/free.code.camp.wellington.nz/)
@@ -1534,7 +1535,8 @@ Please note that all local groups are unofficial, independently organized groups
     - [Palisades Park](https://www.facebook.com/groups/free.code.camp.palisadespark/)
     - [Toms River](https://www.facebook.com/groups/free.code.camp.toms.river/)
     - [West Orange](https://www.facebook.com/groups/free.code.camp.west.orange/)
-    - [Woodbury](https://www.facebook.com/groups/543468502523026/)
+    - [Westfield](https://www.facebook.com/groups/free.code.camp.westfield.nj/)
+    - [Woodbury](https://www.facebook.com/groups/free.code.camp.woodbury.nj/)
   - New Mexico
     - [Albuquerque](https://www.facebook.com/groups/free.code.camp.albuquerque/)
     - [Los Alamos](https://www.facebook.com/groups/free.code.camp.los.alamos.nm/)
