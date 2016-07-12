@@ -70,3 +70,20 @@ var jediMastersSayHi = jediMasters.map(sayHi); // We're done mapping, now consol
 ```
 
 We can use map in strings and other types of objects if we use `Array.prototype.call(objectToBeMapped, callbackFunction)`, for more examples, go look other sites and practise it.
+
+
+```javascript
+function map(array, callback){
+  let results = [];
+  for(let i = 0; i < array.length; i++){
+    //apply the passed in callback on each element in the array
+    results.push(callback(array[i]));
+  }
+  return results;
+}
+function doubleNumber(number){
+  return number * 2;
+}
+
+let doubledNumbersArray = map([1,2,3], doubleNumber); //[2,4,6]
+```
