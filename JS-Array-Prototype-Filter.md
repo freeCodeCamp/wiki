@@ -66,3 +66,27 @@ var result = arr.filter(
 document.write(result);
 // Output: element, the
 ```
+
+
+## How to create your own filter function for learning purposes
+```javascript
+function filter(array, callback){
+  let filteredResults = [];
+  for(let i = 0; i < array.length; i++){
+    //apply the passed in callback on each element in the array
+    //if the filter function passed, then push value to filteredResults array.
+    if(callback(array[i])){
+      filteredResults.push(array[i]);
+    }
+  }
+  return filteredResults;
+}
+
+function filterBy(value){
+  if(typeof value === 'number'){
+    return true;
+  }
+}
+
+let numbersArray = filter([1,'a',2, 'b'], filterByNumber); // numbersArray now holds --> [1,2]
+```
