@@ -97,7 +97,7 @@ function repeatStringNumTimes(str, num) {
 repeatStringNumTimes("abc", 3);
 ```
 
-:rocket: [Run Code](https://repl.it/CLjU/22)
+:rocket: [Run Code](https://repl.it/CLjU/85)
 
 ### Code Explanation:
 - This solution takes a declarative approach.
