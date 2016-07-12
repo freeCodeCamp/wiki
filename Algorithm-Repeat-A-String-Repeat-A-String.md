@@ -91,7 +91,7 @@ function repeatStringNumTimes(str, num) {
 
 ```javascript
 function repeatStringNumTimes(str, num) {
-  return num >= 0 ? str.repeatStringNumTimes(num) : "";
+  return num > 0 ? str.repeat(num) : '';
 }
 
 repeatStringNumTimes("abc", 3);
