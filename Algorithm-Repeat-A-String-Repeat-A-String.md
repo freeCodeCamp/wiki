@@ -87,26 +87,6 @@ function repeatStringNumTimes(str, num) {
 
 - [Functions - Recursion](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#Recursion)
 
-## :rotating_light: Advanced Code Solution:
-
-```javascript
-function repeatStringNumTimes(str, num) {
-  return num >= 0 ? str.repeatStringNumTimes(num) : "";
-}
-
-repeatStringNumTimes("abc", 3);
-```
-
-:rocket: [Run Code](https://repl.it/CLjU/22)
-
-### Code Explanation:
-- This solution takes a declarative approach.
-- It is similar to the third solution, except it uses the ternary operator form of the `if` statement.
-
-#### Relevant Links
-
-- [JS Ternary](JS-Ternary)
-
 ### :trophy: Credits:
 
 If you found this page useful, you may say thanks to the contributors by copying and pasting the following line in the main chat:
