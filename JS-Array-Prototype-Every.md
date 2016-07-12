@@ -76,3 +76,26 @@ else
 // Output:
 // 2 4 5 Some are not even.
 ```
+
+## How to create your own every function for learning purposes
+```javascript
+function every(array, callback){
+  let allValuesPassedTest = true;
+  for(let i = 0; i < array.length; i++){
+    //apply the passed in callback on each element in the array
+    //if the callback fails for any of the elements passed in, break early & return false;
+    if(!callback(array[i])) {
+      return false;
+    }
+  }
+  //if our callback never fails return true;
+  return allValuesPassedTest;
+}
+function isNumber(value){
+  if(typeof value === 'number'){
+    return true;
+  }
+}
+every([1,2,'3'], isNumber); //false
+every([1,2,3], isNumber); //true
+```
