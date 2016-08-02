@@ -120,9 +120,13 @@ function whatIsInAName(collection, source) {
 
   // filter the collection
   return collection.filter(function (obj) {
-    return srcKeys.reduce(function (res, key) {
-      return obj.hasOwnProperty(key) && obj[key] === source[key];
-    }, false);
+    return srcKeys
+      .map(function(key) {
+        return obj.hasOwnProperty(key) && obj[key] === source[key];
+      })
+      .reduce(function(a, b) {
+        return a && b;
+      });
   });
 }
 
@@ -130,13 +134,14 @@ function whatIsInAName(collection, source) {
 whatIsInAName([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], { last: "Capulet" });
 ```
 
-:rocket: [Run Code](https://repl.it/CLmj/0)
+:rocket: [Run Code](https://repl.it/CLmj/1)
 
 ### Code Explanation:
 
 - We start by filtering through `collection` using `Array.filter()`.
-- Next, we return a `Boolean` value for the filter callback using `.reduce()`.
-- We reduce to `Boolean` value to be returned by `.reduce()`.
+- Next, we map through all keys and return `Boolean` values based on the check conditions: both the key and its corresponding value must exist within the object we are filtering through.
+- Then we reduce the mapped `Boolean` values to a single `Boolean` that indicates whether all `srcKeys` pass the conditions checked above.
+- This single `Boolean` will be used to filter through the collection.
 
 #### Relevant Links
 
