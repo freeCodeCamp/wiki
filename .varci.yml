@@ -1,0 +1,13 @@
+ruleset:
+  comment_and_close_issue:
+    name: "Comment, label & close pull requests or issues"
+    events: [ issues, pull_request ]
+    label: invalid
+    when:
+      - action = "opened"
+    comment: >
+      Hi @{{ user.login }}
+      We have moved to the [forum](http://forum.freecodecamp.com/). Please make your changes there.
+
+      Happy Coding!
+    close: true
