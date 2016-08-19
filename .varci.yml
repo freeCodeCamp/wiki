@@ -7,7 +7,7 @@ ruleset:
       - action = "opened"
     comment: >
       Hi @{{ user.login }}
-      We have moved to the [forum](http://forum.freecodecamp.com/). Please make your changes there.
+      We have moved to the [forum](http://forum.freecodecamp.com/c/wiki). Please make your changes there.
 
       Happy Coding!
     close: true
