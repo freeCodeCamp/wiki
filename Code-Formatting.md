@@ -11,7 +11,7 @@ then press [shift + enter ⏎]
 
 # Single line Code
 
-This an inline **`**`<paste code here>`**`** code formatting with a single backtick(`) at _start_ and _end_ around the `code`.
+This an inline **`**`<paste code here>`**`** code formatting with a single backtick(\`) at _start_ and _end_ around the `code`.
 
 See also: ☛ [**How to type Backticks**](Code-Formatting#typing-backticks) | ☯ [Compose Mode](https://gitter.zendesk.com/hc/en-us/articles/201302311-Compose-mode) | ❄ [Gitter Formatting Basics](https://gitter.zendesk.com/hc/en-us/articles/200176682-Markdown-basics)
 
