@@ -1,0 +1,65 @@
+Algorithm Find The Longest Word In A String
+======
+
+Algorithm Find the Longest Word in a String
+------
+
+:triangular_flag_on_post: Remember to use [Read-Search-Ask](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
+
+:checkered_flag: Problem Explanation:
+
+Split the string into array, then make the new array using the map(), which contains the length of each element from the array and then return the max number from the array of numbers using Math.max() function.
+
+#### Relevant Links
+
+ * [JS map function](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-array-prototype-map)
+ * [JS String Length](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/String.length)
+ * [JS Math.max()](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/JS-Math-Max)
+
+
+:speech_balloon: Hint: 1
+------
+Split the string into an array of words.
+>try to solve the problem now
+
+:speech_balloon: Hint: 2
+------
+Create a new array which contain the length of each element of array using map().
+>try to solve the problem now
+
+:speech_balloon: Hint: 3
+------
+Find the max number from array of numbers.
+>try to solve the problem now
+
+Spoiler Alert!
+------
+![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://camo.githubusercontent.com/ffacda59b87f96dedaf815f217399e6aa741cc95/68747470733a2f2f66696c65732e6769747465722e696d2f46726565436f646543616d702f57696b692f6e6c4f6d2f7468756d622f36383734373437303361326632663737373737373265373936663735373236343732373536643265363336663664326637393666373537323634373237353664326636393664363136373635373332663332333033303337326633313330326633313330326637323635363435663737363137323665363936653637356637333639363736653566333232653637363936362e676966)
+
+Solution ahead!
+
+:beginner: Basic Code Solution:
+------
+~~~
+function findLongestWord(str) {
+  str = str.split(" ").map(function(val){
+    return val.length;
+  });
+  
+  return Math.max.apply(null, str);
+}
+
+findLongestWord("The quick brown fox jumped over the lazy dog");
+~~~
+
+:rocket: [Run Code](https://repl.it/CLjU/5)
+
+### Code Explanation:
+
+First split the string into an array, Create a new array which contains the length of each array,and then return the max length from the array.
+
+#### Relevant Links
+
+ * [JS map function](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/js-array-prototype-map)
+ * [JS String Length](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/String.length)
+ * [JS Math.max()](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/JS-Math-Max)
