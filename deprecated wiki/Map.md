@@ -317,7 +317,7 @@
 - [Algorithm: Sum All Numbers in a Range](Algorithm-Sum-All-Numbers-In-A-Range)
 - [Algorithm: Diff Two Arrays](Algorithm-Diff-Two-Arrays)
 - [Algorithm: Roman Numeral Converter](Algorithm-roman-numeral-converter)
-- [Algorithm: Where art thou](Algorithm-Where-Art-Thou)
+- [Algorithm: Wherefore art thou](Algorithm-Wherefore-Art-Thou)
 - [Algorithm: Search and Replace](Algorithm-Search-And-Replace)
 - [Algorithm: Pig Latin](Algorithm-Pig-Latin)
 - [Algorithm: DNA Pairing](Algorithm-DNA-Pairing)
