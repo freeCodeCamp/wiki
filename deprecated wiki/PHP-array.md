@@ -1,7 +1,7 @@
-# PHP Array
+#PHP Array
 
     Array Can Store multiple values in single Varible. 
-    let's think that you have a list of cars like { 'BMW', 'Honda', Swift, 'XUV' } 
+    let's think that you have a list of cars like ( 'BMW', 'Honda', Swift, 'XUV' )
     
     
     but you want to separate this by categories like sport car, xuv. 
