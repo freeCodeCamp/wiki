@@ -4,7 +4,8 @@
     let's think that you have a list of cars like { 'BMW', 'Honda', Swift, 'XUV' } 
     
     
-    but you want to separate this by categories like sport car, xuv. but you need to put it in a single varible then you need two arrays
+    but you want to separate this by categories like sport car, xuv. 
+    but you need to put it in a single varible then you need two arrays
     
     ## Let's Solve this By Programming 
    
@@ -21,7 +22,8 @@ Output:
     Sport Cars List: BMW, Honda.
     XUV Cars List: Swift, XUV.
 ```
-Note That array is Index from 0 to n you can access each value by passing there index number to variable like follows 
+Note That:  array is Index from 0 to n you can access each value by passing there 
+index number to variable like follows 
 
 ```
 echo $sport_cars[0]; 
