@@ -10,7 +10,7 @@ The above illustration shows the working of the binary search algorithm on a sor
 
 ## Algorithm
 
-Binary search works on sorted arrays. A binary search begins by comparing the middle element of the array with the target value. If the target value matches the middle element, its position in the array is returned. If the target value is less or more than the middle element, the search continues the lower or upper half of the array respectively with a new middle element, eliminating the other half from consideration.
+Binary search works on sorted arrays. A binary search begins by comparing the middle element of the array with the target value. If the target value matches the middle element, its position in the array is returned. If the target value is less or more than the middle element, the search continues the lower or upper half of the array respectively with a new middle element, eliminating the other half from consideration. This means that the time complexity is **O(log N)** because we divide the search space in half with every comparison.
 
 The pseudocode for binary search algorithm is as follows:
 
