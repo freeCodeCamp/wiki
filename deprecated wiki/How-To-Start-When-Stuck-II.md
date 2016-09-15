@@ -1,6 +1,6 @@
 # How to Start When you are Stuck Part 2
 
-**[How to start when you are stuck (I)](/How-To-Start-When-Stuck-I)**
+**[How to start when you are stuck (I)](How-To-Start-When-Stuck-I)**
 
 **[How to start when you are stuck (III)](How-To-Start-When-Stuck-III)**
 
