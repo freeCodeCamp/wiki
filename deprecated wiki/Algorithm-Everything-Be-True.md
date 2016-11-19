@@ -101,19 +101,12 @@ truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "ma
 
 ## :rotating_light: Advanced Code Solution:
 
-**Using Array.reduce**
+**Using Array.reduce and Array.every **
 
 ```javascript
 function truthCheck(collection, pre) {
-  return collection.reduce(function(acc, next) {
-    if (next[pre]) {
-      return acc;
-    } 
-    else {
-      acc = false;
-      return acc;
-    }
-  },true);
+  return collection.map(property => value[property])
+                   .every(value => Boolean(value));
 }
 
 // test here
@@ -124,8 +117,8 @@ truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "ma
 
 ### Code Explanation:
 
-- Set initial reduce value to true.
-- Change it to false only when there is no key of a given name or it's falsy. Otherwise stick to the initial truthy value.
+- Map out object properties.
+- Use native every() method to check if every property is truthy
 
 #### Relevant Links
 
