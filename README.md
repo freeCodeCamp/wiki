@@ -1,4 +1,4 @@
-# Depecrated Wiki!
+# Deprecrated Wiki!
 
 **This repo serves as an archive for the wiki and a place to report issues for our current wiki located in [our forum!](http://forum.freecodecamp.com/c/wiki)**
 
