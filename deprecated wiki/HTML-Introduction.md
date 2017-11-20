@@ -9,5 +9,8 @@ HTML can embed programs written in a scripting language such as [JavaScript](htt
 
 ##
 If you would like to know more about HTML, please click through the following links:
-
+- [Elements](https://github.com/freeCodeCamp/wiki/blob/master/deprecated%20wiki/HTML-Elements.md)
+- [Entities](https://github.com/freeCodeCamp/wiki/blob/master/deprecated%20wiki/HTML-Entities.md)
+- [Document Type Declaration](https://github.com/hch74904/wiki/blob/master/deprecated%20wiki/HTML-Document%20Type%20Declaration.md)
+- [HTML Cheat Sheet](https://github.com/hch74904/wiki/blob/master/deprecated%20wiki/Html-CSS-Cheat-Sheet.md)
 
