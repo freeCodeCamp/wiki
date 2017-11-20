@@ -11,3 +11,5 @@
 > --<cite>[Go FAQ](https://golang.org/doc/faq)</cite>
 
 Go is known for its concurrency handling and performance. With an active open source community behind it, Go lets you write lightning fast web applications with it, which can efficiently handle heavy load.
+
+Go is not only used by Google internally, and also adopted by Netflix, Dropbox and SoundCloud because it is friendly for suerver. Docker is a large-scale software-containerization and used Go as developing language. In the opinion of Docker's devolper, they think static compilation, extensive standard library and full development environment are three main advantages of Go.
