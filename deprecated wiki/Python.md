@@ -20,14 +20,16 @@ To get more familiar with Python, [start here](Python-Introduction)
 
 If you are looking for something specific in Python, pick from this list of resources:
 
-- [Introduction](Python-Introduction)
-- [Basics](Python-Basics)
-- [Operators](Python-Operators)
-- [More Built-in Types](Python-More-Builtin-Types)
-- [Functions](Python-Functions)
-- [Import Statement](Python-Import-Statements)
-  - [From x Import y](Python-From-X-Import-Y)
-- [Web-development in Python](Web-Development-in-Python)
-- [Installing Django and Flask](Install-Django-Flask)
-- [Using Pip](Python-Using-Pip)
-- [More Python Resources](Python-Resources)
+- [Introduction](https://github.com/freeCodeCamp/wiki/blob/master/deprecated%20wiki/Python-Introduction.md)
+- [Basics](https://github.com/freeCodeCamp/wiki/blob/master/deprecated%20wiki/Python-Basics.md)
+- [Operators](https://github.com/freeCodeCamp/wiki/blob/master/deprecated%20wiki/Python-Operators.md)
+- [More Built-in Types](https://github.com/freeCodeCamp/wiki/blob/master/deprecated%20wiki/Python-More-Builtin-Types.md)
+- [Functions](https://github.com/freeCodeCamp/wiki/blob/master/deprecated%20wiki/Python-Functions.md)
+- [Import Statement](https://github.com/freeCodeCamp/wiki/blob/master/deprecated%20wiki/Python-Import-Statements.md)
+  - [From x Import y](https://github.com/freeCodeCamp/wiki/blob/master/deprecated%20wiki/Python-From-X-Import-Y.md)
+- [Web-development in Python](https://github.com/freeCodeCamp/wiki/blob/master/deprecated%20wiki/Web-Development-in-Python.md)
+- [Installing Django and Flask](https://github.com/freeCodeCamp/wiki/blob/master/deprecated%20wiki/Install-Django-Flask.md)
+- [Using Pip](https://github.com/freeCodeCamp/wiki/blob/master/deprecated%20wiki/Python-Using-Pip.md)
+- [More Python Resources](https://github.com/freeCodeCamp/wiki/blob/master/deprecated%20wiki/Python-Resources.md)
+
+
