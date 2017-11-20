@@ -8,5 +8,6 @@ HTML describes the structure of a web page semantically and originally included 
 HTML can embed programs written in a scripting language such as [JavaScript](https://en.wikipedia.org/wiki/JavaScript) which affect the behavior and content of web pages. Inclusion of CSS defines the look and layout of content. The World Wide Web Consortium [(W3C)](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium), maintainer of both the HTML and the CSS standards, has encouraged the use of CSS over explicit presentational HTML since 1997.
 
 ##
-If you would like to know more about HTML, please 
+If you would like to know more about HTML, please click through the following links:
+
 
