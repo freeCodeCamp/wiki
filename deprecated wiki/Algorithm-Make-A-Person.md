@@ -86,9 +86,9 @@ bob.getFullName();
 
 #### Relevant Links
 
-- [How to build objects](Challenge-Build-JavaScript-Objects)
-- [Construct objects with functions](Challenge-Construct-JavaScript-Objects-With-Functions)
-- [Declare objects as variables](Challenge-Declare-JavaScript-Objects-As-Variables)
+- [How to build objects](https://forum.freecodecamp.org/t/freecodecamp-challenge-guide-build-javascript-objects/16769)
+- [Construct objects with functions](https://forum.freecodecamp.org/t/freecodecamp-challenge-guide-construct-javascript-objects-with-functions/16804)
+- [Declare objects as variables](https://forum.freecodecamp.org/t/freecodecamp-challenge-guide-declare-javascript-objects-as-variables/17555)
 
 
 ### :trophy: Credits:
