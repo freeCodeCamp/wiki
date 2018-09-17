@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "dependency-diff": "^1.0.4",
     "package.json": "^2.0.1"
   }
 }
