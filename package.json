@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "dependency-diff": "^1.0.4",
+    "generator-license": "^5.4.0",
     "package.json": "^2.0.1"
   }
 }
