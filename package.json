@@ -2,7 +2,6 @@
   "name": "wiki-2",
   "description": "proyecto frrecodeCamp can you cotributing wiki-2",
   "author": "freecodeCamp",
-  "private": true,
   "license": "MIT",
   "dependencies": {
     "license": "^0.0.3",
