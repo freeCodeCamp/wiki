@@ -1,0 +1,13 @@
+---
+title: Challenge Link To External Pages With Anchor Elements
+order: 5
+---
+# Challenge Link to External Pages with Anchor Elements
+
+`a` elements, also known as anchor elements, are used to link to content outside of the current page.
+
+Here's an example:
+
+```html
+<p>Here's a <a href="http://freecodecamp.com"> link to Free Code Camp</a> for you to follow.</p>
+```

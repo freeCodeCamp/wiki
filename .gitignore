@@ -1,7 +1,5 @@
-pages/
-.DS_Store
-scripts/node_modules
-public/
-node_modules/
-*.db
-*.log
+node_modules
+dist
+.tmp
+bower_components
+test/bower_components

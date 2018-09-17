@@ -1,0 +1,10 @@
+---
+title: Chai
+order: 5
+---
+# Chai.js
+
+[Chai](http://chaijs.com) is a testing framework. More info:
+
+- `help chai assert`
+- `help chai expectations`

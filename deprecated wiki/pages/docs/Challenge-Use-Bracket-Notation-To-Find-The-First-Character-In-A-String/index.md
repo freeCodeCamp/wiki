@@ -1,0 +1,13 @@
+---
+title: Challenge Use Bracket Notation To Find The First Character In A String
+order: 5
+---
+# Challenge Use Bracket Notation to Find the First Character in a String
+
+Bracket notation is a way to get a character at a specific index within a string.
+
+Computers don't start counting at `1` like humans do. They start at `0`.
+
+```javascript
+firstLetterOfLastName = lastName[0];
+```

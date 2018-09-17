@@ -1,0 +1,7 @@
+---
+title: Challenge Delete Your JQuery Functions
+order: 5
+---
+# Challenge Delete your jQuery Functions
+
+To delete the functions it is just as any other piece of code that you want to remove, select it and delete with the keyboard.
