@@ -3,7 +3,6 @@
 :triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
 
 ### :checkered_flag: Problem Explanation:
-
 - You need to write a function, which will take a string encoded with _Caesar cipher_ as a parameter and decode it.
 - The one used here is ROT13 where the value of the letter is shifted by 13 places. e.g. 'A' ↔ 'N', 'T' ↔ 'G'.
 - You have to shift it back 13 positions, such that 'N' ↔ 'A'.
@@ -138,15 +137,10 @@ function rot13(str) { // LBH QVQ VG!
 #### Relevant Links
 
 - [String.prototype.replace](JS-String-Prototype-Replace)
-
 ### :trophy: Credits:
-
 If you found this page useful, you may say thanks to the contributors by copying and pasting the following line in the main chat:
-
 **`Thanks @anuragaryan @SaintPeter @vaskezu @abhisekp for your help with Algorithm: Caesar's Cipher`**
-
 ## :clipboard: NOTE TO CONTRIBUTORS:
-
 - :warning: **DO NOT** add solutions that are similar to any existing solutions. If you think it is **_similar but better_**, then try to merge (or replace) the existing similar solution.
 - Add an explanation of your solution.
 - Categorize the solution in one of the following categories -- **Basic**, **Intermediate** and **Advanced**. :traffic_light:

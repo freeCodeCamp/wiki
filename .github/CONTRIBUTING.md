@@ -7,5 +7,3 @@
 - How to write a [proper commit message](https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Git-Commit-Message).
 
 If you have questions about contributing to the Free Code Camp Wiki message [@Rafase282 in Gitter](https://gitter.im/Rafase282) or come the [Gitter Wiki Room.](https://gitter.im/FreeCodeCamp/Wiki)
-
-We look forward to collaborating with you on expanding and improving this wiki!

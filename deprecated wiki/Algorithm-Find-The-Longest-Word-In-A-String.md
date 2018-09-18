@@ -1,33 +1,22 @@
 # Algorithm Find the Longest Word in a String
-
 :triangular_flag_on_post: Remember to use [**`Read-Search-Ask`**](FreeCodeCamp-Get-Help) if you get stuck. Try to pair program :busts_in_silhouette: and write your own code :pencil:
-
-### :checkered_flag: Problem Explanation:
-
+### :checkered_flag: Problem Explanion:
 You have to go through each word and figure out which one is the longest and return not the word, but how many characters it has.
-
 #### Relevant Links
-
 - [JS String Length](String.length)
 
+## :speech_balloon: Hint: 0
+You should split the string into an array of words.
+> _try to solve the problem now_
 ## :speech_balloon: Hint: 1
 
-You should split the string into an array of words.
-
+You will need to figure out a way to keep track globally of the greatest current length.
 > _try to solve the problem now_
 
 ## :speech_balloon: Hint: 2
 
-You will need to figure out a way to keep track globally of the greatest current length.
-
-> _try to solve the problem now_
-
-## :speech_balloon: Hint: 3
-
 Remember how to get the length of elements on the array? `Array[index].length`.
-
 > _try to solve the problem now_
-
 ## Spoiler Alert!
 
 ![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
@@ -38,30 +27,21 @@ Remember how to get the length of elements on the array? `Array[index].length`.
 
 ```javascript
 function findLongestWord(str) {
-  var words = str.split(' ');
-  var maxLength = 0;
-
-  for (var i = 0; i < words.length; i++) {
-    if (words[i].length > maxLength) {
-      maxLength = words[i].length;
-    }
-  }
-
-  return maxLength;
+  var words = str.split(' '),maxLength = 0;
+  for (var i = 0; i < words.length; i++){if(words[i].length>maxLength){maxLength = words[i].length; }
+  };  return maxLength;
 }
 ```
-
 :rocket: [Run Code](https://repl.it/CLjU/5)
-
 ### Code Explanation:
-
 Take the string and convert it into an array of words. Declare a variable to keep track of the maximum length and loop from 0 to the length of the array of words.
-
 Then check for the longest word by comparing the current word to the previous one and storing the new longest word. At the end of the loop just return the number value of the variable maxLength.
-
 #### Relevant Links
-
 - [JS String Length](String.length)
+- [JS Integer Length](Integer.length)
+- [JS Float Length](Float.length)
+- [JS Double Length](Double.length)
+ [JS  Boolean Length](Boolean)
 - [JS Array.length](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/length)
 
 ## :sunflower: Intermediate Code Solution:

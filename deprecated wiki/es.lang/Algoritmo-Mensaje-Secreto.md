@@ -1,15 +1,9 @@
 # Algoritmo Mensaje Secreto
-
 ![](https://i.imgur.com/HSwaSFK.jpg)
-
 ### Explicación:
-
 Este problema es muy sencillo, obtendrás una cadena que represente a una frase en código binario, y deberás traducirlo a palabras. No hay forma directa de hacer esto por lo que tendrá que traducir dos veces.
-
 ## Pista: 1
-
 Primero debes convertir de **binario** a **decimal** para luego poder traducirlo a caracteres.
-
 ## Pista: 2
 
 Las cosas son más fáciles si te centras en partes pequeñas, divide el mensaje lo que recibas y céntrate en una letra la vez.
@@ -23,9 +17,7 @@ Asegúrate luego de transcodificar un carácter de binario a decimal de restable
 ![687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif](https://files.gitter.im/FreeCodeCamp/Wiki/nlOm/thumb/687474703a2f2f7777772e796f75726472756d2e636f6d2f796f75726472756d2f696d616765732f323030372f31302f31302f7265645f7761726e696e675f7369676e5f322e676966.gif)
 
 **¡Solución abajo!**
-
 ## Solución del código:
-
 ```javascript
 function binaryAgent(str) {
   biString = str.split(' ');
@@ -40,7 +32,6 @@ function binaryAgent(str) {
   // Simplemente unimos la cadena.
   return uniString.join('');
 }
-
 // realizamos el test
 binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 01100010 01101111 01101110 01100110 01101001 01110010 01100101 01110011 00100000 01100110 01110101 01101110 00100001 00111111");
 ```

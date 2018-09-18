@@ -1,11 +1,8 @@
 New to Free Code Camp?
-
 - [Start Here](Start-Here)
 - [How to use this Wiki](Wiki-Central)
 - [Challenge Guides](Map)
-
 JS Concepts
-
 - [Closures](JS-Closures)
 - [Falsy](JS-Falsy)
 - [Functions](JS-Functions)
@@ -14,9 +11,7 @@ JS Concepts
 - [Scope](js-scope)
 - [Ternary](JS-Ternary)
 - [Truthy](JS-Truthy)
-
 JS Language Reference
-
 - [arguments](JS-Arguments)
 - [Array.prototype.filter](js-array-prototype-filter)
 - [Array.prototype.indexOf](js-array-prototype-indexof)
@@ -35,9 +30,7 @@ JS Language Reference
 - [String.prototype.toLowerCase](JS-String-Prototype-ToLowerCase)
 - [String.prototype.toUpperCase](JS-String-Prototype-ToUpperCase)
 - [undefined](JS-Undefined)
-
 Other Links
-
 - [Programming Fundamental](programming-fundamental)
 - [JS Resources](js-resources)
 - [JS RegEx Resources](JS-Regex-Resources)

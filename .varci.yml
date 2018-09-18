@@ -8,7 +8,6 @@ ruleset:
     close: true
     comment: >
       Hi @{{ user.login }}
-      
       We have moved to the [forum](http://forum.freecodecamp.com/c/wiki). We no longer accept opening new issues.
 
       Happy Coding!
@@ -21,7 +20,5 @@ ruleset:
     close: true
     comment: >
       Hi @{{ user.login }}
-      
       We have moved to the [forum](http://forum.freecodecamp.com/c/wiki). Please make your changes there.
-
       Happy Coding!

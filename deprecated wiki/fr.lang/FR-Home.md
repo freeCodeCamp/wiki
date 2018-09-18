@@ -5,7 +5,6 @@ Notre communauté open source Wiki permet de répondre a toutes vos questions co
 - le Curriculum
 - les communautés locales
 - les projets à but non lucratif
-
 ![Une illustration de CamperBot](https://i.imgur.com/gyJwzkx.png)
 
 La meilleure façon d'accéder à ce wiki est via <CamperBot>, situé dans nos salons Gitter. CamperBot est un outil communautaire conçu pour accéder à notre contenu Wiki sans jamais quitter Gitter.

@@ -1,0 +1,10 @@
+{
+  "name": "wiki-2",
+  "description": "proyecto frrecodeCamp can you cotributing wiki-2",
+  "author": "freecodeCamp",
+  "license": "MIT",
+  "dependencies": {
+    "license": "^0.0.3",
+    "yo": "^2.0.5"
+  }
+}
