@@ -1,0 +1,13 @@
+---
+title: Challenge Change Text With Click Events
+order: 5
+---
+# Change Text with Click Events
+
+When a click event happens, we can use Ajax to update an HTML element with the following code:
+
+```javascript
+$(".message").html("Here is the message");
+```
+
+This tells jQuery to use the class `message` as the selector and to that, change the HTML to have the string provide, we can also add custom html elements wrapped in quotation marks.

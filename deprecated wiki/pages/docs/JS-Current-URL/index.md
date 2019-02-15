@@ -1,0 +1,19 @@
+---
+title: JS Current URL
+order: 5
+---
+# Get Current URL in Javascript
+
+To get the **current URL**:
+
+```javascript
+var url = window.location.href;
+```
+
+To get the **current path**:
+
+```javascript
+var path = window.location.path;
+```
+
+More information about the location object and its properties can be found [here](https://developer.mozilla.org/en-US/docs/Web/API/Window/location).
